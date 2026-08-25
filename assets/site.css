@@ -115,6 +115,14 @@ button:focus-visible {
   line-height: 1.25;
 }
 
+.page-brand {
+  margin: 0 0 20px;
+  color: var(--accent-strong);
+  font-size: 1.5rem;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
 h1,
 h2,
 h3,
@@ -198,8 +206,9 @@ h2 {
   --max-width: 960px;
 }
 
+.support-page .language-switcher,
 .privacy-page .language-switcher {
-  margin-bottom: 44px;
+  margin-bottom: 48px;
 }
 
 .privacy-header {
@@ -210,11 +219,6 @@ h2 {
 .privacy-header h1 {
   margin-bottom: 18px;
   font-size: 2.45rem;
-}
-
-.privacy-header .eyebrow {
-  margin-bottom: 16px;
-  font-size: 1.08rem;
 }
 
 .policy-date {
@@ -408,13 +412,14 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .support-page .language-switcher,
   .privacy-page .language-switcher {
-    margin-bottom: 34px;
+    margin-bottom: 40px;
   }
 
-  .privacy-header .eyebrow {
-    margin-bottom: 14px;
-    font-size: 1rem;
+  .page-brand {
+    margin-bottom: 18px;
+    font-size: 1.35rem;
   }
 
   .privacy-header h1 {
