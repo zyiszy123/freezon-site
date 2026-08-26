@@ -1,88 +1,1975 @@
 <!doctype html>
-<html lang="zh-Hans">
+<html lang="zh-Hans" class="scroll-smooth">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Freezon support and privacy information.">
-  <title>Freezon / 定格</title>
+  <title>Freezon / 定格 - 本机端侧加密相册</title>
+  <meta name="description" content="定格 (Freezon) - iOS 本机端侧加密相册。相册内容、密码和密钥仅保存在你的 iPhone 本机。零云端上传，零广告与跟踪。">
   <link rel="icon" href="./assets/freezon-icon.png">
-  <link rel="stylesheet" href="./assets/site.css?v=20260825-1">
-  <script defer src="./assets/site.js"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cyan: '#00d2ff',
+              blue: '#38bdf8',
+              purple: '#a855f7',
+              violet: '#8b5cf6',
+              dark: '#030712'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"PingFang SC"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          animation: {
+            'float': 'phone-float 6s ease-in-out infinite alternate',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Design System Styles -->
+  <link rel="stylesheet" href="./assets/site.css?v=20260826-2">
+  <script defer src="./assets/site.js?v=20260826-2"></script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="./" aria-label="Freezon home">
-        <img src="./assets/freezon-icon.png" alt="">
-        <span>Freezon / 定格</span>
+<body class="bg-[#030712] text-gray-100 min-h-screen relative selection:bg-cyan-500/30 selection:text-cyan-200">
+
+  <!-- Ambient Glowing Background Mesh -->
+  <div class="mesh-gradient-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:24px_24px] opacity-60"></div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification" class="glass-panel px-4 py-3 rounded-2xl flex items-center gap-3 text-sm text-gray-200 shadow-2xl border-cyan-500/30">
+    <div class="w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center flex-shrink-0">
+      <i data-lucide="check" class="w-4 h-4"></i>
+    </div>
+    <span id="toast-message">
+      <span data-lang-content="zh-Hans">操作已完成</span>
+      <span data-lang-content="zh-Hant">操作已完成</span>
+      <span data-lang-content="en">Completed</span>
+      <span data-lang-content="ja">完了しました</span>
+    </span>
+  </div>
+
+  <!-- Global Sticky Navigation Bar -->
+  <header class="sticky top-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="./#home" class="flex items-center gap-3 group">
+        <div class="relative w-10 h-10 rounded-xl p-[1px] bg-gradient-to-br from-cyan-400 via-purple-500 to-transparent shadow-lg shadow-cyan-500/10">
+          <img src="./assets/freezon-icon.png" alt="Freezon Logo" class="w-full h-full rounded-[11px] object-cover transition-transform duration-300 group-hover:scale-105">
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">
+            <span data-lang-content="zh-Hans">定格 / Freezon</span>
+            <span data-lang-content="zh-Hant">定格 / Freezon</span>
+            <span data-lang-content="en">Freezon</span>
+            <span data-lang-content="ja">Freezon</span>
+          </span>
+          <span class="text-[11px] text-gray-400 tracking-wider font-mono uppercase">On-Device Encrypted</span>
+        </div>
       </a>
-      <nav class="primary-nav" aria-label="Primary navigation">
-        <a data-localized-link href="./support/">Support</a>
-        <a data-localized-link href="./privacy/">Privacy</a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-1 glass-panel px-4 py-1.5 rounded-full text-sm font-medium text-gray-300">
+        <a href="./#home" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">首页</span>
+          <span data-lang-content="zh-Hant">首頁</span>
+          <span data-lang-content="en">Home</span>
+          <span data-lang-content="ja">ホーム</span>
+        </a>
+        <a href="./#features" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">特性</span>
+          <span data-lang-content="zh-Hant">特性</span>
+          <span data-lang-content="en">Features</span>
+          <span data-lang-content="ja">特徴</span>
+        </a>
+        <a href="./#workflows" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">工作流</span>
+          <span data-lang-content="zh-Hant">工作流程</span>
+          <span data-lang-content="en">Workflows</span>
+          <span data-lang-content="ja">ワークフロー</span>
+        </a>
+        <a href="./#security" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">安全架构</span>
+          <span data-lang-content="zh-Hant">安全架構</span>
+          <span data-lang-content="en">Security</span>
+          <span data-lang-content="ja">セキュリティ</span>
+        </a>
+        <a href="./#support" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">支持</span>
+          <span data-lang-content="zh-Hant">支援</span>
+          <span data-lang-content="en">Support</span>
+          <span data-lang-content="ja">サポート</span>
+        </a>
+        <a href="./#privacy" class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
+          <span data-lang-content="zh-Hans">隐私政策</span>
+          <span data-lang-content="zh-Hant">隱私權政策</span>
+          <span data-lang-content="en">Privacy</span>
+          <span data-lang-content="ja">プライバシー</span>
+        </a>
       </nav>
+
+      <!-- Right Actions: Language Switcher & App Store CTA -->
+      <div class="flex items-center gap-3">
+        
+        <!-- Language Switcher Pill -->
+        <div class="flex items-center glass-panel p-1 rounded-xl text-xs font-medium border border-white/10" aria-label="Language Selector">
+          <button data-language-choice="zh-Hans" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">简</button>
+          <button data-language-choice="zh-Hant" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">繁</button>
+          <button data-language-choice="en" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">EN</button>
+          <button data-language-choice="ja" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">日</button>
+        </div>
+
+        <!-- Download App Store Button -->
+        <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl btn-appstore text-white text-xs font-semibold tracking-wide">
+          <i data-lucide="apple" class="w-4 h-4 text-white"></i>
+          <span data-lang-content="zh-Hans">App Store 下载</span>
+          <span data-lang-content="zh-Hant">App Store 下載</span>
+          <span data-lang-content="en">App Store</span>
+          <span data-lang-content="ja">App Store</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button onclick="toggleMobileMenu()" class="md:hidden glass-button p-2.5 rounded-xl text-gray-300 hover:text-white" aria-label="Toggle menu">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden md:hidden glass-panel border-t border-white/10 px-4 pt-3 pb-6 space-y-3">
+      <a href="./#home" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">首页</span>
+        <span data-lang-content="zh-Hant">首頁</span>
+        <span data-lang-content="en">Home</span>
+        <span data-lang-content="ja">ホーム</span>
+      </a>
+      <a href="./#features" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">特性</span>
+        <span data-lang-content="zh-Hant">特性</span>
+        <span data-lang-content="en">Features</span>
+        <span data-lang-content="ja">特徴</span>
+      </a>
+      <a href="./#workflows" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">工作流</span>
+        <span data-lang-content="zh-Hant">工作流程</span>
+        <span data-lang-content="en">Workflows</span>
+        <span data-lang-content="ja">ワークフロー</span>
+      </a>
+      <a href="./#security" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">安全架构</span>
+        <span data-lang-content="zh-Hant">安全架構</span>
+        <span data-lang-content="en">Security</span>
+        <span data-lang-content="ja">セキュリティ</span>
+      </a>
+      <a href="./#support" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">支持</span>
+        <span data-lang-content="zh-Hant">支援</span>
+        <span data-lang-content="en">Support</span>
+        <span data-lang-content="ja">サポート</span>
+      </a>
+      <a href="./#privacy" class="block px-3 py-2 rounded-lg text-sm text-gray-300 hover:bg-white/10 hover:text-white">
+        <span data-lang-content="zh-Hans">隐私政策</span>
+        <span data-lang-content="zh-Hant">隱私權政策</span>
+        <span data-lang-content="en">Privacy Policy</span>
+        <span data-lang-content="ja">プライバシーポリシー</span>
+      </a>
+      <div class="pt-2">
+        <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl btn-appstore text-white text-sm font-semibold">
+          <i data-lucide="apple" class="w-4 h-4"></i>
+          <span data-lang-content="zh-Hans">App Store 下载</span>
+          <span data-lang-content="zh-Hant">App Store 下載</span>
+          <span data-lang-content="en">Download on App Store</span>
+          <span data-lang-content="ja">App Store でダウンロード</span>
+        </a>
+      </div>
     </div>
   </header>
 
-  <main class="page">
-    <div class="language-switcher" aria-label="Language">
-      <a data-language-choice="zh-Hans" href="?lang=zh-Hans">简体中文</a>
-      <a data-language-choice="zh-Hant" href="?lang=zh-Hant">繁體中文</a>
-      <a data-language-choice="en" href="?lang=en">English</a>
-      <a data-language-choice="ja" href="?lang=ja">日本語</a>
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+    <!-- =========================================================================
+       HERO SECTION - INTERACTIVE RETINA PHONE SHOWCASE
+       ========================================================================= -->
+  <section id="home" class="relative pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Column: Copy & Value Proposition -->
+        <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+          
+          <!-- Release / Version Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-mono bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 backdrop-blur-md">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 pulse-dot"></span>
+            <span data-lang-content="zh-Hans">iOS 26 · 端侧硬件加密相册</span>
+            <span data-lang-content="zh-Hant">iOS 26 · 端側硬體加密相簿</span>
+            <span data-lang-content="en">iOS 26 · On-Device Hardware-Encrypted Vault</span>
+            <span data-lang-content="ja">iOS 26 · 端末内ハードウェア暗号化アルバム</span>
+          </div>
+
+          <!-- Main Hero Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            <span data-lang-content="zh-Hans">
+              绝对私密，定格所爱。<br>
+              <span class="text-gradient-streamer">本地加密的独立相册。</span>
+            </span>
+            <span data-lang-content="zh-Hant">
+              絕對私密，定格所愛。<br>
+              <span class="text-gradient-streamer">本機加密的獨立相簿。</span>
+            </span>
+            <span data-lang-content="en">
+              Absolute Privacy.<br>
+              <span class="text-gradient-streamer">Encrypted on your iPhone.</span>
+            </span>
+            <span data-lang-content="ja">
+              完全なプライバシーを、この一枚に。<br>
+              <span class="text-gradient-streamer">端末内で完結する暗号化アルバム。</span>
+            </span>
+          </h1>
+
+          <!-- Subtitle / Value Prop -->
+          <p class="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            <span data-lang-content="zh-Hans">
+              双层相册空间独立加密，同一键盘输入不同密码进入不同世界。相册内容、密码和密钥仅保存在你的 iPhone 本机。零云端上传，零广告与跟踪，基于硬件安全芯片与独立加密，守护真正属于你的回忆。
+            </span>
+            <span data-lang-content="zh-Hant">
+              雙層相簿空間獨立加密，同一鍵盤輸入不同密碼進入不同世界。相簿內容、密碼與金鑰僅留在你的 iPhone 本機。零雲端上傳，零廣告與追蹤，基於硬體安全晶片與獨立加密，守護真正屬於你的回憶。
+            </span>
+            <span data-lang-content="en">
+              Dual-vault isolated encryption with one keypad for different worlds. Content, passwords, and keys stay on your iPhone. Zero cloud uploads, zero ads, zero tracking. Pure on-device security.
+            </span>
+            <span data-lang-content="ja">
+              二重の独立暗号化アルバム空間。同じキーパッドでパスワードごとに異なる世界へ。写真、パスワード、暗号鍵は端末内だけに保存されます。クラウド送信なし、広告・トラッキング一切なし。
+            </span>
+          </p>
+
+          <!-- Action Button Group -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-7 py-4 rounded-2xl btn-appstore flex items-center justify-center gap-3.5 shadow-xl text-white font-bold group">
+              <i data-lucide="apple" class="w-6 h-6 text-white group-hover:scale-110 transition-transform"></i>
+              <div class="text-left">
+                <div class="text-[10px] text-gray-300 font-mono leading-none">Download on the</div>
+                <div class="text-base font-extrabold tracking-tight leading-tight">App Store</div>
+              </div>
+            </a>
+            
+            <a href="./#features" class="w-full sm:w-auto px-6 py-4 rounded-2xl glass-button text-gray-200 hover:text-white flex items-center justify-center gap-2 font-semibold text-sm">
+              <i data-lucide="sparkles" class="w-4 h-4 text-cyan-400"></i>
+              <span data-lang-content="zh-Hans">探索 6 大核心特性</span>
+              <span data-lang-content="zh-Hant">探索 6 大核心特性</span>
+              <span data-lang-content="en">Explore 6 Core Features</span>
+              <span data-lang-content="ja">6つの主要機能を見る</span>
+            </a>
+          </div>
+
+          <!-- Trust Proof Badges -->
+          <div class="pt-4 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl mx-auto lg:mx-0">
+            <div class="glass-panel p-3 rounded-xl text-center border-white/5">
+              <div class="text-cyan-400 text-sm font-bold flex items-center justify-center gap-1">
+                <i data-lucide="hard-drive" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">本机保存</span>
+                <span data-lang-content="zh-Hant">本機儲存</span>
+                <span data-lang-content="en">On-Device</span>
+                <span data-lang-content="ja">端末内保存</span>
+              </div>
+              <div class="text-[11px] text-gray-400 mt-0.5">
+                <span data-lang-content="zh-Hans">无服务器中转</span>
+                <span data-lang-content="zh-Hant">無伺服器中轉</span>
+                <span data-lang-content="en">No Cloud Server</span>
+                <span data-lang-content="ja">サーバー中継なし</span>
+              </div>
+            </div>
+            <div class="glass-panel p-3 rounded-xl text-center border-white/5">
+              <div class="text-purple-400 text-sm font-bold flex items-center justify-center gap-1">
+                <i data-lucide="key-round" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">双层隔离</span>
+                <span data-lang-content="zh-Hant">雙層隔離</span>
+                <span data-lang-content="en">Dual Vaults</span>
+                <span data-lang-content="ja">二重独立空間</span>
+              </div>
+              <div class="text-[11px] text-gray-400 mt-0.5">
+                <span data-lang-content="zh-Hans">独立强密码</span>
+                <span data-lang-content="zh-Hant">獨立強密碼</span>
+                <span data-lang-content="en">Separate Keys</span>
+                <span data-lang-content="ja">独立暗号鍵</span>
+              </div>
+            </div>
+            <div class="glass-panel p-3 rounded-xl text-center border-white/5">
+              <div class="text-emerald-400 text-sm font-bold flex items-center justify-center gap-1">
+                <i data-lucide="ban" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">无广告</span>
+                <span data-lang-content="zh-Hant">無廣告</span>
+                <span data-lang-content="en">Zero Ads</span>
+                <span data-lang-content="ja">広告なし</span>
+              </div>
+              <div class="text-[11px] text-gray-400 mt-0.5">
+                <span data-lang-content="zh-Hans">零第三方追踪</span>
+                <span data-lang-content="zh-Hant">零第三方追蹤</span>
+                <span data-lang-content="en">No Trackers</span>
+                <span data-lang-content="ja">トラッカーなし</span>
+              </div>
+            </div>
+            <div class="glass-panel p-3 rounded-xl text-center border-white/5">
+              <div class="text-amber-400 text-sm font-bold flex items-center justify-center gap-1">
+                <i data-lucide="wifi-off" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">离线可用</span>
+                <span data-lang-content="zh-Hant">離線可用</span>
+                <span data-lang-content="en">Offline</span>
+                <span data-lang-content="ja">オフライン</span>
+              </div>
+              <div class="text-[11px] text-gray-400 mt-0.5">
+                <span data-lang-content="zh-Hans">断网完全工作</span>
+                <span data-lang-content="zh-Hant">斷網完全運作</span>
+                <span data-lang-content="en">Fully Offline</span>
+                <span data-lang-content="ja">完全オフライン</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Floating Phone Mockup (Real App Showcase) -->
+        <div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+          
+          <!-- Mockup Ambient Glow -->
+          <div class="absolute -inset-4 bg-gradient-to-tr from-cyan-500/20 via-purple-500/20 to-transparent blur-3xl rounded-full pointer-events-none"></div>
+
+          <!-- Realistic iPhone Frame with Live App Screens -->
+          <div class="phone-mockup">
+            <div class="phone-screen select-none">
+              
+              <!-- Real App Screen 1: Unlock View -->
+              <img id="slide-unlock" src="./assets/screens/sim-unlock.png" class="screen-slide active" alt="Freezon Real Unlock Screen">
+
+              <!-- Real App Screen 2: Photos Vault View -->
+              <img id="slide-media" src="./assets/screens/sim-media.png" class="screen-slide" alt="Freezon Real Photos Screen">
+
+              <!-- Real App Screen 3: Collections & Albums View -->
+              <img id="slide-albums" src="./assets/screens/sim-collections.png" class="screen-slide" alt="Freezon Real Albums Screen">
+
+              <!-- Real App Screen 4: Pending Originals Cleanup View -->
+              <img id="slide-pending" src="./assets/screens/sim-pending.png" class="screen-slide" alt="Freezon Real Cleanup Screen">
+
+              <!-- Real App Screen 5: Offline Backup Package View -->
+              <img id="slide-backup" src="./assets/screens/12-backup.png" class="screen-slide" alt="Freezon Real Backup Screen">
+
+              <!-- Real App Screen 6: Privacy Shield App Switcher Mask -->
+              <img id="slide-shield" src="./assets/screens/16-shield.png" class="screen-slide" alt="Freezon Privacy Shield Screen">
+
+              <!-- Real App Screen 7: Settings & Security View -->
+              <img id="slide-settings" src="./assets/screens/sim-settings.png" class="screen-slide" alt="Freezon Real Settings Screen">
+
+              <!-- Interactive Face ID HUD Scanner Overlay -->
+              <div id="mockup-faceid-overlay" class="faceid-overlay">
+                <div class="faceid-scanner-box">
+                  <div class="faceid-corner faceid-corner-tl"></div>
+                  <div class="faceid-corner faceid-corner-tr"></div>
+                  <div class="faceid-corner faceid-corner-bl"></div>
+                  <div class="faceid-corner faceid-corner-br"></div>
+                  <div class="faceid-beam"></div>
+                  <i data-lucide="scan-face" class="w-10 h-10 text-cyan-400"></i>
+                </div>
+                <div class="mt-4 text-xs font-semibold text-cyan-300 font-mono tracking-wider">
+                  <span data-lang-content="zh-Hans">正在进行 Face ID 验证...</span>
+                  <span data-lang-content="zh-Hant">正在進行 Face ID 驗證...</span>
+                  <span data-lang-content="en">Verifying Face ID...</span>
+                  <span data-lang-content="ja">Face ID 照合中...</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interactive Action & Screen Switcher Below Phone -->
+          <div class="mt-5 w-full max-w-[340px] space-y-2.5">
+            
+            <!-- Quick Face ID Trigger Button -->
+            <button onclick="triggerFaceIDUnlock()" class="w-full py-2.5 px-4 rounded-2xl bg-gradient-to-r from-cyan-500/20 via-purple-500/20 to-cyan-500/20 hover:from-cyan-500/30 hover:to-purple-500/30 border border-cyan-400/30 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/10 transition-all">
+              <i data-lucide="scan-face" class="w-4 h-4 text-cyan-400"></i>
+              <span data-lang-content="zh-Hans">一键体验 Face ID 瞬时解锁</span>
+              <span data-lang-content="zh-Hant">一鍵體驗 Face ID 瞬時解鎖</span>
+              <span data-lang-content="en">Simulate Face ID Instant Unlock</span>
+              <span data-lang-content="ja">Face ID 瞬時ロック解除体験</span>
+            </button>
+
+            <!-- 6 Interactive Screen Tab Pills -->
+            <div class="p-1 rounded-2xl bg-white/[0.04] border border-white/10 grid grid-cols-3 sm:grid-cols-6 gap-1 text-[10px]">
+              
+              <button data-screen-btn="unlock" onclick="setAppScreen('unlock')" class="py-1.5 px-1 rounded-xl bg-white/20 text-cyan-400 border border-cyan-400/50 flex flex-col items-center gap-0.5 transition-all font-medium">
+                <i data-lucide="lock" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">锁屏</span>
+                <span data-lang-content="zh-Hant">鎖定</span>
+                <span data-lang-content="en">Lock</span>
+                <span data-lang-content="ja">ロック</span>
+              </button>
+
+              <button data-screen-btn="media" onclick="setAppScreen('media')" class="py-1.5 px-1 rounded-xl bg-white/5 text-gray-400 border border-white/10 hover:text-white flex flex-col items-center gap-0.5 transition-all font-medium">
+                <i data-lucide="image" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">照片</span>
+                <span data-lang-content="zh-Hant">照片</span>
+                <span data-lang-content="en">Photos</span>
+                <span data-lang-content="ja">写真</span>
+              </button>
+
+              <button data-screen-btn="albums" onclick="setAppScreen('albums')" class="py-1.5 px-1 rounded-xl bg-white/5 text-gray-400 border border-white/10 hover:text-white flex flex-col items-center gap-0.5 transition-all font-medium">
+                <i data-lucide="folder" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">相册</span>
+                <span data-lang-content="zh-Hant">相簿</span>
+                <span data-lang-content="en">Albums</span>
+                <span data-lang-content="ja">アルバム</span>
+              </button>
+
+              <button data-screen-btn="pending" onclick="setAppScreen('pending')" class="py-1.5 px-1 rounded-xl bg-white/5 text-gray-400 border border-white/10 hover:text-white flex flex-col items-center gap-0.5 transition-all font-medium relative">
+                <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">待清理</span>
+                <span data-lang-content="zh-Hant">待清理</span>
+                <span data-lang-content="en">Cleanup</span>
+                <span data-lang-content="ja">整理</span>
+              </button>
+
+              <button data-screen-btn="backup" onclick="setAppScreen('backup')" class="py-1.5 px-1 rounded-xl bg-white/5 text-gray-400 border border-white/10 hover:text-white flex flex-col items-center gap-0.5 transition-all font-medium">
+                <i data-lucide="folder-archive" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">备份</span>
+                <span data-lang-content="zh-Hant">備份</span>
+                <span data-lang-content="en">Backup</span>
+                <span data-lang-content="ja">バックアップ</span>
+              </button>
+
+              <button data-screen-btn="shield" onclick="setAppScreen('shield')" class="py-1.5 px-1 rounded-xl bg-white/5 text-gray-400 border border-white/10 hover:text-white flex flex-col items-center gap-0.5 transition-all font-medium">
+                <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+                <span data-lang-content="zh-Hans">隐私盾</span>
+                <span data-lang-content="zh-Hant">隱私盾</span>
+                <span data-lang-content="en">Shield</span>
+                <span data-lang-content="ja">シールド</span>
+              </button>
+
+            </div>
+
+            <!-- Dual Vault Feature Hint Chip -->
+            <div class="p-2.5 rounded-xl bg-white/[0.03] border border-white/5 text-[11px] text-gray-400 flex items-start gap-2">
+              <i data-lucide="info" class="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5"></i>
+              <div>
+                <span data-lang-content="zh-Hans"><strong>双密码机制</strong>：日常相册支持 Face ID，私密相册仅接受独立密码，同一键盘输入不同密码进入不同空间。</span>
+                <span data-lang-content="zh-Hant"><strong>雙密碼機制</strong>：日常相簿支援 Face ID，私密相簿僅接受獨立密碼，同一鍵盤輸入不同密碼進入不同空間。</span>
+                <span data-lang-content="en"><strong>Dual Vault Design</strong>: Everyday vault uses Face ID, private vault requires a standalone passcode. One keypad for two worlds.</span>
+                <span data-lang-content="ja"><strong>二重パスワード機構</strong>：日常アルバムはFace ID対応、プライベートアルバムは独立パスワードのみ。同じキーパッドで別空間へ。</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </div>
+  </section>
 
-    <section class="language-panel is-active" data-language-panel="zh-Hans" lang="zh-Hans">
-      <div class="document-header">
-        <p class="eyebrow">定格</p>
-        <h1>支持与隐私信息</h1>
-        <p class="lede">查看使用帮助、联系支持，或了解定格如何保护和处理数据。</p>
+  <!-- =========================================================================
+       BENTO GRID - 6 RICH FEATURE HIGHLIGHTS
+       ========================================================================= -->
+  <section id="features" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">
+          <span data-lang-content="zh-Hans">FEATURES · 深度功能矩阵</span>
+          <span data-lang-content="zh-Hant">FEATURES · 深度功能矩陣</span>
+          <span data-lang-content="en">FEATURES · COMPLETE CAPABILITY MATRIX</span>
+          <span data-lang-content="ja">機能紹介 · 高度なセキュリティ機能</span>
+        </h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          <span data-lang-content="zh-Hans">超越普通相册的 6 大工业级安全设计</span>
+          <span data-lang-content="zh-Hant">超越普通相簿的 6 大工業級安全設計</span>
+          <span data-lang-content="en">6 Industrial-Grade Security Architectures</span>
+          <span data-lang-content="ja">一般的なアルバムを超える6つの堅牢な設計</span>
+        </p>
+        <p class="text-gray-400 text-base leading-relaxed">
+          <span data-lang-content="zh-Hans">不依赖云端，不偷跑流量，从底层硬件芯片到交互逻辑，为真正的隐私回忆量身定制。</span>
+          <span data-lang-content="zh-Hant">不依賴雲端，不偷跑流量，從底層硬體晶片到互動邏輯，為真正的隱私回憶量身定制。</span>
+          <span data-lang-content="en">Zero cloud reliance, zero network leakage. Tailored for absolute privacy from hardware to UX.</span>
+          <span data-lang-content="ja">クラウドに頼らず、通信も行いません。ハードウェアからUIまでプライバシーを最優先に設計。</span>
+        </p>
       </div>
-      <div class="document-grid">
-        <a class="document-link" data-localized-link href="./support/"><strong>支持</strong><span>常见问题、备份与恢复、联系邮箱</span></a>
-        <a class="document-link" data-localized-link href="./privacy/"><strong>隐私政策</strong><span>本地存储、反馈邮件和可选诊断</span></a>
-      </div>
-    </section>
 
-    <section class="language-panel" data-language-panel="zh-Hant" lang="zh-Hant">
-      <div class="document-header">
-        <p class="eyebrow">定格</p>
-        <h1>支援與隱私資訊</h1>
-        <p class="lede">查看使用協助、聯絡支援，或瞭解定格如何保護及處理資料。</p>
-      </div>
-      <div class="document-grid">
-        <a class="document-link" data-localized-link href="./support/"><strong>支援</strong><span>常見問題、備份與復原、聯絡信箱</span></a>
-        <a class="document-link" data-localized-link href="./privacy/"><strong>隱私權政策</strong><span>本機儲存、意見回饋郵件與選用診斷</span></a>
-      </div>
-    </section>
+      <!-- Bento Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Card 1: Large Span (2-col) - Dual-Vault Isolated Encryption -->
+        <div class="glass-card md:col-span-2 p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center relative z-10">
+            <div class="sm:col-span-7 space-y-4">
+              <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 flex items-center justify-center">
+                <i data-lucide="shield-check" class="w-6 h-6"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white">
+                <span data-lang-content="zh-Hans">业内首创 · 双层相册独立加密体系</span>
+                <span data-lang-content="zh-Hant">業界首創 · 雙層相簿獨立加密體系</span>
+                <span data-lang-content="en">Dual-Vault Isolated Encryption System</span>
+                <span data-lang-content="ja">二重独立暗号化アルバム体系</span>
+              </h3>
+              <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+                <span data-lang-content="zh-Hans">
+                  <strong>日常相册</strong> 自然随心，支持 Face ID 快速解锁；<strong>私密相册</strong> 专属守护，强制使用独立强密码与安全恢复码（禁用生物识别防熟人无意刷脸），底层采用独立 SQLCipher 数据库完全隔离。
+                </span>
+                <span data-lang-content="zh-Hant">
+                  <strong>日常相簿</strong> 自然隨心，支援 Face ID 快速解鎖；<strong>私密相簿</strong> 專屬守護，強制使用獨立強密碼與安全復原碼（禁用生物識別防熟人無意刷臉），底層採用獨立 SQLCipher 資料庫完全隔離。
+                </span>
+                <span data-lang-content="en">
+                  <strong>Everyday Vault</strong> supports rapid Face ID unlock. <strong>Private Vault</strong> enforces a standalone passcode and recovery code (biometrics disabled to prevent accidental access), isolated by separate SQLCipher databases.
+                </span>
+                <span data-lang-content="ja">
+                  <strong>日常アルバム</strong>はFace IDで素早く解除。<strong>プライベートアルバム</strong>は独立パスワードとリカバリーコードで強固に保護（生体認証による誤解除を防止）。独立したデータベースで完全分離。
+                </span>
+              </p>
+              <div class="pt-2 flex flex-wrap items-center gap-3 text-xs font-mono text-cyan-400">
+                <span class="px-2.5 py-1 rounded-lg bg-cyan-500/10 border border-cyan-500/20">同一键盘不同密码</span>
+                <span class="px-2.5 py-1 rounded-lg bg-purple-500/10 text-purple-400 border border-purple-500/20">分层 SQLCipher 隔离</span>
+              </div>
+            </div>
 
-    <section class="language-panel" data-language-panel="en" lang="en">
-      <div class="document-header">
-        <p class="eyebrow">Freezon</p>
-        <h1>Support and privacy information</h1>
-        <p class="lede">Find help, contact support, or learn how Freezon protects and handles data.</p>
-      </div>
-      <div class="document-grid">
-        <a class="document-link" data-localized-link href="./support/"><strong>Support</strong><span>Common questions, backup and restore, contact email</span></a>
-        <a class="document-link" data-localized-link href="./privacy/"><strong>Privacy Policy</strong><span>Local storage, feedback email, and optional diagnostics</span></a>
-      </div>
-    </section>
+            <!-- Embedded Visual UI Preview -->
+            <div class="sm:col-span-5 flex items-center justify-center">
+              <div class="bento-img-preview max-w-[210px] w-full">
+                <img src="./assets/screens/sim-media.png" alt="Freezon Vault Preview" class="w-full h-auto object-cover">
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <section class="language-panel" data-language-panel="ja" lang="ja">
-      <div class="document-header">
-        <p class="eyebrow">Freezon</p>
-        <h1>サポートとプライバシー情報</h1>
-        <p class="lede">使い方の確認、サポートへのお問い合わせ、データの保護と取り扱いについてご覧いただけます。</p>
-      </div>
-      <div class="document-grid">
-        <a class="document-link" data-localized-link href="./support/"><strong>サポート</strong><span>よくある質問、バックアップと復元、お問い合わせ先</span></a>
-        <a class="document-link" data-localized-link href="./privacy/"><strong>プライバシーポリシー</strong><span>端末内保存、フィードバックメール、任意の診断情報</span></a>
-      </div>
-    </section>
-  </main>
+        <!-- Card 2: Safe Cleanup of Originals (1-col) -->
+        <div class="glass-card p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="space-y-4 relative z-10">
+            <div class="w-12 h-12 rounded-2xl bg-blue-500/10 text-blue-400 border border-blue-500/20 flex items-center justify-center">
+              <i data-lucide="trash-2" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <span data-lang-content="zh-Hans">待清理原图 · 安全释放空间</span>
+              <span data-lang-content="zh-Hant">待清理原圖 · 安全釋放空間</span>
+              <span data-lang-content="en">Pending Originals & Safe Deletion</span>
+              <span data-lang-content="ja">元の写真の整理 · 安全な容量確保</span>
+            </h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              <span data-lang-content="zh-Hans">照片安全存入后，自动统一汇总至「待清理」队列。支持前置安全风控，删除系统相册原件前必须二次确认，绝无静默误删。</span>
+              <span data-lang-content="zh-Hant">照片安全存入後，自動統一匯總至「待清理」佇列。支援前置安全風控，刪除系統相簿原始檔前必須二次確認。</span>
+              <span data-lang-content="en">Imported media moves to a Pending queue. Deleting originals from system Photos requires explicit two-step confirmation.</span>
+              <span data-lang-content="ja">暗号化保存後「整理」リストに集約。システムからの削除時は必ず再確認が行われ、誤削除を防止します。</span>
+            </p>
+          </div>
+          <div class="mt-6 flex items-center justify-center">
+            <div class="bento-img-preview max-w-[170px] w-full">
+              <img src="./assets/screens/23-ios-delete-confirm.png" alt="Delete Confirmation" class="w-full h-auto object-cover">
+            </div>
+          </div>
+        </div>
 
-  <footer class="site-footer">
-    <p>© 2026 Freezon</p>
-    <p><a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a></p>
+        <!-- Card 3: 100% Offline Single Encrypted Backup (1-col) -->
+        <div class="glass-card p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="space-y-4 relative z-10">
+            <div class="w-12 h-12 rounded-2xl bg-purple-500/10 text-purple-400 border border-purple-500/20 flex items-center justify-center">
+              <i data-lucide="folder-archive" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <span data-lang-content="zh-Hans">单文件离线加密备份</span>
+              <span data-lang-content="zh-Hant">單檔案離線加密備份</span>
+              <span data-lang-content="en">Air-Gapped Encrypted Backup</span>
+              <span data-lang-content="ja">暗号化バックアップ作成</span>
+            </h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              <span data-lang-content="zh-Hans">一键将整个相册打包为独立的加密归档文件，可直接导出到系统“文件”App、AirDrop 发送电脑或外接移动硬盘，支持断点续传。</span>
+              <span data-lang-content="zh-Hant">一鍵將整個相簿打包為獨立的加密封存檔案，可直接匯出到系統「檔案」App、AirDrop 至電腦或外接硬碟。</span>
+              <span data-lang-content="en">Package your vault into an encrypted archive file. Store in Files app, AirDrop to Mac, or copy to external SSD.</span>
+              <span data-lang-content="ja">アルバム全体を暗号化ファイルにまとめ、「ファイル」アプリやMac、外付けSSDへ自由に保存・復元可能。</span>
+            </p>
+          </div>
+          <div class="mt-6 flex items-center justify-center">
+            <div class="bento-img-preview max-w-[170px] w-full">
+              <img src="./assets/screens/12-backup.png" alt="Backup Feature" class="w-full h-auto object-cover">
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: App Switcher Privacy Shield (1-col) -->
+        <div class="glass-card p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="space-y-4 relative z-10">
+            <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-400 border border-amber-500/20 flex items-center justify-center">
+              <i data-lucide="shield" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <span data-lang-content="zh-Hans">后台防窥 · 智能隐私盾</span>
+              <span data-lang-content="zh-Hant">後台防窺 · 智慧隱私盾</span>
+              <span data-lang-content="en">App Switcher Privacy Shield</span>
+              <span data-lang-content="ja">バックグラウンド防覗きシールド</span>
+            </h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              <span data-lang-content="zh-Hans">App 退到后台瞬间立即激活全屏高斯模糊遮罩，多任务卡片绝不泄露相册内容；离开即加锁，防身边人窥视。</span>
+              <span data-lang-content="zh-Hant">App 退到後台瞬間立即啟用全螢幕高斯模糊遮罩，多工卡片絕不洩露相簿內容；離開即鎖定。</span>
+              <span data-lang-content="en">Instant full-screen blur activates the millisecond you switch apps. Zero preview thumbnails exposed in App Switcher.</span>
+              <span data-lang-content="ja">アプリを離れた瞬間にすりガラス遮蔽が発動。マルチタスク画面でも写真が一切見えません。</span>
+            </p>
+          </div>
+          <div class="mt-6 flex items-center justify-center">
+            <div class="bento-img-preview max-w-[170px] w-full">
+              <img src="./assets/screens/16-shield.png" alt="Privacy Shield" class="w-full h-auto object-cover">
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Full Media Format & EXIF GPS Stripping (1-col) -->
+        <div class="glass-card p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="space-y-4 relative z-10">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center">
+              <i data-lucide="camera" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <span data-lang-content="zh-Hans">全格式支持 · EXIF 隐私保护</span>
+              <span data-lang-content="zh-Hant">全格式支援 · EXIF 隱私保護</span>
+              <span data-lang-content="en">Universal Media & EXIF Privacy</span>
+              <span data-lang-content="ja">全フォーマット対応 · EXIF保護</span>
+            </h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              <span data-lang-content="zh-Hans">原生支持 Live Photo 实况照片、ProRAW、4K 60fps HDR、连拍快照。支持高清查看照片 EXIF 元数据，并支持一键擦除拍摄 GPS 地理位置隐私。</span>
+              <span data-lang-content="zh-Hant">原生支援 Live Photo 原況照片、ProRAW、4K 60fps HDR。支援檢視 EXIF 元資料與一鍵抹除 GPS 地理位置。</span>
+              <span data-lang-content="en">Supports Live Photos, ProRAW, 4K HDR video, and bursts. Inspect full EXIF metadata and strip sensitive GPS location with one click.</span>
+              <span data-lang-content="ja">Live Photos、ProRAW、4K HDR動画に対応。詳細なEXIF情報の確認や、GPS位置情報の消去も可能です。</span>
+            </p>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-2 text-[11px] font-mono text-emerald-400">
+            <span class="px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20">Live Photo</span>
+            <span class="px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20">Apple ProRAW</span>
+            <span class="px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20">4K HDR</span>
+            <span class="px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20">GPS 抹除</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Large Span (2-col) - P2P Air-gapped Device Migration -->
+        <div class="glass-card md:col-span-2 p-8 rounded-3xl relative overflow-hidden flex flex-col justify-between group">
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center relative z-10">
+            <div class="sm:col-span-7 space-y-4">
+              <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 flex items-center justify-center">
+                <i data-lucide="smartphone" class="w-6 h-6"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white">
+                <span data-lang-content="zh-Hans">换新 iPhone · 局域网点对点免网直传</span>
+                <span data-lang-content="zh-Hant">換新 iPhone · 區域網路點對點免網直傳</span>
+                <span data-lang-content="en">P2P Air-Gapped Device-to-Device Migration</span>
+                <span data-lang-content="ja">新端末への移行 · P2Pローカル高速転送</span>
+              </h3>
+              <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+                <span data-lang-content="zh-Hans">
+                  更换新手机时，无需借助任何第三方云端中转。两台 iPhone 在同一局域网下通过动态安全配对码建立端到端加密通道，点对点高速直传全部加密相册。
+                </span>
+                <span data-lang-content="zh-Hant">
+                  更換新手機時，無需透過任何第三方雲端中轉。兩台 iPhone 在同一區域網路下透過動態配對碼建立端到端加密通道，點對點高速直傳所有加密相簿。
+                </span>
+                <span data-lang-content="en">
+                  When switching to a new iPhone, transfer your entire encrypted vault directly over local Wi-Fi. Secured with a one-time dynamic pairing code—zero cloud servers required.
+                </span>
+                <span data-lang-content="ja">
+                  iPhoneの買い替え時もクラウド経由は不要。同一Wi-Fi環境下でワンタイム認証コードを用いて新旧端末間で直接暗号化転送します。
+                </span>
+              </p>
+              <div class="pt-2 flex flex-wrap items-center gap-3 text-xs font-mono text-indigo-400">
+                <span class="px-2.5 py-1 rounded-lg bg-indigo-500/10 border border-indigo-500/20">端到端直传</span>
+                <span class="px-2.5 py-1 rounded-lg bg-indigo-500/10 border border-indigo-500/20">动态配对码安全认证</span>
+              </div>
+            </div>
+
+            <!-- Embedded Visual UI Preview -->
+            <div class="sm:col-span-5 flex items-center justify-center">
+              <div class="bento-img-preview max-w-[210px] w-full">
+                <img src="./assets/screens/34-migration-progress.png" alt="Device Migration" class="w-full h-auto object-cover">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       NEW SECTION: WORKFLOW ENGINES - INTERACTIVE ARCHITECTURE TOUR
+       ========================================================================= -->
+  <section id="workflows" class="py-24 relative border-t border-white/5 bg-[#030712]/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">
+          <span data-lang-content="zh-Hans">WORKFLOW ENGINES · 核心工作流全景</span>
+          <span data-lang-content="zh-Hant">WORKFLOW ENGINES · 核心工作流程全景</span>
+          <span data-lang-content="en">WORKFLOW ENGINES · TRANSPARENT LIFECYCLE</span>
+          <span data-lang-content="ja">ワークフロー · 処理フローと信頼設計</span>
+        </h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          <span data-lang-content="zh-Hans">从导入到归档，每一步都透明可控</span>
+          <span data-lang-content="zh-Hant">從匯入到封存，每一步都透明可控</span>
+          <span data-lang-content="en">Transparent, Deterministic, and Under Your Control</span>
+          <span data-lang-content="ja">読み込みから保存まで、すべてが明確で安全</span>
+        </p>
+        <p class="text-gray-400 text-base leading-relaxed">
+          <span data-lang-content="zh-Hans">拒绝黑盒操作。了解 Freezon 如何在 iPhone 端侧以严苛的事务顺序保护你的每一份数据。</span>
+          <span data-lang-content="zh-Hant">拒絕黑箱操作。了解 Freezon 如何在 iPhone 端側以嚴苛的事務順序保護你的每一份資料。</span>
+          <span data-lang-content="en">Zero black boxes. Explore how Freezon executes strict atomic operations on-device to guard your media.</span>
+          <span data-lang-content="ja">不透明な処理は一切なし。Freezonが端末内で実行する厳格な処理フローをご確認ください。</span>
+        </p>
+      </div>
+
+      <!-- Interactive Workflow Switcher Navigation -->
+      <div class="flex flex-wrap items-center justify-center gap-2 max-w-4xl mx-auto mb-12">
+        
+        <button data-workflow-tab="import" onclick="setWorkflowTab('import')" class="active px-4 py-2.5 rounded-2xl glass-button text-xs sm:text-sm font-semibold flex items-center gap-2 transition-all bg-cyan-500/10 border-cyan-400/40 text-cyan-400">
+          <i data-lucide="download" class="w-4 h-4"></i>
+          <span data-lang-content="zh-Hans">1. 导入与完整性校验</span>
+          <span data-lang-content="zh-Hant">1. 匯入與完整性校驗</span>
+          <span data-lang-content="en">1. Import & Integrity</span>
+          <span data-lang-content="ja">1. 読み込みと検証</span>
+        </button>
+
+        <button data-workflow-tab="cleanup" onclick="setWorkflowTab('cleanup')" class="px-4 py-2.5 rounded-2xl glass-button text-xs sm:text-sm font-semibold flex items-center gap-2 transition-all text-gray-400 border-white/10 bg-white/[0.03]">
+          <i data-lucide="trash-2" class="w-4 h-4"></i>
+          <span data-lang-content="zh-Hans">2. 待清理原图安全释放</span>
+          <span data-lang-content="zh-Hant">2. 待清理原圖安全釋放</span>
+          <span data-lang-content="en">2. Safe Cleanup</span>
+          <span data-lang-content="ja">2. 原本の安全な整理</span>
+        </button>
+
+        <button data-workflow-tab="backup" onclick="setWorkflowTab('backup')" class="px-4 py-2.5 rounded-2xl glass-button text-xs sm:text-sm font-semibold flex items-center gap-2 transition-all text-gray-400 border-white/10 bg-white/[0.03]">
+          <i data-lucide="folder-archive" class="w-4 h-4"></i>
+          <span data-lang-content="zh-Hans">3. 单文件离线备份</span>
+          <span data-lang-content="zh-Hant">3. 單檔案離線備份</span>
+          <span data-lang-content="en">3. Encrypted Backup</span>
+          <span data-lang-content="ja">3. 暗号化バックアップ</span>
+        </button>
+
+        <button data-workflow-tab="migration" onclick="setWorkflowTab('migration')" class="px-4 py-2.5 rounded-2xl glass-button text-xs sm:text-sm font-semibold flex items-center gap-2 transition-all text-gray-400 border-white/10 bg-white/[0.03]">
+          <i data-lucide="smartphone" class="w-4 h-4"></i>
+          <span data-lang-content="zh-Hans">4. 局域网新机免网直传</span>
+          <span data-lang-content="zh-Hant">4. 區域網路新機免網直傳</span>
+          <span data-lang-content="en">4. P2P Migration</span>
+          <span data-lang-content="ja">4. P2P端末間転送</span>
+        </button>
+
+      </div>
+
+      <!-- Workflow Panels Container -->
+      <div class="glass-card p-6 sm:p-10 rounded-3xl border-cyan-500/20">
+        
+        <!-- Panel 1: Import Workflow -->
+        <div id="workflow-panel-import" class="workflow-panel active grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div>
+              <span class="text-xs font-mono text-cyan-400 tracking-wider uppercase font-semibold">WORKFLOW 01</span>
+              <h3 class="text-2xl font-bold text-white mt-1">
+                <span data-lang-content="zh-Hans">端侧硬件加密与 SHA-256 完整性预检</span>
+                <span data-lang-content="zh-Hant">端側硬體加密與 SHA-256 完整性預檢</span>
+                <span data-lang-content="en">Hardware Acceleration & SHA-256 Preflight</span>
+                <span data-lang-content="ja">端末内暗号化とSHA-256整合性チェック</span>
+              </h3>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">01</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">系统相册安全读取</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">通过 iOS Photos 官方 Picker 选择照片或视频，完整保留 Live Photo 实况组件、RAW 原片和 EXIF 元数据。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">02</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">硬件级 AES 加密与哈希校验</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">调用 Apple CryptoKit 硬件加速引擎进行文件分块加密，并对加密产物生成哈希校验码，确保写入零数据损坏。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">03</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">生成导入状态与事务报告</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">导入完成后立即生成清单报告，任何异常均会清晰标明；成功项自动加入「待清理」列表供后续处理。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex items-center justify-center">
+            <div class="device-frame-sm max-w-[240px] w-full">
+              <img src="./assets/screens/10-report.png" alt="Import Report Screen">
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Safe Cleanup Workflow -->
+        <div id="workflow-panel-cleanup" class="workflow-panel grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div>
+              <span class="text-xs font-mono text-blue-400 tracking-wider uppercase font-semibold">WORKFLOW 02</span>
+              <h3 class="text-2xl font-bold text-white mt-1">
+                <span data-lang-content="zh-Hans">待清理原图队列与防误删风控机制</span>
+                <span data-lang-content="zh-Hant">待清理原圖佇列與防誤刪風控機制</span>
+                <span data-lang-content="en">Pending Queue & Zero-Data-Loss Deletion</span>
+                <span data-lang-content="ja">整理リストと安全な削除確認機構</span>
+              </h3>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">01</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">导入后安全暂存「待清理」</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">加密存入 Freezon 后，原片不会被立即删除，而是统一暂存在「待清理」清单中，等待用户主动决策。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">02</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">删除前置完整性再核验</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">申请删除系统相册前，App 自动核验 Freezon 内的加密副本与索引完整性，确认无虞方可继续。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">03</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">iOS 系统级二次确认弹窗</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">触发系统官方「允许删除此照片」确认对话框。删除后原件移至系统「最近删除」，享有 30 天恢复缓冲期。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex items-center justify-center">
+            <div class="device-frame-sm max-w-[240px] w-full">
+              <img src="./assets/screens/21-delete-precheck.png" alt="Delete Precheck Screen">
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Encrypted Backup Workflow -->
+        <div id="workflow-panel-backup" class="workflow-panel grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div>
+              <span class="text-xs font-mono text-purple-400 tracking-wider uppercase font-semibold">WORKFLOW 03</span>
+              <h3 class="text-2xl font-bold text-white mt-1">
+                <span data-lang-content="zh-Hans">独立单文件归档与增量快照备份</span>
+                <span data-lang-content="zh-Hant">獨立單檔案封存與增量快照備份</span>
+                <span data-lang-content="en">Encrypted Archive Package & Incremental Snapshots</span>
+                <span data-lang-content="ja">独立暗号化アーカイブとスナップショット</span>
+              </h3>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">01</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">一键打包为 .freezonbackup 文件</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">将相册数据库、媒体资源与分类索引统一封装为单个密文归档包，由你的主密钥直接保护。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">02</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">保存至任意外部存储介质</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">通过 iOS 分享菜单直接存入「文件」App、AirDrop 发送至 Mac 电脑、或者通过 Type-C 传输到移动 SSD 固态硬盘。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">03</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">安全恢复与断点续传</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">新设备安装 Freezon 后，导入此备份文件并输入对应密码即可瞬间 1:1 完整恢复所有相册与照片。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex items-center justify-center">
+            <div class="device-frame-sm max-w-[240px] w-full">
+              <img src="./assets/screens/31-backup-progress.png" alt="Backup Progress Screen">
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 4: P2P Migration Workflow -->
+        <div id="workflow-panel-migration" class="workflow-panel grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div>
+              <span class="text-xs font-mono text-indigo-400 tracking-wider uppercase font-semibold">WORKFLOW 04</span>
+              <h3 class="text-2xl font-bold text-white mt-1">
+                <span data-lang-content="zh-Hans">局域网点对点新机免网直连迁移</span>
+                <span data-lang-content="zh-Hant">區域網路點對點新機免網直連遷移</span>
+                <span data-lang-content="en">P2P Air-Gapped High-Speed Migration</span>
+                <span data-lang-content="ja">Wi-Fi環境下でのP2P直接データ移行</span>
+              </h3>
+            </div>
+
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">01</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">新旧设备局域网自动握手</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">旧 iPhone 与新 iPhone 处于同一 Wi-Fi（或热点），App 自动发现设备，无需连入任何公网互联网。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">02</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">动态 6 位配对密钥校验</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">在新机输入旧机生成的动态配对码，建立端到端 TLS 加密隧道，防局域网中间人监听。</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/[0.03] border border-white/5">
+                <div class="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-mono font-bold text-xs flex-shrink-0">03</div>
+                <div>
+                  <h4 class="font-bold text-white text-sm">流式直传与完整性双向校验</h4>
+                  <p class="text-xs text-gray-300 mt-1 leading-relaxed">高速流式传输所有加密数据库与媒体，传输完成后自动双向比对哈希值，无缝启用新机相册。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex items-center justify-center">
+            <div class="device-frame-sm max-w-[240px] w-full">
+              <img src="./assets/screens/14-migration.png" alt="Migration Screen">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+<section id="security" class="py-20 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <h2 class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">
+          <span data-lang-content="zh-Hans">SECURITY · 安全架构</span>
+          <span data-lang-content="zh-Hant">SECURITY · 安全架構</span>
+          <span data-lang-content="en">SECURITY ARCHITECTURE</span>
+          <span data-lang-content="ja">セキュリティの仕組み</span>
+        </h2>
+        <p class="text-3xl font-extrabold text-white">
+          <span data-lang-content="zh-Hans">数据安全与隐私保护设计</span>
+          <span data-lang-content="zh-Hant">資料安全與隱私保護設計</span>
+          <span data-lang-content="en">Data Security & Privacy by Design</span>
+          <span data-lang-content="ja">データの安全性とプライバシー設計</span>
+        </p>
+      </div>
+
+      <!-- Comparison Card Table -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Traditional Cloud Album Card -->
+        <div class="glass-card p-8 rounded-3xl border-rose-500/20 bg-rose-950/10 space-y-6">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400 flex items-center justify-center">
+              <i data-lucide="cloud-off" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-white">
+                <span data-lang-content="zh-Hans">传统云端相册</span>
+                <span data-lang-content="zh-Hant">傳統雲端相簿</span>
+                <span data-lang-content="en">Cloud Photo Apps</span>
+                <span data-lang-content="ja">一般的なクラウド相册</span>
+              </h3>
+              <p class="text-xs text-rose-400 font-mono">Cloud-Based Photo Apps</p>
+            </div>
+          </div>
+
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans">照片和视频自动同步上传至开发者或第三方云服务器</span>
+                <span data-lang-content="zh-Hant">照片與影片自動同步上傳至開發者或第三方雲端伺服器</span>
+                <span data-lang-content="en">Photos and videos uploaded to developer or third-party servers</span>
+                <span data-lang-content="ja">写真や動画がクラウドサーバーに自動同期される</span>
+              </span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans">包含广告 SDK、用户行为分析与跨 App 跟踪器</span>
+                <span data-lang-content="zh-Hant">包含廣告 SDK、使用者行為分析與跨 App 追蹤器</span>
+                <span data-lang-content="en">Integrated with ad SDKs, user analytics, and cross-app trackers</span>
+                <span data-lang-content="ja">広告SDK、行動分析ツール、アプリ間トラッカーが含まれる</span>
+              </span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="x-circle" class="w-4 h-4 text-rose-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans">无网络环境下可能无法完整浏览或加载原图</span>
+                <span data-lang-content="zh-Hant">無網路環境下可能無法完整瀏覽或載入原始圖檔</span>
+                <span data-lang-content="en">May fail to load full-resolution photos without internet</span>
+                <span data-lang-content="ja">オフライン環境では写真や動画の原本を閲覧・読み込めない</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Freezon On-Device Encrypted Card -->
+        <div class="glass-card p-8 rounded-3xl border-cyan-500/40 bg-cyan-950/20 space-y-6 shadow-2xl shadow-cyan-500/10">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-white">
+                <span data-lang-content="zh-Hans">定格 / Freezon</span>
+                <span data-lang-content="zh-Hant">定格 / Freezon</span>
+                <span data-lang-content="en">Freezon</span>
+                <span data-lang-content="ja">Freezon</span>
+              </h3>
+              <p class="text-xs text-cyan-400 font-mono">On-Device Encrypted Vault</p>
+            </div>
+          </div>
+
+          <ul class="space-y-3 text-sm text-gray-200">
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans"><strong>本机保存</strong>：相册内容、密码和密钥保存在你的设备上</span>
+                <span data-lang-content="zh-Hant"><strong>本機儲存</strong>：相簿內容、密碼與金鑰保存在你的裝置上</span>
+                <span data-lang-content="en"><strong>Stored Locally</strong>: Content, passwords, and keys stay on your device</span>
+                <span data-lang-content="ja"><strong>端末内に保存</strong>：アルバムの内容、パスワード、暗号鍵は端末内だけに保存</span>
+              </span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans"><strong>无广告与跟踪</strong>：不含广告 SDK、跨 App 跟踪或行为分析</span>
+                <span data-lang-content="zh-Hant"><strong>無廣告與追蹤</strong>：不含廣告 SDK、跨 App 追蹤或行為分析</span>
+                <span data-lang-content="en"><strong>No Ads or Tracking</strong>: Free of ad SDKs, cross-app tracking, or analytics</span>
+                <span data-lang-content="ja"><strong>広告・トラッキングなし</strong>：広告SDK、トラッキング、行動分析は一切なし</span>
+              </span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans"><strong>安全恢复码</strong>：如果忘记密码，安全恢复码是重置密码的唯一方式</span>
+                <span data-lang-content="zh-Hant"><strong>安全復原碼</strong>：如果忘記密碼，安全復原碼是重設密碼的唯一方式</span>
+                <span data-lang-content="en"><strong>Recovery Code</strong>: If you forget password, Recovery Code is the only way</span>
+                <span data-lang-content="ja"><strong>リカバリーコード</strong>：パスワードを忘れた場合、再設定の唯一の手段</span>
+              </span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 flex-shrink-0 mt-0.5"></i>
+              <span>
+                <span data-lang-content="zh-Hans"><strong>加密备份</strong>：可将相册安全打包为加密文件保存在“文件”App 中</span>
+                <span data-lang-content="zh-Hant"><strong>加密備份</strong>：可將相簿安全打包為加密檔案儲存在「檔案」App 中</span>
+                <span data-lang-content="en"><strong>Encrypted Backup</strong>: Securely package your album into a file in Files app</span>
+                <span data-lang-content="ja"><strong>暗号化バックアップ</strong>：アルバムを暗号化ファイルにまとめ「ファイル」に保存可能</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Comprehensive Comparison Matrix -->
+      <div class="mt-16 glass-card p-6 sm:p-8 rounded-3xl border-white/10 overflow-x-auto">
+        <div class="mb-6">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2">
+            <i data-lucide="layers" class="w-5 h-5 text-cyan-400"></i>
+            <span data-lang-content="zh-Hans">相册安全全维度深度对比</span>
+            <span data-lang-content="zh-Hant">相簿安全全維度深度對比</span>
+            <span data-lang-content="en">Comprehensive Vault Security Matrix</span>
+            <span data-lang-content="ja">アルバムセキュリティ全方位比較</span>
+          </h3>
+          <p class="text-xs text-gray-400 mt-1">为什么 Freezon 是守护高隐私回忆的最佳选择</p>
+        </div>
+
+        <table class="w-full text-left border-collapse text-xs sm:text-sm">
+          <thead>
+            <tr class="border-b border-white/10 text-gray-400 font-mono">
+              <th class="pb-3 pr-4 font-semibold">安全维度</th>
+              <th class="pb-3 px-4 font-bold text-cyan-400 bg-cyan-500/10 rounded-t-xl">定格 / Freezon</th>
+              <th class="pb-3 px-4 font-semibold">传统云相册 (iCloud 等)</th>
+              <th class="pb-3 pl-4 font-semibold">普通密码相册 App</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-white/5 text-gray-300">
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">数据存储位置</td>
+              <td class="py-3.5 px-4 text-cyan-300 font-semibold bg-cyan-500/5">100% iPhone 本机 SQLCipher 加密</td>
+              <td class="py-3.5 px-4 text-gray-400">云端数据中心集中存储</td>
+              <td class="py-3.5 pl-4 text-gray-400">本地明文或浅层混淆</td>
+            </tr>
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">云端泄露与审核风险</td>
+              <td class="py-3.5 px-4 text-emerald-400 font-semibold bg-cyan-500/5">零云端 · 物理断网隔离</td>
+              <td class="py-3.5 px-4 text-rose-400">存在账号撞库与云端扫描风险</td>
+              <td class="py-3.5 pl-4 text-rose-400">部分存在后台回传行为</td>
+            </tr>
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">私密相册防熟人误刷</td>
+              <td class="py-3.5 px-4 text-cyan-300 font-semibold bg-cyan-500/5">禁用 Face ID · 强制独立强密码</td>
+              <td class="py-3.5 px-4 text-gray-400">仅依赖系统级 Face ID 易被刷脸</td>
+              <td class="py-3.5 pl-4 text-gray-400">单层简单手势或无分级</td>
+            </tr>
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">系统原片删除控制权</td>
+              <td class="py-3.5 px-4 text-cyan-300 font-semibold bg-cyan-500/5">独立「待清理」队列 + 二次确认</td>
+              <td class="py-3.5 px-4 text-gray-400">自动同步或混合管理</td>
+              <td class="py-3.5 pl-4 text-gray-400">一键粗暴删除易丢原件</td>
+            </tr>
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">离线备份与迁移所有权</td>
+              <td class="py-3.5 px-4 text-cyan-300 font-semibold bg-cyan-500/5">独立单文件加密包 · 局域网直传</td>
+              <td class="py-3.5 px-4 text-gray-400">绑定厂商生态 · 难以脱机归档</td>
+              <td class="py-3.5 pl-4 text-gray-400">无法导出独立加密备份包</td>
+            </tr>
+            <tr>
+              <td class="py-3.5 pr-4 font-medium text-white">广告与行为分析追踪</td>
+              <td class="py-3.5 px-4 text-emerald-400 font-semibold bg-cyan-500/5">0 广告 · 0 追踪分析 SDK</td>
+              <td class="py-3.5 px-4 text-gray-400">包含用户画像与分析</td>
+              <td class="py-3.5 pl-4 text-rose-400">充斥开屏弹窗与广告 SDK</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SUPPORT MODULE (EXACT OFFICIAL TEXT)
+       ========================================================================= -->
+  <section id="support" class="py-24 relative border-t border-white/5">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- zh-Hans Panel -->
+      <article data-lang-content="zh-Hans" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">定格</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">获取支持</h2>
+          <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto">查看导入、备份与恢复说明，或通过邮件联系我们。</p>
+        </header>
+
+        <!-- Direct Email Card -->
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
+                <span>联系支持</span>
+              </h3>
+              <p class="text-xs text-gray-400 mt-1">支持邮箱：<strong class="text-white">zyiszyapps@163.com</strong></p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
+                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                <span>复制邮箱</span>
+              </button>
+              <a href="mailto:zyiszyapps@163.com" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>发送支持邮件</span>
+              </a>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
+            请在邮件中写明遇到的问题、复现步骤，以及 App 和 iOS 版本。请勿附上密码、安全恢复码、照片、文件名或其他私密内容。
+          </div>
+        </div>
+
+        <!-- Accordions -->
+        <div class="space-y-4">
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">密码与安全恢复码</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                我们无法访问你的相册、密码、密钥或安全恢复码，也无法远程重置密码。请将安全恢复码保存在 App 之外。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">备份与恢复</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
+                <ul class="list-disc list-inside space-y-1.5">
+                  <li>定期创建加密备份，并保存到你选择的“文件”位置。</li>
+                  <li>如果已从系统相册删除原件，请另外保留一份加密备份，以免设备损坏或 App 被删除后无法恢复。</li>
+                  <li>恢复前，请确认备份文件完整且设备空间充足。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">导入与系统相册原件</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                定格只读取你选择的项目。删除系统相册原件前，App 会再次请求确认；不确定时，请保留原件。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">反馈与诊断</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                诊断不会自动上传。你可以先查看诊断记录，再选择是否通过系统邮件或分享面板发送。诊断按设计排除照片、文件名、位置、密码和安全恢复码。
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- zh-Hant Panel -->
+      <article data-lang-content="zh-Hant" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">定格</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">取得支援</h2>
+          <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto">查看匯入、備份與復原說明，或透過電子郵件與我們聯絡。</p>
+        </header>
+
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
+                <span>聯絡支援</span>
+              </h3>
+              <p class="text-xs text-gray-400 mt-1">支援信箱：<strong class="text-white">zyiszyapps@163.com</strong></p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
+                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                <span>複製信箱</span>
+              </button>
+              <a href="mailto:zyiszyapps@163.com" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>傳送支援郵件</span>
+              </a>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
+            請在郵件中說明遇到的問題、重現步驟，以及 App 與 iOS 版本。請勿附上密碼、安全復原碼、照片、檔名或其他私人內容。
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">密碼與安全復原碼</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                我們無法存取你的相簿、密碼、金鑰或安全復原碼，也無法遠端重設密碼。請將安全復原碼保存在 App 之外。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">備份與復原</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
+                <ul class="list-disc list-inside space-y-1.5">
+                  <li>定期建立加密備份，並儲存至你選擇的「檔案」位置。</li>
+                  <li>若已從「照片」刪除原始檔，請另外保留一份加密備份，以免裝置損壞或 App 遭刪除後無法復原。</li>
+                  <li>復原前，請確認備份檔完整且裝置空間充足。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">匯入與「照片」原始檔</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                定格只會讀取你選擇的項目。刪除「照片」中的原始檔前，App 會再次要求確認；如不確定，請保留原始檔。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">意見回饋與診斷</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                診斷不會自動上傳。你可以先查看診斷記錄，再選擇是否透過系統郵件或分享面板傳送。診斷會依設計排除照片、檔名、位置、密碼與安全復原碼。
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- en Panel -->
+      <article data-lang-content="en" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">Freezon</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Support</h2>
+          <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto">Find help with importing, backups, and recovery, or contact us by email.</p>
+        </header>
+
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
+                <span>Contact support</span>
+              </h3>
+              <p class="text-xs text-gray-400 mt-1">Support: <strong class="text-white">zyiszyapps@163.com</strong></p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
+                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                <span>Copy Email</span>
+              </button>
+              <a href="mailto:zyiszyapps@163.com" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>Email Support</span>
+              </a>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
+            Include what happened, steps to reproduce it, and your app and iOS versions. Do not attach passwords, Recovery Codes, photos, filenames, or other private content.
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">Passwords and Recovery Codes</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                We cannot access your album, password, encryption keys, or Recovery Code, and we cannot reset your password remotely. Store your Recovery Code outside the app.
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">Backup and restore</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
+                <ul class="list-disc list-inside space-y-1.5">
+                  <li>Create an encrypted backup regularly and save it to a Files location you choose.</li>
+                  <li>If you delete the originals from Photos, keep a separate encrypted backup in case the device is damaged or the app is deleted.</li>
+                  <li>Before restoring, check that the backup is complete and the device has enough available storage.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">Import and Photos originals</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                Freezon reads only the items you select. Before removing originals from Photos, the app asks you to confirm again. Keep the originals if you are unsure.
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">Feedback and diagnostics</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                Diagnostics are never uploaded automatically. You can review a diagnostic record before choosing whether to send it through Mail or the share sheet. The diagnostic format is designed to exclude photos, filenames, locations, passwords, and Recovery Codes.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ja Panel -->
+      <article data-lang-content="ja" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">Freezon</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">サポート</h2>
+          <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto">使い方の確認、サポートへのお問い合わせ、データの保護と取り扱いについてご覧いただけます。</p>
+        </header>
+
+        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
+                <span>お問い合わせ</span>
+              </h3>
+              <p class="text-xs text-gray-400 mt-1">お問い合わせ先：<strong class="text-white">zyiszyapps@163.com</strong></p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
+                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                <span>メールをコピー</span>
+              </button>
+              <a href="mailto:zyiszyapps@163.com" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>サポートにメール</span>
+              </a>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
+            発生した問題、再現手順、AppとiOSのバージョンをメールに記載してください。パスワード、リカバリーコード、写真、ファイル名、その他の個人情報は添付しないでください。
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">パスワードとリカバリーコード</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                アルバム、パスワード、暗号鍵、リカバリーコードにはアクセスできず、パスワードを遠隔でリセットすることもできません。リカバリーコードはApp以外の場所に保管してください。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">バックアップと復元</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
+                <ul class="list-disc list-inside space-y-1.5">
+                  <li>暗号化バックアップを定期的に作成し、選択した「ファイル」の場所に保存してください。</li>
+                  <li>「写真」からオリジナルを削除する場合は、端末の故障やAppの削除に備えて、別の暗号化バックアップを保管してください。</li>
+                  <li>復元前に、バックアップが完全で、端末に十分な空き容量があることを確認してください。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">読み込みと「写真」のオリジナル</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                Freezonが読み取るのは、選択した項目だけです。「写真」からオリジナルを削除する前に、Appでもう一度確認します。判断に迷う場合はオリジナルを残してください。
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
+            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
+              <h3 class="font-bold text-white text-base sm:text-lg">フィードバックと診断情報</h3>
+              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
+            </button>
+            <div class="accordion-content">
+              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                診断情報が自動でアップロードされることはありません。内容を確認してから、メールまたは共有シートで送信するかどうかを選べます。診断情報は、写真、ファイル名、位置情報、パスワード、リカバリーコードを除外する設計です。
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PRIVACY POLICY MODULE (EXACT OFFICIAL TEXT)
+       ========================================================================= -->
+  <section id="privacy" class="py-24 relative border-t border-white/5">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- zh-Hans Panel -->
+      <article data-lang-content="zh-Hans" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">定格</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">隐私政策</h2>
+          <p class="text-xs font-mono text-gray-400">生效日期：2026 年 8 月 24 日</p>
+          <p class="text-base sm:text-lg text-cyan-300 font-medium pt-1">定格不会自动上传照片、视频或相册数据库。</p>
+          <p class="text-xs sm:text-sm text-gray-300">相册内容、密码、密钥和备份不会保存到开发者服务器。</p>
+        </header>
+
+        <!-- Highlights -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
+            <strong class="text-white text-sm block mb-1">本机保存</strong>
+            <span class="text-xs text-gray-300">相册内容、密码和密钥保存在你的设备上。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
+            <strong class="text-white text-sm block mb-1">主动发送</strong>
+            <span class="text-xs text-gray-300">反馈和诊断只在你确认后发送。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
+            <strong class="text-white text-sm block mb-1">无广告与跟踪</strong>
+            <span class="text-xs text-gray-300">不含广告、跨 App 跟踪或行为分析。</span>
+          </div>
+        </div>
+
+        <!-- Groups -->
+        <div class="space-y-6">
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
+              <h3 class="text-xl font-bold text-white">本机数据</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">设备上的数据</h4>
+              <p>定格在本机保存加密的相册数据库和媒体副本，以及缩略图、设置和诊断记录。密码、密钥和安全恢复码仅用于保护这些内容，开发者无法读取或找回。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">“照片”访问</h4>
+              <p>获得授权后，定格只处理你选择或明确操作的“照片”项目。导入会创建本机加密副本。删除系统相册原件前，App 会再次请求确认。照片和视频不会发送给开发者。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">备份与文件提供器</h4>
+              <p>加密备份会保存到你在系统“文件”选择器中指定的位置。该位置可能由 iCloud Drive 或其他文件提供器管理，并受相应服务商的政策约束。开发者无法访问你的备份位置或备份密钥。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">地图联网</h4>
+              <p>地图联网默认关闭。开启后，Apple 地图可能接收照片拍摄地点附近的坐标；照片内容不会发送给地图服务。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
+              <h3 class="text-xl font-bold text-white">反馈与诊断</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">反馈邮件</h4>
+              <p>反馈不会自动发送。你确认使用系统邮件或分享面板发送后，所选信息才会离开设备。邮件可能包含你的邮箱地址、反馈类别和正文，以及 App、构建版本和 iOS 版本。请勿填写密码、安全恢复码、文件名或其他私密信息。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">可选诊断附件</h4>
+              <p>发送前，你可以查看诊断记录并决定是否附加。附件可能包含随机诊断编号、App 和系统版本、硬件型号、操作类别、阶段、状态、错误码、计数和耗时。诊断按设计排除照片、视频、文件名、位置、密码、安全恢复码和加密密钥。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
+              <h3 class="text-xl font-bold text-white">数据使用</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">用途与保存时间</h4>
+              <p>收到的反馈和诊断只用于回复请求、排查问题、提高稳定性和履行适用的法律义务。相关邮件和附件仅在处理请求及后续排查所需期间保存。除法律要求保留的内容外，你可以通过支持邮箱申请删除已发送的数据。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">不用于广告或分析</h4>
+              <p>定格不包含广告 SDK、跨 App 跟踪或开发者运营的行为分析服务，也不会出售个人数据。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
+              <h3 class="text-xl font-bold text-white">网站与联系</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">本网站</h4>
+              <p>本网站是没有账号系统和开发者统计脚本的静态页面，由 GitHub Pages 托管。GitHub 可能根据自身政策处理提供网页所需的基础网络日志。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">政策更新与联系</h4>
+              <p>如果定格处理数据的方式发生重要变化，本页面会更新生效日期。隐私问题、支持请求或删除申请请发送至 <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>。</p>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- zh-Hant Panel -->
+      <article data-lang-content="zh-Hant" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">定格</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">隱私權政策</h2>
+          <p class="text-xs font-mono text-gray-400">生效日期：2026 年 8 月 24 日</p>
+          <p class="text-base sm:text-lg text-cyan-300 font-medium pt-1">定格不會自動上傳照片、影片或相簿資料庫。</p>
+          <p class="text-xs sm:text-sm text-gray-300">相簿內容、密碼、金鑰與備份不會儲存至開發者伺服器。</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
+            <strong class="text-white text-sm block mb-1">儲存在本機</strong>
+            <span class="text-xs text-gray-300">相簿內容、密碼與金鑰都留在你的裝置上。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
+            <strong class="text-white text-sm block mb-1">主動傳送</strong>
+            <span class="text-xs text-gray-300">意見回饋與診斷只會在你確認後傳送。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
+            <strong class="text-white text-sm block mb-1">無廣告與追蹤</strong>
+            <span class="text-xs text-gray-300">不含廣告、跨 App 追蹤或行為分析。</span>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
+              <h3 class="text-xl font-bold text-white">本機資料</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">裝置上的資料</h4>
+              <p>定格會在本機儲存加密的相簿資料庫與媒體副本，以及縮圖、設定和診斷記錄。密碼、金鑰與安全復原碼僅用於保護這些內容，開發者無法讀取或找回。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">取用「照片」</h4>
+              <p>取得授權後，定格只會處理你選擇或明確操作的「照片」項目。匯入會建立本機加密副本。刪除「照片」中的原始檔前，App 會再次要求確認。照片與影片不會傳送給開發者。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">備份與檔案提供者</h4>
+              <p>加密備份會儲存至你在系統「檔案」選擇器中指定的位置。該位置可能由 iCloud Drive 或其他檔案提供者管理，並受相應服務商的政策約束。開發者無法存取你的備份位置或備份金鑰。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">地圖網路連線</h4>
+              <p>地圖網路連線預設關閉。開啟後，Apple 地圖可能會接收照片拍攝位置附近的座標；照片內容不會傳送給地圖服務。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
+              <h3 class="text-xl font-bold text-white">意見回饋與診斷</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">意見回饋郵件</h4>
+              <p>意見回饋不會自動傳送。你確認使用系統郵件或分享面板傳送後，所選資訊才會離開裝置。郵件可能包含你的電子郵件地址、回饋類別與內容，以及 App、Build 與 iOS 版本。請勿填寫密碼、安全復原碼、檔名或其他私人資訊。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">選用診斷附件</h4>
+              <p>傳送前，你可以查看診斷記錄並決定是否附加。附件可能包含隨機診斷編號、App 與系統版本、硬體型號、操作類別、階段、狀態、錯誤碼、計數和耗时。診斷會依設計排除照片、影片、檔名、位置、密碼、安全復原碼與加密金鑰。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
+              <h3 class="text-xl font-bold text-white">資料使用</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">用途與保存時間</h4>
+              <p>收到的意見回饋與診斷只用於回覆要求、找出問題、改善穩定性及履行適用的法律義務。相關郵件與附件僅在處理要求及後續調查所需期間保存。除法律要求保留的內容外，你可以透過支援信箱要求刪除已傳送的資料。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">不用於廣告或分析</h4>
+              <p>定格不包含廣告 SDK、跨 App 追蹤或由開發者營運的行為分析服務，也不會出售個人資料。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
+              <h3 class="text-xl font-bold text-white">網站與聯絡方式</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">本網站</h4>
+              <p>本網站是沒有帳號系統與開發者統計指令碼的靜態頁面，由 GitHub Pages 託管。GitHub 可能依其政策處理提供網頁所需的基礎網路記錄。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">政策更新與聯絡方式</h4>
+              <p>如果定格處理資料的方式有重大變更，本頁面會更新生效日期。隱私權問題、支援要求或刪除申請請寄至 <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>。</p>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- en Panel -->
+      <article data-lang-content="en" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">Freezon</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Privacy Policy</h2>
+          <p class="text-xs font-mono text-gray-400">Effective August 24, 2026</p>
+          <p class="text-base sm:text-lg text-cyan-300 font-medium pt-1">Freezon does not automatically upload photos, videos, or the album database.</p>
+          <p class="text-xs sm:text-sm text-gray-300">Album content, passwords, keys, and backups are not stored on a developer server.</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
+            <strong class="text-white text-sm block mb-1">Stored locally</strong>
+            <span class="text-xs text-gray-300">Album content, passwords, and keys stay on your device.</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
+            <strong class="text-white text-sm block mb-1">Sent by choice</strong>
+            <span class="text-xs text-gray-300">Feedback and diagnostics are sent only after you confirm.</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
+            <strong class="text-white text-sm block mb-1">No ads or tracking</strong>
+            <span class="text-xs text-gray-300">No ads, cross-app tracking, or behavioral analytics.</span>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
+              <h3 class="text-xl font-bold text-white">Data on your device</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">Local storage</h4>
+              <p>Freezon stores the encrypted album database and media copies on your device, along with thumbnails, settings, and diagnostic records. Passwords, keys, and Recovery Codes are used only to protect this content. The developer cannot read or recover them.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Photos access</h4>
+              <p>After you grant access, Freezon processes only the Photos items you select or explicitly act on. Import creates a local encrypted copy. Before removing an original from Photos, the app asks you to confirm again. Photos and videos are not sent to the developer.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Backups and file providers</h4>
+              <p>Encrypted backups are saved to a location you choose with the system Files picker. That location may be managed by iCloud Drive or another file provider and is subject to that provider's policies. The developer cannot access your backup location or backup keys.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Map network access</h4>
+              <p>Map network access is off by default. If you enable it, Apple Maps may receive coordinates near where a photo was taken. Photo contents are not sent to the map service.</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
+              <h3 class="text-xl font-bold text-white">Feedback and diagnostics</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">Feedback email</h4>
+              <p>Feedback is not sent automatically. Information leaves your device only after you confirm sending through Mail or the share sheet. The email may include your email address, feedback category and message, and your app, build, and iOS versions. Do not include passwords, Recovery Codes, filenames, or other private information.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Optional diagnostic attachment</h4>
+              <p>Before sending, you can review a diagnostic record and decide whether to attach it. It may include a random diagnostic reference, app and system versions, hardware model, operation category, stages, status, error codes, counts, and timings. The diagnostic format is designed to exclude photos, videos, filenames, locations, passwords, Recovery Codes, and encryption keys.</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
+              <h3 class="text-xl font-bold text-white">Data use</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">Purpose and retention</h4>
+              <p>Feedback and diagnostics are used only to respond to requests, investigate issues, improve reliability, and meet applicable legal obligations. Related messages and attachments are kept only as long as needed to handle the request and follow-up investigation. You may request deletion by email unless the data must be retained by law.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Not used for ads or analytics</h4>
+              <p>Freezon contains no advertising SDK, cross-app tracking, or developer-operated behavioral analytics service. The developer does not sell personal data.</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
+              <h3 class="text-xl font-bold text-white">Website and contact</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">This website</h4>
+              <p>This static website has no account system or developer analytics script and is hosted by GitHub Pages. GitHub may process basic network logs needed to provide the pages under its own policies.</p>
+              <h4 class="text-white font-semibold text-sm pt-2">Policy updates and contact</h4>
+              <p>If Freezon's data handling changes materially, the effective date on this page will be updated. For privacy questions, support, or deletion requests, email <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>.</p>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- ja Panel -->
+      <article data-lang-content="ja" class="space-y-10">
+        <header class="text-center mb-12 space-y-3">
+          <p class="text-xs font-bold tracking-widest text-cyan-400 uppercase font-mono">Freezon</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">プライバシーポリシー</h2>
+          <p class="text-xs font-mono text-gray-400">施行日：2026年8月24日</p>
+          <p class="text-base sm:text-lg text-cyan-300 font-medium pt-1">Freezonが写真、ビデオ、アルバムデータベースを自動でアップロードすることはありません。</p>
+          <p class="text-xs sm:text-sm text-gray-300">アルバムの内容、パスワード、暗号鍵、バックアップは、開発者のサーバーには保存されません。</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
+            <strong class="text-white text-sm block mb-1">端末内に保存</strong>
+            <span class="text-xs text-gray-300">アルバムの内容、パスワード、暗号鍵は端末内に保存されます。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
+            <strong class="text-white text-sm block mb-1">確認後に送信</strong>
+            <span class="text-xs text-gray-300">フィードバックと診断情報は、確認後にのみ送信されます。</span>
+          </div>
+          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
+            <strong class="text-white text-sm block mb-1">広告・トラッキングなし</strong>
+            <span class="text-xs text-gray-300">広告、Appをまたぐトラッキング、行動分析はありません。</span>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
+              <h3 class="text-xl font-bold text-white">端末内のデータ</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">端末内への保存</h4>
+              <p>Freezonは、暗号化されたアルバムデータベースとメディアのコピー、サムネイル、設定、診断記録を端末内に保存します。パスワード、暗号鍵、リカバリーコードは、これらを保護するためだけに使用します。開発者が読み取ったり復元したりすることはできません。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">「写真」へのアクセス</h4>
+              <p>アクセスを許可した後も、Freezonが処理するのは、選択または明示的に操作した項目だけです。読み込みにより、端末内に暗号化コピーが作成されます。「写真」からオリジナルを削除する前に、Appでもう一度確認します。写真やビデオが開発者へ送信されることはありません。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">バックアップとファイルプロバイダ</h4>
+              <p>暗号化バックアップは、システムの「ファイル」選択画面で指定した場所に保存されます。その場所はiCloud Driveまたは別のファイルプロバイダによって管理される場合があり、各サービスのポリシーが適用されます。開発者はバックアップ先やバックアップ鍵にアクセスできません。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">地図のネットワーク接続</h4>
+              <p>地図のネットワーク接続は初期設定でオフです。有効にすると、Appleマップに写真の撮影場所付近の座標が送信される場合があります。写真の内容が地図サービスに送信されることはありません。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
+              <h3 class="text-xl font-bold text-white">フィードバックと診断情報</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">フィードバックメール</h4>
+              <p>フィードバックが自動で送信されることはありません。メールまたは共有シートで送信を確定した後にだけ、選択した情報が端末外へ送信されます。メールには、送信元メールアドレス、フィードバックの種類と本文、App、ビルド、iOSのバージョンが含まれる場合があります。パスワード、リカバリーコード、ファイル名、その他の個人情報は入力しないでください。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">任意の診断添付ファイル</h4>
+              <p>送信前に診断記録を確認し、添付するかどうかを選べます。添付ファイルには、ランダムな診断番号、Appとシステムのバージョン、ハードウェアモデル、操作の種類、処理段階、状態、エラーコード、件数、所要時間が含まれる場合があります。診断情報は、写真、ビデオ、ファイル名、位置情報、パスワード、リカバリーコード、暗号鍵を除外する設計です。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
+              <h3 class="text-xl font-bold text-white">データの利用</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">利用目的と保存期間</h4>
+              <p>受信したフィードバックと診断情報は、お問い合わせへの回答、問題調査、安定性の改善、適用される法的義務への対応にのみ使用します。関連するメールと添付ファイルは、回答とその後の調査に必要な期間だけ保存します。法令上保存が必要な場合を除き、送信済みデータの削除をメールで依頼できます。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">広告や分析には使用しません</h4>
+              <p>Freezonには広告SDK、Appをまたぐトラッキング、開発者が運用する行動分析サービスは含まれていません。個人データを販売することもありません。</p>
+            </div>
+          </section>
+
+          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
+              <h3 class="text-xl font-bold text-white">ウェブサイトとお問い合わせ</h3>
+            </div>
+            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
+              <h4 class="text-white font-semibold text-sm">本ウェブサイト</h4>
+              <p>本サイトは、アカウント機能や開発者の分析スクリプトを持たない静的サイトで、GitHub Pagesによってホストされています。GitHubは、ページ提供に必要な基本的なネットワークログを自社のポリシーに従って処理する場合があります。</p>
+              <h4 class="text-white font-semibold text-sm pt-2">ポリシーの更新とお問い合わせ</h4>
+              <p>Freezonのデータ取り扱いに重要な変更がある場合は、本ページの施行日を更新します。プライバシーに関するご質問、サポート、削除依頼は <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a> までお送りください。</p>
+            </div>
+          </section>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       GLOBAL FOOTER
+       ========================================================================= -->
+  <footer class="border-t border-white/10 bg-[#02050e]/90 py-16 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center justify-between">
+        
+        <!-- Footer Brand -->
+        <div class="md:col-span-5 space-y-3">
+          <div class="flex items-center gap-3">
+            <img src="./assets/freezon-icon.png" class="w-8 h-8 rounded-lg" alt="">
+            <span class="font-extrabold text-white text-lg tracking-tight">
+              <span data-lang-content="zh-Hans">定格 / Freezon</span>
+              <span data-lang-content="zh-Hant">定格 / Freezon</span>
+              <span data-lang-content="en">Freezon</span>
+              <span data-lang-content="ja">Freezon</span>
+            </span>
+          </div>
+          <p class="text-xs text-gray-400 max-w-sm leading-relaxed">
+            <span data-lang-content="zh-Hans">iOS 本机端侧加密相册。相册内容、密码和密钥仅保存在你的 iPhone 本机。</span>
+            <span data-lang-content="zh-Hant">iOS 本機端側加密相簿。相簿內容、密碼與金鑰僅留在你的 iPhone 本機。</span>
+            <span data-lang-content="en">On-device encrypted photo vault for iOS. Content, passwords, and keys stay on your iPhone.</span>
+            <span data-lang-content="ja">iOS 向け端末内暗号化アルバム。写真、パスワード、暗号鍵は iPhone 内だけに保存されます。</span>
+          </p>
+          <div class="pt-1">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot"></span>
+              <span data-lang-content="zh-Hans">100% 本机保存 · 零云端上传</span>
+              <span data-lang-content="zh-Hant">100% 本機儲存 · 零雲端上傳</span>
+              <span data-lang-content="en">100% On-Device · Zero Cloud Uploads</span>
+              <span data-lang-content="ja">100% 端末内保存 · クラウド送信なし</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="md:col-span-7 flex flex-wrap items-center justify-start md:justify-end gap-6 text-xs text-gray-400">
+          <a href="./#home" class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">首页</span>
+            <span data-lang-content="zh-Hant">首頁</span>
+            <span data-lang-content="en">Home</span>
+            <span data-lang-content="ja">ホーム</span>
+          </a>
+          <a href="./#features" class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">特性</span>
+            <span data-lang-content="zh-Hant">特性</span>
+            <span data-lang-content="en">Features</span>
+            <span data-lang-content="ja">特徴</span>
+          </a>
+          <a href="./#workflows" class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">工作流</span>
+            <span data-lang-content="zh-Hant">工作流程</span>
+            <span data-lang-content="en">Workflows</span>
+            <span data-lang-content="ja">ワークフロー</span>
+          </a>
+          <a href="./#security" class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">安全架构</span>
+            <span data-lang-content="zh-Hant">安全架構</span>
+            <span data-lang-content="en">Security</span>
+            <span data-lang-content="ja">セキュリティ</span>
+          </a>
+          <a href="./support/" data-localized-link class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">支持</span>
+            <span data-lang-content="zh-Hant">支援</span>
+            <span data-lang-content="en">Support</span>
+            <span data-lang-content="ja">サポート</span>
+          </a>
+          <a href="./privacy/" data-localized-link class="hover:text-white transition-colors">
+            <span data-lang-content="zh-Hans">隐私政策</span>
+            <span data-lang-content="zh-Hant">隱私權政策</span>
+            <span data-lang-content="en">Privacy Policy</span>
+            <span data-lang-content="ja">プライバシーポリシー</span>
+          </a>
+          <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 hover:underline">zyiszyapps@163.com</a>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Bottom Bar -->
+      <div class="pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
+        <p>
+          <span data-lang-content="zh-Hans">© 2026 定格 / Freezon. 保留所有权利。</span>
+          <span data-lang-content="zh-Hant">© 2026 定格 / Freezon. 保留所有權利。</span>
+          <span data-lang-content="en">© 2026 Freezon. All rights reserved.</span>
+          <span data-lang-content="ja">© 2026 Freezon. All rights reserved.</span>
+        </p>
+        <p class="font-mono text-[11px]">Freezon Support & Privacy</p>
+      </div>
+
+    </div>
   </footer>
+
 </body>
 </html>
+
+
