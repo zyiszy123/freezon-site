@@ -2,6 +2,8 @@
   const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
   const aliases = { "zh-cn": "zh-Hans", "zh-sg": "zh-Hans", "zh-hans": "zh-Hans", "zh-tw": "zh-Hant", "zh-hk": "zh-Hant", "zh-hant": "zh-Hant", en: "en", ja: "ja" };
   const locales = { "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", en: "en_US", ja: "ja_JP" };
+  const pagePaths = { home: "/", support: "/support/", privacy: "/privacy/" };
+  const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン" };
   const pageContent = {
     home: {
       "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。"],
@@ -57,6 +59,12 @@
     document.querySelector('meta[property="og:title"]')?.setAttribute("content", content[0]);
     document.querySelector('meta[property="og:description"]')?.setAttribute("content", content[2]);
     document.querySelector('meta[property="og:locale"]')?.setAttribute("content", locales[lang]);
+    document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", imageAlts[lang]);
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", content[0]);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", content[2]);
+    const canonicalURL = `https://freezonapp.com${pagePaths[pageName()]}?lang=${lang}`;
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", canonicalURL);
+    document.querySelector('meta[property="og:url"]')?.setAttribute("content", canonicalURL);
   };
 
   const updateInterfaceLabels = (lang) => {
@@ -92,10 +100,10 @@
       } catch (error) {}
     });
     const menuLabels = {
-      "zh-Hans": ["双层相册", "功能", "界面", "隐私", "支持"],
-      "zh-Hant": ["雙層相簿", "功能", "畫面", "隱私", "支援"],
-      en: ["Two albums", "Features", "Screens", "Privacy", "Support"],
-      ja: ["2つのアルバム", "機能", "画面", "プライバシー", "サポート"]
+      "zh-Hans": ["双层相册", "核心功能", "界面", "隐私", "支持"],
+      "zh-Hant": ["雙層相簿", "核心功能", "畫面", "隱私", "支援"],
+      en: ["Two albums", "Core features", "Screens", "Privacy", "Support"],
+      ja: ["2つのアルバム", "主な機能", "画面", "プライバシー", "サポート"]
     };
     document.querySelectorAll("#mobile-menu > a").forEach((link, index) => { if (menuLabels[lang]?.[index]) link.textContent = menuLabels[lang][index]; });
     const footerLabels = { "zh-Hans": ["支持", "隐私政策"], "zh-Hant": ["支援", "隱私權政策"], en: ["Support", "Privacy policy"], ja: ["サポート", "プライバシー"] };

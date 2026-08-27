@@ -4,7 +4,7 @@
 
 - 官网：`/Users/mac/code/local/freezon-site`
 - iOS 产品源码：`/Users/mac/code/local/ios-private-photo-vault`
-- 审计 commit：`8fc42fcfbe7e40bd955d6956bce55bf11569c69c`（2026-08-27）
+- 审计 commit：`08b36d0438c0c8489a0950ef3e49cc3dcd40bdb6`（2026-08-27）
 - 固定模拟器：`096F0A51-615D-4B83-8433-374F7DE9A986`
 - Bundle：`com.zyiszy.PrivateVault.Development`
 
@@ -23,12 +23,12 @@
 | 本地加密数据库与媒体存储 | VERIFIED | `Storage/SQLCipherConnection.swift`；`Storage/SQLCipherConnectionRegistry.swift`；`Security/CryptoSuite.swift` | `SQLCipherConnectionTests.swift`、`ProtectedStorageBoundaryTests.swift`、`DatabaseCreationRaceTests.swift` | 是，首页可用准确的“本地加密存储” | “内容保存在设备侧的加密存储中” | 部分，`vault-media-dark-zh-Hans.png`（不展示实现细节） |
 | PBKDF2 / HKDF / AES-GCM / SHA-256 密码学组件 | VERIFIED | `Security/PasswordKDF.swift`；`Security/CryptoSuite.swift` | `PasswordKDFTests.swift` 及 Security/Storage 测试 | 否，首页不宣传算法参数 | “采用经过测试的加密组件” | 否 |
 | 导入预检、加密处理、进度与批次报告 | VERIFIED | `Operations/ImportCoordinator.swift`；`Features/Import/ImportViews.swift` | `PrivateVaultUITests/ImportReportUITests.swift`（`import.preflight`、`import.progress`、`reports.batch`） | 是 | “导入前先检查，处理过程可查看进度与报告” | 是，`import-preflight-dark-zh-Hans.png`、`import-progress-dark-zh-Hans.png`、`reports-batch-dark-zh-Hans.png` |
-| 导入默认保留系统相册原片 | VERIFIED | `Operations/ImportCoordinator.swift`；`Operations/SystemPhotoDeletionCoordinator.swift` | `ImportReportUITests.swift`、`PhotoDeletionGateTests.swift` | 是 | “导入不会默认删除系统相册原片” | 否 |
-| 用户确认后处理系统相册原片 | VERIFIED | `Operations/SystemPhotoDeletionCoordinator.swift` | `PhotoDeletionGateTests.swift`、`PhotoExportCoordinatorTests.swift`、`VaultFeatureStoreTests.swift` explicit request 测试 | 是，必须写清确认边界 | “只有在你明确确认后，应用才会继续处理系统相册原片” | 否 |
-| 加密备份、恢复与增量备份 | VERIFIED | `Backup/BackupSetWriter.swift`；`Backup/BackupVerificationCoordinator.swift`；`Backup/IncrementalBackupCoordinator.swift`；`Backup/RestoreEngine.swift` | `RestoreAndVerificationTests.swift`、`IncrementalBackupTests.swift`、`BackupRecoveryContractTests.swift`、`BackupSnapshotLeaseTests.swift` | 是，描述能力不承诺云端 | “可将加密备份保存到你选择的位置，并支持恢复” | 是，`backup-status-dark-zh-Hans.png` |
+| 导入时选择保留原片或成功后清理 | VERIFIED | `Features/Import/ImportViews.swift`（`keepOriginals`、`cleanUpAfterSuccessfulImport`）；`Features/Shared/VaultFeatureStore.swift`；`Operations/SystemPhotoDeletionCoordinator.swift` | `PhysicalMediaFlowUITests.swift::testImportSourceChoicePersistsAcrossRestart`；`PhotoDeletionGateTests.swift`；`VaultFeatureStoreTests.swift` explicit request 测试 | 是，写清先完成加密与完整性检查，再进入清理确认 | “导入时可选择保留系统相册原片，或在导入成功后清理” | 是，`import-sourceChoice-dark-zh-Hans.png`、`systemDeletion-riskConfirmations-dark-zh-Hans.png` |
+| 加密备份、恢复与增量备份 | VERIFIED | `Backup/BackupSetWriter.swift`；`Backup/BackupVerificationCoordinator.swift`；`Backup/IncrementalBackupCoordinator.swift`；`Backup/RestoreEngine.swift`；`Features/Backup/BackupViews.swift` | `RestoreAndVerificationTests.swift`、`IncrementalBackupTests.swift`、`BackupRecoveryContractTests.swift`、`BackupSnapshotLeaseTests.swift` | 是，说明由用户在系统“文件”中选择位置 | “加密备份可保存到你选择的‘文件’位置，包括 iCloud Drive，并支持恢复” | 是，`backup-auto-zh-Hans.png`、`backup-status-dark-zh-Hans.png` |
+| 通过系统“文件”转移 `.pvb` 加密备份并在另一台 iPhone 恢复 | VERIFIED | `Backup/BackupDestinationPicker.swift` 生成用户持有的 `.pvb` 文件；`Features/Setup/SetupViews.swift` 通过系统文件选择器接收 `.pvb` 并使用备份恢复码验证；AirDrop 由系统“文件”提供 | `BackupRecoveryContractTests.swift`；`SetupUnlockUITests.swift` 备份选择与恢复码输入流程 | 是，必须把隔空投送描述为系统文件传输方式，不宣称 App 内置分享按钮 | “可通过隔空投送等‘文件’方式把 `.pvb` 加密备份带到另一台 iPhone，再用该备份的安全恢复码恢复原片” | 是，`setup-restore-dark-zh-Hans.png` |
 | 跨相册迁移与双认证确认流程 | PARTIAL | `Operations/MigrationCoordinator.swift`；`Storage/CrossVaultMigrationCommitter.swift`；`Security/DualVaultMigrationLease.swift` | `MigrationCrashTests.swift`、`DualVaultMigrationLeaseTests.swift`、`VaultFeatureStoreTests.swift` migration 测试 | 可公开为流程存在，不能写“自动重新加密” | “支持在明确认证与确认流程下移动内容” | 是，`migration-confirm-dark-zh-Hans.png` |
 | 回收站、恢复和最终删除流程 | VERIFIED | `Features/Trash/TrashView.swift`；`Operations/TrashCoordinator.swift` | `VaultTrashUITests.swift`、`TrashLifecycleTests.swift` | 是 | “删除的内容会经过回收站流程，可按应用内选项恢复或删除” | 是，`trash-dark-zh-Hans.png` |
-| 支持照片、视频、GIF、Live Photo、连拍等媒体 | PARTIAL | 导入模型与 `ImportCoordinator.swift`；媒体类型分支 | `ImportReportUITests.swift` 媒体报告覆盖有限 | 仅可写“照片与视频等媒体”，不作全格式承诺 | “整理照片与视频等媒体” | 是，`vault-media-dark-zh-Hans.png`（合成内容） |
+| 照片、视频、GIF、Live Photo 按原始资源无损导入导出 | VERIFIED | `Photos/PhotoResourceStreamSink.swift`；`Photos/PhotoManifestBuilder.swift`；`Features/Export/PhotoExportProductionBridge.swift`；`Operations/PhotoExportCoordinator.swift`；`Photos/PhotoLibraryWriter.swift` | `PhotoResourceStreamSinkTests.swift` 原始资源字节数与 SHA-256；`PhotoExportCoordinatorTests.swift::testSupportedKindsMapExactResourceTypes`；`ChunkedMediaReaderTests.swift` 加密明文恢复 | 是，限定已验证的媒体类型，不扩展为“所有格式” | “照片、视频、GIF 和实况照片按原始资源无损导入导出，不压缩，不改变原文件” | 是，`assets/realscreens/` 中包含照片、视频与实况照片界面 |
 | RAW / ProRAW / 4K HDR 全格式支持 | UNVERIFIED | 当前没有覆盖全部格式的端到端证据 | 无足够测试证据 | 否 | 不公开 | 否 |
 | EXIF / GPS 读取或擦除 | UNVERIFIED | 当前审计未找到完整的公开产品流程证据 | 无足够测试证据 | 否 | 不公开 | 否 |
 | 后台隐私遮罩与屏幕捕获保护 | VERIFIED | `App/Lifecycle/PrivacyShieldWindowController.swift`；`BackgroundSecurityBarrier.swift`；`ScreenCaptureMonitor.swift`；`App/RootView.swift` | `VaultFeatureStoreTests.swift` privacy snapshot / shield 测试 | 是，避免“绝对防护” | “进入后台或屏幕捕获状态时，界面会隐藏敏感内容” | 当前截图目录未采集遮罩路由 |
@@ -51,4 +51,4 @@
 
 ## 首页公开范围
 
-首页可展示：双层私密相册产品类别；日常相册与私密相册分别使用密码、安全恢复码和本机加密存储；Face ID 快速解锁日常相册（需设备与设置支持）；安全恢复码在本机验证后重设对应相册密码且不改变原有内容，或打开用户持有的对应加密备份并恢复照片和视频；导入前检查、进度与报告；原片默认保留；加密备份与用户选择保存位置；回收站与隐私遮罩。算法参数、绝对安全或零泄漏风险、未验证格式、规划能力和无有效地址的 App Store 链接不作为首页承诺。
+首页可展示：双层私密相册产品类别；日常相册与私密相册分别使用密码、安全恢复码和本机加密存储；Face ID 快速解锁日常相册（需设备与设置支持）；安全恢复码在本机验证后重设对应相册密码且不改变原有内容，或打开用户持有的对应加密备份并恢复照片和视频；通过隔空投送等系统“文件”方式把 `.pvb` 加密备份带到另一台 iPhone，再用该备份的安全恢复码恢复原片；照片、视频、GIF 和实况照片按原始资源无损导入导出；导入时选择保留系统相册原片或在导入成功后清理；加密备份保存到用户选择的“文件”位置（包括 iCloud Drive 或其他文件提供器）；回收站与隐私遮罩；系统要求为 iOS 26 或更高版本。算法参数、绝对安全或零泄漏风险、未验证格式、规划能力和无有效地址的 App Store 链接不作为首页承诺。
