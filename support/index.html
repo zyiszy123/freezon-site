@@ -1,557 +1,81 @@
 <!doctype html>
-<html lang="zh-Hans" class="scroll-smooth">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Support - Freezon / 定格</title>
-  <meta name="description" content="Support and FAQ for Freezon (定格) - On-device encrypted photo vault. Learn about backups, recovery codes, and get assistance.">
+  <meta name="description" content="Support information for Freezon.">
+  <title>Support - Freezon</title>
   <link rel="icon" href="../assets/freezon-icon.png">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              cyan: '#00d2ff',
-              blue: '#38bdf8',
-              purple: '#a855f7',
-              violet: '#8b5cf6',
-              dark: '#030712'
-            }
-          },
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"PingFang SC"', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace']
-          }
-        }
-      }
-    }
-  </script>
-  
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  
-  <!-- Custom Design System Styles -->
-  <link rel="stylesheet" href="../assets/site.css?v=20260826-1">
-  <script defer src="../assets/site.js?v=20260826-1"></script>
+  <link rel="stylesheet" href="../assets/site.css?v=20260827-10">
+  <script defer src="../assets/site.js?v=20260827-10"></script>
 </head>
-<body class="bg-[#030712] text-gray-100 min-h-screen relative selection:bg-cyan-500/30 selection:text-cyan-200">
-
-  <!-- Ambient Glowing Background Mesh -->
-  <div class="mesh-gradient-bg">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:24px_24px] opacity-60"></div>
-  </div>
-
-  <!-- Toast Notification -->
-  <div id="toast-notification" class="glass-panel px-4 py-3 rounded-2xl flex items-center gap-3 text-sm text-gray-200 shadow-2xl border-cyan-500/30">
-    <div class="w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center flex-shrink-0">
-      <i data-lucide="check" class="w-4 h-4"></i>
-    </div>
-    <span id="toast-message">
-      <span data-lang-content="zh-Hans">操作已完成</span>
-      <span data-lang-content="zh-Hant">操作已完成</span>
-      <span data-lang-content="en">Completed</span>
-      <span data-lang-content="ja">完了しました</span>
-    </span>
-  </div>
-
-  <!-- Global Sticky Navigation Bar -->
-  <header class="sticky top-0 z-50 glass-nav transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
-      
-      <!-- Brand Logo -->
-      <a href="../" data-localized-link class="flex items-center gap-3 group">
-        <div class="relative w-10 h-10 rounded-xl p-[1px] bg-gradient-to-br from-cyan-400 via-purple-500 to-transparent shadow-lg shadow-cyan-500/10">
-          <img src="../assets/freezon-icon.png" alt="Freezon Logo" class="w-full h-full rounded-[11px] object-cover transition-transform duration-300 group-hover:scale-105">
-        </div>
-        <div class="flex flex-col">
-          <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-            <span data-lang-content="zh-Hans">定格 / Freezon</span>
-            <span data-lang-content="zh-Hant">定格 / Freezon</span>
-            <span data-lang-content="en">Freezon</span>
-            <span data-lang-content="ja">Freezon</span>
-          </span>
-          <span class="text-[11px] text-gray-400 tracking-wider font-mono uppercase">On-Device Encrypted</span>
-        </div>
+<body class="document-body">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" data-localized-link href="../">
+        <img src="../assets/freezon-icon.png" alt="">
+        <span><span data-lang-content="zh-Hans">定格</span><span data-lang-content="zh-Hant">定格</span><span data-lang-content="en">Freezon</span><span data-lang-content="ja">Freezon</span></span>
       </a>
-
-      <!-- Desktop Nav Links -->
-      <nav class="hidden md:flex items-center gap-1 glass-panel px-4 py-1.5 rounded-full text-sm font-medium text-gray-300">
-        <a href="../" data-localized-link class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">首页</span>
-          <span data-lang-content="zh-Hant">首頁</span>
-          <span data-lang-content="en">Home</span>
-          <span data-lang-content="ja">ホーム</span>
-        </a>
-        <a href="./" data-localized-link aria-current="page" class="px-3 py-1.5 rounded-full text-cyan-400 bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">用户支持</span>
-          <span data-lang-content="zh-Hant">用戶支援</span>
-          <span data-lang-content="en">Support</span>
-          <span data-lang-content="ja">サポート</span>
-        </a>
-        <a href="../privacy/" data-localized-link class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">隐私政策</span>
-          <span data-lang-content="zh-Hant">隱私權政策</span>
-          <span data-lang-content="en">Privacy</span>
-          <span data-lang-content="ja">プライバシー</span>
-        </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a aria-current="page" data-localized-link href="./">Support</a>
+        <a data-localized-link href="../privacy/">Privacy</a>
       </nav>
-
-      <!-- Right Actions: Language Switcher -->
-      <div class="flex items-center gap-3">
-        <div class="flex items-center glass-panel p-1 rounded-xl text-xs font-medium border border-white/10" aria-label="Language Selector">
-          <button data-language-choice="zh-Hans" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">简</button>
-          <button data-language-choice="zh-Hant" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">繁</button>
-          <button data-language-choice="en" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">EN</button>
-          <button data-language-choice="ja" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">日</button>
-        </div>
-      </div>
     </div>
   </header>
 
-  <!-- =========================================================================
-       MAIN SUPPORT CONTENT
-       ========================================================================= -->
-  <main class="py-16 sm:py-24 relative">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Breadcrumb -->
-      <div class="flex items-center gap-2 text-xs font-mono text-gray-400 mb-8">
-        <a href="../" data-localized-link class="hover:text-white transition-colors">Freezon</a>
-        <span>/</span>
-        <span class="text-cyan-400">Support</span>
-      </div>
-
-      <!-- zh-Hans Panel -->
-      <article data-lang-content="zh-Hans" class="space-y-10">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>定格 · 帮助中心</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">获取支持</h1>
-          <p class="text-gray-300 text-base leading-relaxed">
-            查看导入、备份与恢复说明，或通过邮件联系我们。
-          </p>
-        </header>
-
-        <!-- Direct Email Card -->
-        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
-                <span>联系技术支持</span>
-              </h2>
-              <p class="text-xs text-gray-400 mt-1">支持邮箱：<strong class="text-white">zyiszyapps@163.com</strong></p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
-                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                <span>复制邮箱</span>
-              </button>
-              <a href="mailto:zyiszyapps@163.com?subject=Freezon%20App%20Support" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
-                <i data-lucide="send" class="w-3.5 h-3.5"></i>
-                <span>发送邮件</span>
-              </a>
-            </div>
-          </div>
-          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
-            请在邮件中写明遇到的问题、复现步骤，以及 App 和 iOS 版本。请勿附上密码、安全恢复码、照片、文件名或其他私密内容。
-          </div>
-        </div>
-
-        <!-- Topics Accordion -->
-        <div class="space-y-4">
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">密码与安全恢复码</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                我们无法访问你的相册、密码、密钥或安全恢复码，也无法远程重置密码。请将安全恢复码保存在 App 之外。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">备份与恢复</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
-                <ul class="list-disc list-inside space-y-1.5">
-                  <li>定期创建加密备份，并保存到你选择的“文件”位置。</li>
-                  <li>如果已从系统相册删除原件，请另外保留一份加密备份，以免设备损坏或 App 被删除后无法恢复。</li>
-                  <li>恢复前，请确认备份文件完整且设备空间充足。</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">导入与系统相册原件</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                定格只读取你选择的项目。删除系统相册原件前，App 会再次请求确认；不确定时，请保留原件。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">反馈与诊断</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                诊断不会自动上传。你可以先查看诊断记录，再选择是否通过系统邮件或分享面板发送。诊断按设计排除照片、文件名、位置、密码和安全恢复码。
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-6">
-          <a href="../privacy/" data-localized-link class="text-cyan-400 hover:underline text-sm font-medium flex items-center gap-1.5">
-            <span>查看完整隐私政策</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </article>
-
-      <!-- zh-Hant Panel -->
-      <article data-lang-content="zh-Hant" class="space-y-10">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>定格 · 支援中心</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">取得支援</h1>
-          <p class="text-gray-300 text-base leading-relaxed">
-            查看匯入、備份與復原說明，或透過電子郵件與我們聯絡。
-          </p>
-        </header>
-
-        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
-                <span>聯絡技術支援</span>
-              </h2>
-              <p class="text-xs text-gray-400 mt-1">支援信箱：<strong class="text-white">zyiszyapps@163.com</strong></p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
-                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                <span>複製信箱</span>
-              </button>
-              <a href="mailto:zyiszyapps@163.com?subject=Freezon%20App%20Support" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
-                <i data-lucide="send" class="w-3.5 h-3.5"></i>
-                <span>傳送郵件</span>
-              </a>
-            </div>
-          </div>
-          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
-            請在郵件中說明遇到的問題、重現步驟，以及 App 與 iOS 版本。請勿附上密碼、安全復原碼、照片、檔名或其他私人內容。
-          </div>
-        </div>
-
-        <div class="space-y-4">
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">密碼與安全復原碼</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                我們無法存取你的相簿、密碼、金鑰或安全復原碼，也無法遠端重設密碼。請將安全復原碼保存在 App 之外。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">備份與復原</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
-                <ul class="list-disc list-inside space-y-1.5">
-                  <li>定期建立加密備份，並儲存至你選擇的「檔案」位置。</li>
-                  <li>若已從「照片」刪除原始檔，請另外保留一份加密備份，以免裝置損壞或 App 遭刪除後無法復原。</li>
-                  <li>復原前，請確認備份檔完整且裝置空間充足。</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">匯入與「照片」原始檔</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                定格只會讀取你選擇的項目。刪除「照片」中的原始檔前，App 會再次要求確認；如不確定，請保留原始檔。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">意見回饋與診斷</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                診斷不會自動上傳。你可以先查看診斷記錄，再選擇是否透過系統郵件或分享面板傳送。診斷會依設計排除照片、檔名、位置、密碼與安全復原碼。
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-6">
-          <a href="../privacy/" data-localized-link class="text-cyan-400 hover:underline text-sm font-medium flex items-center gap-1.5">
-            <span>查看完整隱私權政策</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </article>
-
-      <!-- en Panel -->
-      <article data-lang-content="en" class="space-y-10">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>Freezon · Support Center</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Support</h1>
-          <p class="text-gray-300 text-base leading-relaxed">
-            Find help with importing, backups, and recovery, or contact us by email.
-          </p>
-        </header>
-
-        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
-                <span>Contact Technical Support</span>
-              </h2>
-              <p class="text-xs text-gray-400 mt-1">Support Email: <strong class="text-white">zyiszyapps@163.com</strong></p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
-                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                <span>Copy Email</span>
-              </button>
-              <a href="mailto:zyiszyapps@163.com?subject=Freezon%20App%20Support" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
-                <i data-lucide="send" class="w-3.5 h-3.5"></i>
-                <span>Send Email</span>
-              </a>
-            </div>
-          </div>
-          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
-            Include what happened, steps to reproduce it, and your app and iOS versions. Do not attach passwords, Recovery Codes, photos, filenames, or other private content.
-          </div>
-        </div>
-
-        <div class="space-y-4">
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">Passwords and Recovery Codes</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                We cannot access your album, password, encryption keys, or Recovery Code, and we cannot reset your password remotely. Store your Recovery Code outside the app.
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">Backup and restore</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
-                <ul class="list-disc list-inside space-y-1.5">
-                  <li>Create an encrypted backup regularly and save it to a Files location you choose.</li>
-                  <li>If you delete the originals from Photos, keep a separate encrypted backup in case the device is damaged or the app is deleted.</li>
-                  <li>Before restoring, check that the backup is complete and the device has enough available storage.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">Import and Photos originals</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                Freezon reads only the items you select. Before removing originals from Photos, the app asks you to confirm again. Keep the originals if you are unsure.
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">Feedback and diagnostics</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                Diagnostics are never uploaded automatically. You can review a diagnostic record before choosing whether to send it through Mail or the share sheet. The diagnostic format is designed to exclude photos, filenames, locations, passwords, and Recovery Codes.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-6">
-          <a href="../privacy/" data-localized-link class="text-cyan-400 hover:underline text-sm font-medium flex items-center gap-1.5">
-            <span>Read Privacy Policy</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </article>
-
-      <!-- ja Panel -->
-      <article data-lang-content="ja" class="space-y-10">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>Freezon · サポートセンター</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">サポート</h1>
-          <p class="text-gray-300 text-base leading-relaxed">
-            読み込み、バックアップ、復元について確認するか、メールでお問い合わせください。
-          </p>
-        </header>
-
-        <div class="glass-card p-6 sm:p-8 rounded-3xl border-cyan-500/30 space-y-4">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                <i data-lucide="mail" class="w-5 h-5 text-cyan-400"></i>
-                <span>サポートへのお問い合わせ</span>
-              </h2>
-              <p class="text-xs text-gray-400 mt-1">お問い合わせ先：<strong class="text-white">zyiszyapps@163.com</strong></p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="copyEmail('zyiszyapps@163.com')" class="px-4 py-2 rounded-xl glass-button text-xs font-semibold text-cyan-300 hover:text-white flex items-center gap-1.5">
-                <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-                <span>メールアドレスをコピー</span>
-              </button>
-              <a href="mailto:zyiszyapps@163.com?subject=Freezon%20App%20Support" class="px-4 py-2 rounded-xl btn-appstore text-xs font-semibold text-white flex items-center gap-1.5">
-                <i data-lucide="send" class="w-3.5 h-3.5"></i>
-                <span>メールを送信</span>
-              </a>
-            </div>
-          </div>
-          <div class="p-3.5 rounded-2xl bg-white/[0.02] border border-white/5 text-xs text-gray-400">
-            発生した問題、再現手順、AppとiOSのバージョンをメールに記載してください。パスワード、リカバリーコード、写真、ファイル名、その他の個人情報は添付しないでください。
-          </div>
-        </div>
-
-        <div class="space-y-4">
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">パスワードとリカバリーコード</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                アルバム、パスワード、暗号鍵、リカバリーコードにはアクセスできず、パスワードを遠隔でリセットすることもできません。リカバリーコードはApp以外の場所に保管してください。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item is-open border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">バックアップと復元</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5 space-y-2">
-                <ul class="list-disc list-inside space-y-1.5">
-                  <li>暗号化バックアップを定期的に作成し、選択した「ファイル」の場所に保存してください。</li>
-                  <li>「写真」からオリジナルを削除する場合は、端末の故障やAppの削除に備えて、別の暗号化バックアップを保管してください。</li>
-                  <li>復元前に、バックアップが完全で、端末に十分な空き容量があることを確認してください。</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">読み込みと「写真」のオリジナル</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                Freezonが読み取るのは、選択した項目だけです。「写真」からオリジナルを削除する前に、Appでもう一度確認します。判断に迷う場合はオリジナルを残してください。
-              </div>
-            </div>
-          </div>
-
-          <div class="glass-panel rounded-2xl overflow-hidden accordion-item border border-white/10">
-            <button onclick="toggleAccordion(this)" class="w-full px-6 py-5 flex items-center justify-between text-left">
-              <h3 class="font-bold text-white text-base sm:text-lg">フィードバックと診断情報</h3>
-              <i data-lucide="chevron-down" class="accordion-chevron w-5 h-5 text-gray-400 transition-transform duration-300"></i>
-            </button>
-            <div class="accordion-content">
-              <div class="px-6 pb-6 pt-2 text-sm text-gray-300 leading-relaxed border-t border-white/5">
-                診断情報が自動でアップロードされることはありません。内容を確認してから、メールまたは共有シートで送信するかどうかを選べます。診断情報は、写真、ファイル名、位置情報、パスワード、リカバリーコードを除外する設計です。
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-6">
-          <a href="../privacy/" data-localized-link class="text-cyan-400 hover:underline text-sm font-medium flex items-center gap-1.5">
-            <span>プライバシーポリシーを見る</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </article>
-
+  <main class="page">
+    <div class="language-switcher" aria-label="Language">
+      <a data-language-choice="zh-Hans" href="?lang=zh-Hans">简体中文</a>
+      <a data-language-choice="zh-Hant" href="?lang=zh-Hant">繁體中文</a>
+      <a data-language-choice="en" href="?lang=en">English</a>
+      <a data-language-choice="ja" href="?lang=ja">日本語</a>
     </div>
+
+    <article class="language-panel is-active" data-language-panel="zh-Hans" lang="zh-Hans">
+      <header class="document-header">
+        <p class="eyebrow">定格支持</p>
+        <h1>我们能为你做什么</h1>
+        <p class="lede">定格是一款纯本地私密相册。以下信息可帮助你安全地使用导入、备份和恢复功能。</p>
+      </header>
+      <section class="document-section"><h2>联系支持</h2><p>请通过邮件说明遇到的问题、操作步骤以及 App 和 iOS 版本。不要发送密码、安全恢复码、照片、文件名或其他私密内容。</p><p><a class="contact-link" href="mailto:zyiszyapps@163.com">发送邮件</a></p><p class="meta">支持邮箱：zyiszyapps@163.com。回复时间可能因问题复杂度而不同。</p></section>
+      <section class="document-section"><h2>密码与安全恢复码</h2><p>开发者无法访问你的相册、密码、密钥或安全恢复码，也无法远程重置密码。请把安全恢复码保存在 App 之外的安全位置。</p></section>
+      <section class="document-section"><h2>备份与恢复</h2><ul><li>定期创建加密备份，并把它保存在你选择的“文件”位置。</li><li>不要把 App 内副本作为唯一副本；请保留系统相册原件或独立加密备份。</li><li>恢复前确认备份文件完整，并确保设备有足够的可用空间。</li></ul></section>
+      <section class="document-section"><h2>导入和系统相册原件</h2><p>定格只读取你选择的项目。删除系统相册原件需要你明确确认；如果你不确定，请选择保留原件。</p></section>
+      <section class="document-section"><h2>反馈和诊断</h2><p>App 不会自动上传诊断。你可以选择一条诊断记录、查看内容，并通过系统邮件或分享面板主动发送。诊断设计上不包含照片、文件名、位置、密码或安全恢复码。</p></section>
+      <p><a data-localized-link href="../privacy/">查看隐私政策</a></p>
+    </article>
+
+    <article class="language-panel" data-language-panel="zh-Hant" lang="zh-Hant">
+      <header class="document-header"><p class="eyebrow">定格支援</p><h1>我們能為你做什麼</h1><p class="lede">定格是一款純本機的私密相簿。以下資訊可協助你安全使用匯入、備份與復原功能。</p></header>
+      <section class="document-section"><h2>聯絡支援</h2><p>請透過電子郵件說明問題、操作步驟，以及 App 與 iOS 版本。請勿傳送密碼、安全復原碼、照片、檔名或其他私人內容。</p><p><a class="contact-link" href="mailto:zyiszyapps@163.com">傳送電子郵件</a></p><p class="meta">支援信箱：zyiszyapps@163.com。回覆時間可能因問題複雜度而異。</p></section>
+      <section class="document-section"><h2>密碼與安全復原碼</h2><p>開發者無法存取你的相簿、密碼、金鑰或安全復原碼，也無法遠端重設密碼。請將安全復原碼保存在 App 以外的安全位置。</p></section>
+      <section class="document-section"><h2>備份與復原</h2><ul><li>請定期建立加密備份，並儲存在你選擇的「檔案」位置。</li><li>請勿將 App 內副本作為唯一副本；請保留「照片」中的原始檔或獨立加密備份。</li><li>復原前請確認備份檔完整，並確保裝置有足夠的可用空間。</li></ul></section>
+      <section class="document-section"><h2>匯入與「照片」原始檔</h2><p>定格只會讀取你選擇的項目。刪除「照片」中的原始檔需要你明確確認；如不確定，請選擇保留原始檔。</p></section>
+      <section class="document-section"><h2>意見回饋與診斷</h2><p>App 不會自動上傳診斷。你可以選擇一筆診斷記錄、查看內容，再透過系統郵件或分享面板主動傳送。診斷設計上不包含照片、檔名、位置、密碼或安全復原碼。</p></section>
+      <p><a data-localized-link href="../privacy/">查看隱私權政策</a></p>
+    </article>
+
+    <article class="language-panel" data-language-panel="en" lang="en">
+      <header class="document-header"><p class="eyebrow">Freezon Support</p><h1>How we can help</h1><p class="lede">Freezon is a local-only private photo vault. This information can help you use import, backup, and restore safely.</p></header>
+      <section class="document-section"><h2>Contact support</h2><p>Describe the issue, the steps you took, and your App and iOS versions. Do not send passwords, Recovery Codes, photos, filenames, or other private content.</p><p><a class="contact-link" href="mailto:zyiszyapps@163.com">Send Email</a></p><p class="meta">Support email: zyiszyapps@163.com. Response times may vary with the complexity of the issue.</p></section>
+      <section class="document-section"><h2>Passwords and Recovery Codes</h2><p>The developer cannot access your albums, passwords, keys, or Recovery Codes and cannot reset a password remotely. Keep your Recovery Code in a secure location outside the app.</p></section>
+      <section class="document-section"><h2>Backup and restore</h2><ul><li>Create encrypted backups regularly and keep them in a Files location you choose.</li><li>Do not make the in-app copy your only copy. Keep the original in Photos or maintain a separate encrypted backup.</li><li>Before restoring, confirm that the backup is complete and that the device has enough available storage.</li></ul></section>
+      <section class="document-section"><h2>Import and Photos originals</h2><p>Freezon reads only the items you select. Removing originals from Photos requires your explicit confirmation. Keep the originals whenever you are unsure.</p></section>
+      <section class="document-section"><h2>Feedback and diagnostics</h2><p>The app never uploads diagnostics automatically. You may choose a diagnostic record, review it, and send it through the system mail composer or share sheet. Diagnostics are designed to exclude photos, filenames, locations, passwords, and Recovery Codes.</p></section>
+      <p><a data-localized-link href="../privacy/">Read the Privacy Policy</a></p>
+    </article>
+
+    <article class="language-panel" data-language-panel="ja" lang="ja">
+      <header class="document-header"><p class="eyebrow">Freezonサポート</p><h1>サポートについて</h1><p class="lede">Freezonは、データを端末内に保存するプライベートアルバムです。読み込み、バックアップ、復元を安全に行うための情報をご案内します。</p></header>
+      <section class="document-section"><h2>お問い合わせ</h2><p>発生した問題、操作手順、AppとiOSのバージョンをメールでお知らせください。パスワード、リカバリーコード、写真、ファイル名、その他の個人情報は送信しないでください。</p><p><a class="contact-link" href="mailto:zyiszyapps@163.com">メールを送信</a></p><p class="meta">お問い合わせ先：zyiszyapps@163.com。回答までの時間は、問題の内容によって異なります。</p></section>
+      <section class="document-section"><h2>パスワードとリカバリーコード</h2><p>開発者は、アルバム、パスワード、暗号鍵、リカバリーコードにアクセスできず、パスワードを遠隔でリセットすることもできません。リカバリーコードはApp以外の安全な場所に保管してください。</p></section>
+      <section class="document-section"><h2>バックアップと復元</h2><ul><li>暗号化バックアップを定期的に作成し、選択した「ファイル」の場所に保管してください。</li><li>App内のコピーだけを唯一のコピーにしないでください。「写真」にオリジナルを残すか、別の暗号化バックアップを用意してください。</li><li>復元前に、バックアップが完全であり、端末に十分な空き容量があることを確認してください。</li></ul></section>
+      <section class="document-section"><h2>読み込みと「写真」のオリジナル</h2><p>Freezonが読み取るのは、選択した項目だけです。「写真」からオリジナルを削除するには、明示的な確認が必要です。判断に迷う場合はオリジナルを残してください。</p></section>
+      <section class="document-section"><h2>フィードバックと診断情報</h2><p>Appが診断情報を自動送信することはありません。診断記録を選択して内容を確認し、システムのメール作成画面または共有シートから送信できます。診断情報には、写真、ファイル名、位置情報、パスワード、リカバリーコードを含めない設計です。</p></section>
+      <p><a data-localized-link href="../privacy/">プライバシーポリシーを見る</a></p>
+    </article>
   </main>
 
-  <!-- Global Footer -->
-  <footer class="border-t border-white/10 bg-[#02050e]/90 py-12 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-      <div class="flex items-center gap-3">
-        <img src="../assets/freezon-icon.png" class="w-6 h-6 rounded-md" alt="">
-        <span>
-          <span data-lang-content="zh-Hans">© 2026 定格 / Freezon. 保留所有权利。</span>
-          <span data-lang-content="zh-Hant">© 2026 定格 / Freezon. 保留所有權利。</span>
-          <span data-lang-content="en">© 2026 Freezon. All rights reserved.</span>
-          <span data-lang-content="ja">© 2026 Freezon. All rights reserved.</span>
-        </span>
-      </div>
-      <div>
-        <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 hover:underline">zyiszyapps@163.com</a>
-      </div>
-    </div>
-  </footer>
-
+  <footer class="site-footer document-footer"><p>© 2026 Freezon</p><p><a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a></p></footer>
 </body>
 </html>

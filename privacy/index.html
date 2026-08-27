@@ -1,495 +1,212 @@
 <!doctype html>
-<html lang="zh-Hans" class="scroll-smooth">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy - Freezon / 定格</title>
-  <meta name="description" content="Privacy Policy for Freezon (定格) - On-device encrypted photo vault. Stored locally, zero ads, zero cloud tracking.">
+  <meta name="description" content="Privacy Policy for Freezon.">
+  <title>Privacy Policy - Freezon</title>
   <link rel="icon" href="../assets/freezon-icon.png">
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              cyan: '#00d2ff',
-              blue: '#38bdf8',
-              purple: '#a855f7',
-              violet: '#8b5cf6',
-              dark: '#030712'
-            }
-          },
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"PingFang SC"', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace']
-          }
-        }
-      }
-    }
-  </script>
-  
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  
-  <!-- Custom Design System Styles -->
-  <link rel="stylesheet" href="../assets/site.css?v=20260826-1">
-  <script defer src="../assets/site.js?v=20260826-1"></script>
+  <link rel="stylesheet" href="../assets/site.css?v=20260827-10">
+  <script defer src="../assets/site.js?v=20260827-10"></script>
 </head>
-<body class="bg-[#030712] text-gray-100 min-h-screen relative selection:bg-cyan-500/30 selection:text-cyan-200">
-
-  <!-- Ambient Glowing Background Mesh -->
-  <div class="mesh-gradient-bg">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:24px_24px] opacity-60"></div>
-  </div>
-
-  <!-- Global Sticky Navigation Bar -->
-  <header class="sticky top-0 z-50 glass-nav transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
-      
-      <!-- Brand Logo -->
-      <a href="../" data-localized-link class="flex items-center gap-3 group">
-        <div class="relative w-10 h-10 rounded-xl p-[1px] bg-gradient-to-br from-cyan-400 via-purple-500 to-transparent shadow-lg shadow-cyan-500/10">
-          <img src="../assets/freezon-icon.png" alt="Freezon Logo" class="w-full h-full rounded-[11px] object-cover transition-transform duration-300 group-hover:scale-105">
-        </div>
-        <div class="flex flex-col">
-          <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-            <span data-lang-content="zh-Hans">定格 / Freezon</span>
-            <span data-lang-content="zh-Hant">定格 / Freezon</span>
-            <span data-lang-content="en">Freezon</span>
-            <span data-lang-content="ja">Freezon</span>
-          </span>
-          <span class="text-[11px] text-gray-400 tracking-wider font-mono uppercase">On-Device Encrypted</span>
-        </div>
-      </a>
-
-      <!-- Desktop Nav Links -->
-      <nav class="hidden md:flex items-center gap-1 glass-panel px-4 py-1.5 rounded-full text-sm font-medium text-gray-300">
-        <a href="../" data-localized-link class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">首页</span>
-          <span data-lang-content="zh-Hant">首頁</span>
-          <span data-lang-content="en">Home</span>
-          <span data-lang-content="ja">ホーム</span>
-        </a>
-        <a href="../support/" data-localized-link class="px-3 py-1.5 rounded-full hover:text-white hover:bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">用户支持</span>
-          <span data-lang-content="zh-Hant">用戶支援</span>
-          <span data-lang-content="en">Support</span>
-          <span data-lang-content="ja">サポート</span>
-        </a>
-        <a href="./" data-localized-link aria-current="page" class="px-3 py-1.5 rounded-full text-cyan-400 bg-white/10 transition-colors">
-          <span data-lang-content="zh-Hans">隐私政策</span>
-          <span data-lang-content="zh-Hant">隱私權政策</span>
-          <span data-lang-content="en">Privacy</span>
-          <span data-lang-content="ja">プライバシー</span>
-        </a>
-      </nav>
-
-      <!-- Right Actions: Language Switcher -->
-      <div class="flex items-center gap-3">
-        <div class="flex items-center glass-panel p-1 rounded-xl text-xs font-medium border border-white/10" aria-label="Language Selector">
-          <button data-language-choice="zh-Hans" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">简</button>
-          <button data-language-choice="zh-Hant" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">繁</button>
-          <button data-language-choice="en" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">EN</button>
-          <button data-language-choice="ja" class="px-2 py-1 rounded-lg transition-all text-gray-400 hover:text-white">日</button>
-        </div>
-      </div>
+<body class="document-body">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" data-localized-link href="../"><img src="../assets/freezon-icon.png" alt=""><span><span data-lang-content="zh-Hans">定格</span><span data-lang-content="zh-Hant">定格</span><span data-lang-content="en">Freezon</span><span data-lang-content="ja">Freezon</span></span></a>
+      <nav class="primary-nav" aria-label="Primary navigation"><a data-localized-link href="../support/">Support</a><a aria-current="page" data-localized-link href="./">Privacy</a></nav>
     </div>
   </header>
 
-  <!-- =========================================================================
-       MAIN PRIVACY POLICY CONTENT
-       ========================================================================= -->
-  <main class="py-16 sm:py-24 relative">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Breadcrumb -->
-      <div class="flex items-center gap-2 text-xs font-mono text-gray-400 mb-8">
-        <a href="../" data-localized-link class="hover:text-white transition-colors">Freezon</a>
-        <span>/</span>
-        <span class="text-cyan-400">Privacy Policy</span>
-      </div>
-
-      <!-- Language Panels -->
-      
-      <!-- Panel: zh-Hans -->
-      <article data-lang-content="zh-Hans" class="space-y-12">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>定格 · 隐私政策</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">隐私政策</h1>
-          <p class="text-xs font-mono text-gray-400">生效日期：2026 年 8 月 24 日</p>
-          <p class="text-lg text-cyan-300 font-medium pt-2">定格不会自动上传照片、视频或相册数据库。</p>
-          <p class="text-sm text-gray-300">相册内容、密码、密钥和备份不会保存到开发者服务器。</p>
-        </header>
-
-        <!-- Highlights -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
-            <strong class="text-white text-sm block mb-1">本机保存</strong>
-            <span class="text-xs text-gray-300">相册内容、密码和密钥保存在你的设备上。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
-            <strong class="text-white text-sm block mb-1">主动发送</strong>
-            <span class="text-xs text-gray-300">反馈和诊断只在你确认后发送。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
-            <strong class="text-white text-sm block mb-1">无广告与跟踪</strong>
-            <span class="text-xs text-gray-300">不含广告、跨 App 跟踪或行为分析。</span>
-          </div>
-        </div>
-
-        <!-- Sections -->
-        <div class="space-y-8">
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
-              <h2 class="text-xl font-bold text-white">本机数据</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">设备上的数据</h3>
-              <p>定格在本机保存加密的相册数据库和媒体副本，以及缩略图、设置和诊断记录。密码、密钥和安全恢复码仅用于保护这些内容，开发者无法读取或找回。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">“照片”访问</h3>
-              <p>获得授权后，定格只处理你选择或明确操作的“照片”项目。导入会创建本机加密副本。删除系统相册原件前，App 会再次请求确认。照片和视频不会发送给开发者。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">备份与文件提供器</h3>
-              <p>加密备份会保存到你在系统“文件”选择器中指定的位置。该位置可能由 iCloud Drive 或其他文件提供器管理，并受相应服务商的政策约束。开发者无法访问你的备份位置或备份密钥。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">地图联网</h3>
-              <p>地图联网默认关闭。开启后，Apple 地图可能接收照片拍摄地点附近的坐标；照片内容不会发送给地图服务。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
-              <h2 class="text-xl font-bold text-white">反馈与诊断</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">反馈邮件</h3>
-              <p>反馈不会自动发送。你确认使用系统邮件或分享面板发送后，所选信息才会离开设备。邮件可能包含你的邮箱地址、反馈类别和正文，以及 App、构建版本和 iOS 版本。请勿填写密码、安全恢复码、文件名或其他私密信息。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">可选诊断附件</h3>
-              <p>发送前，你可以查看诊断记录并决定是否附加。附件可能包含随机诊断编号、App 和系统版本、硬件型号、操作类别、阶段、状态、错误码、计数和耗时。诊断按设计排除照片、视频、文件名、位置、密码、安全恢复码和加密密钥。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
-              <h2 class="text-xl font-bold text-white">数据使用</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">用途与保存时间</h3>
-              <p>收到的反馈和诊断只用于回复请求、排查问题、提高稳定性和履行适用的法律义务。相关邮件和附件仅在处理请求及后续排查所需期间保存。除法律要求保留的内容外，你可以通过支持邮箱申请删除已发送的数据。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">不用于广告或分析</h3>
-              <p>定格不包含广告 SDK、跨 App 跟踪或开发者运营的行为分析服务，也不会出售个人数据。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
-              <h2 class="text-xl font-bold text-white">网站与联系</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">本网站</h3>
-              <p>本网站是没有账号系统和开发者统计脚本的静态页面，由 Cloudflare Pages / GitHub Pages 托管。服务商可能根据自身政策处理提供网页所需的基础网络日志。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">政策更新与联系</h3>
-              <p>如果定格处理数据的方式发生重要变化，本页面会更新生效日期。隐私问题、支持请求或删除申请请发送至 <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>。</p>
-            </div>
-          </section>
-        </div>
-      </article>
-
-      <!-- Panel: zh-Hant -->
-      <article data-lang-content="zh-Hant" class="space-y-12">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>定格 · 隱私權政策</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">隱私權政策</h1>
-          <p class="text-xs font-mono text-gray-400">生效日期：2026 年 8 月 24 日</p>
-          <p class="text-lg text-cyan-300 font-medium pt-2">定格不會自動上傳照片、影片或相簿資料庫。</p>
-          <p class="text-sm text-gray-300">相簿內容、密碼、金鑰與備份不會儲存至開發者伺服器。</p>
-        </header>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
-            <strong class="text-white text-sm block mb-1">儲存在本機</strong>
-            <span class="text-xs text-gray-300">相簿內容、密碼與金鑰都留在你的裝置上。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
-            <strong class="text-white text-sm block mb-1">主動傳送</strong>
-            <span class="text-xs text-gray-300">意見回饋與診斷只會在你確認後傳送。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
-            <strong class="text-white text-sm block mb-1">無廣告與追蹤</strong>
-            <span class="text-xs text-gray-300">不含廣告、跨 App 追蹤或行為分析。</span>
-          </div>
-        </div>
-
-        <div class="space-y-8">
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
-              <h2 class="text-xl font-bold text-white">本機資料</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">裝置上的資料</h3>
-              <p>定格會在本機儲存加密的相簿資料庫與媒體副本，以及縮圖、設定和診斷記錄。密碼、金鑰與安全復原碼僅用於保護這些內容，開發者無法讀取或找回。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">取用「照片」</h3>
-              <p>取得授權後，定格只會處理你選擇或明確操作的「照片」項目。匯入會建立本機加密副本。刪除「照片」中的原始檔前，App 會再次要求確認。照片與影片不會傳送給開發者。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">備份與檔案提供者</h3>
-              <p>加密備份會儲存至你在系統「檔案」選擇器中指定的位置。該位置可能由 iCloud Drive 或其他檔案提供者管理，並受相應服務商的政策約束。開發者無法存取你的備份位置或備份金鑰。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">地圖網路連線</h3>
-              <p>地圖網路連線預設關閉。開啟後，Apple 地圖可能會接收照片拍攝位置附近的座標；照片內容不會傳送給地圖服務。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
-              <h2 class="text-xl font-bold text-white">意見回饋與診斷</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">意見回饋郵件</h3>
-              <p>意見回饋不會自動傳送。你確認使用系統郵件或分享面板傳送後，所選資訊才會離開裝置。郵件可能包含你的電子郵件地址、回饋類別與內容，以及 App、Build 與 iOS 版本。請勿填寫密碼、安全復原碼、檔名或其他私人資訊。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">選用診斷附件</h3>
-              <p>傳送前，你可以查看診斷記錄並決定是否附加。附件可能包含隨機診斷編號、App 與系統版本、硬體型號、操作類別、階段、狀態、錯誤碼、計數和耗時。診斷會依設計排除照片、影片、檔名、位置、密碼、安全復原碼與加密金鑰。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
-              <h2 class="text-xl font-bold text-white">資料使用</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">用途與保存時間</h3>
-              <p>收到的意見回饋與診斷只用於回覆要求、找出問題、改善穩定性及履行適用的法律義務。相關郵件與附件僅在處理要求及後續調查所需期間保存。除法律要求保留的內容外，你可以透過支援信箱要求刪除已傳送的資料。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">不用於廣告或分析</h3>
-              <p>定格不包含廣告 SDK、跨 App 追蹤或由開發者營運的行為分析服務，也不會出售個人資料。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
-              <h2 class="text-xl font-bold text-white">網站與聯絡方式</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">本網站</h3>
-              <p>本網站是沒有帳號系統與開發者統計指令碼的靜態頁面，由 Cloudflare Pages / GitHub Pages 託管。服務商可能依其政策處理提供網頁所需的基礎網路記錄。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">政策更新與聯絡方式</h3>
-              <p>如果定格處理資料的方式有重大變更，本頁面會更新生效日期。隱私權問題、支援要求或刪除申請請寄至 <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>。</p>
-            </div>
-          </section>
-        </div>
-      </article>
-
-      <!-- Panel: en -->
-      <article data-lang-content="en" class="space-y-12">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>Freezon · Privacy Policy</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Privacy Policy</h1>
-          <p class="text-xs font-mono text-gray-400">Effective August 24, 2026</p>
-          <p class="text-lg text-cyan-300 font-medium pt-2">Freezon does not automatically upload photos, videos, or the album database.</p>
-          <p class="text-sm text-gray-300">Album content, passwords, keys, and backups are not stored on a developer server.</p>
-        </header>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
-            <strong class="text-white text-sm block mb-1">Stored locally</strong>
-            <span class="text-xs text-gray-300">Album content, passwords, and keys stay on your device.</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
-            <strong class="text-white text-sm block mb-1">Sent by choice</strong>
-            <span class="text-xs text-gray-300">Feedback and diagnostics are sent only after you confirm.</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
-            <strong class="text-white text-sm block mb-1">No ads or tracking</strong>
-            <span class="text-xs text-gray-300">No ads, cross-app tracking, or behavioral analytics.</span>
-          </div>
-        </div>
-
-        <div class="space-y-8">
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
-              <h2 class="text-xl font-bold text-white">Data on your device</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">Local storage</h3>
-              <p>Freezon stores the encrypted album database and media copies on your device, along with thumbnails, settings, and diagnostic records. Passwords, keys, and Recovery Codes are used only to protect this content. The developer cannot read or recover them.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Photos access</h3>
-              <p>After you grant access, Freezon processes only the Photos items you select or explicitly act on. Import creates a local encrypted copy. Before removing an original from Photos, the app asks you to confirm again. Photos and videos are not sent to the developer.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Backups and file providers</h3>
-              <p>Encrypted backups are saved to a location you choose with the system Files picker. That location may be managed by iCloud Drive or another file provider and is subject to that provider's policies. The developer cannot access your backup location or backup keys.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Map network access</h3>
-              <p>Map network access is off by default. If you enable it, Apple Maps may receive coordinates near where a photo was taken. Photo contents are not sent to the map service.</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
-              <h2 class="text-xl font-bold text-white">Feedback and diagnostics</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">Feedback email</h3>
-              <p>Feedback is not sent automatically. Information leaves your device only after you confirm sending through Mail or the share sheet. The email may include your email address, feedback category and message, and your app, build, and iOS versions. Do not include passwords, Recovery Codes, filenames, or other private information.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Optional diagnostic attachment</h3>
-              <p>Before sending, you can review a diagnostic record and decide whether to attach it. It may include a random diagnostic reference, app and system versions, hardware model, operation category, stages, status, error codes, counts, and timings. The diagnostic format is designed to exclude photos, videos, filenames, locations, passwords, Recovery Codes, and encryption keys.</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
-              <h2 class="text-xl font-bold text-white">Data use</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">Purpose and retention</h3>
-              <p>Feedback and diagnostics are used only to respond to requests, investigate issues, improve reliability, and meet applicable legal obligations. Related messages and attachments are kept only as long as needed to handle the request and follow-up investigation. You may request deletion by email unless the data must be retained by law.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Not used for ads or analytics</h3>
-              <p>Freezon contains no advertising SDK, cross-app tracking, or developer-operated behavioral analytics service. The developer does not sell personal data.</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
-              <h2 class="text-xl font-bold text-white">Website and contact</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">This website</h3>
-              <p>This static website has no account system or developer analytics script and is hosted by Cloudflare Pages / GitHub Pages. Providers may process basic network logs needed to provide the pages under their own policies.</p>
-              <h3 class="text-white font-semibold text-sm pt-2">Policy updates and contact</h3>
-              <p>If Freezon's data handling changes materially, the effective date on this page will be updated. For privacy questions, support, or deletion requests, email <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a>.</p>
-            </div>
-          </section>
-        </div>
-      </article>
-
-      <!-- Panel: ja -->
-      <article data-lang-content="ja" class="space-y-12">
-        <header class="space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel border-cyan-500/30 text-cyan-300 text-xs font-medium">
-            <span>Freezon · プライバシーポリシー</span>
-          </div>
-          <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">プライバシーポリシー</h1>
-          <p class="text-xs font-mono text-gray-400">施行日：2026年8月24日</p>
-          <p class="text-lg text-cyan-300 font-medium pt-2">Freezonが写真、ビデオ、アルバムデータベースを自動でアップロードすることはありません。</p>
-          <p class="text-sm text-gray-300">アルバムの内容、パスワード、暗号鍵、バックアップは、開発者のサーバーには保存されません。</p>
-        </header>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="glass-panel p-5 rounded-2xl border-cyan-500/30">
-            <strong class="text-white text-sm block mb-1">端末内に保存</strong>
-            <span class="text-xs text-gray-300">アルバムの内容、パスワード、暗号鍵は端末内に保存されます。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-purple-500/30">
-            <strong class="text-white text-sm block mb-1">確認後に送信</strong>
-            <span class="text-xs text-gray-300">フィードバックと診断情報は、確認後にのみ送信されます。</span>
-          </div>
-          <div class="glass-panel p-5 rounded-2xl border-emerald-500/30">
-            <strong class="text-white text-sm block mb-1">広告・トラッキングなし</strong>
-            <span class="text-xs text-gray-300">広告、Appをまたぐトラッキング、行動分析はありません。</span>
-          </div>
-        </div>
-
-        <div class="space-y-8">
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">01</span>
-              <h2 class="text-xl font-bold text-white">端末内のデータ</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">端末内への保存</h3>
-              <p>Freezonは、暗号化されたアルバムデータベースとメディアのコピー、サムネイル、設定、診断記録を端末内に保存します。パスワード、暗号鍵、リカバリーコードは、これらを保護するためだけに使用します。開発者が読み取ったり復元したりすることはできません。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">「写真」へのアクセス</h3>
-              <p>アクセスを許可した後も、Freezonが処理するのは、選択または明示的に操作した項目だけです。読み込みにより、端末内に暗号化コピーが作成されます。「写真」からオリジナルを削除する前に、Appでもう一度確認します。写真やビデオが開発者へ送信されることはありません。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">バックアップとファイルプロバイダ</h3>
-              <p>暗号化バックアップは、システムの「ファイル」選択画面で指定した場所に保存されます。その場所はiCloud Driveまたは別のファイルプロバイダによって管理される場合があり、各サービスのポリシーが適用されます。開発者はバックアップ先やバックアップ鍵にアクセスできません。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">地図のネットワーク接続</h3>
-              <p>地図のネットワーク接続は初期設定でオフです。有効にすると、Appleマップに写真の撮影場所付近の座標が送信される場合があります。写真の内容が地図サービスに送信されることはありません。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">02</span>
-              <h2 class="text-xl font-bold text-white">フィードバックと診断情報</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">フィードバックメール</h3>
-              <p>フィードバックが自動で送信されることはありません。メールまたは共有シートで送信を確定した後にだけ、選択した情報が端末外へ送信されます。メールには、送信元メールアドレス、フィードバックの種類と本文、App、ビルド、iOSのバージョンが含まれる場合があります。パスワード、リカバリーコード、ファイル名、その他の個人情報は入力しないでください。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">任意の診断添付ファイル</h3>
-              <p>送信前に診断記録を確認し、添付するかどうかを選べます。添付ファイルには、ランダムな診断番号、Appとシステムのバージョン、ハードウェアモデル、操作の種類、処理段階、状態、エラーコード、件数、所要時間が含まれる場合があります。診断情報は、写真、ビデオ、ファイル名、位置情報、パスワード、リカバリーコード、暗号鍵を除外する設計です。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">03</span>
-              <h2 class="text-xl font-bold text-white">データの利用</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">利用目的と保存期間</h3>
-              <p>受信したフィードバックと診断情報は、お問い合わせへの回答、問題調査、安定性の改善、適用される法的義務への対応にのみ使用します。関連するメールと添付ファイルは、回答とその後の調査に必要な期間だけ保存します。法令上保存が必要な場合を除き、送信済みデータの削除をメールで依頼できます。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">広告や分析には使用しません</h3>
-              <p>Freezonには広告SDK、Appをまたぐトラッキング、開発者が運用する行動分析サービスは含まれていません。個人データを販売することもありません。</p>
-            </div>
-          </section>
-
-          <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
-            <div class="flex items-center gap-3">
-              <span class="text-xs font-mono font-bold px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">04</span>
-              <h2 class="text-xl font-bold text-white">ウェブサイトとお問い合わせ</h2>
-            </div>
-            <div class="space-y-3 text-sm text-gray-300 leading-relaxed">
-              <h3 class="text-white font-semibold text-sm">本ウェブサイト</h3>
-              <p>本サイトは、アカウント機能や開発者の分析スクリプトを持たない静的サイトで、Cloudflare Pages / GitHub Pages によってホストされています。プロバイダは、ページ提供に必要な基本的なネットワークログを自社のポリシーに従って処理する場合があります。</p>
-              <h3 class="text-white font-semibold text-sm pt-2">ポリシーの更新とお問い合わせ</h3>
-              <p>Freezonのデータ取り扱いに重要な変更がある場合は、本ページの施行日を更新します。プライバシーに関するご質問、サポート、削除依頼は <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 underline font-semibold">zyiszyapps@163.com</a> までお送りください。</p>
-            </div>
-          </section>
-        </div>
-      </article>
-
+  <main class="page privacy-page">
+    <div class="language-switcher" aria-label="Language">
+      <a data-language-choice="zh-Hans" href="?lang=zh-Hans">简体中文</a>
+      <a data-language-choice="zh-Hant" href="?lang=zh-Hant">繁體中文</a>
+      <a data-language-choice="en" href="?lang=en">English</a>
+      <a data-language-choice="ja" href="?lang=ja">日本語</a>
     </div>
+
+    <article class="language-panel is-active" data-language-panel="zh-Hans" lang="zh-Hans">
+      <header class="document-header privacy-header">
+        <p class="eyebrow">定格</p>
+        <h1>隐私政策</h1>
+        <p class="policy-date">生效日期：2026 年 8 月 24 日</p>
+        <p class="lede">这里说明哪些数据只保存在你的设备上，以及你联系支持时可能主动发送哪些信息。</p>
+        <p class="privacy-promise">你的相册内容由你保管。定格没有用于保存相册内容的服务器，也不会自动把照片、视频、相册数据库、密码、密钥或备份发送给开发者。</p>
+      </header>
+      <ul class="privacy-highlights" aria-label="隐私摘要">
+        <li><strong>本机保存</strong><span>相册内容、密码和密钥保存在你的设备上。</span></li>
+        <li><strong>由你发送</strong><span>反馈和诊断只会在你确认后离开设备。</span></li>
+        <li><strong>不做跟踪</strong><span>没有广告、跨 App 跟踪或行为分析。</span></li>
+      </ul>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>01</span><h2>你的内容</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>设备上的数据</h3><p>定格在设备本地保存加密的相册数据库和媒体副本，以及缩略图、设置和诊断记录。密码、密钥和安全恢复码用于保护这些内容，开发者无法读取或找回。</p></section>
+          <section class="policy-topic"><h3>“照片”访问</h3><p>定格只会在你授权后访问系统“照片”，并处理你选择或明确操作的项目。导入会在本机创建加密副本。删除系统相册原件需要你单独确认，照片和视频不会发送给开发者。</p></section>
+          <section class="policy-topic"><h3>备份与文件提供器</h3><p>加密备份会保存到你在系统“文件”选择器中指定的位置。该位置可能由 iCloud Drive 或其他文件提供器管理，并受相应服务商的政策约束。开发者无法访问你的备份位置或备份密钥。</p></section>
+          <section class="policy-topic"><h3>地图联网</h3><p>地图联网默认关闭。开启后，Apple 地图可能接收照片拍摄地点附近的坐标；照片内容不会发送给地图服务。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>02</span><h2>由你决定是否发送</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>反馈邮件</h3><p>定格不会自动发送反馈。只有在你打开系统邮件编辑器或分享面板并确认发送后，所选信息才会离开设备。开发者可能收到你的发件邮箱、反馈类别和正文，以及 App、构建版本和 iOS 版本。请勿在正文中填写密码、安全恢复码、文件名或其他私密信息。</p></section>
+          <section class="policy-topic"><h3>可选诊断附件</h3><p>你可以选择一条诊断记录，在发送前查看内容，并决定是否附加。附件可能包含随机诊断编号、App 和系统版本、硬件型号、操作类别、阶段、状态、错误码、计数和耗时。诊断附件会按设计排除照片、视频、文件名、位置、密码、安全恢复码和加密密钥。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>03</span><h2>支持信息如何使用</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>用途与保存时间</h3><p>反馈和诊断只用于回复支持请求、定位问题、改进稳定性及履行适用的法律义务。相关邮件和附件仅在处理请求及合理后续工作所需期间保存。除法律要求保留的内容外，你可以通过支持邮箱申请删除已发送的数据。</p></section>
+          <section class="policy-topic"><h3>不用于广告或分析</h3><p>定格不包含广告 SDK、跨 App 跟踪或开发者运营的行为分析服务，也不会出售个人数据。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>04</span><h2>网站与联系</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>本网站</h3><p>本网站是没有账号系统和开发者统计脚本的静态页面，由 GitHub Pages 托管。GitHub 可能根据自身政策处理提供网页所需的基础网络日志。</p></section>
+          <section class="policy-topic"><h3>政策更新与联系</h3><p>如果定格处理数据的方式发生重要变化，本页面会更新生效日期。隐私问题、支持请求或删除申请请发送至 <a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a>。</p></section>
+        </div>
+      </section>
+    </article>
+
+    <article class="language-panel" data-language-panel="zh-Hant" lang="zh-Hant">
+      <header class="document-header privacy-header">
+        <p class="eyebrow">定格</p>
+        <h1>隱私權政策</h1>
+        <p class="policy-date">生效日期：2026 年 8 月 24 日</p>
+        <p class="lede">這裡說明哪些資料只會留在你的裝置上，以及聯絡支援時可能由你主動傳送哪些資訊。</p>
+        <p class="privacy-promise">你的相簿內容由你保管。定格沒有用來儲存相簿內容的伺服器，也不會自動將照片、影片、相簿資料庫、密碼、金鑰或備份傳送給開發者。</p>
+      </header>
+      <ul class="privacy-highlights" aria-label="隱私摘要">
+        <li><strong>儲存在本機</strong><span>相簿內容、密碼與金鑰都留在你的裝置上。</span></li>
+        <li><strong>由你決定傳送</strong><span>意見回饋與診斷只會在你確認後離開裝置。</span></li>
+        <li><strong>不追蹤</strong><span>沒有廣告、跨 App 追蹤或行為分析。</span></li>
+      </ul>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>01</span><h2>你的內容</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>裝置上的資料</h3><p>定格會在裝置本機儲存加密的相簿資料庫與媒體副本，以及縮圖、設定和診斷記錄。密碼、金鑰與安全復原碼用於保護這些內容，開發者無法讀取或找回。</p></section>
+          <section class="policy-topic"><h3>取用「照片」</h3><p>定格只會在你授權後取用系統「照片」，並處理你選擇或明確操作的項目。匯入會在本機建立加密副本。刪除「照片」中的原始檔需要你另行確認，照片與影片不會傳送給開發者。</p></section>
+          <section class="policy-topic"><h3>備份與檔案提供者</h3><p>加密備份會儲存至你在系統「檔案」選擇器中指定的位置。該位置可能由 iCloud Drive 或其他檔案提供者管理，並受相應服務商的政策約束。開發者無法存取你的備份位置或備份金鑰。</p></section>
+          <section class="policy-topic"><h3>地圖網路連線</h3><p>地圖網路連線預設關閉。開啟後，Apple 地圖可能會接收照片拍攝位置附近的座標；照片內容不會傳送給地圖服務。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>02</span><h2>由你決定是否傳送</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>意見回饋郵件</h3><p>定格不會自動傳送意見回饋。只有在你開啟系統郵件編輯器或分享面板並確認傳送後，所選資訊才會離開裝置。開發者可能收到你的寄件信箱、回饋類別與內容，以及 App、Build 與 iOS 版本。請勿在內容中填寫密碼、安全復原碼、檔名或其他私人資訊。</p></section>
+          <section class="policy-topic"><h3>選用診斷附件</h3><p>你可以選擇一筆診斷記錄，在傳送前查看內容，再決定是否附加。附件可能包含隨機診斷編號、App 與系統版本、硬體型號、操作類別、階段、狀態、錯誤碼、計數和耗時。診斷附件會依設計排除照片、影片、檔名、位置、密碼、安全復原碼與加密金鑰。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>03</span><h2>支援資訊如何使用</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>用途與保存時間</h3><p>意見回饋與診斷只用於回覆支援要求、找出問題、改善穩定性及履行適用的法律義務。相關郵件與附件僅在處理要求及合理後續工作所需期間保存。除法律要求保留的內容外，你可以透過支援信箱要求刪除已傳送的資料。</p></section>
+          <section class="policy-topic"><h3>不用於廣告或分析</h3><p>定格不包含廣告 SDK、跨 App 追蹤或由開發者營運的行為分析服務，也不會出售個人資料。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>04</span><h2>網站與聯絡方式</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>本網站</h3><p>本網站是沒有帳號系統與開發者統計指令碼的靜態頁面，由 GitHub Pages 託管。GitHub 可能依其政策處理提供網頁所需的基礎網路記錄。</p></section>
+          <section class="policy-topic"><h3>政策更新與聯絡方式</h3><p>如果定格處理資料的方式有重大變更，本頁面會更新生效日期。隱私權問題、支援要求或刪除申請請寄至 <a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a>。</p></section>
+        </div>
+      </section>
+    </article>
+
+    <article class="language-panel" data-language-panel="en" lang="en">
+      <header class="document-header privacy-header">
+        <p class="eyebrow">Freezon</p>
+        <h1>Privacy Policy</h1>
+        <p class="policy-date">Effective August 24, 2026</p>
+        <p class="lede">This page explains what stays on your device and what you may choose to send when contacting support.</p>
+        <p class="privacy-promise">Your album content stays in your control. Freezon has no server for storing it, and the app does not automatically send photos, videos, album databases, passwords, keys, or backups to the developer.</p>
+      </header>
+      <ul class="privacy-highlights" aria-label="Privacy summary">
+        <li><strong>Stored locally</strong><span>Album content, passwords, and keys stay on your device.</span></li>
+        <li><strong>Sent by you</strong><span>Feedback and diagnostics leave only after you confirm.</span></li>
+        <li><strong>No tracking</strong><span>No ads, cross-app tracking, or behavioral analytics.</span></li>
+      </ul>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>01</span><h2>Your content</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>Data on your device</h3><p>Freezon stores encrypted album databases and media copies on your device, along with thumbnails, settings, and diagnostic records. Passwords, keys, and Recovery Codes protect this content. The developer cannot read or recover them.</p></section>
+          <section class="policy-topic"><h3>Photos access</h3><p>Freezon accesses Photos only after you grant permission and processes only items you select or explicitly act on. Import creates a local encrypted copy. Removing an original from Photos requires separate confirmation. Photos and videos are not sent to the developer.</p></section>
+          <section class="policy-topic"><h3>Backups and file providers</h3><p>Encrypted backups are saved to a location you choose with the system Files picker. That location may be managed by iCloud Drive or another file provider and is subject to that provider's policies. The developer cannot access your backup location or backup keys.</p></section>
+          <section class="policy-topic"><h3>Map network access</h3><p>Map network access is off by default. If you enable it, Apple Maps may receive coordinates near where a photo was taken. Photo contents are not sent to the map service.</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>02</span><h2>You choose what to send</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>Feedback email</h3><p>Freezon never sends feedback automatically. Selected information leaves your device only after you open the system mail composer or share sheet and confirm sending. The developer may receive your email address, feedback category and message, and your app, build, and iOS versions. Do not include passwords, Recovery Codes, filenames, or other private information.</p></section>
+          <section class="policy-topic"><h3>Optional diagnostic attachment</h3><p>You can choose a diagnostic record, review it before sending, and decide whether to attach it. It may include a random diagnostic reference, app and system versions, hardware model, operation category, stages, status, error codes, counts, and timings. The diagnostic format is designed to exclude photos, videos, filenames, locations, passwords, Recovery Codes, and encryption keys.</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>03</span><h2>How support data is used</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>Purpose and retention</h3><p>Feedback and diagnostics are used only to respond to support requests, investigate issues, improve reliability, and meet applicable legal obligations. Related messages and attachments are kept only as long as needed to handle the request and reasonable follow-up work. You may request deletion by email unless the data must be retained by law.</p></section>
+          <section class="policy-topic"><h3>Not used for ads or analytics</h3><p>Freezon contains no advertising SDK, cross-app tracking, or developer-operated behavioral analytics service. The developer does not sell personal data.</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>04</span><h2>Website and contact</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>This website</h3><p>This static website has no account system or developer analytics script and is hosted by GitHub Pages. GitHub may process basic network logs needed to provide the pages under its own policies.</p></section>
+          <section class="policy-topic"><h3>Policy updates and contact</h3><p>If Freezon's data handling changes materially, the effective date on this page will be updated. For privacy questions, support, or deletion requests, email <a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a>.</p></section>
+        </div>
+      </section>
+    </article>
+
+    <article class="language-panel" data-language-panel="ja" lang="ja">
+      <header class="document-header privacy-header">
+        <p class="eyebrow">Freezon</p>
+        <h1>プライバシーポリシー</h1>
+        <p class="policy-date">施行日：2026年8月24日</p>
+        <p class="lede">端末内に保存されるデータと、サポートへのお問い合わせ時に送信を選べる情報について説明します。</p>
+        <p class="privacy-promise">アルバムの内容は、ご自身で管理できます。Freezonにはアルバムの内容を保存するサーバーはなく、写真、ビデオ、アルバムデータベース、パスワード、暗号鍵、バックアップが開発者へ自動送信されることもありません。</p>
+      </header>
+      <ul class="privacy-highlights" aria-label="プライバシーの概要">
+        <li><strong>端末内に保存</strong><span>アルバムの内容、パスワード、暗号鍵は端末内に保存されます。</span></li>
+        <li><strong>送信はご自身で</strong><span>フィードバックと診断情報は、確認後にのみ端末外へ送信されます。</span></li>
+        <li><strong>トラッキングなし</strong><span>広告、Appをまたぐトラッキング、行動分析はありません。</span></li>
+      </ul>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>01</span><h2>お客様のコンテンツ</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>端末内のデータ</h3><p>Freezonは、暗号化されたアルバムデータベースとメディアのコピー、サムネイル、設定、診断記録を端末内に保存します。パスワード、暗号鍵、リカバリーコードはこれらを保護するために使われ、開発者が読み取ったり復元したりすることはできません。</p></section>
+          <section class="policy-topic"><h3>「写真」へのアクセス</h3><p>Freezonは、許可を得た後にのみ「写真」へアクセスし、選択または明示的に操作した項目だけを処理します。読み込みにより、端末内に暗号化コピーが作成されます。「写真」からオリジナルを削除するには別途確認が必要です。写真やビデオが開発者へ送信されることはありません。</p></section>
+          <section class="policy-topic"><h3>バックアップとファイルプロバイダ</h3><p>暗号化バックアップは、システムの「ファイル」選択画面で指定した場所に保存されます。その場所はiCloud Driveまたは別のファイルプロバイダによって管理される場合があり、各サービスのポリシーが適用されます。開発者はバックアップ先やバックアップ鍵にアクセスできません。</p></section>
+          <section class="policy-topic"><h3>地図のネットワーク接続</h3><p>地図のネットワーク接続は初期設定でオフです。有効にすると、Appleマップに写真の撮影場所付近の座標が送信される場合があります。写真の内容が地図サービスに送信されることはありません。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>02</span><h2>送信する情報はご自身で選べます</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>フィードバックメール</h3><p>Freezonがフィードバックを自動送信することはありません。システムのメール作成画面または共有シートを開き、送信を確定した場合にのみ、選択した情報が端末外へ送信されます。開発者は、送信元メールアドレス、フィードバックの種類と本文、App、ビルド、iOSのバージョンを受け取る場合があります。パスワード、リカバリーコード、ファイル名、その他の個人情報は入力しないでください。</p></section>
+          <section class="policy-topic"><h3>任意の診断添付ファイル</h3><p>診断記録を選択し、送信前に内容を確認して、添付するかどうかを決められます。添付ファイルには、ランダムな診断番号、Appとシステムのバージョン、ハードウェアモデル、操作の種類、処理段階、状態、エラーコード、件数、所要時間が含まれる場合があります。診断情報は、写真、ビデオ、ファイル名、位置情報、パスワード、リカバリーコード、暗号鍵を除外する設計です。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>03</span><h2>サポート情報の利用</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>利用目的と保存期間</h3><p>フィードバックと診断情報は、サポートへの回答、問題調査、安定性の改善、適用される法的義務への対応にのみ使用します。関連するメールと添付ファイルは、対応および合理的な追加調査に必要な期間だけ保存します。法令上保存が必要な場合を除き、送信済みデータの削除をメールで依頼できます。</p></section>
+          <section class="policy-topic"><h3>広告や分析には使用しません</h3><p>Freezonには広告SDK、Appをまたぐトラッキング、開発者が運用する行動分析サービスは含まれていません。個人データを販売することもありません。</p></section>
+        </div>
+      </section>
+      <section class="policy-group">
+        <header class="policy-group-header"><span>04</span><h2>ウェブサイトとお問い合わせ</h2></header>
+        <div class="policy-group-body">
+          <section class="policy-topic"><h3>本ウェブサイト</h3><p>本サイトは、アカウント機能や開発者の分析スクリプトを持たない静的サイトで、GitHub Pagesによってホストされています。GitHubは、ページ提供に必要な基本的なネットワークログを自社のポリシーに従って処理する場合があります。</p></section>
+          <section class="policy-topic"><h3>ポリシーの更新とお問い合わせ</h3><p>Freezonのデータ取り扱いに重要な変更がある場合は、本ページの施行日を更新します。プライバシーに関するご質問、サポート、削除依頼は <a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a> までお送りください。</p></section>
+        </div>
+      </section>
+    </article>
   </main>
 
-  <!-- Global Footer -->
-  <footer class="border-t border-white/10 bg-[#02050e]/90 py-12 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-      <div class="flex items-center gap-3">
-        <img src="../assets/freezon-icon.png" class="w-6 h-6 rounded-md" alt="">
-        <span>
-          <span data-lang-content="zh-Hans">© 2026 定格 / Freezon. 保留所有权利。</span>
-          <span data-lang-content="zh-Hant">© 2026 定格 / Freezon. 保留所有權利。</span>
-          <span data-lang-content="en">© 2026 Freezon. All rights reserved.</span>
-          <span data-lang-content="ja">© 2026 Freezon. All rights reserved.</span>
-        </span>
-      </div>
-      <div>
-        <a href="mailto:zyiszyapps@163.com" class="text-cyan-400 hover:underline">zyiszyapps@163.com</a>
-      </div>
-    </div>
-  </footer>
-
+  <footer class="site-footer document-footer"><p>© 2026 Freezon</p><p><a href="mailto:zyiszyapps@163.com">zyiszyapps@163.com</a></p></footer>
 </body>
 </html>
 
