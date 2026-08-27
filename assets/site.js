@@ -4,10 +4,10 @@
   const locales = { "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", en: "en_US", ja: "ja_JP" };
   const pageContent = {
     home: {
-      "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机。", "日常相册与私密相册分别加密。照片、视频和相册资料不会自动上传到开发者服务器。"],
-      "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機。", "日常相簿與私密相簿分別加密。照片、影片與相簿資料不會自動上傳到開發者伺服器。"],
-      en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device.", "Everyday Album and Private Album are encrypted separately. Photos, videos, and album data are not uploaded to developer servers automatically."],
-      ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。", "2つのアルバムは別々に暗号化されます。写真、ビデオ、アルバムデータが開発者サーバーへ自動送信されることはありません。"]
+      "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。"],
+      "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機。", "日常相簿與私密相簿分別加密，照片與影片保存在 iPhone 本機。"],
+      en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device.", "Everyday Album and Private Album are encrypted separately, with photos and videos stored on your iPhone."],
+      ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。", "2つのアルバムは別々に暗号化され、写真とビデオは iPhone 本体に保存されます。"]
     },
     support: {
       "zh-Hans": ["支持 - Freezon / 定格", "Freezon / 定格的密码、安全恢复码、备份、导入和诊断支持信息。", "获取 Freezon / 定格的密码、备份、恢复、导入和诊断帮助。"],
@@ -104,7 +104,7 @@
     updateInterfaceLabels(lang);
     window.updateCarouselLabels?.();
     const heroImage = document.querySelector(".hero-screen img");
-    const heroAlt = { "zh-Hans": "定格真机界面：照片网格", "zh-Hant": "定格實機畫面：照片網格", en: "Freezon app screen: Photo grid", ja: "Freezonの実機画面：写真グリッド" };
+    const heroAlt = { "zh-Hans": "定格锁定界面", "zh-Hant": "定格鎖定畫面", en: "Freezon lock screen", ja: "Freezonのロック画面" };
     if (heroImage) heroImage.alt = heroAlt[lang];
     if (window.lucide) window.lucide.createIcons();
   };
@@ -152,24 +152,18 @@
     if (gallery && !gallery.dataset.expanded) {
       gallery.dataset.expanded = "true";
       const screens = [
-        ["b50cedc2138720d66050d78b5d5ef2b9.jpg", ["照片网格", "照片網格", "Photo grid", "写真グリッド"]],
-        ["9eb4e735a3f4096b514517e5cc0f4f66.png", ["选择照片", "選擇照片", "Photo selection", "写真を選択"]],
-        ["8d81422aab85dc587680e8bd098c281f.png", ["确认导入", "確認匯入", "Import confirmation", "読み込みの確認"]],
-        ["0dbd4a530c01efea743e587a3ccdf208.png", ["准备原图", "準備原始檔", "Preparing originals", "オリジナルを準備"]],
-        ["0b505a9341066f3e4b32a28e577a3c17.png", ["选择要移动的照片", "選擇要移動的照片", "Select photos to move", "移動する写真を選択"]],
-        ["7a03eca1425a535efed6f99d3792b201.png", ["移动进度", "移動進度", "Move progress", "移動の進捗"]],
-        ["6047cf48b866462b583dd83d2c859699.png", ["清理原图", "清理原始檔", "Original cleanup", "オリジナルを整理"]],
-        ["38b915ea324fbac586057e2774e21864.png", ["待清理原图", "待清理原始檔", "Pending Deletion", "削除待ち写真"]],
-        ["2ad9b19fb7a339bd440e24b6c27bdb35.jpg", ["照片信息", "照片資訊", "Photo information", "写真情報"]],
-        ["8cba85af475761f6fa7d13fb5074d2d5.jpg", ["照片地图", "照片地圖", "Photo map", "写真の地図"]],
-        ["71e249835e0560dc8c81b2cdbc72369a.png", ["加密备份", "加密備份", "Encrypted backup", "暗号化バックアップ"]]
+        ["b50cedc2138720d66050d78b5d5ef2b9.jpg", ["浏览照片", "瀏覽照片", "Browse photos", "写真を見る"]],
+        ["9eb4e735a3f4096b514517e5cc0f4f66.png", ["从系统照片中选择", "從系統照片中選擇", "Choose from Photos", "「写真」から選択"]],
+        ["8d81422aab85dc587680e8bd098c281f.png", ["确认所选照片", "確認所選照片", "Review selected photos", "選択した写真を確認"]],
+        ["2ad9b19fb7a339bd440e24b6c27bdb35.jpg", ["查看照片信息", "查看照片資訊", "View photo details", "写真情報を見る"]],
+        ["8cba85af475761f6fa7d13fb5074d2d5.jpg", ["在地图上浏览", "在地圖上瀏覽", "Browse on a map", "地図で見る"]]
       ];
       gallery.replaceChildren();
       screens.forEach(([file, labels]) => {
         const base = file.replace(/\.[^.]+$/, "");
         const figure = document.createElement("figure");
         figure.className = "ui-figure";
-        figure.innerHTML = `<div class="ui-image-wrap"><picture><source type="image/webp" srcset="./assets/realscreens/optimized/${base}-480.webp 480w, ./assets/realscreens/optimized/${base}-800.webp 800w" sizes="(max-width: 520px) calc(100vw - 36px), 380px"><img src="./assets/realscreens/${file}" alt="Freezon app screen: ${labels[2]}" width="1206" height="2622" loading="lazy" decoding="async"></picture></div><figcaption><span data-lang-content="zh-Hans">${labels[0]}</span><span data-lang-content="zh-Hant">${labels[1]}</span><span data-lang-content="en">${labels[2]}</span><span data-lang-content="ja">${labels[3]}</span></figcaption>`;
+        figure.innerHTML = `<div class="ui-image-wrap"><picture><source type="image/webp" srcset="./assets/realscreens/optimized/${base}-480.webp 480w, ./assets/realscreens/optimized/${base}-800.webp 800w" sizes="(max-width: 520px) min(calc(100vw - 36px), 280px), 320px"><img src="./assets/realscreens/${file}" alt="Freezon app screen: ${labels[2]}" width="1206" height="2622" loading="lazy" decoding="async"></picture></div><figcaption><span data-lang-content="zh-Hans">${labels[0]}</span><span data-lang-content="zh-Hant">${labels[1]}</span><span data-lang-content="en">${labels[2]}</span><span data-lang-content="ja">${labels[3]}</span></figcaption>`;
         gallery.appendChild(figure);
       });
 
