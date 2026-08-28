@@ -6,10 +6,10 @@
   const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン" };
   const pageContent = {
     home: {
-      "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机，当前免费使用且没有广告打扰。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。当前免费使用，没有开屏广告或摇一摇等打扰。"],
-      "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機，目前免費使用且沒有廣告打擾。", "日常相簿與私密相簿分別加密，照片與影片保存在 iPhone 本機。目前免費使用，沒有開屏廣告或搖一搖等打擾。"],
-      en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device. It is currently free with no advertising interruptions.", "Everyday Album and Private Album are encrypted separately, with photos and videos stored on your iPhone. Currently free, with no splash-screen ads or shake-triggered interruptions."],
-      ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。現在は無料で、広告による中断もありません。", "2つのアルバムは別々に暗号化され、写真とビデオは iPhone 本体に保存されます。現在は無料で、起動画面の広告や振る操作による広告表示はありません。"]
+      "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机，免费使用且没有广告打扰。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。免费使用，没有开屏广告或摇一摇等打扰。"],
+      "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機，免費使用且沒有廣告打擾。", "日常相簿與私密相簿分別加密，照片與影片保存在 iPhone 本機。免費使用，沒有開屏廣告或搖一搖等打擾。"],
+      en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device. It is free to use with no advertising interruptions.", "Everyday Album and Private Album are encrypted separately, with photos and videos stored on your iPhone. Free to use, with no splash-screen ads or shake-triggered interruptions."],
+      ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。無料で利用でき、広告による中断もありません。", "2つのアルバムは別々に暗号化され、写真とビデオは iPhone 本体に保存されます。無料で利用でき、起動画面の広告や振る操作による広告表示はありません。"]
     },
     support: {
       "zh-Hans": ["支持 - Freezon / 定格", "Freezon / 定格的密码、安全恢复码、备份、导入和诊断支持信息。", "获取 Freezon / 定格的密码、备份、恢复、导入和诊断帮助。"],
