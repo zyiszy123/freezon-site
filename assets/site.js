@@ -285,6 +285,181 @@
       startAutoplay();
     }
 
+    const initAmbientCanvas = () => {
+      const canvas = document.getElementById("ambient-canvas");
+      if (!canvas) return;
+      const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
+      if (reducedMotion || navigator.connection?.saveData) return;
+      const ctx = canvas.getContext("2d", { alpha: true });
+      if (!ctx) return;
+
+      let width = 1;
+      let height = 1;
+      let particles = [];
+      const pointer = { x: -10000, y: -10000, active: false };
+
+      const colors = [
+        "rgba(255, 255, 255, 0.20)",
+        "rgba(155, 200, 209, 0.18)",
+        "rgba(255, 255, 255, 0.11)",
+        "rgba(155, 200, 209, 0.08)"
+      ];
+
+      const getCount = () => {
+        const isCoarse = window.matchMedia?.("(pointer: coarse)")?.matches;
+        const density = isCoarse ? 0.4 : 0.8;
+        const base = Math.floor((width * height) / 9000 * density);
+        return Math.min(Math.max(base, 40), isCoarse ? 60 : 130);
+      };
+
+      const createParticle = (i) => {
+        const seed = i * 13.579;
+        const rand = (s) => (Math.sin(s) * 10000) % 1;
+        const r1 = Math.abs(rand(seed));
+        const r2 = Math.abs(rand(seed + 1));
+        return {
+          x: r1 * width,
+          y: r2 * height,
+          vx: 0,
+          vy: 0,
+          seed: Math.abs(rand(seed + 2)) * 1000,
+          color: colors[i % colors.length],
+          size: 0.85 + Math.abs(rand(seed + 3)) * 0.35
+        };
+      };
+
+      const resize = () => {
+        const rect = canvas.getBoundingClientRect();
+        width = Math.max(1, Math.floor(rect.width));
+        height = Math.max(1, Math.floor(rect.height));
+        const dpr = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        particles = Array.from({ length: getCount() }, (_, i) => createParticle(i));
+      };
+
+      window.addEventListener("pointermove", (e) => {
+        const rect = canvas.getBoundingClientRect();
+        pointer.x = e.clientX - rect.left;
+        pointer.y = e.clientY - rect.top;
+        pointer.active = true;
+      }, { passive: true });
+
+      window.addEventListener("blur", () => { pointer.active = false; pointer.x = -10000; pointer.y = -10000; });
+      window.addEventListener("resize", resize, { passive: true });
+      resize();
+
+      let lastTime = performance.now();
+      let isRunning = true;
+      let animId = null;
+
+      const loop = (now) => {
+        if (!isRunning) return;
+        const dt = Math.min(Math.max((now - lastTime) / 16, 0.5), 2.5);
+        lastTime = now;
+
+        ctx.save();
+        ctx.globalCompositeOperation = "destination-out";
+        ctx.fillStyle = "rgba(0, 0, 0, 0.10)";
+        ctx.fillRect(0, 0, width, height);
+        ctx.restore();
+
+        ctx.save();
+        ctx.globalCompositeOperation = "lighter";
+
+        const influenceRadius = 240;
+        const swirlStrength = 0.85;
+
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          const oldX = p.x;
+          const oldY = p.y;
+
+          const timeVal = now * 0.00035;
+          const angle = (
+            Math.sin(p.x * 0.0016 + timeVal + p.seed * 0.01) +
+            Math.cos(p.y * 0.0016 - timeVal + p.seed * 0.01) +
+            Math.sin((p.x + p.y) * 0.0010 + timeVal)
+          ) * Math.PI;
+
+          const accel = 0.06;
+          p.vx = p.vx * 0.92 + Math.cos(angle) * accel;
+          p.vy = p.vy * 0.92 + Math.sin(angle) * accel;
+
+          if (pointer.active) {
+            const dx = p.x - pointer.x;
+            const dy = p.y - pointer.y;
+            const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+            if (dist < influenceRadius) {
+              const factor = (1 - dist / influenceRadius) * swirlStrength;
+              p.vx += (-dy / dist) * factor;
+              p.vy += (dx / dist) * factor;
+            }
+          }
+
+          const newX = oldX + p.vx * dt;
+          const newY = oldY + p.vy * dt;
+          p.x = newX;
+          p.y = newY;
+
+          // Delicate fine stream line
+          ctx.strokeStyle = p.color;
+          ctx.lineWidth = p.size;
+          ctx.beginPath();
+          ctx.moveTo(oldX, oldY);
+          ctx.lineTo(newX, newY);
+          ctx.stroke();
+
+          if (newX < -30 || newX > width + 30 || newY < -30 || newY > height + 30) {
+            p.x = Math.random() * width;
+            p.y = Math.random() * height;
+            p.vx = 0;
+            p.vy = 0;
+          }
+        }
+
+        ctx.restore();
+        animId = window.requestAnimationFrame(loop);
+      };
+
+      animId = window.requestAnimationFrame(loop);
+
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+          isRunning = false;
+          if (animId) window.cancelAnimationFrame(animId);
+          animId = null;
+        } else {
+          if (!isRunning) {
+            isRunning = true;
+            lastTime = performance.now();
+            animId = window.requestAnimationFrame(loop);
+          }
+        }
+      });
+    };
+
+    const initScrollReveal = () => {
+      const targets = document.querySelectorAll(".section, .feature-proof, .album-pair article, .principle-grid article, .quiet-content, .contact-block");
+      if (!targets.length) return;
+      targets.forEach((el) => el.classList.add("reveal-on-scroll"));
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-revealed");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: "0px 0px -30px 0px" });
+
+      targets.forEach((el) => observer.observe(el));
+    };
+
+    initAmbientCanvas();
+    initScrollReveal();
+
     document.querySelectorAll("[data-language-choice]").forEach((choice) => {
       choice.addEventListener("click", () => setLanguage(choice.dataset.languageChoice));
     });

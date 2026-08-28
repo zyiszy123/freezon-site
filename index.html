@@ -28,11 +28,16 @@
   <meta name="twitter:description" content="日常相册与私密相册分别加密，内容保存在 iPhone 本机。免费使用，没有开屏广告或摇一摇等打扰。">
   <meta name="twitter:image" content="https://freezonapp.com/assets/freezon-icon.png">
   <link rel="icon" href="./assets/freezon-icon.png">
-  <link rel="stylesheet" href="./assets/site.css?v=20260828-17">
-  <script defer src="./assets/site.js?v=20260828-20"></script>
+  <link rel="stylesheet" href="./assets/site.css?v=20260828-24">
+  <script defer src="./assets/site.js?v=20260828-24"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Freezon / 定格","applicationCategory":"PhotographyApplication","operatingSystem":"iOS 26 or later","description":"面向 iPhone 的双层私密相册，提供本机加密、无损媒体导入导出与加密备份。","url":"https://freezonapp.com/","image":"https://freezonapp.com/assets/freezon-icon.png"}</script>
 </head>
 <body class="home-page">
+  <div class="ambient-backdrop" aria-hidden="true">
+    <div class="ambient-glow"></div>
+    <canvas id="ambient-canvas" class="ambient-canvas"></canvas>
+  </div>
+
   <a class="skip-link" href="#main-content">
     <span data-lang-content="zh-Hans">跳到主要内容</span>
     <span data-lang-content="zh-Hant">跳到主要內容</span>
@@ -89,10 +94,10 @@
         <div class="hero-inner">
           <div class="hero-mark" aria-hidden="true"><span></span><span></span><span></span></div>
           <h1 id="hero-title">
-            <span data-lang-content="zh-Hans">双层相册，<br><em>各自加密。</em></span>
-            <span data-lang-content="zh-Hant">雙層相簿，<br><em>各自加密。</em></span>
-            <span data-lang-content="en">Two albums,<br><em>encrypted separately.</em></span>
-            <span data-lang-content="ja">2つのアルバム。<br><em>別々に暗号化。</em></span>
+            <span data-lang-content="zh-Hans">双层相册，<br><span class="hero-highlight">各自加密。<svg class="hero-stroke" viewBox="0 0 100 14" preserveAspectRatio="none" aria-hidden="true"><path d="M1 8 C 26 14, 54 1, 99 7" fill="none" stroke="rgba(155, 200, 209, 0.92)" stroke-width="2.6" stroke-linecap="round" vector-effect="non-scaling-stroke" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"></path></svg></span></span>
+            <span data-lang-content="zh-Hant">雙層相簿，<br><span class="hero-highlight">各自加密。<svg class="hero-stroke" viewBox="0 0 100 14" preserveAspectRatio="none" aria-hidden="true"><path d="M1 8 C 26 14, 54 1, 99 7" fill="none" stroke="rgba(155, 200, 209, 0.92)" stroke-width="2.6" stroke-linecap="round" vector-effect="non-scaling-stroke" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"></path></svg></span></span>
+            <span data-lang-content="en">Two albums,<br><span class="hero-highlight">encrypted separately.<svg class="hero-stroke" viewBox="0 0 100 14" preserveAspectRatio="none" aria-hidden="true"><path d="M1 8 C 26 14, 54 1, 99 7" fill="none" stroke="rgba(155, 200, 209, 0.92)" stroke-width="2.6" stroke-linecap="round" vector-effect="non-scaling-stroke" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"></path></svg></span></span>
+            <span data-lang-content="ja">2つのアルバム。<br><span class="hero-highlight">別々に暗号化。<svg class="hero-stroke" viewBox="0 0 100 14" preserveAspectRatio="none" aria-hidden="true"><path d="M1 8 C 26 14, 54 1, 99 7" fill="none" stroke="rgba(155, 200, 209, 0.92)" stroke-width="2.6" stroke-linecap="round" vector-effect="non-scaling-stroke" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"></path></svg></span></span>
           </h1>
           <p class="hero-copy">
             <span data-lang-content="zh-Hans">日常相册和私密相册使用不同密码。输入哪组密码，就进入对应相册。照片和视频保存在 iPhone 本机的加密存储中。</span>
