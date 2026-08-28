@@ -889,6 +889,11 @@ html[lang="en"] .ui-caption-en, html[lang="ja"] .ui-caption-en { display: inline
 }
 
 /* Support and privacy documents */
+.document-body {
+  background-color: var(--ink);
+  background-image: radial-gradient(120% 60% at 50% -8%, rgba(58, 60, 72, 0.18) 0%, rgba(10, 11, 14, 0) 56%);
+  background-attachment: scroll;
+}
 .document-body .site-header {
   position: sticky;
   top: 16px;
