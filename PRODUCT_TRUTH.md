@@ -34,6 +34,10 @@
 | 后台隐私遮罩与屏幕捕获保护 | VERIFIED | `App/Lifecycle/PrivacyShieldWindowController.swift`；`BackgroundSecurityBarrier.swift`；`ScreenCaptureMonitor.swift`；`App/RootView.swift` | `VaultFeatureStoreTests.swift` privacy snapshot / shield 测试 | 是，避免“绝对防护” | “进入后台或屏幕捕获状态时，界面会隐藏敏感内容” | 当前截图目录未采集遮罩路由 |
 | 诊断记录与手动反馈 | PARTIAL | `Features/Shared/VaultFeatureStore.swift` 诊断入口；support/privacy 页面 | `ImportReportUITests.swift` 诊断入口断言 | 是，需说明发送前确认 | “反馈或诊断信息在发送前由你确认” | 否 |
 | 媒体自动上传开发者服务器 | VERIFIED（否定声明） | `privacy/index.html`；产品网络边界实现与配置审计 | 隐私政策审计；未发现自动上传服务入口 | 是 | “不会自动上传照片、视频或相册资料到开发者服务器” | 否 |
+| 当前生产版本免费使用 | VERIFIED | `PrivateVault/PrivateVault/Commerce/CommerceConfiguration.swift`（`production = .disabled`）；`PrivateVault/PrivateVault/Commerce/CommerceRuntime.swift` | `CommerceModelsTests.swift`、`CommerceRuntimeTests.swift` 验证默认商业模式为 disabled | 是 | “当前免费使用” | 否 |
+| 当前无广告与摇一摇打扰 | VERIFIED（否定声明） | App 源码审计未发现广告 SDK、开屏广告或 `CoreMotion` 摇一摇触发逻辑；Commerce 访问策略未启用限制 | 静态搜索与配置审计 | 是 | “没有开屏广告，也没有摇一摇等打扰” | 否 |
+| 首批用户永久免费 | POLICY | 产品方在 2026-08-28 确认的首批用户政策；代码仅预留 `earlyAdopterLifetime` 权益模型，当前未配置版本范围 | 不是当前代码能力，不应据此声称已完成自动绑定 | 是，作为产品政策公开 | “首批用户永久免费” | 否 |
+| 后续买断制 | PLANNED | Commerce 模块预留 `nonConsumableLifetime` 与 StoreKit 商品配置，但当前没有真实商品 ID 且生产模式 disabled | 无当前上线购买流程证据 | 否，暂不作为当前功能或价格承诺 | 不公开未来价格安排 | 否 |
 | SQLCipher 数据库实现 | VERIFIED | `PrivateVault/PrivateVault/Storage/SQLCipherConnection.swift`；`PrivateVault/PrivateVault/Storage/LayerStoreActor.swift` | `PrivateVaultTests/Storage/SQLCipherConnectionTests.swift`；`LayerStoreActorTests.swift` | 不公开算法名，只作为“本机加密存储”的内部证据 | “内容保存在本机加密存储中” | 否 |
 | Secure Enclave、硬件级 AES、绝对安全、零泄漏风险 | REJECTED | 没有对应公开承诺证据，且绝对安全表述不适合作为产品承诺 | 无可支持官网绝对化文案的证据 | 否 | 不公开 | 否 |
 | 断点续传、局域网点对点迁移 | UNVERIFIED | README / ROADMAP 只能作为线索，未找到完成度证据 | 无足够端到端测试证据 | 否 | 不公开 | 否 |
