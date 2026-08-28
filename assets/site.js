@@ -127,7 +127,7 @@
     window._freezonToast = setTimeout(() => toast.classList.remove("show"), duration);
   };
 
-  window.copyEmail = (email = "zyiszyapps@163.com") => {
+  window.copyEmail = (email = "freezonapp@163.com") => {
     const fallback = () => { window.location.href = `mailto:${email}`; };
     if (!navigator.clipboard?.writeText) return fallback();
     navigator.clipboard.writeText(email).then(() => {
@@ -161,6 +161,7 @@
       gallery.dataset.expanded = "true";
       const screens = [
         ["b50cedc2138720d66050d78b5d5ef2b9.jpg", ["浏览照片", "瀏覽照片", "Browse photos", "写真を見る"]],
+        ["d92a0ef4571882a7be5ae710bd2c3f22.jpg", ["相册总览", "相簿總覽", "Album overview", "アルバム一覧"]],
         ["9eb4e735a3f4096b514517e5cc0f4f66.png", ["从系统照片中选择", "從系統照片中選擇", "Choose from Photos", "「写真」から選択"]],
         ["8d81422aab85dc587680e8bd098c281f.png", ["确认所选照片", "確認所選照片", "Review selected photos", "選択した写真を確認"]],
         ["2ad9b19fb7a339bd440e24b6c27bdb35.jpg", ["查看照片信息", "查看照片資訊", "View photo details", "写真情報を見る"]],
