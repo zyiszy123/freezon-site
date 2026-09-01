@@ -2,7 +2,7 @@
   const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
   const aliases = { "zh-cn": "zh-Hans", "zh-sg": "zh-Hans", "zh-hans": "zh-Hans", "zh-tw": "zh-Hant", "zh-hk": "zh-Hant", "zh-hant": "zh-Hant", en: "en", ja: "ja" };
   const locales = { "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", en: "en_US", ja: "ja_JP" };
-  const pagePaths = { home: "/", support: "/support/", privacy: "/privacy/" };
+  const pagePaths = { home: "/", support: "/support/freezon/", privacy: "/privacy/freezon/" };
   const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン" };
   const pageContent = {
     home: {
