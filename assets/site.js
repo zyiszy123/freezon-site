@@ -2,8 +2,15 @@
   const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
   const aliases = { "zh-cn": "zh-Hans", "zh-sg": "zh-Hans", "zh-hans": "zh-Hans", "zh-tw": "zh-Hant", "zh-hk": "zh-Hant", "zh-hant": "zh-Hant", en: "en", ja: "ja" };
   const locales = { "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", en: "en_US", ja: "ja_JP" };
-  const pagePaths = { home: "/", support: "/support/freezon/", privacy: "/privacy/freezon/" };
+  const pagePaths = {
+    home: "/",
+    support: "/support/freezon/",
+    privacy: "/privacy/freezon/",
+    "support-banner": "/support/freezon-banner/",
+    "privacy-banner": "/privacy/freezon-banner/"
+  };
   const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン" };
+  const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン" };
   const pageContent = {
     home: {
       "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机，免费使用且没有广告打扰。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。免费使用，没有开屏广告或摇一摇等打扰。"],
@@ -22,6 +29,18 @@
       "zh-Hant": ["隱私權政策 - Freezon / 定格", "Freezon / 定格隱私權政策：瞭解哪些資料保存在裝置上，以及哪些資訊只會在你確認後傳送。", "Freezon / 定格說明裝置本機資料、選用診斷與支援資訊的處理方式。"],
       en: ["Privacy Policy - Freezon", "Freezon Privacy Policy: learn what stays on your device and what is sent only after you confirm.", "Freezon explains how on-device data, optional diagnostics, and support information are handled."],
       ja: ["プライバシーポリシー - Freezon", "Freezonのプライバシーポリシーです。端末内に保存されるデータと、確認後にのみ送信される情報について説明します。", "Freezonにおける端末内データ、任意の診断情報、サポート情報の取り扱いについて説明します。"]
+    },
+    "support-banner": {
+      "zh-Hans": ["支持 - 定格手持弹幕", "定格手持弹幕支持：开始使用、全屏展示、最近使用与收藏及联系支持信息。", "获取定格手持弹幕的使用指南、全屏展示与支持帮助。"],
+      "zh-Hant": ["支援 - 定格手持彈幕", "定格手持彈幕支援：開始使用、全螢幕展示、最近使用與收藏及聯絡支援資訊。", "取得定格手持彈幕的使用指南、全螢幕展示與支援協助。"],
+      en: ["Support - Handheld Banner", "Handheld Banner support: get started, full-screen display, recent items, favorites, and contact support.", "Get help with Handheld Banner editing, full-screen display, and support."],
+      ja: ["サポート - 定格手持弹幕", "定格手持弹幕サポート：使い始める、全画面表示、最近使った項目とお気に入り、お問い合わせ。", "定格手持弹幕の利用ガイド、全画面表示、サポート情報についてご案内します。"]
+    },
+    "privacy-banner": {
+      "zh-Hans": ["隐私政策 - 定格手持弹幕", "定格手持弹幕隐私政策：了解哪些数据保存在设备上，以及我们不自动收集数据的原则。", "定格手持弹幕说明设备本机数据、删除与支持信息的处理方式。"],
+      "zh-Hant": ["隱私權政策 - 定格手持彈幕", "定格手持彈幕隱私權政策：瞭解哪些資料儲存在裝置上，以及我們不自動收集資料的原則。", "定格手持彈幕說明裝置本機資料、刪除與支援資訊的處理方式。"],
+      en: ["Privacy Policy - Handheld Banner", "Handheld Banner Privacy Policy: learn what stays on your device and our no-automatic-collection commitment.", "Handheld Banner explains on-device data handling, deletion, and support contact."],
+      ja: ["プライバシーポリシー - 定格手持弹幕", "定格手持弹幕プライバシーポリシー：端末内に保存されるデータと、自動収集を行わない方針について説明します。", "定格手持弹幕における端末内データ、削除、サポートに関する取り扱いについて説明します。"]
     }
   };
   const interfaceLabels = {
@@ -47,22 +66,25 @@
 
   const pageName = () => {
     if (document.body.classList.contains("home-page")) return "home";
-    if (window.location.pathname.includes("privacy")) return "privacy";
-    return "support";
+    const isBanner = window.location.pathname.includes("freezon-banner") || document.body.dataset.product === "freezon-banner";
+    if (window.location.pathname.includes("privacy")) return isBanner ? "privacy-banner" : "privacy";
+    return isBanner ? "support-banner" : "support";
   };
 
   const updateMetadata = (lang) => {
-    const content = pageContent[pageName()]?.[lang];
+    const key = pageName();
+    const content = pageContent[key]?.[lang];
     if (!content) return;
     document.title = content[0];
     document.querySelector('meta[name="description"]')?.setAttribute("content", content[1]);
     document.querySelector('meta[property="og:title"]')?.setAttribute("content", content[0]);
     document.querySelector('meta[property="og:description"]')?.setAttribute("content", content[2]);
     document.querySelector('meta[property="og:locale"]')?.setAttribute("content", locales[lang]);
-    document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", imageAlts[lang]);
+    const alts = key.endsWith("-banner") ? bannerImageAlts : imageAlts;
+    document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", alts[lang]);
     document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", content[0]);
     document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", content[2]);
-    const canonicalURL = `https://freezonapp.com${pagePaths[pageName()]}?lang=${lang}`;
+    const canonicalURL = `https://freezonapp.com${pagePaths[key]}?lang=${lang}`;
     document.querySelector('link[rel="canonical"]')?.setAttribute("href", canonicalURL);
     document.querySelector('meta[property="og:url"]')?.setAttribute("content", canonicalURL);
   };
