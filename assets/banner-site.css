@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Banner Display";
-  src: url("./banner/fonts/SmileySans-Oblique.ttf") format("truetype");
+  src: url("./banner/fonts/SmileySans-Oblique.woff2") format("woff2"),
+       url("./banner/fonts/SmileySans-Oblique.ttf") format("truetype");
   font-display: swap;
   font-style: oblique;
   font-weight: 400;

@@ -28,9 +28,36 @@
   <meta name="twitter:description" content="静态大字、滚动字幕、霓虹文字和复古点阵，把 iPhone 或 iPad 变成现场灯牌。">
   <meta name="twitter:image" content="https://freezonapp.com/assets/banner/zh-Hans/ipad/01-banner.webp">
   <link rel="icon" href="../assets/freezon-banner-icon.png">
-  <link rel="preload" href="../assets/banner/fonts/SmileySans-Oblique.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="../assets/banner/zh-Hans/ipad/01-banner.webp" as="image" media="(min-width: 721px)">
-  <link rel="preload" href="../assets/banner/zh-Hans/iphone/01-banner.webp" as="image" media="(max-width: 720px)">
+  <script>
+    (() => {
+      const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
+      const queryLanguage = new URLSearchParams(window.location.search).get("lang");
+      const lang = supported.includes(queryLanguage) ? queryLanguage : document.documentElement.lang;
+      document.documentElement.lang = supported.includes(lang) ? lang : "zh-Hans";
+
+      if (document.documentElement.lang !== "zh-Hant") {
+        const fontPreload = document.createElement("link");
+        fontPreload.rel = "preload";
+        fontPreload.as = "font";
+        fontPreload.type = "font/woff2";
+        fontPreload.crossOrigin = "anonymous";
+        fontPreload.href = "../assets/banner/fonts/SmileySans-Oblique.woff2";
+        document.head.append(fontPreload);
+      }
+
+      [
+        ["ipad", "(min-width: 721px)"],
+        ["iphone", "(max-width: 720px)"]
+      ].forEach(([device, media]) => {
+        const imagePreload = document.createElement("link");
+        imagePreload.rel = "preload";
+        imagePreload.as = "image";
+        imagePreload.media = media;
+        imagePreload.href = `../assets/banner/${document.documentElement.lang}/${device}/01-banner.webp`;
+        document.head.append(imagePreload);
+      });
+    })();
+  </script>
   <link rel="stylesheet" href="../assets/site.css?v=20260911-1">
   <link rel="stylesheet" href="../assets/banner-site.css?v=20260911-1">
   <script defer src="../assets/site.js?v=20260911-1"></script>
@@ -98,8 +125,8 @@
   <main id="main-content">
     <section id="top" class="banner-hero" aria-labelledby="banner-title">
       <picture class="poster-art" data-banner-picture data-page="01-banner">
-        <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/01-banner.webp">
-        <img src="../assets/banner/zh-Hans/ipad/01-banner.webp" width="1920" height="1440" alt="定格手持弹幕宣传图：朋友们手持 iPhone 和 iPad 灯牌" fetchpriority="high" decoding="async">
+        <source media="(max-width: 720px)">
+        <img width="1920" height="1440" alt="定格手持弹幕宣传图：朋友们手持 iPhone 和 iPad 灯牌" fetchpriority="high" decoding="async">
       </picture>
       <div class="banner-hero-copy">
         <h1 id="banner-title"><span data-lang-content="zh-Hans">定格手持弹幕</span><span data-lang-content="zh-Hant">定格手持彈幕</span><span data-lang-content="en">Freezon Banner</span><span data-lang-content="ja">Freezon Banner</span></h1>
@@ -150,8 +177,8 @@
     <section id="features" class="banner-features" aria-label="Product features">
       <article class="poster-chapter chapter-blue" aria-labelledby="feature-create">
         <picture class="poster-art" data-banner-picture data-page="02-create">
-          <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/02-create.webp">
-          <img src="../assets/banner/zh-Hans/ipad/02-create.webp" width="1920" height="1440" alt="定格手持弹幕创作界面" loading="lazy" decoding="async">
+          <source media="(max-width: 720px)">
+          <img width="1920" height="1440" alt="定格手持弹幕创作界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
           <h2 id="feature-create"><span data-lang-content="zh-Hans">输入文字，实时预览</span><span data-lang-content="zh-Hant">輸入文字，即時預覽</span><span data-lang-content="en">Type a message, see it live</span><span data-lang-content="ja">入力して、すぐに確認</span></h2>
@@ -161,8 +188,8 @@
 
       <article class="poster-chapter chapter-pink" aria-labelledby="feature-effects">
         <picture class="poster-art" data-banner-picture data-page="03-effects">
-          <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/03-effects.webp">
-          <img src="../assets/banner/zh-Hans/ipad/03-effects.webp" width="1920" height="1440" alt="定格手持弹幕文字效果界面" loading="lazy" decoding="async">
+          <source media="(max-width: 720px)">
+          <img width="1920" height="1440" alt="定格手持弹幕文字效果界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
           <h2 id="feature-effects"><span data-lang-content="zh-Hans">四种文字效果</span><span data-lang-content="zh-Hant">四種文字效果</span><span data-lang-content="en">Four text effects</span><span data-lang-content="ja">4つの文字エフェクト</span></h2>
@@ -172,8 +199,8 @@
 
       <article class="poster-chapter chapter-lime" aria-labelledby="feature-colors">
         <picture class="poster-art" data-banner-picture data-page="04-colors">
-          <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/04-colors.webp">
-          <img src="../assets/banner/zh-Hans/ipad/04-colors.webp" width="1920" height="1440" alt="定格手持弹幕颜色和 LED 点阵界面" loading="lazy" decoding="async">
+          <source media="(max-width: 720px)">
+          <img width="1920" height="1440" alt="定格手持弹幕颜色和 LED 点阵界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy chapter-copy-dark">
           <h2 id="feature-colors"><span data-lang-content="zh-Hans">颜色和点阵背景</span><span data-lang-content="zh-Hant">顏色和點陣背景</span><span data-lang-content="en">Colors and LED backgrounds</span><span data-lang-content="ja">色とLEDドット背景</span></h2>
@@ -183,8 +210,8 @@
 
       <article class="poster-chapter chapter-pink" aria-labelledby="feature-fonts">
         <picture class="poster-art" data-banner-picture data-page="05-fonts">
-          <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/05-fonts.webp">
-          <img src="../assets/banner/zh-Hans/ipad/05-fonts.webp" width="1920" height="1440" alt="定格手持弹幕离线字体界面" loading="lazy" decoding="async">
+          <source media="(max-width: 720px)">
+          <img width="1920" height="1440" alt="定格手持弹幕离线字体界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
           <h2 id="feature-fonts"><span data-lang-content="zh-Hans">内置字体，离线也能用</span><span data-lang-content="zh-Hant">內建字型，離線也能用</span><span data-lang-content="en">Built-in fonts, work offline</span><span data-lang-content="ja">内蔵フォント、オフライン対応</span></h2>
@@ -194,8 +221,8 @@
 
       <article class="poster-chapter chapter-blue" aria-labelledby="feature-favorites">
         <picture class="poster-art" data-banner-picture data-page="06-favorites">
-          <source media="(max-width: 720px)" srcset="../assets/banner/zh-Hans/iphone/06-favorites.webp">
-          <img src="../assets/banner/zh-Hans/ipad/06-favorites.webp" width="1920" height="1440" alt="定格手持弹幕最近使用和收藏界面" loading="lazy" decoding="async">
+          <source media="(max-width: 720px)">
+          <img width="1920" height="1440" alt="定格手持弹幕最近使用和收藏界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
           <h2 id="feature-favorites"><span data-lang-content="zh-Hans">保存常用灯牌</span><span data-lang-content="zh-Hant">儲存常用燈牌</span><span data-lang-content="en">Save your favorite signs</span><span data-lang-content="ja">よく使うバナーを保存</span></h2>
