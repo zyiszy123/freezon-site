@@ -4,6 +4,7 @@
   const locales = { "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", en: "en_US", ja: "ja_JP" };
   const pagePaths = {
     home: "/",
+    "home-banner": "/freezon-banner/",
     support: "/support/freezon/",
     privacy: "/privacy/freezon/",
     "support-banner": "/support/freezon-banner/",
@@ -17,6 +18,12 @@
       "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機，免費使用且沒有廣告打擾。", "日常相簿與私密相簿分別加密，照片與影片保存在 iPhone 本機。免費使用，沒有開屏廣告或搖一搖等打擾。"],
       en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device. It is free to use with no advertising interruptions.", "Everyday Album and Private Album are encrypted separately, with photos and videos stored on your iPhone. Free to use, with no splash-screen ads or shake-triggered interruptions."],
       ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。無料で利用でき、広告による中断もありません。", "2つのアルバムは別々に暗号化され、写真とビデオは iPhone 本体に保存されます。無料で利用でき、起動画面の広告や振る操作による広告表示はありません。"]
+    },
+    "home-banner": {
+      "zh-Hans": ["定格手持弹幕 - 把手机变成现场灯牌", "在 iPhone 与 iPad 上制作静态大字和滚动字幕。自由调整方向、速度、字体、效果与颜色，编辑和全屏展示无需联网。", "静态大字、滚动字幕、霓虹文字和复古点阵，把 iPhone 或 iPad 变成现场灯牌。", "定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌"],
+      "zh-Hant": ["定格手持彈幕 - 把手機變成現場燈牌", "在 iPhone 與 iPad 上製作靜態大字和捲動字幕。自由調整方向、速度、字型、效果與顏色，編輯和全螢幕展示無需連線。", "靜態大字、捲動字幕、霓虹文字和復古點陣，把 iPhone 或 iPad 變成現場燈牌。", "定格手持彈幕宣傳圖：人物手持 iPhone 和 iPad 燈牌"],
+      en: ["Freezon Banner - Turn your screen into a live banner", "Create big static text and scrolling messages on iPhone and iPad. Adjust direction, speed, fonts, effects, and colors, with offline editing and full-screen display.", "Big text, scrolling messages, neon effects, and an LED matrix turn your iPhone or iPad into a banner for live events.", "Freezon Banner campaign artwork with characters holding iPhone and iPad banners"],
+      ja: ["Freezon Banner - スマホを会場のバナーに", "iPhoneとiPadで大きな文字やスクロール表示を作成。方向、速度、フォント、効果、色を調整し、編集と全画面表示はオフラインで使えます。", "大きな文字、スクロール、ネオン効果、LEDドットで、iPhoneやiPadを会場のバナーに。", "Freezon Bannerのキャンペーンアート：人物がiPhoneとiPadのバナーを持つ様子"]
     },
     support: {
       "zh-Hans": ["支持 - Freezon / 定格", "Freezon / 定格的密码、安全恢复码、备份、导入和诊断支持信息。", "获取 Freezon / 定格的密码、备份、恢复、导入和诊断帮助。"],
@@ -66,6 +73,7 @@
 
   const pageName = () => {
     if (document.body.classList.contains("home-page")) return "home";
+    if (document.body.classList.contains("banner-home-page")) return "home-banner";
     const isBanner = window.location.pathname.includes("freezon-banner") || document.body.dataset.product === "freezon-banner";
     if (window.location.pathname.includes("privacy")) return isBanner ? "privacy-banner" : "privacy";
     return isBanner ? "support-banner" : "support";
@@ -81,12 +89,17 @@
     document.querySelector('meta[property="og:description"]')?.setAttribute("content", content[2]);
     document.querySelector('meta[property="og:locale"]')?.setAttribute("content", locales[lang]);
     const alts = key.endsWith("-banner") ? bannerImageAlts : imageAlts;
-    document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", alts[lang]);
+    document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", content[3] || alts[lang]);
     document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", content[0]);
     document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", content[2]);
     const canonicalURL = `https://freezonapp.com${pagePaths[key]}?lang=${lang}`;
     document.querySelector('link[rel="canonical"]')?.setAttribute("href", canonicalURL);
     document.querySelector('meta[property="og:url"]')?.setAttribute("content", canonicalURL);
+    if (key === "home-banner") {
+      const shareImage = `https://freezonapp.com/assets/banner/${lang}/ipad/01-banner.webp`;
+      document.querySelector('meta[property="og:image"]')?.setAttribute("content", shareImage);
+      document.querySelector('meta[name="twitter:image"]')?.setAttribute("content", shareImage);
+    }
   };
 
   const updateInterfaceLabels = (lang) => {
@@ -122,12 +135,14 @@
       } catch (error) {}
     });
     const menuLabels = {
-      "zh-Hans": ["双层相册", "核心功能", "界面", "隐私", "支持"],
-      "zh-Hant": ["雙層相簿", "核心功能", "畫面", "隱私", "支援"],
-      en: ["Two albums", "Core features", "Screens", "Privacy", "Support"],
-      ja: ["2つのアルバム", "主な機能", "画面", "プライバシー", "サポート"]
+      "zh-Hans": ["双层相册", "核心功能", "手持弹幕", "隐私", "支持"],
+      "zh-Hant": ["雙層相簿", "核心功能", "手持彈幕", "隱私", "支援"],
+      en: ["Two albums", "Core features", "Banner", "Privacy", "Support"],
+      ja: ["2つのアルバム", "主な機能", "手持ち灯牌", "プライバシー", "サポート"]
     };
-    document.querySelectorAll("#mobile-menu > a").forEach((link, index) => { if (menuLabels[lang]?.[index]) link.textContent = menuLabels[lang][index]; });
+    if (pageName() === "home") {
+      document.querySelectorAll("#mobile-menu > a").forEach((link, index) => { if (menuLabels[lang]?.[index]) link.textContent = menuLabels[lang][index]; });
+    }
     const footerLabels = { "zh-Hans": ["支持", "隐私政策"], "zh-Hant": ["支援", "隱私權政策"], en: ["Support", "Privacy policy"], ja: ["サポート", "プライバシー"] };
     document.querySelectorAll(".footer-links a").forEach((link, index) => { if (footerLabels[lang]?.[index]) link.textContent = footerLabels[lang][index]; });
     updateMetadata(lang);
@@ -137,6 +152,7 @@
     const heroAlt = { "zh-Hans": "定格锁定界面", "zh-Hant": "定格鎖定畫面", en: "Freezon lock screen", ja: "Freezonのロック画面" };
     if (heroImage) heroImage.alt = heroAlt[lang];
     if (window.lucide) window.lucide.createIcons();
+    document.dispatchEvent(new CustomEvent("freezon:languagechange", { detail: { lang } }));
   };
 
   window.showToast = (message, duration = 3000) => {
@@ -483,7 +499,10 @@
     initScrollReveal();
 
     document.querySelectorAll("[data-language-choice]").forEach((choice) => {
-      choice.addEventListener("click", () => setLanguage(choice.dataset.languageChoice));
+      choice.addEventListener("click", () => {
+        setLanguage(choice.dataset.languageChoice);
+        if (choice.closest(".mobile-language-switcher")) setMenuState(false);
+      });
     });
     document.querySelector("[data-menu-toggle]")?.addEventListener("click", () => {
       const menu = document.getElementById("mobile-menu");
