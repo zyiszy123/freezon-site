@@ -1,5 +1,6 @@
 (() => {
   const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
+  const assetVersion = "20260912-2";
   const pages = ["01-banner", "02-create", "03-effects", "04-colors", "05-fonts", "06-favorites"];
   const pageAlts = {
     "zh-Hans": ["定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌", "定格手持弹幕创作与实时预览界面", "定格手持弹幕四种文字效果界面", "定格手持弹幕颜色和 LED 点阵界面", "定格手持弹幕离线字体界面", "定格手持弹幕最近使用和收藏界面"],
@@ -25,9 +26,9 @@
       if (index < 0) return;
       const source = picture.querySelector("source");
       const image = picture.querySelector("img");
-      if (source) source.srcset = `../assets/banner/${lang}/iphone/${page}.webp`;
+      if (source) source.srcset = `../assets/banner/${lang}/iphone/${page}.webp?v=${assetVersion}`;
       if (image) {
-        image.src = `../assets/banner/${lang}/ipad/${page}.webp`;
+        image.src = `../assets/banner/${lang}/ipad/${page}.webp?v=${assetVersion}`;
         image.alt = pageAlts[lang][index];
       }
     });

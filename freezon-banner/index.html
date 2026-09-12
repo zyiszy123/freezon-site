@@ -31,6 +31,7 @@
   <script>
     (() => {
       const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
+      const assetVersion = "20260912-2";
       const queryLanguage = new URLSearchParams(window.location.search).get("lang");
       const lang = supported.includes(queryLanguage) ? queryLanguage : document.documentElement.lang;
       document.documentElement.lang = supported.includes(lang) ? lang : "zh-Hans";
@@ -53,7 +54,7 @@
         imagePreload.rel = "preload";
         imagePreload.as = "image";
         imagePreload.media = media;
-        imagePreload.href = `../assets/banner/${document.documentElement.lang}/${device}/01-banner.webp`;
+        imagePreload.href = `../assets/banner/${document.documentElement.lang}/${device}/01-banner.webp?v=${assetVersion}`;
         document.head.append(imagePreload);
       });
     })();
