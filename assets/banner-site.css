@@ -863,7 +863,7 @@ html[lang="ja"] .chapter-copy h2 {
 
   .banner-hero {
     width: 100%;
-    height: calc(100vw * 1.71);
+    height: calc(100vw * 1.65);
     min-height: 0;
     max-height: none;
   }
@@ -882,7 +882,7 @@ html[lang="ja"] .chapter-copy h2 {
     top: 0;
     left: auto;
     width: auto;
-    padding: 5.5% 22px 0;
+    padding: 1.5% 22px 0;
     z-index: 2;
   }
 
