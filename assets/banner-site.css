@@ -319,8 +319,15 @@ html[lang="ja"] .hero-punch {
   top: 63%;
   left: max(40px, calc((100% - 1480px) / 2));
   margin: 0;
+  font-family: "Banner Display", "PingFang SC", sans-serif;
   font-size: 12px;
-  font-weight: 780;
+  font-weight: 400;
+}
+
+html[lang="zh-Hant"] .banner-home-page .hero-platform {
+  font-family: "PingFang TC", "Noto Sans CJK TC", "PingFang SC", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .hero-next {
@@ -863,9 +870,14 @@ html[lang="ja"] .chapter-copy h2 {
 
   .banner-hero {
     width: 100%;
-    height: calc(100vw * 1.65);
+    height: calc(100vw * 1.65 + 30px);
     min-height: 0;
     max-height: none;
+  }
+
+  .banner-hero .poster-art {
+    bottom: 30px;
+    height: auto;
   }
 
   .banner-hero::before {
@@ -923,17 +935,24 @@ html[lang="ja"] .chapter-copy h2 {
   }
 
   .hero-platform {
-    display: block;
+    display: flex;
     position: absolute;
     z-index: 2;
     top: auto;
-    left: 22px;
-    right: 22px;
-    bottom: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 18px;
     margin: 0;
+    background: var(--banner-pink);
+    color: var(--banner-paper);
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.35;
+    text-shadow: 0 1px 2px rgba(8, 11, 13, 0.62);
   }
 
   .hero-next {
