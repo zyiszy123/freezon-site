@@ -314,7 +314,11 @@ html[lang="ja"] .hero-punch {
 }
 
 .hero-platform {
-  margin: 24px 0 0;
+  position: absolute;
+  z-index: 2;
+  top: 63%;
+  left: max(40px, calc((100% - 1480px) / 2));
+  margin: 0;
   font-size: 12px;
   font-weight: 780;
 }
@@ -768,6 +772,11 @@ html[lang="ja"] .chapter-copy h2 {
     width: 34%;
   }
 
+  .hero-platform {
+    top: 56%;
+    left: 34px;
+  }
+
   .banner-hero h1 { font-size: 38px; }
   .hero-punch { font-size: 66px; }
   html[lang="en"] .hero-punch { font-size: 60px; }
@@ -854,44 +863,39 @@ html[lang="ja"] .chapter-copy h2 {
 
   .banner-hero {
     width: 100%;
-    height: calc(100dvh - 98px);
-    min-height: 580px;
-    max-height: 820px;
+    height: calc(100vw * 1.64);
+    min-height: 0;
+    max-height: none;
   }
 
   .banner-hero::before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 325px;
-    background: var(--banner-pink);
-    pointer-events: none;
+    display: none;
   }
 
   .banner-hero .poster-art img,
   .poster-chapter .poster-art img {
-    object-position: center;
+    object-position: center top;
   }
 
   .banner-hero-copy {
-    top: 5.5%;
-    left: 22px;
-    width: calc(100% - 44px);
+    position: relative;
+    top: 0;
+    left: auto;
+    width: auto;
+    padding: 5.5% 22px 0;
+    z-index: 2;
   }
 
   .banner-hero h1 {
     margin-bottom: 12px;
-    font-size: 32px;
+    font-size: 27px;
   }
 
   .hero-punch,
   html[lang="en"] .hero-punch,
   html[lang="ja"] .hero-punch {
     max-width: 8ch;
-    font-size: 52px;
+    font-size: 41px;
     line-height: 0.98;
   }
 
@@ -903,7 +907,7 @@ html[lang="ja"] .chapter-copy h2 {
   .hero-detail {
     max-width: 34ch;
     margin-top: 17px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.48;
   }
 
@@ -919,11 +923,11 @@ html[lang="ja"] .chapter-copy h2 {
   }
 
   .hero-platform {
-    margin-top: 16px;
+    display: none;
   }
 
   .hero-next {
-    bottom: 12px;
+    display: none;
   }
 
   .banner-lab {
@@ -1057,14 +1061,14 @@ html[lang="ja"] .chapter-copy h2 {
   }
 
   .banner-hero-copy {
-    left: 18px;
-    width: calc(100% - 36px);
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
-  .banner-hero h1 { font-size: 29px; }
+  .banner-hero h1 { font-size: 25px; }
   .hero-punch,
-  html[lang="en"] .hero-punch { font-size: 47px; }
-  html[lang="ja"] .hero-punch { font-size: 39px; }
+  html[lang="en"] .hero-punch { font-size: 36px; }
+  html[lang="ja"] .hero-punch { font-size: 33px; }
   .hero-detail { font-size: 12px; }
   .hero-platform { font-size: 11px; }
 
