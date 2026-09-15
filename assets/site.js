@@ -232,7 +232,7 @@
         ["03_lossless_media", ["原始画质，信息完整", "原始畫質，資訊完整", "Lossless Media, Full Details", "オリジナルのまま、完全保存"]],
         ["04_cross_vault_migration", ["相册互移，独立安全", "相簿互移，獨立安全", "Cross-Vault Migration", "アルバム間の安全な移動"]],
         ["05_safe_cleanup", ["原片安全清理，绝不误删", "原始檔安全清理，絕不誤刪", "Safe Cleanup, Keep in Control", "安全な整理、誤削除なし"]],
-        ["06_encrypted_backup", ["纯本地存储，芯片级加密", "純本機儲存，晶片級加密", "Encrypted Backup, On Device", "端末内暗号化、安全な復元"]]
+        ["06_encrypted_backup", ["纯本地存储，AES-256 加密", "純本機儲存，AES-256 加密", "Local Storage, AES-256 Encryption", "ローカル保存、AES-256暗号化"]]
       ];
       gallery.replaceChildren();
       const currentLang = initialLanguage();
