@@ -147,12 +147,41 @@
     document.querySelectorAll(".footer-links a").forEach((link, index) => { if (footerLabels[lang]?.[index]) link.textContent = footerLabels[lang][index]; });
     updateMetadata(lang);
     updateInterfaceLabels(lang);
+    updateScreens(lang);
     window.updateCarouselLabels?.();
     const heroImage = document.querySelector(".hero-screen img");
     const heroAlt = { "zh-Hans": "定格锁定界面", "zh-Hant": "定格鎖定畫面", en: "Freezon lock screen", ja: "Freezonのロック画面" };
     if (heroImage) heroImage.alt = heroAlt[lang];
     if (window.lucide) window.lucide.createIcons();
     document.dispatchEvent(new CustomEvent("freezon:languagechange", { detail: { lang } }));
+  };
+
+  const updateScreens = (lang) => {
+    document.querySelectorAll("[data-screen-picture]").forEach((picture) => {
+      const name = picture.dataset.screenName;
+      if (!name) return;
+      const source = picture.querySelector("source");
+      const img = picture.querySelector("img");
+      if (source) {
+        source.srcset = `./assets/app-screens/${lang}/${name}-480.webp 480w, ./assets/app-screens/${lang}/${name}-800.webp 800w, ./assets/app-screens/${lang}/${name}.webp 1206w`;
+      }
+      if (img) {
+        img.src = `./assets/app-screens/${lang}/${name}.png`;
+      }
+    });
+
+    document.querySelectorAll("[data-appstore-picture]").forEach((picture) => {
+      const name = picture.dataset.appstoreName;
+      if (!name) return;
+      const source = picture.querySelector("source");
+      const img = picture.querySelector("img");
+      if (source) {
+        source.srcset = `./assets/appstore/${lang}/${name}-480.webp 480w, ./assets/appstore/${lang}/${name}-800.webp 800w, ./assets/appstore/${lang}/${name}.webp 1320w`;
+      }
+      if (img) {
+        img.src = `./assets/appstore/${lang}/${name}.png`;
+      }
+    });
   };
 
   window.showToast = (message, duration = 3000) => {
@@ -197,22 +226,23 @@
     const gallery = document.querySelector(".ui-gallery");
     if (gallery && !gallery.dataset.expanded) {
       gallery.dataset.expanded = "true";
-      const screens = [
-        ["b50cedc2138720d66050d78b5d5ef2b9.jpg", ["浏览照片", "瀏覽照片", "Browse photos", "写真を見る"]],
-        ["d92a0ef4571882a7be5ae710bd2c3f22.jpg", ["相册总览", "相簿總覽", "Album overview", "アルバム一覧"]],
-        ["9eb4e735a3f4096b514517e5cc0f4f66.png", ["从系统照片中选择", "從系統照片中選擇", "Choose from Photos", "「写真」から選択"]],
-        ["8d81422aab85dc587680e8bd098c281f.png", ["确认所选照片", "確認所選照片", "Review selected photos", "選択した写真を確認"]],
-        ["2ad9b19fb7a339bd440e24b6c27bdb35.jpg", ["查看照片信息", "查看照片資訊", "View photo details", "写真情報を見る"]],
-        ["8cba85af475761f6fa7d13fb5074d2d5.jpg", ["在地图上浏览", "在地圖上瀏覽", "Browse on a map", "地図で見る"]]
+      const campaignPosters = [
+        ["01_dual_vault", ["双层相册，全盘加密", "雙層相簿，全盤加密", "Two Albums, Separately Encrypted", "2つのアルバム、別々に暗号化"]],
+        ["02_pure_experience", ["纯净无广告，免费使用", "純淨無廣告，免費使用", "Pure Experience, Free to Start", "広告なし、静かに使える"]],
+        ["03_lossless_media", ["原始画质，信息完整", "原始畫質，資訊完整", "Lossless Media, Full Details", "オリジナルのまま、完全保存"]],
+        ["04_cross_vault_migration", ["相册互移，独立安全", "相簿互移，獨立安全", "Cross-Vault Migration", "アルバム間の安全な移動"]],
+        ["05_safe_cleanup", ["原片安全清理，绝不误删", "原始檔安全清理，絕不誤刪", "Safe Cleanup, Keep in Control", "安全な整理、誤削除なし"]],
+        ["06_encrypted_backup", ["纯本地存储，芯片级加密", "純本機儲存，晶片級加密", "Encrypted Backup, On Device", "端末内暗号化、安全な復元"]]
       ];
       gallery.replaceChildren();
-      screens.forEach(([file, labels]) => {
-        const base = file.replace(/\.[^.]+$/, "");
+      const currentLang = initialLanguage();
+      campaignPosters.forEach(([base, labels]) => {
         const figure = document.createElement("figure");
         figure.className = "ui-figure";
-        figure.innerHTML = `<div class="ui-image-wrap"><picture><source type="image/webp" srcset="./assets/realscreens/optimized/${base}-480.webp 480w, ./assets/realscreens/optimized/${base}-800.webp 800w" sizes="(max-width: 520px) min(calc(100vw - 36px), 280px), 320px"><img src="./assets/realscreens/${file}" alt="Freezon app screen: ${labels[2]}" width="1206" height="2622" loading="lazy" decoding="async"></picture></div><figcaption><span data-lang-content="zh-Hans">${labels[0]}</span><span data-lang-content="zh-Hant">${labels[1]}</span><span data-lang-content="en">${labels[2]}</span><span data-lang-content="ja">${labels[3]}</span></figcaption>`;
+        figure.innerHTML = `<div class="ui-image-wrap ui-poster-wrap"><picture data-appstore-picture data-appstore-name="${base}"><source type="image/webp" srcset="./assets/appstore/${currentLang}/${base}-480.webp 480w, ./assets/appstore/${currentLang}/${base}-800.webp 800w, ./assets/appstore/${currentLang}/${base}.webp 1320w" sizes="(max-width: 520px) min(calc(100vw - 36px), 280px), 320px"><img src="./assets/appstore/${currentLang}/${base}.png" alt="Freezon campaign: ${labels[2]}" width="1320" height="2868" loading="lazy" decoding="async"></picture></div><figcaption><span data-lang-content="zh-Hans">${labels[0]}</span><span data-lang-content="zh-Hant">${labels[1]}</span><span data-lang-content="en">${labels[2]}</span><span data-lang-content="ja">${labels[3]}</span></figcaption>`;
         gallery.appendChild(figure);
       });
+      updateScreens(currentLang);
 
       const viewport = document.createElement("div");
       viewport.className = "carousel-viewport";
@@ -255,7 +285,7 @@
         next.setAttribute("aria-label", labels.next);
         viewport.setAttribute("aria-label", labels.carousel);
         playback.setAttribute("aria-label", userPaused ? labels.play : labels.pause);
-        const altPrefixes = { "zh-Hans": "定格真机界面：", "zh-Hant": "定格實機畫面：", en: "Freezon app screen: ", ja: "Freezonの実機画面：" };
+        const altPrefixes = { "zh-Hans": "定格官方宣传海报：", "zh-Hant": "定格官方宣傳海報：", en: "Freezon campaign poster: ", ja: "Freezon公式ポスター：" };
         slides.forEach((slide) => {
           const caption = slide.querySelector(`[data-lang-content="${lang}"]`)?.textContent || "";
           const image = slide.querySelector("img");
