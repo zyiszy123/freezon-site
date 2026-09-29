@@ -288,6 +288,31 @@ html[lang="ja"] .hero-punch {
   color: var(--banner-ink);
 }
 
+.app-store-link {
+  display: inline-flex;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  transition: transform 180ms ease, filter 180ms ease;
+}
+
+.app-store-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+
+.app-store-link:active {
+  transform: translateY(1px);
+}
+
+.app-store-link img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
 .button-arrow {
   width: 9px;
   height: 9px;
@@ -924,7 +949,7 @@ html[lang="ja"] .chapter-copy h2 {
   }
 
   .banner-home-page .hero-actions {
-    gap: 14px;
+    gap: 12px;
     margin-top: 18px;
   }
 
@@ -932,6 +957,14 @@ html[lang="ja"] .chapter-copy h2 {
   .banner-text-link {
     min-height: 44px;
     font-size: 13px;
+  }
+
+  .app-store-link {
+    height: 44px;
+  }
+
+  .app-store-link img {
+    height: 40px;
   }
 
   .hero-platform {
@@ -1100,6 +1133,14 @@ html[lang="ja"] .chapter-copy h2 {
   html[lang="ja"] .hero-punch { font-size: 33px; }
   .hero-detail { font-size: 12px; }
   .hero-platform { font-size: 11px; }
+
+  .banner-home-page .hero-actions {
+    gap: 10px;
+  }
+
+  .banner-home-page .hero-actions .banner-text-link {
+    display: none;
+  }
 
   .chapter-copy {
     left: 50%;

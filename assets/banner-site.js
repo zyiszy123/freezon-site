@@ -1,6 +1,12 @@
 (() => {
   const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
   const assetVersion = "20260912-2";
+  const appStore = {
+    "zh-Hans": { url: "https://apps.apple.com/cn/app/id6810290208", badgeLocale: "zh-cn", badgeWidth: 109, alt: "在 App Store 下载" },
+    "zh-Hant": { url: "https://apps.apple.com/tw/app/id6810290208", badgeLocale: "zh-tw", badgeWidth: 109, alt: "從 App Store 下載" },
+    en: { url: "https://apps.apple.com/us/app/id6810290208", badgeLocale: "en-us", badgeWidth: 120, alt: "Download on the App Store" },
+    ja: { url: "https://apps.apple.com/jp/app/id6810290208", badgeLocale: "ja-jp", badgeWidth: 109, alt: "App Store からダウンロード" }
+  };
   const pages = ["01-banner", "02-create", "03-effects", "04-colors", "05-fonts", "06-favorites"];
   const pageAlts = {
     "zh-Hans": ["定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌", "定格手持弹幕创作与实时预览界面", "定格手持弹幕四种文字效果界面", "定格手持弹幕颜色和 LED 点阵界面", "定格手持弹幕离线字体界面", "定格手持弹幕最近使用和收藏界面"],
@@ -65,6 +71,17 @@
     });
   };
 
+  const updateAppStoreLink = (lang) => {
+    const link = document.querySelector("[data-app-store-link]");
+    const badge = link?.querySelector("[data-app-store-badge]");
+    const store = appStore[lang];
+    if (!link || !badge || !store) return;
+    link.href = store.url;
+    badge.src = `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/${store.badgeLocale}?size=250x83`;
+    badge.width = store.badgeWidth;
+    badge.alt = store.alt;
+  };
+
   const setMode = (mode) => {
     const { screen, playback } = demoElements();
     document.querySelectorAll("[data-demo-mode]").forEach((button) => {
@@ -113,11 +130,13 @@
     currentLanguage = lang;
     updatePictures(lang);
     updateDemoLanguage(lang);
+    updateAppStoreLink(lang);
   });
 
   document.addEventListener("DOMContentLoaded", () => {
     currentLanguage = supported.includes(document.documentElement.lang) ? document.documentElement.lang : "zh-Hans";
     updatePictures(currentLanguage);
     initDemo();
+    updateAppStoreLink(currentLanguage);
   });
 })();
