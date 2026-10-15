@@ -14,10 +14,10 @@
   const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン" };
   const pageContent = {
     home: {
-      "zh-Hans": ["Freezon / 定格 - 双层私密相册", "定格是一款面向 iPhone 的双层私密相册。日常相册与私密相册分别加密，内容保存在本机，免费使用且没有广告打扰。", "日常相册与私密相册分别加密，照片和视频保存在 iPhone 本机。免费使用，没有开屏广告或摇一摇等打扰。"],
-      "zh-Hant": ["Freezon / 定格 - 雙層私密相簿", "定格是一款面向 iPhone 的雙層私密相簿。日常相簿與私密相簿分別加密，內容保存在本機，免費使用且沒有廣告打擾。", "日常相簿與私密相簿分別加密，照片與影片保存在 iPhone 本機。免費使用，沒有開屏廣告或搖一搖等打擾。"],
-      en: ["Freezon - Two private albums", "Freezon is a private photo vault for iPhone. Everyday Album and Private Album are encrypted separately, with content stored on device. It is free to use with no advertising interruptions.", "Everyday Album and Private Album are encrypted separately, with photos and videos stored on your iPhone. Free to use, with no splash-screen ads or shake-triggered interruptions."],
-      ja: ["Freezon - 2つのプライベートアルバム", "FreezonはiPhone向けのプライベートアルバムです。2つのアルバムを別々に暗号化し、内容を端末内に保存します。無料で利用でき、広告による中断もありません。", "2つのアルバムは別々に暗号化され、写真とビデオは iPhone 本体に保存されます。無料で利用でき、起動画面の広告や振る操作による広告表示はありません。"]
+      "zh-Hans": ["定格 - iPhone 与 iPad 本机加密相册", "定格适用于 iPhone 和 iPad。日常相册与私密相册分别使用独立密码，照片和视频在本机加密保存，支持加密备份与恢复，无需注册账号。", "支持 iPhone 和 iPad。两个独立相册，本机加密，支持加密备份与恢复。无需注册账号，没有广告。"],
+      "zh-Hant": ["定格 - iPhone 與 iPad 本機加密相簿", "定格適用於 iPhone 和 iPad。日常相簿與私密相簿分別使用獨立密碼，照片與影片在本機加密儲存，支援加密備份與復原，無須註冊帳號。", "支援 iPhone 和 iPad。兩個獨立相簿，本機加密，支援加密備份與復原。無須註冊帳號，沒有廣告。"],
+      en: ["Freezon - Encrypted photo albums for iPhone and iPad", "Freezon encrypts photos and videos on iPhone and iPad. Separate passwords for Everyday and Private Albums, with encrypted backup and restore. No account required.", "For iPhone and iPad. Separate album passwords, on-device encryption, and encrypted backup and restore. No account or ads."],
+      ja: ["Freezon - iPhoneとiPadの端末内暗号化アルバム", "FreezonはiPhoneとiPadに対応。日常用とプライベートの専用パスワードで写真やビデオを端末内に暗号化保存。暗号化バックアップと復元に対応し、アカウント登録は不要です。", "iPhoneとiPadに対応。独立したパスワード、端末内暗号化、暗号化バックアップと復元。アカウント登録も広告もありません。"]
     },
     "home-banner": {
       "zh-Hans": ["定格手持弹幕 - 把手机变成现场灯牌", "在 iPhone 与 iPad 上制作静态大字和滚动字幕。自由调整方向、速度、字体、效果与颜色，编辑和全屏展示无需联网。", "静态大字、滚动字幕、霓虹文字和复古点阵，把 iPhone 或 iPad 变成现场灯牌。", "定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌"],
@@ -95,6 +95,15 @@
     const canonicalURL = `https://freezonapp.com${pagePaths[key]}?lang=${lang}`;
     document.querySelector('link[rel="canonical"]')?.setAttribute("href", canonicalURL);
     document.querySelector('meta[property="og:url"]')?.setAttribute("content", canonicalURL);
+    if (key === "home") {
+      const schemaElement = document.querySelector('script[type="application/ld+json"]');
+      if (schemaElement) {
+        const schema = JSON.parse(schemaElement.textContent);
+        schema.name = lang.startsWith("zh") ? "定格" : "Freezon";
+        schema.description = content[1];
+        schemaElement.textContent = JSON.stringify(schema);
+      }
+    }
     if (key === "home-banner") {
       const shareImage = `https://freezonapp.com/assets/banner/${lang}/ipad/01-banner.webp`;
       document.querySelector('meta[property="og:image"]')?.setAttribute("content", shareImage);
@@ -147,41 +156,8 @@
     document.querySelectorAll(".footer-links a").forEach((link, index) => { if (footerLabels[lang]?.[index]) link.textContent = footerLabels[lang][index]; });
     updateMetadata(lang);
     updateInterfaceLabels(lang);
-    updateScreens(lang);
-    window.updateCarouselLabels?.();
-    const heroImage = document.querySelector(".hero-screen img");
-    const heroAlt = { "zh-Hans": "定格锁定界面", "zh-Hant": "定格鎖定畫面", en: "Freezon lock screen", ja: "Freezonのロック画面" };
-    if (heroImage) heroImage.alt = heroAlt[lang];
     if (window.lucide) window.lucide.createIcons();
     document.dispatchEvent(new CustomEvent("freezon:languagechange", { detail: { lang } }));
-  };
-
-  const updateScreens = (lang) => {
-    document.querySelectorAll("[data-screen-picture]").forEach((picture) => {
-      const name = picture.dataset.screenName;
-      if (!name) return;
-      const source = picture.querySelector("source");
-      const img = picture.querySelector("img");
-      if (source) {
-        source.srcset = `./assets/app-screens/${lang}/${name}-480.webp 480w, ./assets/app-screens/${lang}/${name}-800.webp 800w, ./assets/app-screens/${lang}/${name}.webp 1206w`;
-      }
-      if (img) {
-        img.src = `./assets/app-screens/${lang}/${name}.png`;
-      }
-    });
-
-    document.querySelectorAll("[data-appstore-picture]").forEach((picture) => {
-      const name = picture.dataset.appstoreName;
-      if (!name) return;
-      const source = picture.querySelector("source");
-      const img = picture.querySelector("img");
-      if (source) {
-        source.srcset = `./assets/appstore/${lang}/${name}-480.webp 480w, ./assets/appstore/${lang}/${name}-800.webp 800w, ./assets/appstore/${lang}/${name}.webp 1320w`;
-      }
-      if (img) {
-        img.src = `./assets/appstore/${lang}/${name}.png`;
-      }
-    });
   };
 
   window.showToast = (message, duration = 3000) => {
@@ -223,311 +199,6 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     setLanguage(initialLanguage());
-    const gallery = document.querySelector(".ui-gallery");
-    if (gallery && !gallery.dataset.expanded) {
-      gallery.dataset.expanded = "true";
-      const campaignPosters = [
-        ["01_dual_vault", ["双层相册，全盘加密", "雙層相簿，全盤加密", "Two Albums, Separately Encrypted", "2つのアルバム、別々に暗号化"]],
-        ["02_pure_experience", ["纯净无广告，免费使用", "純淨無廣告，免費使用", "Pure Experience, Free to Start", "広告なし、静かに使える"]],
-        ["03_lossless_media", ["原始画质，信息完整", "原始畫質，資訊完整", "Lossless Media, Full Details", "オリジナルのまま、完全保存"]],
-        ["04_cross_vault_migration", ["相册互移，独立安全", "相簿互移，獨立安全", "Cross-Vault Migration", "アルバム間の安全な移動"]],
-        ["05_safe_cleanup", ["原片安全清理，绝不误删", "原始檔安全清理，絕不誤刪", "Safe Cleanup, Keep in Control", "安全な整理、誤削除なし"]],
-        ["06_encrypted_backup", ["纯本地存储，AES-256 加密", "純本機儲存，AES-256 加密", "Local Storage, AES-256 Encryption", "ローカル保存、AES-256暗号化"]]
-      ];
-      gallery.replaceChildren();
-      const currentLang = initialLanguage();
-      campaignPosters.forEach(([base, labels]) => {
-        const figure = document.createElement("figure");
-        figure.className = "ui-figure";
-        figure.innerHTML = `<div class="ui-image-wrap ui-poster-wrap"><picture data-appstore-picture data-appstore-name="${base}"><source type="image/webp" srcset="./assets/appstore/${currentLang}/${base}-480.webp 480w, ./assets/appstore/${currentLang}/${base}-800.webp 800w, ./assets/appstore/${currentLang}/${base}.webp 1320w" sizes="(max-width: 520px) min(calc(100vw - 36px), 280px), 320px"><img src="./assets/appstore/${currentLang}/${base}.png" alt="Freezon campaign: ${labels[2]}" width="1320" height="2868" loading="lazy" decoding="async"></picture></div><figcaption><span data-lang-content="zh-Hans">${labels[0]}</span><span data-lang-content="zh-Hant">${labels[1]}</span><span data-lang-content="en">${labels[2]}</span><span data-lang-content="ja">${labels[3]}</span></figcaption>`;
-        gallery.appendChild(figure);
-      });
-      updateScreens(currentLang);
-
-      const viewport = document.createElement("div");
-      viewport.className = "carousel-viewport";
-      viewport.setAttribute("role", "region");
-      viewport.setAttribute("aria-roledescription", "carousel");
-      viewport.tabIndex = 0;
-      gallery.before(viewport);
-      viewport.appendChild(gallery);
-
-      const previous = document.createElement("button");
-      previous.type = "button";
-      previous.className = "carousel-button carousel-previous";
-      previous.innerHTML = '<span class="carousel-arrow carousel-arrow-left" aria-hidden="true"></span>';
-      const next = document.createElement("button");
-      next.type = "button";
-      next.className = "carousel-button carousel-next";
-      next.innerHTML = '<span class="carousel-arrow carousel-arrow-right" aria-hidden="true"></span>';
-      const playback = document.createElement("button");
-      playback.type = "button";
-      playback.className = "carousel-button carousel-playback";
-      playback.setAttribute("aria-pressed", "false");
-      playback.innerHTML = '<span class="carousel-playback-icon" aria-hidden="true"></span>';
-      const counter = document.createElement("span");
-      counter.className = "carousel-counter";
-      counter.setAttribute("aria-live", "polite");
-      viewport.append(previous, next, playback, counter);
-
-      const slides = [...gallery.children];
-      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-      let activeIndex = 0;
-      let timer = null;
-      let isVisible = true;
-      let userPaused = reducedMotion.matches;
-      playback.setAttribute("aria-pressed", userPaused ? "true" : "false");
-
-      const updateLabels = () => {
-        const lang = document.documentElement.lang;
-        const labels = interfaceLabels[lang];
-        previous.setAttribute("aria-label", labels.previous);
-        next.setAttribute("aria-label", labels.next);
-        viewport.setAttribute("aria-label", labels.carousel);
-        playback.setAttribute("aria-label", userPaused ? labels.play : labels.pause);
-        const altPrefixes = { "zh-Hans": "定格官方宣传海报：", "zh-Hant": "定格官方宣傳海報：", en: "Freezon campaign poster: ", ja: "Freezon公式ポスター：" };
-        slides.forEach((slide) => {
-          const caption = slide.querySelector(`[data-lang-content="${lang}"]`)?.textContent || "";
-          const image = slide.querySelector("img");
-          if (image) image.alt = `${altPrefixes[lang]}${caption}`;
-        });
-      };
-
-      const render = () => {
-        const gap = parseFloat(getComputedStyle(gallery).columnGap) || 0;
-        gallery.style.transform = `translate3d(-${activeIndex * (viewport.clientWidth + gap)}px, 0, 0)`;
-        counter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
-        slides.forEach((slide, index) => {
-          const hidden = index !== activeIndex;
-          slide.setAttribute("aria-hidden", hidden ? "true" : "false");
-          slide.inert = hidden;
-        });
-      };
-
-      const stopAutoplay = () => {
-        window.clearInterval(timer);
-        timer = null;
-      };
-      const startAutoplay = () => {
-        stopAutoplay();
-        if (userPaused || !isVisible || document.activeElement === viewport || document.hidden) return;
-        timer = window.setInterval(() => {
-          activeIndex = (activeIndex + 1) % slides.length;
-          render();
-        }, 4500);
-      };
-      const move = (step) => {
-        activeIndex = (activeIndex + step + slides.length) % slides.length;
-        render();
-        startAutoplay();
-      };
-      const setPaused = (paused) => {
-        userPaused = paused;
-        playback.setAttribute("aria-pressed", paused ? "true" : "false");
-        updateLabels();
-        startAutoplay();
-      };
-
-      previous.addEventListener("click", () => move(-1));
-      next.addEventListener("click", () => move(1));
-      playback.addEventListener("click", () => setPaused(!userPaused));
-      viewport.addEventListener("keydown", (event) => {
-        if (event.key === "ArrowLeft") { event.preventDefault(); move(-1); }
-        if (event.key === "ArrowRight") { event.preventDefault(); move(1); }
-      });
-      viewport.addEventListener("focus", stopAutoplay);
-      viewport.addEventListener("blur", startAutoplay);
-      window.addEventListener("resize", render);
-      document.addEventListener("visibilitychange", startAutoplay);
-      reducedMotion.addEventListener?.("change", () => {
-        if (reducedMotion.matches) setPaused(true); else startAutoplay();
-      });
-      new IntersectionObserver(([entry]) => {
-        isVisible = entry.isIntersecting;
-        startAutoplay();
-      }, { threshold: .35 }).observe(viewport);
-
-      window.updateCarouselLabels = updateLabels;
-      updateLabels();
-      render();
-      startAutoplay();
-    }
-
-    const initAmbientCanvas = () => {
-      const canvas = document.getElementById("ambient-canvas");
-      if (!canvas) return;
-      const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
-      if (reducedMotion || navigator.connection?.saveData) return;
-      const ctx = canvas.getContext("2d", { alpha: true });
-      if (!ctx) return;
-
-      let width = 1;
-      let height = 1;
-      let particles = [];
-      const pointer = { x: -10000, y: -10000, active: false };
-
-      const colors = [
-        "rgba(255, 255, 255, 0.20)",
-        "rgba(155, 200, 209, 0.18)",
-        "rgba(255, 255, 255, 0.11)",
-        "rgba(155, 200, 209, 0.08)"
-      ];
-
-      const getCount = () => {
-        const isCoarse = window.matchMedia?.("(pointer: coarse)")?.matches;
-        const density = isCoarse ? 0.4 : 0.8;
-        const base = Math.floor((width * height) / 9000 * density);
-        return Math.min(Math.max(base, 40), isCoarse ? 60 : 130);
-      };
-
-      const createParticle = (i) => {
-        const seed = i * 13.579;
-        const rand = (s) => (Math.sin(s) * 10000) % 1;
-        const r1 = Math.abs(rand(seed));
-        const r2 = Math.abs(rand(seed + 1));
-        return {
-          x: r1 * width,
-          y: r2 * height,
-          vx: 0,
-          vy: 0,
-          seed: Math.abs(rand(seed + 2)) * 1000,
-          color: colors[i % colors.length],
-          size: 0.85 + Math.abs(rand(seed + 3)) * 0.35
-        };
-      };
-
-      const resize = () => {
-        const rect = canvas.getBoundingClientRect();
-        width = Math.max(1, Math.floor(rect.width));
-        height = Math.max(1, Math.floor(rect.height));
-        const dpr = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
-        canvas.width = Math.floor(width * dpr);
-        canvas.height = Math.floor(height * dpr);
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        particles = Array.from({ length: getCount() }, (_, i) => createParticle(i));
-      };
-
-      window.addEventListener("pointermove", (e) => {
-        const rect = canvas.getBoundingClientRect();
-        pointer.x = e.clientX - rect.left;
-        pointer.y = e.clientY - rect.top;
-        pointer.active = true;
-      }, { passive: true });
-
-      window.addEventListener("blur", () => { pointer.active = false; pointer.x = -10000; pointer.y = -10000; });
-      window.addEventListener("resize", resize, { passive: true });
-      resize();
-
-      let lastTime = performance.now();
-      let isRunning = true;
-      let animId = null;
-
-      const loop = (now) => {
-        if (!isRunning) return;
-        const dt = Math.min(Math.max((now - lastTime) / 16, 0.5), 2.5);
-        lastTime = now;
-
-        ctx.save();
-        ctx.globalCompositeOperation = "destination-out";
-        ctx.fillStyle = "rgba(0, 0, 0, 0.10)";
-        ctx.fillRect(0, 0, width, height);
-        ctx.restore();
-
-        ctx.save();
-        ctx.globalCompositeOperation = "lighter";
-
-        const influenceRadius = 240;
-        const swirlStrength = 0.85;
-
-        for (let i = 0; i < particles.length; i++) {
-          const p = particles[i];
-          const oldX = p.x;
-          const oldY = p.y;
-
-          const timeVal = now * 0.00035;
-          const angle = (
-            Math.sin(p.x * 0.0016 + timeVal + p.seed * 0.01) +
-            Math.cos(p.y * 0.0016 - timeVal + p.seed * 0.01) +
-            Math.sin((p.x + p.y) * 0.0010 + timeVal)
-          ) * Math.PI;
-
-          const accel = 0.06;
-          p.vx = p.vx * 0.92 + Math.cos(angle) * accel;
-          p.vy = p.vy * 0.92 + Math.sin(angle) * accel;
-
-          if (pointer.active) {
-            const dx = p.x - pointer.x;
-            const dy = p.y - pointer.y;
-            const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-            if (dist < influenceRadius) {
-              const factor = (1 - dist / influenceRadius) * swirlStrength;
-              p.vx += (-dy / dist) * factor;
-              p.vy += (dx / dist) * factor;
-            }
-          }
-
-          const newX = oldX + p.vx * dt;
-          const newY = oldY + p.vy * dt;
-          p.x = newX;
-          p.y = newY;
-
-          // Delicate fine stream line
-          ctx.strokeStyle = p.color;
-          ctx.lineWidth = p.size;
-          ctx.beginPath();
-          ctx.moveTo(oldX, oldY);
-          ctx.lineTo(newX, newY);
-          ctx.stroke();
-
-          if (newX < -30 || newX > width + 30 || newY < -30 || newY > height + 30) {
-            p.x = Math.random() * width;
-            p.y = Math.random() * height;
-            p.vx = 0;
-            p.vy = 0;
-          }
-        }
-
-        ctx.restore();
-        animId = window.requestAnimationFrame(loop);
-      };
-
-      animId = window.requestAnimationFrame(loop);
-
-      document.addEventListener("visibilitychange", () => {
-        if (document.hidden) {
-          isRunning = false;
-          if (animId) window.cancelAnimationFrame(animId);
-          animId = null;
-        } else {
-          if (!isRunning) {
-            isRunning = true;
-            lastTime = performance.now();
-            animId = window.requestAnimationFrame(loop);
-          }
-        }
-      });
-    };
-
-    const initScrollReveal = () => {
-      const targets = document.querySelectorAll(".section, .feature-proof, .album-pair article, .principle-grid article, .quiet-content, .contact-block");
-      if (!targets.length) return;
-      targets.forEach((el) => el.classList.add("reveal-on-scroll"));
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-revealed");
-            observer.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.08, rootMargin: "0px 0px -30px 0px" });
-
-      targets.forEach((el) => observer.observe(el));
-    };
-
-    initAmbientCanvas();
-    initScrollReveal();
-
     document.querySelectorAll("[data-language-choice]").forEach((choice) => {
       choice.addEventListener("click", () => {
         setLanguage(choice.dataset.languageChoice);
