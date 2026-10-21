@@ -76,7 +76,7 @@
     const lang = document.documentElement.lang;
     const text = copy[lang] || copy['zh-Hans'];
     const widths = device === 'ipad' ? [1100, 2752] : [660, 1320];
-    const alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} · ${device === 'ipad' ? 'iPad' : 'iPhone'} · ${text.titles[index]}`;
+    const alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${device === 'ipad' ? 'iPad' : 'iPhone'} / ${text.titles[index]}`;
     gallery.dataset.device = device;
     document.querySelectorAll('[data-vault-device]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.vaultDevice === device)));
     document.querySelector('.vault-device-switch').setAttribute('aria-label', text.device);
@@ -110,10 +110,10 @@
     const heroImage = hero.querySelector('img');
     heroImage.srcset = [1100, 2752].map(width => `${asset(lang, 'ipad', names[0], width)} ${width}w`).join(', ');
     heroImage.src = asset(lang, 'ipad', names[0], 1100);
-    heroImage.alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} · ${narrow.matches ? 'iPhone' : 'iPad'} · ${text.titles[0]}`;
+    heroImage.alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${narrow.matches ? 'iPhone' : 'iPad'} / ${text.titles[0]}`;
     const shareImage = `https://freezonapp.com/assets/vault-campaign/${lang}/ipad/01_dual_vault-1100.webp`;
     document.querySelector('meta[property="og:image"]').content = shareImage;
-    document.querySelector('meta[property="og:image:alt"]').content = `${lang.startsWith('zh') ? '定格' : 'Freezon'} · iPad · ${text.titles[0]}`;
+    document.querySelector('meta[property="og:image:alt"]').content = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / iPad / ${text.titles[0]}`;
     document.querySelector('meta[name="twitter:image"]').content = shareImage;
     const countries = { 'zh-Hans': 'cn', 'zh-Hant': 'tw', en: 'us', ja: 'jp' };
     document.querySelector('[data-vault-download]').href = `https://apps.apple.com/${countries[lang]}/app/id6810494416`;
