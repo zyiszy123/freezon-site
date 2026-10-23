@@ -1,5 +1,10 @@
 {
-  "source": "appstore-official-bezels-20261015",
+  "source": "appstore-screenshots/final",
+  "provenance": {
+    "iphone": "2026-10-15 approved App Store posters with Apple device frames.",
+    "ipad": "2026-10-15 approved App Store posters with Apple device frames.",
+    "duo": "2026-10-22 simulator campaign posters with schematic frames, not official Apple hardware artwork; not uploaded to App Store Connect."
+  },
   "transformation": "Full canvas resized proportionally to WebP; no cropping, reframing, or text changes.",
   "images": [
     {
@@ -267,6 +272,138 @@
       "sourceSHA256": "570fd922ae5d3fd720239b868b17f9020d8c969d432b422f7c16c5dcd80532c2"
     },
     {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 51958,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ff02ad1f93343a0a1c616ca652022640dae8c1f9023beb2c86cc0836da86c619"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 205844,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ff02ad1f93343a0a1c616ca652022640dae8c1f9023beb2c86cc0836da86c619"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 94176,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3085ee4e027797942f9dcc4d281484fb4de57e8baa1a5b4b2a27eada71f49be7"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 408258,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3085ee4e027797942f9dcc4d281484fb4de57e8baa1a5b4b2a27eada71f49be7"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 99840,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "8fdd136d336e742913834240033a2d74c7367159d302d266f913c8571577f757"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 447952,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "8fdd136d336e742913834240033a2d74c7367159d302d266f913c8571577f757"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 59130,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5e8a1f71d8440eec9e0aab5755ec75577497d0d9ff89a234648bf58543f50857"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 247600,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5e8a1f71d8440eec9e0aab5755ec75577497d0d9ff89a234648bf58543f50857"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 74238,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "64b8696e9fbe3a469555f87fbff704eb80fbc99792e11fa9529b8453602e403a"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 313628,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "64b8696e9fbe3a469555f87fbff704eb80fbc99792e11fa9529b8453602e403a"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 34864,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "e22290cbeac2e549e62c815a091d9b6d9b63fc8f4ed3e29cde2cc569a42ca2b5"
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 116046,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "e22290cbeac2e549e62c815a091d9b6d9b63fc8f4ed3e29cde2cc569a42ca2b5"
+    },
+    {
       "locale": "zh-Hant",
       "device": "iphone",
       "file": "01_dual_vault-660.webp",
@@ -529,6 +666,138 @@
       "sourceWidth": 2752,
       "sourceHeight": 2064,
       "sourceSHA256": "3399b8cfa1de6555025ddd8e8c863d482d93f4423f0ef4ba2f791561cde1fcc4"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 53334,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5550a6d5a10dd8ed261ffb7868729cfda5130baacf98526c1c710e84424b6de0"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 212452,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5550a6d5a10dd8ed261ffb7868729cfda5130baacf98526c1c710e84424b6de0"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 96928,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "e98da921627955ba430e509a564c8b939f5d4841cd1ee9de1e5df95a2bc2e611"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 418676,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "e98da921627955ba430e509a564c8b939f5d4841cd1ee9de1e5df95a2bc2e611"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 100544,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ffe116280f5f8f896f8f07bb85d980f5d746f3bc673e2d0b79742f248e485e85"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 451330,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ffe116280f5f8f896f8f07bb85d980f5d746f3bc673e2d0b79742f248e485e85"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60656,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "9f25605c3dd67d262c7b28d77217e3c6e7a371dad1d25ad3164b3214fccf9086"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 254744,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "9f25605c3dd67d262c7b28d77217e3c6e7a371dad1d25ad3164b3214fccf9086"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 77312,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "03af700298151bcba684bbed9737f257ae3d9221bff160f55f642aa67b78f804"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 324390,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "03af700298151bcba684bbed9737f257ae3d9221bff160f55f642aa67b78f804"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 35068,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "968449b69e1a04fbbff7fb6c103084bc493b001037a7c4f29fa5a971f09f958a"
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 119688,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "968449b69e1a04fbbff7fb6c103084bc493b001037a7c4f29fa5a971f09f958a"
     },
     {
       "locale": "en",
@@ -795,6 +1064,138 @@
       "sourceSHA256": "1a66bcbacc3b299bdd190d95ecfc6c5534c828313af8b9d2f2859eb2d9e96295"
     },
     {
+      "locale": "en",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57230,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5db8dabd4615d8c9dd7f035d9e4ed0df901a009ae8c7fbbe823acfa2a29e563b"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 217642,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5db8dabd4615d8c9dd7f035d9e4ed0df901a009ae8c7fbbe823acfa2a29e563b"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 97986,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "eaa5d00c6b7f1007c73b485ea2063d131ca2b524021db8d40643e30b117f36c0"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 416206,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "eaa5d00c6b7f1007c73b485ea2063d131ca2b524021db8d40643e30b117f36c0"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 103610,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "a1607480c463f55adfab8499cf37f536b17dabad53dcc65a723a23928773e6a7"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 454330,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "a1607480c463f55adfab8499cf37f536b17dabad53dcc65a723a23928773e6a7"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 63470,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "b3b1e243eb86de959038173cfff6de3617c24d972df7fc394a98e29ff2e58803"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 257026,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "b3b1e243eb86de959038173cfff6de3617c24d972df7fc394a98e29ff2e58803"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 79352,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f38e98229d2f6a7d5eabd29aaa1a7746efb9dbc7f759c0cf92fe0512fa072c52"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 326226,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f38e98229d2f6a7d5eabd29aaa1a7746efb9dbc7f759c0cf92fe0512fa072c52"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 44656,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ad0bfee68428de0d8185b8de68d24e939be3c1a2c515ebd1d0a4242cea5593e9"
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 136904,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "ad0bfee68428de0d8185b8de68d24e939be3c1a2c515ebd1d0a4242cea5593e9"
+    },
+    {
       "locale": "ja",
       "device": "iphone",
       "file": "01_dual_vault-660.webp",
@@ -1057,6 +1458,138 @@
       "sourceWidth": 2752,
       "sourceHeight": 2064,
       "sourceSHA256": "2b330fe37988d5fe59a9ab1112ff2b264def68b3f96317e4077c1914706b1cef"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57994,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f019b1c438db254730bf5a9af70ae14a95befb3478063a6f76a1ced743471202"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 222454,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f019b1c438db254730bf5a9af70ae14a95befb3478063a6f76a1ced743471202"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 98644,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "4fe4b2be503e889d13c28f94f69f58cabbf911288e5d24f4c7f3f5a1cc5cdb04"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 419488,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "4fe4b2be503e889d13c28f94f69f58cabbf911288e5d24f4c7f3f5a1cc5cdb04"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 103456,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "0e06f8bd74fefe50e53dc4a790f2553bb3473cb66c0078cdaee14a40b9d9f85a"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 456958,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "0e06f8bd74fefe50e53dc4a790f2553bb3473cb66c0078cdaee14a40b9d9f85a"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 65146,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "d64e34b551c9e6aa11e8e747fba2b09ffd6e2ee8e8c8f401731c25de18e05e37"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 264034,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "d64e34b551c9e6aa11e8e747fba2b09ffd6e2ee8e8c8f401731c25de18e05e37"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 81230,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "8b613f1f776f3bf2abf54afb9ce9209c72abc8c2482d84a4f309f4bd10e65b35"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 335606,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "8b613f1f776f3bf2abf54afb9ce9209c72abc8c2482d84a4f309f4bd10e65b35"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 42528,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "c7a467b24056ba5c7c5ac8e8098d3c780a4ec89b0296e4364446576dce456e7d"
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 131786,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "c7a467b24056ba5c7c5ac8e8098d3c780a4ec89b0296e4364446576dce456e7d"
     }
   ]
 }

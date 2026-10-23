@@ -57,7 +57,12 @@
     }
   };
   const narrow = matchMedia('(max-width: 600px)');
-  let device = narrow.matches ? 'iphone' : 'ipad';
+  const devices = {
+    iphone: { name: 'iPhone', widths: [660, 1320], size: [1320, 2868] },
+    ipad: { name: 'iPad', widths: [1100, 2752], size: [2752, 2064] },
+    duo: { name: 'iPhone Duo', widths: [1100, 2853], size: [2853, 2007] }
+  };
+  let device = narrow.matches ? 'iphone' : 'duo';
   let chosenDevice = false;
   let index = 0;
   const poster = document.querySelector('[data-vault-poster]');
@@ -75,16 +80,17 @@
   const render = () => {
     const lang = document.documentElement.lang;
     const text = copy[lang] || copy['zh-Hans'];
-    const widths = device === 'ipad' ? [1100, 2752] : [660, 1320];
-    const alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${device === 'ipad' ? 'iPad' : 'iPhone'} / ${text.titles[index]}`;
+    const spec = devices[device];
+    const widths = spec.widths;
+    const alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${spec.name} / ${text.titles[index]}`;
     gallery.dataset.device = device;
     document.querySelectorAll('[data-vault-device]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.vaultDevice === device)));
     document.querySelector('.vault-device-switch').setAttribute('aria-label', text.device);
     topics.setAttribute('aria-label', text.topics);
     document.querySelectorAll('[data-vault-count], [data-vault-dialog-count]').forEach(counter => { counter.textContent = `${index + 1} / 6`; });
-    poster.width = device === 'ipad' ? 2752 : 1320;
-    poster.height = device === 'ipad' ? 2064 : 2868;
-    poster.sizes = device === 'ipad' ? '(max-width: 1188px) 96vw, 1140px' : '(max-width: 600px) 280px, 340px';
+    poster.width = spec.size[0];
+    poster.height = spec.size[1];
+    poster.sizes = device === 'iphone' ? '(max-width: 600px) 280px, 340px' : '(max-width: 600px) calc(100vw - 36px), (max-width: 1188px) calc(100vw - 48px), 1140px';
     poster.srcset = widths.map(width => `${asset(lang, device, names[index], width)} ${width}w`).join(', ');
     poster.src = asset(lang, device, names[index], widths[0]);
     poster.alt = alt;
@@ -108,12 +114,12 @@
     const hero = document.querySelector('[data-vault-hero]');
     hero.querySelector('source').srcset = [660, 1320].map(width => `${asset(lang, 'iphone', names[0], width)} ${width}w`).join(', ');
     const heroImage = hero.querySelector('img');
-    heroImage.srcset = [1100, 2752].map(width => `${asset(lang, 'ipad', names[0], width)} ${width}w`).join(', ');
-    heroImage.src = asset(lang, 'ipad', names[0], 1100);
-    heroImage.alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${narrow.matches ? 'iPhone' : 'iPad'} / ${text.titles[0]}`;
-    const shareImage = `https://freezonapp.com/assets/vault-campaign/${lang}/ipad/01_dual_vault-1100.webp`;
+    heroImage.srcset = devices.duo.widths.map(width => `${asset(lang, 'duo', names[0], width)} ${width}w`).join(', ');
+    heroImage.src = asset(lang, 'duo', names[0], 1100);
+    heroImage.alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${narrow.matches ? 'iPhone' : 'iPhone Duo'} / ${text.titles[0]}`;
+    const shareImage = `https://freezonapp.com/assets/vault-campaign/${lang}/duo/01_dual_vault-1100.webp`;
     document.querySelector('meta[property="og:image"]').content = shareImage;
-    document.querySelector('meta[property="og:image:alt"]').content = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / iPad / ${text.titles[0]}`;
+    document.querySelector('meta[property="og:image:alt"]').content = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / iPhone Duo / ${text.titles[0]}`;
     document.querySelector('meta[name="twitter:image"]').content = shareImage;
     const countries = { 'zh-Hans': 'cn', 'zh-Hant': 'tw', en: 'us', ja: 'jp' };
     document.querySelector('[data-vault-download]').href = `https://apps.apple.com/${countries[lang]}/app/id6810494416`;
@@ -134,6 +140,6 @@
   gallery.addEventListener('keydown', keyboard);
   dialog.addEventListener('keydown', keyboard);
   document.addEventListener('freezon:languagechange', render);
-  narrow.addEventListener('change', () => { if (!chosenDevice) device = narrow.matches ? 'iphone' : 'ipad'; render(); });
+  narrow.addEventListener('change', () => { if (!chosenDevice) device = narrow.matches ? 'iphone' : 'duo'; render(); });
   render();
 })();

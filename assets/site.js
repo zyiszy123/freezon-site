@@ -14,10 +14,10 @@
   const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン" };
   const pageContent = {
     home: {
-      "zh-Hans": ["定格 - iPhone 与 iPad 本机加密相册", "定格适用于 iPhone 和 iPad。日常相册与私密相册分别使用独立密码，照片和视频在本机加密保存，支持加密备份与恢复，无需注册账号。", "支持 iPhone 和 iPad。两个独立相册，本机加密，支持加密备份与恢复。无需注册账号，没有广告。"],
-      "zh-Hant": ["定格 - iPhone 與 iPad 本機加密相簿", "定格適用於 iPhone 和 iPad。日常相簿與私密相簿分別使用獨立密碼，照片與影片在本機加密儲存，支援加密備份與復原，無須註冊帳號。", "支援 iPhone 和 iPad。兩個獨立相簿，本機加密，支援加密備份與復原。無須註冊帳號，沒有廣告。"],
-      en: ["Freezon - Encrypted photo albums for iPhone and iPad", "Freezon encrypts photos and videos on iPhone and iPad. Separate passwords for Everyday and Private Albums, with encrypted backup and restore. No account required.", "For iPhone and iPad. Separate album passwords, on-device encryption, and encrypted backup and restore. No account or ads."],
-      ja: ["Freezon - iPhoneとiPadの端末内暗号化アルバム", "FreezonはiPhoneとiPadに対応。日常用とプライベートの専用パスワードで写真やビデオを端末内に暗号化保存。暗号化バックアップと復元に対応し、アカウント登録は不要です。", "iPhoneとiPadに対応。独立したパスワード、端末内暗号化、暗号化バックアップと復元。アカウント登録も広告もありません。"]
+      "zh-Hans": ["定格 - iPhone、iPhone Duo 与 iPad 本机加密相册", "定格适用于 iPhone 和 iPad，现已适配 iPhone Duo 折叠屏。日常相册与私密相册分别使用独立密码，照片和视频在本机加密保存，支持加密备份与恢复，无需注册账号。", "支持 iPhone、iPhone Duo 和 iPad。两个独立相册，本机加密，支持加密备份与恢复。无需注册账号，没有广告。"],
+      "zh-Hant": ["定格 - iPhone、iPhone Duo 與 iPad 本機加密相簿", "定格適用於 iPhone 和 iPad，現已適配 iPhone Duo 摺疊螢幕。日常相簿與私密相簿分別使用獨立密碼，照片與影片在本機加密儲存，支援加密備份與復原，無須註冊帳號。", "支援 iPhone、iPhone Duo 和 iPad。兩個獨立相簿，本機加密，支援加密備份與復原。無須註冊帳號，沒有廣告。"],
+      en: ["Freezon - Encrypted photo albums for iPhone, iPhone Duo and iPad", "Freezon encrypts photos and videos on iPhone and iPad, now with iPhone Duo foldable support. Separate album passwords, encrypted backup and restore. No account required.", "For iPhone, iPhone Duo and iPad. Separate album passwords, on-device encryption, and encrypted backup and restore. No account or ads."],
+      ja: ["Freezon - iPhone、iPhone Duo、iPadの端末内暗号化アルバム", "FreezonはiPhoneとiPadに加え、折りたたみ式のiPhone Duoにも対応。日常用とプライベートの専用パスワードで写真やビデオを端末内に暗号化保存。暗号化バックアップと復元に対応し、アカウント登録は不要です。", "iPhone、iPhone Duo、iPadに対応。独立したパスワード、端末内暗号化、暗号化バックアップと復元。アカウント登録も広告もありません。"]
     },
     "home-banner": {
       "zh-Hans": ["定格手持弹幕 - 把手机变成现场灯牌", "在 iPhone 与 iPad 上制作静态大字和滚动字幕。自由调整方向、速度、字体、效果与颜色，编辑和全屏展示无需联网。", "静态大字、滚动字幕、霓虹文字和复古点阵，把 iPhone 或 iPad 变成现场灯牌。", "定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌"],
