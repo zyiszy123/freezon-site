@@ -3,6 +3,9 @@
   if (!gallery) return;
   const names = ['01_dual_vault', '02_pure_experience', '03_lossless_media', '04_cross_vault_migration', '05_safe_cleanup', '06_encrypted_backup'];
   const copy = {
+    "ko": {"device":"표시 기기","topics":"기능 목록","previous":"이전 이미지","next":"다음 이미지","open":"이미지 확대","close":"미리보기 닫기","preview":"홍보 이미지 미리보기","titles":["서로 독립된 두 앨범","광고 없이 사진에 집중","원본 미디어 그대로","앨범 사이에서 이동","삭제 전에 원본 확인","암호화 백업과 복원"],"labels":["두 앨범","광고 없음","원본 화질","앨범 간 이동","원본 정리","암호화 백업"],"descriptions":["일상 앨범과 비공개 앨범은 각각 별도의 비밀번호, 암호화 키, 복구 코드를 사용합니다. 사진과 비디오는 기기 안에서 암호화해 보관합니다.","계정을 만들지 않아도 됩니다. 시작 화면 광고, 팝업 광고, 분석 및 추적 SDK 없이 사진을 보고 정리하세요.","사진, 비디오, Live Photo, GIF, RAW/ProRAW 등을 지원합니다. 사진 앱이 제공하는 원본 리소스를 의도적으로 압축하거나 바꾸지 않고 저장하며, 확인 가능한 촬영 정보도 함께 보관합니다.","선택한 항목을 일상 앨범이나 비공개 앨범으로 옮길 수 있습니다. 이동할 항목과 앨범을 확인하고 두 비밀번호를 검증한 뒤, 이동한 앨범의 키로 보호합니다.","사진 앱의 원본을 그대로 두거나 나중에 정리할 수 있습니다. 삭제를 요청하기 전에 앱 내 사본, 백업 상태, 선택 항목을 다시 확인하고 동의를 받습니다. 삭제한 원본은 보통 최근 삭제된 항목으로 이동합니다.","파일 앱에서 선택한 위치에 앨범별로 암호화 백업을 저장합니다. 증분 백업과 중단 후 재개를 지원하며, 재설치하거나 다른 iPhone 또는 iPad로 바꾼 뒤 해당 복구 코드로 복원할 수 있습니다."]},
+    "es-419": {"device":"Dispositivo","topics":"Funciones","previous":"Imagen anterior","next":"Imagen siguiente","open":"Ampliar imagen","close":"Cerrar vista previa","preview":"Vista previa","titles":["Dos álbumes independientes","Tus fotos, sin anuncios","Conserva los archivos originales","Mueve entre álbumes","Revisa antes de borrar","Respaldo cifrado y restauración"],"labels":["Dos álbumes","Sin anuncios","Calidad original","Mover fotos","Revisar originales","Respaldo cifrado"],"descriptions":["El Álbum diario y el Álbum privado tienen contraseñas, claves y códigos de recuperación separados. Tus fotos y videos se guardan cifrados en el dispositivo.","No necesitas una cuenta. Sin anuncios al abrir la app, ventanas publicitarias ni SDK de análisis o seguimiento. Mira y organiza tus fotos sin interrupciones.","Admite fotos, videos, Live Photos, GIFs, RAW/ProRAW y más. Guarda los recursos originales de Fotos sin comprimirlos ni sustituirlos de forma intencional, junto con los datos de captura disponibles.","Mueve los elementos seleccionados al Álbum diario o al Álbum privado. Freezon confirma el destino y los elementos, verifica ambas contraseñas y protege los archivos con las claves del álbum de destino.","Puedes conservar los originales en Fotos o revisarlos más adelante. Antes de pedir que se borren, Freezon comprueba la copia de la app, el estado del respaldo y los elementos seleccionados, y te pide confirmación. Los originales borrados normalmente pasan a Eliminado recientemente.","Respalda cada álbum por separado en la ubicación que elijas en Archivos. Los respaldos son incrementales y se pueden reanudar. Después de reinstalar o cambiar de iPhone o iPad, restaura con el código de recuperación correspondiente."]},
+    "pt-BR": {"device":"Dispositivo","topics":"Recursos","previous":"Imagem anterior","next":"Próxima imagem","open":"Ampliar imagem","close":"Fechar prévia","preview":"Prévia","titles":["Dois álbuns independentes","Suas fotos, sem anúncios","Mídia original preservada","Mova entre álbuns","Confira antes de apagar","Backup criptografado e restauração"],"labels":["Dois álbuns","Sem anúncios","Qualidade original","Mover fotos","Revisar originais","Backup criptografado"],"descriptions":["O Álbum do dia a dia e o Álbum privado usam senhas, chaves e códigos de recuperação separados. As fotos e os vídeos ficam criptografados no dispositivo.","Não é preciso criar uma conta. Sem anúncios na abertura, pop-ups de publicidade ou SDKs de análise e rastreamento. Veja e organize suas fotos sem interrupções.","Compatível com fotos, vídeos, Live Photos, GIFs, RAW/ProRAW e outros formatos. Salva os recursos originais do app Fotos sem comprimir ou substituir intencionalmente, junto com as informações de captura disponíveis.","Mova os itens selecionados para o Álbum do dia a dia ou para o Álbum privado. O Freezon confirma o destino e os itens, verifica as duas senhas e protege os arquivos com as chaves do álbum de destino.","Você pode manter os originais no app Fotos ou revisá-los depois. Antes de solicitar a exclusão, o Freezon confere a cópia no app, o estado do backup e os itens selecionados, e pede sua confirmação. Os originais apagados normalmente vão para Apagados.","Faça backup de cada álbum separadamente no local que escolher no app Arquivos. Os backups são incrementais e podem ser retomados. Depois de reinstalar ou trocar de iPhone ou iPad, restaure com o código de recuperação correspondente."]},
     'zh-Hans': {
       device: '展示设备', topics: '功能主题', previous: '上一张宣传图', next: '下一张宣传图', open: '放大宣传图', close: '关闭预览', preview: '宣传图预览',
       titles: ['两个独立相册', '没有广告打扰', '保留原始媒体', '在相册之间移动', '逐项确认原片清理', '加密备份与恢复'],
@@ -76,7 +79,7 @@
     topics.append(button);
     return button;
   });
-  const asset = (lang, target, name, width) => `./assets/vault-campaign/${lang}/${target}/${name}-${width}.webp`;
+  const asset = (lang, target, name, width) => `./assets/vault-campaign/${lang}/${target}/${name}-${width}.webp?v=20261027`;
   const render = () => {
     const lang = document.documentElement.lang;
     const text = copy[lang] || copy['zh-Hans'];
@@ -117,11 +120,11 @@
     heroImage.srcset = devices.duo.widths.map(width => `${asset(lang, 'duo', names[0], width)} ${width}w`).join(', ');
     heroImage.src = asset(lang, 'duo', names[0], 1100);
     heroImage.alt = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / ${narrow.matches ? 'iPhone' : 'iPhone Duo'} / ${text.titles[0]}`;
-    const shareImage = `https://freezonapp.com/assets/vault-campaign/${lang}/duo/01_dual_vault-1100.webp`;
+    const shareImage = `https://freezonapp.com/assets/vault-campaign/${lang}/duo/01_dual_vault-1100.webp?v=20261027`;
     document.querySelector('meta[property="og:image"]').content = shareImage;
     document.querySelector('meta[property="og:image:alt"]').content = `${lang.startsWith('zh') ? '定格' : 'Freezon'} / iPhone Duo / ${text.titles[0]}`;
     document.querySelector('meta[name="twitter:image"]').content = shareImage;
-    const countries = { 'zh-Hans': 'cn', 'zh-Hant': 'tw', en: 'us', ja: 'jp' };
+    const countries = { 'zh-Hans': 'cn', 'zh-Hant': 'tw', en: 'us', ja: 'jp', ko: 'kr', 'es-419': 'mx', 'pt-BR': 'br' };
     document.querySelector('[data-vault-download]').href = `https://apps.apple.com/${countries[lang]}/app/id6810494416`;
   };
   const move = step => { index = (index + step + names.length) % names.length; render(); };

@@ -6,7 +6,7 @@ const sharp = require('sharp');
 const source = process.argv[2];
 if (!source) throw new Error('Pass the appstore-screenshots/final directory.');
 const destination = path.resolve(__dirname, '../assets/vault-campaign');
-const locales = ['zh-Hans', 'zh-Hant', 'en', 'ja'];
+const locales = ['zh-Hans', 'zh-Hant', 'en', 'ja', 'ko', 'es-419', 'pt-BR'];
 const names = ['01_dual_vault', '02_pure_experience', '03_lossless_media', '04_cross_vault_migration', '05_safe_cleanup', '06_encrypted_backup'];
 const devices = {
   iphone: { widths: [660, 1320], size: [1320, 2868] },
@@ -18,9 +18,9 @@ const devices = {
   const manifest = {
     source: 'appstore-screenshots/final',
     provenance: {
-      iphone: '2026-10-15 approved App Store posters with Apple device frames.',
-      ipad: '2026-10-15 approved App Store posters with Apple device frames.',
-      duo: '2026-10-22 simulator campaign posters with schematic frames, not official Apple hardware artwork; not uploaded to App Store Connect.'
+      iphone: 'Original four locales unchanged; Korean, Latin American Spanish and Brazilian Portuguese added 2026-10-27. Apple device frames.',
+      ipad: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Apple device frames.',
+      duo: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Schematic frames, not official Apple hardware artwork. Not uploaded to App Store Connect.'
     },
     transformation: 'Full canvas resized proportionally to WebP; no cropping, reframing, or text changes.', images: []
   };
@@ -41,5 +41,5 @@ const devices = {
     }
   }
   await fs.writeFile(path.join(destination, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`Prepared ${manifest.images.length} WebP files from 72 campaign posters.`);
+  console.log(`Prepared ${manifest.images.length} WebP files from ${locales.length * Object.keys(devices).length * names.length} campaign posters.`);
 })();

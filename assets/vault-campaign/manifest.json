@@ -1,9 +1,9 @@
 {
   "source": "appstore-screenshots/final",
   "provenance": {
-    "iphone": "2026-10-15 approved App Store posters with Apple device frames.",
-    "ipad": "2026-10-15 approved App Store posters with Apple device frames.",
-    "duo": "2026-10-22 simulator campaign posters with schematic frames, not official Apple hardware artwork; not uploaded to App Store Connect."
+    "iphone": "Original four locales unchanged; Korean, Latin American Spanish and Brazilian Portuguese added 2026-10-27. Apple device frames.",
+    "ipad": "Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Apple device frames.",
+    "duo": "Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Schematic frames, not official Apple hardware artwork. Not uploaded to App Store Connect."
   },
   "transformation": "Full canvas resized proportionally to WebP; no cropping, reframing, or text changes.",
   "images": [
@@ -145,10 +145,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 39938,
+      "bytes": 39784,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "2cdb25379d835070bcc5718c82d5f8d16e89737d7641fdb66d1463edf61ee42c"
+      "sourceSHA256": "7cfefa079ee8f5101903a783b762580ba2eb68b39ea0e9e25aef64a9b2c0b84d"
     },
     {
       "locale": "zh-Hans",
@@ -156,10 +156,10 @@
       "file": "01_dual_vault-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 142034,
+      "bytes": 141464,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "2cdb25379d835070bcc5718c82d5f8d16e89737d7641fdb66d1463edf61ee42c"
+      "sourceSHA256": "7cfefa079ee8f5101903a783b762580ba2eb68b39ea0e9e25aef64a9b2c0b84d"
     },
     {
       "locale": "zh-Hans",
@@ -167,10 +167,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 73058,
+      "bytes": 71656,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "b2b8446b67621349bde0d0d34ce61d4db9df519ecc25520413b8adccc6260293"
+      "sourceSHA256": "af9259d3a360ebb0f1da202713ddfc1ce0e0417cc55c89856d4146a334b27e32"
     },
     {
       "locale": "zh-Hans",
@@ -178,10 +178,10 @@
       "file": "02_pure_experience-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 294012,
+      "bytes": 286810,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "b2b8446b67621349bde0d0d34ce61d4db9df519ecc25520413b8adccc6260293"
+      "sourceSHA256": "af9259d3a360ebb0f1da202713ddfc1ce0e0417cc55c89856d4146a334b27e32"
     },
     {
       "locale": "zh-Hans",
@@ -211,10 +211,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 46768,
+      "bytes": 51980,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "e0c6282d91851e9440d6fd0caa778f7e133efad33bd510e96968b798ccb68aa7"
+      "sourceSHA256": "be65a3a4c6958fb047f5755d33ca90531ce3b969f287b94e2d72b65be06172d3"
     },
     {
       "locale": "zh-Hans",
@@ -222,10 +222,10 @@
       "file": "04_cross_vault_migration-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 171826,
+      "bytes": 183302,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "e0c6282d91851e9440d6fd0caa778f7e133efad33bd510e96968b798ccb68aa7"
+      "sourceSHA256": "be65a3a4c6958fb047f5755d33ca90531ce3b969f287b94e2d72b65be06172d3"
     },
     {
       "locale": "zh-Hans",
@@ -233,10 +233,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 49218,
+      "bytes": 52370,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "7e7bcbc658f3d6d73555bc392b9840fa5706b3ba4d978b561dbd88a804a4e9dd"
+      "sourceSHA256": "cdbbe4e83f2d87e5939845c84689c623c4190717d3b17486a64484d7e9af9f0b"
     },
     {
       "locale": "zh-Hans",
@@ -244,10 +244,10 @@
       "file": "05_safe_cleanup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 184982,
+      "bytes": 191660,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "7e7bcbc658f3d6d73555bc392b9840fa5706b3ba4d978b561dbd88a804a4e9dd"
+      "sourceSHA256": "cdbbe4e83f2d87e5939845c84689c623c4190717d3b17486a64484d7e9af9f0b"
     },
     {
       "locale": "zh-Hans",
@@ -255,10 +255,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 33654,
+      "bytes": 39630,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "570fd922ae5d3fd720239b868b17f9020d8c969d432b422f7c16c5dcd80532c2"
+      "sourceSHA256": "068cac6c0ddce6c77adae428765894d7070b6cdca21175628dfa65b6e6171408"
     },
     {
       "locale": "zh-Hans",
@@ -266,10 +266,10 @@
       "file": "06_encrypted_backup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 109128,
+      "bytes": 129264,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "570fd922ae5d3fd720239b868b17f9020d8c969d432b422f7c16c5dcd80532c2"
+      "sourceSHA256": "068cac6c0ddce6c77adae428765894d7070b6cdca21175628dfa65b6e6171408"
     },
     {
       "locale": "zh-Hans",
@@ -277,10 +277,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 51958,
+      "bytes": 51910,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ff02ad1f93343a0a1c616ca652022640dae8c1f9023beb2c86cc0836da86c619"
+      "sourceSHA256": "3d3b1586a21a5f55a21c14e667f3cfdf4c04e42b1415bbd2db9078e26523f495"
     },
     {
       "locale": "zh-Hans",
@@ -288,10 +288,10 @@
       "file": "01_dual_vault-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 205844,
+      "bytes": 205878,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ff02ad1f93343a0a1c616ca652022640dae8c1f9023beb2c86cc0836da86c619"
+      "sourceSHA256": "3d3b1586a21a5f55a21c14e667f3cfdf4c04e42b1415bbd2db9078e26523f495"
     },
     {
       "locale": "zh-Hans",
@@ -299,10 +299,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 94176,
+      "bytes": 59290,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "3085ee4e027797942f9dcc4d281484fb4de57e8baa1a5b4b2a27eada71f49be7"
+      "sourceSHA256": "5597a1abd8d97646099ec8c23020f09553585778e970fc0f5c2b3688677e4e5e"
     },
     {
       "locale": "zh-Hans",
@@ -310,10 +310,10 @@
       "file": "02_pure_experience-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 408258,
+      "bytes": 233444,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "3085ee4e027797942f9dcc4d281484fb4de57e8baa1a5b4b2a27eada71f49be7"
+      "sourceSHA256": "5597a1abd8d97646099ec8c23020f09553585778e970fc0f5c2b3688677e4e5e"
     },
     {
       "locale": "zh-Hans",
@@ -321,10 +321,10 @@
       "file": "03_lossless_media-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 99840,
+      "bytes": 107196,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "8fdd136d336e742913834240033a2d74c7367159d302d266f913c8571577f757"
+      "sourceSHA256": "c988391b3f2ed8f9f03395bf56dea0e3ec8d83f1e48c1566efd3b557888047bb"
     },
     {
       "locale": "zh-Hans",
@@ -332,10 +332,10 @@
       "file": "03_lossless_media-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 447952,
+      "bytes": 485650,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "8fdd136d336e742913834240033a2d74c7367159d302d266f913c8571577f757"
+      "sourceSHA256": "c988391b3f2ed8f9f03395bf56dea0e3ec8d83f1e48c1566efd3b557888047bb"
     },
     {
       "locale": "zh-Hans",
@@ -343,10 +343,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 59130,
+      "bytes": 56228,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5e8a1f71d8440eec9e0aab5755ec75577497d0d9ff89a234648bf58543f50857"
+      "sourceSHA256": "9f5fcafbe19220d7f0673875444a1e1383047890aa536986e730049115eb5d24"
     },
     {
       "locale": "zh-Hans",
@@ -354,10 +354,10 @@
       "file": "04_cross_vault_migration-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 247600,
+      "bytes": 217682,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5e8a1f71d8440eec9e0aab5755ec75577497d0d9ff89a234648bf58543f50857"
+      "sourceSHA256": "9f5fcafbe19220d7f0673875444a1e1383047890aa536986e730049115eb5d24"
     },
     {
       "locale": "zh-Hans",
@@ -365,10 +365,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 74238,
+      "bytes": 64664,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "64b8696e9fbe3a469555f87fbff704eb80fbc99792e11fa9529b8453602e403a"
+      "sourceSHA256": "31a3196b4aebf1c0476defffed5e9d3e77fdd8792b196a9a255560ad5ad03d2b"
     },
     {
       "locale": "zh-Hans",
@@ -376,10 +376,10 @@
       "file": "05_safe_cleanup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 313628,
+      "bytes": 255502,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "64b8696e9fbe3a469555f87fbff704eb80fbc99792e11fa9529b8453602e403a"
+      "sourceSHA256": "31a3196b4aebf1c0476defffed5e9d3e77fdd8792b196a9a255560ad5ad03d2b"
     },
     {
       "locale": "zh-Hans",
@@ -387,10 +387,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 34864,
+      "bytes": 43768,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "e22290cbeac2e549e62c815a091d9b6d9b63fc8f4ed3e29cde2cc569a42ca2b5"
+      "sourceSHA256": "b5e47207689d3b0654b04a0efdbf9191a61ff3a1418ebf7c91034c139140ef18"
     },
     {
       "locale": "zh-Hans",
@@ -398,10 +398,10 @@
       "file": "06_encrypted_backup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 116046,
+      "bytes": 145176,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "e22290cbeac2e549e62c815a091d9b6d9b63fc8f4ed3e29cde2cc569a42ca2b5"
+      "sourceSHA256": "b5e47207689d3b0654b04a0efdbf9191a61ff3a1418ebf7c91034c139140ef18"
     },
     {
       "locale": "zh-Hant",
@@ -541,10 +541,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 40856,
+      "bytes": 40600,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "7e292d653388ee18c03727852863f6bdbc6a124b6bf957c3fbbc99218aec6692"
+      "sourceSHA256": "646ea3b89438ed3f535955792ea2f1b7c292101e5f1bbea0c3e4a2557d3246ad"
     },
     {
       "locale": "zh-Hant",
@@ -552,10 +552,10 @@
       "file": "01_dual_vault-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 147424,
+      "bytes": 146704,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "7e292d653388ee18c03727852863f6bdbc6a124b6bf957c3fbbc99218aec6692"
+      "sourceSHA256": "646ea3b89438ed3f535955792ea2f1b7c292101e5f1bbea0c3e4a2557d3246ad"
     },
     {
       "locale": "zh-Hant",
@@ -563,10 +563,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 75284,
+      "bytes": 73918,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "eb2bd86fd3f43188120d49f4a13a1d724eccd77cc9db92b175c669dfe62785ce"
+      "sourceSHA256": "34279eca50dbcaee4f502f1ae0956ea6c5d054755312f6db7eb3b5f1adf44277"
     },
     {
       "locale": "zh-Hant",
@@ -574,10 +574,10 @@
       "file": "02_pure_experience-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 301746,
+      "bytes": 294694,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "eb2bd86fd3f43188120d49f4a13a1d724eccd77cc9db92b175c669dfe62785ce"
+      "sourceSHA256": "34279eca50dbcaee4f502f1ae0956ea6c5d054755312f6db7eb3b5f1adf44277"
     },
     {
       "locale": "zh-Hant",
@@ -607,10 +607,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 48014,
+      "bytes": 53330,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "5ca1823bfe44ff37edab749d2d693ffa9bcd26314608b5046936ba8156c47ec0"
+      "sourceSHA256": "a845c223af2a6dff93d1ffae9375bfa1f4d314ea97b5c99acc85e6d4b9a716e5"
     },
     {
       "locale": "zh-Hant",
@@ -618,10 +618,10 @@
       "file": "04_cross_vault_migration-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 178398,
+      "bytes": 191690,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "5ca1823bfe44ff37edab749d2d693ffa9bcd26314608b5046936ba8156c47ec0"
+      "sourceSHA256": "a845c223af2a6dff93d1ffae9375bfa1f4d314ea97b5c99acc85e6d4b9a716e5"
     },
     {
       "locale": "zh-Hant",
@@ -629,10 +629,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 49952,
+      "bytes": 53110,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "f85e656f999ed57158e421d70d50964bab2f2a866e96a3e5c6fff3ef06df44cb"
+      "sourceSHA256": "5fee01724dfa264032c62ade15314f3ff5703db6ad22f8b52ba71860b25ef837"
     },
     {
       "locale": "zh-Hant",
@@ -640,10 +640,10 @@
       "file": "05_safe_cleanup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 188096,
+      "bytes": 196552,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "f85e656f999ed57158e421d70d50964bab2f2a866e96a3e5c6fff3ef06df44cb"
+      "sourceSHA256": "5fee01724dfa264032c62ade15314f3ff5703db6ad22f8b52ba71860b25ef837"
     },
     {
       "locale": "zh-Hant",
@@ -651,10 +651,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 34534,
+      "bytes": 40398,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "3399b8cfa1de6555025ddd8e8c863d482d93f4423f0ef4ba2f791561cde1fcc4"
+      "sourceSHA256": "6756d1230367e5045f684ee6da2dd8daa76de720fc84f2299ba4c79b592df145"
     },
     {
       "locale": "zh-Hant",
@@ -662,10 +662,10 @@
       "file": "06_encrypted_backup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 113452,
+      "bytes": 134250,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "3399b8cfa1de6555025ddd8e8c863d482d93f4423f0ef4ba2f791561cde1fcc4"
+      "sourceSHA256": "6756d1230367e5045f684ee6da2dd8daa76de720fc84f2299ba4c79b592df145"
     },
     {
       "locale": "zh-Hant",
@@ -673,10 +673,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 53334,
+      "bytes": 53266,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5550a6d5a10dd8ed261ffb7868729cfda5130baacf98526c1c710e84424b6de0"
+      "sourceSHA256": "249fe450a41d3cdbd7eb491311e08602bd9b50dff7db17c5a9d82d27fe81fe69"
     },
     {
       "locale": "zh-Hant",
@@ -684,10 +684,10 @@
       "file": "01_dual_vault-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 212452,
+      "bytes": 212572,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5550a6d5a10dd8ed261ffb7868729cfda5130baacf98526c1c710e84424b6de0"
+      "sourceSHA256": "249fe450a41d3cdbd7eb491311e08602bd9b50dff7db17c5a9d82d27fe81fe69"
     },
     {
       "locale": "zh-Hant",
@@ -695,10 +695,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 96928,
+      "bytes": 62032,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "e98da921627955ba430e509a564c8b939f5d4841cd1ee9de1e5df95a2bc2e611"
+      "sourceSHA256": "fdee1b0aaeceee339e8bcc00cec24ca5a701dcbc03e024bdb3781030b2a800bb"
     },
     {
       "locale": "zh-Hant",
@@ -706,10 +706,10 @@
       "file": "02_pure_experience-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 418676,
+      "bytes": 244390,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "e98da921627955ba430e509a564c8b939f5d4841cd1ee9de1e5df95a2bc2e611"
+      "sourceSHA256": "fdee1b0aaeceee339e8bcc00cec24ca5a701dcbc03e024bdb3781030b2a800bb"
     },
     {
       "locale": "zh-Hant",
@@ -717,10 +717,10 @@
       "file": "03_lossless_media-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 100544,
+      "bytes": 107904,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ffe116280f5f8f896f8f07bb85d980f5d746f3bc673e2d0b79742f248e485e85"
+      "sourceSHA256": "b842eb90d4a8f5121f2389614b418607cc8dcf65d30b811464cac430f594c9d4"
     },
     {
       "locale": "zh-Hant",
@@ -728,10 +728,10 @@
       "file": "03_lossless_media-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 451330,
+      "bytes": 494920,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ffe116280f5f8f896f8f07bb85d980f5d746f3bc673e2d0b79742f248e485e85"
+      "sourceSHA256": "b842eb90d4a8f5121f2389614b418607cc8dcf65d30b811464cac430f594c9d4"
     },
     {
       "locale": "zh-Hant",
@@ -739,10 +739,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 60656,
+      "bytes": 58328,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "9f25605c3dd67d262c7b28d77217e3c6e7a371dad1d25ad3164b3214fccf9086"
+      "sourceSHA256": "4626c719948eac3675709acc63558f4e3c56209716fb3e70cc579070d2aee2ea"
     },
     {
       "locale": "zh-Hant",
@@ -750,10 +750,10 @@
       "file": "04_cross_vault_migration-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 254744,
+      "bytes": 226462,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "9f25605c3dd67d262c7b28d77217e3c6e7a371dad1d25ad3164b3214fccf9086"
+      "sourceSHA256": "4626c719948eac3675709acc63558f4e3c56209716fb3e70cc579070d2aee2ea"
     },
     {
       "locale": "zh-Hant",
@@ -761,10 +761,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 77312,
+      "bytes": 67990,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "03af700298151bcba684bbed9737f257ae3d9221bff160f55f642aa67b78f804"
+      "sourceSHA256": "b6feb9de7161d286728a13abd86a11e3c32cf74824769613c5bcfde94576a727"
     },
     {
       "locale": "zh-Hant",
@@ -772,10 +772,10 @@
       "file": "05_safe_cleanup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 324390,
+      "bytes": 268374,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "03af700298151bcba684bbed9737f257ae3d9221bff160f55f642aa67b78f804"
+      "sourceSHA256": "b6feb9de7161d286728a13abd86a11e3c32cf74824769613c5bcfde94576a727"
     },
     {
       "locale": "zh-Hant",
@@ -783,10 +783,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 35068,
+      "bytes": 44640,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "968449b69e1a04fbbff7fb6c103084bc493b001037a7c4f29fa5a971f09f958a"
+      "sourceSHA256": "de36d57a6cc64f4a372b54ecabd9b7616592f12736ca99de2c6323557969e28d"
     },
     {
       "locale": "zh-Hant",
@@ -794,10 +794,10 @@
       "file": "06_encrypted_backup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 119688,
+      "bytes": 152300,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "968449b69e1a04fbbff7fb6c103084bc493b001037a7c4f29fa5a971f09f958a"
+      "sourceSHA256": "de36d57a6cc64f4a372b54ecabd9b7616592f12736ca99de2c6323557969e28d"
     },
     {
       "locale": "en",
@@ -937,10 +937,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 40876,
+      "bytes": 40638,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "ca6e559bfd19ef430a93c5b547e88528fe70be849d8e355ff9a7375289810606"
+      "sourceSHA256": "23dd520ca282de5ac8d4d31847a9e5c47c2c85cc85613ce520c22c279e78c138"
     },
     {
       "locale": "en",
@@ -948,10 +948,10 @@
       "file": "01_dual_vault-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 144748,
+      "bytes": 144216,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "ca6e559bfd19ef430a93c5b547e88528fe70be849d8e355ff9a7375289810606"
+      "sourceSHA256": "23dd520ca282de5ac8d4d31847a9e5c47c2c85cc85613ce520c22c279e78c138"
     },
     {
       "locale": "en",
@@ -959,10 +959,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 76248,
+      "bytes": 75362,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "8005197488e6ecf3d997c87483927878abfb49f3c019479d4916c017405e3efc"
+      "sourceSHA256": "cfbf84c495ac166435873e56f0faecd5ab475d07e3f0abcb9ab10a483921fce2"
     },
     {
       "locale": "en",
@@ -970,10 +970,10 @@
       "file": "02_pure_experience-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 304326,
+      "bytes": 299304,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "8005197488e6ecf3d997c87483927878abfb49f3c019479d4916c017405e3efc"
+      "sourceSHA256": "cfbf84c495ac166435873e56f0faecd5ab475d07e3f0abcb9ab10a483921fce2"
     },
     {
       "locale": "en",
@@ -1003,10 +1003,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 51298,
+      "bytes": 59800,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "a55c5925648897d45e1a13f2010da00e3152f150599fa20ff247b459099d4573"
+      "sourceSHA256": "444df33439dcdfe2869a940f129c149b92bd11da2a93707e567b8a001cbdb64d"
     },
     {
       "locale": "en",
@@ -1014,10 +1014,10 @@
       "file": "04_cross_vault_migration-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 185814,
+      "bytes": 203260,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "a55c5925648897d45e1a13f2010da00e3152f150599fa20ff247b459099d4573"
+      "sourceSHA256": "444df33439dcdfe2869a940f129c149b92bd11da2a93707e567b8a001cbdb64d"
     },
     {
       "locale": "en",
@@ -1025,10 +1025,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 53350,
+      "bytes": 58202,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "1184b8d5c00aaa713fa896567f837533b786b5d5d445f50b4272a5c019abc24b"
+      "sourceSHA256": "f49b80d86a0ae573699218202705be3a771431b7dfe5fe83ad6101a457ef9d3c"
     },
     {
       "locale": "en",
@@ -1036,10 +1036,10 @@
       "file": "05_safe_cleanup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 197934,
+      "bytes": 207258,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "1184b8d5c00aaa713fa896567f837533b786b5d5d445f50b4272a5c019abc24b"
+      "sourceSHA256": "f49b80d86a0ae573699218202705be3a771431b7dfe5fe83ad6101a457ef9d3c"
     },
     {
       "locale": "en",
@@ -1047,10 +1047,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 38536,
+      "bytes": 46182,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "1a66bcbacc3b299bdd190d95ecfc6c5534c828313af8b9d2f2859eb2d9e96295"
+      "sourceSHA256": "1744602a8c7864993e3ccc629bfcddfd402b629b72ba3696479bd3e0b63b5b52"
     },
     {
       "locale": "en",
@@ -1058,10 +1058,10 @@
       "file": "06_encrypted_backup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 123742,
+      "bytes": 146510,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "1a66bcbacc3b299bdd190d95ecfc6c5534c828313af8b9d2f2859eb2d9e96295"
+      "sourceSHA256": "1744602a8c7864993e3ccc629bfcddfd402b629b72ba3696479bd3e0b63b5b52"
     },
     {
       "locale": "en",
@@ -1069,10 +1069,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 57230,
+      "bytes": 57220,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5db8dabd4615d8c9dd7f035d9e4ed0df901a009ae8c7fbbe823acfa2a29e563b"
+      "sourceSHA256": "7bce7eebd6fda73bac099805c3580f265852efc8b55614f929511550fde97f79"
     },
     {
       "locale": "en",
@@ -1080,10 +1080,10 @@
       "file": "01_dual_vault-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 217642,
+      "bytes": 218128,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "5db8dabd4615d8c9dd7f035d9e4ed0df901a009ae8c7fbbe823acfa2a29e563b"
+      "sourceSHA256": "7bce7eebd6fda73bac099805c3580f265852efc8b55614f929511550fde97f79"
     },
     {
       "locale": "en",
@@ -1091,10 +1091,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 97986,
+      "bytes": 64070,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "eaa5d00c6b7f1007c73b485ea2063d131ca2b524021db8d40643e30b117f36c0"
+      "sourceSHA256": "881bba1a0e4e6d0753c89a1235d1a8649079f7bbcd8789893b32700ec58a91b8"
     },
     {
       "locale": "en",
@@ -1102,10 +1102,10 @@
       "file": "02_pure_experience-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 416206,
+      "bytes": 246594,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "eaa5d00c6b7f1007c73b485ea2063d131ca2b524021db8d40643e30b117f36c0"
+      "sourceSHA256": "881bba1a0e4e6d0753c89a1235d1a8649079f7bbcd8789893b32700ec58a91b8"
     },
     {
       "locale": "en",
@@ -1113,10 +1113,10 @@
       "file": "03_lossless_media-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 103610,
+      "bytes": 110858,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "a1607480c463f55adfab8499cf37f536b17dabad53dcc65a723a23928773e6a7"
+      "sourceSHA256": "fdf2305dabb11e18a6f3d8237c941fd90b543a406af58d571c73fe0df143f8af"
     },
     {
       "locale": "en",
@@ -1124,10 +1124,10 @@
       "file": "03_lossless_media-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 454330,
+      "bytes": 496728,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "a1607480c463f55adfab8499cf37f536b17dabad53dcc65a723a23928773e6a7"
+      "sourceSHA256": "fdf2305dabb11e18a6f3d8237c941fd90b543a406af58d571c73fe0df143f8af"
     },
     {
       "locale": "en",
@@ -1135,10 +1135,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 63470,
+      "bytes": 62418,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "b3b1e243eb86de959038173cfff6de3617c24d972df7fc394a98e29ff2e58803"
+      "sourceSHA256": "68cc16b5995cacf298f8b792f2a043c69f29dfd2a575032c67b55f94160163ed"
     },
     {
       "locale": "en",
@@ -1146,10 +1146,10 @@
       "file": "04_cross_vault_migration-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 257026,
+      "bytes": 232526,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "b3b1e243eb86de959038173cfff6de3617c24d972df7fc394a98e29ff2e58803"
+      "sourceSHA256": "68cc16b5995cacf298f8b792f2a043c69f29dfd2a575032c67b55f94160163ed"
     },
     {
       "locale": "en",
@@ -1157,10 +1157,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 79352,
+      "bytes": 70512,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "f38e98229d2f6a7d5eabd29aaa1a7746efb9dbc7f759c0cf92fe0512fa072c52"
+      "sourceSHA256": "cfd9d9df24b44a90df8c4049647cfb342d9e7e92c5812da29114f707fa1a77f3"
     },
     {
       "locale": "en",
@@ -1168,10 +1168,10 @@
       "file": "05_safe_cleanup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 326226,
+      "bytes": 273944,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "f38e98229d2f6a7d5eabd29aaa1a7746efb9dbc7f759c0cf92fe0512fa072c52"
+      "sourceSHA256": "cfd9d9df24b44a90df8c4049647cfb342d9e7e92c5812da29114f707fa1a77f3"
     },
     {
       "locale": "en",
@@ -1179,10 +1179,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 44656,
+      "bytes": 55302,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ad0bfee68428de0d8185b8de68d24e939be3c1a2c515ebd1d0a4242cea5593e9"
+      "sourceSHA256": "24c38e2e8c33d2f185cb78a23728e22cf9b1a0e8b9b2d6726e18edbc600721d9"
     },
     {
       "locale": "en",
@@ -1190,10 +1190,10 @@
       "file": "06_encrypted_backup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 136904,
+      "bytes": 173692,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "ad0bfee68428de0d8185b8de68d24e939be3c1a2c515ebd1d0a4242cea5593e9"
+      "sourceSHA256": "24c38e2e8c33d2f185cb78a23728e22cf9b1a0e8b9b2d6726e18edbc600721d9"
     },
     {
       "locale": "ja",
@@ -1333,10 +1333,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 42694,
+      "bytes": 42424,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "49858beb7c3406bfb7e41f375737d39f327c61cee55b55476d40b869e520c03c"
+      "sourceSHA256": "dc7be3d2f11f59d91bf05689e4f306c87b07309197a0557451c66f7614b9c5d8"
     },
     {
       "locale": "ja",
@@ -1344,10 +1344,10 @@
       "file": "01_dual_vault-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 151006,
+      "bytes": 150484,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "49858beb7c3406bfb7e41f375737d39f327c61cee55b55476d40b869e520c03c"
+      "sourceSHA256": "dc7be3d2f11f59d91bf05689e4f306c87b07309197a0557451c66f7614b9c5d8"
     },
     {
       "locale": "ja",
@@ -1355,10 +1355,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 76258,
+      "bytes": 75374,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "4f4eccd21e5ee12a1a93e648fff334dd76146518052a02a51ffe1810cc78fdb2"
+      "sourceSHA256": "036891f94d6aa6ea4a151d16522c6ee7f447564bad38cf41b1ee940f7bd30880"
     },
     {
       "locale": "ja",
@@ -1366,10 +1366,10 @@
       "file": "02_pure_experience-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 304694,
+      "bytes": 298964,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "4f4eccd21e5ee12a1a93e648fff334dd76146518052a02a51ffe1810cc78fdb2"
+      "sourceSHA256": "036891f94d6aa6ea4a151d16522c6ee7f447564bad38cf41b1ee940f7bd30880"
     },
     {
       "locale": "ja",
@@ -1399,10 +1399,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 51288,
+      "bytes": 59600,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "a07d297039ff3dc9aaa39f8ea2ac0f0b963dde1aa4d14ff7f343b6d26b4ae55d"
+      "sourceSHA256": "f4251e8cca2cd18e5055d2ffb4fc4716a00e0810d1691c36d6b066cca599f9be"
     },
     {
       "locale": "ja",
@@ -1410,10 +1410,10 @@
       "file": "04_cross_vault_migration-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 185606,
+      "bytes": 202170,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "a07d297039ff3dc9aaa39f8ea2ac0f0b963dde1aa4d14ff7f343b6d26b4ae55d"
+      "sourceSHA256": "f4251e8cca2cd18e5055d2ffb4fc4716a00e0810d1691c36d6b066cca599f9be"
     },
     {
       "locale": "ja",
@@ -1421,10 +1421,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 52764,
+      "bytes": 57376,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "af4e2d0d02835e28e78b1a7ede184175fcbe325668eddcec5e09cd8809637c65"
+      "sourceSHA256": "bc4a14eb91ea891598ecbd78159525f08e3e80a66cd3d28a9a01f696c908d9d3"
     },
     {
       "locale": "ja",
@@ -1432,10 +1432,10 @@
       "file": "05_safe_cleanup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 199268,
+      "bytes": 205738,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "af4e2d0d02835e28e78b1a7ede184175fcbe325668eddcec5e09cd8809637c65"
+      "sourceSHA256": "bc4a14eb91ea891598ecbd78159525f08e3e80a66cd3d28a9a01f696c908d9d3"
     },
     {
       "locale": "ja",
@@ -1443,10 +1443,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 825,
-      "bytes": 37788,
+      "bytes": 44720,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "2b330fe37988d5fe59a9ab1112ff2b264def68b3f96317e4077c1914706b1cef"
+      "sourceSHA256": "8be5aabe07cae8845f93948f0a5d00d3e9e6e9fe506b84435174a96082f76e2b"
     },
     {
       "locale": "ja",
@@ -1454,10 +1454,10 @@
       "file": "06_encrypted_backup-2752.webp",
       "width": 2752,
       "height": 2064,
-      "bytes": 117938,
+      "bytes": 138258,
       "sourceWidth": 2752,
       "sourceHeight": 2064,
-      "sourceSHA256": "2b330fe37988d5fe59a9ab1112ff2b264def68b3f96317e4077c1914706b1cef"
+      "sourceSHA256": "8be5aabe07cae8845f93948f0a5d00d3e9e6e9fe506b84435174a96082f76e2b"
     },
     {
       "locale": "ja",
@@ -1465,10 +1465,10 @@
       "file": "01_dual_vault-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 57994,
+      "bytes": 58458,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "f019b1c438db254730bf5a9af70ae14a95befb3478063a6f76a1ced743471202"
+      "sourceSHA256": "e34e119eec678b3f6edd45b01b3e99cb5e29d896e92163e6dd2cec30302fe298"
     },
     {
       "locale": "ja",
@@ -1476,10 +1476,10 @@
       "file": "01_dual_vault-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 222454,
+      "bytes": 223058,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "f019b1c438db254730bf5a9af70ae14a95befb3478063a6f76a1ced743471202"
+      "sourceSHA256": "e34e119eec678b3f6edd45b01b3e99cb5e29d896e92163e6dd2cec30302fe298"
     },
     {
       "locale": "ja",
@@ -1487,10 +1487,10 @@
       "file": "02_pure_experience-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 98644,
+      "bytes": 62574,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "4fe4b2be503e889d13c28f94f69f58cabbf911288e5d24f4c7f3f5a1cc5cdb04"
+      "sourceSHA256": "63c16adea84d9be808babf69d5da7b96ac13acebbfadf66e1b07129575f7cc5c"
     },
     {
       "locale": "ja",
@@ -1498,10 +1498,10 @@
       "file": "02_pure_experience-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 419488,
+      "bytes": 239362,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "4fe4b2be503e889d13c28f94f69f58cabbf911288e5d24f4c7f3f5a1cc5cdb04"
+      "sourceSHA256": "63c16adea84d9be808babf69d5da7b96ac13acebbfadf66e1b07129575f7cc5c"
     },
     {
       "locale": "ja",
@@ -1509,10 +1509,10 @@
       "file": "03_lossless_media-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 103456,
+      "bytes": 110684,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "0e06f8bd74fefe50e53dc4a790f2553bb3473cb66c0078cdaee14a40b9d9f85a"
+      "sourceSHA256": "bd368ac3cfca4f5e86f85248c9e8b5e6abe6015012397a870405780cb9f6f973"
     },
     {
       "locale": "ja",
@@ -1520,10 +1520,10 @@
       "file": "03_lossless_media-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 456958,
+      "bytes": 498958,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "0e06f8bd74fefe50e53dc4a790f2553bb3473cb66c0078cdaee14a40b9d9f85a"
+      "sourceSHA256": "bd368ac3cfca4f5e86f85248c9e8b5e6abe6015012397a870405780cb9f6f973"
     },
     {
       "locale": "ja",
@@ -1531,10 +1531,10 @@
       "file": "04_cross_vault_migration-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 65146,
+      "bytes": 63738,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "d64e34b551c9e6aa11e8e747fba2b09ffd6e2ee8e8c8f401731c25de18e05e37"
+      "sourceSHA256": "5471d01676b68be0701bfeace18c89b50dadde974f1ab21d29e6fda64bd0a89e"
     },
     {
       "locale": "ja",
@@ -1542,10 +1542,10 @@
       "file": "04_cross_vault_migration-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 264034,
+      "bytes": 234532,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "d64e34b551c9e6aa11e8e747fba2b09ffd6e2ee8e8c8f401731c25de18e05e37"
+      "sourceSHA256": "5471d01676b68be0701bfeace18c89b50dadde974f1ab21d29e6fda64bd0a89e"
     },
     {
       "locale": "ja",
@@ -1553,10 +1553,10 @@
       "file": "05_safe_cleanup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 81230,
+      "bytes": 73288,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "8b613f1f776f3bf2abf54afb9ce9209c72abc8c2482d84a4f309f4bd10e65b35"
+      "sourceSHA256": "672d3f542f35b7152013bf4384dcc7661849c2b4813c724a04bc9b3d7d301ef1"
     },
     {
       "locale": "ja",
@@ -1564,10 +1564,10 @@
       "file": "05_safe_cleanup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 335606,
+      "bytes": 277122,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "8b613f1f776f3bf2abf54afb9ce9209c72abc8c2482d84a4f309f4bd10e65b35"
+      "sourceSHA256": "672d3f542f35b7152013bf4384dcc7661849c2b4813c724a04bc9b3d7d301ef1"
     },
     {
       "locale": "ja",
@@ -1575,10 +1575,10 @@
       "file": "06_encrypted_backup-1100.webp",
       "width": 1100,
       "height": 774,
-      "bytes": 42528,
+      "bytes": 52850,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "c7a467b24056ba5c7c5ac8e8098d3c780a4ec89b0296e4364446576dce456e7d"
+      "sourceSHA256": "5c76959a23f24ddd48c61bc341834e20c6de7d0a062d2c3f522d5949f1f721ba"
     },
     {
       "locale": "ja",
@@ -1586,10 +1586,1198 @@
       "file": "06_encrypted_backup-2853.webp",
       "width": 2853,
       "height": 2007,
-      "bytes": 131786,
+      "bytes": 161626,
       "sourceWidth": 2853,
       "sourceHeight": 2007,
-      "sourceSHA256": "c7a467b24056ba5c7c5ac8e8098d3c780a4ec89b0296e4364446576dce456e7d"
+      "sourceSHA256": "5c76959a23f24ddd48c61bc341834e20c6de7d0a062d2c3f522d5949f1f721ba"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 46154,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f93c41299fa18ccfbd07b5311e408412eef9b135a995829098197845eab616eb"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 114300,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f93c41299fa18ccfbd07b5311e408412eef9b135a995829098197845eab616eb"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 82836,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "2cf14f96b5ed25d5ecc7efa3f638bc8f615c30d3c6b11bd7dc2f3265a3d2e87f"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 225780,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "2cf14f96b5ed25d5ecc7efa3f638bc8f615c30d3c6b11bd7dc2f3265a3d2e87f"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 90342,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "864b6303bb4300552adfa475ccae605ca2cc3153a79d8d862a0fd974f003d070"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 256546,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "864b6303bb4300552adfa475ccae605ca2cc3153a79d8d862a0fd974f003d070"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 65102,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f0624f6cb41b0cfe3cd2f560a3f3107eed08df8c7ab9d9abcfeb8c1c2bb90ecc"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 174490,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f0624f6cb41b0cfe3cd2f560a3f3107eed08df8c7ab9d9abcfeb8c1c2bb90ecc"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 75082,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "54c80a9c83fc7bdfc924eed1f79ff44cd3dca736403bf1587514ac21d957db92"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 205182,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "54c80a9c83fc7bdfc924eed1f79ff44cd3dca736403bf1587514ac21d957db92"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 44772,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f615fb1b55dcc5e9afc87e6bf87b1ec84f95074c67858780bd0ece4aec2ee8a4"
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 99502,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f615fb1b55dcc5e9afc87e6bf87b1ec84f95074c67858780bd0ece4aec2ee8a4"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 38024,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "5401f13edd8e364336d67a0a9188c0c338213182d0aac9d4e1afa54cd2c7e0ed"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 134066,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "5401f13edd8e364336d67a0a9188c0c338213182d0aac9d4e1afa54cd2c7e0ed"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 71158,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "f88ff0907df06ed2a34c4e56a01aefe15cdd005a3b32e69037aec30511a8425b"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 282032,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "f88ff0907df06ed2a34c4e56a01aefe15cdd005a3b32e69037aec30511a8425b"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 105590,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "fbfb02f96d7d853b6b6af9f24ab9774926b8e169cabc1fee19c3f849ee4abef6"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 405942,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "fbfb02f96d7d853b6b6af9f24ab9774926b8e169cabc1fee19c3f849ee4abef6"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 53738,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "d565daedcfe95f1fbaf52dd79948ae00e498ed96bef01bfdcc774c00b44c182d"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 181684,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "d565daedcfe95f1fbaf52dd79948ae00e498ed96bef01bfdcc774c00b44c182d"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 51696,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "64737933ff2219a5d26581fd75d05c52437317521c7224f269ecb061dc7e2b80"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 182826,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "64737933ff2219a5d26581fd75d05c52437317521c7224f269ecb061dc7e2b80"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 35616,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "4578e5c53fa9cf8ca0e9c8dc77319611eda076fcbca76440f971d8d736254776"
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 111442,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "4578e5c53fa9cf8ca0e9c8dc77319611eda076fcbca76440f971d8d736254776"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 50646,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "dab7d86c869cfd3ad9d0f721b0188b2972c8de01b36d42636a208e707a8bc10a"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 196076,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "dab7d86c869cfd3ad9d0f721b0188b2972c8de01b36d42636a208e707a8bc10a"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57452,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "db767b66aa40d07c9fe69c5a911ed0346b14e189e888e1e22b8ef475e7b0e93a"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 220640,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "db767b66aa40d07c9fe69c5a911ed0346b14e189e888e1e22b8ef475e7b0e93a"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 104570,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f1adcd19891a8f49adf9c683153895d2b2d767d70d439777ef69343cb9dcd6cb"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 476386,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f1adcd19891a8f49adf9c683153895d2b2d767d70d439777ef69343cb9dcd6cb"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 54114,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "cd977d1be21c0de14574ac71e25da6ac9c9ee61dfdfa078818a4ef53d87ded32"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 199382,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "cd977d1be21c0de14574ac71e25da6ac9c9ee61dfdfa078818a4ef53d87ded32"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 63690,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "a569ab00bb7dd33d59f05951dfe2249213df9ec6f185bac8fb64b83c8acf6841"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 244366,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "a569ab00bb7dd33d59f05951dfe2249213df9ec6f185bac8fb64b83c8acf6841"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 41408,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "19ebc8f86c5ea0330912a4897cd82f8ae02a3fa22d11ed4b52c264f6b941fde4"
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 124746,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "19ebc8f86c5ea0330912a4897cd82f8ae02a3fa22d11ed4b52c264f6b941fde4"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 53946,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "c475224112848566a23b7bf8f112e4d0d10265e5c00ec2168d9a01fe6a75a8a0"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 132672,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "c475224112848566a23b7bf8f112e4d0d10265e5c00ec2168d9a01fe6a75a8a0"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 92220,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f65791be8b7d10ef26bec7dc461b0ab2f3ba4c0bd78a07cb906ce7c185829705"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 247474,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f65791be8b7d10ef26bec7dc461b0ab2f3ba4c0bd78a07cb906ce7c185829705"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 98806,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "d5f0f7c5e9d5e2c19e0c89f908d7c6e77a4f791081898bd8fbb28dad610b1f1c"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 275938,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "d5f0f7c5e9d5e2c19e0c89f908d7c6e77a4f791081898bd8fbb28dad610b1f1c"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 72394,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "a788e3a8372bb400f1bb9acdc624984d9628bad61ca2a20c894b6503a8dc98ac"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 192006,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "a788e3a8372bb400f1bb9acdc624984d9628bad61ca2a20c894b6503a8dc98ac"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 84514,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "0e81f4e63514ccdd8f33d9d07e48855182694e6a484fb8027b91908ba54c5417"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 231928,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "0e81f4e63514ccdd8f33d9d07e48855182694e6a484fb8027b91908ba54c5417"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 58474,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "732b96769645cc0de89ecaea6fc73eccb5a018e068c41ad70ad4288a0e4360b1"
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 135260,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "732b96769645cc0de89ecaea6fc73eccb5a018e068c41ad70ad4288a0e4360b1"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 45006,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "28ad10fec7151a26a03216fc3daeb445194427da54d9fe4391e12d3971f6012f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 157456,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "28ad10fec7151a26a03216fc3daeb445194427da54d9fe4391e12d3971f6012f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 76598,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "ee478ff315ed8305a0728a08792f9f1c08e8a36e85249c558c4567f5825beb0f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 304618,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "ee478ff315ed8305a0728a08792f9f1c08e8a36e85249c558c4567f5825beb0f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 113658,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "66728537f8668919542e25a126486617701a8a3be1de83ccba3d0e0808421c8f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 430424,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "66728537f8668919542e25a126486617701a8a3be1de83ccba3d0e0808421c8f"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 65230,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "8b2b63095fbc2fbf6ce2897b7b327f04344d19cc03dc30d0ea4f2c23e8be0c68"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 229676,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "8b2b63095fbc2fbf6ce2897b7b327f04344d19cc03dc30d0ea4f2c23e8be0c68"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 60176,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "3cdff941d359bb843949df4f4e22ca04cbbd2fbc538323cbb1eed2bc1011772c"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 218294,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "3cdff941d359bb843949df4f4e22ca04cbbd2fbc538323cbb1eed2bc1011772c"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 46950,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "3d84ba274ceaea68eeead76ac120b49d819d43bd3411517763ace8c25d79c7b6"
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 152222,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "3d84ba274ceaea68eeead76ac120b49d819d43bd3411517763ace8c25d79c7b6"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60276,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "cd7061e7fdf80829b951e7b20621031ae99e7893f7f47e996177265abcf56aee"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 228260,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "cd7061e7fdf80829b951e7b20621031ae99e7893f7f47e996177265abcf56aee"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 64712,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3299649fe1ad35bee1684d6083aee07359359c32cddef160233e146cecb53191"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 250178,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3299649fe1ad35bee1684d6083aee07359359c32cddef160233e146cecb53191"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 112900,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "de2dfb097767c7083ff4e487a216af3ae92ca428b4942b39f5cc2fc07a3eaa1b"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 504982,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "de2dfb097767c7083ff4e487a216af3ae92ca428b4942b39f5cc2fc07a3eaa1b"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 64318,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "4035842c6049b266b541be5f19c25a779657ae164a6575bd2ae9edd848251c1e"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 237910,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "4035842c6049b266b541be5f19c25a779657ae164a6575bd2ae9edd848251c1e"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 73816,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "62e766928fff80107ebb16fb3fba3202ec3c050f970ec603c9205c13770e1291"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 285788,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "62e766928fff80107ebb16fb3fba3202ec3c050f970ec603c9205c13770e1291"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 56542,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "6a1185020dbc4d797ebfeadd1b7855ef66b9c2a4f9807e00bff5cd037a18f4b0"
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 179942,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "6a1185020dbc4d797ebfeadd1b7855ef66b9c2a4f9807e00bff5cd037a18f4b0"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 52154,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "0910a536206b0f930b311fbed87c761a303fc8c34cb17e5eabb0292428b0fa80"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 128458,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "0910a536206b0f930b311fbed87c761a303fc8c34cb17e5eabb0292428b0fa80"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 91990,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "89ec31f942dead8f1ccb7c893d4c98518c38adfccd648d0c6c3e786f5c23111b"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 247586,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "89ec31f942dead8f1ccb7c893d4c98518c38adfccd648d0c6c3e786f5c23111b"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 98544,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "bf791e9d846103213a4494fd7429b0ef78adf79024deb892a6c7b1a13be6264c"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 275568,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "bf791e9d846103213a4494fd7429b0ef78adf79024deb892a6c7b1a13be6264c"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 71780,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f28fe129ccbd6d72400db8971bb59c39c10029ceb460bbc211174c09694cfc9a"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 191574,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "f28fe129ccbd6d72400db8971bb59c39c10029ceb460bbc211174c09694cfc9a"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 84058,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "87ede3443871f60bb4447eff44761b4536296c34b01b84ac62bfad044cee26b0"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 230736,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "87ede3443871f60bb4447eff44761b4536296c34b01b84ac62bfad044cee26b0"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 58044,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "15d0dbd4fb2847b1d40fe87f1fefc00e0142ac2eaf3bffa7080827dd2b683c48"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 133760,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868,
+      "sourceSHA256": "15d0dbd4fb2847b1d40fe87f1fefc00e0142ac2eaf3bffa7080827dd2b683c48"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 43476,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "0a5ed4d634dc378b45da833bb72ce2d8a3605eaf158860bd3e94a02f81d7df27"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 152418,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "0a5ed4d634dc378b45da833bb72ce2d8a3605eaf158860bd3e94a02f81d7df27"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 76324,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "44f6432086f8d4c4e362822a323cae77a5e53335090a9980573e05e8c191de88"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 302404,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "44f6432086f8d4c4e362822a323cae77a5e53335090a9980573e05e8c191de88"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 113880,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "6113775029469a51a926d76e662c5e84598600c3ec3554ba3d74b6b059c9eb41"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 430424,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "6113775029469a51a926d76e662c5e84598600c3ec3554ba3d74b6b059c9eb41"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 62332,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "066d41482a8e34fc2cc99540e3a30097a22c8f7746e508ff57fd329b38e36ec0"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 215516,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "066d41482a8e34fc2cc99540e3a30097a22c8f7746e508ff57fd329b38e36ec0"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 59288,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "999683ab7537bd5d111850879c8cb51548fc2c8e1dd7817746da2ce0da932fea"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 214594,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "999683ab7537bd5d111850879c8cb51548fc2c8e1dd7817746da2ce0da932fea"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 47832,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "c666291915e8dedb45f868c99b3d83cc50409e8a50c1c1675622a0c6928a20f8"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 150794,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064,
+      "sourceSHA256": "c666291915e8dedb45f868c99b3d83cc50409e8a50c1c1675622a0c6928a20f8"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57966,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5bde7451965ea9ebe044ff8ccd5b0c68c4a2df332709cc8bfb60364de103eb74"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 222162,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5bde7451965ea9ebe044ff8ccd5b0c68c4a2df332709cc8bfb60364de103eb74"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 64006,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3f5962add6f191ed6bb891805f0d89ccd338d036927c240fac0bd828eb042783"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 248066,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "3f5962add6f191ed6bb891805f0d89ccd338d036927c240fac0bd828eb042783"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 113174,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5db485005f450577a6cbe0df4b8524b706f7f215c752146dd8b95c65e6523023"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 504704,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "5db485005f450577a6cbe0df4b8524b706f7f215c752146dd8b95c65e6523023"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 61074,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "1fccffddfd33bc996a738dd4c207e1c4fa60b33c934d42f4aae0074fdf1858f1"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 228908,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "1fccffddfd33bc996a738dd4c207e1c4fa60b33c934d42f4aae0074fdf1858f1"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 73976,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f7f771e09f075bfc825490f834cb6a28b6febc070450db252d6214cc8c1ba417"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 281874,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "f7f771e09f075bfc825490f834cb6a28b6febc070450db252d6214cc8c1ba417"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57072,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "de339a7d8ad4c7a07e36da2b74db888d52a7968c085222d52c9ba0f26656425a"
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 177516,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007,
+      "sourceSHA256": "de339a7d8ad4c7a07e36da2b74db888d52a7968c085222d52c9ba0f26656425a"
     }
   ]
 }

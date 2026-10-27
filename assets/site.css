@@ -66,8 +66,11 @@ header, main, footer, .skip-link {
 }
 
 [data-lang-content] { display: none; }
+html[lang="ko"] { word-break: keep-all; overflow-wrap: break-word; }
 html[lang="zh-Hans"] [data-lang-content="zh-Hans"], html[lang="zh-Hant"] [data-lang-content="zh-Hant"], html[lang="en"] [data-lang-content="en"], html[lang="ja"] [data-lang-content="ja"] { display: block; }
 html[lang="zh-Hans"] span[data-lang-content="zh-Hans"], html[lang="zh-Hant"] span[data-lang-content="zh-Hant"], html[lang="en"] span[data-lang-content="en"], html[lang="ja"] span[data-lang-content="ja"] { display: inline; }
+html[lang="ko"] [data-lang-content="ko"], html[lang="es-419"] [data-lang-content="es-419"], html[lang="pt-BR"] [data-lang-content="pt-BR"] { display: block; }
+html[lang="ko"] span[data-lang-content="ko"], html[lang="es-419"] span[data-lang-content="es-419"], html[lang="pt-BR"] span[data-lang-content="pt-BR"] { display: inline; }
 
 .skip-link {
   position: fixed;
