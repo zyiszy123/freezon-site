@@ -1,6 +1,6 @@
 (() => {
   const supported = ["zh-Hans", "zh-Hant", "en", "ja", "ko"];
-  const assetVersion = "20261028-2";
+  const assetVersion = "20261028-3";
   const appStore = {
     "zh-Hans": { url: "https://apps.apple.com/cn/app/id6810290208", badgeLocale: "zh-cn", badgeWidth: 109, alt: "在 App Store 下载" },
     "zh-Hant": { url: "https://apps.apple.com/tw/app/id6810290208", badgeLocale: "zh-tw", badgeWidth: 109, alt: "從 App Store 下載" },
