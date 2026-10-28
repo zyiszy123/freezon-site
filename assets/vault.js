@@ -79,7 +79,7 @@
     topics.append(button);
     return button;
   });
-  const asset = (lang, target, name, width) => `./assets/vault-campaign/${lang}/${target}/${name}-${width}.webp?v=20261027`;
+  const asset = (lang, target, name, width) => `./assets/vault-campaign/${lang}/${target}/${name}-${width}.webp?v=${target !== 'iphone' && /^(02|04|05|06)_/.test(name) ? '20261028' : '20261027'}`;
   const render = () => {
     const lang = document.documentElement.lang;
     const text = copy[lang] || copy['zh-Hans'];

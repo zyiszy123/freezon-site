@@ -8,6 +8,8 @@ The original four-language iPhone/iPad set was uploaded to App Store Connect for
 
 The Duo set uses the latest supplied final images, including the refreshed four locales and three new locales. Each combines unfolded inner-screen and folded outer-screen views. Their schematic frames are not official Apple Duo hardware artwork. Media types, counts, and file details use diagnostic sample data; these images do not establish performance or functional test results. The Duo posters have not been uploaded to App Store Connect.
 
+On 2026-10-28, iPad and Duo themes 02, 04, 05 and 06 were refreshed in all seven locales from App main `68d6d2f`: the latest settings sidebar, migration selection, cleanup selection and backup screens. This replaces 56 source posters and 112 WebP derivatives. See the source project's `sidebar-update-captures.json` and `sidebar-update-verification.json` for provenance. iPhone posters and themes 01 and 03 retain their existing files. Updated derivatives use image cache version `20261028`; other posters retain `20261027`.
+
 The website uses only files in this repository. `manifest.json` records source hashes, source dimensions, and output sizes. To regenerate with Node and Sharp installed:
 
 ```sh

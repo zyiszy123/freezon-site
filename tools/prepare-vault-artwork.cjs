@@ -19,8 +19,8 @@ const devices = {
     source: 'appstore-screenshots/final',
     provenance: {
       iphone: 'Original four locales unchanged; Korean, Latin American Spanish and Brazilian Portuguese added 2026-10-27. Apple device frames.',
-      ipad: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Apple device frames.',
-      duo: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Schematic frames, not official Apple hardware artwork. Not uploaded to App Store Connect.'
+      ipad: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Themes 02, 04, 05 and 06 refreshed in all seven locales 2026-10-28 from app main 68d6d2f for the updated settings sidebar. Apple device frames.',
+      duo: 'Original four locales refreshed 2026-10-26; three locales added 2026-10-27. Themes 02, 04, 05 and 06 refreshed in all seven locales 2026-10-28 from app main 68d6d2f for the updated settings sidebar. Schematic frames, not official Apple hardware artwork. Not uploaded to App Store Connect.'
     },
     transformation: 'Full canvas resized proportionally to WebP; no cropping, reframing, or text changes.', images: []
   };
