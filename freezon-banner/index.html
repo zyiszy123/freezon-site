@@ -10,6 +10,7 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://freezonapp.com/freezon-banner/?lang=zh-Hant">
   <link rel="alternate" hreflang="en" href="https://freezonapp.com/freezon-banner/?lang=en">
   <link rel="alternate" hreflang="ja" href="https://freezonapp.com/freezon-banner/?lang=ja">
+  <link rel="alternate" hreflang="ko" href="https://freezonapp.com/freezon-banner/?lang=ko">
   <link rel="alternate" hreflang="x-default" href="https://freezonapp.com/freezon-banner/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://freezonapp.com/freezon-banner/?lang=zh-Hans">
@@ -19,6 +20,7 @@
   <meta property="og:locale:alternate" content="zh_TW">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
   <meta property="og:image" content="https://freezonapp.com/assets/banner/zh-Hans/ipad/01-banner.webp">
   <meta property="og:image:width" content="1920">
   <meta property="og:image:height" content="1440">
@@ -30,13 +32,13 @@
   <link rel="icon" href="../assets/freezon-banner-icon.png">
   <script>
     (() => {
-      const supported = ["zh-Hans", "zh-Hant", "en", "ja"];
-      const assetVersion = "20260912-2";
+      const supported = ["zh-Hans", "zh-Hant", "en", "ja", "ko"];
+      const assetVersion = "20261028-2";
       const queryLanguage = new URLSearchParams(window.location.search).get("lang");
       const lang = supported.includes(queryLanguage) ? queryLanguage : document.documentElement.lang;
       document.documentElement.lang = supported.includes(lang) ? lang : "zh-Hans";
 
-      if (document.documentElement.lang !== "zh-Hant") {
+      if (!["zh-Hant", "ko"].includes(document.documentElement.lang)) {
         const fontPreload = document.createElement("link");
         fontPreload.rel = "preload";
         fontPreload.as = "font";
@@ -60,9 +62,9 @@
     })();
   </script>
   <link rel="stylesheet" href="../assets/site.css?v=20260928-1">
-  <link rel="stylesheet" href="../assets/banner-site.css?v=20260929-1">
-  <script defer src="../assets/site.js?v=20260911-1"></script>
-  <script defer src="../assets/banner-site.js?v=20260929-1"></script>
+  <link rel="stylesheet" href="../assets/banner-site.css?v=20261028-1">
+  <script defer src="../assets/site.js?v=20261028-1"></script>
+  <script defer src="../assets/banner-site.js?v=20261028-2"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Freezon Banner / 定格手持弹幕","applicationCategory":"UtilitiesApplication","operatingSystem":"iOS 17 or later, iPadOS 17 or later","description":"在 iPhone 与 iPad 上制作静态大字和多向滚动字幕的本机工具。","url":"https://freezonapp.com/freezon-banner/","image":"https://freezonapp.com/assets/freezon-banner-icon.png"}</script>
 </head>
 <body class="banner-home-page" data-product="freezon-banner">
@@ -80,6 +82,7 @@
     <span data-lang-content="zh-Hant">跳到主要內容</span>
     <span data-lang-content="en">Skip to content</span>
     <span data-lang-content="ja">本文へ移動</span>
+    <span data-lang-content="ko">본문으로 이동</span>
   </a>
 
   <header class="site-nav banner-nav" data-site-header>
@@ -91,13 +94,14 @@
           <span data-lang-content="zh-Hant">定格手持彈幕</span>
           <span data-lang-content="en">Freezon Banner</span>
           <span data-lang-content="ja">Freezon Banner</span>
+          <span data-lang-content="ko">Freezon Banner</span>
         </span>
       </a>
       <nav class="desktop-nav" aria-label="Primary navigation">
-        <a href="#try" class="site-nav-link"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span></a>
-        <a href="#features" class="site-nav-link"><span data-lang-content="zh-Hans">功能</span><span data-lang-content="zh-Hant">功能</span><span data-lang-content="en">Features</span><span data-lang-content="ja">機能</span></a>
-        <a data-localized-link href="../support/freezon-banner/" class="site-nav-link"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span></a>
-        <a data-localized-link href="../" class="site-nav-link product-switch"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span></a>
+        <a href="#try" class="site-nav-link"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span><span data-lang-content="ko">현장 체험</span></a>
+        <a href="#features" class="site-nav-link"><span data-lang-content="zh-Hans">功能</span><span data-lang-content="zh-Hant">功能</span><span data-lang-content="en">Features</span><span data-lang-content="ja">機能</span><span data-lang-content="ko">기능</span></a>
+        <a data-localized-link href="../support/freezon-banner/" class="site-nav-link"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span><span data-lang-content="ko">지원</span></a>
+        <a data-localized-link href="../" class="site-nav-link product-switch"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span><span data-lang-content="ko">Freezon 사진</span></a>
       </nav>
       <div class="nav-actions">
         <div class="language-switcher" role="group" aria-label="Language selector">
@@ -105,20 +109,22 @@
           <button type="button" data-language-choice="zh-Hant" aria-label="繁體中文">繁</button>
           <button type="button" data-language-choice="en" aria-label="English">EN</button>
           <button type="button" data-language-choice="ja" aria-label="日本語">日</button>
+          <button type="button" data-language-choice="ko" aria-label="한국어">한</button>
         </div>
         <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="打开导航"><span class="menu-icon" aria-hidden="true"><span></span><span></span></span></button>
       </div>
     </div>
     <nav id="mobile-menu" class="mobile-menu" aria-label="移动导航" hidden>
-      <a href="#try"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span></a>
-      <a href="#features"><span data-lang-content="zh-Hans">功能</span><span data-lang-content="zh-Hant">功能</span><span data-lang-content="en">Features</span><span data-lang-content="ja">機能</span></a>
-      <a data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span></a>
-      <a data-localized-link href="../"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span></a>
+      <a href="#try"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span><span data-lang-content="ko">현장 체험</span></a>
+      <a href="#features"><span data-lang-content="zh-Hans">功能</span><span data-lang-content="zh-Hant">功能</span><span data-lang-content="en">Features</span><span data-lang-content="ja">機能</span><span data-lang-content="ko">기능</span></a>
+      <a data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span><span data-lang-content="ko">지원</span></a>
+      <a data-localized-link href="../"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span><span data-lang-content="ko">Freezon 사진</span></a>
       <div class="mobile-language-switcher" role="group" aria-label="语言选择">
         <button type="button" data-language-choice="zh-Hans" aria-label="简体中文">简</button>
         <button type="button" data-language-choice="zh-Hant" aria-label="繁體中文">繁</button>
         <button type="button" data-language-choice="en" aria-label="English">EN</button>
         <button type="button" data-language-choice="ja" aria-label="日本語">日</button>
+        <button type="button" data-language-choice="ko" aria-label="한국어">한</button>
       </div>
     </nav>
   </header>
@@ -130,25 +136,25 @@
         <img width="1920" height="1440" alt="定格手持弹幕宣传图：朋友们手持 iPhone 和 iPad 灯牌" fetchpriority="high" decoding="async">
       </picture>
       <div class="banner-hero-copy">
-        <h1 id="banner-title"><span data-lang-content="zh-Hans">定格手持弹幕</span><span data-lang-content="zh-Hant">定格手持彈幕</span><span data-lang-content="en">Freezon Banner</span><span data-lang-content="ja">Freezon Banner</span></h1>
-        <p class="hero-punch"><span data-lang-content="zh-Hans">现场<br>看得清</span><span data-lang-content="zh-Hant">現場<br>看得清</span><span data-lang-content="en">Easy to read<br>from the crowd</span><span data-lang-content="ja">会場で<br>見やすい</span></p>
-        <p class="hero-detail"><span data-lang-content="zh-Hans">高对比霓虹文字和 LED 点阵，远处也容易看清。静态大字、滚动字幕随时切换。</span><span data-lang-content="zh-Hant">高對比霓虹文字和 LED 點陣，遠處也容易看清。靜態大字、捲動字幕隨時切換。</span><span data-lang-content="en">High-contrast neon and LED dots stay readable from a distance. Switch between big text and scrolling messages.</span><span data-lang-content="ja">高コントラストのネオン文字とLEDドットで、遠くからでも見やすく。大きな文字とスクロール表示を切り替えられます。</span></p>
+        <h1 id="banner-title"><span data-lang-content="zh-Hans">定格手持弹幕</span><span data-lang-content="zh-Hant">定格手持彈幕</span><span data-lang-content="en">Freezon Banner</span><span data-lang-content="ja">Freezon Banner</span><span data-lang-content="ko">Freezon Banner</span></h1>
+        <p class="hero-punch"><span data-lang-content="zh-Hans">现场<br>看得清</span><span data-lang-content="zh-Hant">現場<br>看得清</span><span data-lang-content="en">Easy to read<br>from the crowd</span><span data-lang-content="ja">会場で<br>見やすい</span><span data-lang-content="ko">현장에서<br>또렷하게</span></p>
+        <p class="hero-detail"><span data-lang-content="zh-Hans">高对比霓虹文字和 LED 点阵，远处也容易看清。静态大字、滚动字幕随时切换。</span><span data-lang-content="zh-Hant">高對比霓虹文字和 LED 點陣，遠處也容易看清。靜態大字、捲動字幕隨時切換。</span><span data-lang-content="en">High-contrast neon and LED dots stay readable from a distance. Switch between big text and scrolling messages.</span><span data-lang-content="ja">高コントラストのネオン文字とLEDドットで、遠くからでも見やすく。大きな文字とスクロール表示を切り替えられます。</span><span data-lang-content="ko">선명한 네온 글자와 LED 도트로 멀리서도 쉽게 알아볼 수 있습니다. 큰 글자와 스크롤 문구를 바로 전환하세요.</span></p>
         <div class="hero-actions">
-          <a class="banner-button banner-button-dark" href="#try"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span><span class="button-arrow" aria-hidden="true"></span></a>
+          <a class="banner-button banner-button-dark" href="#try"><span data-lang-content="zh-Hans">现场试试</span><span data-lang-content="zh-Hant">現場試試</span><span data-lang-content="en">Try it live</span><span data-lang-content="ja">試してみる</span><span data-lang-content="ko">현장 체험</span><span class="button-arrow" aria-hidden="true"></span></a>
           <a class="app-store-link" data-app-store-link href="https://apps.apple.com/cn/app/id6810290208" target="_blank" rel="noopener noreferrer">
             <img data-app-store-badge src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn?size=250x83" width="109" height="40" alt="在 App Store 下载">
           </a>
-          <a class="banner-text-link" href="#features"><span data-lang-content="zh-Hans">看全部功能</span><span data-lang-content="zh-Hant">查看全部功能</span><span data-lang-content="en">See all features</span><span data-lang-content="ja">すべての機能を見る</span></a>
+          <a class="banner-text-link" href="#features"><span data-lang-content="zh-Hans">看全部功能</span><span data-lang-content="zh-Hant">查看全部功能</span><span data-lang-content="en">See all features</span><span data-lang-content="ja">すべての機能を見る</span><span data-lang-content="ko">모든 기능 보기</span></a>
         </div>
       </div>
-      <p class="hero-platform"><span data-lang-content="zh-Hans">iPhone + iPad / iOS 17 及以上</span><span data-lang-content="zh-Hant">iPhone + iPad / iOS 17 或以上</span><span data-lang-content="en">iPhone + iPad / iOS 17 or later</span><span data-lang-content="ja">iPhone + iPad / iOS 17以降</span></p>
+      <p class="hero-platform"><span data-lang-content="zh-Hans">iPhone + iPad / iOS 17 及以上</span><span data-lang-content="zh-Hant">iPhone + iPad / iOS 17 或以上</span><span data-lang-content="en">iPhone + iPad / iOS 17 or later</span><span data-lang-content="ja">iPhone + iPad / iOS 17以降</span><span data-lang-content="ko">iPhone + iPad / iOS 17 이상</span></p>
       <a class="hero-next" href="#try" aria-label="下一部分"><span aria-hidden="true"></span></a>
     </section>
 
     <section id="try" class="banner-lab" aria-labelledby="try-title">
       <header class="lab-intro">
-        <h2 id="try-title"><span data-lang-content="zh-Hans">输入文字，<br>马上预览。</span><span data-lang-content="zh-Hant">輸入文字，<br>立即預覽。</span><span data-lang-content="en">Type a message.<br>See it live.</span><span data-lang-content="ja">文字を入力して、<br>すぐに確認。</span></h2>
-        <p><span data-lang-content="zh-Hans">输入灯牌内容，选择静态或滚动，再换个颜色看看。</span><span data-lang-content="zh-Hant">輸入燈牌內容，選擇靜態或捲動，再換個顏色看看。</span><span data-lang-content="en">Enter your message, choose static or scrolling, then try a different color.</span><span data-lang-content="ja">表示する文字を入力し、静止かスクロールを選んで、色を変えてみてください。</span></p>
+        <h2 id="try-title"><span data-lang-content="zh-Hans">输入文字，<br>马上预览。</span><span data-lang-content="zh-Hant">輸入文字，<br>立即預覽。</span><span data-lang-content="en">Type a message.<br>See it live.</span><span data-lang-content="ja">文字を入力して、<br>すぐに確認。</span><span data-lang-content="ko">문구를 입력하고,<br>바로 확인하세요.</span></h2>
+        <p><span data-lang-content="zh-Hans">输入灯牌内容，选择静态或滚动，再换个颜色看看。</span><span data-lang-content="zh-Hant">輸入燈牌內容，選擇靜態或捲動，再換個顏色看看。</span><span data-lang-content="en">Enter your message, choose static or scrolling, then try a different color.</span><span data-lang-content="ja">表示する文字を入力し、静止かスクロールを選んで、色を変えてみてください。</span><span data-lang-content="ko">전광판 문구를 입력하고, 고정 또는 스크롤을 선택한 다음 색상을 바꿔 보세요.</span></p>
       </header>
 
       <div class="banner-demo" data-banner-demo>
@@ -159,12 +165,12 @@
           </div>
         </div>
         <div class="demo-controls">
-          <label class="demo-input-label" for="banner-demo-input"><span data-lang-content="zh-Hans">灯牌文字</span><span data-lang-content="zh-Hant">燈牌文字</span><span data-lang-content="en">Banner text</span><span data-lang-content="ja">表示する文字</span></label>
+          <label class="demo-input-label" for="banner-demo-input"><span data-lang-content="zh-Hans">灯牌文字</span><span data-lang-content="zh-Hant">燈牌文字</span><span data-lang-content="en">Banner text</span><span data-lang-content="ja">表示する文字</span><span data-lang-content="ko">전광판 문구</span></label>
           <input id="banner-demo-input" data-banner-input type="text" maxlength="80" value="为爱发电 POWERED BY LOVE" autocomplete="off" spellcheck="false">
           <div class="demo-control-row">
             <div class="demo-segmented" role="group" aria-label="Display mode">
-              <button type="button" data-demo-mode="static" aria-pressed="false"><span data-lang-content="zh-Hans">静态</span><span data-lang-content="zh-Hant">靜態</span><span data-lang-content="en">Static</span><span data-lang-content="ja">静止</span></button>
-              <button type="button" data-demo-mode="scroll" aria-pressed="true"><span data-lang-content="zh-Hans">滚动</span><span data-lang-content="zh-Hant">捲動</span><span data-lang-content="en">Scroll</span><span data-lang-content="ja">スクロール</span></button>
+              <button type="button" data-demo-mode="static" aria-pressed="false"><span data-lang-content="zh-Hans">静态</span><span data-lang-content="zh-Hant">靜態</span><span data-lang-content="en">Static</span><span data-lang-content="ja">静止</span><span data-lang-content="ko">고정</span></button>
+              <button type="button" data-demo-mode="scroll" aria-pressed="true"><span data-lang-content="zh-Hans">滚动</span><span data-lang-content="zh-Hant">捲動</span><span data-lang-content="en">Scroll</span><span data-lang-content="ja">スクロール</span><span data-lang-content="ko">스크롤</span></button>
             </div>
             <div class="demo-swatches" role="group" aria-label="Text color">
               <button type="button" class="swatch swatch-lime is-active" data-demo-color="#c8ff32" aria-label="荧光黄绿" aria-pressed="true"></button>
@@ -185,8 +191,8 @@
           <img width="1920" height="1440" alt="定格手持弹幕创作界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
-          <h2 id="feature-create"><span data-lang-content="zh-Hans">输入文字，实时预览</span><span data-lang-content="zh-Hant">輸入文字，即時預覽</span><span data-lang-content="en">Type a message, see it live</span><span data-lang-content="ja">入力して、すぐに確認</span></h2>
-          <p><span data-lang-content="zh-Hans">支持横向、纵向滚动，还能调整速度和字号。</span><span data-lang-content="zh-Hant">支援橫向、縱向捲動，還能調整速度和字級。</span><span data-lang-content="en">Scroll horizontally or vertically, then adjust the speed and text size.</span><span data-lang-content="ja">縦横のスクロールに対応し、速度と文字サイズも調整できます。</span></p>
+          <h2 id="feature-create"><span data-lang-content="zh-Hans">输入文字，实时预览</span><span data-lang-content="zh-Hant">輸入文字，即時預覽</span><span data-lang-content="en">Type a message, see it live</span><span data-lang-content="ja">入力して、すぐに確認</span><span data-lang-content="ko">입력하며 바로 확인</span></h2>
+          <p><span data-lang-content="zh-Hans">支持横向、纵向滚动，还能调整速度和字号。</span><span data-lang-content="zh-Hant">支援橫向、縱向捲動，還能調整速度和字級。</span><span data-lang-content="en">Scroll horizontally or vertically, then adjust the speed and text size.</span><span data-lang-content="ja">縦横のスクロールに対応し、速度と文字サイズも調整できます。</span><span data-lang-content="ko">가로와 세로로 스크롤하고 속도와 글자 크기도 조절할 수 있습니다.</span></p>
         </div>
       </article>
 
@@ -196,8 +202,8 @@
           <img width="1920" height="1440" alt="定格手持弹幕文字效果界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
-          <h2 id="feature-effects"><span data-lang-content="zh-Hans">四种文字效果</span><span data-lang-content="zh-Hant">四種文字效果</span><span data-lang-content="en">Four text effects</span><span data-lang-content="ja">4つの文字エフェクト</span></h2>
-          <p><span data-lang-content="zh-Hans">标准、空心、霓虹和灯珠，按场景选择。</span><span data-lang-content="zh-Hant">標準、空心、霓虹和燈珠，按場合選擇。</span><span data-lang-content="en">Choose standard, outline, neon, or bulb text for the occasion.</span><span data-lang-content="ja">標準、アウトライン、ネオン、電球から選べます。</span></p>
+          <h2 id="feature-effects"><span data-lang-content="zh-Hans">四种文字效果</span><span data-lang-content="zh-Hant">四種文字效果</span><span data-lang-content="en">Four text effects</span><span data-lang-content="ja">4つの文字エフェクト</span><span data-lang-content="ko">네온부터 LED 도트까지</span></h2>
+          <p><span data-lang-content="zh-Hans">标准、空心、霓虹和灯珠，按场景选择。</span><span data-lang-content="zh-Hant">標準、空心、霓虹和燈珠，按場合選擇。</span><span data-lang-content="en">Choose standard, outline, neon, or bulb text for the occasion.</span><span data-lang-content="ja">標準、アウトライン、ネオン、電球から選べます。</span><span data-lang-content="ko">기본, 윤곽선, 네온과 전구 효과를 상황에 맞게 선택하세요.</span></p>
         </div>
       </article>
 
@@ -207,8 +213,8 @@
           <img width="1920" height="1440" alt="定格手持弹幕颜色和 LED 点阵界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy chapter-copy-dark">
-          <h2 id="feature-colors"><span data-lang-content="zh-Hans">颜色和点阵背景</span><span data-lang-content="zh-Hant">顏色和點陣背景</span><span data-lang-content="en">Colors and LED backgrounds</span><span data-lang-content="ja">色とLEDドット背景</span></h2>
-          <p><span data-lang-content="zh-Hans">选择高对比颜色，切换纯色或 LED 点阵背景。</span><span data-lang-content="zh-Hant">選擇高對比顏色，切換純色或 LED 點陣背景。</span><span data-lang-content="en">Pick a high-contrast color and switch between solid or LED backgrounds.</span><span data-lang-content="ja">見やすい色を選び、単色またはLEDドット背景に切り替えられます。</span></p>
+          <h2 id="feature-colors"><span data-lang-content="zh-Hans">颜色和点阵背景</span><span data-lang-content="zh-Hant">顏色和點陣背景</span><span data-lang-content="en">Colors and LED backgrounds</span><span data-lang-content="ja">色とLEDドット背景</span><span data-lang-content="ko">글자와 배경 색상</span></h2>
+          <p><span data-lang-content="zh-Hans">选择高对比颜色，切换纯色或 LED 点阵背景。</span><span data-lang-content="zh-Hant">選擇高對比顏色，切換純色或 LED 點陣背景。</span><span data-lang-content="en">Pick a high-contrast color and switch between solid or LED backgrounds.</span><span data-lang-content="ja">見やすい色を選び、単色またはLEDドット背景に切り替えられます。</span><span data-lang-content="ko">눈에 잘 띄는 색상을 고르고 단색 또는 LED 도트 배경으로 전환하세요.</span></p>
         </div>
       </article>
 
@@ -218,8 +224,8 @@
           <img width="1920" height="1440" alt="定格手持弹幕离线字体界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
-          <h2 id="feature-fonts"><span data-lang-content="zh-Hans">内置字体，离线也能用</span><span data-lang-content="zh-Hant">內建字型，離線也能用</span><span data-lang-content="en">Built-in fonts, work offline</span><span data-lang-content="ja">内蔵フォント、オフライン対応</span></h2>
-          <p><span data-lang-content="zh-Hans">像素、手写等多种字体，不联网也能切换。</span><span data-lang-content="zh-Hant">像素、手寫等多種字型，不連線也能切換。</span><span data-lang-content="en">Switch between pixel, handwritten, and other styles without a connection.</span><span data-lang-content="ja">ピクセル、手書き風などのフォントを、通信なしで切り替えられます。</span></p>
+          <h2 id="feature-fonts"><span data-lang-content="zh-Hans">内置字体，离线也能用</span><span data-lang-content="zh-Hant">內建字型，離線也能用</span><span data-lang-content="en">Built-in fonts, work offline</span><span data-lang-content="ja">内蔵フォント、オフライン対応</span><span data-lang-content="ko">한글도 픽셀 글꼴로</span></h2>
+          <p><span data-lang-content="zh-Hans">像素、手写等多种字体，不联网也能切换。</span><span data-lang-content="zh-Hant">像素、手寫等多種字型，不連線也能切換。</span><span data-lang-content="en">Switch between pixel, handwritten, and other styles without a connection.</span><span data-lang-content="ja">ピクセル、手書き風などのフォントを、通信なしで切り替えられます。</span><span data-lang-content="ko">픽셀, 손글씨 등 다양한 글꼴을 인터넷 연결 없이 바꿀 수 있습니다.</span></p>
         </div>
       </article>
 
@@ -229,23 +235,23 @@
           <img width="1920" height="1440" alt="定格手持弹幕最近使用和收藏界面" loading="lazy" decoding="async">
         </picture>
         <div class="chapter-copy">
-          <h2 id="feature-favorites"><span data-lang-content="zh-Hans">保存常用灯牌</span><span data-lang-content="zh-Hant">儲存常用燈牌</span><span data-lang-content="en">Save your favorite signs</span><span data-lang-content="ja">よく使うバナーを保存</span></h2>
-          <p><span data-lang-content="zh-Hans">收藏常用内容，现场可以快速切换。</span><span data-lang-content="zh-Hant">收藏常用內容，現場可以快速切換。</span><span data-lang-content="en">Save frequently used messages so you can switch quickly at the event.</span><span data-lang-content="ja">よく使う内容を保存し、会場ですぐに切り替えられます。</span></p>
+          <h2 id="feature-favorites"><span data-lang-content="zh-Hans">保存常用灯牌</span><span data-lang-content="zh-Hant">儲存常用燈牌</span><span data-lang-content="en">Save your favorite signs</span><span data-lang-content="ja">よく使うバナーを保存</span><span data-lang-content="ko">저장한 문구 다시 쓰기</span></h2>
+          <p><span data-lang-content="zh-Hans">收藏常用内容，现场可以快速切换。</span><span data-lang-content="zh-Hant">收藏常用內容，現場可以快速切換。</span><span data-lang-content="en">Save frequently used messages so you can switch quickly at the event.</span><span data-lang-content="ja">よく使う内容を保存し、会場ですぐに切り替えられます。</span><span data-lang-content="ko">자주 쓰는 문구를 즐겨찾기에 저장하고 현장에서 빠르게 전환하세요.</span></p>
         </div>
       </article>
     </section>
 
     <section id="privacy" class="banner-trust" aria-labelledby="trust-title">
       <div class="trust-inner">
-        <h2 id="trust-title"><span data-lang-content="zh-Hans">现场展示，<br>内容保存在本机。</span><span data-lang-content="zh-Hant">現場展示，<br>內容儲存在本機。</span><span data-lang-content="en">Show it at the event.<br>Keep it on your device.</span><span data-lang-content="ja">会場で表示。<br>内容は端末内に保存。</span></h2>
+        <h2 id="trust-title"><span data-lang-content="zh-Hans">现场展示，<br>内容保存在本机。</span><span data-lang-content="zh-Hant">現場展示，<br>內容儲存在本機。</span><span data-lang-content="en">Show it at the event.<br>Keep it on your device.</span><span data-lang-content="ja">会場で表示。<br>内容は端末内に保存。</span><span data-lang-content="ko">현장에서 표시하고,<br>내용은 기기에 보관하세요.</span></h2>
         <div class="trust-facts">
-          <article><h3><span data-lang-content="zh-Hans">无需账号</span><span data-lang-content="zh-Hant">無需帳號</span><span data-lang-content="en">No account</span><span data-lang-content="ja">アカウント不要</span></h3><p><span data-lang-content="zh-Hans">打开就能编辑、预览和全屏展示。</span><span data-lang-content="zh-Hant">開啟就能編輯、預覽和全螢幕展示。</span><span data-lang-content="en">Open the app and start editing, previewing, and presenting.</span><span data-lang-content="ja">アプリを開いて、すぐに編集、プレビュー、全画面表示。</span></p></article>
-          <article><h3><span data-lang-content="zh-Hans">无需联网</span><span data-lang-content="zh-Hant">無需連線</span><span data-lang-content="en">Works offline</span><span data-lang-content="ja">オフライン対応</span></h3><p><span data-lang-content="zh-Hans">核心编辑、预览和全屏展示无需网络连接。</span><span data-lang-content="zh-Hant">核心編輯、預覽和全螢幕展示無需網路連線。</span><span data-lang-content="en">Core editing, preview, and full-screen display need no network connection.</span><span data-lang-content="ja">基本の編集、プレビュー、全画面表示はネット接続なしで使えます。</span></p></article>
-          <article><h3><span data-lang-content="zh-Hans">没有广告</span><span data-lang-content="zh-Hant">沒有廣告</span><span data-lang-content="en">No advertising</span><span data-lang-content="ja">広告なし</span></h3><p><span data-lang-content="zh-Hans">不包含行为分析或跨 App 跟踪，也不会自动上传灯牌内容。</span><span data-lang-content="zh-Hant">不包含使用情況分析或跨 App 追蹤，也不會自動上傳燈牌內容。</span><span data-lang-content="en">No behavioral analytics or cross-app tracking, and banner content is not uploaded automatically.</span><span data-lang-content="ja">行動分析やAppをまたぐ追跡はなく、灯牌の内容を自動送信しません。</span></p></article>
+          <article><h3><span data-lang-content="zh-Hans">无需账号</span><span data-lang-content="zh-Hant">無需帳號</span><span data-lang-content="en">No account</span><span data-lang-content="ja">アカウント不要</span><span data-lang-content="ko">계정 불필요</span></h3><p><span data-lang-content="zh-Hans">打开就能编辑、预览和全屏展示。</span><span data-lang-content="zh-Hant">開啟就能編輯、預覽和全螢幕展示。</span><span data-lang-content="en">Open the app and start editing, previewing, and presenting.</span><span data-lang-content="ja">アプリを開いて、すぐに編集、プレビュー、全画面表示。</span><span data-lang-content="ko">앱을 열고 바로 편집, 미리보기와 전체 화면 표시를 시작하세요.</span></p></article>
+          <article><h3><span data-lang-content="zh-Hans">无需联网</span><span data-lang-content="zh-Hant">無需連線</span><span data-lang-content="en">Works offline</span><span data-lang-content="ja">オフライン対応</span><span data-lang-content="ko">오프라인 지원</span></h3><p><span data-lang-content="zh-Hans">核心编辑、预览和全屏展示无需网络连接。</span><span data-lang-content="zh-Hant">核心編輯、預覽和全螢幕展示無需網路連線。</span><span data-lang-content="en">Core editing, preview, and full-screen display need no network connection.</span><span data-lang-content="ja">基本の編集、プレビュー、全画面表示はネット接続なしで使えます。</span><span data-lang-content="ko">주요 편집, 미리보기와 전체 화면 표시는 인터넷 연결 없이 사용할 수 있습니다.</span></p></article>
+          <article><h3><span data-lang-content="zh-Hans">没有广告</span><span data-lang-content="zh-Hant">沒有廣告</span><span data-lang-content="en">No advertising</span><span data-lang-content="ja">広告なし</span><span data-lang-content="ko">광고 없음</span></h3><p><span data-lang-content="zh-Hans">不包含行为分析或跨 App 跟踪，也不会自动上传灯牌内容。</span><span data-lang-content="zh-Hant">不包含使用情況分析或跨 App 追蹤，也不會自動上傳燈牌內容。</span><span data-lang-content="en">No behavioral analytics or cross-app tracking, and banner content is not uploaded automatically.</span><span data-lang-content="ja">行動分析やAppをまたぐ追跡はなく、灯牌の内容を自動送信しません。</span><span data-lang-content="ko">행동 분석이나 앱 간 추적이 없으며 전광판 내용을 자동으로 업로드하지 않습니다.</span></p></article>
         </div>
         <div class="trust-actions">
-          <a class="banner-button banner-button-dark" data-localized-link href="../privacy/freezon-banner/"><span data-lang-content="zh-Hans">查看隐私政策</span><span data-lang-content="zh-Hant">查看隱私權政策</span><span data-lang-content="en">Read the privacy policy</span><span data-lang-content="ja">プライバシーポリシー</span><span class="button-arrow" aria-hidden="true"></span></a>
-          <a class="banner-text-link banner-text-link-dark" data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">获取使用帮助</span><span data-lang-content="zh-Hant">取得使用協助</span><span data-lang-content="en">Get support</span><span data-lang-content="ja">サポートを見る</span></a>
+          <a class="banner-button banner-button-dark" data-localized-link href="../privacy/freezon-banner/"><span data-lang-content="zh-Hans">查看隐私政策</span><span data-lang-content="zh-Hant">查看隱私權政策</span><span data-lang-content="en">Read the privacy policy</span><span data-lang-content="ja">プライバシーポリシー</span><span data-lang-content="ko">개인정보 처리방침</span><span class="button-arrow" aria-hidden="true"></span></a>
+          <a class="banner-text-link banner-text-link-dark" data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">获取使用帮助</span><span data-lang-content="zh-Hant">取得使用協助</span><span data-lang-content="en">Get support</span><span data-lang-content="ja">サポートを見る</span><span data-lang-content="ko">지원 보기</span></a>
         </div>
       </div>
     </section>
@@ -253,11 +259,11 @@
 
   <footer class="banner-footer">
     <div class="banner-footer-inner">
-      <a class="footer-brand" href="#top"><img src="../assets/freezon-banner-icon.png" alt=""><span><span data-lang-content="zh-Hans">定格手持弹幕</span><span data-lang-content="zh-Hant">定格手持彈幕</span><span data-lang-content="en">Freezon Banner</span><span data-lang-content="ja">Freezon Banner</span></span></a>
+      <a class="footer-brand" href="#top"><img src="../assets/freezon-banner-icon.png" alt=""><span><span data-lang-content="zh-Hans">定格手持弹幕</span><span data-lang-content="zh-Hant">定格手持彈幕</span><span data-lang-content="en">Freezon Banner</span><span data-lang-content="ja">Freezon Banner</span><span data-lang-content="ko">Freezon Banner</span></span></a>
       <nav class="banner-footer-links" aria-label="Footer navigation">
-        <a data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span></a>
-        <a data-localized-link href="../privacy/freezon-banner/"><span data-lang-content="zh-Hans">隐私政策</span><span data-lang-content="zh-Hant">隱私權政策</span><span data-lang-content="en">Privacy</span><span data-lang-content="ja">プライバシー</span></a>
-        <a data-localized-link href="../"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span></a>
+        <a data-localized-link href="../support/freezon-banner/"><span data-lang-content="zh-Hans">支持</span><span data-lang-content="zh-Hant">支援</span><span data-lang-content="en">Support</span><span data-lang-content="ja">サポート</span><span data-lang-content="ko">지원</span></a>
+        <a data-localized-link href="../privacy/freezon-banner/"><span data-lang-content="zh-Hans">隐私政策</span><span data-lang-content="zh-Hant">隱私權政策</span><span data-lang-content="en">Privacy</span><span data-lang-content="ja">プライバシー</span><span data-lang-content="ko">개인정보 처리방침</span></a>
+        <a data-localized-link href="../"><span data-lang-content="zh-Hans">定格相册</span><span data-lang-content="zh-Hant">定格相簿</span><span data-lang-content="en">Freezon Photos</span><span data-lang-content="ja">Freezon 写真</span><span data-lang-content="ko">Freezon 사진</span></a>
       </nav>
       <p>© 2026 Freezon / <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">吉ICP备2026009797号-1</a> / <a class="public-security-record" href="https://beian.mps.gov.cn/#/query/webSearch?code=33011002020711" target="_blank" rel="noopener noreferrer"><img src="../assets/public-security-record.png" alt="">浙公网安备33011002020711号</a></p>
     </div>

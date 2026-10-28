@@ -26,8 +26,8 @@
   letter-spacing: 0;
 }
 
-/* The display font does not contain a complete Traditional Chinese glyph set.
-   Use one locale-complete family so fallback glyphs do not mix within a word. */
+/* The display font does not contain complete Traditional Chinese or Korean glyph sets.
+   Use locale-complete families so fallback glyphs do not mix within a word. */
 html[lang="zh-Hant"] .banner-home-page .banner-hero h1,
 html[lang="zh-Hant"] .banner-home-page .hero-punch,
 html[lang="zh-Hant"] .banner-home-page .lab-intro h2,
@@ -37,6 +37,17 @@ html[lang="zh-Hant"] .banner-home-page .demo-marquee {
   font-family: "PingFang TC", "Noto Sans CJK TC", "PingFang SC", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+html[lang="ko"] .banner-home-page .banner-hero h1,
+html[lang="ko"] .banner-home-page .hero-punch,
+html[lang="ko"] .banner-home-page .lab-intro h2,
+html[lang="ko"] .banner-home-page .chapter-copy h2,
+html[lang="ko"] .banner-home-page .banner-trust h2,
+html[lang="ko"] .banner-home-page .demo-marquee {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .banner-home-page ::selection {
@@ -1067,6 +1078,10 @@ html[lang="ja"] .chapter-copy h2 {
     font-size: 30px;
   }
 
+  html[lang="ko"] .chapter-copy h2 {
+    font-size: 30px;
+  }
+
   .chapter-copy p {
     max-width: 32ch;
     margin-top: 14px;
@@ -1106,6 +1121,12 @@ html[lang="ja"] .chapter-copy h2 {
     margin-left: 0;
     flex-wrap: wrap;
     gap: 14px 22px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 900px) {
+  html[lang="ko"] .chapter-copy h2 {
+    font-size: 44px;
   }
 }
 
@@ -1153,6 +1174,7 @@ html[lang="ja"] .chapter-copy h2 {
   html[lang="en"] .chapter-copy h2 { font-size: 34px; }
 
   html[lang="ja"] .chapter-copy h2 { font-size: 30px; }
+  html[lang="ko"] .chapter-copy h2 { font-size: 29px; }
 }
 
 @media (max-width: 360px) {
@@ -1162,6 +1184,7 @@ html[lang="ja"] .chapter-copy h2 {
 
   html[lang="en"] .chapter-copy h2 { font-size: 28px; }
   html[lang="ja"] .chapter-copy h2 { font-size: 24px; }
+  html[lang="ko"] .chapter-copy h2 { font-size: 27px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

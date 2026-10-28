@@ -122,7 +122,7 @@ const geometry = async page => page.evaluate(() => ({
       for (const route of ['support/freezon', 'privacy/freezon', 'freezon-banner']) {
         for (const locale of locales) {
           await page.goto(routeURL(route, locale));
-          const expectedLocale = route === 'freezon-banner' && ['ko', 'es-419', 'pt-BR'].includes(locale) ? 'en' : locale;
+          const expectedLocale = route === 'freezon-banner' && ['es-419', 'pt-BR'].includes(locale) ? 'en' : locale;
           assert.equal(await page.locator('html').getAttribute('lang'), expectedLocale);
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${route}/${locale} overflows`);
           if (route !== 'freezon-banner') {

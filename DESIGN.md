@@ -143,6 +143,8 @@ The palette is a full-strength campaign set: fluorescent pink, electric blue, ac
 
 Traditional Chinese display headings use `PingFang TC`, `Noto Sans CJK TC`, then `PingFang SC` so incomplete glyph coverage in the campaign display font cannot create mixed shapes within one phrase.
 
+Korean display headings use the native system sans stack at a heavier weight. This keeps Hangul shapes consistent and avoids mixing unsupported glyphs from the campaign display font.
+
 **Character:** The oblique display face reads like hand-painted event signage at large scale. The system stack keeps navigation, controls, factual claims, and multilingual copy calm and legible.
 
 ### Hierarchy

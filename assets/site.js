@@ -11,7 +11,7 @@
     "privacy-banner": "/privacy/freezon-banner/"
   };
   const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン", ko: "Freezon 앱 아이콘", "es-419": "Ícono de Freezon", "pt-BR": "Ícone do Freezon" };
-  const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン" };
+  const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン", ko: "Freezon Banner 앱 아이콘" };
   const pageContent = {
     home: {
       "ko": ["Freezon - iPhone, iPhone Duo, iPad용 암호화 사진 앨범","Freezon은 iPhone과 iPad에서 사진과 비디오를 암호화하며 iPhone Duo의 접힌 화면과 펼친 화면도 지원합니다. 앨범별 비밀번호와 암호화 백업 및 복원을 제공하며 계정 가입은 필요 없습니다.","iPhone, iPhone Duo, iPad에서 두 앨범을 별도의 비밀번호로 보호하세요. 기기 내 암호화와 백업 및 복원, 광고와 계정 가입 없이."],
@@ -23,6 +23,7 @@
       ja: ["Freezon - iPhone、iPhone Duo、iPadの端末内暗号化アルバム", "FreezonはiPhoneとiPadに加え、折りたたみ式のiPhone Duoにも対応。日常用とプライベートの専用パスワードで写真やビデオを端末内に暗号化保存。暗号化バックアップと復元に対応し、アカウント登録は不要です。", "iPhone、iPhone Duo、iPadに対応。独立したパスワード、端末内暗号化、暗号化バックアップと復元。アカウント登録も広告もありません。"]
     },
     "home-banner": {
+      ko: ["Freezon Banner - 휴대폰을 현장 전광판으로", "iPhone과 iPad에서 큰 고정 문구와 스크롤 문구를 만드세요. 방향, 속도, 글꼴, 효과와 색상을 조절할 수 있으며 편집과 전체 화면 표시는 오프라인에서도 사용할 수 있습니다.", "큰 글자, 스크롤 문구, 네온 효과와 LED 도트로 iPhone이나 iPad를 현장 전광판으로 바꿔 보세요.", "Freezon Banner 홍보 이미지: 사람들이 iPhone과 iPad 전광판을 들고 있는 모습"],
       "zh-Hans": ["定格手持弹幕 - 把手机变成现场灯牌", "在 iPhone 与 iPad 上制作静态大字和滚动字幕。自由调整方向、速度、字体、效果与颜色，编辑和全屏展示无需联网。", "静态大字、滚动字幕、霓虹文字和复古点阵，把 iPhone 或 iPad 变成现场灯牌。", "定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌"],
       "zh-Hant": ["定格手持彈幕 - 把手機變成現場燈牌", "在 iPhone 與 iPad 上製作靜態大字和捲動字幕。自由調整方向、速度、字型、效果與顏色，編輯和全螢幕展示無需連線。", "靜態大字、捲動字幕、霓虹文字和復古點陣，把 iPhone 或 iPad 變成現場燈牌。", "定格手持彈幕宣傳圖：人物手持 iPhone 和 iPad 燈牌"],
       en: ["Freezon Banner - Turn your screen into a live banner", "Create big static text and scrolling messages on iPhone and iPad. Adjust direction, speed, fonts, effects, and colors, with offline editing and full-screen display.", "Big text, scrolling messages, neon effects, and an LED matrix turn your iPhone or iPad into a banner for live events.", "Freezon Banner campaign artwork with characters holding iPhone and iPad banners"],
@@ -47,12 +48,14 @@
       ja: ["プライバシーポリシー - Freezon", "Freezonのプライバシーポリシーです。端末内に保存されるデータと、確認後にのみ送信される情報について説明します。", "Freezonにおける端末内データ、任意の診断情報、サポート情報の取り扱いについて説明します。"]
     },
     "support-banner": {
+      ko: ["지원 - Freezon Banner", "Freezon Banner 지원: 시작하기, 전체 화면 표시, 최근 기록과 즐겨찾기, 지원 문의 안내입니다.", "Freezon Banner 편집, 전체 화면 표시와 사용 방법에 관한 도움말입니다."],
       "zh-Hans": ["支持 - 定格手持弹幕", "定格手持弹幕支持：开始使用、全屏展示、最近使用与收藏及联系支持信息。", "获取定格手持弹幕的使用指南、全屏展示与支持帮助。"],
       "zh-Hant": ["支援 - 定格手持彈幕", "定格手持彈幕支援：開始使用、全螢幕展示、最近使用與收藏及聯絡支援資訊。", "取得定格手持彈幕的使用指南、全螢幕展示與支援協助。"],
       en: ["Support - Handheld Banner", "Handheld Banner support: get started, full-screen display, recent items, favorites, and contact support.", "Get help with Handheld Banner editing, full-screen display, and support."],
       ja: ["サポート - 定格手持弹幕", "定格手持弹幕サポート：使い始める、全画面表示、最近使った項目とお気に入り、お問い合わせ。", "定格手持弹幕の利用ガイド、全画面表示、サポート情報についてご案内します。"]
     },
     "privacy-banner": {
+      ko: ["개인정보 처리방침 - Freezon Banner", "Freezon Banner 개인정보 처리방침: 기기에 저장되는 데이터와 자동으로 수집하지 않는 정보에 대해 설명합니다.", "Freezon Banner의 기기 내 데이터, 삭제 및 지원 정보 처리 방법입니다."],
       "zh-Hans": ["隐私政策 - 定格手持弹幕", "定格手持弹幕隐私政策：了解哪些数据保存在设备上，以及我们不自动收集数据的原则。", "定格手持弹幕说明设备本机数据、删除与支持信息的处理方式。"],
       "zh-Hant": ["隱私權政策 - 定格手持彈幕", "定格手持彈幕隱私權政策：瞭解哪些資料儲存在裝置上，以及我們不自動收集資料的原則。", "定格手持彈幕說明裝置本機資料、刪除與支援資訊的處理方式。"],
       en: ["Privacy Policy - Handheld Banner", "Handheld Banner Privacy Policy: learn what stays on your device and our no-automatic-collection commitment.", "Handheld Banner explains on-device data handling, deletion, and support contact."],
