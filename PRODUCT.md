@@ -16,20 +16,20 @@ The site serves iPhone and iPad users evaluating Freezon products. For Freezon B
 
 ## Positioning
 
-Freezon Banner is an on-device iPhone and iPad tool for creating high-visibility static text and scrolling messages. It combines live preview, multi-direction scrolling, display fonts, four text effects, solid and LED-matrix backgrounds, recent items, and favorites without accounts, advertising, servers, or a required network connection for editing, preview, and full-screen display.
+Freezon Banner is an on-device iPhone and iPad tool for creating high-visibility static text, scrolling messages, and hand-drawn glowing signs. It combines live preview, multi-direction scrolling, display fonts, four text effects, solid and LED-matrix backgrounds, drawing brushes and glow effects, recent items, and favorites without accounts, advertising, servers, or a required network connection for editing, preview, and full-screen display.
 
 ## Operating Context
 
-The app is used in bright, crowded, time-sensitive live environments. Users prepare a banner, adjust its type, motion, colors, and effects, then present it full-screen. Saved recent items and favorites support fast switching during an event.
+The app is used in bright, crowded, time-sensitive live environments. Users can prepare a text banner or draw directly on a full-screen canvas, adjust its motion, colors, brushes, and effects, then present it full-screen. Saved content supports reuse and fast switching during an event.
 
 ## Capabilities and Constraints
 
 - The existing site is static HTML, CSS, and vanilla JavaScript.
 - Freezon Banner supports iOS and iPadOS 17 or later.
-- Supported website locales are Simplified Chinese, Traditional Chinese, English, and Japanese through the existing `?lang=` convention.
-- Confirmed features include static and scrolling display, left/right/up/down motion, live preview, speed and size controls, bundled offline fonts, standard/outline/neon/bulb effects, high-contrast colors, solid and LED-matrix backgrounds, recent items, favorites, full-screen lock, and local persistence.
+- Supported website locales are Simplified Chinese, Traditional Chinese, English, Japanese, and Korean through the existing `?lang=` convention.
+- Confirmed features include static and scrolling display, left/right/up/down motion, live preview, speed and size controls, bundled offline fonts, standard/outline/neon/bulb effects, high-contrast colors, solid and LED-matrix backgrounds, hand drawing with multiple brushes and glow effects, drawing persistence, recent items, favorites, full-screen lock, and local persistence.
 - The Banner homepage route is `/freezon-banner/`; support and privacy remain at `/support/freezon-banner/` and `/privacy/freezon-banner/`.
-- No verified App Store product URL is currently present in this repository. Do not publish a download link until a real URL is supplied.
+- The verified App Store product ID is `6810290208`; use the locale-specific App Store storefront links already defined in `assets/banner-site.js`.
 
 ## Brand Commitments
 
@@ -42,10 +42,10 @@ The app is used in bright, crowded, time-sensitive live environments. Users prep
 
 - Product specification: `/Users/mac/code/local/app-handheld-banner/PRODUCT_SPEC.md`.
 - Approved visual baseline: `/Users/mac/code/local/app-handheld-banner/DESIGN_VISUAL_BASELINE.md`.
-- Campaign source and four-language exports: `/Users/mac/code/local/app-handheld-banner/appstore/`.
+- Campaign source and five-language exports: `/Users/mac/code/local/app-handheld-banner/appstore/with-status-bar/`.
 - Existing Banner support and privacy pages are already localized in this repository.
 - Existing Banner app icon: `/Users/mac/code/local/freezon-site/assets/freezon-banner-icon.png`.
-- No testimonials, usage metrics, press quotes, or verified App Store URL are available and none may be fabricated.
+- No testimonials, usage metrics, or press quotes are available and none may be fabricated.
 
 ## Product Principles
 

@@ -1,0 +1,6 @@
+{
+  "prompt": "Origin: device-only crop of the approved App Store drawing campaign image at ../app-handheld-banner/appstore/with-status-bar/ja/ipad/05-drawing-birthday.png. The verified deviceBounds from drawing-verification.json preserve the real app screen while excluding the marketing text layer. A black screen bleed sits under Apple's official transparent bezel to prevent colored page backgrounds from showing through at the inner frame edge. No campaign background or color fringe remains outside the hardware edge. This is sourced product artwork, not AI-generated during the website build.",
+  "sourceSHA256": "0e78fc617cd857b283bb53129f8de42cde810983d6e6f49cb5850332d625fb07",
+  "bezelSHA256": "4bf599cf70307e83acd8f7507be73c765783238ce1599617b5dd12025dac9cca",
+  "createdAt": "2026-11-06T06:49:14Z"
+}

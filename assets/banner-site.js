@@ -1,6 +1,6 @@
 (() => {
   const supported = ["zh-Hans", "zh-Hant", "en", "ja", "ko"];
-  const assetVersion = "20261028-3";
+  const assetVersion = "20261106-3";
   const appStore = {
     "zh-Hans": { url: "https://apps.apple.com/cn/app/id6810290208", badgeLocale: "zh-cn", badgeWidth: 109, alt: "在 App Store 下载" },
     "zh-Hant": { url: "https://apps.apple.com/tw/app/id6810290208", badgeLocale: "zh-tw", badgeWidth: 109, alt: "從 App Store 下載" },
@@ -8,13 +8,13 @@
     ja: { url: "https://apps.apple.com/jp/app/id6810290208", badgeLocale: "ja-jp", badgeWidth: 109, alt: "App Store からダウンロード" },
     ko: { url: "https://apps.apple.com/kr/app/id6810290208", badgeLocale: "ko-kr", badgeWidth: 109, alt: "App Store에서 다운로드" }
   };
-  const pages = ["01-banner", "02-create", "03-effects", "04-colors", "05-fonts", "06-favorites"];
+  const pages = ["01-banner", "02-drawing-cheer", "03-drawing-kitten", "05-drawing-birthday", "02-create", "03-effects", "04-colors", "05-fonts", "06-favorites"];
   const pageAlts = {
-    "zh-Hans": ["定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌", "定格手持弹幕创作与实时预览界面", "定格手持弹幕四种文字效果界面", "定格手持弹幕颜色和 LED 点阵界面", "定格手持弹幕离线字体界面", "定格手持弹幕最近使用和收藏界面"],
-    "zh-Hant": ["定格手持彈幕宣傳圖：人物手持 iPhone 和 iPad 燈牌", "定格手持彈幕創作與即時預覽畫面", "定格手持彈幕四種文字效果畫面", "定格手持彈幕顏色和 LED 點陣畫面", "定格手持彈幕離線字型畫面", "定格手持彈幕最近使用和收藏畫面"],
-    en: ["Freezon Banner campaign artwork with characters holding iPhone and iPad banners", "Freezon Banner editor and live preview", "Four Freezon Banner text effects", "Freezon Banner colors and LED matrix background", "Freezon Banner offline font selection", "Freezon Banner recent items and favorites"],
-    ja: ["Freezon Bannerのキャンペーンアート：人物がiPhoneとiPadの灯牌を持つ様子", "Freezon Bannerの編集とリアルタイムプレビュー画面", "Freezon Bannerの4種類の文字エフェクト", "Freezon BannerのカラーとLEDドット画面", "Freezon Bannerのオフラインフォント画面", "Freezon Bannerの最近使った項目とお気に入り画面"],
-    ko: ["Freezon Banner 홍보 이미지: 사람들이 iPhone과 iPad 전광판을 들고 있는 모습", "Freezon Banner 편집 및 실시간 미리보기 화면", "Freezon Banner의 네 가지 글자 효과", "Freezon Banner 글자 색상 및 LED 도트 배경 화면", "Freezon Banner 한글 픽셀 글꼴 화면", "Freezon Banner 최근 기록 및 즐겨찾기 화면"]
+    "zh-Hans": ["定格手持弹幕宣传图：人物手持 iPhone 和 iPad 灯牌", "手绘发光现场应援牌显示在 iPhone 或 iPad 上", "发光画笔绘制的小猫显示在 iPhone 或 iPad 上", "手绘发光生日贺卡显示在 iPhone 或 iPad 上", "定格手持弹幕创作与实时预览界面", "定格手持弹幕四种文字效果界面", "定格手持弹幕颜色和 LED 点阵界面", "定格手持弹幕离线字体界面", "定格手持弹幕最近使用和收藏界面"],
+    "zh-Hant": ["定格手持彈幕宣傳圖：人物手持 iPhone 和 iPad 燈牌", "手繪發光現場應援牌顯示在 iPhone 或 iPad 上", "以發光畫筆繪製的小貓顯示在 iPhone 或 iPad 上", "手繪發光生日賀卡顯示在 iPhone 或 iPad 上", "定格手持彈幕創作與即時預覽畫面", "定格手持彈幕四種文字效果畫面", "定格手持彈幕顏色和 LED 點陣畫面", "定格手持彈幕離線字型畫面", "定格手持彈幕最近使用和收藏畫面"],
+    en: ["Freezon Banner campaign artwork with characters holding iPhone and iPad banners", "A hand-drawn glowing cheering sign on an iPhone or iPad", "A glowing hand-drawn kitten on an iPhone or iPad", "A hand-drawn glowing birthday card on an iPhone or iPad", "Freezon Banner editor and live preview", "Four Freezon Banner text effects", "Freezon Banner colors and LED matrix background", "Freezon Banner offline font selection", "Freezon Banner recent items and favorites"],
+    ja: ["Freezon Bannerのキャンペーンアート：人物がiPhoneとiPadの灯牌を持つ様子", "iPhoneまたはiPadに表示された手描きの光る応援ボード", "iPhoneまたはiPadに表示された発光ブラシで描いた猫", "iPhoneまたはiPadに表示された手描きの光る誕生日カード", "Freezon Bannerの編集とリアルタイムプレビュー画面", "Freezon Bannerの4種類の文字エフェクト", "Freezon BannerのカラーとLEDドット画面", "Freezon Bannerのオフラインフォント画面", "Freezon Bannerの最近使った項目とお気に入り画面"],
+    ko: ["Freezon Banner 홍보 이미지: 사람들이 iPhone과 iPad 전광판을 들고 있는 모습", "iPhone 또는 iPad에 표시된 손그림 발광 응원 전광판", "iPhone 또는 iPad에 표시된 발광 브러시로 그린 고양이", "iPhone 또는 iPad에 표시된 손그림 발광 생일 카드", "Freezon Banner 편집 및 실시간 미리보기 화면", "Freezon Banner의 네 가지 글자 효과", "Freezon Banner 글자 색상 및 LED 도트 배경 화면", "Freezon Banner 한글 픽셀 글꼴 화면", "Freezon Banner 최근 기록 및 즐겨찾기 화면"]
   };
   const demoCopy = {
     "zh-Hans": { text: "为爱发电 POWERED BY LOVE", placeholder: "输入你的灯牌文字", play: "继续滚动", pause: "暂停滚动", colors: ["荧光黄绿", "荧光粉", "电光青", "白色"] },

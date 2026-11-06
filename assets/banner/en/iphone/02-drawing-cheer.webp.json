@@ -1,0 +1,6 @@
+{
+  "prompt": "Origin: device-only crop of the approved App Store drawing campaign image at ../app-handheld-banner/appstore/with-status-bar/en/iphone/02-drawing-cheer.png. The verified deviceBounds from drawing-verification.json preserve the real app screen while excluding the marketing text layer. A black screen bleed sits under Apple's official transparent bezel to prevent colored page backgrounds from showing through at the inner frame edge. No campaign background or color fringe remains outside the hardware edge. This is sourced product artwork, not AI-generated during the website build.",
+  "sourceSHA256": "d778bfc2129994c6e7a5a29d8b48190deb86bd4cbbebf994791a8b6e54ecd442",
+  "bezelSHA256": "58e2ab0318adbf6dc5bed2e234383ed2bb2fa257ce0c93cea20a86c595fb5f16",
+  "createdAt": "2026-11-06T06:49:14Z"
+}

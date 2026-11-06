@@ -163,6 +163,8 @@ Korean display headings use the native system sans stack at a heavier weight. Th
 
 Large imagery and color fields own the composition. Campaign chapters run full bleed inside a 1720px maximum stage; utility content uses a 1400-1480px working measure. Desktop chapter copy is centered in the quiet upper area of each artwork, below the sticky navigation safe area, with a single-line heading; the hero keeps its left-side campaign title field and the demo uses a wide uninterrupted stage. Each desktop chapter fills at least the viewport height so the next oversized heading does not intrude into the current screen. At 820px, text grids stack; at 720px, mobile campaign art takes over, controls wrap, and headings stay single-line with breakpoint-specific locale sizing. A 390px correction protects the narrowest supported layout.
 
+The hand-drawn sign showcase sits between the live text demo and the original feature chapters. Its introduction uses the dark working field, followed by three full-bleed campaign bands with alternating copy and real device imagery. Desktop presents the approved iPad crop beside the copy at inspectable scale; widths at or below 720px stack the copy above the matching wide iPhone crop. These scenes are examples rather than ordered steps, so they use direct headings without decorative numbering or eyebrow labels.
+
 Spacing is generous between chapters and compact inside controls. Do not convert the page into repeated feature cards or floating section containers.
 
 ## Elevation & Depth
@@ -214,6 +216,10 @@ The signature interaction is one continuous 13-second linear marquee across a bl
 ### Feature Chapter Copy
 
 White chapter copy sits centered in the upper quiet area of the campaign image with a fine dark letterform stroke and restrained shadow. The acid-green chapter uses black ink directly on the field and needs no treatment.
+
+### Hand-Drawn Sign Showcase
+
+The showcase uses the established electric blue, fluorescent pink, and acid green fields without cards or floating containers. Real app screens retain their official iPhone or iPad bezel and fill the image column. Blue uses warm-paper copy, acid green uses black ink, and the fluorescent-pink scene keeps its large white heading while body copy uses black ink for small-text contrast.
 
 ## Do's and Don'ts
 

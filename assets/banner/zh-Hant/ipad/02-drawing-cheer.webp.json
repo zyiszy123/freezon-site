@@ -1,0 +1,6 @@
+{
+  "prompt": "Origin: device-only crop of the approved App Store drawing campaign image at ../app-handheld-banner/appstore/with-status-bar/zh-Hant/ipad/02-drawing-cheer.png. The verified deviceBounds from drawing-verification.json preserve the real app screen while excluding the marketing text layer. A black screen bleed sits under Apple's official transparent bezel to prevent colored page backgrounds from showing through at the inner frame edge. No campaign background or color fringe remains outside the hardware edge. This is sourced product artwork, not AI-generated during the website build.",
+  "sourceSHA256": "6425914d168dfe862e827f485a240428777a2118ff64bbf13a6b658467ad8847",
+  "bezelSHA256": "4bf599cf70307e83acd8f7507be73c765783238ce1599617b5dd12025dac9cca",
+  "createdAt": "2026-11-06T06:49:14Z"
+}
