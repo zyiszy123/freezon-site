@@ -1,0 +1,388 @@
+{
+  "slug": "iphone-concert-scrolling-led-sign",
+  "product": "banner",
+  "screens": [
+    "02-create",
+    "01-banner"
+  ],
+  "content": {
+    "en": {
+      "title": "How to Make a Scrolling LED Sign on iPhone for Concerts",
+      "deck": "Turn your iPhone into a scrolling LED concert banner or bold static sign in under a minute with offline editing and full-screen display.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "To turn your iPhone into a scrolling concert banner in under a minute, open Freezon Banner, type your shoutout, choose your scroll speed, and tap full screen. There is no account to register, and editing, previewing, and displaying all work offline right from your seat—even in crowded venues with spotty cell service."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. Type a punchy short phrase",
+          "paragraphs": [
+            "At a dim, loud live venue, brevity is everything. Keep your text short so people nearby can read it in a single second. Two or three reliable examples you can borrow directly include ENCORE!, WE LOVE YOU, or ONE MORE SONG. You can mix in text and emoji, but resist pasting long sentences that take too long to scroll by."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. Set scroll direction and speed",
+          "paragraphs": [
+            "Choose which direction your text moves—left, right, up, or down. Leftward scrolling delivers the classic ticker feel, but you can fine-tune the speed directly against the live preview. Set the pace so letters remain crisp and readable rather than blurring into an unreadable streak."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. Pair high-contrast colors and styles",
+          "paragraphs": [
+            "Visibility in low-light venues comes down to sharp contrast. Stick to a dark background paired with bright text—such as neon green, vibrant yellow, or clean white. You can switch between a solid dark backdrop and an LED grid background, and test basic effects like outline, neon, or dot styles to give your lettering an arena board look."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. Test in preview, then go full screen",
+          "paragraphs": [
+            "Before the stage lights dim, check your banner in the live preview. A good rule of thumb is to hold your phone out at arm's length or step a few paces back to verify the lettering is sharp. When you are ready, tap into full-screen mode. This hides every editing slider and keeps your iPhone screen awake in the foreground throughout the show."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "When to choose static big text over scrolling",
+          "paragraphs": [
+            "Scrolling tickers are classic, but single-screen static mode is often more effective for ultra-short cheers like HI or LOVE. Static mode stacks brief words into clean, multi-line big letters that stay on screen, so anyone looking your way catches your shoutout instantly without waiting for a scroll loop. Keep in mind that static mode is built for short phrases, not long sentences.",
+            "Ready for your next live show? Open Freezon Banner on your iPhone or iPad and draft your concert sign before the opener takes the stage."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Customize text, scroll speed, direction, and visual effects in Freezon Banner.",
+        "Display your scrolling LED banner in full-screen mode during the concert."
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 上制作演唱会 LED 滚动跑马灯",
+      "deck": "不到一分钟即可将 iPhone 变成演唱会滚动灯牌或醒目静态标语，支持离线编辑与全屏常亮显示。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想在不到一分钟内将 iPhone 变成演唱会滚动灯牌，只需打开 Freezon Banner，输入应援文字，设置滚动速度，然后轻点全屏即可。无需注册账号，在座位上就能完全离线完成编辑、预览和展示——即使在网络信号不佳的拥挤场馆中也能顺畅使用。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. 输入简短有力的短语",
+          "paragraphs": [
+            "在昏暗嘈杂的现场演出场地，简短就是一切。尽量保持文字简练，以便周围的人能在一秒钟内看清。你可以直接参考的两三个实用范例包括 ENCORE!、WE LOVE YOU 或 ONE MORE SONG。你可以搭配文字与 Emoji 表情，但请尽量避免粘贴过长的句子，以免滚动播放时间太长。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. 设置滚动方向与速度",
+          "paragraphs": [
+            "选择文字移动的方向——向左、向右、向上或向下。向左滚动带来经典的跑马灯效果，你也可以直接对照实时预览微调速度。合理设置节奏，确保文字清晰易读，而不会模糊成难以辨认的拖影。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. 搭配高对比度色彩与样式",
+          "paragraphs": [
+            "弱光场馆中的辨识度取决于鲜明的对比。建议选择深色背景搭配亮色文字——例如荧光绿、亮黄色或纯白色。你可以在纯深色背景和 LED 点阵背景之间切换，并尝试描边、霓虹或点阵等基础效果，为文字营造出场馆巨幕大屏的质感。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. 在预览中测试，然后进入全屏",
+          "paragraphs": [
+            "在舞台灯光变暗之前，先在实时预览中检查你的灯牌效果。一个实用的经验法则是将手机伸展至一臂之遥，或后退几步，确认字迹依然清晰锐利。准备就绪后，轻点进入全屏模式。这会隐藏所有编辑滑块，并在整场演出期间保持 iPhone 屏幕在前台常亮。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "何时选择静态大字而非滚动播放",
+          "paragraphs": [
+            "滚动跑马灯非常经典，但对于像 HI 或 LOVE 这样极短的应援词，单屏静态模式往往更为有效。静态模式会将简短词语排版成整洁的多行大字并常驻屏幕，让任何望向你的人都能立刻看清你的应援，无需等待文字滚动循环。请记住，静态模式专为短语设计，并不适合长句。",
+            "准备好迎接下一场现场演出了吗？在 iPhone 或 iPad 上打开 Freezon Banner，在开场嘉宾登台前制作好你的演唱会灯牌吧。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "在 Freezon Banner 中自定义文字、滚动速度、方向与视觉样式。",
+        "在演唱会现场以全屏模式展示滚动 LED 灯牌。"
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 上製作演唱會 LED 跑馬燈",
+      "deck": "不到一分鐘即可將 iPhone 變成演唱會滾動燈牌或醒目靜態標語，支援離線編輯與全螢幕常亮顯示。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想在不到一分鐘內將 iPhone 變成演唱會滾動燈牌，只需打開 Freezon Banner，輸入應援文字，選擇滾動速度，然後點選全螢幕即可。無需註冊帳號，在座位上就能完全離線完成編輯、預覽和展示——即使在網路訊號不佳的擁擠場館中也能順暢使用。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. 輸入簡短有力的短語",
+          "paragraphs": [
+            "在昏暗吵雜的現場演出場地，簡短就是一切。盡量保持文字簡短，以便周圍的人能在一秒鐘內看清。你可以直接參考的兩三個實用範例包括 ENCORE!、WE LOVE YOU 或 ONE MORE SONG。你可以搭配文字與 Emoji 表情符號，但請盡量避免貼上過長的句子，以免滾動播放時間太長。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. 設定滾動方向與速度",
+          "paragraphs": [
+            "選擇文字移動的方向——向左、向右、向上或向下。向左滾動帶來經典的跑馬燈效果，你也可以直接對照即時預覽微調速度。合理設定節奏，確保文字清晰易讀，而不會模糊成難以辨認的殘影。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. 搭配高對比色彩與樣式",
+          "paragraphs": [
+            "弱光場館中的辨識度取決於鮮明的對比。建議選擇深色背景搭配亮色文字——例如螢光綠、亮黃色或純白色。你可以在純深色背景和 LED 點陣背景之間切換，並嘗試外框、霓虹或點陣等基本效果，為文字營造出大型場館螢幕的質感。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. 在預覽中測試，然後進入全螢幕",
+          "paragraphs": [
+            "在舞台燈光變暗之前，先在即時預覽中檢查你的燈牌效果。一個實用的經驗法則是將手機伸至一臂之遙，或後退幾步，確認字體依然清晰銳利。準備就緒後，點選進入全螢幕模式。這會隱藏所有編輯滑桿，並在整場演出期間保持 iPhone 螢幕在前景常亮。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "何時選擇靜態大字而非滾動播放",
+          "paragraphs": [
+            "滾動跑馬燈非常經典，但對於像 HI 或 LOVE 這樣極短的應援詞，單螢幕靜態模式往往更為有效。靜態模式會將簡短詞語排版成整齊的多行大字並常駐螢幕，讓任何望向你的人都能立刻看清你的應援，無需等待滾動循環。請記住，靜態模式專為短語設計，並不適合長句。",
+            "準備好迎接下一場現場演出了嗎？在 iPhone 或 iPad 上打開 Freezon Banner，在開場嘉賓登台前製作好你的演唱會燈牌吧。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "在 Freezon Banner 中自訂文字、滾動速度、方向與視覺樣式。",
+        "在演唱會現場以全螢幕模式展示滾動 LED 燈牌。"
+      ]
+    },
+    "ja": {
+      "title": "iPhoneでライブ用の電光掲示板風LEDサインを作る方法",
+      "deck": "iPhoneを1分足らずでライブ用LEDスクロールサインや見やすい静止メッセージに変身。オフライン編集や全画面常時点灯に対応。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPhoneを1分足らずでライブ会場用の電光掲示板に変えるには、Freezon Bannerを開いてメッセージを入力し、スクロール速度を選んで全画面表示をタップするだけです。アカウント登録は不要で、電波が不安定な混雑した会場でも、客席から完全にオフラインで編集、プレビュー、表示が行えます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. 短くインパクトのあるフレーズを入力する",
+          "paragraphs": [
+            "薄暗く大音量のライブ会場では、短さがすべてです。周りの人が一瞬で読み取れるよう、テキストは短くまとめましょう。そのまま使える確実な例としては、ENCORE!、WE LOVE YOU、ONE MORE SONG などが挙げられます。テキストと絵文字を組み合わせることもできますが、流れるのに時間がかかりすぎる長文を貼り付けるのは避けましょう。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. スクロール方向と速度を設定する",
+          "paragraphs": [
+            "テキストが流れる方向を左、右、上、下から選択します。左方向へのスクロールは定番の電光掲示板の雰囲気を演出できますが、リアルタイムプレビューを見ながら速度を細かく調整できます。文字がブレて読みにくくならないよう、鮮明で読みやすい速度に設定しましょう。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. コントラストの高い配色とスタイルを組み合わせる",
+          "paragraphs": [
+            "暗い会場での視認性は、くっきりとしたコントラストが鍵を握ります。ダーク系の背景に、ネオングリーン、鮮やかなイエロー、すっきりとしたホワイトなどの明るいテキストを組み合わせるのが基本です。シンプルなダーク背景とLEDグリッド背景を切り替えたり、アウトライン、ネオン、ドットスタイルなどの基本エフェクトを試したりして、アリーナの大型ビジョンのような見た目に仕上げることができます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. プレビューでテストしてから全画面表示にする",
+          "paragraphs": [
+            "ステージの照明が落ちる前に、リアルタイムプレビューでサインの見え方を確認しましょう。腕を伸ばしてスマホを持ったり、数歩下がったりして、文字がはっきり読めるか確認するのがおすすめです。準備ができたら全画面モードをタップします。これにより編集スライダーがすべて非表示になり、公演中ずっとiPhoneの画面がフォアグラウンドで点灯し続けます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "スクロールよりも静止した大きなテキストを選ぶべき場面",
+          "paragraphs": [
+            "流れる電光掲示板は定番ですが、HI や LOVE のようなごく短い歓声には、1画面に収まる静止モードのほうが効果的な場合がよくあります。静止モードでは短い言葉がきれいに複数行の大きな文字で画面に固定されるため、こちらに目を向けた人がスクロールを待たずに一瞬でメッセージを認識できます。静止モードは長文ではなく短いフレーズ向けであることを覚えておきましょう。",
+            "次のライブの準備はできましたか？iPhoneやiPadでFreezon Bannerを開き、オープニングアクトが登場する前にコンサート用サインを作成しましょう。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon Bannerでテキスト、スクロール速度、方向、表示スタイルをカスタマイズ。",
+        "ライブ中にiPhoneで全画面表示されたスクロールLEDサイン。"
+      ]
+    },
+    "ko": {
+      "title": "콘서트용 iPhone 흐르는 LED 전광판 배너 만드는 방법",
+      "deck": "Freezon Banner 앱을 사용해 공연장에서도 오프라인으로 빠르게 콘서트 응원 전광판을 만들고 전체 화면으로 띄우는 방법을 안내합니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "1분 안에 iPhone을 콘서트용 흐르는 전광판 배너로 바꾸려면 Freezon Banner 앱을 열고 응원 문구를 입력한 뒤 스크롤 속도를 선택하고 전체 화면을 탭하세요. 별도의 회원가입 계정이 필요 없으며, 통신 연결이 원활하지 않은 혼잡한 공연장 좌석에서도 편집, 미리보기, 화면 표시 등 모든 기능이 오프라인으로 작동합니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. 간결하고 눈에 띄는 짧은 문구 입력하기",
+          "paragraphs": [
+            "어둡고 시끄러운 공연장에서는 간결함이 핵심입니다. 주변 사람들이 1초 만에 읽을 수 있도록 문구를 짧게 유지하세요. 바로 활용하기 좋은 대표적인 예시로는 ENCORE!, WE LOVE YOU 또는 ONE MORE SONG 등이 있습니다. 텍스트와 이모티콘을 함께 조합할 수 있지만, 지나가는 데 너무 오래 걸리는 긴 문장은 피하는 것이 좋습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. 스크롤 방향과 속도 설정하기",
+          "paragraphs": [
+            "텍스트가 이동할 방향을 왼쪽, 오른쪽, 위쪽, 아래쪽 중에서 선택하세요. 왼쪽으로 흐르는 스크롤은 클래식한 전광판 느낌을 주며, 실시간 미리보기를 보면서 속도를 직접 미세 조정할 수 있습니다. 글자가 번져서 읽기 힘든 줄로 변하지 않고 선명하게 읽히도록 속도를 맞추세요."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. 대비가 뚜렷한 색상과 스타일 조합하기",
+          "paragraphs": [
+            "어두운 공연장에서의 시인성은 뚜렷한 대비에 달려 있습니다. 네온 그린, 선명한 노란색, 깔끔한 흰색과 같이 밝은 텍스트를 어두운 배경과 조합하세요. 짙은 단색 배경과 LED 격자 배경 사이를 전환할 수 있으며 외곽선, 네온, 도트 스타일과 같은 기본 효과를 테스트해 글자에 전광판 느낌을 더할 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. 미리보기에서 확인한 후 전체 화면으로 전환하기",
+          "paragraphs": [
+            "무대 조명이 어두워지기 전에 실시간 미리보기로 배너를 확인하세요. 휴대폰을 팔 길이만큼 뻗어 들거나 몇 걸음 물러서서 글자가 또렷한지 확인하는 것이 좋습니다. 준비가 되면 전체 화면 모드를 탭하세요. 이렇게 하면 모든 편집 슬라이더가 숨겨지고 공연 내내 iPhone 화면이 꺼지지 않은 채 전면에 유지됩니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "흐르는 텍스트 대신 굵은 고정 텍스트를 선택해야 할 때",
+          "paragraphs": [
+            "스크롤되는 전광판이 대표적이지만, HI 또는 LOVE처럼 매우 짧은 응원에는 단일 화면 고정 모드가 더 효과적일 때가 많습니다. 고정 모드는 짧은 단어를 깔끔한 여러 줄의 큰 글자로 화면에 고정해 두므로, 내 쪽을 바라보는 사람이 스크롤 주기를 기다릴 필요 없이 즉시 응원 문구를 확인할 수 있습니다. 고정 모드는 긴 문장이 아니라 짧은 문구를 위해 설계되었다는 점을 유의하세요.",
+            "다음 라이브 공연에 갈 준비가 되셨나요? 오프닝 공연이 시작되기 전에 iPhone이나 iPad에서 Freezon Banner를 열고 콘서트 응원 문구를 작성해 보세요."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon Banner에서 응원 문구와 설정을 입력하여 배너를 제작하는 화면",
+        "iPhone 전체 화면에 표시되는 콘서트용 LED 전광판 배너"
+      ]
+    },
+    "es-419": {
+      "title": "Cómo hacer un letrero LED con texto en movimiento en el iPhone para conciertos",
+      "deck": "Descubre cómo usar Freezon Banner para crear y mostrar letreros luminosos para conciertos en tu iPhone sin conexión y al instante.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para convertir tu iPhone en un letrero luminoso para conciertos en menos de un minuto, abre Freezon Banner, escribe tu mensaje, elige la velocidad de desplazamiento y toca la opción de pantalla completa. No se necesita crear ninguna cuenta, y la edición, la vista previa y la visualización funcionan completamente sin conexión desde tu asiento, incluso en recintos concurridos con señal celular débil."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. Escribe una frase corta y contundente",
+          "paragraphs": [
+            "En un recinto oscuro y ruidoso, la brevedad lo es todo. Mantén tu texto corto para que las personas cercanas puedan leerlo en un solo segundo. Dos o tres ejemplos confiables que puedes tomar prestados directamente son ENCORE!, WE LOVE YOU o ONE MORE SONG. Puedes combinar texto y emojis, pero evita pegar oraciones largas que tarden demasiado en pasar por la pantalla."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. Define la dirección y la velocidad de desplazamiento",
+          "paragraphs": [
+            "Elige hacia qué dirección se mueve el texto: izquierda, derecha, arriba o abajo. El desplazamiento hacia la izquierda brinda la clásica sensación de cinta informativa, pero puedes ajustar la velocidad con precisión directamente sobre la vista previa en vivo. Ajusta el ritmo para que las letras se mantengan nítidas y legibles en lugar de difuminarse en una línea ilegible."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. Combina colores y estilos de alto contraste",
+          "paragraphs": [
+            "La visibilidad en lugares con poca luz depende de un contraste marcado. Usa un fondo oscuro combinado con texto brillante, como verde neón, amarillo vibrante o blanco limpio. Puedes alternar entre un fondo oscuro liso y un fondo de cuadrícula LED, además de probar efectos básicos como contorno, neón o estilos de puntos para darle a tus letras el aspecto de una pantalla de estadio."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. Prueba en la vista previa y pasa a pantalla completa",
+          "paragraphs": [
+            "Antes de que se apaguen las luces del escenario, revisa tu letrero en la vista previa en vivo. Un buen consejo es sostener el teléfono con el brazo extendido o dar un par de pasos hacia atrás para comprobar que las letras se vean nítidas. Cuando todo esté listo, toca para pasar al modo de pantalla completa. Esto oculta todos los controles deslizantes de edición y mantiene la pantalla de tu iPhone encendida en primer plano durante todo el espectáculo."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Cuándo elegir texto grande estático en lugar de desplazamiento",
+          "paragraphs": [
+            "Los textos con desplazamiento son un clásico, pero el modo estático en una sola pantalla suele ser más eficaz para mensajes ultra cortos como HI o LOVE. El modo estático acomoda palabras breves en letras grandes y limpias distribuidas en varias líneas que permanecen en pantalla, de modo que cualquiera que mire hacia ti capte tu mensaje al instante sin esperar a que termine de pasar. Ten en cuenta que el modo estático está pensado para frases cortas, no para oraciones extensas.",
+            "¿Listo para tu próximo concierto? Abre Freezon Banner en tu iPhone o iPad y prepara tu letrero antes de que el grupo telonero suba al escenario."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Creación y personalización de un letrero para conciertos en Freezon Banner",
+        "Visualización en pantalla completa del letrero LED para conciertos en el iPhone"
+      ]
+    },
+    "pt-BR": {
+      "title": "Como fazer um letreiro LED com texto rolante no iPhone para shows",
+      "deck": "Descubra como usar o Freezon Banner para criar e exibir letreiros luminosos para shows no seu iPhone de forma rápida e offline.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para transformar seu iPhone em um letreiro luminoso para shows em menos de um minuto, abra o Freezon Banner, digite sua mensagem, escolha a velocidade de rolagem e toque em tela cheia. Não é preciso criar conta, e a edição, a pré-visualização e a exibição funcionam totalmente offline direto do seu lugar, mesmo em locais lotados com sinal de celular instável."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1. Digite uma frase curta e marcante",
+          "paragraphs": [
+            "Em um local de show escuro e barulhento, a brevidade é fundamental. Mantenha o texto curto para que as pessoas por perto consigam ler em um segundo. Dois ou três exemplos confiáveis que você pode usar diretamente incluem ENCORE!, WE LOVE YOU ou ONE MORE SONG. Você pode mesclar texto e emojis, mas evite colar frases longas que demoram demais para rolar pela tela."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2. Defina a direção e a velocidade de rolagem",
+          "paragraphs": [
+            "Escolha em qual direção o texto se move: esquerda, direita, cima ou baixo. A rolagem para a esquerda traz a sensação clássica de letreiro digital, mas você pode ajustar a velocidade com precisão diretamente na pré-visualização em tempo real. Ajuste o ritmo para que as letras continuem nítidas e legíveis, em vez de se transformarem em um borrão ilegível."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "3. Combine cores e estilos de alto contraste",
+          "paragraphs": [
+            "A visibilidade em locais com pouca luz depende de um contraste nítido. Prefira um fundo escuro combinado com texto claro e brilhante, como verde-neon, amarelo vibrante ou branco limpo. Você pode alternar entre um fundo escuro sólido e um fundo de grade LED, além de testar efeitos básicos como contorno, neon ou estilos pontilhados para dar às suas letras a aparência de um telão de arena."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "4. Faça um teste na pré-visualização e entre em tela cheia",
+          "paragraphs": [
+            "Antes que as luzes do palco se apaguem, confira seu letreiro na pré-visualização ao vivo. Uma boa regra prática é segurar o celular com o braço estendido ou dar alguns passos para trás para conferir se as letras estão nítidas. Quando estiver pronto, toque no modo de tela cheia. Isso oculta todos os controles deslizantes de edição e mantém a tela do seu iPhone acesa em primeiro plano durante todo o show."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Quando escolher texto grande estático em vez de rolagem",
+          "paragraphs": [
+            "Os letreiros com rolagem são clássicos, mas o modo estático de tela única costuma ser mais eficiente para recados muito curtos como HI ou LOVE. O modo estático organiza palavras breves em letras grandes e limpas divididas em várias linhas que permanecem fixas na tela, permitindo que qualquer pessoa que olhe na sua direção veja seu recado instantaneamente sem precisar esperar a rolagem recomeçar. Lembre-se de que o modo estático foi feito para frases curtas, não para períodos longos.",
+            "Pronto para o seu próximo show? Abra o Freezon Banner no seu iPhone ou iPad e monte seu letreiro para o show antes de a atração de abertura subir ao palco."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Criação e personalização da mensagem do letreiro no Freezon Banner",
+        "Exibição do letreiro LED para shows em tela cheia no iPhone"
+      ]
+    }
+  }
+}
