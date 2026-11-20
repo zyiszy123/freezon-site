@@ -1,0 +1,137 @@
+.store-download-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 112px;
+  align-items: center;
+  gap: 24px;
+  width: fit-content;
+  max-width: min(100%, 340px);
+  margin-top: 24px;
+}
+
+.vault-home .store-download-group { margin-inline: auto; }
+
+.store-download-group :is(.vault-hero-actions, .hero-actions) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+  margin: 0;
+}
+
+.store-download-group :is(.button, .banner-button, .text-link, .banner-text-link) {
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.store-qr-download {
+  width: 112px;
+  margin: 0;
+  color: inherit;
+  text-align: center;
+}
+
+.store-qr-code {
+  display: block;
+  width: 112px;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.store-qr-code img { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+.store-qr-code:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
+.store-qr-download figcaption { margin-top: 6px; font-size: 12px; line-height: 1.4; font-weight: 600; text-wrap: balance; }
+
+/* The hero grows with its content so the new download row cannot cover artwork. */
+.banner-hero:has(.store-download-group) {
+  height: auto;
+  min-height: clamp(620px, calc(100dvh - 108px), 900px);
+  max-height: none;
+}
+
+.banner-hero:has(.store-download-group) .banner-hero-copy {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-left: max(40px, calc((100% - 1480px) / 2));
+  padding: 48px 0 0;
+}
+
+.banner-hero:has(.store-download-group) .hero-platform {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin: 12px 0 40px max(40px, calc((100% - 1480px) / 2));
+  width: min(30%, 450px);
+  line-height: 1.5;
+}
+
+.store-download-group .banner-button-dark {
+  min-height: 44px;
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  color: var(--banner-ink);
+  box-shadow: none;
+}
+
+@media (min-width: 721px) and (max-width: 1120px) {
+  .banner-hero:has(.store-download-group) { min-height: 620px; }
+  .banner-hero:has(.store-download-group) .banner-hero-copy { margin-left: 24px; width: calc(42% - 48px); }
+  .banner-hero:has(.store-download-group) .hero-platform { margin-left: 24px; width: calc(42% - 48px); }
+  .banner-hero:has(.store-download-group) .hero-punch { font-size: 52px; }
+  html:is([lang="en"], [lang="ja"]) .banner-hero:has(.store-download-group) .hero-punch { font-size: 48px; }
+  .banner-hero:has(.store-download-group) .poster-art {
+    left: 42%;
+    width: 58%;
+    overflow: hidden;
+  }
+  .banner-hero:has(.store-download-group) .poster-art img {
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    right: 0;
+    width: 149.1%;
+    height: auto;
+    max-width: none;
+    transform: translateY(-50%);
+  }
+  .banner-home-page .store-download-group { gap: 16px; }
+}
+
+@media (max-width: 720px) {
+  .store-download-group { gap: 16px; margin-top: 20px; }
+  .banner-hero:has(.store-download-group) {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .banner-hero:has(.store-download-group) .banner-hero-copy {
+    order: 0;
+    width: auto;
+    margin: 0;
+    padding: 24px 22px;
+  }
+  .banner-hero:has(.store-download-group) .poster-art {
+    position: relative;
+    inset: auto;
+    order: 1;
+    height: auto;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+  /* Show the artwork between the promotional image's empty top and bottom. */
+  .banner-hero:has(.store-download-group) .poster-art img {
+    object-position: center 53.2%;
+  }
+  .banner-hero:has(.store-download-group) .hero-platform {
+    order: 2;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px 18px;
+  }
+  .banner-home-page .store-download-group .hero-actions .banner-text-link { display: inline-flex; }
+}
