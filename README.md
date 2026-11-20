@@ -15,4 +15,6 @@ Guides use `guides/<slug>/index.html` and the shared `assets/guides.css`. Use th
 
 For the first photo vault guide, update localized copy in `scripts/guides/photo-vault.mjs` and run `node scripts/guides/build.mjs`. Commit the generated locale pages together with their source. The generator also refreshes matching language links in the English pages and the localized sitemap entries. Serving the checked-in pages requires no build.
 
+New guides are generated from reviewed locale packages in `scripts/guides/articles/`. Run the same guide builder to render all seven pages and update the product listings and sitemap. The Freezon editorial workspace prepares, verifies, and optionally publishes these packages. Commit only the public packages and generated pages; keep reviews and product evidence outside the website repo.
+
 Only material intended for public distribution belongs in this repository. Product implementation evidence, diagnostic captures, and internal artwork records stay outside Git tracking.

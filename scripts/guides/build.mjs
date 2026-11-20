@@ -1,8 +1,9 @@
-import { accessSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { accessSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { guideActionLabels, locales } from './locales.mjs';
 import { article } from './photo-vault.mjs';
+import { appStoreURL, guideBundles, productLanguage, products } from './bundles.mjs';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const origin = 'https://freezonapp.com';
@@ -18,8 +19,9 @@ const languageNav = (current, topic) => `<nav class="guide-languages" aria-label
 const p = (value) => `<p>${html(value)}</p>`;
 const split = (data) => data.trim().split('\n').map(line => line.trim());
 const campaignURL = (country) => `https://apps.apple.com/${country}/app/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8`;
-const featuresLink = (lang, className) => `<a class="${className}" href="/?lang=${lang}#app-ui">${html(guideActionLabels[lang].features)}</a>`;
+const featuresLink = (lang, className, product = 'vault') => `<a class="${className}" href="${products[product].route}?lang=${productLanguage(lang, product)}#${products[product].anchor}">${html(guideActionLabels[lang].features)}</a>`;
 const poster = (lang, type = '01_dual_vault', size = 660) => `/assets/vault-campaign/${lang}/iphone/${type}-${size}.webp`;
+const bannerScreen = (lang, screen) => `/assets/banner/${productLanguage(lang, 'banner')}/iphone/${screen}.webp`;
 const appleSupport = { 'zh-Hans': 'zh-cn', 'zh-Hant': 'zh-tw', ja: 'ja-jp', ko: 'ko-kr', 'es-419': 'es-lamr', 'pt-BR': 'pt-br' };
 
 function write(path, contents) {
@@ -38,9 +40,11 @@ function replaceRegion(path, key, content) {
   write(path, `${source.slice(0, first + start.length)}\n${content}\n${source.slice(last)}`);
 }
 
-function layout(lang, topic, title, description, body) {
+function layout(lang, topic, title, description, body, product = 'vault') {
   const [ , , guides, , , , support, privacy, skip ] = locales[lang];
   const canonical = origin + guidePath(lang, topic);
+  const { icon, key, route } = products[product];
+  const productLang = productLanguage(lang, product);
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -55,8 +59,8 @@ function layout(lang, topic, title, description, body) {
   <meta property="og:title" content="${html(title)}">
   <meta property="og:description" content="${html(description)}">
   <meta property="og:url" content="${canonical}">
-  ${topic ? `<meta property="og:image" content="${origin}${poster(lang, '01_dual_vault', 1320)}">` : ''}
-  <link rel="icon" href="/assets/freezon-icon.png">
+  ${topic ? `<meta property="og:image" content="${origin}${product === 'vault' ? poster(lang, '01_dual_vault', 1320) : bannerScreen(lang, '01-banner')}">` : ''}
+  <link rel="icon" href="/assets/${icon}">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   ${topic ? '<link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">' : ''}
   <link rel="stylesheet" href="/assets/guides.css">
@@ -64,11 +68,11 @@ function layout(lang, topic, title, description, body) {
 <body class="guide-page">
   <a class="skip-link" href="#main-content">${html(skip)}</a>
   <header class="site-nav"><div class="nav-inner">
-    <a class="brand-lockup" href="/?lang=${lang}"><img src="/assets/freezon-icon.png" width="32" height="32" alt="">Freezon</a>
+    <a class="brand-lockup" href="${route}?lang=${productLang}"><img src="/assets/${icon}" width="32" height="32" alt="">Freezon</a>
     <nav class="guide-nav" aria-label="Freezon">
       ${topic ? `<a class="site-nav-link" href="${guidePath(lang)}">${html(guides)}</a>` : ''}
-      ${featuresLink(lang, 'site-nav-link')}
-      <a class="site-nav-link" href="${topic ? `/support/freezon/?lang=${lang}` : guidePath(lang)}"${topic ? '' : ' aria-current="page"'}>${html(topic ? support : guides)}</a>
+      ${featuresLink(lang, 'site-nav-link', product)}
+      <a class="site-nav-link" href="${topic ? `/support/${key}/?lang=${productLang}` : guidePath(lang)}"${topic ? '' : ' aria-current="page"'}>${html(topic ? support : guides)}</a>
     </nav>
   </div></header>
   <main id="main-content" class="guide-shell">
@@ -78,8 +82,8 @@ function layout(lang, topic, title, description, body) {
     <p>Freezon</p>
     <nav class="footer-links" aria-label="Freezon">
       ${topic ? `<a href="${guidePath(lang)}">${html(guides)}</a>` : ''}
-      <a href="/support/freezon/?lang=${lang}">${html(support)}</a>
-      <a href="/privacy/freezon/?lang=${lang}">${html(privacy)}</a>
+      <a href="/support/${key}/?lang=${productLang}">${html(support)}</a>
+      <a href="/privacy/${key}/?lang=${productLang}">${html(privacy)}</a>
     </nav>
   </div></footer>
 </body>
@@ -92,7 +96,15 @@ function heading(title, description, lang, topic) {
     ${languageNav(lang, topic)}</header>`;
 }
 
-function figure(lang, screen, caption) {
+function figure(lang, screen, caption, product = 'vault', topic) {
+  const articleImage = topic && [lang, productLanguage(lang, product)]
+    .map(mediaLang => `/guides/media/${topic}/${mediaLang}/${screen}.webp`)
+    .find(url => existsSync(resolve(root, url.slice(1))));
+  const image = articleImage || (product === 'banner' ? bannerScreen(lang, screen) : null);
+  if (image) {
+    accessSync(resolve(root, image.slice(1)));
+    return `<figure class="guide-figure"><a href="${image}"><img src="${image}" loading="lazy" decoding="async" alt="${html(caption)}"></a><figcaption>${html(caption)}</figcaption></figure>`;
+  }
   const images = [480, 800].map(width => `/assets/app-screens/${lang}/${screen}-${width}.webp`);
   for (const image of images) accessSync(resolve(root, image.slice(1)));
   const [small, large] = images;
@@ -104,14 +116,14 @@ function figure(lang, screen, caption) {
       </figure>`;
 }
 
-function downloadActions(lang, install, storeURL) {
+function downloadActions(lang, install, storeURL, product = 'vault') {
   return `          <div class="store-download-group">
             <div class="guide-download-actions">
               <a class="button button-primary" href="${html(storeURL)}">${html(install)}</a>
-              ${featuresLink(lang, 'text-link')}
+              ${featuresLink(lang, 'text-link', product)}
             </div>
             <figure class="store-qr-download">
-              <div class="store-qr-code"><img src="/assets/appstore/freezon-qr.svg" width="112" height="112" loading="lazy" decoding="async" alt=""></div>
+              <div class="store-qr-code"><img src="/assets/appstore/${products[product].key}-qr.svg" width="112" height="112" loading="lazy" decoding="async" alt=""></div>
               <figcaption>${html(guideActionLabels[lang].scan)}</figcaption>
             </figure>
           </div>`;
@@ -151,6 +163,38 @@ ${downloadActions(lang, install, campaignURL(country))}
   </article>` };
 }
 
+const bundleDir = resolve(root, 'scripts/guides/articles');
+const bundles = existsSync(bundleDir) ? guideBundles(bundleDir, slug) : [];
+const bundlePages = bundles.flatMap(({ slug: topic, product, screens, content }) => languages.map(lang => {
+  const { title, deck, sections, download, captions } = content[lang];
+  const body = `<article class="guide-article">
+    ${heading(title, deck, lang, topic)}
+    ${sections.map(({ heading: title, paragraphs, bullets }, i) => `<section>
+      ${title ? `<h2>${html(title)}</h2>` : ''}
+      ${paragraphs.map(p).join('\n      ')}
+      ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
+      ${i > 0 && screens[i - 1] ? figure(lang, screens[i - 1], captions[i - 1], product, topic) : ''}
+    </section>`).join('\n    ')}
+    <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>
+  </article>`;
+  return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product)];
+}));
+
+function bundleCards(lang, product) {
+  return bundles.filter(bundle => bundle.product === product).map(({ slug: topic, content }) => `<li>
+        <a class="guide-list-link" href="${guidePath(lang, topic)}"><div><h3>${html(content[lang].title)}</h3>${p(content[lang].deck)}</div>
+          <img src="${product === 'vault' ? poster(lang) : bannerScreen(lang, '01-banner')}" alt=""></a>
+      </li>`).join('\n');
+}
+
+function bannerGuides(lang) {
+  const cards = bundleCards(lang, 'banner');
+  if (!cards) return '';
+  const label = { 'zh-Hans': '手持弹幕', 'zh-Hant': '手持彈幕', ja: '手持ち灯牌' }[lang] || 'Freezon Banner';
+  return `<section aria-labelledby="banner-guides"><h2 id="banner-guides">${html(label)}</h2><ul class="guide-list" role="list">${cards}</ul></section>`;
+}
+
+for (const [path, page] of bundlePages) write(path, page);
 for (const lang of languages.filter(lang => lang !== 'en')) {
   const data = article[lang];
   if (!data || split(data).length !== 29 || split(data).slice(5, 9).some(row => row.split('|').length !== 3)) {
@@ -164,11 +208,13 @@ for (const lang of languages.filter(lang => lang !== 'en')) {
       <ul class="guide-list" role="list"><li>
         <a class="guide-list-link" href="${guidePath(lang, slug)}"><div><h3>${html(translated.title)}</h3>${p(translated.deck)}</div>
           <img src="${poster(lang)}" width="660" height="1434" alt=""></a>
-      </li></ul>
-    </section></div>`;
+      </li>${bundleCards(lang, 'vault')}</ul>
+    </section>${bannerGuides(lang)}</div>`;
   write(`${guidePath(lang)}index.html`, layout(lang, '', title, deck, list));
   write(`${guidePath(lang, slug)}index.html`, layout(lang, slug, translated.title, translated.deck, translated.body));
 }
+replaceRegion('guides/index.html', 'additional-vault-guides', bundleCards('en', 'vault'));
+replaceRegion('guides/index.html', 'banner-guides', bannerGuides('en'));
 
 for (const [file, topic] of [['guides/index.html', ''], [`guides/${slug}/index.html`, slug]]) {
   replaceRegion(file, 'guide-alternates', alternates(topic));
@@ -178,3 +224,5 @@ replaceRegion(`guides/${slug}/index.html`, 'guide-download-actions', downloadAct
   'https://apps.apple.com/app/apple-store/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8'));
 replaceRegion('sitemap.xml', 'localized-guides', languages.filter(lang => lang !== 'en').flatMap(lang =>
   ['', slug].map(topic => `  <url><loc>${origin}${guidePath(lang, topic)}</loc></url>`)).join('\n'));
+replaceRegion('sitemap.xml', 'article-bundles', bundles.flatMap(({ slug: topic }) => languages.map(lang =>
+  `  <url><loc>${origin}${guidePath(lang, topic)}</loc></url>`)).join('\n'));
