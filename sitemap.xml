@@ -36,4 +36,20 @@
   <url><loc>https://freezonapp.com/privacy/freezon/?lang=ko</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://freezonapp.com/privacy/freezon/?lang=es-419</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://freezonapp.com/privacy/freezon/?lang=pt-BR</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://freezonapp.com/guides/</loc></url>
+  <url><loc>https://freezonapp.com/guides/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <!-- localized-guides:start -->
+  <url><loc>https://freezonapp.com/guides/zh-Hans/</loc></url>
+  <url><loc>https://freezonapp.com/guides/zh-Hans/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <url><loc>https://freezonapp.com/guides/zh-Hant/</loc></url>
+  <url><loc>https://freezonapp.com/guides/zh-Hant/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <url><loc>https://freezonapp.com/guides/ja/</loc></url>
+  <url><loc>https://freezonapp.com/guides/ja/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <url><loc>https://freezonapp.com/guides/ko/</loc></url>
+  <url><loc>https://freezonapp.com/guides/ko/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <url><loc>https://freezonapp.com/guides/es-419/</loc></url>
+  <url><loc>https://freezonapp.com/guides/es-419/iphone-hidden-album-vs-photo-vault/</loc></url>
+  <url><loc>https://freezonapp.com/guides/pt-BR/</loc></url>
+  <url><loc>https://freezonapp.com/guides/pt-BR/iphone-hidden-album-vs-photo-vault/</loc></url>
+<!-- localized-guides:end -->
 </urlset>

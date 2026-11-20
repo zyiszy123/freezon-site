@@ -171,6 +171,14 @@
     };
     if (pageName() === "home") {
       document.querySelectorAll("#mobile-menu > a").forEach((link, index) => { if (menuLabels[lang]?.[index]) link.textContent = menuLabels[lang][index]; });
+      const guideLabels = { en: "Guides", "zh-Hans": "使用指南", "zh-Hant": "使用指南", ja: "ガイド", ko: "가이드", "es-419": "Guías", "pt-BR": "Guias" };
+      document.querySelectorAll('a[href="./guides/"], [data-guide-link]').forEach(link => {
+        link.dataset.guideLink = "";
+        link.href = lang === "en" ? "/guides/" : `/guides/${lang}/`;
+        link.lang = lang;
+        link.hreflang = lang;
+        link.textContent = guideLabels[lang];
+      });
     }
     const footerLabels = { "ko": ["지원","개인정보 처리방침"], "es-419": ["Soporte","Política de privacidad"], "pt-BR": ["Suporte","Política de privacidade"], "zh-Hans": ["支持", "隐私政策"], "zh-Hant": ["支援", "隱私權政策"], en: ["Support", "Privacy policy"], ja: ["サポート", "プライバシー"] };
     document.querySelectorAll(".footer-links a").forEach((link, index) => { if (footerLabels[lang]?.[index]) link.textContent = footerLabels[lang][index]; });
