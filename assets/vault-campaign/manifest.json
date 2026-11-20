@@ -1,0 +1,2525 @@
+{
+  "transformation": "Full canvas resized proportionally to WebP.",
+  "images": [
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 49924,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 126398,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 83086,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 229488,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 93342,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 261802,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 69528,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 185258,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 75352,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 206242,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 51530,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 120814,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 39784,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 141464,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 69350,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 279016,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 108812,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 418242,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 49228,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 176728,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 50292,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 184714,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 37530,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 122404,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 51910,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 205878,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 55802,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 222392,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 107196,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 485650,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 53050,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 208674,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 61194,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 247222,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 40834,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hans",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 136716,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 49822,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 127916,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 86176,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 235274,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 94230,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 264854,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 70954,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 190052,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 76180,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 209602,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 52188,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 124488,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 40600,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 146704,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 71686,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 286376,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 109460,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 421836,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 50240,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 183904,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 51032,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 189282,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 38128,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 127114,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 53266,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 212572,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 58440,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 232322,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 107904,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 494920,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 54416,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 216820,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 65152,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 259354,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 41198,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "zh-Hant",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 142748,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 50142,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 124828,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 84994,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 232284,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 96736,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 270234,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 72168,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 191492,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 76972,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 211026,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 57696,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 132210,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 40638,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 144216,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 72704,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 290594,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 110830,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 424038,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 56348,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 196274,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 55754,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 200098,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 43688,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 139398,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57220,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 218128,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60252,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 235546,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 110858,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 496728,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 59094,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 223812,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 67656,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 265280,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 52338,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "en",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 164620,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 50744,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 124738,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 85532,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 232594,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 94156,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 263980,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 74822,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 198786,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 77788,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 213810,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 55714,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 127074,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 42424,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 150484,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 72558,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 290556,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 110410,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 421632,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 55028,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 191954,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 54624,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 198030,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 42014,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 130700,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 58458,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 223058,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 59144,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 230698,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 110684,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 498958,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60280,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 225478,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 70542,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 269698,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 49356,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ja",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 154078,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 46154,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 114300,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 82836,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 225780,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 90342,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 256546,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 65102,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 174490,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 75082,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 205182,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 44772,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 99502,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 38024,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 134066,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 68914,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 275232,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 105590,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 405942,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 50090,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 170486,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 49562,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 176334,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 33524,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 105302,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 50646,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 196076,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 54342,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 211766,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 104570,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 476386,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 52566,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 196510,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 61172,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 236782,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 38890,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "ko",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 117624,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 53946,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 132672,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 92220,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 247474,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 98806,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 275938,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 72394,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 192006,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 84514,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 231928,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 58474,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 135260,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 45006,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 157456,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 73112,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 293442,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 113658,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 430424,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 59706,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 209082,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 57114,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 208532,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 44032,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 142526,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60276,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 228260,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 59616,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 234490,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 112900,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 504982,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 60398,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 226540,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 69712,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 273726,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 52316,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "es-419",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 167896,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "01_dual_vault-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 52154,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "01_dual_vault-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 128458,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "02_pure_experience-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 91990,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "02_pure_experience-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 247586,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "03_lossless_media-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 98544,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "03_lossless_media-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 275568,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 71780,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "04_cross_vault_migration-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 191574,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "05_safe_cleanup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 84058,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "05_safe_cleanup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 230736,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "06_encrypted_backup-660.webp",
+      "width": 660,
+      "height": 1434,
+      "bytes": 58044,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "iphone",
+      "file": "06_encrypted_backup-1320.webp",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 133760,
+      "sourceWidth": 1320,
+      "sourceHeight": 2868
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 43476,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "01_dual_vault-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 152418,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 73350,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "02_pure_experience-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 293024,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 113880,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "03_lossless_media-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 430424,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 57206,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "04_cross_vault_migration-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 200726,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 56416,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "05_safe_cleanup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 205942,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 825,
+      "bytes": 45020,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "ipad",
+      "file": "06_encrypted_backup-2752.webp",
+      "width": 2752,
+      "height": 2064,
+      "bytes": 142840,
+      "sourceWidth": 2752,
+      "sourceHeight": 2064
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "01_dual_vault-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57966,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "01_dual_vault-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 222162,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "02_pure_experience-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 59682,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "02_pure_experience-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 234742,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "03_lossless_media-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 113174,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "03_lossless_media-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 504704,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "04_cross_vault_migration-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 57872,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "04_cross_vault_migration-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 219378,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "05_safe_cleanup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 70526,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "05_safe_cleanup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 271120,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "06_encrypted_backup-1100.webp",
+      "width": 1100,
+      "height": 774,
+      "bytes": 53098,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    },
+    {
+      "locale": "pt-BR",
+      "device": "duo",
+      "file": "06_encrypted_backup-2853.webp",
+      "width": 2853,
+      "height": 2007,
+      "bytes": 169242,
+      "sourceWidth": 2853,
+      "sourceHeight": 2007
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.DS_Store
+.agent/
+.agents/
+.claude/
+.codex/
+.impeccable/
+
+# Local product evidence and artwork working files are not public site assets.
+/PRODUCT_TRUTH.md
+/PRODUCT.md
+/DESIGN.md
+/assets/**/README.md
+/assets/banner/**/*.webp.json
+/assets/app-current/
+/assets/photos/
+/assets/screens/
+/tools/
+/deploy/
