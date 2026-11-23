@@ -1,0 +1,622 @@
+{
+  "slug": "ipad-full-screen-led-sign",
+  "product": "banner",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Turn an iPad into a Full-Screen LED Sign",
+      "deck": "Turn an iPad into a clean, full-screen LED sign or scrolling banner for reception desks and event check-ins with Freezon Banner.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "To turn an iPad into a full-screen LED sign, enter your message in Freezon Banner, choose static or scrolling text, review the live preview in your desired orientation, and tap to start the full-screen presentation. The app conceals editing controls to display clean, dedicated signage.",
+            "While Freezon Banner supports both iPad and iPhone, an iPad is especially suited for fixed positions at temporary reception desks, event check-in tables, and venue entrances. Instead of a handheld party banner, a stationary iPad functions as an eye-level welcome board, directional pointer, or scrolling announcement display for arriving guests."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Setting Up Your Display in Freezon Banner",
+          "paragraphs": [
+            "The app's create view provides a live preview as you type, allowing you to format your sign before presenting:"
+          ],
+          "bullets": [
+            "Choose orientation: Turn the iPad to landscape or portrait. On a desk or check-in counter, landscape orientation provides a wide canvas for horizontal text and arrows. The app adapts directly to your device orientation.",
+            "Enter your message: Type the essential information visitors need upon arrival.",
+            "Select static or scrolling: Keep short notices stationary or let longer updates scroll continuously.",
+            "Style text and background: Select distinct colors for text and background to maintain strong contrast. Choose standard text or a dot-style LED effect.",
+            "Start full-screen presentation: Tap into full-screen mode to hide all editor controls and brand decoration. Tap the screen at any point to show or hide controls when updating text."
+          ]
+        },
+        {
+          "heading": "Creating a Static Welcome Sign: WELCOME",
+          "paragraphs": [
+            "Static signs provide immediate recognition when visitors approach a desk.",
+            "To create a greeting sign, type WELCOME into the editor. If you need a second line, add a line break and type CHECK-IN HERE.",
+            "Freezon Banner offers automatic and manual font sizing for static text. If your message does not fit cleanly:"
+          ],
+          "bullets": [
+            "Shorten phrasing to core words.",
+            "Add line breaks to balance text across lines.",
+            "Decrease the font size manually until everything fits the screen.",
+            "Switch to scrolling mode if the message requires more space than a single screen allows."
+          ]
+        },
+        {
+          "heading": "Setting Up Scrolling Text: CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "When your notice includes directions or sequential instructions, scrolling text on iPad presents the complete message without crowding the screen.",
+            "For an event room announcement, enter CHECK-IN → ROOM 2. Configure the movement using the scrolling settings:"
+          ],
+          "bullets": [
+            "Direction: Set scrolling to move left, right, up, or down. Leftward horizontal scrolling is standard for English text and arrows.",
+            "Speed: Adjust the speed control in the live preview. Set a pace that allows walking visitors to read the full destination in one pass.",
+            "Font sizing: Use automatic sizing to maximize letter height, or set manual sizing to match adjacent signs."
+          ]
+        },
+        {
+          "heading": "Static vs. Scrolling: Choosing the Right Format",
+          "paragraphs": [
+            "Match the display format to how guests move past your desk:"
+          ],
+          "bullets": [
+            "Static format: Best suited for instant recognition at arrival points, such as WELCOME, allowing visitors to read the complete message without waiting for a scroll cycle.",
+            "Scrolling format: Best suited for directional cues and multi-part updates, such as CHECK-IN → ROOM 2, displaying longer instructions and arrows at large, readable letter sizes."
+          ]
+        },
+        {
+          "heading": "Testing Readability from the Visitor's Path",
+          "paragraphs": [
+            "Physical placement directly affects how easily visitors read your iPad LED sign:"
+          ],
+          "bullets": [
+            "Mount on a stable stand: Place the iPad on a secure stand at counter height, angled toward incoming foot traffic.",
+            "Test viewing distance: Walk back to the entrance or hallway where guests first view the desk. Confirm that letters remain legible.",
+            "Adjust for glare and contrast: Inspect the screen under ambient venue lighting. If overhead fixtures reflect on the glass, tilt the stand forward. Use high-contrast color combinations, such as bright text on a dark background.",
+            "Pace the scroll: Walk toward the desk at normal walking speed to verify that scrolling text completes its key phrase before you pass."
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "paragraphs": [
+            "Can I prepare and run the sign offline?",
+            "Yes. The core text editor and full-screen presentation work offline without an account sign-up.",
+            "Can I display full-screen text on iPad in portrait orientation?",
+            "Yes. The app adapts to portrait and landscape. Rotate the iPad on your stand, check the live preview, and tap to enter full-screen mode.",
+            "Will the iPad screen sleep during an event?",
+            "Freezon Banner keeps the screen awake while full-screen presentation is in the foreground. For longer events, consider connecting the iPad to a power adapter or an external battery pack."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "如何将 iPad 变成全屏 LED 标牌",
+      "deck": "了解如何使用 Freezon Banner 将 iPad 设置为全屏 LED 标牌，适用于接待台、签到台和场馆入口的静态或滚动信息展示。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "要将 iPad 变成全屏 LED 标牌，只需在 Freezon Banner 中输入信息，选择静态或滚动文本，在所需屏幕方向下查看实时预览，然后轻点即可开始全屏展示。该应用会隐藏编辑控件，呈现干净专业的标牌显示。",
+            "虽然 Freezon Banner 同时支持 iPad 和 iPhone，但 iPad 特别适合固定在临时接待台、活动签到台和场馆入口处。固定的 iPad 不再只是手持应援手幅，而是可以作为平视视角的欢迎牌、方向指引或面向到场客人的滚动公告显示屏。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在 Freezon Banner 中设置显示",
+          "paragraphs": [
+            "该应用的制作界面会在输入时提供实时预览，方便在展示前排版标牌："
+          ],
+          "bullets": [
+            "选择方向：将 iPad 置于横向或竖向。在桌子或签到台上，横向能为横排文字和箭头提供开阔的画布。应用会直接自适应设备方向。",
+            "输入信息：键入访客到达时所需的核心信息。",
+            "选择静态或滚动：让简短通知保持静止，或让较长的动态持续滚动。",
+            "设置文字与背景样式：为文字和背景选择对比鲜明的不同颜色。可选用常规文字或点阵风格的 LED 效果。",
+            "开始全屏展示：轻点进入全屏模式，隐藏所有编辑控件和品牌修饰。在需要更新文字时，随时轻点屏幕即可显示或隐藏控件。"
+          ]
+        },
+        {
+          "heading": "制作静态欢迎牌：WELCOME",
+          "paragraphs": [
+            "当访客走近服务台时，静态标牌能够提供即时辨识。",
+            "要制作欢迎牌，请在编辑器中输入 WELCOME。如果需要第二行，请换行并输入 CHECK-IN HERE。",
+            "Freezon Banner 为静态文本提供自动和手动字号调整。如果信息未能完整呈现："
+          ],
+          "bullets": [
+            "精简用词，保留核心字句。",
+            "添加换行以平衡各行文字分布。",
+            "手动调小字号，直至所有内容完整容纳于屏幕中。",
+            "如果内容需要的空间超出单屏容量，可切换为滚动模式。"
+          ]
+        },
+        {
+          "heading": "设置滚动文本：CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "当通知包含路线指引或多步骤说明时，在 iPad 上使用滚动文本可以完整呈现信息，而不会显得屏幕拥挤。",
+            "以活动场地指示为例，输入 CHECK-IN → ROOM 2。使用滚动设置配置移动效果："
+          ],
+          "bullets": [
+            "方向：将滚动方向设置为向左、向右、向上或向下。向左水平滚动是英文文本和箭头的标准方向。",
+            "速度：在实时预览中调节速度滑块。设定适合步行访客在走过时一次读完完整目的地的节奏。",
+            "字号调整：使用自动缩放以最大化文字高度，或设置手动字号以匹配相邻标牌。"
+          ]
+        },
+        {
+          "heading": "静态与滚动：选择合适的格式",
+          "paragraphs": [
+            "根据客人走过服务台的方式选择合适的显示格式："
+          ],
+          "bullets": [
+            "静态模式：最适合到达处的即时辨识，例如显示 WELCOME，读者无需等待滚动周期即可阅读完整信息。",
+            "滚动模式：最适合方向指引和多段动态信息，例如显示 CHECK-IN → ROOM 2，能够以清晰易读的大字号展示较长的指引与箭头。"
+          ]
+        },
+        {
+          "heading": "沿访客路线测试易读性",
+          "paragraphs": [
+            "物理摆放位置直接影响访客阅读 iPad LED 标牌的难易程度："
+          ],
+          "bullets": [
+            "安装在稳固支架上：将 iPad 放置在台面高度的稳固支架上，角度正对迎面走来的客流。",
+            "测试视距：退回到客人首次看到服务台的入口或走廊处，确认文字仍然清晰易读。",
+            "调整眩光与对比度：在场馆环境光下检查屏幕。如果顶部照明在玻璃上产生反光，请向前微调支架角度。使用高对比度的配色组合，例如深色背景搭配明亮文字。",
+            "把控滚动节奏：以正常步行速度走向服务台，验证滚动文本在走过之前能否播完核心语句。"
+          ]
+        },
+        {
+          "heading": "常见问题解答",
+          "paragraphs": [
+            "我可以离线准备并运行标牌吗？可以。核心文本编辑器和全屏展示功能均支持离线使用，无需注册账号。",
+            "我可以在 iPad 竖向模式下全屏显示文本吗？可以。该应用同时适配横向和竖向。在支架上旋转 iPad，查看实时预览，轻点即可进入全屏模式。",
+            "活动期间 iPad 屏幕会休眠吗？当全屏展示保持在前台运行时，Freezon Banner 会保持屏幕常亮。对于时间较长的活动，建议将 iPad 连接到电源适配器或外接移动电源。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何將 iPad 變成全螢幕 LED 看板",
+      "deck": "將 iPad 轉變為專用的全螢幕 LED 告示板，為活動報到處與接待櫃檯提供清晰的靜態歡迎訊息或跑馬燈指引。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "若要將 iPad 變成全螢幕 LED 看板，只需在 Freezon Banner 中輸入訊息，選擇靜態或跑馬燈文字，以偏好的螢幕方向查看即時預覽，然後輕點開始全螢幕播放。此應用程式會隱藏編輯控制項，呈現簡潔專業的專用告示牌。",
+            "雖然 Freezon Banner 同時支援 iPad 與 iPhone，但 iPad 特別適合固定放置於臨時接待處、活動報到桌及活動場地入口。固定放置的 iPad 能代替手持派對橫幅，作為與視線齊平的歡迎告示板、方向指引牌，或向到場賓客播放滾動公告的顯示看板。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在 Freezon Banner 中設定顯示畫面",
+          "paragraphs": [
+            "應用程式的建立檢視畫面會在輸入時提供即時預覽，讓你可以在播放前調整看板格式："
+          ],
+          "bullets": [
+            "選擇方向：將 iPad 旋轉為橫向或直向。在桌面或報到櫃檯上，橫向方向能為水平文字與箭頭提供寬闊的畫布。應用程式會直接順應裝置方向進行調整。",
+            "輸入訊息：輸入訪客抵達時所需的重要資訊。",
+            "選擇靜態或跑馬燈：讓簡短公告保持固定，或讓較長的更新內容持續滾動。",
+            "設定文字與背景樣式：為文字和背景挑選鮮明對比的色彩。可選擇標準文字或點陣風格的 LED 效果。",
+            "開始全螢幕播放：輕點進入全螢幕模式以隱藏所有編輯器控制項與品牌裝飾。在更新文字時，隨時輕點螢幕即可顯示或隱藏控制項。"
+          ]
+        },
+        {
+          "heading": "製作靜態歡迎看板：WELCOME",
+          "paragraphs": [
+            "當訪客走向櫃檯時，靜態看板能提供即時的辨識效果。",
+            "若要製作問候看板，請在編輯器中輸入 WELCOME。若需要第二行，請加入換行符號並輸入 CHECK-IN HERE。",
+            "Freezon Banner 為靜態文字提供自動與手動字型大小調整。如果訊息無法完全合適地呈現："
+          ],
+          "bullets": [
+            "精簡文字至核心詞彙。",
+            "加入換行符號使各行文字視覺平衡。",
+            "手動縮小字型大小，直到所有文字都能容納於螢幕內。",
+            "若訊息所需的空間超過單一螢幕容量，可切換為跑馬燈模式。"
+          ]
+        },
+        {
+          "heading": "設定跑馬燈文字：CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "當告示包含路線指引或連續指示時，在 iPad 上使用跑馬燈文字能完整呈現所有訊息，且不會使螢幕顯得擁擠。",
+            "若要製作活動場地公告，請輸入 CHECK-IN → ROOM 2。接著使用跑馬燈設定來調整移動方式："
+          ],
+          "bullets": [
+            "方向：設定文字向左、向右、向上或向下滾動。向左水平滾動為英文文字與箭頭的標準方向。",
+            "速度：在即時預覽中調整速度控制。設定合適的步調，讓步行的訪客只需走過一次就能讀完整個目的地資訊。",
+            "字型大小：使用自動調整大小以最大化字元高度，或設定手動大小以與相鄰看板保持一致。"
+          ]
+        },
+        {
+          "heading": "靜態與跑馬燈：選擇合適的格式",
+          "paragraphs": [
+            "根據賓客經過櫃檯時的移動方式，挑選合適的顯示格式："
+          ],
+          "bullets": [
+            "靜態格式：最適合抵達位置的即時辨識（例如 WELCOME），讀者無須等待跑馬燈循環即可立即閱讀完整訊息。",
+            "跑馬燈格式：最適合方向指引與多段更新資訊（例如 CHECK-IN → ROOM 2），能以較大且清晰易讀的字型尺寸呈現較長指示與箭頭符號。"
+          ]
+        },
+        {
+          "heading": "從訪客動線測試易讀性",
+          "paragraphs": [
+            "實體擺放位置會直接影響訪客閱讀 iPad LED 看板的難易度："
+          ],
+          "bullets": [
+            "固定在穩固的立架上：將 iPad 放在櫃檯高度的穩固立架上，並調整角度朝向迎面而來的訪客人流。",
+            "測試觀看距離：退後走至賓客最初看見櫃檯的入口處或走廊，確認文字依然清晰易讀。",
+            "調整眩光與對比度：在活動場地的環境光線下檢查螢幕。如果天花板燈具在玻璃螢幕上產生反光，請將立架往前傾斜。使用高對比度的色彩組合，例如深色背景搭配亮色文字。",
+            "調整滾動節奏：以正常步行速度走向櫃檯，驗證跑馬燈文字是否能在走過前完整播放核心訊息。"
+          ]
+        },
+        {
+          "heading": "常見問題",
+          "paragraphs": [
+            "我可以離線準備並執行看板嗎？可以。核心文字編輯器與全螢幕播放功能均可離線使用，且無須註冊帳號。",
+            "我可以在 iPad 上以直向方向顯示全螢幕文字嗎？可以。應用程式支援直向與橫向模式。在立架上旋轉 iPad，查看即時預覽，然後輕點進入全螢幕模式。",
+            "在活動期間 iPad 螢幕會進入睡眠狀態嗎？當全螢幕播放於前景執行時，Freezon Banner 會保持螢幕常亮。對於時間較長的活動，建議將 iPad 連接至電源轉接器或外接行動電源。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPadを全画面LEDサインにする方法",
+      "deck": "Freezon Bannerを使ってiPadを全画面LEDサインに変え、受付やイベントで目を引く案内表示として活用する方法を解説します。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPadを全画面LEDサインにするには、Freezon Bannerにメッセージを入力し、静止テキストまたはスクロールテキストを選択し、希望の向きでライブプレビューを確認して、タップして全画面表示を開始します。アプリは編集用の操作パネルを非表示にして、すっきりとした専用の案内サインを表示します。",
+            "Freezon BannerはiPadとiPhoneの両方に対応していますが、iPadは仮設の受付デスク、イベントのチェックインカウンター、会場の入口など、固定された場所に設置するのに特に適しています。手持ちのパーティー用バナーの代わりに、固定したiPadを設置することで、来場者の目線に合わせたウェルカムボード、案内用の矢印サイン、またはスクロールする告知ディスプレイとして活用できます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezon Bannerでのディスプレイ設定",
+          "paragraphs": [
+            "アプリの作成画面では入力中にライブプレビューが表示され、サインを表示する前にレイアウトを調整できます。"
+          ],
+          "bullets": [
+            "画面の向きを選択する: iPadを横向きまたは縦向きにします。デスクや受付カウンターでは、横向きにすることで横書きのテキストや矢印に適した広い表示領域が得られます。アプリは端末の向きに直接適応します。",
+            "メッセージを入力する: 来場者が到着時に必要とする重要な情報を入力します。",
+            "静止またはスクロールを選択する: 短い案内は固定して表示し、長めの告知は連続してスクロールさせます。",
+            "テキストと背景のスタイルを設定する: テキストと背景に明確に異なる色を選択して、高いコントラストを保ちます。標準テキストまたはドット風のLED効果を選択できます。",
+            "全画面表示を開始する: タップして全画面モードに切り替え、すべての編集コントロールやブランド表示を非表示にします。テキストを更新する際は、画面をタップすることでいつでもコントロールの表示と非表示を切り替えられます。"
+          ]
+        },
+        {
+          "heading": "静止したウェルカムサインの作成: WELCOME",
+          "paragraphs": [
+            "来場者が受付に近づいたとき、静止サインなら一目で内容を把握できます。",
+            "挨拶用のサインを作成するには、エディタに「WELCOME」と入力します。2行目が必要な場合は、改行を入れて「CHECK-IN HERE」と入力します。",
+            "Freezon Bannerでは、静止テキスト向けにフォントサイズの自動調整と手動調整が用意されています。メッセージがきれいに収まらない場合は、以下の方法を試してください。"
+          ],
+          "bullets": [
+            "表現を短くし、要点の単語だけに絞る。",
+            "改行を追加して、行ごとのテキストのバランスを整える。",
+            "画面にすべて収まるまで、手動でフォントサイズを小さくする。",
+            "1画面に収まりきらない情報量の場合は、スクロールモードに切り替える。"
+          ]
+        },
+        {
+          "heading": "スクロールテキストの設定: CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "案内に道順や順番の説明が含まれている場合、iPadでテキストをスクロールさせることで、画面を過密にすることなく完全なメッセージを表示できます。",
+            "イベントの部屋案内を作成する場合は、「CHECK-IN → ROOM 2」と入力します。スクロール設定を使用して動きを調整します。"
+          ],
+          "bullets": [
+            "方向: スクロールの向きを左、右、上、下に設定します。英語のテキストや矢印には、左方向への横スクロールが標準的です。",
+            "速度: ライブプレビューで速度調整を行います。歩行中の来場者が通り過ぎるまでに目的地全体を読み切れる速度に設定します。",
+            "フォントサイズ: 自動サイズ調整を使用して文字の高さを最大化するか、隣接するサインと合わせるために手動でサイズを設定します。"
+          ]
+        },
+        {
+          "heading": "静止表示とスクロール表示: 最適な形式の選択",
+          "paragraphs": [
+            "来場者が受付の前をどのように通り過ぎるかに応じて、表示形式を合わせます。"
+          ],
+          "bullets": [
+            "静止表示: 到着地点での瞬時の認識に最適です。例: 「WELCOME」。スクロールを一巡待つことなく、メッセージ全体を即座に読むことができます。",
+            "スクロール表示: 誘導の目印や複数パートにわたる案内連絡に最適です。例: 「CHECK-IN → ROOM 2」。長めの案内や矢印を、大きく読みやすい文字サイズで表示できます。"
+          ]
+        },
+        {
+          "heading": "来場者の動線からの視認性テスト",
+          "paragraphs": [
+            "物理的な設置位置は、来場者がiPadのLEDサインをいかに読み取りやすいかに直接影響します。"
+          ],
+          "bullets": [
+            "安定したスタンドに設置する: カウンターの高さの安全なスタンドにiPadを置き、歩いてくる来場者の動線に向けて角度を調整します。",
+            "視認距離をテストする: 来場者が最初に受付を目にする入口や通路まで戻り、文字がはっきりと読めるか確認します。",
+            "反射とコントラストを調整する: 会場の照明環境下で画面を確認します。頭上の照明がガラスに反射する場合は、スタンドを前方に傾けます。暗い背景に明るいテキストなど、コントラストの高い色の組み合わせを使用します。",
+            "スクロール速度を確認する: 通常の歩行速度で受付に向かって歩き、通り過ぎる前にスクロールテキストの主要なフレーズを読み終えられるか検証します。"
+          ]
+        },
+        {
+          "heading": "よくある質問",
+          "paragraphs": [
+            "サインをオフラインで準備して実行することはできますか？ はい。基本的なテキストエディタと全画面表示機能は、アカウント登録不要でオフラインでも動作します。",
+            "iPadを縦向きにして全画面テキストを表示できますか？ はい。アプリは縦向きと横向きの両方に対応しています。スタンド上でiPadを回転させ、ライブプレビューを確認してタップし、全画面モードを開始します。",
+            "イベント中にiPadの画面はスリープしますか？ Freezon Bannerは、全画面表示が最前面にある間、画面が点灯した状態を維持します。長時間のイベントでは、iPadを電源アダプタや外部バッテリーパックに接続することをご検討ください。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "iPad를 전체 화면 LED 전광판으로 활용하는 방법",
+      "deck": "Freezon Banner 앱을 사용하여 iPad를 안내 데스크, 체크인 카운터, 행사장 입구를 위한 깔끔한 전체 화면 고정형 또는 스크롤형 LED 전광판으로 설정하는 방법을 알아보세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPad를 전체 화면 LED 전광판으로 활용하려면 Freezon Banner에 메시지를 입력하고, 정적 또는 스크롤 텍스트를 선택한 뒤, 원하는 화면 방향에서 실시간 미리보기를 확인하고 탭하여 전체 화면 프레젠테이션을 시작하면 됩니다. 이 앱은 편집 제어 도구를 숨겨 깔끔하고 독립된 전광판 화면을 보여줍니다.",
+            "Freezon Banner는 iPad와 iPhone을 모두 지원하지만, iPad는 임시 안내 데스크, 이벤트 체크인 테이블, 행사장 입구 등 고정된 위치에 설치하기에 특히 적합합니다. 손에 들고 사용하는 파티용 응원 배너 대신, 거치대에 고정된 iPad는 도착하는 방문객의 눈높이에 맞춘 환영 안내판, 방향 안내 표시, 스크롤 공지 화면 역할을 수행합니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezon Banner에서 디스플레이 설정하기",
+          "paragraphs": [
+            "앱의 생성 화면에서는 입력하는 동안 실시간 미리보기를 제공하므로, 화면을 표시하기 전에 전광판의 서식을 다듬을 수 있습니다."
+          ],
+          "bullets": [
+            "화면 방향 선택: iPad를 가로 또는 세로로 돌립니다. 데스크나 체크인 카운터에서는 가로 방향이 가로형 텍스트와 화살표를 표시할 수 있는 넓은 캔버스를 제공합니다. 앱은 기기 방향에 맞춰 자동으로 조정됩니다.",
+            "메시지 입력: 방문객이 도착했을 때 필요한 핵심 정보를 입력합니다.",
+            "정적 또는 스크롤 선택: 짧은 공지는 고정해 두거나 긴 업데이트는 계속 스크롤되도록 설정합니다.",
+            "텍스트 및 배경 스타일 지정: 텍스트와 배경에 대비가 뚜렷한 색상을 선택하여 높은 시인성을 유지합니다. 일반 텍스트나 도트 스타일의 LED 효과를 선택할 수 있습니다.",
+            "전체 화면 프레젠테이션 시작: 전체 화면 모드를 탭하여 모든 편집 도구와 브랜드 장식을 숨깁니다. 텍스트를 업데이트할 때는 언제든지 화면을 탭하여 제어 도구를 표시하거나 숨길 수 있습니다."
+          ]
+        },
+        {
+          "heading": "정적 환영 안내판 만들기: WELCOME",
+          "paragraphs": [
+            "정적 안내판은 방문객이 데스크에 다가올 때 즉각적인 인식을 제공합니다.",
+            "환영 안내판을 만들려면 편집기에 WELCOME을 입력합니다. 두 번째 줄이 필요한 경우 줄 바꿈을 추가하고 CHECK-IN HERE를 입력합니다.",
+            "Freezon Banner는 정적 텍스트를 위한 자동 및 수동 글꼴 크기 조절 기능을 제공합니다. 메시지가 화면에 깔끔하게 맞지 않는 경우 다음과 같은 방법을 적용할 수 있습니다."
+          ],
+          "bullets": [
+            "문구를 핵심 단어로 줄입니다.",
+            "줄 바꿈을 추가하여 줄 간의 텍스트 균형을 맞춥니다.",
+            "모든 내용이 화면에 들어맞을 때까지 글꼴 크기를 수동으로 줄입니다.",
+            "단일 화면이 허용하는 것보다 더 많은 공간이 필요한 메시지라면 스크롤 모드로 전환합니다."
+          ]
+        },
+        {
+          "heading": "스크롤 텍스트 설정하기: CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "안내 사항에 길 안내나 순차적인 지침이 포함된 경우, iPad의 스크롤 텍스트를 사용하면 화면을 복잡하게 만들지 않고도 전체 메시지를 전달할 수 있습니다.",
+            "행사장 안내 공지를 작성하려면 CHECK-IN → ROOM 2를 입력합니다. 그런 다음 스크롤 설정을 사용하여 움직임을 구성합니다."
+          ],
+          "bullets": [
+            "방향: 스크롤이 왼쪽, 오른쪽, 위쪽, 아래쪽으로 이동하도록 설정합니다. 영문 텍스트와 화살표의 경우 왼쪽 방향의 가로 스크롤이 표준입니다.",
+            "속도: 실시간 미리보기에서 속도 제어를 조절합니다. 걸어오는 방문객이 지나치기 전에 전체 목적지를 한 번에 읽을 수 있는 속도로 맞춥니다.",
+            "글꼴 크기 조절: 자동 크기 조절을 사용하여 글자 높이를 극대화하거나, 인접한 다른 안내판에 맞춰 수동으로 크기를 설정합니다."
+          ]
+        },
+        {
+          "heading": "정적 텍스트와 스크롤 텍스트: 적합한 형식 선택하기",
+          "paragraphs": [
+            "방문객이 데스크를 지나가는 동선에 맞춰 디스플레이 형식을 선택하세요."
+          ],
+          "bullets": [
+            "정적 형식: 도착 지점에서의 즉각적인 인식에 가장 적합합니다. 예시: WELCOME. 스크롤 주기를 기다리지 않고 전체 메시지를 바로 읽을 수 있습니다.",
+            "스크롤 형식: 방향 안내 및 여러 단계의 업데이트에 가장 적합합니다. 예시: CHECK-IN → ROOM 2. 더 긴 지침과 화살표를 크고 읽기 쉬운 글자 크기로 표시할 수 있습니다."
+          ]
+        },
+        {
+          "heading": "방문자 동선에서 가독성 테스트하기",
+          "paragraphs": [
+            "물리적인 배치는 방문객이 iPad LED 전광판을 얼마나 쉽게 읽을 수 있는지에 직접적인 영향을 미칩니다."
+          ],
+          "bullets": [
+            "안정적인 거치대에 장착: 들어오는 사람들의 동선을 향해 각도를 맞추고, 카운터 높이의 안정적인 거치대에 iPad를 설치합니다.",
+            "시야 거리 테스트: 방문객이 데스크를 처음 보게 되는 입구나 복도로 물러나 글자가 여전히 명확하게 읽히는지 확인합니다.",
+            "눈부심 및 대비 조절: 행사장 주변 조명 아래에서 화면을 점검합니다. 천장 조명이 유리에 반사되면 거치대를 앞으로 기울입니다. 어두운 배경에 밝은 텍스트처럼 명암 대비가 뚜렷한 색상 조합을 사용합니다.",
+            "스크롤 속도 조절: 일반적인 걸음 속도로 데스크를 향해 걸어가며, 지나치기 전에 스크롤 텍스트의 핵심 문구가 모두 표시되는지 확인합니다."
+          ]
+        },
+        {
+          "heading": "자주 묻는 질문",
+          "paragraphs": [
+            "오프라인에서도 전광판을 준비하고 실행할 수 있나요?",
+            "네. 핵심 텍스트 편집기와 전체 화면 프레젠테이션은 계정 가입 없이 오프라인에서 작동합니다.",
+            "세로 방향으로도 iPad에 전체 화면 텍스트를 표시할 수 있나요?",
+            "네. 앱은 세로 및 가로 방향을 모두 지원합니다. 거치대에서 iPad를 회전시키고 실시간 미리보기를 확인한 뒤 탭하여 전체 화면 모드로 진입하세요.",
+            "행사 중에 iPad 화면이 꺼지나요?",
+            "Freezon Banner는 전체 화면 프레젠테이션이 전면에 실행되는 동안 화면이 꺼지지 않도록 유지합니다. 장시간 진행되는 행사의 경우 iPad를 전원 어댑터나 보조 배터리에 연결하는 것을 고려해 보세요."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo convertir un iPad en un letrero LED de pantalla completa",
+      "deck": "Convierte tu iPad en un letrero LED de pantalla completa para mostradores de recepción, registros de eventos y avisos direccionales con Freezon Banner.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para convertir un iPad en un letrero LED de pantalla completa, ingresa tu mensaje en Freezon Banner, elige texto estático o en movimiento, revisa la vista previa en la orientación deseada y toca para iniciar la presentación en pantalla completa. La aplicación oculta los controles de edición para mostrar una señalización limpia y dedicada.",
+            "Aunque Freezon Banner es compatible tanto con iPad como con iPhone, el iPad resulta especialmente adecuado para posiciones fijas en mostradores de recepción provisionales, mesas de registro de eventos y entradas de recintos. En lugar de un letrero de fiesta portátil, un iPad colocado en un lugar fijo funciona como un panel de bienvenida a la altura de los ojos, un indicador de dirección o una pantalla de avisos en movimiento para los invitados que van llegando."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Configuración de la pantalla en Freezon Banner",
+          "paragraphs": [
+            "La vista de creación de la aplicación ofrece una vista previa en tiempo real a medida que escribes, lo que te permite dar formato a tu letrero antes de presentarlo:"
+          ],
+          "bullets": [
+            "Elegir la orientación: gira el iPad a posición horizontal o vertical. En un escritorio o mostrador de registro, la orientación horizontal brinda un espacio amplio para texto horizontal y flechas. La aplicación se adapta directamente a la orientación de tu dispositivo.",
+            "Ingresar tu mensaje: escribe la información esencial que los visitantes necesitan al llegar.",
+            "Seleccionar texto estático o en movimiento: mantén los avisos breves de forma fija o permite que las actualizaciones más largas se desplacen continuamente.",
+            "Personalizar el texto y el fondo: selecciona colores distintos para el texto y el fondo con el fin de mantener un alto contraste. Elige texto estándar o un efecto LED estilo matriz de puntos.",
+            "Iniciar la presentación en pantalla completa: toca para entrar al modo de pantalla completa y ocultar todos los controles de edición y la decoración de la marca. Toca la pantalla en cualquier momento para mostrar u ocultar los controles al actualizar el texto."
+          ]
+        },
+        {
+          "heading": "Creación de un letrero de bienvenida estático: WELCOME",
+          "paragraphs": [
+            "Los letreros estáticos ofrecen un reconocimiento inmediato cuando los visitantes se acercan a un mostrador.",
+            "Para crear un letrero de saludo, escribe WELCOME en el editor. Si necesitas una segunda línea, agrega un salto de línea y escribe CHECK-IN HERE.",
+            "Freezon Banner ofrece ajuste de tamaño de fuente automático y manual para texto estático. Si tu mensaje no se ajusta con claridad:"
+          ],
+          "bullets": [
+            "Acorta la redacción a las palabras principales.",
+            "Agrega saltos de línea para equilibrar el texto entre los renglones.",
+            "Reduce el tamaño de la fuente manualmente hasta que todo encaje en la pantalla.",
+            "Cambia al modo de desplazamiento si el mensaje requiere más espacio del que permite una sola pantalla."
+          ]
+        },
+        {
+          "heading": "Configuración de texto en movimiento: CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "Cuando tu aviso incluye indicaciones o instrucciones secuenciales, el texto en movimiento en el iPad presenta el mensaje completo sin saturar la pantalla.",
+            "Para el anuncio de la sala de un evento, ingresa CHECK-IN → ROOM 2. Configura el movimiento mediante los ajustes de desplazamiento:"
+          ],
+          "bullets": [
+            "Dirección: define el desplazamiento hacia la izquierda, derecha, arriba o abajo. El desplazamiento horizontal hacia la izquierda es el estándar para texto en inglés y flechas.",
+            "Velocidad: ajusta el control de velocidad en la vista previa en tiempo real. Establece un ritmo que permita a los visitantes que caminan leer el destino completo en una sola pasada.",
+            "Tamaño de fuente: usa el ajuste automático para maximizar la altura de las letras o define el tamaño manual para que coincida con los letreros contiguos."
+          ]
+        },
+        {
+          "heading": "Estático vs. en movimiento: cómo elegir el formato adecuado",
+          "paragraphs": [
+            "Adapta el formato de visualización a la forma en que los invitados se desplazan frente a tu mostrador:"
+          ],
+          "bullets": [
+            "Formato estático: ideal para un reconocimiento instantáneo en puntos de llegada (ejemplo: WELCOME). Ventaja para el lector: permite leer el mensaje completo sin esperar a que termine un ciclo de desplazamiento.",
+            "Formato en movimiento: ideal para indicaciones direccionales y actualizaciones de varias partes (ejemplo: CHECK-IN → ROOM 2). Ventaja para el lector: muestra instrucciones más largas y flechas con un tamaño de letra grande y legible."
+          ]
+        },
+        {
+          "heading": "Comprobación de la legibilidad desde el recorrido del visitante",
+          "paragraphs": [
+            "La ubicación física influye directamente en la facilidad con la que los visitantes leen tu letrero LED en el iPad:"
+          ],
+          "bullets": [
+            "Montar en un soporte estable: coloca el iPad en un soporte seguro a la altura del mostrador, orientado hacia el flujo de personas que llegan.",
+            "Probar la distancia de visión: camina hacia la entrada o el pasillo desde donde los invitados ven por primera vez el mostrador. Confirma que las letras sigan siendo legibles.",
+            "Ajustar el reflejo y el contraste: inspecciona la pantalla bajo la iluminación ambiental del lugar. Si las luces del techo se reflejan en el vidrio, inclina el soporte hacia adelante. Usa combinaciones de colores de alto contraste, como texto brillante sobre un fondo oscuro.",
+            "Medir el ritmo del desplazamiento: camina hacia el mostrador a una velocidad de paso normal para verificar que el texto en movimiento complete su frase clave antes de que pases."
+          ]
+        },
+        {
+          "heading": "Preguntas frecuentes",
+          "paragraphs": [
+            "¿Puedo preparar y usar el letrero sin conexión?",
+            "Sí. El editor de texto principal y la presentación en pantalla completa funcionan sin conexión y sin registrar una cuenta.",
+            "¿Puedo mostrar texto en pantalla completa en el iPad en orientación vertical?",
+            "Sí. La aplicación se adapta tanto a la orientación vertical como a la horizontal. Gira el iPad en el soporte, revisa la vista previa y toca para entrar al modo de pantalla completa.",
+            "¿Se suspenderá la pantalla del iPad durante un evento?",
+            "Freezon Banner mantiene la pantalla encendida mientras la presentación en pantalla completa esté en primer plano. Para eventos prolongados, considera conectar el iPad a un adaptador de corriente o a una batería externa."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como transformar um iPad em um letreiro LED em tela cheia",
+      "deck": "Aprenda a transformar seu iPad em um letreiro LED em tela cheia com o Freezon Banner para recepções, eventos e sinalização.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para transformar um iPad em um letreiro LED em tela cheia, insira sua mensagem no Freezon Banner, escolha entre texto estático ou em rolagem, confira a pré-visualização ao vivo na orientação desejada e toque para iniciar a apresentação em tela cheia. O aplicativo oculta os controles de edição para exibir uma sinalização limpa e dedicada.",
+            "Embora o Freezon Banner seja compatível com iPad e iPhone, o iPad é especialmente adequado para posições fixas em mesas temporárias de recepção, balcões de check-in de eventos e entradas de locais. Em vez de uma faixa portátil para festas, um iPad fixo funciona como um painel de boas-vindas na altura dos olhos, um indicador de direção ou uma tela de avisos em rolagem para os convidados que chegam."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Configurando sua exibição no Freezon Banner",
+          "paragraphs": [
+            "A tela de criação do aplicativo oferece uma prévia ao vivo enquanto você digita, permitindo formatar sua placa antes de apresentá-la:"
+          ],
+          "bullets": [
+            "Escolha a orientação: gire o iPad para o modo paisagem ou retrato. Em uma mesa ou balcão de check-in, a orientação paisagem oferece uma tela ampla para textos horizontais e setas. O aplicativo se adapta diretamente à orientação do seu dispositivo.",
+            "Digite sua mensagem: insira as informações essenciais de que os visitantes precisam ao chegar.",
+            "Selecione estático ou rolagem: mantenha avisos curtos fixos ou deixe atualizações mais longas rolarem continuamente.",
+            "Estilize o texto e o plano de fundo: selecione cores distintas para o texto e o fundo para manter um contraste forte. Escolha texto padrão ou um efeito de LED pontilhado.",
+            "Inicie a apresentação em tela cheia: toque para entrar no modo de tela cheia e ocultar todos os controles do editor e decorações da marca. Toque na tela a qualquer momento para exibir ou ocultar os controles ao atualizar o texto."
+          ]
+        },
+        {
+          "heading": "Criando uma placa estática de boas-vindas: WELCOME",
+          "paragraphs": [
+            "Placas estáticas oferecem reconhecimento imediato quando os visitantes se aproximam de um balcão.",
+            "Para criar uma placa de saudação, digite WELCOME no editor. Se precisar de uma segunda linha, adicione uma quebra de linha e digite CHECK-IN HERE.",
+            "O Freezon Banner oferece ajuste de tamanho de fonte automático e manual para texto estático. Se sua mensagem não couber perfeitamente:"
+          ],
+          "bullets": [
+            "Encurte a frase para as palavras essenciais.",
+            "Adicione quebras de linha para equilibrar o texto entre as linhas.",
+            "Diminua o tamanho da fonte manualmente até que tudo caiba na tela.",
+            "Mude para o modo de rolagem se a mensagem exigir mais espaço do que uma única tela permite."
+          ]
+        },
+        {
+          "heading": "Configurando texto com rolagem: CHECK-IN → ROOM 2",
+          "paragraphs": [
+            "Quando o seu aviso inclui direções ou instruções sequenciais, o texto com rolagem no iPad apresenta a mensagem completa sem sobrecarregar a tela.",
+            "Para um anúncio de sala de eventos, insira CHECK-IN → ROOM 2. Configure o movimento usando as opções de rolagem:"
+          ],
+          "bullets": [
+            "Direção: configure a rolagem para se mover para a esquerda, direita, cima ou baixo. A rolagem horizontal para a esquerda é o padrão para textos e setas.",
+            "Velocidade: ajuste o controle de velocidade na pré-visualização ao vivo. Defina um ritmo que permita aos visitantes em movimento ler o destino completo em uma única passagem.",
+            "Tamanho da fonte: use o dimensionamento automático para maximizar a altura das letras ou defina o tamanho manual para combinar com placas adjacentes."
+          ]
+        },
+        {
+          "heading": "Estático vs. rolagem: escolhendo o formato certo",
+          "paragraphs": [
+            "Combine o formato de exibição com a forma como os convidados passam pela sua mesa:"
+          ],
+          "bullets": [
+            "Estático: mais adequado para reconhecimento instantâneo em pontos de chegada, como no exemplo WELCOME, permitindo ler a mensagem completa sem esperar por um ciclo de rolagem.",
+            "Rolagem: mais adequado para orientações de direção e avisos em várias partes, como no exemplo CHECK-IN → ROOM 2, exibindo instruções mais longas e setas em letras grandes e fáceis de ler."
+          ]
+        },
+        {
+          "heading": "Testando a legibilidade a partir do caminho do visitante",
+          "paragraphs": [
+            "O posicionamento físico afeta diretamente a facilidade com que os visitantes leem sua placa de LED no iPad:"
+          ],
+          "bullets": [
+            "Instale em um suporte estável: coloque o iPad em um suporte seguro na altura do balcão, inclinado em direção ao fluxo de visitantes.",
+            "Teste a distância de visualização: caminhe até a entrada ou o corredor onde os convidados veem a mesa pela primeira vez. Confirme se as letras permanecem legíveis.",
+            "Ajuste contra reflexos e contraste: inspecione a tela sob a iluminação ambiente do local. Se as luminárias do teto refletirem no vidro, incline o suporte para a frente. Use combinações de cores com alto contraste, como texto brilhante sobre fundo escuro.",
+            "Ajuste o ritmo da rolagem: caminhe em direção ao balcão em velocidade normal de caminhada para verificar se o texto em rolagem conclui a frase principal antes de você passar."
+          ]
+        },
+        {
+          "heading": "Perguntas frequentes",
+          "paragraphs": [
+            "Posso preparar e exibir a placa offline?",
+            "Sim. O editor de texto principal e a apresentação em tela cheia funcionam offline, sem necessidade de cadastro de conta.",
+            "Posso exibir texto em tela cheia no iPad na orientação retrato?",
+            "Sim. O aplicativo se adapta aos modos retrato e paisagem. Gire o iPad no suporte, confira a pré-visualização ao vivo e toque para entrar no modo de tela cheia.",
+            "A tela do iPad vai entrar em repouso durante um evento?",
+            "O Freezon Banner mantém a tela ativa enquanto a apresentação em tela cheia estiver em primeiro plano. Para eventos mais longos, considere conectar o iPad a um adaptador de energia ou a uma bateria externa."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}
