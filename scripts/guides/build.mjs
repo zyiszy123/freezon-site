@@ -70,7 +70,7 @@ function layout(lang, topic, title, description, body, product = 'vault') {
   <link rel="icon" href="/assets/${icon}">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   ${topic ? '<link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">' : ''}
-  <link rel="stylesheet" href="/assets/guides.css">
+  <link rel="stylesheet" href="/assets/guides.css?v=20261123-1">
 </head>
 <body class="guide-page">
   <a class="skip-link" href="#main-content">${html(skip)}</a>

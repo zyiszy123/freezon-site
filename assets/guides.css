@@ -29,6 +29,11 @@
   line-height: 1.7;
 }
 
+article.guide-article {
+  max-inline-size: min(640px, 69ch);
+  margin-inline: auto;
+}
+
 .guide-header {
   margin-block-end: 32px;
   padding-block-end: 26px;
@@ -69,8 +74,9 @@
 
 .guide-cover {
   display: block;
-  width: 100%;
-  height: auto;
+  inline-size: 100%;
+  block-size: auto;
+  margin-block-end: 24px;
   border-radius: 8px;
 }
 
@@ -101,6 +107,7 @@
 .guide-article ul { padding-inline-start: 24px; }
 .guide-article li + li { margin-block-start: 6px; }
 .guide-article section { margin-block-start: 44px; }
+.guide-article .guide-cover + section { margin-block-start: 0; }
 .guide-article strong { color: var(--paper); }
 .guide-article p a { color: var(--accent); text-underline-offset: 3px; }
 
