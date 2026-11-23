@@ -1,0 +1,261 @@
+{
+  "slug": "backup-private-photos-before-switching-iphone",
+  "product": "vault",
+  "screens": [
+    "backup"
+  ],
+  "content": {
+    "en": {
+      "title": "Backing Up and Migrating Private Photos Before Switching iPhones",
+      "deck": "Safely back up and migrate your Freezon encrypted photo vault to a new iPhone before wiping your old device.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "Pre-Migration Checklist",
+          "paragraphs": [
+            "Moving to a new iPhone requires deliberate preparation for your private photos. Freezon is an on-device encrypted photo vault for iPhone and iPad that neither uploads albums to developers nor syncs them automatically across devices. You cannot assume standard Apple system migration will transfer your Freezon albums. Before switching, follow this checklist:"
+          ],
+          "bullets": [
+            "Create an encrypted backup on your old device and verify completion in the app.",
+            "Ensure your new device can access the backup file, and safely store the matching security recovery code.",
+            "Restore the album from the backup during setup on the new device.",
+            "Confirm all content is readable on your new device before wiping or clearing your old device."
+          ]
+        },
+        {
+          "heading": "Creating and Saving the Backup",
+          "paragraphs": [
+            "Daily albums and private albums manage their backups and recovery codes independently. Open the album you wish to migrate and use the encrypted backup feature to select an accessible folder through the system Files app, such as a directory in iCloud Drive. While iCloud Drive can sync the backup file across devices, this file transfer is distinct from automatic album synchronization. Always check inside Freezon to confirm the backup has completed, and save the corresponding security recovery code in a secure location."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Restoring on Your New iPhone",
+          "paragraphs": [
+            "When setting up your album in Freezon on the new iPhone, choose the encrypted backup option and enter the matching security recovery code. You will then set a password for the restored album. Finally, open the album to verify that your photos are readable and intact before handling, wiping, or erasing your old device."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Encrypted backup in Freezon"
+      ]
+    },
+    "zh-Hans": {
+      "title": "更换 iPhone 前备份与迁移私密照片",
+      "deck": "在抹掉旧设备前，了解如何安全备份并将 Freezon 加密照片保险库迁移至新 iPhone。",
+      "download": "前往 App Store 下载",
+      "sections": [
+        {
+          "heading": "迁移前检查清单",
+          "paragraphs": [
+            "更换新 iPhone 时，需要对私密照片做好充分准备。Freezon 是一款适用于 iPhone 和 iPad 的端侧加密照片保险库，既不会将相册上传给开发者，也不会在设备之间自动同步。不能假定苹果标准系统迁移会自动转移 Freezon 相册。在换机前，请遵循以下检查清单："
+          ],
+          "bullets": [
+            "在旧设备上创建加密备份，并在 App 内确认备份已完成。",
+            "确保新设备能够访问该备份文件，并安全保存匹配的安全恢复代码。",
+            "在新设备设置相册期间，从备份中恢复相册。",
+            "在抹掉或清空旧设备之前，确认新设备上的所有内容均可正常读取。"
+          ]
+        },
+        {
+          "heading": "创建与保存备份",
+          "paragraphs": [
+            "日常相册与私密相册独立管理各自的备份和恢复代码。打开想要迁移的相册，使用加密备份功能，通过系统“文件”App 选择一个可访问的文件夹，例如 iCloud 云盘中的目录。虽然 iCloud 云盘可以在设备之间同步备份文件，但这种文件传输与相册的自动同步不同。请务必在 Freezon 内确认备份已完成，并将相应的安全恢复代码保存在安全位置。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在新 iPhone 上恢复",
+          "paragraphs": [
+            "在新 iPhone 上的 Freezon 中设置相册时，选择加密备份选项并输入匹配的安全恢复代码。随后为恢复的相册设置密码。最后，在处置、抹掉或清除旧设备之前，打开相册确认照片完整且可正常读取。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon 中的加密备份"
+      ]
+    },
+    "zh-Hant": {
+      "title": "更換 iPhone 前備份與轉移私密相片",
+      "deck": "在清除舊裝置之前，安全備份並將 Freezon 加密相片保險箱移轉至新 iPhone。",
+      "download": "前往 App Store 下載",
+      "sections": [
+        {
+          "heading": "移轉前檢查清單",
+          "paragraphs": [
+            "換用新 iPhone 時，需要為私密相片做好周全準備。Freezon 是一款適用於 iPhone 與 iPad 的裝置端加密相片保險箱，既不會將相簿上傳給開發者，也不會在裝置間自動同步。請勿預設 Apple 系統標準移轉作業會轉移 Freezon 相簿。在換機之前，請遵循以下檢查清單："
+          ],
+          "bullets": [
+            "在舊裝置上建立加密備份，並在 App 內確認已順利完成。",
+            "確保新裝置可以存取該備份檔案，並安全妥善儲存相對應的安全復原碼。",
+            "在新裝置進行設定期間，從備份中還原相簿。",
+            "在清除或抹掉舊裝置之前，確認新裝置上的所有內容皆可正常讀取。"
+          ]
+        },
+        {
+          "heading": "建立與儲存備份",
+          "paragraphs": [
+            "日常相簿與私密相簿各自獨立管理其備份與復原碼。開啟想要移轉的相簿，使用加密備份功能，透過系統「檔案」App 選擇可存取的資料夾，例如 iCloud 雲碟中的目錄。雖然 iCloud 雲碟可以在各裝置間同步備份檔案，但此檔案傳輸不同於相簿自動同步。請務必在 Freezon 內確認備份已完成，並將對應的安全復原碼妥善存放在安全的位置。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在新 iPhone 上還原",
+          "paragraphs": [
+            "在新 iPhone 上的 Freezon 設定相簿時，選擇加密備份選項並輸入相對應的安全復原碼。接著為還原後的相簿設定密碼。最後，在處理、抹掉或清除舊裝置之前，開啟相簿確認相片完好無損且可正常讀取。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon 中的加密備份"
+      ]
+    },
+    "ja": {
+      "title": "iPhone の機種変更前にプライベート写真をバックアップして移行する方法",
+      "deck": "古い端末を消去する前に、Freezon の暗号化写真保管庫を安全にバックアップして新しい iPhone へ移行する手順。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "移行前のチェックリスト",
+          "paragraphs": [
+            "新しい iPhone への移行には、プライベート写真に関する事前の準備が必要です。Freezon は iPhone および iPad 向けのオンデバイス暗号化写真保管庫であり、アルバムを開発者にアップロードすることも、端末間で自動的に同期することもありません。Apple の標準的なシステム移行で Freezon のアルバムが移行されると見なすことはできません。機種変更を行う前に、次のチェックリストを確認してください。"
+          ],
+          "bullets": [
+            "古い端末で暗号化バックアップを作成し、アプリ内で完了を確認する。",
+            "新しい端末からバックアップファイルにアクセスできることを確認し、対応するセキュリティ復元コードを安全に保存する。",
+            "新しい端末での初期設定時に、バックアップからアルバムを復元する。",
+            "古い端末のデータを消去または初期化する前に、新しい端末ですべてのコンテンツが正常に閲覧できることを確認する。"
+          ]
+        },
+        {
+          "heading": "バックアップの作成と保存",
+          "paragraphs": [
+            "日常アルバムとプライベートアルバムでは、バックアップと復元コードが個別に管理されます。移行するアルバムを開き、暗号化バックアップ機能を使用して、システムの「ファイル」アプリ経由で iCloud Drive のディレクトリなどアクセス可能なフォルダを選択します。iCloud Drive は端末間でバックアップファイルを同期できますが、このファイル転送はアルバムの自動同期とは異なります。必ず Freezon 内でバックアップが完了したことを確認し、対応するセキュリティ復元コードを安全な場所に保存してください。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "新しい iPhone での復元",
+          "paragraphs": [
+            "新しい iPhone の Freezon でアルバムを設定する際、暗号化バックアップのオプションを選択し、一致するセキュリティ復元コードを入力します。その後、復元したアルバムのパスワードを設定します。最後に、古い端末を処分、消去、または初期化する前に、アルバムを開いて写真が損なわれることなく正常に閲覧できることを確認してください。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon の暗号化バックアップ"
+      ]
+    },
+    "ko": {
+      "title": "새 iPhone으로 변경하기 전 비공개 사진 백업 및 마이그레이션",
+      "deck": "새 iPhone으로 바꾸기 전에 Freezon의 암호화된 사진 앨범을 안전하게 백업하고 새 기기로 이전하는 방법을 알아봅니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "마이그레이션 전 체크리스트",
+          "paragraphs": [
+            "새 iPhone으로 기기를 변경할 때는 비공개 사진을 위한 신중한 준비가 필요합니다. Freezon은 iPhone 및 iPad용 기기 내 암호화 사진 보관함으로, 앨범을 개발자 서버에 업로드하지 않으며 기기 간에 자동으로 동기화하지도 않습니다. 일반적인 Apple 시스템 마이그레이션으로 Freezon 앨범이 자동 이전될 것이라고 간주해서는 안 됩니다. 기기를 변경하기 전에 다음 체크리스트를 따르세요."
+          ],
+          "bullets": [
+            "기존 기기에서 암호화된 백업을 생성하고 앱 내에서 완료 여부를 확인합니다.",
+            "새 기기에서 백업 파일에 접근할 수 있는지 확인하고, 해당하는 보안 복구 코드를 안전하게 보관합니다.",
+            "새 기기에서 설정하는 동안 백업 파일로부터 앨범을 복원합니다.",
+            "기존 기기를 초기화하거나 지우기 전에 새 기기에서 모든 콘텐츠를 정상적으로 열어볼 수 있는지 확인합니다."
+          ]
+        },
+        {
+          "heading": "백업 생성 및 저장",
+          "paragraphs": [
+            "일상 앨범과 비공개 앨범은 백업과 복구 코드를 독립적으로 관리합니다. 이전하려는 앨범을 열고 암호화된 백업 기능을 사용하여 시스템 파일 앱을 통해 iCloud Drive 디렉터리와 같이 접근 가능한 폴더를 선택하세요. iCloud Drive가 기기 간에 백업 파일을 동기화할 수는 있지만, 이러한 파일 전송은 자동 앨범 동기화와는 다릅니다. 백업이 완료되었는지 항상 Freezon 앱 내에서 확인하고, 해당하는 보안 복구 코드를 안전한 장소에 저장하세요."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "새 iPhone에서 복원하기",
+          "paragraphs": [
+            "새 iPhone의 Freezon에서 앨범을 설정할 때 암호화된 백업 옵션을 선택하고 해당하는 보안 복구 코드를 입력하세요. 그런 다음 복원된 앨범의 비밀번호를 설정합니다. 마지막으로 기존 기기를 정리하거나 초기화, 삭제하기 전에 앨범을 열어 사진이 정상적으로 표시되고 온전한지 확인하세요."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon에서 암호화된 백업 생성"
+      ]
+    },
+    "es-419": {
+      "title": "Cómo hacer una copia de seguridad y migrar fotos privadas antes de cambiar de iPhone",
+      "deck": "Descubre cómo crear una copia de seguridad cifrada de tus álbumes en Freezon y restaurarlos en tu nuevo iPhone antes de borrar tu dispositivo anterior.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "Lista de verificación previa a la migración",
+          "paragraphs": [
+            "Pasarse a un nuevo iPhone requiere una preparación cuidadosa para tus fotos privadas. Freezon es un baúl de fotos cifrado en el dispositivo para iPhone y iPad que no sube álbumes a los desarrolladores ni los sincroniza automáticamente entre dispositivos. No puedes asumir que la migración estándar del sistema de Apple transferirá tus álbumes de Freezon. Antes de cambiar de dispositivo, sigue esta lista de verificación:"
+          ],
+          "bullets": [
+            "Crea una copia de seguridad cifrada en tu dispositivo anterior y verifica su finalización en la app.",
+            "Asegúrate de que tu nuevo dispositivo pueda acceder al archivo de copia de seguridad y guarda de forma segura el código de recuperación de seguridad correspondiente.",
+            "Restaura el álbum desde la copia de seguridad durante la configuración en el nuevo dispositivo.",
+            "Confirma que todo el contenido se pueda leer en tu nuevo dispositivo antes de limpiar o borrar tu dispositivo anterior."
+          ]
+        },
+        {
+          "heading": "Creación y guardado de la copia de seguridad",
+          "paragraphs": [
+            "Los álbumes diarios y los álbumes privados gestionan sus copias de seguridad y códigos de recuperación de forma independiente. Abre el álbum que deseas migrar y utiliza la función de copia de seguridad cifrada para seleccionar una carpeta accesible mediante la app Archivos del sistema, como un directorio en iCloud Drive. Aunque iCloud Drive puede sincronizar el archivo de copia de seguridad entre dispositivos, esta transferencia de archivos es diferente de la sincronización automática de álbumes. Comprueba siempre dentro de Freezon que la copia de seguridad haya finalizado y guarda el código de recuperación de seguridad correspondiente en un lugar seguro."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Restauración en tu nuevo iPhone",
+          "paragraphs": [
+            "Al configurar tu álbum en Freezon en el nuevo iPhone, elige la opción de copia de seguridad cifrada e introduce el código de recuperación de seguridad correspondiente. Luego establecerás una contraseña para el álbum restaurado. Finalmente, abre el álbum para verificar que tus fotos se puedan leer y estén intactas antes de manipular, limpiar o borrar tu dispositivo anterior."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Creación de una copia de seguridad cifrada en Freezon"
+      ]
+    },
+    "pt-BR": {
+      "title": "Como fazer backup e migrar fotos privadas antes de trocar de iPhone",
+      "deck": "Saiba como fazer o backup criptografado dos seus álbuns no Freezon e restaurá-los no novo iPhone antes de apagar seu aparelho antigo.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "Lista de verificação pré-migração",
+          "paragraphs": [
+            "Mudar para um novo iPhone exige uma preparação cuidadosa para as suas fotos privadas. O Freezon é um cofre de fotos criptografado no dispositivo para iPhone e iPad que não envia álbuns para os desenvolvedores nem os sincroniza automaticamente entre dispositivos. Não presuma que a migração padrão do sistema da Apple transferirá seus álbuns do Freezon. Antes de trocar de aparelho, siga esta lista de verificação:"
+          ],
+          "bullets": [
+            "Crie um backup criptografado no seu dispositivo antigo e confirme a conclusão no aplicativo.",
+            "Certifique-se de que o novo dispositivo possa acessar o arquivo de backup e guarde em segurança o código de recuperação correspondente.",
+            "Restaure o álbum a partir do backup durante a configuração no novo dispositivo.",
+            "Confirme se todo o conteúdo pode ser visualizado no novo dispositivo antes de limpar ou apagar o dispositivo antigo."
+          ]
+        },
+        {
+          "heading": "Como criar e salvar o backup",
+          "paragraphs": [
+            "Os álbuns diários e os álbuns privados gerenciam seus backups e códigos de recuperação de forma independente. Abra o álbum que deseja migrar e use o recurso de backup criptografado para selecionar uma pasta acessível pelo aplicativo Arquivos do sistema, como uma pasta no iCloud Drive. Embora o iCloud Drive possa sincronizar o arquivo de backup entre dispositivos, essa transferência de arquivos é diferente da sincronização automática de álbuns. Sempre verifique dentro do Freezon se o backup foi concluído e guarde o respectivo código de recuperação de segurança em um local seguro."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Como restaurar no seu novo iPhone",
+          "paragraphs": [
+            "Ao configurar seu álbum no Freezon no novo iPhone, escolha a opção de backup criptografado e insira o código de recuperação de segurança correspondente. Em seguida, você definirá uma senha para o álbum restaurado. Por fim, abra o álbum para verificar se suas fotos estão acessíveis e intactas antes de manusear, limpar ou apagar seu dispositivo antigo."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Criação de backup criptografado no Freezon"
+      ]
+    }
+  }
+}
