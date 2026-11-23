@@ -17,3 +17,13 @@ export const guideActionLabels = {
   'es-419': { features: 'Ver funciones', scan: 'Escanea para descargar' },
   'pt-BR': { features: 'Ver recursos', scan: 'Escaneie para baixar' },
 };
+
+export const englishScreenshotNotes = {
+  en: 'Screenshots show the English interface. The app supports multiple languages.',
+  'zh-Hans': '本文截图使用英文界面。App 支持多种语言。',
+  'zh-Hant': '本文截圖使用英文介面。App 支援多種語言。',
+  ja: 'スクリーンショットは英語表示です。アプリは複数の言語に対応しています。',
+  ko: '이 글의 스크린샷은 영어 화면입니다. 앱은 여러 언어를 지원합니다.',
+  'es-419': 'Las capturas muestran la interfaz en inglés. La app está disponible en varios idiomas.',
+  'pt-BR': 'As capturas de tela mostram a interface em inglês. O app está disponível em vários idiomas.',
+};

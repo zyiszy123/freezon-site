@@ -18,12 +18,15 @@ export const appStoreURL = (slug, product, lang) => {
 export function guideBundles(dir, reservedSlug) {
   const reserved = new Set([reservedSlug, ...Object.keys(locales).map(lang => lang.toLowerCase())]);
   return readdirSync(dir).filter(name => name.endsWith('.json')).sort().map(name => {
-    const { slug, product, screens, content } = JSON.parse(readFileSync(join(dir, name), 'utf8'));
+    const { slug, product, screens, content, screenLocale, screenSections: plannedSections } = JSON.parse(readFileSync(join(dir, name), 'utf8'));
     const check = (ok, message) => { if (!ok) throw new Error(`${name}: ${message}`); };
     const plain = (value, max = 2500) => typeof value === 'string' && value.trim() === value && value.length > 0 && value.length <= max && !/[\n\r<>]/.test(value);
     check(typeof slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) && slug.length <= 90 && name === `${slug}.json` && !reserved.has(slug), 'invalid or reserved slug');
     check(Object.hasOwn(products, product), 'unknown product');
     check(Array.isArray(screens) && screens.length <= 3 && new Set(screens).size === screens.length && screens.every(screen => typeof screen === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(screen)), 'invalid screenshot keys');
+    check(screenLocale === undefined || (screenLocale === 'en' && screens.length > 0), 'invalid shared screenshot language');
+    const screenSections = plannedSections === undefined ? screens.map((_, i) => i + 1) : plannedSections;
+    check(Array.isArray(screenSections) && screenSections.length === screens.length && new Set(screenSections).size === screenSections.length && screenSections.every(i => Number.isInteger(i) && i >= 0), 'invalid screenshot sections');
     check(content && Object.keys(content).length === Object.keys(locales).length, 'all site languages are required');
     for (const lang of Object.keys(locales)) {
       const entry = content[lang];
@@ -33,8 +36,8 @@ export function guideBundles(dir, reservedSlug) {
         check(section && (section.heading === '' || plain(section.heading, 150)) && Array.isArray(section.paragraphs) && section.paragraphs.length > 0 && section.paragraphs.length <= 8 && section.paragraphs.every(paragraph => plain(paragraph)), `invalid section for ${lang}`);
         check(Array.isArray(section.bullets) && section.bullets.length <= 8 && section.bullets.every(bullet => plain(bullet)), `invalid list for ${lang}`);
       }
-      check(entry.sections.length >= screens.length + 1, `not enough sections for screenshots in ${lang}`);
+      check(screenSections.every(i => i < entry.sections.length), `screenshot section missing in ${lang}`);
     }
-    return { slug, product, screens, content };
+    return { slug, product, screens, screenLocale, screenSections, content };
   });
 }

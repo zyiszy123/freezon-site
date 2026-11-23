@@ -5,6 +5,7 @@
     "02-create",
     "01-banner"
   ],
+  "screenSections": [1, 4],
   "content": {
     "en": {
       "title": "How to Make a Scrolling LED Sign on iPhone for Concerts",

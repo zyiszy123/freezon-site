@@ -1,7 +1,7 @@
 import { accessSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
-import { guideActionLabels, locales } from './locales.mjs';
+import { englishScreenshotNotes, guideActionLabels, locales } from './locales.mjs';
 import { article } from './photo-vault.mjs';
 import { appStoreURL, guideBundles, productLanguage, products } from './bundles.mjs';
 
@@ -20,8 +20,14 @@ const p = (value) => `<p>${html(value)}</p>`;
 const split = (data) => data.trim().split('\n').map(line => line.trim());
 const campaignURL = (country) => `https://apps.apple.com/${country}/app/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8`;
 const featuresLink = (lang, className, product = 'vault') => `<a class="${className}" href="${products[product].route}?lang=${productLanguage(lang, product)}#${products[product].anchor}">${html(guideActionLabels[lang].features)}</a>`;
-const poster = (lang, type = '01_dual_vault', size = 660) => `/assets/vault-campaign/${lang}/iphone/${type}-${size}.webp`;
-const bannerScreen = (lang, screen) => `/assets/banner/${productLanguage(lang, 'banner')}/iphone/${screen}.webp`;
+function guideCover(topic) {
+  const url = `/guides/media/${topic}/cover.webp`;
+  return topic && existsSync(resolve(root, url.slice(1))) ? url : '';
+}
+const coverMeta = cover => cover ? `<meta property="og:image" content="${origin}${cover}">` : '';
+const coverImage = (cover, thumbnail = false) => cover
+  ? `<img${thumbnail ? ' loading="lazy"' : ' class="guide-cover"'} src="${cover}" width="1200" height="630" decoding="async" alt="">`
+  : '';
 const appleSupport = { 'zh-Hans': 'zh-cn', 'zh-Hant': 'zh-tw', ja: 'ja-jp', ko: 'ko-kr', 'es-419': 'es-lamr', 'pt-BR': 'pt-br' };
 
 function write(path, contents) {
@@ -45,6 +51,7 @@ function layout(lang, topic, title, description, body, product = 'vault') {
   const canonical = origin + guidePath(lang, topic);
   const { icon, key, route } = products[product];
   const productLang = productLanguage(lang, product);
+  const cover = guideCover(topic);
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -59,7 +66,7 @@ function layout(lang, topic, title, description, body, product = 'vault') {
   <meta property="og:title" content="${html(title)}">
   <meta property="og:description" content="${html(description)}">
   <meta property="og:url" content="${canonical}">
-  ${topic ? `<meta property="og:image" content="${origin}${product === 'vault' ? poster(lang, '01_dual_vault', 1320) : bannerScreen(lang, '01-banner')}">` : ''}
+  ${coverMeta(cover)}
   <link rel="icon" href="/assets/${icon}">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   ${topic ? '<link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">' : ''}
@@ -96,16 +103,17 @@ function heading(title, description, lang, topic) {
     ${languageNav(lang, topic)}</header>`;
 }
 
-function figure(lang, screen, caption, product = 'vault', topic) {
-  const articleImage = topic && [lang, productLanguage(lang, product)]
+function figure(lang, screen, caption, product = 'vault', topic, screenLocale) {
+  const imageLang = screenLocale ?? lang;
+  const articleImage = topic && [imageLang, productLanguage(imageLang, product)]
     .map(mediaLang => `/guides/media/${topic}/${mediaLang}/${screen}.webp`)
     .find(url => existsSync(resolve(root, url.slice(1))));
-  const image = articleImage || (product === 'banner' ? bannerScreen(lang, screen) : null);
+  const image = articleImage || (product === 'banner' ? `/assets/banner-guide-screens/${productLanguage(imageLang, product)}/${screen}.webp` : null);
   if (image) {
     accessSync(resolve(root, image.slice(1)));
     return `<figure class="guide-figure"><a href="${image}"><img src="${image}" loading="lazy" decoding="async" alt="${html(caption)}"></a><figcaption>${html(caption)}</figcaption></figure>`;
   }
-  const images = [480, 800].map(width => `/assets/app-screens/${lang}/${screen}-${width}.webp`);
+  const images = [480, 800].map(width => `/assets/app-screens/${imageLang}/${screen}-${width}.webp`);
   for (const image of images) accessSync(resolve(root, image.slice(1)));
   const [small, large] = images;
   return `<figure class="guide-figure">
@@ -137,6 +145,7 @@ function localizedArticle(lang, data) {
   const rows = [unlock, storage, backup].map(row => row.split('|'));
   return { title, deck, body: `<article class="guide-article">
     ${heading(title, deck, lang, slug)}
+    ${coverImage(guideCover(slug))}
     ${p(intro)}${p(summary)}
     <section aria-labelledby="comparison">
       <h2 id="comparison">${html(comparison)}</h2>
@@ -165,26 +174,34 @@ ${downloadActions(lang, install, campaignURL(country))}
 
 const bundleDir = resolve(root, 'scripts/guides/articles');
 const bundles = existsSync(bundleDir) ? guideBundles(bundleDir, slug) : [];
-const bundlePages = bundles.flatMap(({ slug: topic, product, screens, content }) => languages.map(lang => {
+const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLocale, screenSections, content }) => languages.map(lang => {
   const { title, deck, sections, download, captions } = content[lang];
+  const images = new Map(screenSections.map((section, i) => [section, figure(lang, screens[i], captions[i], product, topic, screenLocale)]));
+  const firstScreenshot = screenLocale === 'en' ? Math.min(...screenSections) : -1;
   const body = `<article class="guide-article">
     ${heading(title, deck, lang, topic)}
+    ${coverImage(guideCover(topic))}
     ${sections.map(({ heading: title, paragraphs, bullets }, i) => `<section>
       ${title ? `<h2>${html(title)}</h2>` : ''}
       ${paragraphs.map(p).join('\n      ')}
       ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
-      ${i > 0 && screens[i - 1] ? figure(lang, screens[i - 1], captions[i - 1], product, topic) : ''}
+      ${i === firstScreenshot ? `<p class="guide-screenshot-note">${html(englishScreenshotNotes[lang])}</p>\n      ` : ''}${images.get(i) ?? ''}
     </section>`).join('\n    ')}
     <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>
   </article>`;
   return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product)];
 }));
 
+function guideCard(lang, topic, { title, deck }) {
+  const cover = guideCover(topic);
+  return `<li>
+        <a class="guide-list-link${cover ? '' : ' guide-list-link-text'}" href="${guidePath(lang, topic)}"><div><h3>${html(title)}</h3>${p(deck)}</div>${coverImage(cover, true)}</a>
+      </li>`;
+}
+
 function bundleCards(lang, product) {
-  return bundles.filter(bundle => bundle.product === product).map(({ slug: topic, content }) => `<li>
-        <a class="guide-list-link" href="${guidePath(lang, topic)}"><div><h3>${html(content[lang].title)}</h3>${p(content[lang].deck)}</div>
-          <img src="${product === 'vault' ? poster(lang) : bannerScreen(lang, '01-banner')}" alt=""></a>
-      </li>`).join('\n');
+  return bundles.filter(bundle => bundle.product === product)
+    .map(({ slug: topic, content }) => guideCard(lang, topic, content[lang])).join('\n');
 }
 
 function bannerGuides(lang) {
@@ -205,21 +222,23 @@ for (const lang of languages.filter(lang => lang !== 'en')) {
   const list = `<div class="guide-article">
     ${heading(title, deck, lang, '')}
     <section aria-labelledby="photo-vault-guides"><h2 id="photo-vault-guides">${html(vault)}</h2>
-      <ul class="guide-list" role="list"><li>
-        <a class="guide-list-link" href="${guidePath(lang, slug)}"><div><h3>${html(translated.title)}</h3>${p(translated.deck)}</div>
-          <img src="${poster(lang)}" width="660" height="1434" alt=""></a>
-      </li>${bundleCards(lang, 'vault')}</ul>
+      <ul class="guide-list" role="list">${guideCard(lang, slug, translated)}${bundleCards(lang, 'vault')}</ul>
     </section>${bannerGuides(lang)}</div>`;
   write(`${guidePath(lang)}index.html`, layout(lang, '', title, deck, list));
   write(`${guidePath(lang, slug)}index.html`, layout(lang, slug, translated.title, translated.deck, translated.body));
 }
-replaceRegion('guides/index.html', 'additional-vault-guides', bundleCards('en', 'vault'));
+replaceRegion('guides/index.html', 'photo-vault-guides', [guideCard('en', slug, {
+  title: 'iPhone Hidden Album vs. Photo Vault: Which One Do You Actually Need?',
+  deck: 'Compare how Apple Photos and Freezon unlock, store, and back up your photos.',
+}), bundleCards('en', 'vault')].filter(Boolean).join('\n'));
 replaceRegion('guides/index.html', 'banner-guides', bannerGuides('en'));
 
 for (const [file, topic] of [['guides/index.html', ''], [`guides/${slug}/index.html`, slug]]) {
   replaceRegion(file, 'guide-alternates', alternates(topic));
   replaceRegion(file, 'guide-languages', languageNav('en', topic));
 }
+replaceRegion(`guides/${slug}/index.html`, 'guide-cover-meta', coverMeta(guideCover(slug)));
+replaceRegion(`guides/${slug}/index.html`, 'guide-cover', coverImage(guideCover(slug)));
 replaceRegion(`guides/${slug}/index.html`, 'guide-download-actions', downloadActions('en', 'View Freezon on the App Store',
   'https://apps.apple.com/app/apple-store/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8'));
 replaceRegion('sitemap.xml', 'localized-guides', languages.filter(lang => lang !== 'en').flatMap(lang =>

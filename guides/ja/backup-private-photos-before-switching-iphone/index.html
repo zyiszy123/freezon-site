@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>iPhone の機種変更前にプライベート写真をバックアップして移行する方法 | Freezon</title>
-  <meta name="description" content="古い端末を消去する前に、Freezon の暗号化写真保管庫を安全にバックアップして新しい iPhone へ移行する手順。">
+  <title>プライベートな写真を新しいiPhoneにバックアップして移行する方法 | Freezon</title>
+  <meta name="description" content="Freezonで暗号化バックアップを作成し、リカバリーコードを使って新しいiPhoneにプライベートな写真を安全に移行・復元する手順を解説します。">
   <link rel="canonical" href="https://freezonapp.com/guides/ja/backup-private-photos-before-switching-iphone/">
   <link rel="alternate" hreflang="en" href="https://freezonapp.com/guides/backup-private-photos-before-switching-iphone/">
   <link rel="alternate" hreflang="zh-Hans" href="https://freezonapp.com/guides/zh-Hans/backup-private-photos-before-switching-iphone/">
@@ -16,10 +16,10 @@
   <link rel="alternate" hreflang="x-default" href="https://freezonapp.com/guides/backup-private-photos-before-switching-iphone/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Freezon">
-  <meta property="og:title" content="iPhone の機種変更前にプライベート写真をバックアップして移行する方法">
-  <meta property="og:description" content="古い端末を消去する前に、Freezon の暗号化写真保管庫を安全にバックアップして新しい iPhone へ移行する手順。">
+  <meta property="og:title" content="プライベートな写真を新しいiPhoneにバックアップして移行する方法">
+  <meta property="og:description" content="Freezonで暗号化バックアップを作成し、リカバリーコードを使って新しいiPhoneにプライベートな写真を安全に移行・復元する手順を解説します。">
   <meta property="og:url" content="https://freezonapp.com/guides/ja/backup-private-photos-before-switching-iphone/">
-  <meta property="og:image" content="https://freezonapp.com/assets/vault-campaign/ja/iphone/01_dual_vault-1320.webp">
+  <meta property="og:image" content="https://freezonapp.com/guides/media/backup-private-photos-before-switching-iphone/cover.webp">
   <link rel="icon" href="/assets/freezon-icon.png">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   <link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">
@@ -37,7 +37,7 @@
   </div></header>
   <main id="main-content" class="guide-shell">
     <article class="guide-article">
-    <header class="guide-header"><h1>iPhone の機種変更前にプライベート写真をバックアップして移行する方法</h1><p class="guide-deck">古い端末を消去する前に、Freezon の暗号化写真保管庫を安全にバックアップして新しい iPhone へ移行する手順。</p>
+    <header class="guide-header"><h1>プライベートな写真を新しいiPhoneにバックアップして移行する方法</h1><p class="guide-deck">Freezonで暗号化バックアップを作成し、リカバリーコードを使って新しいiPhoneにプライベートな写真を安全に移行・復元する手順を解説します。</p>
     <nav class="guide-languages" aria-label="言語を選択">
   <a href="/guides/backup-private-photos-before-switching-iphone/" lang="en" hreflang="en">English</a>
   <a href="/guides/zh-Hans/backup-private-photos-before-switching-iphone/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
@@ -47,26 +47,62 @@
   <a href="/guides/es-419/backup-private-photos-before-switching-iphone/" lang="es-419" hreflang="es-419">Español (Latinoamérica)</a>
   <a href="/guides/pt-BR/backup-private-photos-before-switching-iphone/" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a>
 </nav></header>
+    <img class="guide-cover" src="/guides/media/backup-private-photos-before-switching-iphone/cover.webp" width="1200" height="630" decoding="async" alt="">
     <section>
-      <h2>移行前のチェックリスト</h2>
-      <p>新しい iPhone への移行には、プライベート写真に関する事前の準備が必要です。Freezon は iPhone および iPad 向けのオンデバイス暗号化写真保管庫であり、アルバムを開発者にアップロードすることも、端末間で自動的に同期することもありません。Apple の標準的なシステム移行で Freezon のアルバムが移行されると見なすことはできません。機種変更を行う前に、次のチェックリストを確認してください。</p>
-      <ul><li>古い端末で暗号化バックアップを作成し、アプリ内で完了を確認する。</li><li>新しい端末からバックアップファイルにアクセスできることを確認し、対応するセキュリティ復元コードを安全に保存する。</li><li>新しい端末での初期設定時に、バックアップからアルバムを復元する。</li><li>古い端末のデータを消去または初期化する前に、新しい端末ですべてのコンテンツが正常に閲覧できることを確認する。</li></ul>
+
+      <p>プライベートな写真を新しいiPhoneにバックアップして移行するには、現在のデバイスのFreezonで暗号化バックアップを生成し、対応するセキュリティリカバリーコードを保管して、新しいスマートフォンのアルバム設定時にバックアップを復元します。FreezonはiPhoneおよびiPad向けのデバイス上暗号化写真保管庫として機能し、外部サーバーにアップロードしたりバックグラウンドでデバイス間にアルバムを同期したりすることなく、メディアをローカルで自身の管理下に保護します。</p>
+      <p>今すぐ新しいiPhoneへの移行を準備している場合でも、将来の簡単なデータ移行を確実にするプライベート写真保管庫を選択している場合でも、Freezonのバックアップワークフローはメディアに対する完全な所有権を提供します。ポータブルな暗号化バックアップファイルを通じて移行を管理することで、完全なプライバシーを維持しながらライブラリを新しいデバイスへスムーズに移行できます。</p>
+
+
+    </section>
+    <section>
+      <h2>始める前に準備する2つのもの</h2>
+      <p>移行手続きを始める前に、次の2つの準備が整っていることを確認してください。</p>
+      <p>Freezonで日常アルバムとプライベートアルバムの両方を使用している場合は、それらを個別の保管庫として扱ってください。各アルバムは独自の独立したバックアップファイルと対応するリカバリーコードを保持します。</p>
+      <ul><li>アクセス可能なバックアップファイル（.pvb）：写真や動画が含まれる暗号化アーカイブです。iCloud Drive内のフォルダーなど、新しいデバイスのシステム「ファイル」アプリからアクセスできる場所に保存します。</li><li>対応するセキュリティリカバリーコード：そのアーカイブのロックを解除して復元するには、アルバムに対応するセキュリティリカバリーコードが必要です。このコードはパスワードマネージャーや書面の記録などに安全に保管してください。</li></ul>
 
     </section>
     <section>
       <h2>バックアップの作成と保存</h2>
-      <p>日常アルバムとプライベートアルバムでは、バックアップと復元コードが個別に管理されます。移行するアルバムを開き、暗号化バックアップ機能を使用して、システムの「ファイル」アプリ経由で iCloud Drive のディレクトリなどアクセス可能なフォルダを選択します。iCloud Drive は端末間でバックアップファイルを同期できますが、このファイル転送はアルバムの自動同期とは異なります。必ず Freezon 内でバックアップが完了したことを確認し、対応するセキュリティ復元コードを安全な場所に保存してください。</p>
+      <p>現在のiPhoneまたはiPadでバックアップを作成するには、Freezonを開き、移行するアルバムに移動します。そのアルバム内の暗号化バックアップ機能を開くと、システムの「ファイル」インターフェースを使用してエクスポート先を選択するようFreezonから求められます。</p>
+      <p>iCloud Drive内の指定フォルダーなど、新しいデバイスからすぐにアクセスできるディレクトリを選択します。.pvbファイルをiCloud Driveに保存することで、「ファイル」アプリを通じてデバイス間でアーカイブにアクセスできるようになります。ファイルストレージとアルバム同期の違いを理解しておくと役立ちます。iCloud Driveは静的な.pvbファイルを保持および転送するだけであり、Freezonはアルバムの自動クラウド同期を行いません。</p>
+      <p>アプリがバックアップの完了を確認するまで、Freezonを開いたままにしておきます。処理が完了したら、アルバムに対応するセキュリティリカバリーコードがあることを確認してください。このコードを正確に記録し、新しいデバイスを設定する際のために手元に保管しておきます。</p>
 
       <figure class="guide-figure">
-        <a href="/assets/app-screens/ja/backup-800.webp" aria-label="Freezon の暗号化バックアップ">
-          <img src="/assets/app-screens/ja/backup-480.webp" srcset="/assets/app-screens/ja/backup-480.webp 480w, /assets/app-screens/ja/backup-800.webp 800w" sizes="(max-width: 360px) 80vw, 260px" width="480" height="1044" loading="lazy" decoding="async" alt="Freezon の暗号化バックアップ">
+        <a href="/assets/app-screens/ja/backup-800.webp" aria-label="Freezonの暗号化バックアップ画面">
+          <img src="/assets/app-screens/ja/backup-480.webp" srcset="/assets/app-screens/ja/backup-480.webp 480w, /assets/app-screens/ja/backup-800.webp 800w" sizes="(max-width: 360px) 80vw, 260px" width="480" height="1044" loading="lazy" decoding="async" alt="Freezonの暗号化バックアップ画面">
         </a>
-        <figcaption>Freezon の暗号化バックアップ</figcaption>
+        <figcaption>Freezonの暗号化バックアップ画面</figcaption>
       </figure>
     </section>
     <section>
-      <h2>新しい iPhone での復元</h2>
-      <p>新しい iPhone の Freezon でアルバムを設定する際、暗号化バックアップのオプションを選択し、一致するセキュリティ復元コードを入力します。その後、復元したアルバムのパスワードを設定します。最後に、古い端末を処分、消去、または初期化する前に、アルバムを開いて写真が損なわれることなく正常に閲覧できることを確認してください。</p>
+      <h2>新しいiPhoneで写真を復元する</h2>
+      <p>新しいiPhoneの準備ができたら、次の手順に従って復元を完了します。</p>
+      <ul><li>「ファイル」でファイルの利用可能性を確認する：新しいiPhoneでシステムの「ファイル」アプリを開き、iCloud Driveディレクトリなど選択したバックアップフォルダーに移動します。.pvbファイルが表示され、完全にダウンロードされており、アクセス可能であることを確認します。</li><li>Freezonでアルバムのセットアップを開始する：新しいiPhoneでFreezonを開きます。初期アルバム設定時に、暗号化バックアップから復元するオプションを選択します。</li><li>ファイルを選択してリカバリーコードを入力する：ファイルピッカーを使用して.pvbバックアップファイルを選択し、古いデバイスから保存した対応するセキュリティリカバリーコードを入力します。</li><li>新しいアルバムパスワードを設定する：Freezonがアルバムコンテンツを復元したら、新しいスマートフォン上でそのアルバム用の新しい日常ロック解除パスワードを設定します。</li></ul>
+
+    </section>
+    <section>
+      <h2>2つのアルバムを個別に確認する</h2>
+      <p>Freezonは明確なプライバシー境界を維持するために、日常アルバムとプライベートアルバムを分離しています。メディアが両方のアルバムに分かれている場合は、各アルバムのバックアップと復元の手順を個別に実行してください。</p>
+      <p>各アルバムを独立した手順として処理することで、パスワード、プライバシー境界、保管庫の設定が完全に分離された状態を維持できます。</p>
+      <ul><li>日常アルバム用の.pvbバックアップファイルをエクスポートし、セキュリティリカバリーコードを保存します。</li><li>プライベートアルバム用の別の.pvbバックアップファイルをエクスポートし、個別のセキュリティリカバリーコードを保存します。</li><li>新しいiPhoneで、対応するファイルと一致するリカバリーコードを使用して、各アルバムを個別に復元します。</li></ul>
+
+    </section>
+    <section>
+      <h2>古いデバイスを消去する前のコンテンツ確認</h2>
+      <p>以前のデバイスを消去、リセット、または下取りに出す前に、新しいiPhoneにメディアが正しく復元されていることを確認してください。</p>
+      <p>写真や動画が期待どおりに開くことを確認したら、古いデバイスの消去や使用停止を進めることができます。</p>
+      <ul><li>写真の表示を確認する：Freezonで復元されたアルバムを開いて写真を閲覧し、サムネイルが読み込まれ、高解像度画像が問題なく開くことを確認します。</li><li>最近追加した項目を点検する：移行直前にインポートした写真やファイルを確認し、最新のメディアがバックアップに含まれていることを確認します。</li><li>動画の再生をテストする：1〜2本の動画を最初から最後まで再生し、スムーズに再生できることを確認します。</li><li>両方のアルバムを確認する：日常アルバムとプライベートアルバムの両方を移行した場合は、各保管庫を個別に開き、両方でこれらの検証チェックを完了します。</li></ul>
+
+    </section>
+    <section>
+      <h2>よくある質問</h2>
+      <p>新しいiPhoneでバックアップファイルが見つからない場合はどうすればよいですか？</p>
+      <p>Freezonでの設定を開始する前に、新しいiPhoneでシステムの「ファイル」アプリを直接開きます。iCloud Driveフォルダーなど、バックアップを保存した場所に移動し、.pvbファイルが表示されていることを確認してください。ファイルに雲のダウンロードアイコンが表示されている場合は、タップしてファイルをローカルにダウンロードし、復元中にFreezonが開けるようにします。</p>
+      <p>リカバリーコードの代わりに日常のアルバムパスワードを使ってアルバムを復元できますか？</p>
+      <p>いいえ。通常のアルバムロック解除パスワードはその特定のデバイスでの日常的なアクセス専用であり、エクスポートされたアーカイブを復号することはできません。アルバムを復元するには、その.pvbバックアップファイルに対応するセキュリティリカバリーコードが必要です。古いデバイスでバックアップを作成した際に保存したリカバリーコードを確認し、設定時に入力してください。</p>
+      <p>前回のバックアップ作成後に写真を追加した場合はどうすればよいですか？</p>
+      <p>バックアップを作成した後に新しい写真や動画をインポートした場合は、新しいスマートフォンでの設定を完了する前に、古いデバイスでバックアップを更新してください。古いiPhoneでFreezonを開き、暗号化バックアップ機能を再度実行し、バックアップ完了のアプリ内確認を待って、対応するセキュリティリカバリーコードを用意しておきます。その後、この更新された.pvbファイルを新しいデバイスで復元できます。</p>
 
 
     </section>

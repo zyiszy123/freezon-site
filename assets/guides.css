@@ -67,6 +67,13 @@
   font-size: 1.125rem;
 }
 
+.guide-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .guide-languages {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +145,13 @@
   font-size: 0.875rem;
 }
 
+.guide-article .guide-screenshot-note {
+  margin-block: 20px 0;
+  font-size: 0.875rem;
+}
+
+.guide-screenshot-note + .guide-figure { margin-block-start: 8px; }
+
 .guide-download {
   margin-block-start: 30px;
   padding-block-start: 24px;
@@ -175,7 +189,7 @@
 
 .guide-list-link {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 76px;
+  grid-template-columns: minmax(0, 1fr) 152px;
   align-items: center;
   gap: 18px;
   padding-block: 16px;
@@ -197,7 +211,8 @@
 }
 
 .guide-list-link p { margin: 6px 0 0; }
-.guide-list-link img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.guide-list-link img { display: block; width: 100%; height: auto; aspect-ratio: 40 / 21; border-radius: 8px; }
+.guide-list-link.guide-list-link-text { grid-template-columns: minmax(0, 1fr); }
 
 @media (max-width: 560px) {
   .guide-shell { width: calc(100% - 36px); padding-block: 40px 52px; }
@@ -210,7 +225,7 @@
   .guide-comparison thead th:first-child { width: 24%; }
   .guide-page .nav-inner { gap: 12px; }
   .guide-nav { gap: 14px; }
-  .guide-list-link { grid-template-columns: minmax(0, 1fr) 54px; gap: 14px; }
+  .guide-list-link { grid-template-columns: minmax(0, 1fr) 88px; gap: 14px; }
   .guide-list-link h3 { font-size: 1.0625rem; }
   .guide-list-link p { font-size: 0.9375rem; }
 }
