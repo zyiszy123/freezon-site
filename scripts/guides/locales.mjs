@@ -18,6 +18,16 @@ export const guideActionLabels = {
   'pt-BR': { features: 'Ver recursos', scan: 'Escaneie para baixar' },
 };
 
+export const relatedGuideLabels = {
+  en: 'Continue reading',
+  'zh-Hans': '继续阅读',
+  'zh-Hant': '繼續閱讀',
+  ja: '関連ガイド',
+  ko: '함께 읽을 가이드',
+  'es-419': 'Sigue leyendo',
+  'pt-BR': 'Continue lendo',
+};
+
 export const englishScreenshotNotes = {
   en: 'Screenshots show the English interface. The app supports multiple languages.',
   'zh-Hans': '本文截图使用英文界面。App 支持多种语言。',

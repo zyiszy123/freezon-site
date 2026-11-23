@@ -1,0 +1,509 @@
+{
+  "slug": "move-photos-out-of-apple-photos",
+  "product": "vault",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Move Photos Out of Apple Photos on iPhone",
+      "deck": "Learn how to move photos out of Apple Photos into Freezon, verify imported media in encrypted storage, and safely manage original files on your iPhone.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "To move photos out of Apple Photos on an iPhone and store them behind an independent password, import the selected items into Freezon, verify that the files display correctly, and confirm the iOS system prompt to remove the originals from your camera roll. Freezon for iPhone and iPad provides local encrypted storage for private photos and videos, allowing you to secure personal media without cluttering or disrupting your main photo library.",
+            "Here is a practical, step-by-step workflow to test the process, transfer your media, and manage original files cleanly."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Step 1: Start with a Small Test Batch",
+          "paragraphs": [
+            "Before transferring important personal media, test the workflow using a small batch of two or three non-sensitive photos or a short video clip."
+          ],
+          "bullets": [
+            "Open Freezon and start a new import.",
+            "When the system permission prompt appears, select Select Photos... to use limited Photos access. This restricts Freezon’s visibility strictly to the items you choose, keeping the rest of your camera roll private.",
+            "Select your test items, choose to keep originals for this test batch, and complete the import into Freezon's local encrypted storage."
+          ]
+        },
+        {
+          "heading": "Step 2: Open and Verify Media Inside Freezon",
+          "paragraphs": [
+            "Always confirm that your imported media is intact before deleting any originals from your device:",
+            "Verifying your files first guarantees that your media is safely stored in local encrypted storage before you make any changes to Apple Photos."
+          ],
+          "bullets": [
+            "Open Freezon and enter your independent password.",
+            "Tap each newly imported photo to verify that the image renders completely.",
+            "Play videos from start to finish to ensure playback is smooth and complete."
+          ]
+        },
+        {
+          "heading": "Step 3: Choose an Actionable Branch for Original Photos",
+          "paragraphs": [
+            "Once your media is verified in Freezon, choose how to handle the original files in Apple Photos based on your workflow:",
+            "Because Apple Photos protects your library against accidental deletions, iOS requires a separate system confirmation before any app can delete media. Confirming this dialog removes the originals from your primary library view."
+          ],
+          "bullets": [
+            "Branch A: Remove Originals: When moving private photos entirely out of your main camera roll. For the batch you kept and verified, open Settings → Clean up originals in Freezon and select the items to clean up. When iOS displays the system confirmation dialog, tap Delete.",
+            "Branch B: Keep Originals: When you want an encrypted copy but still need the files for shared albums or other apps. Leave the originals in Apple Photos. To clean them up later, use Settings → Clean up originals in Freezon and select the items to clean up."
+          ]
+        },
+        {
+          "heading": "Step 4: Manage Apple Photos Recently Deleted",
+          "paragraphs": [
+            "Deleting originals through Freezon does not permanently erase them from your iPhone immediately. Apple Photos treats deletion as an independent system process:"
+          ],
+          "bullets": [
+            "When you approve the removal prompt, Apple Photos moves the original files to its Recently Deleted album.",
+            "Under standard Apple Photos rules, normal deletions remain in Recently Deleted for up to 30 days unless you remove them manually.",
+            "To remove the files from your device immediately, open Apple Photos, find Recently Deleted under Utilities, authenticate, and select Delete. For complete details on system deletion rules, review the official Apple Support guide.",
+            "Deleting originals from Apple Photos does not erase all existing or shared copies."
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "paragraphs": [
+            "Can I import photos without granting access to my entire library?",
+            "Yes. Freezon supports limited Photos access, allowing you to select only the specific photos and videos you want to import while keeping the rest of your library private.",
+            "What should I do if I chose to keep originals but want to remove them later?",
+            "Open Freezon and navigate to Settings → Clean up originals. This feature identifies imported media whose originals were kept and prompts the Apple system deletion dialog for a later cleanup pass.",
+            "Why does Apple Photos ask for confirmation when removing originals?",
+            "Apple Photos requires a separate system confirmation to protect your library from unintended deletions, ensuring that no file is removed without your direct consent."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 上将照片移出 Apple 照片",
+      "deck": "了解如何使用 Freezon 将照片安全移出 iPhone 上的 Apple 照片，通过独立密码与本地加密存储保护私密媒体，并彻底管理相机胶卷中的原始文件。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "要将照片移出 iPhone 上的 Apple 照片并存放在独立密码保护下，可将所选项目导入 Freezon，验证文件是否正常显示，并确认 iOS 系统提示以从相机胶卷中移除原片。适用于 iPhone 和 iPad 的 Freezon 为私密照片和视频提供本地加密存储，让您在保护个人媒体安全的同时，不会扰乱或堆满主照片图库。",
+            "以下是一个实用的分步工作流程，帮助您测试该过程、转移媒体内容并干净利落地管理原始文件。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "步骤 1：从小批量测试开始",
+          "paragraphs": [
+            "在传输重要的个人媒体之前，请先使用包含两到三张非敏感照片或一段简短视频的小批次来测试工作流程。"
+          ],
+          "bullets": [
+            "打开 Freezon 并开始新的导入。",
+            "当系统权限提示出现时，选择“选择照片...”以使用受限照片访问权限。这会将 Freezon 的可见范围严格限制在您选取的项目上，确保相机胶卷中的其余内容保持私密。",
+            "选择您的测试项目，对此测试批次选择保留原片，然后完成向 Freezon 本地加密存储的导入。"
+          ]
+        },
+        {
+          "heading": "步骤 2：在 Freezon 中打开并验证媒体",
+          "paragraphs": [
+            "在从设备中删除任何原片之前，务必确认导入的媒体完好无损：",
+            "先验证文件可确保在对 Apple 照片进行任何更改之前，您的媒体已安全保存在本地加密存储中。"
+          ],
+          "bullets": [
+            "打开 Freezon 并输入您的独立密码。",
+            "轻点每张新导入的照片，验证图像是否完整呈现。",
+            "从头到尾播放视频，确保播放流畅且完整。"
+          ]
+        },
+        {
+          "heading": "步骤 3：针对原始照片选择切实可行的处理方案",
+          "paragraphs": [
+            "在 Freezon 中验证媒体后，根据您的工作流程选择如何在 Apple 照片中处理原始文件：",
+            "由于 Apple 照片会保护图库免遭意外删除，因此 iOS 在任何应用删除媒体之前都需要独立的系统确认。确认此对话框后，原片将从您的主图库视图中移除。"
+          ],
+          "bullets": [
+            "方案 A：移除原片。适用于将私密照片完全移出主相机胶卷的情况。对于已保留并验证的批次，在 Freezon 中打开“设置” → “清理原片”并选择要清理的项目。当 iOS 显示系统确认对话框时，轻点“删除”。",
+            "方案 B：保留原片。适用于希望拥有加密副本但仍需在共享相簿或其他应用中使用这些文件的情况。将原片保留在 Apple 照片中。若日后需要清理，可以在 Freezon 中前往“设置” → “清理原片”并选择要清理的项目。"
+          ]
+        },
+        {
+          "heading": "步骤 4：管理 Apple 照片中的“最近删除”",
+          "paragraphs": [
+            "通过 Freezon 删除原片并不会立即从 iPhone 中永久抹掉它们。Apple 照片将删除视为一个独立的系统流程："
+          ],
+          "bullets": [
+            "当您批准移除提示时，Apple 照片会将原始文件移动到“最近删除”相簿中。",
+            "根据 Apple 照片的标准规则，普通删除的项目会在“最近删除”中保留最多 30 天，除非您手动将其移除。",
+            "若要立即从设备中移除这些文件，请打开 Apple 照片，在“实用工具”中找到“最近删除”，完成认证后选择“删除”。如需了解系统删除规则的完整详情，请查阅官方 Apple 支持指南。",
+            "从 Apple 照片中删除原片不会抹掉所有现存副本或已共享的副本。"
+          ]
+        },
+        {
+          "heading": "常见问题",
+          "paragraphs": [
+            "我可以在不授予完整图库访问权限的情况下导入照片吗？可以。Freezon 支持受限照片访问权限，允许您仅选取想要导入的特定照片和视频，同时确保图库中的其余内容保持私密。",
+            "如果我选择保留原片，但日后想将其删除，该怎么做？打开 Freezon 并前往“设置” → “清理原片”。此功能会识别已保留原片的已导入媒体，并在后续清理时调出 Apple 系统删除对话框。",
+            "为什么 Apple 照片在移除原片时会要求确认？Apple 照片需要独立的系统确认来保护您的图库免遭意外删除，确保未经您的直接同意不会移除任何文件。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 上將照片移出 Apple 照片",
+      "deck": "了解如何將照片匯入 Freezon 的加密儲存空間，並安全地從 iPhone 的 Apple 照片圖庫中移除原始檔案。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "若要在 iPhone 上將照片移出 Apple 照片並使用獨立密碼儲存，請將選取的項目匯入 Freezon，確認檔案正常顯示，並確認 iOS 系統提示以從相機膠卷中移除原始檔案。適用於 iPhone 與 iPad 的 Freezon 為私密照片與影片提供本機加密儲存空間，讓您無需雜亂堆放或打亂主要照片圖庫即可保護個人媒體。",
+            "以下是實用且循序漸進的工作流程，協助您測試該流程、轉移媒體內容，並乾淨俐落地管理原始檔案。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "步驟 1：先從小型測試批次開始",
+          "paragraphs": [
+            "在轉移重要的個人媒體之前，請先使用兩到三張非敏感照片或一小段短片測試該工作流程。"
+          ],
+          "bullets": [
+            "開啟 Freezon 並開始新的匯入。",
+            "當系統權限提示出現時，選取「選取照片…」以使用受限的照片存取權限。這會將 Freezon 的瀏覽權限嚴格限制在您選擇的項目中，讓相機膠卷的其餘部分保持私密。",
+            "選取您的測試項目，在此測試批次中選擇保留原始檔案，並完成匯入至 Freezon 的本機加密儲存空間。"
+          ]
+        },
+        {
+          "heading": "步驟 2：在 Freezon 內開啟並驗證媒體",
+          "paragraphs": [
+            "在從裝置中刪除任何原始檔案之前，請務必先確認匯入的媒體完好無損：",
+            "先驗證檔案可確保在對 Apple 照片進行任何更動之前，您的媒體已安全存放在本機加密儲存空間中。"
+          ],
+          "bullets": [
+            "開啟 Freezon 並輸入您的獨立密碼。",
+            "輕點每張新匯入的照片，以驗證影像能完整算繪顯示。",
+            "從頭到尾播放影片，確保播放流暢且完整。"
+          ]
+        },
+        {
+          "heading": "步驟 3：針對原始照片選擇可行的處理分支",
+          "paragraphs": [
+            "媒體在 Freezon 中完成驗證後，請根據您的工作流程選擇如何在 Apple 照片中處理原始檔案：",
+            "因為 Apple 照片會保護圖庫以防止意外刪除，iOS 要求在任何 App 刪除媒體之前都必須經過獨立的系統確認。確認此對話框後，即可從主要圖庫檢視中移除原始檔案。"
+          ],
+          "bullets": [
+            "分支 A：移除原始檔案。當要將私密照片完全移出主要相機膠卷時選擇此項。針對您保留並已驗證的批次，在 Freezon 中開啟「設定 → 清理原始檔案」並選取要清理的項目。當 iOS 顯示系統確認對話框時，輕點「刪除」。",
+            "分支 B：保留原始檔案。當您想要加密複本但仍需要在共享相簿或其他 App 中使用這些檔案時選擇此項。將原始檔案保留在 Apple 照片中。若稍後想清理，可在 Freezon 中使用「設定 → 清理原始檔案」並選取要清理的項目。"
+          ]
+        },
+        {
+          "heading": "步驟 4：管理 Apple 照片的「最近刪除」",
+          "paragraphs": [
+            "透過 Freezon 刪除原始檔案並不會立即從 iPhone 永久抹除它們。Apple 照片將刪除視為獨立的系統程序："
+          ],
+          "bullets": [
+            "當您核准移除提示時，Apple 照片會將原始檔案移至「最近刪除」相簿。",
+            "在標準的 Apple 照片規則下，一般刪除的項目會在「最近刪除」中保留長達 30 天，除非您手動將其移除。",
+            "若要立即從裝置中移除這些檔案，請開啟 Apple 照片，在「工具程式」中找到「最近刪除」，進行身分驗證，然後選取「刪除」。如需系統刪除規則的完整詳細資訊，請參閱 Apple 官方支援指南。",
+            "從 Apple 照片中刪除原始檔案並不會抹除所有現有或共享的複本。"
+          ]
+        },
+        {
+          "heading": "常見問題",
+          "paragraphs": [
+            "我可以不授予整個圖庫的存取權限就匯入照片嗎？可以。Freezon 支援受限的照片存取權限，讓您只選取想要匯入的特定照片與影片，同時確保圖庫的其餘部分維持私密。",
+            "如果我選擇保留原始檔案但日後想要移除，該怎麼做？請開啟 Freezon 並前往「設定 → 清理原始檔案」。此功能會找出已匯入但仍保留原始檔案的媒體，並提示 Apple 系統刪除對話框，以便稍後進行清理。",
+            "為什麼 Apple 照片在移除原始檔案時會要求確認？Apple 照片需要個別的系統確認來保護圖庫防止非預期的刪除，確保任何檔案在未獲得您直接同意的情況下都不會被移除。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPhoneの「写真」アプリから写真を移す方法",
+      "deck": "Freezonに写真や動画を取り込み、表示と再生を確認してから元のファイルを削除する手順と、「写真」アプリの「最近削除した項目」の管理方法を紹介します。",
+      "download": "App Storeで見る",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPhoneの「写真」アプリから写真を移し、専用のパスワードで保護するには、選んだ写真をFreezonに取り込み、ファイルが正しく表示されることを確認してから、iOSの確認画面でカメラロールからの元のファイルの削除を承認します。iPhoneとiPad向けのFreezonは、プライベートな写真や動画を端末内で暗号化して保存できるアプリです。メインの写真ライブラリを煩雑にしたり、普段の使い方を妨げたりすることなく、大切な写真や動画を保護できます。",
+            "ここでは、少量のファイルで手順を試し、写真や動画を移し、元のファイルを整理するまでの流れを順番に紹介します。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "ステップ1：少量の写真や動画で試す",
+          "paragraphs": [
+            "大切なプライベートの写真や動画を移す前に、見られても差し支えない写真を2〜3枚、または短い動画を使って手順を試しましょう。",
+            "1. Freezonを開き、新しく取り込みを始めます。",
+            "2. システムのアクセス許可画面が表示されたら、「写真を選択…」を選び、写真へのアクセスを制限します。Freezonがアクセスできるのは選んだ項目だけになり、カメラロール内のほかの写真や動画は非公開のままにできます。",
+            "3. テスト用の写真や動画を選び、このテストでは元のファイルを残すことを選んで、Freezonの端末内の暗号化ストレージへの取り込みを完了します。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "ステップ2：Freezonで写真や動画を開いて確認する",
+          "paragraphs": [
+            "端末から元のファイルを削除する前に、取り込んだ写真や動画に問題がないことを必ず確認しましょう。",
+            "1. Freezonを開き、専用のパスワードを入力します。",
+            "2. 新しく取り込んだ写真を1枚ずつタップし、画像全体が正しく表示されることを確認します。",
+            "3. 動画は最初から最後まで再生し、途切れたり欠けたりせず、スムーズに再生できることを確認します。",
+            "先にファイルを確認しておけば、「写真」アプリ側で変更を加える前に、写真や動画が端末内の暗号化ストレージに安全に保存されていることを確かめられます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "ステップ3：元の写真の扱いを選ぶ",
+          "paragraphs": [
+            "Freezonで写真や動画を確認できたら、用途に合わせて「写真」アプリ内の元のファイルをどう扱うか選びます。",
+            "選択肢A：元のファイルを削除する。プライベートな写真をメインのカメラロールから完全に移したい場合に選びます。元のファイルを残して取り込み、確認を済ませた写真や動画について、Freezonの「設定」から「元のファイルを整理」を開き、整理する項目を選択します。iOSのシステム確認画面が表示されたら、「削除」をタップします。",
+            "選択肢B：元のファイルを残す。暗号化したコピーを保存しつつ、共有アルバムやほかのアプリでも元のファイルを使いたい場合に選びます。元のファイルは「写真」アプリに残しておきます。後から整理したくなったら、Freezonの「設定」から「元のファイルを整理」を開き、整理する項目を選択します。",
+            "「写真」アプリでは、誤って写真や動画を削除しないよう、アプリによる削除の前にiOSのシステム画面で別途確認が求められます。この画面で削除を承認すると、元のファイルはメインのライブラリ表示から取り除かれます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "ステップ4：「写真」アプリの「最近削除した項目」を管理する",
+          "paragraphs": [
+            "Freezonから元のファイルを削除しても、すぐにiPhoneから完全に消去されるわけではありません。「写真」アプリでの削除は、システム側の独立した処理として扱われます。",
+            "1. 削除の確認画面で承認すると、「写真」アプリは元のファイルを「最近削除した項目」アルバムに移動します。",
+            "2. 「写真」アプリの通常のルールでは、削除した項目は手動で消去しない限り、「最近削除した項目」に最大30日間残ります。",
+            "3. ファイルを端末からすぐに削除するには、「写真」アプリを開き、「ユーティリティ」から「最近削除した項目」を開いて認証し、「削除」を選びます。システムの削除ルールの詳細は、Appleサポートの公式ガイドで確認できます。",
+            "4. 「写真」アプリから元のファイルを削除しても、すでに存在するコピーや共有済みのコピーがすべて消えるわけではありません。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "よくある質問",
+          "paragraphs": [
+            "写真ライブラリ全体へのアクセスを許可せずに取り込めますか？",
+            "はい。Freezonは写真への制限付きアクセスに対応しています。取り込みたい写真や動画だけを選び、ライブラリ内のほかの項目は非公開のままにできます。",
+            "元のファイルを残すことを選びましたが、後から削除したくなった場合はどうすればよいですか？",
+            "Freezonを開き、「設定」から「元のファイルを整理」に進みます。この機能は、取り込み時に元のファイルを残した写真や動画を見つけ、Appleのシステム削除確認画面を表示するため、後からまとめて整理できます。",
+            "元のファイルを削除するときに、「写真」アプリで確認が求められるのはなぜですか？",
+            "誤ってライブラリ内のファイルを削除しないよう、「写真」アプリではシステム画面で別途確認が必要です。ユーザーが直接承認しない限り、ファイルは削除されません。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "iPhone의 Apple 사진 앱에서 사진을 외부로 이동하는 방법",
+      "deck": "iPhone의 사진을 독립된 비밀번호로 보호되는 로컬 암호화 저장소로 이동하고 카메라 롤 원본을 정리하는 단계별 가이드입니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPhone의 Apple 사진 앱에서 사진을 이동하여 독립된 비밀번호로 보호되는 공간에 보관하려면, 선택한 항목을 Freezon으로 가져오고 파일이 올바르게 표시되는지 확인한 다음 카메라 롤에서 원본을 제거하라는 iOS 시스템 확인을 승인하면 됩니다. iPhone 및 iPad용 Freezon은 개인 사진과 비디오를 위한 로컬 암호화 저장소를 제공하므로 기본 사진 보관함을 어지럽히거나 방해하지 않고 개인 미디어를 안전하게 보호할 수 있습니다.",
+            "다음은 프로세스를 테스트하고 미디어를 안전하게 이전하며 원본 파일을 깔끔하게 관리할 수 있는 실용적인 단계별 워크플로입니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "1단계: 작은 테스트 배치로 시작하기",
+          "paragraphs": [
+            "중요한 개인 미디어를 이전하기 전에 민감하지 않은 사진 두세 장이나 짧은 동영상 클립 등 소량으로 워크플로를 먼저 테스트해 보세요."
+          ],
+          "bullets": [
+            "Freezon을 열고 새로운 가져오기를 시작합니다.",
+            "시스템 권한 확인 창이 나타나면 사진 선택...을 선택하여 제한된 사진 접근 권한을 사용합니다. 이렇게 하면 Freezon의 접근 권한이 사용자가 선택한 항목으로 엄격하게 제한되어 나머지 카메라 롤은 비공개 상태로 안전하게 유지됩니다.",
+            "테스트 항목을 선택하고, 이번 테스트 배치에서는 원본을 유지하도록 선택한 후 Freezon의 로컬 암호화 저장소로 가져오기를 완료합니다."
+          ]
+        },
+        {
+          "heading": "2단계: Freezon 내부에서 미디어 열기 및 확인",
+          "paragraphs": [
+            "기기에서 원본을 삭제하기 전에 가져온 미디어가 온전한지 항상 확인하세요.",
+            "파일을 먼저 검증하면 Apple 사진 앱을 변경하기 전에 미디어가 로컬 암호화 저장소에 안전하게 저장되었음을 보장할 수 있습니다."
+          ],
+          "bullets": [
+            "Freezon을 열고 독립된 비밀번호를 입력합니다.",
+            "새로 가져온 사진을 각각 탭하여 이미지가 온전히 표시되는지 확인합니다.",
+            "동영상을 처음부터 끝까지 재생하여 원활하고 완전하게 재생되는지 확인합니다."
+          ]
+        },
+        {
+          "heading": "3단계: 원본 사진 처리를 위한 작업 경로 선택",
+          "paragraphs": [
+            "Freezon에서 미디어가 검증되면 워크플로에 맞춰 Apple 사진 앱의 원본 파일을 어떻게 처리할지 선택합니다.",
+            "Apple 사진 앱은 의도치 않은 삭제로부터 보관함을 보호하므로, 어떠한 앱이든 미디어를 삭제하기 전에 iOS에서 별도의 시스템 확인을 요구합니다. 이 대화상자를 확인하면 기본 사진 보관함 보기에서 원본이 제거됩니다."
+          ],
+          "bullets": [
+            "분기 A: 원본 삭제 — 개인 사진을 기본 카메라 롤에서 완전히 제거할 때 선택합니다. 유지하고 확인을 마친 배치에 대해 Freezon의 설정 → 원본 정리로 이동하여 정리할 항목을 선택합니다. iOS 시스템 확인 대화상자가 나타나면 삭제를 탭합니다.",
+            "분기 B: 원본 유지 — 암호화된 사본을 보관하면서도 공유 앨범이나 다른 앱을 위해 원본 파일이 계속 필요한 경우 선택합니다. 원본을 Apple 사진 앱에 그대로 둡니다. 나중에 정리하려면 Freezon의 설정 → 원본 정리를 사용하여 정리할 항목을 선택합니다."
+          ]
+        },
+        {
+          "heading": "4단계: Apple 사진 앱의 최근 삭제된 항목 관리",
+          "paragraphs": [
+            "Freezon을 통해 원본을 삭제해도 iPhone에서 즉시 영구적으로 지워지는 것은 아닙니다. Apple 사진 앱은 삭제를 독립적인 시스템 프로세스로 처리합니다."
+          ],
+          "bullets": [
+            "삭제 요청을 승인하면 Apple 사진 앱은 원본 파일을 최근 삭제된 항목 앨범으로 이동합니다.",
+            "표준 Apple 사진 앱 규칙에 따라 일반적인 삭제 항목은 수동으로 직접 제거하지 않는 한 최근 삭제된 항목에 최대 30일 동안 보관됩니다.",
+            "기기에서 파일을 즉시 완전히 제거하려면 Apple 사진 앱을 열고 기타 항목에서 최근 삭제된 항목을 연 후 인증을 거쳐 삭제를 선택합니다. 시스템 삭제 규칙에 관한 자세한 내용은 Apple 공식 지원 가이드를 참조하세요.",
+            "Apple 사진 앱에서 원본을 삭제하더라도 기존에 생성된 복사본이나 공유된 모든 사본이 함께 지워지는 것은 아닙니다."
+          ]
+        },
+        {
+          "heading": "자주 묻는 질문",
+          "paragraphs": [
+            "전체 보관함에 대한 접근 권한을 부여하지 않고도 사진을 가져올 수 있나요?",
+            "네, 가능합니다. Freezon은 제한된 사진 접근 권한을 지원하므로 나머지 보관함은 비공개로 유지한 채 가져오려는 특정 사진과 비디오만 선택할 수 있습니다.",
+            "원본을 유지하도록 선택했다가 나중에 삭제하고 싶다면 어떻게 해야 하나요?",
+            "Freezon을 열고 설정 → 원본 정리로 이동하세요. 이 기능은 원본이 유지된 가져온 미디어를 식별하여 나중에 정리할 수 있도록 Apple 시스템 삭제 대화상자를 호출합니다.",
+            "원본을 제거할 때 Apple 사진 앱에서 확인을 요청하는 이유는 무엇인가요?",
+            "Apple 사진 앱은 사용자의 직접적인 동의 없이 어떤 파일도 삭제되지 않도록 보관함을 원치 않는 삭제로부터 보호하기 위해 별도의 시스템 확인을 요구합니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo mover fotos fuera de Apple Fotos en el iPhone",
+      "deck": "Descubre cómo transferir fotos de Apple Fotos a Freezon para protegerlas con una contraseña independiente y eliminarlas de tu carrete de forma segura.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para mover fotos fuera de Apple Fotos en un iPhone y guardarlas tras una contraseña independiente, importa los elementos seleccionados en Freezon, comprueba que los archivos se muestren correctamente y confirma el aviso del sistema iOS para eliminar los originales de tu carrete. Freezon para iPhone y iPad ofrece almacenamiento cifrado local para fotos y videos privados, lo que te permite proteger tus archivos personales sin desorganizar ni alterar tu fototeca principal.",
+            "A continuación encontrarás un flujo de trabajo práctico paso a paso para probar el proceso, transferir tu contenido y administrar los archivos originales de forma limpia."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Paso 1: Comienza con un lote de prueba pequeño",
+          "paragraphs": [
+            "Antes de transferir archivos personales importantes, prueba el flujo de trabajo con un lote pequeño de dos o tres fotos que no sean delicadas o un video corto."
+          ],
+          "bullets": [
+            "Abre Freezon e inicia una nueva importación.",
+            "Cuando aparezca el aviso de permisos del sistema, elige Seleccionar fotos... para usar el acceso limitado a Fotos. Esto restringe la visibilidad de Freezon únicamente a los elementos que elijas y mantiene privado el resto de tu carrete.",
+            "Selecciona los elementos de prueba, elige conservar los originales para este lote de prueba y completa la importación en el almacenamiento cifrado local de Freezon."
+          ]
+        },
+        {
+          "heading": "Paso 2: Abre y verifica los archivos dentro de Freezon",
+          "paragraphs": [
+            "Confirma siempre que tus archivos importados estén intactos antes de borrar cualquier original de tu dispositivo:",
+            "Verificar primero tus archivos garantiza que tu contenido quede guardado de forma segura en el almacenamiento cifrado local antes de hacer cambios en Apple Fotos."
+          ],
+          "bullets": [
+            "Abre Freezon e ingresa tu contraseña independiente.",
+            "Toca cada foto recién importada para comprobar que la imagen se muestre por completo.",
+            "Reproduce los videos de principio a fin para asegurarte de que la reproducción sea fluida y completa."
+          ]
+        },
+        {
+          "heading": "Paso 3: Elige qué hacer con las fotos originales",
+          "paragraphs": [
+            "Una vez que hayas verificado tu contenido en Freezon, elige cómo gestionar los archivos originales en Apple Fotos según tu flujo de trabajo:",
+            "Debido a que Apple Fotos protege tu biblioteca contra eliminaciones accidentales, iOS requiere una confirmación del sistema independiente antes de que cualquier aplicación pueda eliminar archivos. Confirmar este cuadro de diálogo elimina los originales de la vista principal de tu biblioteca."
+          ],
+          "bullets": [
+            "Opción A: Eliminar originales. Elígela si deseas sacar tus fotos privadas por completo de tu carrete principal. En el caso del lote que conservaste y verificaste, abre Configuración → Limpiar originales en Freezon y selecciona los elementos a limpiar. Cuando iOS muestre el cuadro de diálogo de confirmación del sistema, toca Eliminar.",
+            "Opción B: Conservar originales. Elígela si quieres una copia cifrada pero todavía necesitas los archivos para álbumes compartidos u otras aplicaciones. Deja los originales en Apple Fotos. Si deseas eliminarlos más adelante, ve a Configuración → Limpiar originales en Freezon y selecciona los elementos correspondientes."
+          ]
+        },
+        {
+          "heading": "Paso 4: Administra los elementos eliminados recientemente en Apple Fotos",
+          "paragraphs": [
+            "Eliminar los originales a través de Freezon no los borra de inmediato de tu iPhone de forma permanente. Apple Fotos trata la eliminación como un proceso independiente del sistema:"
+          ],
+          "bullets": [
+            "Cuando apruebas el aviso de eliminación, Apple Fotos traslada los archivos originales a su álbum Eliminados.",
+            "Bajo las reglas habituales de Apple Fotos, las eliminaciones normales permanecen en Eliminados hasta por 30 días, a menos que las borres manualmente.",
+            "Para eliminar los archivos de tu dispositivo de inmediato, abre Apple Fotos, busca Eliminados en Utilidades, autentícate y selecciona Eliminar. Si deseas conocer todos los detalles sobre las reglas de eliminación del sistema, consulta la guía oficial de soporte técnico de Apple.",
+            "Eliminar los originales de Apple Fotos no borra todas las copias existentes o compartidas."
+          ]
+        },
+        {
+          "heading": "Preguntas frecuentes",
+          "paragraphs": [
+            "¿Puedo importar fotos sin conceder acceso a toda mi biblioteca? Sí. Freezon admite el acceso limitado a Fotos, lo que te permite seleccionar únicamente las fotos y videos específicos que deseas importar, manteniendo privado el resto de tu biblioteca.",
+            "¿Qué debo hacer si decidí conservar los originales pero quiero eliminarlos más adelante? Abre Freezon y ve a Configuración → Limpiar originales. Esta función identifica los archivos importados cuyos originales se conservaron y muestra el cuadro de diálogo de eliminación del sistema de Apple para realizar una limpieza posterior.",
+            "¿Por qué Apple Fotos solicita confirmación al eliminar originales? Apple Fotos requiere una confirmación del sistema independiente para proteger tu biblioteca contra eliminaciones involuntarias, garantizando que ningún archivo se elimine sin tu consentimiento directo."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como mover fotos para fora do app Fotos da Apple no iPhone",
+      "deck": "Importe fotos e vídeos para o Freezon, confira os arquivos e remova os originais do app Fotos da Apple, seguindo as etapas de confirmação do iOS e de gerenciamento do álbum Apagados.",
+      "download": "Ver na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para mover fotos para fora do app Fotos da Apple no iPhone e protegê-las com uma senha independente, importe os itens selecionados para o Freezon, verifique se os arquivos são exibidos corretamente e confirme a solicitação do iOS para apagar os originais do rolo da câmera. O Freezon para iPhone e iPad oferece armazenamento local criptografado para fotos e vídeos privados, permitindo proteger seus arquivos pessoais sem sobrecarregar nem atrapalhar o uso da fototeca principal.",
+            "Veja um passo a passo prático para testar o processo, transferir suas fotos e vídeos e organizar os arquivos originais."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Etapa 1: Comece com um pequeno lote de teste",
+          "paragraphs": [
+            "Antes de transferir fotos e vídeos pessoais importantes, teste o processo com duas ou três fotos sem conteúdo sensível ou um vídeo curto.",
+            "1. Abra o Freezon e inicie uma nova importação.",
+            "2. Quando a solicitação de permissão do sistema aparecer, escolha Selecionar Fotos… para conceder acesso limitado às fotos. Assim, o Freezon só poderá acessar os itens que você escolher, mantendo o restante do rolo da câmera privado.",
+            "3. Selecione os itens de teste, escolha manter os originais neste lote e conclua a importação para o armazenamento local criptografado do Freezon."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Etapa 2: Abra e confira as fotos e os vídeos no Freezon",
+          "paragraphs": [
+            "Antes de apagar qualquer original do dispositivo, sempre confirme se as fotos e os vídeos importados estão intactos:",
+            "1. Abra o Freezon e digite sua senha independente.",
+            "2. Toque em cada foto recém-importada para verificar se a imagem é exibida por completo.",
+            "3. Reproduza os vídeos do início ao fim para conferir se a reprodução é fluida e completa.",
+            "Conferir os arquivos primeiro permite confirmar que suas fotos e seus vídeos estão salvos com segurança no armazenamento local criptografado antes de fazer alterações no app Fotos da Apple."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Etapa 3: Escolha o que fazer com as fotos originais",
+          "paragraphs": [
+            "Depois de conferir suas fotos e seus vídeos no Freezon, escolha como lidar com os arquivos originais no app Fotos da Apple de acordo com suas necessidades:",
+            "Opção A: Apagar os originais. Escolha esta opção quando quiser mover fotos privadas inteiramente para fora do rolo da câmera principal. Para os itens cujos originais você manteve e já conferiu, abra Ajustes e depois Limpar originais no Freezon e selecione o que deseja remover. Quando o iOS exibir a caixa de confirmação do sistema, toque em Apagar.",
+            "Opção B: Manter os originais. Escolha esta opção quando quiser uma cópia criptografada, mas ainda precisar dos arquivos em álbuns compartilhados ou outros apps. Deixe os originais no app Fotos da Apple. Para removê-los mais tarde, abra Ajustes e depois Limpar originais no Freezon e selecione os itens desejados.",
+            "Para proteger sua fototeca contra exclusões acidentais, o iOS exige uma confirmação separada do sistema antes que qualquer app possa apagar fotos ou vídeos. Ao confirmar, os originais deixam de aparecer na visualização principal da fototeca."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Etapa 4: Gerencie o álbum Apagados do app Fotos da Apple",
+          "paragraphs": [
+            "Apagar os originais pelo Freezon não os remove permanentemente do iPhone de imediato. O app Fotos da Apple trata a exclusão como um processo separado do sistema:",
+            "1. Quando você aprova a solicitação de remoção, o app Fotos da Apple move os arquivos originais para o álbum Apagados.",
+            "2. Pelas regras normais do app Fotos da Apple, os itens excluídos permanecem no álbum Apagados por até 30 dias, a menos que você os remova manualmente.",
+            "3. Para remover os arquivos do dispositivo imediatamente, abra o app Fotos da Apple, encontre Apagados em Utilitários, confirme sua identidade e selecione Apagar. Para saber todos os detalhes sobre as regras de exclusão do sistema, consulte o guia oficial do Suporte da Apple.",
+            "4. Apagar os originais do app Fotos da Apple não elimina todas as cópias existentes ou compartilhadas."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Perguntas frequentes",
+          "paragraphs": [
+            "Posso importar fotos sem conceder acesso à minha fototeca inteira?",
+            "Sim. O Freezon oferece suporte ao acesso limitado às fotos, permitindo selecionar apenas as fotos e os vídeos que você deseja importar e manter o restante da fototeca privado.",
+            "O que devo fazer se escolhi manter os originais, mas quiser apagá-los depois?",
+            "Abra o Freezon e acesse Ajustes e depois Limpar originais. Esse recurso identifica as fotos e os vídeos importados cujos originais foram mantidos e exibe a caixa de confirmação de exclusão do sistema da Apple para que você possa removê-los depois.",
+            "Por que o app Fotos da Apple pede confirmação ao remover os originais?",
+            "O app Fotos da Apple exige uma confirmação separada do sistema para proteger sua fototeca contra exclusões não intencionais, garantindo que nenhum arquivo seja removido sem seu consentimento direto."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

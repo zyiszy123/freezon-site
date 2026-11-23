@@ -1,13 +1,17 @@
 import { accessSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
-import { englishScreenshotNotes, guideActionLabels, locales } from './locales.mjs';
+import { englishScreenshotNotes, guideActionLabels, locales, relatedGuideLabels } from './locales.mjs';
 import { article } from './photo-vault.mjs';
 import { appStoreURL, guideBundles, productLanguage, products } from './bundles.mjs';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const origin = 'https://freezonapp.com';
 const slug = 'iphone-hidden-album-vs-photo-vault';
+const flagship = {
+  title: 'iPhone Hidden Album vs. Photo Vault: Which One Do You Actually Need?',
+  deck: 'Compare how Apple Photos and Freezon unlock, store, and back up your photos.',
+};
 const languages = Object.keys(locales);
 const guidePath = (lang, topic = '') => `/guides/${lang === 'en' ? '' : `${lang}/`}${topic ? `${topic}/` : ''}`;
 const html = (value) => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'})[c]);
@@ -169,15 +173,44 @@ function localizedArticle(lang, data) {
 ${downloadActions(lang, install, campaignURL(country))}
       </div>
     </section>
+    ${relatedGuides(lang, slug)}
   </article>` };
 }
 
 const bundleDir = resolve(root, 'scripts/guides/articles');
 const bundles = existsSync(bundleDir) ? guideBundles(bundleDir, slug) : [];
+const vaultGuideContent = new Map(bundles.filter(bundle => bundle.product === 'vault')
+  .map(bundle => [bundle.slug, bundle.content]));
+const setupGuide = 'separate-password-for-iphone-photos';
+const importGuide = 'move-photos-out-of-apple-photos';
+const passwordGuide = 'forgot-freezon-album-password';
+const backupGuide = 'backup-private-photos-before-switching-iphone';
+const nextGuides = {
+  [slug]: [setupGuide, importGuide, backupGuide],
+  [setupGuide]: [importGuide, passwordGuide, slug],
+  [importGuide]: [setupGuide, backupGuide, slug],
+  [passwordGuide]: [backupGuide, setupGuide, importGuide],
+  [backupGuide]: [passwordGuide, setupGuide, importGuide],
+};
+
+function relatedGuides(lang, topic) {
+  const links = (nextGuides[topic] ?? []).flatMap(next => {
+    const title = next === slug
+      ? (lang === 'en' ? flagship.title : split(article[lang])[0])
+      : vaultGuideContent.get(next)?.[lang].title;
+    return title ? [`<li><a href="${guidePath(lang, next)}">${html(title)}</a></li>`] : [];
+  });
+  if (!links.length) return '';
+  return `<section aria-labelledby="related-guides"><h2 id="related-guides">${html(relatedGuideLabels[lang])}</h2>
+      <ul>${links.join('\n      ')}</ul>
+    </section>`;
+}
+
 const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLocale, screenSections, content }) => languages.map(lang => {
   const { title, deck, sections, download, captions } = content[lang];
   const images = new Map(screenSections.map((section, i) => [section, figure(lang, screens[i], captions[i], product, topic, screenLocale)]));
   const firstScreenshot = screenLocale === 'en' ? Math.min(...screenSections) : -1;
+  const related = product === 'vault' ? relatedGuides(lang, topic) : '';
   const body = `<article class="guide-article">
     ${heading(title, deck, lang, topic)}
     ${coverImage(guideCover(topic))}
@@ -187,7 +220,7 @@ const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLoca
       ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
       ${i === firstScreenshot ? `<p class="guide-screenshot-note">${html(englishScreenshotNotes[lang])}</p>\n      ` : ''}${images.get(i) ?? ''}
     </section>`).join('\n    ')}
-    <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>
+    <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>${related ? `\n    ${related}` : ''}
   </article>`;
   return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product)];
 }));
@@ -227,10 +260,8 @@ for (const lang of languages.filter(lang => lang !== 'en')) {
   write(`${guidePath(lang)}index.html`, layout(lang, '', title, deck, list));
   write(`${guidePath(lang, slug)}index.html`, layout(lang, slug, translated.title, translated.deck, translated.body));
 }
-replaceRegion('guides/index.html', 'photo-vault-guides', [guideCard('en', slug, {
-  title: 'iPhone Hidden Album vs. Photo Vault: Which One Do You Actually Need?',
-  deck: 'Compare how Apple Photos and Freezon unlock, store, and back up your photos.',
-}), bundleCards('en', 'vault')].filter(Boolean).join('\n'));
+replaceRegion('guides/index.html', 'photo-vault-guides', [guideCard('en', slug, flagship),
+  bundleCards('en', 'vault')].filter(Boolean).join('\n'));
 replaceRegion('guides/index.html', 'banner-guides', bannerGuides('en'));
 
 for (const [file, topic] of [['guides/index.html', ''], [`guides/${slug}/index.html`, slug]]) {
@@ -241,6 +272,7 @@ replaceRegion(`guides/${slug}/index.html`, 'guide-cover-meta', coverMeta(guideCo
 replaceRegion(`guides/${slug}/index.html`, 'guide-cover', coverImage(guideCover(slug)));
 replaceRegion(`guides/${slug}/index.html`, 'guide-download-actions', downloadActions('en', 'View Freezon on the App Store',
   'https://apps.apple.com/app/apple-store/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8'));
+replaceRegion(`guides/${slug}/index.html`, 'guide-related-links', relatedGuides('en', slug));
 replaceRegion('sitemap.xml', 'localized-guides', languages.filter(lang => lang !== 'en').flatMap(lang =>
   ['', slug].map(topic => `  <url><loc>${origin}${guidePath(lang, topic)}</loc></url>`)).join('\n'));
 replaceRegion('sitemap.xml', 'article-bundles', bundles.flatMap(({ slug: topic }) => languages.map(lang =>
