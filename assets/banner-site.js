@@ -85,6 +85,13 @@
     badge.alt = store.alt;
   };
 
+  const updateGuideLinks = (lang) => {
+    const path = lang === "en" ? "/guides/" : `/guides/${lang}/`;
+    document.querySelectorAll("[data-banner-guides-link]").forEach((link) => {
+      link.href = `${path}#banner-guides`;
+    });
+  };
+
   const setMode = (mode) => {
     const { screen, playback } = demoElements();
     document.querySelectorAll("[data-demo-mode]").forEach((button) => {
@@ -134,6 +141,7 @@
     updatePictures(lang);
     updateDemoLanguage(lang);
     updateAppStoreLink(lang);
+    updateGuideLinks(lang);
   });
 
   document.addEventListener("DOMContentLoaded", () => {
@@ -141,5 +149,6 @@
     updatePictures(currentLanguage);
     initDemo();
     updateAppStoreLink(currentLanguage);
+    updateGuideLinks(currentLanguage);
   });
 })();
