@@ -112,7 +112,10 @@ function figure(lang, screen, caption, product = 'vault', topic, screenLocale) {
   const articleImage = topic && [imageLang, productLanguage(imageLang, product)]
     .map(mediaLang => `/guides/media/${topic}/${mediaLang}/${screen}.webp`)
     .find(url => existsSync(resolve(root, url.slice(1))));
-  const image = articleImage || (product === 'banner' ? `/assets/banner-guide-screens/${productLanguage(imageLang, product)}/${screen}.webp` : null);
+  const bannerLocale = productLanguage(imageLang, product);
+  const galleryScreen = product === 'banner' && /^(ipad|iphone)-(\d{2}-[a-z0-9-]+)$/.exec(screen);
+  const galleryImage = galleryScreen && `/assets/banner/${bannerLocale}/${galleryScreen[1]}/${galleryScreen[2]}.webp`;
+  const image = articleImage || galleryImage || (product === 'banner' ? `/assets/banner-guide-screens/${bannerLocale}/${screen}.webp` : null);
   if (image) {
     accessSync(resolve(root, image.slice(1)));
     return `<figure class="guide-figure"><a href="${image}"><img src="${image}" loading="lazy" decoding="async" alt="${html(caption)}"></a><figcaption>${html(caption)}</figcaption></figure>`;
@@ -179,25 +182,34 @@ ${downloadActions(lang, install, campaignURL(country))}
 
 const bundleDir = resolve(root, 'scripts/guides/articles');
 const bundles = existsSync(bundleDir) ? guideBundles(bundleDir, slug) : [];
-const vaultGuideContent = new Map(bundles.filter(bundle => bundle.product === 'vault')
-  .map(bundle => [bundle.slug, bundle.content]));
+const guideContent = new Map(bundles.map(bundle => [bundle.slug, bundle.content]));
 const setupGuide = 'separate-password-for-iphone-photos';
 const importGuide = 'move-photos-out-of-apple-photos';
 const passwordGuide = 'forgot-freezon-album-password';
 const backupGuide = 'backup-private-photos-before-switching-iphone';
+const concertGuide = 'iphone-concert-scrolling-led-sign';
+const iPadGuide = 'ipad-full-screen-led-sign';
+const airportGuide = 'iphone-airport-pickup-sign';
+const birthdayGuide = 'draw-a-birthday-led-sign';
+const shareGuide = 'share-led-banner-iphone-ipad';
 const nextGuides = {
   [slug]: [setupGuide, importGuide, backupGuide],
   [setupGuide]: [importGuide, passwordGuide, slug],
   [importGuide]: [setupGuide, backupGuide, slug],
   [passwordGuide]: [backupGuide, setupGuide, importGuide],
   [backupGuide]: [passwordGuide, setupGuide, importGuide],
+  [concertGuide]: [shareGuide, iPadGuide, birthdayGuide],
+  [iPadGuide]: [airportGuide, birthdayGuide, concertGuide],
+  [airportGuide]: [iPadGuide, shareGuide, concertGuide],
+  [birthdayGuide]: [iPadGuide, concertGuide, airportGuide],
+  [shareGuide]: [concertGuide, iPadGuide, airportGuide],
 };
 
 function relatedGuides(lang, topic) {
   const links = (nextGuides[topic] ?? []).flatMap(next => {
     const title = next === slug
       ? (lang === 'en' ? flagship.title : split(article[lang])[0])
-      : vaultGuideContent.get(next)?.[lang].title;
+      : guideContent.get(next)?.[lang].title;
     return title ? [`<li><a href="${guidePath(lang, next)}">${html(title)}</a></li>`] : [];
   });
   if (!links.length) return '';
@@ -210,7 +222,7 @@ const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLoca
   const { title, deck, sections, download, captions } = content[lang];
   const images = new Map(screenSections.map((section, i) => [section, figure(lang, screens[i], captions[i], product, topic, screenLocale)]));
   const firstScreenshot = screenLocale === 'en' ? Math.min(...screenSections) : -1;
-  const related = product === 'vault' ? relatedGuides(lang, topic) : '';
+  const related = relatedGuides(lang, topic);
   const body = `<article class="guide-article">
     ${heading(title, deck, lang, topic)}
     ${coverImage(guideCover(topic))}

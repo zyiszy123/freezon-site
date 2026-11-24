@@ -1,0 +1,577 @@
+{
+  "slug": "iphone-airport-pickup-sign",
+  "product": "banner",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Make an Airport Pickup Sign on iPhone or iPad",
+      "deck": "Turn your iPhone or iPad into an easy-to-read airport pickup sign. Set up a static name display, preview it, and show it full screen.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Picture standing behind the metal barrier in a busy international arrivals hall. Travelers stream through sliding doors, scanning a sea of greeting drivers holding scrawled cardboard or flimsy paper. In a crowded terminal with glaring overhead lights, your guest needs to spot you instantly from thirty feet away. With Freezon Banner on your iPhone or iPad, you can turn your screen into a crisp, bright, professional sign in under a minute."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Why Static Landscape Signs Work Best",
+          "paragraphs": [
+            "When passengers enter arrivals, their eyes scan the crowd rapidly. A landscape, single-screen static banner is much easier to read at a glance than moving or blinking text.",
+            "Rotating your device to landscape maximizes horizontal space, letting letters scale as large as possible. In Freezon Banner, single-screen static mode keeps your lettering steady and sharp. The automatic text size feature dynamically expands your text to fill the screen without manual guesswork. Because single-screen static, the system font, and the standard effect are free, you get a clean sign without in-app purchases."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Setting Up Your Sign in Freezon Banner",
+          "paragraphs": [
+            "Setting up a high-visibility sign takes only a few taps:"
+          ],
+          "bullets": [
+            "Open Freezon Banner on your iPhone or iPad.",
+            "In the text editor, choose single-screen static.",
+            "Keep the standard effect and default system font for maximum legibility.",
+            "Select a high-contrast palette, such as crisp white text on a solid black background. Solid contrast cuts through bright airport lighting far better than colorful gradients.",
+            "Select automatic text size so the app expands the letters to fill your display."
+          ]
+        },
+        {
+          "heading": "Formatting Your Text: MORGAN vs. WELCOME / MORGAN",
+          "paragraphs": [
+            "At the airport, brevity ensures readability. The fewer letters you enter, the larger they appear.",
+            "For a single-line sign, entering MORGAN lets the app enlarge the name to maximum scale, easily readable from across the hall.",
+            "If you prefer a polite greeting, add a line break to create a two-line sign:",
+            "Adding a second line cuts letter height roughly in half. To keep the sign legible, omit flight numbers, first names, honorifics like \"Mr.\" or \"Dr.\", and greetings like \"Safe Travels\". If a name is especially long, there is no guarantee every letter will fit at huge sizes; you can shorten it, split it across lines, or manually resize it."
+          ],
+          "bullets": [
+            "Line 1: WELCOME",
+            "Line 2: MORGAN"
+          ]
+        },
+        {
+          "heading": "Checking the Preview and Going Full Screen",
+          "paragraphs": [
+            "Never wait until your guest steps through customs to test your sign. Freezon Banner provides a live preview above the editor so you can review your design in advance.",
+            "Before joining the arrivals crowd:"
+          ],
+          "bullets": [
+            "Check the live preview to verify spelling, line breaks, and contrast.",
+            "Step back five paces or hold the device at arm's length. If you cannot read the name instantly, shorten the wording.",
+            "Tap full-screen display. On iPhone, full-screen text auto-rotates to landscape by default.",
+            "Hold your device steady. Freezon Banner automatically keeps the screen awake while displayed in the foreground, ensuring your sign never dims or locks while waiting."
+          ]
+        },
+        {
+          "heading": "Choosing Your Device and When to Use Scrolling",
+          "paragraphs": [
+            "Deciding between iPhone and iPad depends on crowd size and convenience:",
+            "While static mode works best for quick recognition, scrolling text is a better choice if you must display an exceptionally long surname or include both a company name and a passenger's full name. Scrolling keeps long phrases readable without shrinking the text into tiny, unreadable letters."
+          ],
+          "bullets": [
+            "iPhone: Compact and portable. It slips into your pocket between flights and works wonderfully for light crowds.",
+            "iPad: The best option for peak arrival times. Its expansive screen acts like a bright beacon visible over heads in dense crowds."
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "paragraphs": [
+            "Will my screen turn off while waiting at arrivals? No. Freezon Banner keeps the screen awake while the sign is displayed in the foreground, keeping your sign lit until your guest arrives.",
+            "What should I do if a long name looks too small? Shorten it to just the surname, split it across lines with a line break, or switch to scrolling mode if preserving every word is necessary."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 或 iPad 上制作机场接机牌",
+      "deck": "使用 iPhone 或 iPad 上的 Freezon Banner，在一分钟内将屏幕变成清晰明亮且专业的机场接机牌。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想象一下，你站在繁忙的国际到达大厅的金属隔离栏后。旅客们穿过自动滑门涌出，在举着字迹潦草的硬纸板或薄纸片的接机人群中寻找自己的名字。在头顶灯光刺眼、人潮拥挤的航站楼里，你的客人需要从三十英尺外瞬间发现你。通过 iPhone 或 iPad 上的 Freezon Banner，你可以在一分钟内将屏幕变成一块清晰、明亮且专业的接机牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "为什么横屏静止标牌效果最好",
+          "paragraphs": [
+            "当旅客步入到达区时，他们的目光会在人群中快速扫视。横屏单屏静止横幅比移动或闪烁的文字更容易一眼辨认。",
+            "将设备旋转至横屏可以最大化利用水平空间，让文字尽可能放大。在 Freezon Banner 中，单屏静止模式让你的字迹保持稳定且清晰。自动文字大小功能会动态放大文本以填满屏幕，无需手动估算。由于单屏静止、系统字体和标准特效均可免费使用，你无需任何应用内购买即可获得干净清晰的标牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在 Freezon Banner 中设置接机牌",
+          "paragraphs": [
+            "只需轻点几下即可设置高可见度标牌："
+          ],
+          "bullets": [
+            "在 iPhone 或 iPad 上打开 Freezon Banner。",
+            "在文本编辑器中，选择单屏静止。",
+            "保留标准特效和默认系统字体，以获得最佳易读性。",
+            "选择高对比度配色方案，例如纯黑背景上的清晰白字。纯色对比度穿透机场明亮灯光的效果远好于彩色渐变。",
+            "选择自动文字大小，以便应用放大文字填满屏幕。"
+          ]
+        },
+        {
+          "heading": "排版文字：MORGAN 与 WELCOME / MORGAN",
+          "paragraphs": [
+            "在机场，简短能确保易读性。输入的字母越少，显示的字体就越大。",
+            "对于单行标牌，输入 MORGAN 可让应用将名字放大到最大尺寸，从大厅另一端也能轻松看清。",
+            "如果你想要更礼貌的问候语，可以换行创建双行标牌：",
+            "添加第二行会使字母高度减少约一半。为了保持标牌易读，请省略航班号、名字、诸如“Mr.”或“Dr.”等尊称，以及“Safe Travels”等问候语。如果名字特别长，无法保证每个字母都能以超大尺寸显示；你可以缩短名字、分行显示，或手动调整大小。"
+          ],
+          "bullets": [
+            "第 1 行：WELCOME",
+            "第 2 行：MORGAN"
+          ]
+        },
+        {
+          "heading": "检查预览并进入全屏",
+          "paragraphs": [
+            "切勿等到客人走出海关才测试标牌。Freezon Banner 在编辑器上方提供实时预览，方便你提前查看设计效果。",
+            "在加入接机人群之前："
+          ],
+          "bullets": [
+            "检查实时预览，确认拼写、换行和对比度。",
+            "后退五步或将设备保持在手臂距离外。如果无法立即看清名字，请缩短文字。",
+            "轻点全屏显示。在 iPhone 上，全屏文字默认自动旋转至横屏。",
+            "平稳握持设备。Freezon Banner 在前台显示时会自动保持屏幕常亮，确保标牌在等待过程中不会变暗或锁定。"
+          ]
+        },
+        {
+          "heading": "选择设备及何时使用滚动模式",
+          "paragraphs": [
+            "在 iPhone 和 iPad 之间做出选择取决于人群密度和便利性：",
+            "虽然静止模式最适合快速辨认，但如果你必须显示特别长的姓氏，或同时包含公司名称和乘客全名，滚动文字则是更好的选择。滚动模式可以让较长的词句保持清晰易读，而不会将文字缩小到难以辨认的微小尺寸。"
+          ],
+          "bullets": [
+            "iPhone：小巧便携。在航班到达间隙可以轻松放入口袋，非常适合接机人数较少的情况。",
+            "iPad：高峰到达时段的最佳选择。其宽大屏幕犹如明亮的信标，在密集人群上方清晰可见。"
+          ]
+        },
+        {
+          "heading": "常见问题",
+          "paragraphs": [
+            "在到达区等待时我的屏幕会熄灭吗？不会。Freezon Banner 在前台显示标牌时会保持屏幕常亮，让你的标牌持续亮起，直到客人到达。",
+            "如果较长的名字看起来太小该怎么办？可以将其缩短为仅保留姓氏、通过换行分行显示，或者在必须保留每个单词时切换至滚动模式。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 或 iPad 上製作機場接機牌",
+      "deck": "了解如何使用 iPhone 或 iPad 上的 Freezon Banner，在數分鐘內製作出清晰、高對比且專業的機場接機牌。",
+      "download": "下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想像一下，您站在繁忙的國際線入境大廳金屬欄杆後方。旅客穿過自動滑門湧出，在一片手持潦草紙板或單薄紙張的接機人群中四處張望。在頂燈刺眼的擁擠航廈內，您的貴賓需要從三十英尺外一眼認出您。透過 iPhone 或 iPad 上的 Freezon Banner，您可以在一分鐘內將螢幕變成清晰、明亮且專業的接機牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "為什麼橫向靜態牌效果最佳",
+          "paragraphs": [
+            "當旅客步入入境大廳時，他們的目光會迅速掃視人群。橫向的單畫面靜態橫幅，比起移動或閃爍的文字更能讓人一目了然。",
+            "將裝置旋轉至橫向可充分利用水平空間，讓文字盡可能放大。在 Freezon Banner 中，單畫面靜態模式能讓字樣保持穩定且清晰。自動文字大小功能可動態放大文字以填滿螢幕，完全不需要手動摸索調整。由於單畫面靜態、系統字型與標準效果皆為免費功能，因此您無須進行任何應用程式內購買，即可獲得一張乾淨俐落的接機牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在 Freezon Banner 中設定接機牌",
+          "paragraphs": [
+            "只需輕點幾下，即可設定清晰醒目的接機牌："
+          ],
+          "bullets": [
+            "在 iPhone 或 iPad 上開啟 Freezon Banner。",
+            "在文字編輯器中，選擇單畫面靜態。",
+            "保留標準效果與預設系統字型，以獲得最佳易讀性。",
+            "選擇高對比配色，例如純黑背景搭配俐落白字。純色對比穿透機場強烈照明的效果，遠勝過彩色漸層。",
+            "選擇自動文字大小，讓應用程式放大文字以填滿螢幕。"
+          ]
+        },
+        {
+          "heading": "文字排版：MORGAN 與 WELCOME / MORGAN",
+          "paragraphs": [
+            "在機場，簡潔是確保易讀性的關鍵。輸入的字母越少，字體就能放得越大。",
+            "若製作單行接機牌，輸入 MORGAN 能讓應用程式將名字放大至最大尺寸，即使從大廳另一側也能輕鬆看清。",
+            "若您希望加上客氣的問候語，可以加入換行製作兩行式接機牌：",
+            "增加第二行會使文字高度縮小約一半。為了保持接機牌清晰易讀，請省略航班編號、名字、如「Mr.」或「Dr.」等稱謂，以及「旅途愉快」等祝福語。如果名字特別長，無法保證所有字母都能以極大字體呈現；您可以縮短文字、分行顯示，或手動調整大小。"
+          ],
+          "bullets": [
+            "第 1 行：WELCOME",
+            "第 2 行：MORGAN"
+          ]
+        },
+        {
+          "heading": "檢查預覽並進入全螢幕",
+          "paragraphs": [
+            "切勿等到客人走出海關才測試接機牌。Freezon Banner 在編輯器上方提供即時預覽，方便您提前確認設計成果。",
+            "在加入接機人群之前："
+          ],
+          "bullets": [
+            "查看即時預覽，以確認拼字、換行與對比度。",
+            "後退五步或將裝置拿在手臂長度的距離。如果無法立即看清名字，請簡化字數。",
+            "點按全螢幕顯示。在 iPhone 上，全螢幕文字預設會自動旋轉為橫向。",
+            "穩定拿持您的裝置。Freezon Banner 在前景顯示時會自動保持螢幕常亮，確保接機牌在等待過程中絕不變暗或鎖定。"
+          ]
+        },
+        {
+          "heading": "選擇裝置以及何時使用跑馬燈捲動",
+          "paragraphs": [
+            "在 iPhone 與 iPad 之間做選擇，取決於現場人潮多寡與攜帶便利性：",
+            "雖然靜態模式最適合快速辨識，但若必須顯示極長的姓氏，或同時包含公司名稱與乘客全名，捲動文字則是更好的選擇。捲動能保持長句的易讀性，避免文字縮小成難以辨識的細小字體。"
+          ],
+          "bullets": [
+            "iPhone：小巧便攜。在航班抵達間隙可隨手放入口袋，非常適合人潮不多的場合。",
+            "iPad：尖峰抵達時段的最佳選擇。寬大的螢幕就像明亮的信標，即使在擁擠人群中也能高過人頭、清晰可見。"
+          ]
+        },
+        {
+          "heading": "常見問題",
+          "paragraphs": [
+            "在入境大廳等待時，螢幕會自動關閉嗎？不會。Freezon Banner 在前景顯示時會保持螢幕常亮，讓接機牌持續發亮，直到客人抵達。",
+            "如果名字太長看起來太小，該怎麼辦？您可以縮短為只顯示姓氏、加入換行分行顯示，或者在必須完整保留所有字詞時切換至捲動模式。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPhoneやiPadで空港のお迎えサインを作成する方法",
+      "deck": "Freezon Bannerを使い、iPhoneやiPadを高コントラストで視認性の高い空港のお迎えサインに変える方法を解説します。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "混雑する国際線の到着ロビーで、金属製フェンスの前に立っている姿を想像してみてください。自動ドアから旅行者が次々と現れ、手書きの段ボールや薄っぺらい紙を掲げる出迎えの人波に目を走らせています。まぶしい照明に照らされた混雑するターミナルでは、お迎えの相手が約9メートル（30フィート）離れた場所からでも一瞬であなたを見つけられる必要があります。iPhoneやiPadでFreezon Bannerを使えば、お使いの画面を1分足らずで鮮明かつ明るく、プロ仕様のお迎えサインに変えることができます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "横向きの静止サインが最も効果的な理由",
+          "paragraphs": [
+            "乗客が到着口に入ると、視線は人混みを素早く見渡します。横向きで1画面に収まる静止バナーは、動いたり点滅したりするテキストよりも、ひと目で圧倒的に読み取りやすくなります。",
+            "デバイスを横向きに回転させると横方向のスペースが最大化され、文字を可能な限り大きく拡大できます。Freezon Bannerの1画面静止モードなら、文字がブレずにくっきりと表示されます。自動テキストサイズ機能により、手動で調整することなく文字が画面いっぱいに自動拡大されます。1画面静止モード、システムフォント、標準エフェクトは無料で使用できるため、アプリ内課金をすることなくすっきりとしたサインが完成します。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezon Bannerでサインを設定する",
+          "paragraphs": [
+            "視認性の高いサインは、わずか数回のタップで設定できます。"
+          ],
+          "bullets": [
+            "iPhoneまたはiPadでFreezon Bannerを開きます。",
+            "テキストエディタで1画面静止モードを選択します。",
+            "視認性を最大限に高めるため、標準エフェクトとデフォルトのシステムフォントをそのまま使用します。",
+            "黒無地の背景に鮮明な白文字など、コントラストの高いカラーパレットを選択します。単色の高コントラストは、カラフルなグラデーションよりも空港の明るい照明の中で際立ちます。",
+            "自動テキストサイズを選択し、画面いっぱいに文字が拡大されるようにします。"
+          ]
+        },
+        {
+          "heading": "テキストの書式設定：MORGAN と WELCOME / MORGAN",
+          "paragraphs": [
+            "空港では、簡潔さが視認性を高めます。入力する文字数が少ないほど、文字は大きく表示されます。",
+            "1行のサインにする場合、「MORGAN」と入力すると、アプリが名前を最大スケールまで拡大し、ロビーの反対側からでも容易に読めるようになります。",
+            "丁寧な挨拶を添えたい場合は、改行を追加して2行のサインを作成します。",
+            "2行目を追加すると、文字の高さはおよそ半分になります。サインの読みやすさを維持するため、フライト番号、名（ファーストネーム）、「Mr.」や「Dr.」などの敬称、「Safe Travels」といった挨拶は省略してください。名前が特に長い場合はすべての文字が巨大なサイズで収まるとは限らないため、短縮するか、複数行に分けるか、手動でサイズを調整してください。"
+          ],
+          "bullets": [
+            "1行目: WELCOME",
+            "2行目: MORGAN"
+          ]
+        },
+        {
+          "heading": "プレビューの確認と全画面表示",
+          "paragraphs": [
+            "お迎えの相手が税関を通過するまでサインのテストを待ってはいけません。Freezon Bannerはエディタの上にライブプレビューを表示するため、事前にデザインを確認できます。",
+            "到着ロビーの人混みに加わる前に、次の点を確認してください。"
+          ],
+          "bullets": [
+            "ライブプレビューを確認し、スペル、改行、コントラストに問題がないかを確かめます。",
+            "5歩下がるか、腕を伸ばしてデバイスを持ってみます。名前が瞬時に読み取れない場合は、文字数を減らしてください。",
+            "全画面表示をタップします。iPhoneでは、全画面テキストはデフォルトで自動的に横向きに回転します。",
+            "デバイスをしっかり持ちます。Freezon Bannerはフォアグラウンド表示中に自動的に画面のスリープを防止するため、待機中にサインが暗くなったりロックされたりすることはありません。"
+          ]
+        },
+        {
+          "heading": "デバイスの選択とスクロールを使うタイミング",
+          "paragraphs": [
+            "iPhoneとiPadのどちらを選ぶかは、混雑状況と利便性によって決まります。",
+            "素早い認識には静止モードが最も効果的ですが、非常に長い名字を表示する必要がある場合や、会社名と乗客のフルネームの両方を含める必要がある場合は、スクロールテキストの方が適しています。スクロール表示を利用すれば、文字が読めないほど小さくなることなく、長いフレーズでも読みやすさを維持できます。"
+          ],
+          "bullets": [
+            "iPhone: コンパクトで持ち運びに便利です。フライトの合間にポケットへ収まり、それほど混雑していない場面で活躍します。",
+            "iPad: ピーク時の到着ロビーに最適です。広い画面は、密集した人混みの中でも人々の頭上で明るく輝く目印のように機能します。"
+          ]
+        },
+        {
+          "heading": "よくある質問",
+          "paragraphs": [
+            "到着ロビーでの待機中に画面は消灯しますか？ いいえ。Freezon Bannerはサインがフォアグラウンドで表示されている間、画面のスリープを防止するため、お迎えの相手が到着するまでサインが点灯し続けます。",
+            "長い名前が小さく見えすぎる場合はどうすればよいですか？ 名字だけに短縮するか、改行して複数行に分けるか、すべての単語をそのまま表示する必要がある場合はスクロールモードに切り替えてください。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "iPhone 또는 iPad로 공항 픽업 피켓 만드는 방법",
+      "deck": "Freezon Banner 앱을 사용하여 iPhone 또는 iPad를 눈에 잘 띄고 선명한 공항 픽업 피켓으로 1분 만에 완성해 보세요.",
+      "download": "다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "붐비는 국제선 입국장의 금속 바리케이드 뒤에 서 있는 모습을 상상해 보세요. 자동문이 열리며 쏟아져 나오는 여행객들은 휘갈겨 쓴 골판지나 얇은 종이를 든 마중객들 사이를 바쁘게 둘러봅니다. 눈부신 조명이 켜진 혼잡한 터미널에서, 손님은 30피트 밖에서도 여러분을 즉시 발견할 수 있어야 합니다. iPhone 또는 iPad에서 Freezon Banner를 사용하면 1분도 채 걸리지 않아 화면을 선명하고 밝으며 전문적인 피켓으로 바꿀 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "가로 모드 고정 사인이 가장 효과적인 이유",
+          "paragraphs": [
+            "승객이 입국장에 들어서면 시선으로 인파를 빠르게 훑습니다. 가로 모드의 단일 화면 고정 배너는 움직이거나 깜빡이는 텍스트보다 한눈에 읽기가 훨씬 쉽습니다.",
+            "기기를 가로로 회전하면 가로 공간이 극대화되어 글자를 가능한 한 크게 확대할 수 있습니다. Freezon Banner의 단일 화면 고정 모드는 글씨를 흔들림 없이 또렷하게 유지해 줍니다. 자동 텍스트 크기 기능은 직접 추측하여 조절할 필요 없이 텍스트를 화면 가득 동적으로 확대합니다. 단일 화면 고정 모드, 시스템 글꼴, 기본 효과는 무료로 제공되므로 인앱 결제 없이도 깔끔한 피켓을 만들 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezon Banner에서 피켓 설정하기",
+          "paragraphs": [
+            "몇 번의 탭만으로 눈에 잘 띄는 피켓을 설정할 수 있습니다."
+          ],
+          "bullets": [
+            "iPhone 또는 iPad에서 Freezon Banner를 엽니다.",
+            "텍스트 편집기에서 단일 화면 고정을 선택합니다.",
+            "가독성을 극대화하기 위해 기본 효과와 기본 시스템 글꼴을 유지합니다.",
+            "단색 검정 배경에 선명한 흰색 텍스트와 같이 대비가 높은 색상 조합을 선택합니다. 뚜렷한 대비는 화려한 그라데이션보다 밝은 공항 조명을 훨씬 더 잘 뚫고 보입니다.",
+            "앱이 화면을 가득 채우도록 글자를 확대해 주는 자동 텍스트 크기를 선택합니다."
+          ]
+        },
+        {
+          "heading": "텍스트 형식 설정: MORGAN 대 WELCOME / MORGAN",
+          "paragraphs": [
+            "공항에서는 간결해야 가독성이 높아집니다. 입력하는 글자 수가 적을수록 글씨는 더 크게 표시됩니다.",
+            "한 줄 피켓의 경우 MORGAN만 입력하면 앱이 이름을 최대 크기로 확대하여 홀 건너편에서도 쉽게 읽을 수 있습니다.",
+            "정중한 인사말을 전하고 싶다면 줄바꿈을 추가하여 두 줄 피켓을 만들 수 있습니다.",
+            "두 번째 줄을 추가하면 글자 높이가 대략 절반으로 줄어듭니다. 피켓의 가독성을 유지하려면 항공편 번호, 이름(first name), Mr.나 Dr. 같은 존칭, Safe Travels 같은 인사말은 생략하세요. 이름이 유난히 길다면 모든 글자가 아주 큰 크기로 들어맞는다는 보장은 없습니다. 이름을 줄이거나, 여러 줄로 나누거나, 직접 수동으로 크기를 조절할 수 있습니다."
+          ],
+          "bullets": [
+            "1행: WELCOME",
+            "2행: MORGAN"
+          ]
+        },
+        {
+          "heading": "미리보기 확인 및 전체 화면 전환",
+          "paragraphs": [
+            "손님이 세관을 통과해 나올 때까지 피켓 테스트를 미루지 마세요. Freezon Banner는 편집기 위에 실시간 미리보기를 제공하므로 디자인을 미리 확인할 수 있습니다.",
+            "입국장 인파에 합류하기 전에 다음 단계를 진행하세요."
+          ],
+          "bullets": [
+            "실시간 미리보기를 확인하여 맞춤법, 줄바꿈, 대비를 점검합니다.",
+            "다섯 걸음 뒤로 물러서거나 기기를 팔 길이만큼 멀리 들어 봅니다. 이름을 한눈에 알아볼 수 없다면 문구를 줄이세요.",
+            "전체 화면 표시를 탭합니다. iPhone에서는 전체 화면 텍스트가 기본적으로 가로 모드로 자동 회전합니다.",
+            "기기를 흔들리지 않게 들고 있습니다. Freezon Banner는 전면에 표시되는 동안 화면이 꺼지지 않도록 자동으로 유지하므로 기다리는 동안 피켓이 어두워지거나 잠기지 않습니다."
+          ]
+        },
+        {
+          "heading": "기기 선택 및 스크롤 사용 시점",
+          "paragraphs": [
+            "iPhone과 iPad 중 어떤 기기를 선택할지는 인파 규모와 휴대 편의성에 따라 결정됩니다.",
+            "빠른 식별에는 고정 모드가 가장 효과적이지만, 유난히 긴 성을 표시해야 하거나 회사 이름과 승객의 전체 이름을 모두 포함해야 한다면 스크롤 텍스트가 더 나은 선택입니다. 스크롤을 사용하면 글자가 작아져 읽기 힘들어지는 일 없이 긴 문구도 또렷하게 표시할 수 있습니다."
+          ],
+          "bullets": [
+            "iPhone: 작고 휴대가 간편합니다. 비행을 기다리는 사이 주머니에 넣어 둘 수 있으며 너무 혼잡하지 않은 인파 속에서 유용합니다.",
+            "iPad: 도착 승객이 몰리는 혼잡한 시간대에 가장 좋은 선택입니다. 넓은 화면이 밝은 표지판 역할을 하여 빽빽한 인파 속에서도 사람들의 머리 위로 잘 보입니다."
+          ]
+        },
+        {
+          "heading": "자주 묻는 질문",
+          "paragraphs": [
+            "입국장에서 기다리는 동안 화면이 꺼지나요? 아닙니다. Freezon Banner는 피켓이 전면에 표시되는 동안 화면이 계속 켜져 있도록 유지하므로 손님이 도착할 때까지 피켓이 꺼지지 않고 켜져 있습니다.",
+            "긴 이름이 너무 작게 보이면 어떻게 해야 하나요? 성만 남겨 짧게 줄이거나, 줄바꿈으로 여러 줄로 나누거나, 모든 단어를 반드시 표시해야 한다면 스크롤 모드로 전환하세요."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo hacer un letrero para el aeropuerto en iPhone o iPad",
+      "deck": "Crea un letrero digital claro, brillante y profesional en tu iPhone o iPad para recibir a tus invitados en el aeropuerto con Freezon Banner.",
+      "download": "Obtener",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Imagina estar detrás de la barrera metálica en una concurrida sala de llegadas internacionales. Los viajeros cruzan las puertas corredizas mientras observan a una multitud de personas que esperan sosteniendo cartones garabateados o papeles frágiles. En una terminal llena de gente y con luces intensas en el techo, tu invitado necesita ubicarte al instante a casi diez metros de distancia. Con Freezon Banner en tu iPhone o iPad, puedes transformar tu pantalla en un letrero nítido, brillante y profesional en menos de un minuto."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Por qué los letreros estáticos en horizontal funcionan mejor",
+          "paragraphs": [
+            "Cuando los pasajeros entran a la sala de llegadas, su mirada recorre la multitud rápidamente. Un letrero estático de una sola pantalla en orientación horizontal es mucho más fácil de leer a simple vista que un texto en movimiento o parpadeante.",
+            "Girar tu dispositivo a posición horizontal aprovecha al máximo el espacio horizontal y permite que las letras alcancen el mayor tamaño posible. En Freezon Banner, el modo estático de una sola pantalla mantiene las letras fijas y nítidas. La función de tamaño de texto automático amplía dinámicamente tu texto para llenar la pantalla sin necesidad de hacer cálculos manuales. Dado que el modo estático de una sola pantalla, la tipografía del sistema y el efecto estándar son gratuitos, obtienes un letrero impecable sin compras dentro de la aplicación."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Cómo configurar tu letrero en Freezon Banner",
+          "paragraphs": [
+            "Configurar un letrero de alta visibilidad solo requiere unos pocos toques:"
+          ],
+          "bullets": [
+            "Abre Freezon Banner en tu iPhone o iPad.",
+            "En el editor de texto, elige el modo estático de una sola pantalla.",
+            "Mantén el efecto estándar y la tipografía predeterminada del sistema para lograr la máxima legibilidad.",
+            "Selecciona una paleta de alto contraste, como texto blanco nítido sobre un fondo negro sólido. El contraste sólido destaca mucho mejor bajo la intensa iluminación del aeropuerto que los degradados de colores.",
+            "Selecciona el tamaño de texto automático para que la aplicación expanda las letras hasta llenar tu pantalla."
+          ]
+        },
+        {
+          "heading": "Cómo dar formato a tu texto: MORGAN vs. WELCOME / MORGAN",
+          "paragraphs": [
+            "En el aeropuerto, la brevedad garantiza la legibilidad. Cuantas menos letras ingreses, más grandes se verán.",
+            "Para un letrero de una sola línea, ingresar MORGAN permite que la aplicación amplíe el nombre al tamaño máximo, haciéndolo fácil de leer desde el otro lado de la sala.",
+            "Si prefieres un saludo de cortesía, agrega un salto de línea para crear un letrero de dos líneas:",
+            "Agregar una segunda línea reduce la altura de las letras aproximadamente a la mitad. Para mantener el letrero legible, omite números de vuelo, nombres de pila, títulos como \"Sr.\" o \"Dr.\", y saludos como \"Buen viaje\". Si un nombre es especialmente largo, no hay garantía de que todas las letras quepan en tamaños gigantes; puedes acortarlo, dividirlo en varias líneas o cambiar su tamaño de forma manual."
+          ],
+          "bullets": [
+            "Línea 1: WELCOME",
+            "Línea 2: MORGAN"
+          ]
+        },
+        {
+          "heading": "Cómo revisar la vista previa y pasar a pantalla completa",
+          "paragraphs": [
+            "Nunca esperes a que tu invitado salga de la aduana para probar tu letrero. Freezon Banner ofrece una vista previa en tiempo real arriba del editor para que puedas revisar tu diseño con anticipación.",
+            "Antes de unirte a la multitud en el área de llegadas:"
+          ],
+          "bullets": [
+            "Revisa la vista previa en vivo para verificar la ortografía, los saltos de línea y el contraste.",
+            "Da cinco pasos hacia atrás o sostén el dispositivo con el brazo extendido. Si no puedes leer el nombre al instante, acorta el texto.",
+            "Toca la visualización en pantalla completa. En iPhone, el texto en pantalla completa gira automáticamente a posición horizontal de forma predeterminada.",
+            "Sostén tu dispositivo con firmeza. Freezon Banner mantiene la pantalla encendida automáticamente mientras se muestra en primer plano, lo que garantiza que tu letrero nunca se atenúe ni se bloquee mientras esperas."
+          ]
+        },
+        {
+          "heading": "Cómo elegir tu dispositivo y cuándo usar el desplazamiento",
+          "paragraphs": [
+            "Elegir entre un iPhone y un iPad depende del tamaño de la multitud y de la comodidad:",
+            "Aunque el modo estático funciona mejor para un reconocimiento rápido, el texto en desplazamiento es una mejor opción si debes mostrar un apellido excepcionalmente largo o incluir tanto el nombre de una empresa como el nombre completo del pasajero. El desplazamiento mantiene legibles las frases largas sin reducir el texto a letras diminutas e ilegibles."
+          ],
+          "bullets": [
+            "iPhone: Compacto y portátil. Cabe en tu bolsillo entre vuelos y funciona de maravilla con multitudes moderadas.",
+            "iPad: La mejor opción para los horarios de mayor llegada. Su amplia pantalla actúa como un faro brillante visible por encima de las cabezas en multitudes densas."
+          ]
+        },
+        {
+          "heading": "Preguntas frecuentes",
+          "paragraphs": [
+            "¿Se apagará mi pantalla mientras espero en llegadas? No. Freezon Banner mantiene la pantalla encendida mientras el letrero se muestra en primer plano, lo que asegura que permanezca iluminado hasta que llegue tu invitado.",
+            "¿Qué debo hacer si un nombre largo se ve demasiado pequeño? Acórtalo a solo el apellido, divídelo en varias líneas con un salto de línea o cambia al modo de desplazamiento si es necesario conservar cada palabra."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como criar uma placa de recepção de aeroporto no iPhone ou iPad",
+      "deck": "Aprenda a transformar seu iPhone ou iPad em uma placa de recepção de aeroporto nítida, brilhante e profissional com o Freezon Banner.",
+      "download": "Baixar",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Imagine estar atrás da barreira de metal em um saguão movimentado de desembarque internacional. Viajantes passam pelas portas deslizantes, observando um mar de motoristas segurando cartazes de papelão rabiscados ou papéis frágeis. Em um terminal lotado com luzes fortes no teto, seu convidado precisa localizar você instantaneamente a trinta pés de distância. Com o Freezon Banner no seu iPhone ou iPad, você pode transformar sua tela em uma placa nítida, brilhante e profissional em menos de um minuto."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Por que placas estáticas em modo paisagem funcionam melhor",
+          "paragraphs": [
+            "Quando os passageiros chegam ao desembarque, seus olhos examinam a multidão rapidamente. Uma placa estática em tela única e em modo paisagem é muito mais fácil de ler em um relance do que um texto em movimento ou piscando.",
+            "Girar o dispositivo para o modo paisagem maximiza o espaço horizontal, permitindo que as letras aumentem o máximo possível. No Freezon Banner, o modo estático em tela única mantém as letras estáveis e nítidas. O recurso de tamanho de texto automático expande dinamicamente o texto para preencher a tela, sem adivinhações manuais. Como o modo estático em tela única, a fonte do sistema e o efeito padrão são gratuitos, você obtém uma placa limpa sem compras no aplicativo."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Configurando sua placa no Freezon Banner",
+          "paragraphs": [
+            "Configurar uma placa de alta visibilidade leva apenas alguns toques:"
+          ],
+          "bullets": [
+            "Abra o Freezon Banner no seu iPhone ou iPad.",
+            "No editor de texto, escolha estático em tela única.",
+            "Mantenha o efeito padrão e a fonte padrão do sistema para máxima legibilidade.",
+            "Selecione uma paleta de alto contraste, como texto branco nítido sobre fundo preto sólido. O contraste sólido se destaca na iluminação forte do aeroporto muito melhor do que gradientes coloridos.",
+            "Selecione o tamanho automático de texto para que o aplicativo expanda as letras até preencher a tela."
+          ]
+        },
+        {
+          "heading": "Formatando seu texto: MORGAN vs. WELCOME / MORGAN",
+          "paragraphs": [
+            "No aeroporto, a brevidade garante a legibilidade. Quanto menos letras você inserir, maiores elas aparecerão.",
+            "Para uma placa de linha única, inserir MORGAN permite que o aplicativo amplie o nome na escala máxima, facilmente legível do outro lado do saguão.",
+            "Se você preferir uma saudação de cortesia, adicione uma quebra de linha para criar uma placa de duas linhas:",
+            "Adicionar uma segunda linha reduz a altura das letras aproximadamente pela metade. Para manter a placa legível, omita números de voo, primeiros nomes, pronomes de tratamento como 'Sr.' ou 'Dr.' e saudações como 'Boa Viagem'. Se um nome for especialmente longo, não há garantia de que todas as letras caberão em tamanhos gigantescos; você pode encurtá-lo, dividi-lo em várias linhas ou redimensioná-lo manualmente."
+          ],
+          "bullets": [
+            "Linha 1: WELCOME",
+            "Linha 2: MORGAN"
+          ]
+        },
+        {
+          "heading": "Verificando a pré-visualização e entrando em tela cheia",
+          "paragraphs": [
+            "Nunca espere até que seu convidado passe pela alfândega para testar sua placa. O Freezon Banner oferece uma pré-visualização ao vivo acima do editor para que você possa conferir seu design com antecedência.",
+            "Antes de se juntar à multidão no desembarque:"
+          ],
+          "bullets": [
+            "Confira a pré-visualização ao vivo para verificar a ortografia, as quebras de linha e o contraste.",
+            "Dê cinco passos para trás ou segure o dispositivo com o braço estendido. Se não conseguir ler o nome instantaneamente, encurte o texto.",
+            "Toque na exibição em tela cheia. No iPhone, o texto em tela cheia gira automaticamente para o modo paisagem por padrão.",
+            "Segure seu dispositivo com firmeza. O Freezon Banner mantém a tela ativa automaticamente enquanto estiver exibido em primeiro plano, garantindo que sua placa nunca escureça ou bloqueie durante a espera."
+          ]
+        },
+        {
+          "heading": "Escolhendo seu dispositivo e quando usar a rolagem",
+          "paragraphs": [
+            "Decidir entre iPhone e iPad depende do tamanho da multidão e da conveniência:",
+            "Embora o modo estático funcione melhor para identificação rápida, o texto com rolagem é uma escolha melhor se você precisar exibir um sobrenome excepcionalmente longo ou incluir tanto o nome da empresa quanto o nome completo do passageiro. A rolagem mantém frases longas legíveis sem reduzir o texto a letras minúsculas e ilegíveis."
+          ],
+          "bullets": [
+            "iPhone: Compacto e portátil. Ele cabe no bolso entre os voos e funciona perfeitamente para multidões menores.",
+            "iPad: A melhor opção para horários de pico de desembarque. Sua tela ampla funciona como um farol brilhante visível sobre as cabeças em multidões densas."
+          ]
+        },
+        {
+          "heading": "Perguntas frequentes",
+          "paragraphs": [
+            "A minha tela vai desligar enquanto espero no desembarque?",
+            "Não. O Freezon Banner mantém a tela ativa enquanto a placa é exibida em primeiro plano, mantendo sua placa iluminada até que seu convidado chegue.",
+            "O que devo fazer se um nome longo parecer muito pequeno?",
+            "Encurte para apenas o sobrenome, divida em várias linhas com uma quebra de linha ou mude para o modo de rolagem se for necessário manter todas as palavras."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

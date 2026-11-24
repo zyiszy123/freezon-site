@@ -1,0 +1,477 @@
+{
+  "slug": "share-led-banner-iphone-ipad",
+  "product": "banner",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Share an LED Text Banner Between iPhone and iPad",
+      "deck": "Learn how to share LED text banners between iPhone and iPad using share codes or banner files so your entire group has matching designs.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "If your group is bringing signs to a concert, make one design and share it before you leave. With Freezon Banner, you can send a short LED message such as “LET’S GO” as a share code, or send a banner file for longer text. Friends can open the design on an iPhone or iPad, preview it, and edit their own copy."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Transferring Configurations Instead of Screens",
+          "paragraphs": [
+            "The shared setup carries the words and their layout, font, effects, and colors. For example, you can pick white lettering on black, set a comfortable scrolling speed, then send that design to the group. Everyone starts from the same setup and can adjust the text or styling on their own device."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Choosing Between a Copied Code and a Configuration File",
+          "paragraphs": [
+            "Freezon Banner provides two practical sharing methods based on the length of your sign text:"
+          ],
+          "bullets": [
+            "Share code: If the sign text is 50 characters or shorter, tap Copy Share Code and paste the code into a message. The limit applies to your sign text.",
+            "Banner file: For longer text, tap Share Banner File and send the .freezonbanner attachment through the system share sheet. You can also use the file for a short sign if you prefer an attachment."
+          ]
+        },
+        {
+          "heading": "Sending the Sign from the Active Editor or Saved Items",
+          "paragraphs": [
+            "In the text editor, tap the share icon next to Load Banner and choose the code or file. If you already made the design, you can share a text banner from your favorites or recent items. Preview the sign before sending so your group starts with the intended words and colors."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Importing and Previewing on Companion Devices",
+          "paragraphs": [
+            "To load the shared sign, the recipient must also have Freezon Banner installed on their iPhone or iPad. The recipient can bring the setup into the app using several supported methods:",
+            "Check the words and the look of the sign in the preview, then tap Use Banner to load it into the text editor."
+          ],
+          "bullets": [
+            "For a code: Open Load Banner, paste the code and tap Preview.",
+            "For a file: Open Load Banner and tap Choose Banner File, or open the attachment from the other app in Freezon Banner."
+          ]
+        },
+        {
+          "heading": "Protecting Existing Drafts and Handling Pro Styles",
+          "paragraphs": [
+            "Keep two important operational details in mind before confirming an import:"
+          ],
+          "bullets": [
+            "Protecting Current Drafts: Loading an incoming sign replaces the current text draft in the editor. If the current draft is worth keeping, save it as a favorite first before importing.",
+            "Handling Pro Styles: Receiving a configuration does not unlock Pro for the recipient. If everyone in your group needs the same result without Pro, choose free styles when creating and sharing the sign."
+          ]
+        },
+        {
+          "heading": "Preparing and Testing Companion Devices Before the Event",
+          "paragraphs": [
+            "Send the code or file ahead of time, then have friends open the sign full screen on the devices they plan to bring. If one person has an iPad and another has an iPhone, both can check how the words fit on their own screen. A short phrase gives you room for bigger letters, which matters when you hold the sign up across a crowd."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 和 iPad 之间共享 LED 文字横幅",
+      "deck": "了解如何通过分享代码或横幅文件在 iPhone 与 iPad 之间共享 Freezon Banner LED 文字设计，以便好友预览和编辑。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "如果你们打算带标语去参加演唱会，可以在出发前制作好一份设计并与大家共享。使用 Freezon Banner，你可以将类似“LET’S GO”这样的简短 LED 信息作为分享代码发送，或者为较长的文字发送横幅文件。好友可以在 iPhone 或 iPad 上打开该设计，进行预览并编辑属于他们自己的副本。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "传输配置而非屏幕画面",
+          "paragraphs": [
+            "共享的设置包含文字内容及其版面布局、字体、特效和颜色。例如，你可以选择黑底白字，设置舒适的滚动速度，然后将该设计发送给团队成员。每个人都可以从相同的初始设置开始，并在各自的设备上调整文字或样式。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在复制代码与配置文件之间进行选择",
+          "paragraphs": [
+            "Freezon Banner 根据标语文字的长短提供了两种实用的共享方式："
+          ],
+          "bullets": [
+            "分享代码：如果标语文字为 50 个字符或更短，轻点 Copy Share Code 并将代码粘贴到信息中。该字符限制仅适用于你的标语文字。",
+            "横幅文件：对于较长的文字，轻点 Share Banner File 并通过系统共享列表发送 .freezonbanner 附件。如果你更喜欢使用附件，也可以将其用于简短的标语。"
+          ]
+        },
+        {
+          "heading": "从当前编辑器或已保存项目中发送标语",
+          "paragraphs": [
+            "在文本编辑器中，轻点 Load Banner 旁边的分享图标，然后选择代码或文件。如果你已经制作好了设计，也可以从个人收藏或最近项目中共享文字横幅。发送前请先预览标语，确保大家收到的是预期的文字和色彩。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在配套设备上导入并预览",
+          "paragraphs": [
+            "若要加载共享的标语，接收者的 iPhone 或 iPad 上也必须安装 Freezon Banner。接收者可以通过几种受支持的方法将设置导入应用：",
+            "在预览中检查文字内容和标语外观，然后轻点 Use Banner 将其加载到文本编辑器中。"
+          ],
+          "bullets": [
+            "针对代码：打开 Load Banner，粘贴代码并轻点 Preview。",
+            "针对文件：打开 Load Banner 并轻点 Choose Banner File，或者在 Freezon Banner 中从其他应用打开该附件。"
+          ]
+        },
+        {
+          "heading": "保护现有草稿与处理 Pro 样式",
+          "paragraphs": [
+            "在确认导入之前，请牢记两个重要的操作细节："
+          ],
+          "bullets": [
+            "保护当前草稿：加载收到的标语会替换编辑器中当前的文本草稿。如果当前草稿需要保留，请在导入前先将其保存到个人收藏中。",
+            "处理 Pro 样式：接收配置不会为接收者解锁 Pro 功能。如果团队中的每个人都需要在未解锁 Pro 的情况下获得相同效果，请在创建和共享标语时选择免费样式。"
+          ]
+        },
+        {
+          "heading": "活动前准备并测试配套设备",
+          "paragraphs": [
+            "提前发送代码或文件，然后让好友在他们计划携带的设备上全屏打开标语。如果有人使用 iPad，有人使用 iPhone，双方都可以检查文字在各自屏幕上的显示效果。简短的短语能为更大的字体留出空间，这在人群中举起标语时尤为重要。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 與 iPad 之間分享 LED 跑馬燈文字看板",
+      "deck": "了解如何透過 Freezon Banner 的分享碼或看板檔案，在 iPhone 與 iPad 之間快速分享 LED 文字看板設計、預覽效果並於活動前完成測試。",
+      "download": "前往 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "如果您和好友打算帶著燈牌去演唱會，可以在出發前設計好一款並直接分享。透過 Freezon Banner，您可以將像是「LET’S GO」這類簡短的 LED 訊息以分享碼的形式發送，或是針對較長的文字發送看板檔案。好友可以在 iPhone 或 iPad 上開啟該設計進行預覽，並編輯屬於自己的副本。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "傳輸配置設定而非螢幕畫面",
+          "paragraphs": [
+            "分享的設定包含文字內容及其版面配置、字型、特效與色彩。例如，您可以選擇黑底白字、設定舒適的滾動速度，然後將該設計發送給群組。每個人都能以相同的設定為起點，並在自己的裝置上調整文字或樣式。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在複製代碼與設定檔之間做出選擇",
+          "paragraphs": [
+            "Freezon Banner 根據看板文字的長度提供兩種實用的分享方式："
+          ],
+          "bullets": [
+            "分享碼：若看板文字為 50 個字元或更短，輕點「Copy Share Code」並將代碼貼入訊息中。此字數限制僅適用於看板文字內容。",
+            "看板檔案：若文字較長，輕點「Share Banner File」並透過系統分享面板發送 .freezonbanner 附件。若您偏好使用附件，較短的看板亦可使用此檔案格式。"
+          ]
+        },
+        {
+          "heading": "從目前編輯器或已儲存項目發送看板",
+          "paragraphs": [
+            "在文字編輯器中，輕點「Load Banner」旁邊的分享圖示，然後選擇代碼或檔案。如果您已經製作好設計，也可以從收藏夾或最近項目中分享文字看板。發送前先預覽看板，以確保群組成員收到預期的文字與色彩。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在同伴裝置上匯入與預覽",
+          "paragraphs": [
+            "若要載入分享的看板，接收者也必須在他們的 iPhone 或 iPad 上安裝 Freezon Banner。接收者可以透過幾種支援的方式將設定匯入 App：",
+            "在預覽畫面中確認文字與看板外觀，然後輕點「Use Banner」將其載入文字編輯器中。"
+          ],
+          "bullets": [
+            "使用代碼：開啟「Load Banner」，貼上代碼並輕點「Preview」。",
+            "使用檔案：開啟「Load Banner」並輕點「Choose Banner File」，或直接在其他應用程式中以 Freezon Banner 開啟該附件。"
+          ]
+        },
+        {
+          "heading": "保護現有草稿與處理 Pro 專業樣式",
+          "paragraphs": [
+            "在確認匯入之前，請牢記兩個重要的操作細節："
+          ],
+          "bullets": [
+            "保護目前草稿：載入接收的看板會取代編輯器中目前的文字草稿。如果目前的草稿值得保留，請在匯入前先將其儲存至收藏夾。",
+            "處理 Pro 專業樣式：接收設定並不會為接收者解鎖 Pro 功能。如果群組中的每個人都需要在未購買 Pro 的情況下獲得相同效果，請在製作並分享看板時選擇免費樣式。"
+          ]
+        },
+        {
+          "heading": "活動前為同伴裝置做好準備與測試",
+          "paragraphs": [
+            "提前發送代碼或檔案，然後讓好友在他們預計攜帶的裝置上全螢幕開啟看板。如果有人使用 iPad、有人使用 iPhone，雙方都可以檢查文字在各自螢幕上的顯示效果。簡短的詞句能為更大的字體留出空間，這在人群中高舉看板時格外重要。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPhoneとiPadの間でLEDテキストバナーを共有する方法",
+      "deck": "Freezon Bannerなら共有コードやファイルを使って、iPhoneやiPad間でLEDテキストバナーのデザインを簡単に共有できます。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "コンサートなどにグループでサインを持っていく場合は、出発前に1つのデザインを作成して共有しておきましょう。Freezon Bannerを使えば、「LET’S GO」のような短いLEDメッセージを共有コードとして送信したり、より長いテキストの場合はバナーファイルを送信したりできます。友達はそのデザインをiPhoneやiPadで開き、プレビューを確認した上で、自分の端末で自由に編集できます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "画面そのものではなく設定を転送する",
+          "paragraphs": [
+            "共有される設定には、テキストの言葉やレイアウト、フォント、エフェクト、配色が含まれます。たとえば、黒地に白文字を選び、見やすいスクロール速度に設定した上で、そのデザインをグループに送信できます。全員が同じ設定からスタートでき、それぞれのデバイスで文字やスタイルを微調整することが可能です。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "コピーしたコードと設定ファイルの使い分け",
+          "paragraphs": [
+            "Freezon Bannerでは、サインの文字数に応じて2つの実用的な共有方法が用意されています。"
+          ],
+          "bullets": [
+            "共有コード: サインのテキストが50文字以下の場合は、「共有コードをコピー」をタップしてメッセージにコードを貼り付けます。この文字数制限はサインのテキストに適用されます。",
+            "バナーファイル: より長いテキストの場合は、「バナーファイルを共有」をタップし、システムの共有シートから.freezonbanner添付ファイルを送信します。添付ファイル形式で送りたい場合は、短いサインでもこのファイルを利用できます。"
+          ]
+        },
+        {
+          "heading": "編集中エディタまたは保存済みアイテムからサインを送信する",
+          "paragraphs": [
+            "テキストエディタで「バナーを読み込む」の横にある共有アイコンをタップし、コードまたはファイルを選択します。すでにデザインを作成済みの場合は、お気に入りや最近使った項目からテキストバナーを共有することも可能です。グループ全員が意図した文言や配色で始められるよう、送信前にサインをプレビューしてください。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "相手のデバイスでの読み込みとプレビュー",
+          "paragraphs": [
+            "共有されたサインを読み込むには、受信者のiPhoneまたはiPadにもFreezon Bannerがインストールされている必要があります。受信者は以下のサポートされている方法でアプリに設定を取り込むことができます。",
+            "プレビューで文言やサインの見栄えを確認したら、「バナーを使用」をタップしてテキストエディタに読み込みます。"
+          ],
+          "bullets": [
+            "コードの場合: 「バナーを読み込む」を開き、コードを貼り付けて「プレビュー」をタップします。",
+            "ファイルの場合: 「バナーを読み込む」を開いて「バナーファイルを選択」をタップするか、別のアプリからFreezon Bannerで添付ファイルを開きます。"
+          ]
+        },
+        {
+          "heading": "既存の下書きの保護とProスタイルの扱い",
+          "paragraphs": [
+            "読み込みを確定する前に、運用上の重要な注意点を2点確認しておきましょう。"
+          ],
+          "bullets": [
+            "現在の下書きの保護: 受信したサインを読み込むと、エディタ内で現在編集中のテキスト下書きが上書きされます。現在の内容を残しておきたい場合は、読み込む前にお気に入りとして保存してください。",
+            "Proスタイルの扱い: 設定を受信しても、受信側の端末でPro機能がアンロックされるわけではありません。グループの全員がProに加入せずに同じ表示にしたい場合は、サインを作成・共有する際に無料スタイルを選択してください。"
+          ]
+        },
+        {
+          "heading": "イベント前に各デバイスの準備とテストを行う",
+          "paragraphs": [
+            "事前にコードまたはファイルを送信し、持参する予定のデバイスで友達にサインを全画面表示してもらいましょう。iPadを持つ人とiPhoneを持つ人がいる場合、それぞれの画面で文字がどのように収まるかを各自で確認できます。フレーズを短くすると文字をより大きく表示できるため、人混みの中でサインを高く掲げるときに役立ちます。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "iPhone과 iPad 간에 LED 전광판을 공유하는 방법",
+      "deck": "Freezon Banner의 공유 코드나 배너 파일을 활용하여 iPhone과 iPad 간에 전광판 디자인을 손쉽게 공유하고 기기별로 맞춤 설정하는 방법을 알아봅니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "콘서트나 행사에서 그룹으로 응원 문구를 들 계획이라면, 출발하기 전에 하나의 디자인을 완성하여 미리 공유해 보세요. Freezon Banner를 사용하면 “LET’S GO”와 같은 짧은 LED 메시지는 공유 코드로 간편하게 전송할 수 있고, 더 긴 문구는 배너 파일로 보낼 수 있습니다. 친구들은 iPhone이나 iPad에서 공유받은 디자인을 열어 미리 확인하고 각자의 기기에서 직접 수정할 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "화면 대신 설정 정보 전송하기",
+          "paragraphs": [
+            "공유되는 설정에는 문구 내용뿐만 아니라 레이아웃, 글꼴, 효과, 색상 정보가 모두 포함됩니다. 예를 들어 검은색 배경에 흰색 글씨를 지정하고 보기 편한 스크롤 속도를 설정한 뒤 해당 디자인을 그룹에 보낼 수 있습니다. 모든 구성원이 동일한 설정으로 시작하며, 각자의 기기에서 텍스트나 스타일을 자유롭게 조정할 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "복사된 코드와 설정 파일 중 선택하기",
+          "paragraphs": [
+            "Freezon Banner는 전광판 텍스트 길이에 따라 두 가지 실용적인 공유 방식을 제공합니다."
+          ],
+          "bullets": [
+            "공유 코드: 전광판 문구가 50자 이하인 경우, 공유 코드 복사를 탭한 후 메시지에 코드를 붙여넣습니다. 이 글자 수 제한은 전광판 텍스트에 적용됩니다.",
+            "배너 파일: 문구가 더 긴 경우, 배너 파일 공유를 탭하고 시스템 공유 시트를 통해 .freezonbanner 첨부 파일을 전송합니다. 첨부 파일 방식을 선호한다면 짧은 문구에도 배너 파일을 활용할 수 있습니다."
+          ]
+        },
+        {
+          "heading": "현재 편집기 또는 저장된 항목에서 전광판 전송하기",
+          "paragraphs": [
+            "텍스트 편집기에서 배너 불러오기 옆의 공유 아이콘을 탭한 뒤 코드 또는 파일을 선택합니다. 이미 완성해 둔 디자인이라면 즐겨찾기나 최근 항목에서 텍스트 배너를 바로 공유할 수도 있습니다. 그룹 구성원이 의도한 문구와 색상으로 시작할 수 있도록 전송하기 전에 전광판을 미리 확인하세요."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "다른 기기에서 가져오기 및 미리보기",
+          "paragraphs": [
+            "공유된 전광판을 불러오려면 수신자의 iPhone이나 iPad에도 Freezon Banner가 설치되어 있어야 합니다. 수신자는 지원되는 몇 가지 경로를 통해 앱으로 설정을 가져올 수 있습니다.",
+            "미리보기에서 문구와 전광판 디자인을 확인한 후, 배너 사용을 탭하여 텍스트 편집기로 불러옵니다."
+          ],
+          "bullets": [
+            "코드 사용 시: 배너 불러오기 → 코드 붙여넣기 → 미리보기 탭",
+            "파일 사용 시: 배너 불러오기 → 배너 파일 선택 탭, 또는 다른 앱에서 받은 첨부 파일을 Freezon Banner로 열기"
+          ]
+        },
+        {
+          "heading": "기존 초안 보호 및 Pro 스타일 처리",
+          "paragraphs": [
+            "가져오기를 확정하기 전에 두 가지 중요한 운영 세부사항을 확인해야 합니다."
+          ],
+          "bullets": [
+            "현재 초안 보호: 새 전광판을 불러오면 편집기에 있던 기존 텍스트 초안을 덮어씁니다. 유지해야 하는 작업 내용이라면 가져오기를 진행하기 전에 먼저 즐겨찾기로 저장하세요.",
+            "Pro 스타일 처리: 설정을 전송받는다고 해서 수신자 기기의 Pro 기능이 잠금 해제되지는 않습니다. 그룹 내 모든 사람이 Pro 없이 동일한 화면을 표시해야 한다면 전광판을 제작하고 공유할 때 무료 스타일을 선택하세요."
+          ]
+        },
+        {
+          "heading": "행사 전에 함께 사용할 기기 준비 및 테스트하기",
+          "paragraphs": [
+            "코드나 파일을 미리 전송한 뒤, 친구들에게 현장에서 사용할 기기에서 전광판을 전체 화면으로 띄워보도록 하세요. 한 사람은 iPad를 사용하고 다른 사람은 iPhone을 사용하더라도 각자의 화면 크기에 문구가 어떻게 맞춰지는지 확인할 수 있습니다. 짧은 문구를 사용하면 글자 크기를 더 크게 키울 수 있어 군중 속에서 전광판을 높이 들었을 때 가독성이 더욱 높아집니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo compartir un letrero de texto LED entre iPhone y iPad",
+      "deck": "Aprende a compartir letreros de texto LED entre iPhone y iPad mediante códigos o archivos con Freezon Banner.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Si tu grupo llevará letreros a un concierto, crea un diseño y compártelo antes de salir. Con Freezon Banner, puedes enviar un mensaje LED corto como “LET’S GO” mediante un código para compartir, o enviar un archivo de letrero para textos más largos. Tus amigos pueden abrir el diseño en un iPhone o iPad, previsualizarlo y editar su propia copia."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Transferir configuraciones en lugar de pantallas",
+          "paragraphs": [
+            "La configuración compartida incluye las palabras y su diseño, fuente, efectos y colores. Por ejemplo, puedes elegir letras blancas sobre fondo negro, establecer una velocidad de desplazamiento cómoda y luego enviar ese diseño al grupo. Todos comienzan con la misma configuración y pueden ajustar el texto o el estilo en su propio dispositivo."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Elegir entre un código copiado y un archivo de configuración",
+          "paragraphs": [
+            "Freezon Banner ofrece dos métodos prácticos para compartir según la longitud del texto de tu letrero:"
+          ],
+          "bullets": [
+            "Código para compartir: si el texto del letrero tiene 50 caracteres o menos, toca Copy Share Code y pega el código en un mensaje. El límite se aplica al texto de tu letrero.",
+            "Archivo de letrero: para textos más largos, toca Share Banner File y envía el archivo adjunto .freezonbanner a través de la hoja para compartir del sistema. También puedes usar el archivo para un letrero corto si prefieres un archivo adjunto."
+          ]
+        },
+        {
+          "heading": "Enviar el letrero desde el editor activo o elementos guardados",
+          "paragraphs": [
+            "En el editor de texto, toca el icono de compartir junto a Load Banner y elige el código o el archivo. Si ya creaste el diseño, puedes compartir un letrero de texto desde tus favoritos o elementos recientes. Previsualiza el letrero antes de enviarlo para que tu grupo comience con las palabras y los colores previstos."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Importar y previsualizar en dispositivos complementarios",
+          "paragraphs": [
+            "Para cargar el letrero compartido, el destinatario también debe tener instalado Freezon Banner en su iPhone o iPad. El destinatario puede incorporar la configuración a la app mediante varios métodos compatibles:",
+            "Revisa las palabras y la apariencia del letrero en la vista previa, luego toca Use Banner para cargarlo en el editor de texto."
+          ],
+          "bullets": [
+            "Para un código: abre Load Banner, pega el código y toca Preview.",
+            "Para un archivo: abre Load Banner y toca Choose Banner File, o abre el archivo adjunto desde la otra app en Freezon Banner."
+          ]
+        },
+        {
+          "heading": "Proteger borradores existentes y manejar estilos Pro",
+          "paragraphs": [
+            "Ten en cuenta dos detalles operativos importantes antes de confirmar una importación:"
+          ],
+          "bullets": [
+            "Proteger los borradores actuales: cargar un letrero entrante reemplaza el borrador de texto actual en el editor. Si vale la pena conservar el borrador actual, guárdalo primero como favorito antes de importar.",
+            "Manejo de estilos Pro: recibir una configuración no desbloquea Pro para el destinatario. Si todos en tu grupo necesitan el mismo resultado sin Pro, elijan estilos gratuitos al crear y compartir el letrero."
+          ]
+        },
+        {
+          "heading": "Preparar y probar dispositivos complementarios antes del evento",
+          "paragraphs": [
+            "Envía el código o el archivo con anticipación y luego pide a tus amigos que abran el letrero a pantalla completa en los dispositivos que planean llevar. Si una persona tiene un iPad y otra un iPhone, ambas pueden verificar cómo se adapta el texto a su propia pantalla. Una frase corta te da espacio para letras más grandes, lo cual es fundamental cuando sostienes el letrero frente a una multitud."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como compartilhar um letreiro de texto LED entre iPhone e iPad",
+      "deck": "Aprenda a compartilhar letreiros de texto LED entre iPhone e iPad usando códigos ou arquivos de configuração no Freezon Banner.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Se o seu grupo vai levar letreiros a um show, crie um único design e compartilhe-o antes de sair. Com o Freezon Banner, você pode enviar uma mensagem LED curta, como “LET’S GO”, na forma de código de compartilhamento, ou enviar um arquivo de banner para textos mais longos. Amigos podem abrir o design em um iPhone ou iPad, pré-visualizá-lo e editar sua própria cópia."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Transferir configurações em vez de telas",
+          "paragraphs": [
+            "A configuração compartilhada inclui as palavras e seu layout, fonte, efeitos e cores. Por exemplo, você pode escolher letras brancas sobre fundo preto, definir uma velocidade de rolagem confortável e enviar esse design para o grupo. Todos começam a partir da mesma configuração e podem ajustar o texto ou o estilo em seu próprio dispositivo."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Escolher entre um código copiado e um arquivo de configuração",
+          "paragraphs": [
+            "O Freezon Banner oferece dois métodos práticos de compartilhamento com base no tamanho do texto do seu letreiro:"
+          ],
+          "bullets": [
+            "Código de compartilhamento: se o texto do letreiro tiver 50 caracteres ou menos, toque em Copiar Código de Compartilhamento e cole o código em uma mensagem. O limite se aplica ao texto do seu letreiro.",
+            "Arquivo de banner: para textos mais longos, toque em Compartilhar Arquivo de Banner e envie o anexo .freezonbanner pela folha de compartilhamento do sistema. Você também pode usar o arquivo para um letreiro curto se preferir um anexo."
+          ]
+        },
+        {
+          "heading": "Enviar o letreiro a partir do editor ativo ou dos itens salvos",
+          "paragraphs": [
+            "No editor de texto, toque no ícone de compartilhamento ao lado de Carregar Banner e escolha o código ou o arquivo. Se você já tiver criado o design, poderá compartilhar um letreiro de texto a partir dos seus favoritos ou itens recentes. Pré-visualize o letreiro antes de enviar para que seu grupo comece com as palavras e cores pretendidas."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Importar e pré-visualizar em dispositivos complementares",
+          "paragraphs": [
+            "Para carregar o letreiro compartilhado, o destinatário também deve ter o Freezon Banner instalado em seu iPhone ou iPad. O destinatário pode trazer a configuração para o aplicativo usando vários métodos suportados:",
+            "Verifique as palavras e o visual do letreiro na pré-visualização e, em seguida, toque em Usar Banner para carregá-lo no editor de texto."
+          ],
+          "bullets": [
+            "Para um código: abra Carregar Banner, cole o código e toque em Pré-visualizar.",
+            "Para um arquivo: abra Carregar Banner e toque em Escolher Arquivo de Banner, ou abra o anexo a partir do outro aplicativo no Freezon Banner."
+          ]
+        },
+        {
+          "heading": "Proteger rascunhos existentes e lidar com estilos Pro",
+          "paragraphs": [
+            "Tenha em mente dois detalhes operacionais importantes antes de confirmar uma importação:"
+          ],
+          "bullets": [
+            "Proteger rascunhos atuais: carregar um letreiro recebido substitui o rascunho de texto atual no editor. Se valer a pena manter o rascunho atual, salve-o como favorito antes de importar.",
+            "Lidar com estilos Pro: receber uma configuração não desbloqueia o Pro para o destinatário. Se todos no seu grupo precisarem do mesmo resultado sem o Pro, escolha estilos gratuitos ao criar e compartilhar o letreiro."
+          ]
+        },
+        {
+          "heading": "Preparar e testar dispositivos complementares antes do evento",
+          "paragraphs": [
+            "Envie o código ou o arquivo com antecedência e peça aos amigos que abram o letreiro em tela cheia nos dispositivos que planejam levar. Se uma pessoa tiver um iPad e outra tiver um iPhone, ambas poderão verificar como as palavras se ajustam em suas respectivas telas. Uma frase curta dá espaço para letras maiores, o que faz diferença ao segurar o letreiro no meio de uma multidão."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

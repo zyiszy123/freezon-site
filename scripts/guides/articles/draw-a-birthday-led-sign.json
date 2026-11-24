@@ -1,0 +1,531 @@
+{
+  "slug": "draw-a-birthday-led-sign",
+  "product": "banner",
+  "screens": [
+    "ipad-05-drawing-birthday"
+  ],
+  "content": {
+    "en": {
+      "title": "How to Make a Hand-Drawn Birthday LED Sign in Freezon Banner",
+      "deck": "Learn how to craft a vibrant, glowing birthday LED sign in Freezon Banner for iPhone and iPad using free drawing tools, borders, and the Neon effect.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "A glowing personalized banner adds instant magic when the lights dim and the birthday cake arrives. With Freezon Banner on your iPhone or iPad, you can turn your display into a radiant celebration sign. This guide walks you through crafting a vibrant two-line sign—featuring \"ALEX / MAKE A WISH\"—with glowing accents, using the app's free drawing tools, template borders, and Neon effect."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Choosing Between Landscape and Portrait Layouts",
+          "paragraphs": [
+            "Decide how you will hold or prop your device before starting your canvas.",
+            "Full-screen display preserves your canvas aspect ratio, so keep all lettering well within the borders to prevent unintended cropping."
+          ],
+          "bullets": [
+            "Landscape orientation works best for resting your iPad on a table near the cake or holding your phone horizontally with two hands. A two-line layout fits naturally here: \"ALEX\" commands the top, \"MAKE A WISH\" fills the bottom, and ample room remains on the sides for decorative stars or hearts.",
+            "Portrait orientation is ideal if you plan to carry your device upright like a handheld beacon. Because vertical space is narrower, plan for tighter letter spacing on the longer second line."
+          ]
+        },
+        {
+          "heading": "Starting with a Blank Canvas or Free Template",
+          "paragraphs": [
+            "Open the Drawing workspace in Freezon Banner to set up your backdrop."
+          ],
+          "bullets": [
+            "Blank Canvas: Select a dark background—such as deep black or midnight navy—so bright handwriting pops dramatically in low-lit rooms.",
+            "Free Templates: Freezon Banner includes free decorative borders like Star Corners and Heart Surround. Select the artwork-only option to begin without preset greeting text. If a template does load with sample words, remember they are editable drawn strokes rather than a fixed text field; simply wipe them away with the eraser or undo button while keeping the border framing intact."
+          ]
+        },
+        {
+          "heading": "Drawing and Refining the Two-Line Greeting",
+          "paragraphs": [
+            "Choose the free Solid Pen or Pencil, select a vivid neon hue like electric yellow, cyan, or hot pink, and adjust the line width for bold readability.",
+            "If a line looks uneven, tap Undo to retry immediately. Use the Eraser tool to refine letter edges or clean up overlapping strokes, and use Redo if you remove something by mistake."
+          ],
+          "bullets": [
+            "Top Line: Hand-draw \"ALEX\" in large, centered capital letters across the upper half of the canvas.",
+            "Bottom Line: Write \"MAKE A WISH\" underneath, sizing the letters slightly smaller to balance the composition.",
+            "Accents: Draw small stars, dots, or hearts in the surrounding empty areas."
+          ]
+        },
+        {
+          "heading": "Drawing with Fingers vs. Apple Pencil Precision",
+          "paragraphs": [
+            "Freezon Banner allows finger drawing on both iPhone and iPad, making it easy to create a sign on short notice. Finger sketching feels natural and is well suited for bold block letters and casual greetings.",
+            "On a compatible iPad, pairing an Apple Pencil unlocks finer control. The Pencil's sharp precision helps you balance letter kerning, maintain uniform heights across \"MAKE A WISH\", taper star points cleanly, and erase tight spaces inside closed letters without smudging adjacent strokes."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Applying the Free Whole-Canvas Neon Effect",
+          "paragraphs": [
+            "After completing your lettering and decorative borders, transform your flat sketch into an illuminated digital sign. Freezon Banner includes both standard rendering and a free whole-canvas Neon effect.",
+            "Open the effects menu and select the Neon effect. This instantly casts an electric, luminous glow across every stroke on the screen. Against the dark background, your bright handwriting and stars will look like genuine neon tubing glowing in the dark."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Presenting at the Cake Moment and Saving Favorites",
+          "paragraphs": [
+            "When it is time to sing and present the birthday cake, switch Freezon Banner to full-screen mode. This hides toolbars and menus, showcasing your sign edge-to-edge while preserving the canvas aspect ratio.",
+            "Hold the screen up high or prop it beside the cake so the guest of honor can see their glowing greeting clearly. After the celebration, save your finished artwork as a favorite directly on the device so you can recall it anytime for photos or future parties."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon Banner's English iPad Drawing workspace with a glowing hand-drawn birthday cake and HAPPY BDAY! lettering, with the drawing toolbar visible."
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何在 Freezon Banner 中制作手绘生日 LED 灯牌",
+      "deck": "学习如何在 iPhone 或 iPad 上的 Freezon Banner 中运用免费绘图工具、边框模板和霓虹特效，制作绚丽的手绘双行发光生日标牌。",
+      "download": "下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "当灯光变暗、生日蛋糕端上桌时，一块发光的个性化横幅能瞬间点燃气氛。借助 iPhone 或 iPad 上的 Freezon Banner，你可以将屏幕变成一块绚丽的庆祝标牌。本指南将带你使用该 App 的免费绘图工具、边框模板和霓虹特效，打造包含“ALEX / MAKE A WISH”字样及发光点缀的生动双行标牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在横向与纵向布局之间进行选择",
+          "paragraphs": [
+            "在开始绘制画布之前，先确定好你将如何手持或支撑设备。",
+            "全屏显示会保留画布的纵横比，因此请将所有文字都保留在边框之内，以防意外裁剪。"
+          ],
+          "bullets": [
+            "横向：最适合将 iPad 靠在蛋糕旁的桌上，或者双手横握手机。双行布局非常适合横向显示：顶部醒目呈现“ALEX”，底部展示“MAKE A WISH”，两侧还留有充足空间绘制装饰性的星星或爱心。",
+            "纵向：如果你打算像手持信标一样竖直携带设备，纵向则是理想之选。由于纵向可用宽度较窄，较长的第二行文字需要规划更紧凑的字距。"
+          ]
+        },
+        {
+          "heading": "从空白画布或免费模板开始",
+          "paragraphs": [
+            "在 Freezon Banner 中打开绘画工作区以设置背景。"
+          ],
+          "bullets": [
+            "空白画布：选择纯黑或深邃夜空蓝等深色背景，让明亮的手写字在光线昏暗的房间里格外醒目。",
+            "免费模板：Freezon Banner 提供了诸如“星星边角”（Star Corners）和“爱心环绕”（Heart Surround）等免费装饰边框。选择纯图案选项即可在没有预设祝福文字的情况下开始。如果模板加载了示例文字，请记住它们是可编辑的绘制笔触而非固定文本框，只需使用橡皮擦或撤销按钮将其擦除，同时完整保留边框即可。"
+          ]
+        },
+        {
+          "heading": "绘制并润色双行祝福语",
+          "paragraphs": [
+            "选择免费的实心画笔或铅笔，挑选荧光黄、青色或亮粉色等鲜艳的霓虹色调，并调整线条粗细以确保清晰醒目。",
+            "如果某条线条看起来不够平整，轻点“撤销”即可立即重试。使用橡皮擦工具修整字母边缘或清理重叠笔画；如果不小心误删了内容，可以使用“重做”进行恢复。"
+          ],
+          "bullets": [
+            "首行：在画布上半部分居中手写大号的大写字母“ALEX”。",
+            "次行：在下方写上“MAKE A WISH”，字母尺寸稍小一些以平衡构图。",
+            "点缀：在周围空白区域画上小星星、圆点或爱心。"
+          ]
+        },
+        {
+          "heading": "手指绘制与高精度 Apple Pencil 的对比",
+          "paragraphs": [
+            "Freezon Banner 在 iPhone 和 iPad 上均支持手指绘制，方便你在临时需要时快速制作标牌。用手指涂鸦感觉自然，非常适合书写粗体大写字母和随意的祝福语。",
+            "在兼容的 iPad 上配对 Apple Pencil 可以获得更精细的控制。Apple Pencil 的精准度有助于平衡字距、保持“MAKE A WISH”每个字母的高度一致、利落地勾勒星星尖角，以及在擦除闭合字母内部狭窄区域时不会蹭到相邻笔画。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "应用免费的全画布霓虹特效",
+          "paragraphs": [
+            "完成字样和装饰边框后，即可将平面草图转换为发光的数字标牌。Freezon Banner 既支持标准渲染，也提供免费的全画布霓虹特效。",
+            "打开特效菜单并选择霓虹特效。这会立即为屏幕上的每一笔描边赋予明亮的电光色泽。在深色背景的衬托下，明亮的手写字和星星将如同在黑暗中发光的真实霓虹灯管一般。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在切蛋糕时刻展示并保存至收藏夹",
+          "paragraphs": [
+            "到了唱生日歌和端上蛋糕的时刻，将 Freezon Banner 切换至全屏模式。这会隐藏工具栏和菜单，在保留画布纵横比的同时实现无边框的全屏呈现。",
+            "高举屏幕或将其立在蛋糕旁，让寿星能够清晰看到发光的祝福。庆祝结束后，可以直接在设备上将完成的作品保存至收藏夹，以便日后随时调出拍照或在以后的聚会中使用。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon Banner 的英文版 iPad 绘画工作区，展示了发光的手绘生日蛋糕与“HAPPY BDAY!”字样，绘画工具栏清晰可见。"
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何在 Freezon Banner 製作手繪生日 LED 燈牌",
+      "deck": "學習如何在 iPhone 或 iPad 上使用 Freezon Banner 的免費繪圖工具、範本邊框與霓虹效果，親手打造亮麗的雙行手繪生日 LED 燈牌。",
+      "download": "下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "當燈光轉暗、生日蛋糕登場時，發光的個人化看板能瞬間增添滿滿魔幻氣氛。透過 iPhone 或 iPad 上的 Freezon Banner，你可以將螢幕變成璀璨的慶祝燈牌。本指南將引導你運用應用程式的免費繪圖工具、範本邊框與霓虹效果，打造寫有「ALEX / MAKE A WISH」並帶有發光點綴的生動雙行燈牌。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "選擇橫向或直向版面配置",
+          "paragraphs": [
+            "在開始繪製畫布之前，先決定你要如何手持或支撐你的裝置。",
+            "全螢幕顯示會維持畫布的長寬比，因此請將所有文字保留在邊框範圍內，以避免邊緣意外遭到裁切。"
+          ],
+          "bullets": [
+            "橫向模式最適合將 iPad 平放或立在蛋糕旁的桌上，或是雙手水平拿持手機。雙行版面非常適合橫向畫面：「ALEX」佔據上方，「MAKE A WISH」填補下方，兩側還留有充足空間可繪製裝飾用的星星或愛心。",
+            "直向模式則適合想要將裝置直立拿著當作手持信標的情況。由於水平寬度較窄，請為較長的第二行文字預留較緊湊的字母間距。"
+          ]
+        },
+        {
+          "heading": "從空白畫布或免費範本開始",
+          "paragraphs": [
+            "在 Freezon Banner 中開啟繪圖工作區以設定背景。"
+          ],
+          "bullets": [
+            "空白畫布：選擇深色背景（例如純黑或深夜深藍），讓鮮豔的手寫字在微光房間中更加突出耀眼。",
+            "免費範本：Freezon Banner 包含 Star Corners（星星角落）與 Heart Surround（愛心環繞）等免費裝飾邊框。選擇僅保留圖案的選項，即可在沒有預設祝福文字的情況下開始。如果範本載入時帶有範例文字，請記住這些是可編輯的繪製筆畫而非固定文字欄位；只需使用橡皮擦或復原按鈕將其抹除，同時保持邊框框架完整。"
+          ]
+        },
+        {
+          "heading": "繪製與微調雙行祝福語",
+          "paragraphs": [
+            "選擇免費的 Solid Pen（實心筆）或 Pencil（鉛筆），挑選電光黃、青藍色或亮粉紅等鮮豔的霓虹色彩，並調整線條寬度以確保清晰醒目。",
+            "如果線條看起來不平整，輕點 Undo（復原）即可立即重試。使用 Eraser（橡皮擦）工具修整字母邊緣或清理重疊的筆畫；如果不小心擦除錯誤內容，可使用 Redo（重做）還原。"
+          ],
+          "bullets": [
+            "第一行：在畫布上半部正中央，以大寫字母手繪大字「ALEX」。",
+            "第二行：在下方寫上「MAKE A WISH」，字體略小一些以平衡整體構圖。",
+            "裝飾點綴：在周圍空白區域畫上小星星、圓點或愛心。"
+          ]
+        },
+        {
+          "heading": "手指繪製與 Apple Pencil 精細繪製的比較",
+          "paragraphs": [
+            "Freezon Banner 在 iPhone 和 iPad 上皆支援手指繪圖，讓你在短時間內即可輕鬆製作看板。用手指隨手繪製感覺非常自然，很適合書寫醒目的粗體大寫字母與隨性的祝福語。",
+            "在相容的 iPad 上搭配 Apple Pencil 則可帶來更精細的控制力。Apple Pencil 的高精確度有助於平衡字距、維持「MAKE A WISH」各字母高度一致、俐落勾勒星星的尖角，並能在封閉字母內部的狹小空間中進行擦除，而不會弄髒相鄰的筆畫。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "套用免費全畫布霓虹效果",
+          "paragraphs": [
+            "完成文字與裝飾邊框後，即可將平面的手繪草圖轉變為發光的數位看板。Freezon Banner 提供標準算圖以及免費的全畫布霓虹（Neon）效果。",
+            "開啟效果選單並選取霓虹效果（Effects → Neon）。這會立即讓螢幕上的每個筆畫散發出通電般的耀眼光芒。在深色背景襯托下，明亮的手寫字與星星看起來就如同在黑暗中發光的真正霓虹燈管。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在切蛋糕時刻展示與儲存常用收藏",
+          "paragraphs": [
+            "到了唱生日歌並端出蛋糕的時刻，將 Freezon Banner 切換至全螢幕模式。這會隱藏工具列與選單，在維持畫布長寬比的同時，讓看板呈現無邊框的全螢幕展示。",
+            "將螢幕高高舉起或立在蛋糕旁，讓壽星能清楚看見為他們準備的發光祝福。慶祝活動結束後，直接將完成的作品儲存為裝置上的常用收藏，方便日後隨時調出拍照或在未來的派對中再次使用。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon Banner 的英文版 iPad 繪圖工作區，顯示發光的手繪生日蛋糕與「HAPPY BDAY!」字樣，並可見繪圖工具列。"
+      ]
+    },
+    "ja": {
+      "title": "Freezon Bannerで手描きの誕生日LEDサインを作成する方法",
+      "deck": "iPhoneやiPadのFreezon Bannerを使い、無料のお絵描きツールや飾り枠、ネオン効果を活用して、誕生日を華やかに彩る手描きLEDサインを作成する手順を紹介します。",
+      "download": "ダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "部屋の明かりが消えてバースデーケーキが運ばれてくるとき、光り輝くパーソナライズされたバナーがあれば、その瞬間がいっそう魔法のような体験になります。iPhoneやiPadでFreezon Bannerを使えば、お使いの端末の画面を鮮やかなお祝いサインに変身させることができます。本ガイドでは、アプリに搭載された無料のお絵描きツール、テンプレートの飾り枠、そしてネオン効果を活用し、「ALEX / MAKE A WISH」という2行のメッセージと光るアクセントを描いた華やかなサインを作る手順を詳しく解説します。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "横向きと縦向きのレイアウトの選択",
+          "paragraphs": [
+            "キャンバスを描き始める前に、端末をどのように持つか、またはどこに立てかけるかを決めましょう。",
+            "全画面表示時にもキャンバスの縦横比が維持されるため、意図しない見切れを防ぐよう、すべての文字は画面枠の内側にしっかりと収まるように描いてください。"
+          ],
+          "bullets": [
+            "横向き: iPadをケーキの近くのテーブルに置く場合や、iPhoneを両手で水平に持つ場合に最適です。上部に大きく「ALEX」、下部に「MAKE A WISH」を配置する2行構成が綺麗に収まり、両サイドに星やハートなどの装飾を描く十分なスペースも確保できます。",
+            "縦向き: 端末をペンライトのように縦に掲げて持ち歩きたい場合に便利です。縦向きは横幅が狭くなるため、文字数が多い2行目は文字間隔を少し詰めて配置するように計画してください。"
+          ]
+        },
+        {
+          "heading": "白紙キャンバスまたは無料テンプレートからの開始",
+          "paragraphs": [
+            "Freezon Bannerのお絵描きワークスペースを開き、背景を準備します。"
+          ],
+          "bullets": [
+            "白紙キャンバス: 深い黒やミッドナイトネイビーなどの暗い背景色を選択すると、薄暗い部屋の中で明るい手描き文字が鮮やかに引き立ちます。",
+            "無料テンプレート: Freezon Bannerには「Star Corners」や「Heart Surround」といった無料の飾り枠が用意されています。あらかじめ文字が入っていない状態で始めるには、アートワークのみのオプションを選択してください。もしサンプルの文字が含まれていても、固定されたテキスト欄ではなく編集可能な手描きストロークなので、枠のデザインを崩さずに消しゴムや取り消しボタンで簡単に消去できます。"
+          ]
+        },
+        {
+          "heading": "2行のお祝いメッセージの描画と調整",
+          "paragraphs": [
+            "無料のソリッドペンまたは鉛筆を選び、エレクトリックイエロー、シアン、ホットピンクなどの鮮やかなネオンカラーを選択して、はっきりと読みやすくなるよう線の太さを調整します。",
+            "線が歪んでしまった場合は「取り消す」をタップしてすぐに描き直せます。文字の輪郭を整えたり重なった線を消したりするには消しゴムツールを使い、誤って消しすぎた場合は「やり直す」を使用してください。"
+          ],
+          "bullets": [
+            "上の行: キャンバスの上半分に、中央揃えで「ALEX」と大きめの大文字を手描きします。",
+            "下の行: 全体のバランスをとるため、その下に少し小さめのサイズで「MAKE A WISH」と書きます。",
+            "アクセント: 周囲の余白に小さな星やドット、ハートなどを描き加えます。"
+          ]
+        },
+        {
+          "heading": "指での描画とApple Pencilの精密さの比較",
+          "paragraphs": [
+            "Freezon BannerはiPhoneとiPadの両方で指による描画に対応しているため、直前でも手軽にサインを作成できます。指でのスケッチは直感的で、太いブロック体文字やカジュアルなお祝いメッセージを描くのに適しています。",
+            "対応するiPadでApple Pencilをペアリングすると、さらに細やかなコントロールが可能になります。Pencilの高精度な描写力により、文字同士の間隔の微調整、「MAKE A WISH」の文字の高さの統一、星の先端をシャープに描く処理、隣り合う線をにじませずに袋文字の内側などの狭い隙間を綺麗に消す作業などがスムーズに行えます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "キャンバス全体への無料ネオン効果の適用",
+          "paragraphs": [
+            "文字と飾り枠が完成したら、平坦なスケッチを光り輝くデジタルサインへと変身させましょう。Freezon Bannerには、標準のレンダリング表示と、無料のキャンバス全体ネオン効果の両方が用意されています。",
+            "エフェクトメニューを開き、ネオン効果を選択します。これにより、画面上のすべてのストロークに瞬時に鮮烈な光の輝きが与えられます。暗い背景と組み合わせることで、鮮やかな手描き文字や星が、まるで暗闇に浮かび上がる本物のネオン管のように発光して見えます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "ケーキ登場時の演出とお気に入りへの保存",
+          "paragraphs": [
+            "バースデーソングを歌い、ケーキを披露するタイミングになったら、Freezon Bannerを全画面表示モードに切り替えます。ツールバーやメニューが非表示になり、キャンバスの縦横比を保ったまま、画面いっぱいにサインが表示されます。",
+            "主役に光るメッセージがはっきりと見えるよう、画面を高く掲げるか、ケーキの横に立てかけてください。お祝いが終わった後は、完成した作品を端末上にお気に入りとして保存しておけば、写真撮影や今後のパーティーのためにいつでも呼び出すことができます。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "描画ツールバーが表示されたFreezon Bannerの英語版iPadお絵描きワークスペースで、光る手描きのバースデーケーキと「HAPPY BDAY!」の文字が描かれている画面。"
+      ]
+    },
+    "ko": {
+      "title": "Freezon Banner에서 손그림 생일 LED 전광판을 만드는 방법",
+      "deck": "iPhone 및 iPad용 Freezon Banner의 무료 그리기 도구, 테두리 템플릿, 네온 효과를 활용해 빛나는 생일 축하 LED 전광판을 만드는 방법을 알아보세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "조명이 어두워지고 생일 케이크가 등장할 때, 은은하게 빛나는 맞춤형 전광판은 마법 같은 분위기를 더해줍니다. iPhone이나 iPad에서 Freezon Banner를 사용하면 기기 화면을 환한 축하 전광판으로 바꿀 수 있습니다. 이 가이드에서는 앱의 무료 그리기 도구, 테두리 템플릿, 네온 효과를 활용하여 은은하게 빛나는 포인트와 함께 두 줄 문구인 \"ALEX / MAKE A WISH\"가 담긴 생동감 넘치는 전광판을 만드는 방법을 안내합니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "가로 모드와 세로 모드 레이아웃 선택하기",
+          "paragraphs": [
+            "캔버스 작업을 시작하기 전에 기기를 어떻게 들거나 받쳐 둘지 결정하세요.",
+            "전체 화면 표시는 캔버스 가로세로 비율을 유지하므로, 의도치 않게 잘리는 일이 없도록 모든 글씨를 테두리 안쪽에 여유 있게 배치하세요."
+          ],
+          "bullets": [
+            "가로 모드는 케이크 근처 테이블에 iPad를 올려두거나 두 손으로 휴대폰을 가로로 들고 있을 때 가장 적합합니다. 여기에는 두 줄 레이아웃이 자연스럽게 들어맞습니다. 상단에 \"ALEX\"를 큼직하게 배치하고 하단을 \"MAKE A WISH\"로 채우면, 양옆에 장식용 별이나 하트를 그릴 공간이 넉넉하게 남습니다.",
+            "세로 모드는 기기를 휴대용 불빛처럼 똑바로 세워 들고 다닐 계획이라면 이상적입니다. 세로 모드는 가로 폭이 더 좁기 때문에 더 긴 두 번째 줄의 글자 간격을 더 좁게 배치하도록 계획하세요."
+          ]
+        },
+        {
+          "heading": "빈 캔버스 또는 무료 템플릿으로 시작하기",
+          "paragraphs": [
+            "배경을 설정하려면 Freezon Banner에서 그리기 작업 공간을 엽니다."
+          ],
+          "bullets": [
+            "빈 캔버스: 짙은 검은색이나 미드나이트 네이비와 같은 어두운 배경을 선택하면 조명이 어두운 방에서 밝은 손글씨가 극적으로 돋보입니다.",
+            "무료 템플릿: Freezon Banner에는 별 모서리(Star Corners) 및 하트 둘레(Heart Surround)와 같은 무료 장식 테두리가 포함되어 있습니다. 기본 축하 문구 없이 시작하려면 아트워크 전용 옵션을 선택하세요. 샘플 문구가 포함된 템플릿이 로드되더라도 고정된 텍스트 필드가 아니라 편집 가능한 그려진 획이므로 테두리 프레임은 그대로 둔 채 지우개나 실행 취소 버튼으로 지우기만 하면 됩니다."
+          ]
+        },
+        {
+          "heading": "두 줄 축하 문구 그리고 다듬기",
+          "paragraphs": [
+            "무료 솔리드 펜이나 연필을 선택하고 일렉트릭 옐로우, 시안, 핫핑크와 같은 생생한 네온 색상을 고른 다음, 굵고 선명한 가독성을 위해 선 두께를 조절하세요.",
+            "선이 고르지 않게 그려졌다면 실행 취소를 탭하여 즉시 다시 시도하세요. 지우개 도구를 사용하여 글자 테두리를 다듬거나 겹치는 획을 정리하고, 실수로 지운 부분이 있다면 다시 실행을 사용하세요."
+          ],
+          "bullets": [
+            "첫째 줄: 캔버스 상단 절반에 대문자로 \"ALEX\"를 크고 중앙에 맞추어 직접 그립니다.",
+            "둘째 줄: 그 아래에 구도의 균형을 맞추기 위해 약간 더 작은 크기로 \"MAKE A WISH\"를 씁니다.",
+            "포인트 장식: 주변의 빈 공간에 작은 별, 점, 하트를 그립니다."
+          ]
+        },
+        {
+          "heading": "손가락 그리기와 Apple Pencil의 정밀도 비교",
+          "paragraphs": [
+            "Freezon Banner는 iPhone과 iPad 모두에서 손가락 그리기를 지원하므로 촉박한 시간에도 손쉽게 전광판을 만들 수 있습니다. 손가락 스케치는 자연스러운 느낌을 주며 굵은 블록 글자나 편안한 축하 인사를 작성하기에 아주 적합합니다.",
+            "호환되는 iPad에서는 Apple Pencil을 연결하여 더욱 섬세하게 제어할 수 있습니다. Apple Pencil의 날카로운 정밀도 덕분에 글자 자간 균형을 맞추고, \"MAKE A WISH\" 전체에서 일정한 글자 높이를 유지하며, 별의 모서리를 깔끔하게 마무리하고, 인접한 획을 번지게 하지 않으면서 닫힌 글자 내부의 좁은 공간을 지울 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "무료 전체 캔버스 네온 효과 적용하기",
+          "paragraphs": [
+            "글씨와 장식 테두리를 완성한 후 평면 스케치를 빛나는 디지털 전광판으로 변환해 보세요. Freezon Banner에는 기본 렌더링과 무료 전체 캔버스 네온 효과가 모두 포함되어 있습니다.",
+            "효과 메뉴를 열고 네온 효과를 선택합니다. 그러면 화면의 모든 획에 짜릿하고 환한 빛이 즉시 드리워집니다. 어두운 배경 위에서 밝은 손글씨와 별은 마치 어둠 속에서 빛나는 진짜 네온사인 튜브처럼 보입니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "케이크 전달 순간에 연출하고 즐겨찾기에 저장하기",
+          "paragraphs": [
+            "노래를 부르며 생일 케이크를 전달할 시간이 되면 Freezon Banner를 전체 화면 모드로 전환하세요. 이렇게 하면 도구 모음과 메뉴가 숨겨져 캔버스 가로세로 비율을 유지하면서 전광판을 화면 가득 보여줍니다.",
+            "주인공이 빛나는 축하 문구를 또렷하게 볼 수 있도록 화면을 높이 들거나 케이크 옆에 받쳐 두세요. 축하가 끝난 후 완성된 작품을 기기에 직접 즐겨찾기로 저장해 두면 사진 촬영이나 다음 파티를 위해 언제든지 다시 불러올 수 있습니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "빛나는 손그림 생일 케이크와 HAPPY BDAY! 문구, 그리기 도구 모음이 표시된 Freezon Banner의 영문 iPad 그리기 작업 공간."
+      ]
+    },
+    "es-419": {
+      "title": "Cómo crear un letrero LED de cumpleaños dibujado a mano en Freezon Banner",
+      "deck": "Aprende a crear un letrero LED de cumpleaños brillante y personalizado en tu iPhone o iPad usando las herramientas de dibujo y el efecto Neón de Freezon Banner.",
+      "download": "Descargar",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Un letrero luminoso y personalizado aporta una magia instantánea cuando las luces se apagan y llega el pastel de cumpleaños. Con Freezon Banner en tu iPhone o iPad, puedes transformar tu pantalla en un radiante letrero de celebración. Esta guía te muestra paso a paso cómo crear un vibrante letrero de dos líneas con el texto \"ALEX / MAKE A WISH\" y detalles brillantes, usando las herramientas de dibujo gratuitas, los bordes de plantilla y el efecto Neón de la aplicación."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Elegir entre la orientación horizontal y vertical",
+          "paragraphs": [
+            "Decide cómo sostendrás o apoyarás tu dispositivo antes de comenzar a trabajar en el lienzo.",
+            "La visualización a pantalla completa conserva la relación de aspecto del lienzo, así que mantén todo el texto bien alejado de los bordes para evitar recortes imprevistos."
+          ],
+          "bullets": [
+            "La orientación horizontal funciona mejor para apoyar tu iPad sobre una mesa cerca del pastel o para sostener tu teléfono de forma horizontal con ambas manos. Un diseño de dos líneas se adapta con naturalidad aquí: \"ALEX\" domina la parte superior, \"MAKE A WISH\" ocupa la parte inferior y queda amplio espacio a los lados para estrellas o corazones decorativos.",
+            "La orientación vertical es ideal si planeas llevar tu dispositivo erguido como una pancarta de mano. Dado que el espacio horizontal es más estrecho, prevé un espaciado más ajustado entre las letras en la segunda línea, que es más larga."
+          ]
+        },
+        {
+          "heading": "Comenzar con un lienzo en blanco o una plantilla gratuita",
+          "paragraphs": [
+            "Abre el espacio de trabajo de dibujo en Freezon Banner para configurar tu fondo."
+          ],
+          "bullets": [
+            "Lienzo en blanco: Elige un fondo oscuro, como negro intenso o azul marino de medianoche, para que la escritura brillante resalte de forma llamativa en habitaciones con poca luz.",
+            "Plantillas gratuitas: Freezon Banner incluye marcos decorativos gratuitos como Star Corners y Heart Surround. Selecciona la opción que contiene únicamente el diseño para comenzar sin un texto de saludo predeterminado. Si la plantilla se carga con palabras de ejemplo, recuerda que son trazos de dibujo editables y no un campo de texto fijo; simplemente bórralos con el borrador o con el botón deshacer mientras mantienes intacto el marco del borde."
+          ]
+        },
+        {
+          "heading": "Dibujar y perfeccionar el saludo en dos líneas",
+          "paragraphs": [
+            "Elige el bolígrafo Solid Pen o el lápiz Pencil gratuitos, selecciona un tono de neón intenso como amarillo eléctrico, cian o rosa brillante, y ajusta el grosor del trazo para lograr una visibilidad destacada.",
+            "Si un trazo queda irregular, toca Deshacer para reintentarlo de inmediato. Usa la herramienta Borrador para retocar los bordes de las letras o limpiar trazos superpuestos, y usa Rehacer si borras algo por equivocación."
+          ],
+          "bullets": [
+            "Línea superior: Dibuja a mano \"ALEX\" en mayúsculas grandes y centradas a lo largo de la mitad superior del lienzo.",
+            "Línea inferior: Escribe \"MAKE A WISH\" abajo, haciendo las letras un poco más pequeñas para equilibrar la composición.",
+            "Detalles: Dibuja pequeñas estrellas, puntos o corazones en las áreas vacías que rodean el texto."
+          ]
+        },
+        {
+          "heading": "Dibujar con los dedos frente a la precisión del Apple Pencil",
+          "paragraphs": [
+            "Freezon Banner permite dibujar con los dedos tanto en el iPhone como en el iPad, lo que facilita crear un letrero en cualquier momento. Bosquejar con los dedos se siente natural y resulta ideal para letras de imprenta gruesas y saludos espontáneos.",
+            "En un iPad compatible, enlazar un Apple Pencil ofrece un control más detallado. La nitidez y precisión del lápiz te ayudan a equilibrar el espaciado entre letras, conservar una altura uniforme en \"MAKE A WISH\", afinar limpiamente las puntas de las estrellas y borrar espacios reducidos dentro de las letras cerradas sin manchar los trazos contiguos."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Aplicar el efecto Neón gratuito en todo el lienzo",
+          "paragraphs": [
+            "Tras completar tus letras y bordes decorativos, transforma tu boceto plano en un letrero digital iluminado. Freezon Banner incluye tanto la renderización estándar como un efecto Neón gratuito para todo el lienzo.",
+            "Abre el menú de efectos y selecciona el efecto Neón. Esto proyecta al instante un brillo eléctrico y luminoso en cada trazo de la pantalla. Sobre el fondo oscuro, tu escritura a mano brillante y las estrellas parecerán auténticos tubos de neón resplandeciendo en la oscuridad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Presentar el letrero al momento del pastel y guardar favoritos",
+          "paragraphs": [
+            "Cuando llegue el momento de cantar y presentar el pastel de cumpleaños, cambia Freezon Banner al modo de pantalla completa. Esto oculta las barras de herramientas y los menús, mostrando tu letrero de borde a borde mientras preserva la relación de aspecto del lienzo.",
+            "Sostén la pantalla en alto o apóyala junto al pastel para que la persona festejada pueda ver su saludo brillante con claridad. Después del festejo, guarda tu obra terminada como favorita directamente en el dispositivo para abrirla cuando quieras para fotos o futuras fiestas."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Espacio de trabajo de dibujo en iPad en inglés de Freezon Banner con un pastel de cumpleaños brillante dibujado a mano y el texto HAPPY BDAY!, con la barra de herramientas de dibujo visible."
+      ]
+    },
+    "pt-BR": {
+      "title": "Como criar um letreiro LED de aniversário desenhado à mão no Freezon Banner",
+      "deck": "Crie um letreiro de aniversário luminoso no Freezon Banner para iPhone e iPad com mensagens personalizadas em duas linhas e o efeito Neon gratuito.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Um letreiro luminoso personalizado adiciona um toque mágico imediato quando as luzes se apagam e o bolo de aniversário chega. Com o Freezon Banner no seu iPhone ou iPad, você pode transformar sua tela em uma placa de comemoração radiante. Este guia ensina como criar um letreiro vibrante de duas linhas com \"ALEX / MAKE A WISH\" e detalhes brilhantes, utilizando as ferramentas gratuitas de desenho do aplicativo, bordas de modelos e o efeito Neon."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Escolha entre as orientações paisagem e retrato",
+          "paragraphs": [
+            "Decida como você vai segurar ou apoiar o dispositivo antes de começar sua tela.",
+            "A exibição em tela cheia preserva a proporção da tela, portanto, mantenha todas as letras bem dentro das bordas para evitar cortes indesejados."
+          ],
+          "bullets": [
+            "A orientação paisagem funciona melhor para apoiar o iPad em uma mesa perto do bolo ou segurar o telefone na horizontal com as duas mãos. Um layout de duas linhas se adapta naturalmente aqui: \"ALEX\" se destaca no topo, \"MAKE A WISH\" preenche a parte inferior e sobra bastante espaço nas laterais para estrelas ou corações decorativos.",
+            "A orientação retrato é ideal se você planeja carregar o dispositivo na vertical como um sinalizador portátil. Como o espaço vertical é mais estreito, planeje um espaçamento menor entre as letras na segunda linha, que é mais longa."
+          ]
+        },
+        {
+          "heading": "Começar com uma tela em branco ou modelo gratuito",
+          "paragraphs": [
+            "Abra o espaço de trabalho Desenho no Freezon Banner para preparar seu plano de fundo."
+          ],
+          "bullets": [
+            "Tela em branco: escolha um fundo escuro, como preto profundo ou azul-marinho, para que a caligrafia brilhante se destaque bastante em ambientes com pouca iluminação.",
+            "Modelos gratuitos: o Freezon Banner inclui bordas decorativas gratuitas, como Star Corners e Heart Surround. Selecione a opção com apenas a arte para começar sem nenhum texto predefinido de saudação. Se um modelo carregar com palavras de exemplo, lembre-se de que são traços desenhados editáveis e não uma caixa de texto fixa; basta removê-los com a borracha ou com o botão desfazer, mantendo a moldura da borda intacta."
+          ]
+        },
+        {
+          "heading": "Desenhar e aprimorar a saudação em duas linhas",
+          "paragraphs": [
+            "Escolha a Caneta sólida ou o Lápis gratuito, selecione uma cor neon vibrante, como amarelo elétrico, ciano ou rosa choque, e ajuste a espessura da linha para garantir uma boa legibilidade.",
+            "Se um traço parecer irregular, toque em Desfazer para tentar novamente na mesma hora. Use a ferramenta Borracha para ajustar as bordas das letras ou limpar traços sobrepostos e use Refazer se apagar algo por engano."
+          ],
+          "bullets": [
+            "Linha superior: desenhe \"ALEX\" à mão em letras maiúsculas grandes e centralizadas na metade superior da tela.",
+            "Linha inferior: escreva \"MAKE A WISH\" embaixo, com as letras um pouco menores para equilibrar a composição.",
+            "Detalhes decorativos: desenhe pequenas estrelas, pontos ou corações nas áreas vazias ao redor."
+          ]
+        },
+        {
+          "heading": "Desenhar com os dedos versus a precisão do Apple Pencil",
+          "paragraphs": [
+            "O Freezon Banner permite desenhar com os dedos tanto no iPhone quanto no iPad, facilitando a criação de um letreiro rapidamente. O traço com o dedo parece natural e funciona muito bem para letras de forma marcantes e saudações descontraídas.",
+            "Em um iPad compatível, conectar um Apple Pencil proporciona um controle muito mais refinado. A precisão cirúrgica do Pencil ajuda a equilibrar o espaçamento entre as letras, manter alturas uniformes em \"MAKE A WISH\", afilar pontas de estrelas com nitidez e apagar áreas estreitas dentro de letras fechadas sem borrar os traços adjacentes."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Aplicar o efeito Neon gratuito em toda a tela",
+          "paragraphs": [
+            "Após concluir os textos e as bordas decorativas, transforme seu desenho simples em um letreiro digital iluminado. O Freezon Banner oferece tanto a renderização padrão quanto um efeito Neon gratuito para toda a tela.",
+            "Abra o menu de efeitos e selecione o efeito Neon. Isso aplica instantaneamente um brilho elétrico e luminoso a cada traço na tela. Contra o fundo escuro, sua caligrafia brilhante e as estrelas parecerão tubos de neon de verdade brilhando no escuro."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Apresentar na hora do bolo e salvar nos favoritos",
+          "paragraphs": [
+            "Quando chegar a hora de cantar parabéns e apresentar o bolo de aniversário, mude o Freezon Banner para o modo de tela cheia. Isso oculta barras de ferramentas e menus, destacando seu letreiro de ponta a ponta e preservando a proporção da tela.",
+            "Segure o dispositivo no alto ou apoie-o ao lado do bolo para que a pessoa homenageada veja a saudação iluminada com nitidez. Após a festa, salve a arte concluída como favorita diretamente no dispositivo para exibi-la a qualquer momento em fotos ou celebrações futuras."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Espaço de trabalho de Desenho do Freezon Banner em inglês no iPad, exibindo um bolo de aniversário desenhado à mão que brilha, o texto HAPPY BDAY! e a barra de ferramentas de desenho visível."
+      ]
+    }
+  },
+  "screenLocale": "en",
+  "screenSections": [
+    5
+  ]
+}
