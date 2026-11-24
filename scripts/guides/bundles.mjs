@@ -33,7 +33,7 @@ export function guideBundles(dir, reservedSlug) {
       check(entry && plain(entry.title, 150) && plain(entry.deck, 240) && plain(entry.download, 80) && Array.isArray(entry.sections) && entry.sections.length > 1 && entry.sections.length <= 12, `invalid article header or sections for ${lang}`);
       check(Array.isArray(entry.captions) && entry.captions.length === screens.length && entry.captions.every(caption => plain(caption, 240)), `missing screenshot captions for ${lang}`);
       for (const section of entry.sections) {
-        check(section && (section.heading === '' || plain(section.heading, 150)) && Array.isArray(section.paragraphs) && section.paragraphs.length > 0 && section.paragraphs.length <= 8 && section.paragraphs.every(paragraph => plain(paragraph)), `invalid section for ${lang}`);
+        check(section && (section.heading === '' || plain(section.heading, 150)) && Array.isArray(section.paragraphs) && section.paragraphs.length > 0 && section.paragraphs.length <= 12 && section.paragraphs.every(paragraph => plain(paragraph)), `invalid section for ${lang}`);
         check(Array.isArray(section.bullets) && section.bullets.length <= 8 && section.bullets.every(bullet => plain(bullet)), `invalid list for ${lang}`);
       }
       check(screenSections.every(i => i < entry.sections.length), `screenshot section missing in ${lang}`);

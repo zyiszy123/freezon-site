@@ -1,0 +1,338 @@
+{
+  "slug": "private-iphone-photos-shared-ipad",
+  "product": "vault",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Keep iPhone Photos Off a Shared Family iPad",
+      "deck": "Turn off iCloud Photos on the shared iPad, or keep syncing and store selected iPhone photos separately.",
+      "download": "View on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "It is a familiar household scene: you hand the family iPad to your child to watch cartoons, only to realize that personal iPhone snapshots—from medical documents to gift idea screenshots—are visible in the Photos app. If both devices use the same Apple Account and have iCloud Photos turned on, they show the same photo library. Being in a Family Sharing group does not automatically share your personal photos, so check the account and iCloud Photos settings on the iPad first.",
+            "You do not need to turn off iCloud Photos everywhere to solve this. You can take the synced library off just the shared iPad, or keep syncing and set aside only the photos you want to keep private."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Path 1: Turn Off Photo Syncing on the Shared iPad",
+          "paragraphs": [
+            "If the shared iPad does not need access to your personal camera roll, the cleanest solution is to disconnect photo syncing on that device. This keeps your iPhone syncing normally with iCloud while letting you remove the synced copies from the family tablet.",
+            "1. On the shared iPad, open Settings and tap [your name].",
+            "2. Tap iCloud, then tap Photos.",
+            "3. Turn off Sync this iPad.",
+            "4. If prompted, select Remove from iPad to clear the synced cloud photos from the tablet.",
+            "Make this change on the iPad only. Leave iCloud Photos enabled on your account and your iPhone.",
+            "Selecting \"Remove from iPad\" clears synced cloud photos from the tablet, though copies you saved separately outside Apple Photos will remain. For official Apple steps, see Apple’s guides to [Set up and use iCloud Photos](https://support.apple.com/en-us/guide/icloud/mm08b49040b5/icloud) and [Turn off iCloud Photos](https://support.apple.com/en-us/102179)."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Path 2: Keep Selected Photos Private While Leaving Sync Active",
+          "paragraphs": [
+            "If you still want the family iPad to display shared albums and vacation pictures, turning off sync completely may not be practical. Keep in mind that Apple's built-in \"Hidden\" album is not a separate vault; hiding photos does not take them out of the library that iCloud Photos syncs.",
+            "To keep specific pictures—such as a gift idea screenshot or personal receipt—off the shared iPad, you can store them in Freezon. Freezon imports selected photos and videos, encrypts them locally on your iPhone, and works offline without ads or automated cross-device syncing.",
+            "Here is the recommended workflow:",
+            "1. Import photos into Freezon: Open Freezon on your iPhone and import the specific photos you want to protect.",
+            "2. Check the imported copies: View each imported photo or video inside Freezon to confirm it transferred intact.",
+            "3. Make an optional backup: If you have no other copy of these photos, create an encrypted backup in Freezon via the Files app. You can safely save this backup file to iCloud Drive; it remains an independent encrypted file, completely separate from iCloud Photos.",
+            "4. Delete originals in Apple Photos: Delete the originals from Apple Photos on your iPhone and confirm the system deletion prompt.",
+            "5. Check the iPad after syncing: Once iCloud syncs over your network, verify on the iPad that the photos no longer appear in its library.",
+            "When you delete an item from Apple Photos, iOS keeps it in the Recently Deleted album for up to 30 days before permanent removal. If you need immediate privacy on the shared iPad, you can open Recently Deleted and remove those specific items, without needing to empty the entire album.",
+            "For detailed migration steps, read our guide on how to [Move private photos out of Apple Photos](https://freezonapp.com/guides/move-photos-out-of-apple-photos/).",
+            "Want to keep a few photos on your iPhone and out of the family photo library? Try Freezon."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "怎么不让 iPhone 照片出现在家里共用的 iPad 上？",
+      "deck": "只关闭共用 iPad 的照片同步，或保留同步，把几张私密照片单独存起来。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "你把家里的 iPad 递给孩子看动画，才发现自己在 iPhone 上拍的照片也在里面，连偷偷存下来的生日礼物截图都看得见。如果两台设备登录的是同一个 Apple 账户，而且都开了「iCloud 照片」，它们看到的就是同一个图库。单纯加入苹果的「家人共享」群组，并不会把你的个人照片分享给家人。",
+            "如果你不想让整套图库出现在 iPad 上，可以只关掉这台 iPad 的同步。如果旅行照还想在 iPad 上看，只是有几张照片想留给自己，也可以继续开着同步，把那几张单独存起来。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "不让整套图库出现在 iPad 上",
+          "paragraphs": [
+            "如果这台 iPad 平时只用来看剧、上网课，不需要看 iPhone 上的照片，可以只在这台 iPad 上关闭照片同步。iPhone 继续正常同步。",
+            "1. 在共享的 iPad 上，打开“设置”，轻点顶部的【你的姓名】。",
+            "2. 轻点“iCloud”，然后选择“照片”。",
+            "3. 关闭“同步此 iPad”开关。",
+            "4. 如果系统弹出提示，选择“从 iPad 移除”，以清除已同步到该设备上的云端照片。",
+            "只改这台 iPad 的设置，你的 Apple 账户和 iPhone 仍然可以继续使用 iCloud 照片。",
+            "选择“从 iPad 移除”会清除设备上同步自云端的图库内容，另外保存在「照片」App 之外的副本仍会留在设备上。如需了解苹果官方的详细说明，可参考 Apple 官方指南：[设置和使用“iCloud 照片”](https://support.apple.com/en-us/guide/icloud/mm08b49040b5/icloud) 与 [关闭“iCloud 照片”](https://support.apple.com/en-us/102179)。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "保留同步，只把几张照片单独存起来",
+          "paragraphs": [
+            "如果你仍然希望全家在 iPad 上浏览旅行合影和生活抓拍，全盘关闭同步可能并不方便。把照片移进系统的「已隐藏」相簿，只会改变它在哪儿显示。它仍然是 iCloud 照片图库的一部分。",
+            "像礼物截图、个人票据，或者只是想留给自己的照片，可以存进定格私密相册。它支持从系统相册导入照片和视频，在 iPhone 上加密保存；离线能看，没有广告，App 里的相册也不会自动同步到家里的 iPad。",
+            "具体操作建议如下：",
+            "1. 导入到 Freezon：在 iPhone 上打开 Freezon，选择并导入你希望保密的那部分照片。",
+            "2. 检查导入副本：在 Freezon 内打开导入的照片或视频，确认内容显示完整、播放正常。",
+            "3. 制作可选的加密备份：如果这些照片没有其他备份，建议在 Freezon 中通过“文件”App 导出一份加密备份。你可以安心地将该文件存放在 iCloud 云盘（iCloud Drive）中；它只是一份独立的加密备份文件，与“iCloud 照片”互不干扰，也不会修改任何 iCloud 系统设置。",
+            "4. 从 Apple 照片中删除原图：在 iPhone 的系统相册中删除这些照片的原图，并在系统确认弹窗中确认删除。",
+            "5. 在 iPad 同步后确认效果：待 iPhone 与 iPad 完成 iCloud 同步后，检查 iPad 的相册，确认相应照片已不再显示。",
+            "从 Apple 照片中删除的项目会进入“最近删除”相簿，并在其中保留最多 30 天才会被系统永久清理。如果你已确认定格里的副本完整，也不想让这些原图在「最近删除」里继续保留，可以只永久删除这几张。等同步完成后，再在 iPad 上检查。",
+            "如需了解完整的图库迁移细节，欢迎查阅我们的专项指南：[移出 Apple 照片](https://freezonapp.com/guides/zh-Hans/move-photos-out-of-apple-photos/)。",
+            "想保留全家的旅行照，又给自己的照片留点空间？可以从下面下载定格私密相册。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何避免 iPhone 照片同步到家庭共用的 iPad",
+      "deck": "了解如何關閉共用 iPad 上的 iCloud 照片同步，或使用 Freezon 將私密照片單獨加密存放，避免個人照片出現在家庭平板上。",
+      "download": "下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "這是家庭中常見的場景：你把共用的 iPad 拿給孩子看卡通，卻突然發現自己 iPhone 上的私人照片——從醫療文件到禮物靈感截圖——全都在「照片」App 中一覽無遺。如果兩部裝置使用相同的 Apple 帳號且開啟了「iCloud 照片」，它們就會顯示同一個照片圖庫。加入「家人共享」群組並不會自動分享你的個人照片，因此請先檢查 iPad 上的帳號與「iCloud 照片」設定。",
+            "你不需要關閉所有裝置上的「iCloud 照片」來解決這個問題。你可以只移除共用 iPad 上的同步圖庫，或者維持同步，僅將想要保密的照片單獨存放。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "方法 1：關閉共用 iPad 上的照片同步",
+          "paragraphs": [
+            "如果這部共用的 iPad 不需要存取你個人的相機膠卷，最俐落的解決方案就是在該裝置上中斷照片同步。這能讓你的 iPhone 繼續正常與 iCloud 同步，同時讓你從這部家庭平板中移除已同步的複本。",
+            "請僅在 iPad 上進行此項變更，並在你的帳號與 iPhone 上保持開啟「iCloud 照片」。",
+            "選擇「從 iPad 移除」會清除平板上已同步的雲端照片，但你在 Apple「照片」之外單獨儲存的複本仍會保留。如需 Apple 官方步驟，請參閱 Apple 關於設定與使用「iCloud 照片」以及關閉「iCloud 照片」的指南。"
+          ],
+          "bullets": [
+            "在共用的 iPad 上，前往「設定」→ 點一下你的姓名。",
+            "點一下「iCloud」→「照片」。",
+            "關閉「同步此 iPad」。",
+            "如果系統出現提示，選擇「從 iPad 移除」以清除平板上已同步的雲端照片。"
+          ]
+        },
+        {
+          "heading": "方法 2：在維持同步啟用的同時保護所選照片的隱私",
+          "paragraphs": [
+            "如果你仍希望家庭 iPad 能夠顯示共享相簿與度假照片，那麼完全關閉同步可能並不實用。請注意，Apple 內建的「已隱藏」相簿並不是獨立的保險箱；隱藏照片並不會將它們移出「iCloud 照片」同步的圖庫之外。",
+            "若要避免特定照片（例如禮物靈感截圖或個人收據）出現在共用的 iPad 上，你可以將它們存放在 Freezon 中。Freezon 能匯入所選的照片與影片，在你的 iPhone 本地進行加密，且具備離線運作功能，沒有廣告，也不會自動跨裝置同步。以下是建議的操作流程：",
+            "當你從 Apple「照片」中刪除項目時，iOS 會將其保留在「最近刪除」相簿中長達 30 天才會永久移除。如果你需要在共用 iPad 上立即確保隱私，可以打開「最近刪除」並直接移除這些特定項目，無需清空整個相簿。",
+            "如需詳細的移轉步驟，請參閱我們關於如何將私密照片移出 Apple「照片」的指南。",
+            "想要在 iPhone 上保留部分照片，同時避免它們出現在家庭照片圖庫中嗎？歡迎試用 Freezon。"
+          ],
+          "bullets": [
+            "匯入照片至 Freezon：在 iPhone 上打開 Freezon，匯入你想要保護的特定照片。",
+            "檢查已匯入的複本：在 Freezon 內檢視每張已匯入的照片或影片，確認其完整傳輸。",
+            "建立選用備份：如果你沒有這些照片的其他複本，可以在 Freezon 透過「檔案」App 建立加密備份。你可以將此備份檔案安全地儲存到 iCloud 雲碟；它會是一個獨立的加密檔案，與「iCloud 照片」完全分開。",
+            "刪除 Apple「照片」中的原始項目：在 iPhone 上的 Apple「照片」中刪除原始照片，並確認系統刪除提示。",
+            "同步後檢查 iPad：當 iCloud 透過網路完成同步後，在 iPad 上確認這些照片已不再出現在其圖庫中。"
+          ]
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "家族で共有するiPadにiPhoneの写真を同期させない方法",
+      "deck": "家族と共有しているiPadにiPhoneのプライベートな写真が表示されないように、iCloud写真の同期をiPad側でのみオフにする方法や、同期を維持したまま特定の写真だけを安全に管理する方法を解説します。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "子どもにアニメを見せるために家族共用のiPadを渡したところ、医療関係の書類やプレゼント候補のスクリーンショットなど、iPhoneで撮影したプライベートな写真が「写真」アプリに表示されていることに気づくのは、よくある家庭の光景です。両方のデバイスで同じApple Accountを使用し、iCloud写真がオンになっていると、同じ写真ライブラリが表示されます。ファミリー共有グループに参加しているだけで個人の写真が自動的に共有されることはないため、まずはiPadのアカウントとiCloud写真の設定を確認してください。",
+            "これを解決するために、すべてのデバイスでiCloud写真をオフにする必要はありません。共有しているiPadからのみ同期されたライブラリを削除するか、同期をそのまま維持して非公開にしておきたい写真だけを別で保管することができます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "方法1: 共有iPadの写真同期をオフにする",
+          "paragraphs": [
+            "共有iPadで個人のカメラロールにアクセスする必要がない場合は、その端末での写真同期を解除するのが最も確実な解決策です。これにより、iPhoneは通常どおりiCloudと同期を続けながら、家族用のiPadから同期された写真のコピーを削除できます。",
+            "この変更はiPadでのみ行ってください。Apple AccountおよびiPhoneのiCloud写真は有効のままにしておきます。",
+            "「iPadから削除」を選択すると、同期されていたクラウド写真がタブレットから消去されますが、Appleの「写真」アプリ以外に個別に保存したコピーはそのまま残ります。公式な手順については、Appleの「iCloud写真の設定と使用」および「iCloud写真をオフにする」サポートガイドを参照してください。"
+          ],
+          "bullets": [
+            "共有iPadで「設定」を開き、自分の名前をタップします。",
+            "「iCloud」→「写真」の順にタップします。",
+            "「このiPadを同期」をオフにします。",
+            "確認画面が表示されたら、「iPadから削除」を選択して、同期されていたクラウド写真をiPadから削除します。"
+          ]
+        },
+        {
+          "heading": "方法2: 同期を有効にしたまま特定の写真を非公開にする",
+          "paragraphs": [
+            "共有アルバムや旅行の写真を家族用のiPadに表示させたい場合、同期を完全にオフにするのは現実的ではないかもしれません。なお、Appleの標準機能である「非表示」アルバムは独立した保管庫ではなく、写真を非表示にしてもiCloud写真が同期するライブラリから除外されるわけではない点に注意してください。",
+            "プレゼント候補のスクリーンショットや私的な領収書など、特定の写真だけを共有iPadから隠したい場合は、Freezonに保存できます。Freezonは選択した写真や動画を取り込み、iPhone上でローカルに暗号化します。広告はなく、デバイス間で自動同期されることもないため、完全にオフラインで動作します。",
+            "推奨される手順は次のとおりです。",
+            "Appleの「写真」アプリから項目を削除すると、iOSは完全に削除するまで「最近削除した項目」アルバムに最大30日間保持します。共有iPad上ですぐにプライバシーを確保したい場合は、「最近削除した項目」を開き、アルバム全体を空にしなくても特定の写真だけを選んで完全に削除できます。",
+            "詳しい移行手順については、Freezonの「プライベートな写真をApple写真から移動する方法」のガイドを参照してください。",
+            "一部の写真だけをiPhoneに残し、家族の写真ライブラリから除外したい場合は、Freezonをお試しください。"
+          ],
+          "bullets": [
+            "Freezonに写真を読み込む: iPhoneでFreezonを開き、保護したい特定の写真を読み込みます。",
+            "読み込んだ写真を確認する: Freezon内で各写真や動画を表示し、正常に読み込まれていることを確認します。",
+            "必要に応じてバックアップを作成する: これらの写真の他のコピーがない場合は、「ファイル」アプリ経由でFreezonの暗号化バックアップを作成します。このバックアップファイルはiCloud Driveに安全に保存でき、iCloud写真とは完全に分離された独立した暗号化ファイルとして保持されます。",
+            "Appleの写真アプリから元の写真を削除する: iPhoneのApple「写真」アプリから元の写真を削除し、システムの削除確認に応じます。",
+            "同期後にiPadで確認する: ネットワーク経由でiCloudが同期された後、iPadのライブラリに対象の写真が表示されなくなったことを確認します。"
+          ]
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "가족 공용 iPad에 iPhone 사진이 동기화되지 않게 하는 방법",
+      "deck": "가족 공용 iPad에서 사진 동기화를 해제하거나, 동기화를 유지한 채 비공개 사진만 별도로 보관하여 개인 사진 노출을 방지하는 방법을 알아봅니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "가정에서 흔히 겪는 상황이 있습니다. 아이에게 만화를 보여주려고 가족 공용 iPad를 건넸다가, 의료 문서나 선물 아이디어 스크린샷 같은 iPhone의 개인 사진이 사진 앱에 그대로 보이는 것을 발견하는 순간입니다. 두 기기에서 동일한 Apple 계정을 사용하고 iCloud 사진이 켜져 있다면 동일한 사진 보관함이 표시됩니다. 가족 공유 그룹에 속해 있다고 해서 개인 사진이 자동으로 공유되는 것은 아니므로, 먼저 iPad의 계정과 iCloud 사진 설정을 확인해야 합니다.",
+            "이 문제를 해결하기 위해 모든 기기에서 iCloud 사진을 끌 필요는 없습니다. 공용 iPad에서만 동기화된 보관함을 제거하거나, 동기화를 유지하면서 비공개로 유지하고 싶은 사진만 따로 보관하면 됩니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "방법 1: 공용 iPad에서 사진 동기화 끄기",
+          "paragraphs": [
+            "공용 iPad에서 개인 카메라 롤에 접근할 필요가 없다면 해당 기기에서 사진 동기화를 해제하는 것이 가장 깔끔한 해결책입니다. 이렇게 하면 iPhone은 iCloud와 정상적으로 동기화되는 상태를 유지하면서 가족용 태블릿에서는 동기화된 사진 복사본을 제거할 수 있습니다.",
+            "이 설정 변경은 iPad에서만 진행해야 합니다. 사용자의 계정과 iPhone에서는 iCloud 사진을 켜 둔 상태로 유지하세요.",
+            "'iPad에서 제거'를 선택하면 태블릿에서 동기화된 클라우드 사진이 지워지지만, Apple 사진 앱 외부에서 별도로 저장한 복사본은 그대로 유지됩니다. 공식적인 Apple 설정 단계는 Apple의 iCloud 사진 설정 및 사용 안내와 iCloud 사진 끄기 가이드를 참조하세요."
+          ],
+          "bullets": [
+            "공용 iPad에서 설정 → 사용자 이름을 탭합니다.",
+            "iCloud → 사진을 탭합니다.",
+            "'이 iPad 동기화'를 끕니다.",
+            "메시지가 나타나면 'iPad에서 제거'를 선택하여 태블릿에서 동기화된 클라우드 사진을 삭제합니다."
+          ]
+        },
+        {
+          "heading": "방법 2: 동기화를 유지하면서 선택한 사진만 비공개로 보관하기",
+          "paragraphs": [
+            "가족 공용 iPad에서 공유 앨범과 휴가 사진을 계속 표시하고 싶다면 동기화를 완전히 끄는 것이 실용적이지 않을 수 있습니다. Apple의 기본 '가려진 항목' 앨범은 별도의 보안 보관함이 아니므로, 사진을 가려도 iCloud 사진이 동기화하는 보관함에서 제외되지 않는다는 점을 유의해야 합니다.",
+            "선물 아이디어 스크린샷이나 개인 영수증처럼 특정 사진을 공용 iPad에 노출하지 않으려면 Freezon에 보관할 수 있습니다. Freezon은 선택한 사진과 비디오를 가져와 iPhone에서 로컬로 암호화하며, 광고나 기기 간 자동 동기화 없이 오프라인으로 작동합니다. 권장하는 작업 절차는 다음과 같습니다.",
+            "Apple 사진 앱에서 항목을 삭제하면 iOS는 영구 삭제 전까지 해당 항목을 '최근 삭제된 항목' 앨범에 최대 30일 동안 보관합니다. 공용 iPad에서 즉각적인 비공개가 필요하다면 전체 앨범을 비울 필요 없이 '최근 삭제된 항목'을 열고 해당 항목만 선택하여 삭제할 수 있습니다.",
+            "자세한 이전 절차는 Apple 사진 앱에서 비공개 사진 옮기기 가이드를 참조하세요.",
+            "iPhone에 몇 장의 사진만 남겨두고 가족 사진 보관함에서 제외하고 싶다면 Freezon을 사용해 보세요."
+          ],
+          "bullets": [
+            "Freezon으로 사진 가져오기: iPhone에서 Freezon을 열고 보호하려는 특정 사진을 가져옵니다.",
+            "가져온 복사본 확인: Freezon 내에서 가져온 각 사진이나 비디오를 열어 온전하게 이전되었는지 확인합니다.",
+            "선택적 백업 생성: 해당 사진의 다른 복사본이 없다면 파일 앱을 통해 Freezon에서 암호화된 백업을 생성합니다. 이 백업 파일은 iCloud Drive에 안전하게 저장할 수 있으며, iCloud 사진과는 완전히 분리된 독립된 암호화 파일로 유지됩니다.",
+            "Apple 사진에서 원본 삭제: iPhone의 Apple 사진 앱에서 원본을 삭제하고 시스템 삭제 확인 메시지를 승인합니다.",
+            "동기화 후 iPad 확인: 네트워크를 통해 iCloud 동기화가 완료되면 iPad의 보관함에 해당 사진이 더 이상 나타나지 않는지 확인합니다."
+          ]
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo evitar que las fotos de tu iPhone aparezcan en un iPad familiar compartido",
+      "deck": "Aprende a evitar que tus fotos personales del iPhone se muestren en el iPad familiar desactivando la sincronización en la tableta o guardándolas de forma privada.",
+      "download": "Descargar",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Es una escena cotidiana en muchos hogares: le prestas el iPad familiar a tus hijos para que vean dibujos animados y descubres que fotos personales de tu iPhone, desde documentos médicos hasta capturas de ideas para regalos, están visibles en la app Fotos. Si ambos dispositivos utilizan la misma cuenta de Apple y tienen activada la función Fotos en iCloud, mostrarán la misma fototeca. Formar parte de un grupo de Compartir en familia no comparte automáticamente tus fotos personales, por lo que primero debes revisar la cuenta y la configuración de Fotos en iCloud en el iPad.",
+            "No necesitas desactivar Fotos en iCloud en todos tus dispositivos para solucionar esto. Puedes quitar la fototeca sincronizada únicamente del iPad compartido, o bien mantener la sincronización activa y separar solo las fotos que quieras mantener privadas."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Opción 1: Desactivar la sincronización de fotos en el iPad compartido",
+          "paragraphs": [
+            "Si el iPad compartido no necesita acceso a tu carrete personal, la solución más limpia es desconectar la sincronización de fotos en ese dispositivo. Esto permite que tu iPhone siga sincronizándose con normalidad con iCloud y al mismo tiempo te permite eliminar las copias sincronizadas de la tableta familiar.",
+            "Realiza este cambio únicamente en el iPad. Mantén Fotos en iCloud activado en tu cuenta y en tu iPhone.",
+            "Al seleccionar Eliminar del iPad, se borran de la tableta las fotos sincronizadas de la nube, aunque se conservarán las copias que hayas guardado por separado fuera de Apple Fotos. Para consultar los pasos oficiales de Apple, revisa las guías de Apple sobre cómo configurar y usar Fotos en iCloud y cómo desactivar Fotos en iCloud."
+          ],
+          "bullets": [
+            "En el iPad compartido, abre Configuración y toca tu nombre.",
+            "Toca iCloud → Fotos.",
+            "Desactiva Sincronizar este iPad.",
+            "Si el sistema te lo solicita, selecciona Eliminar del iPad para borrar de la tableta las fotos sincronizadas de la nube."
+          ]
+        },
+        {
+          "heading": "Opción 2: Mantener fotos seleccionadas privadas mientras la sincronización sigue activa",
+          "paragraphs": [
+            "Si aún deseas que el iPad familiar muestre álbumes compartidos y fotos de vacaciones, desactivar la sincronización por completo puede no ser práctico. Recuerda que el álbum Oculto integrado de Apple no es una bóveda independiente; ocultar fotos no las elimina de la fototeca que sincroniza Fotos en iCloud.",
+            "Para evitar que fotos específicas, como la captura de una idea para un regalo o un recibo personal, aparezcan en el iPad compartido, puedes guardarlas en Freezon. Freezon importa fotos y videos seleccionados, los cifra localmente en tu iPhone y funciona sin conexión a internet, sin anuncios ni sincronización automática entre dispositivos.",
+            "Este es el flujo de trabajo recomendado:",
+            "Cuando eliminas un elemento de Apple Fotos, iOS lo conserva en el álbum Eliminados recientemente por hasta 30 días antes de su eliminación permanente. Si necesitas privacidad inmediata en el iPad compartido, puedes abrir Eliminados recientemente y borrar esos elementos específicos, sin necesidad de vaciar todo el álbum.",
+            "Para consultar los pasos detallados de migración, revisa nuestra guía sobre cómo mover fotos privadas fuera de Apple Fotos.",
+            "¿Quieres mantener algunas fotos en tu iPhone y fuera de la fototeca familiar? Prueba Freezon."
+          ],
+          "bullets": [
+            "Importar fotos a Freezon: abre Freezon en tu iPhone e importa las fotos específicas que deseas proteger.",
+            "Verificar las copias importadas: visualiza cada foto o video importado dentro de Freezon para confirmar que se transfirió intacto.",
+            "Crear un respaldo opcional: si no tienes otra copia de estas fotos, crea una copia de seguridad cifrada en Freezon mediante la app Archivos. Puedes guardar este archivo de respaldo con total seguridad en iCloud Drive; se mantendrá como un archivo cifrado independiente, completamente separado de Fotos en iCloud.",
+            "Eliminar los originales en Apple Fotos: borra los originales de Apple Fotos en tu iPhone y confirma el aviso de eliminación del sistema.",
+            "Revisar el iPad después de la sincronización: una vez que iCloud se sincronice a través de tu red, verifica en el iPad que las fotos ya no aparezcan en su fototeca."
+          ]
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como evitar que fotos do iPhone apareçam em um iPad compartilhado da família",
+      "deck": "Saiba como impedir que fotos do seu iPhone apareçam no iPad compartilhado da família, seja desativando a sincronização do iCloud no tablet ou guardando imagens privadas com segurança.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "É uma cena comum em muitas casas: você entrega o iPad da família para seu filho assistir a desenhos animados e percebe que fotos pessoais do seu iPhone — desde documentos médicos até capturas de tela com ideias de presentes — estão visíveis no app Fotos. Se ambos os aparelhos usam a mesma Conta Apple e estão com o Fotos do iCloud ativado, eles exibem a mesma fototeca. Fazer parte de um grupo de Compartilhamento Familiar não compartilha automaticamente suas fotos pessoais, portanto verifique primeiro as configurações da conta e do Fotos do iCloud no iPad.",
+            "Você não precisa desativar o Fotos do iCloud em todos os dispositivos para resolver essa situação. É possível remover a fototeca sincronizada apenas do iPad compartilhado ou continuar sincronizando e separar somente as fotos que deseja manter privadas."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Caminho 1: Desativar a sincronização de fotos no iPad compartilhado",
+          "paragraphs": [
+            "Se o iPad compartilhado não precisa ter acesso à sua fototeca pessoal, a solução mais prática é desativar a sincronização de fotos nesse dispositivo. Isso mantém seu iPhone sincronizando normalmente com o iCloud, permitindo que você remova as cópias sincronizadas do tablet da família.",
+            "Faça essa alteração apenas no iPad. Deixe o Fotos do iCloud ativado na sua conta e no seu iPhone.",
+            "Selecionar a opção Remover do iPad apaga do tablet as fotos sincronizadas da nuvem, mas as cópias salvas separadamente fora do app Fotos permanecerão no dispositivo. Para consultar o passo a passo oficial da Apple, veja os guias da empresa sobre como configurar e usar o Fotos do iCloud e como desativar o Fotos do iCloud."
+          ],
+          "bullets": [
+            "No iPad compartilhado, abra Ajustes e toque em seu nome.",
+            "Toque em iCloud → Fotos.",
+            "Desative a opção Sincronizar este iPad.",
+            "Se solicitado, selecione Remover do iPad para apagar do tablet as fotos sincronizadas da nuvem."
+          ]
+        },
+        {
+          "heading": "Caminho 2: Manter fotos selecionadas privadas com a sincronização ativa",
+          "paragraphs": [
+            "Se você ainda quer que o iPad da família exiba álbuns compartilhados e fotos de férias, desativar a sincronização por completo pode não ser conveniente. Lembre-se de que o álbum Ocultos nativo da Apple não é um cofre separado; ocultar fotos não as remove da biblioteca sincronizada pelo Fotos do iCloud.",
+            "Para manter imagens específicas fora do iPad compartilhado — como capturas de tela de ideias de presentes ou comprovantes pessoais —, você pode armazená-las no Freezon. O Freezon importa as fotos e os vídeos selecionados, criptografa os arquivos localmente no seu iPhone e funciona offline, sem anúncios nem sincronização automática entre dispositivos.",
+            "Aqui está o fluxo de trabalho recomendado:",
+            "Quando você apaga um item do Fotos da Apple, o iOS o mantém no álbum Apagados por até 30 dias antes da remoção definitiva. Se precisar de privacidade imediata no iPad compartilhado, você pode abrir o álbum Apagados e remover esses itens específicos, sem precisar esvaziar o álbum inteiro.",
+            "Para conferir as etapas detalhadas de migração, leia nosso guia sobre como mover fotos privadas para fora do Fotos da Apple.",
+            "Quer manter algumas fotos no seu iPhone e fora da fototeca da família? Experimente o Freezon."
+          ],
+          "bullets": [
+            "Importar fotos para o Freezon: abra o Freezon no seu iPhone e importe as fotos específicas que deseja proteger.",
+            "Verificar as cópias importadas: visualize cada foto ou vídeo importado dentro do Freezon para confirmar que o arquivo foi transferido intacto.",
+            "Fazer um backup opcional: se você não tiver outra cópia dessas fotos, crie um backup criptografado no Freezon usando o app Arquivos. Você pode salvar esse arquivo de backup com segurança no iCloud Drive; ele continuará sendo um arquivo criptografado independente, totalmente separado do Fotos do iCloud.",
+            "Apagar os originais no app Fotos da Apple: apague as fotos originais do app Fotos no seu iPhone e confirme a solicitação de exclusão do sistema.",
+            "Verificar o iPad após a sincronização: assim que o iCloud sincronizar pela rede, confirme no iPad se as fotos não aparecem mais na fototeca."
+          ]
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

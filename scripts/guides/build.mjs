@@ -21,6 +21,16 @@ const languageNav = (current, topic) => `<nav class="guide-languages" aria-label
   ${languages.map(lang => `<a href="${guidePath(lang, topic)}" lang="${lang}" hreflang="${lang}"${current === lang ? ' aria-current="page"' : ''}>${html(locales[lang][0])}</a>`).join('\n  ')}
 </nav>`;
 const p = (value) => `<p>${html(value)}</p>`;
+function guideParagraph(value) {
+  const link = /\[([^\]\n]+)\]\((https:\/\/(?:support\.apple\.com\/|freezonapp\.com\/guides\/)[\w/-]+)\)/g;
+  let body = '';
+  let offset = 0;
+  for (const {0: source, 1: label, 2: url, index} of value.matchAll(link)) {
+    body += `${html(value.slice(offset, index))}<a href="${html(url)}">${html(label)}</a>`;
+    offset = index + source.length;
+  }
+  return `<p>${body}${html(value.slice(offset))}</p>`;
+}
 const split = (data) => data.trim().split('\n').map(line => line.trim());
 const campaignURL = (country) => `https://apps.apple.com/${country}/app/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8`;
 const featuresLink = (lang, className, product = 'vault') => `<a class="${className}" href="${products[product].route}?lang=${productLanguage(lang, product)}#${products[product].anchor}">${html(guideActionLabels[lang].features)}</a>`;
@@ -228,7 +238,7 @@ const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLoca
     ${coverImage(guideCover(topic))}
     ${sections.map(({ heading: title, paragraphs, bullets }, i) => `<section>
       ${title ? `<h2>${html(title)}</h2>` : ''}
-      ${paragraphs.map(p).join('\n      ')}
+      ${paragraphs.map(guideParagraph).join('\n      ')}
       ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
       ${i === firstScreenshot ? `<p class="guide-screenshot-note">${html(englishScreenshotNotes[lang])}</p>\n      ` : ''}${images.get(i) ?? ''}
     </section>`).join('\n    ')}
