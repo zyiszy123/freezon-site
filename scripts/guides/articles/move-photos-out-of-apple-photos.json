@@ -4,15 +4,15 @@
   "screens": [],
   "content": {
     "en": {
-      "title": "How to Move Photos Out of Apple Photos on iPhone",
+      "title": "How to Move Private Photos from Apple Photos into an iPhone Photo Vault",
       "deck": "Learn how to move photos out of Apple Photos into Freezon, verify imported media in encrypted storage, and safely manage original files on your iPhone.",
       "download": "Download on the App Store",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "To move photos out of Apple Photos on an iPhone and store them behind an independent password, import the selected items into Freezon, verify that the files display correctly, and confirm the iOS system prompt to remove the originals from your camera roll. Freezon for iPhone and iPad provides local encrypted storage for private photos and videos, allowing you to secure personal media without cluttering or disrupting your main photo library.",
-            "Here is a practical, step-by-step workflow to test the process, transfer your media, and manage original files cleanly."
+            "To remove personal pictures from your main camera roll and store them behind an independent password, you can move them into an encrypted photo vault on your iPhone. Freezon keeps an encrypted copy stored locally on your device, giving you a safe personal archive without sending files to the cloud.",
+            "The workflow is simple: import your chosen photos into the vault, verify that the encrypted copy opens and displays properly, and after verifying, optionally confirm Apple's system prompt only if you want the originals removed from your photo library."
           ],
           "bullets": []
         },
@@ -78,15 +78,15 @@
       "captions": []
     },
     "zh-Hans": {
-      "title": "如何在 iPhone 上将照片移出 Apple 照片",
+      "title": "如何将隐私照片从 Apple“照片”移入 iPhone 私密相册",
       "deck": "了解如何使用 Freezon 将照片安全移出 iPhone 上的 Apple 照片，通过独立密码与本地加密存储保护私密媒体，并彻底管理相机胶卷中的原始文件。",
       "download": "在 App Store 下载",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "要将照片移出 iPhone 上的 Apple 照片并存放在独立密码保护下，可将所选项目导入 Freezon，验证文件是否正常显示，并确认 iOS 系统提示以从相机胶卷中移除原片。适用于 iPhone 和 iPad 的 Freezon 为私密照片和视频提供本地加密存储，让您在保护个人媒体安全的同时，不会扰乱或堆满主照片图库。",
-            "以下是一个实用的分步工作流程，帮助您测试该过程、转移媒体内容并干净利落地管理原始文件。"
+            "想要把私人照片从相机胶卷中移出并使用独立密码保护，你可以将它们存入 iPhone 上的加密私密相册中。定格私密相册会在你的设备本地保存加密副本，无需将文件上传到云端，就能为你提供安全的个人归档空间。",
+            "操作流程很简单：将选中的照片导入相册，核对加密副本能够正常打开和显示；确认无误后，只有在你确实想从照片图库中清除原片时，才确认 Apple 的系统提示进行删除。"
           ],
           "bullets": []
         },
@@ -149,15 +149,15 @@
       "captions": []
     },
     "zh-Hant": {
-      "title": "如何在 iPhone 上將照片移出 Apple 照片",
+      "title": "如何將私密照片從 Apple「照片」移入 iPhone 照片保險箱",
       "deck": "了解如何將照片匯入 Freezon 的加密儲存空間，並安全地從 iPhone 的 Apple 照片圖庫中移除原始檔案。",
       "download": "在 App Store 下載",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "若要在 iPhone 上將照片移出 Apple 照片並使用獨立密碼儲存，請將選取的項目匯入 Freezon，確認檔案正常顯示，並確認 iOS 系統提示以從相機膠卷中移除原始檔案。適用於 iPhone 與 iPad 的 Freezon 為私密照片與影片提供本機加密儲存空間，讓您無需雜亂堆放或打亂主要照片圖庫即可保護個人媒體。",
-            "以下是實用且循序漸進的工作流程，協助您測試該流程、轉移媒體內容，並乾淨俐落地管理原始檔案。"
+            "若想將私人照片從主要相機膠卷中移出，並以獨立密碼妥善保存，你可以把它們移入 iPhone 上的加密照片保險箱。定格私密相冊會將加密複本存放在你的本機裝置上，無需將檔案傳送至雲端，就能為你提供安全的個人檔案庫。",
+            "操作流程非常簡單：先將選定的照片匯入保險箱，確認加密複本能正常開啟並顯示；完成檢查後，只有在你想要從照片圖庫中移除原始檔案時，才確認 Apple 的系統提示進行刪除。"
           ],
           "bullets": []
         },
@@ -220,15 +220,15 @@
       "captions": []
     },
     "ja": {
-      "title": "iPhoneの「写真」アプリから写真を移す方法",
+      "title": "Appleの「写真」アプリからiPhoneの写真保管アプリにプライベートな写真を移動する方法",
       "deck": "Freezonに写真や動画を取り込み、表示と再生を確認してから元のファイルを削除する手順と、「写真」アプリの「最近削除した項目」の管理方法を紹介します。",
       "download": "App Storeで見る",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "iPhoneの「写真」アプリから写真を移し、専用のパスワードで保護するには、選んだ写真をFreezonに取り込み、ファイルが正しく表示されることを確認してから、iOSの確認画面でカメラロールからの元のファイルの削除を承認します。iPhoneとiPad向けのFreezonは、プライベートな写真や動画を端末内で暗号化して保存できるアプリです。メインの写真ライブラリを煩雑にしたり、普段の使い方を妨げたりすることなく、大切な写真や動画を保護できます。",
-            "ここでは、少量のファイルで手順を試し、写真や動画を移し、元のファイルを整理するまでの流れを順番に紹介します。"
+            "プライベートな写真をメインのカメラロールから外して独立したパスワードで保護したい場合は、iPhone内の暗号化された写真保管アプリに移行しましょう。Freezonなら暗号化したコピーを端末のローカルにのみ保存するため、クラウドにファイルを送信することなく安全にプライベートな写真を保管できます。",
+            "手順はとてもシンプルです。選んだ写真を保管アプリに読み込み、暗号化された写真が問題なく開いて表示されるか確認します。確認後、写真ライブラリから元の写真を削除したい場合のみ、Appleのシステム確認画面で削除を承認してください。"
           ],
           "bullets": []
         },
@@ -290,15 +290,15 @@
       "captions": []
     },
     "ko": {
-      "title": "iPhone의 Apple 사진 앱에서 사진을 외부로 이동하는 방법",
+      "title": "Apple 사진 앱에서 iPhone 사진 금고로 개인 사진을 옮기는 방법",
       "deck": "iPhone의 사진을 독립된 비밀번호로 보호되는 로컬 암호화 저장소로 이동하고 카메라 롤 원본을 정리하는 단계별 가이드입니다.",
       "download": "App Store에서 다운로드",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "iPhone의 Apple 사진 앱에서 사진을 이동하여 독립된 비밀번호로 보호되는 공간에 보관하려면, 선택한 항목을 Freezon으로 가져오고 파일이 올바르게 표시되는지 확인한 다음 카메라 롤에서 원본을 제거하라는 iOS 시스템 확인을 승인하면 됩니다. iPhone 및 iPad용 Freezon은 개인 사진과 비디오를 위한 로컬 암호화 저장소를 제공하므로 기본 사진 보관함을 어지럽히거나 방해하지 않고 개인 미디어를 안전하게 보호할 수 있습니다.",
-            "다음은 프로세스를 테스트하고 미디어를 안전하게 이전하며 원본 파일을 깔끔하게 관리할 수 있는 실용적인 단계별 워크플로입니다."
+            "기본 카메라 롤에서 개인 사진을 정리하고 독립된 비밀번호로 안전하게 보관하고 싶다면, iPhone의 암호화된 사진 금고로 사진을 옮길 수 있어요. Freezon은 기기 로컬에 암호화된 사본을 보관하므로, 파일을 클라우드로 전송하지 않고도 안전한 나만의 개인 보관함을 만들 수 있습니다.",
+            "진행 방법은 간단해요. 원하는 사진을 금고로 가져온 다음, 암호화된 사본이 제대로 열리고 표시되는지 확인하세요. 확인을 마친 후 사진 보관함에서 원본을 지우고 싶을 때만 Apple 시스템 팝업에서 원본 삭제를 승인하면 됩니다."
           ],
           "bullets": []
         },
@@ -364,15 +364,15 @@
       "captions": []
     },
     "es-419": {
-      "title": "Cómo mover fotos fuera de Apple Fotos en el iPhone",
+      "title": "Cómo pasar fotos privadas de Fotos de Apple a una bóveda de fotos en el iPhone",
       "deck": "Descubre cómo transferir fotos de Apple Fotos a Freezon para protegerlas con una contraseña independiente y eliminarlas de tu carrete de forma segura.",
       "download": "Descargar en el App Store",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "Para mover fotos fuera de Apple Fotos en un iPhone y guardarlas tras una contraseña independiente, importa los elementos seleccionados en Freezon, comprueba que los archivos se muestren correctamente y confirma el aviso del sistema iOS para eliminar los originales de tu carrete. Freezon para iPhone y iPad ofrece almacenamiento cifrado local para fotos y videos privados, lo que te permite proteger tus archivos personales sin desorganizar ni alterar tu fototeca principal.",
-            "A continuación encontrarás un flujo de trabajo práctico paso a paso para probar el proceso, transferir tu contenido y administrar los archivos originales de forma limpia."
+            "Para quitar fotos personales de tu rollo principal y guardarlas bajo una contraseña independiente, puedes moverlas a una bóveda de fotos cifrada en tu iPhone. Freezon guarda una copia cifrada localmente en tu dispositivo, dándote un archivo personal seguro sin enviar tus archivos a la nube.",
+            "El proceso es simple: importa las fotos que elijas a la bóveda, comprueba que la copia cifrada se abra y se vea bien, y, tras verificarlo, confirma de forma opcional el mensaje del sistema de Apple solo si deseas borrar los originales de tu fototeca."
           ],
           "bullets": []
         },
@@ -435,15 +435,15 @@
       "captions": []
     },
     "pt-BR": {
-      "title": "Como mover fotos para fora do app Fotos da Apple no iPhone",
+      "title": "Como mover fotos privadas do Fotos da Apple para um cofre de fotos no iPhone",
       "deck": "Importe fotos e vídeos para o Freezon, confira os arquivos e remova os originais do app Fotos da Apple, seguindo as etapas de confirmação do iOS e de gerenciamento do álbum Apagados.",
       "download": "Ver na App Store",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "Para mover fotos para fora do app Fotos da Apple no iPhone e protegê-las com uma senha independente, importe os itens selecionados para o Freezon, verifique se os arquivos são exibidos corretamente e confirme a solicitação do iOS para apagar os originais do rolo da câmera. O Freezon para iPhone e iPad oferece armazenamento local criptografado para fotos e vídeos privados, permitindo proteger seus arquivos pessoais sem sobrecarregar nem atrapalhar o uso da fototeca principal.",
-            "Veja um passo a passo prático para testar o processo, transferir suas fotos e vídeos e organizar os arquivos originais."
+            "Para tirar fotos pessoais do seu rolo da câmera principal e guardá-las sob uma senha independente, você pode movê-las para um cofre de fotos criptografado no iPhone. O Freezon mantém uma cópia criptografada salva localmente no seu aparelho, proporcionando um arquivo pessoal seguro sem enviar arquivos para a nuvem.",
+            "O passo a passo é simples: importe as fotos escolhidas para o cofre, confirme se a cópia criptografada abre e é exibida sem problemas e, depois de verificar, confirme o aviso do sistema da Apple apenas se você quiser remover os originais da sua fototeca."
           ],
           "bullets": []
         },

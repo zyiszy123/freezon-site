@@ -3,8 +3,8 @@ export const article = {
   'zh-Hans': `
 iPhone 隐藏相簿和私密相册 App，怎么选？
 什么时候用苹果自带的隐藏相簿就够了，什么时候值得给照片单独设个密码？
-你把 iPhone 递给朋友，想给他看一张周末拍的照片，他拿过去就往下一张滑。证件、就诊资料，或只想自己留着的照片，你当然不希望它们在这时突然出现。苹果自带的隐藏相簿和独立的加密相册，都能帮你把这类照片收好，但用法不同。
-如果你从不分享锁屏密码，只想让几张照片离开常规照片网格，用苹果「照片」就够了。如果有人也知道你的锁屏密码，而你还想给某些照片设一道独立的锁，定格这类私密相册就有用武之地。
+如果你只是想整理相册杂物，或者不想让私人照片显示在主图库网格中，Apple 自带的“已隐藏”相簿就已经足够。但如果你希望拥有独立密码，防止知道你设备密码的人打开这些照片，单独的私密相册应用会是更好的选择。
+设想一下：你把已经解锁的 iPhone 递给朋友看聚会照片，或者借给同事查看文档。仅仅借出已解锁的手机并不会解开“已隐藏”相簿；真正的问题在于借手机的人也知道你的设备密码。因为“已隐藏”相簿本身就是用该设备密码解锁的，任何知道它的人都能访问。而私密相册能确保即使把手机借给别人，你的敏感照片也始终处于锁定状态。
 解锁、存放和备份，一眼看懂
 对比项|苹果「照片」隐藏相簿|定格私密相册
 解锁|面容 ID、触控 ID 或设备密码|独立相册密码；日常相册可选用生物识别
@@ -34,8 +34,8 @@ iPhone 隐藏相簿和私密相册 App，怎么选？
   'zh-Hant': `
 iPhone 隱藏相簿和私密相簿 App，該怎麼選？
 什麼時候用 Apple 內建的隱藏相簿就夠了，什麼時候值得替照片另設密碼？
-你把 iPhone 遞給朋友，想讓他看一張週末拍的照片，他接過去就往下一張滑。證件、就醫資料，或只想自己留著的照片，你當然不希望它們這時突然出現。Apple 內建的隱藏相簿和獨立加密相簿都能把這些照片收好，差別在於怎麼開啟和備份。
-如果裝置密碼只有你知道，你也只是想把幾張照片移出一般照片列表，內建的「照片」就夠了。如果別人也知道你的裝置密碼，而你想替某些照片再加一把獨立的鎖，就可以考慮定格這類私密相簿。
+如果你只是想整理雜亂的照片，或不想讓私人照片出現在主要照片格線中，Apple 內建的「已隱藏」相簿就已經足夠。但如果你希望設定一組專屬密碼，讓知道你裝置密碼的人也無法開啟這些照片，那麼獨立的照片保險箱會是更好的選擇。
+試想把已解鎖的 iPhone 借給朋友欣賞派對照片，或讓同事查看文件的情境。單純借出一台已經解鎖的手機，並不會直接解鎖「已隱藏」相簿；真正的隱憂在於對方同時也知道你的裝置密碼。因為「已隱藏」相簿只要用裝置密碼就能解鎖，任何知道該密碼的人都能隨時存取。保險箱則能確保即使把手機借給他人，你的私密照片依然安全上鎖。
 快速比較解鎖、儲存和備份
 比較項目|Apple「照片」隱藏相簿|定格私密相簿
 解鎖|Face ID、Touch ID 或裝置密碼|獨立相簿密碼；日常相簿可選用生物辨識
@@ -65,8 +65,8 @@ Apple「照片」能透過已開啟「iCloud 照片」的裝置同步圖庫。�
   ja: `
 iPhoneの「非表示」アルバムと写真保管アプリ、どちらを使う？
 標準の「写真」で十分なときと、写真に別のパスワードをかけたいときの違いを解説します。
-週末に撮った1枚を見せるつもりでiPhoneを渡したら、友人がすぐに次の写真へ。書類や通院の記録、個人的な写真など、ふいに画面に出てほしくないものもあります。標準の「非表示」アルバムと暗号化された写真保管アプリでは、しまい方と開き方が違います。
-端末のパスコードを誰にも教えておらず、普段の写真一覧から数枚を隠したいだけなら、Appleの「写真」で十分です。パスコードを知っている人がいて、見せたくない写真だけ別のパスワードで守りたいなら、Freezonのような専用アプリが役立ちます。
+写真一覧をすっきり整理したい、あるいはプライベートな写真をメインのグリッドに表示させたくないだけなら、Apple標準の「非表示」アルバムで十分です。しかし、端末のパスコードを知っている人に写真を見られないよう専用のパスワードで保護したいなら、独立した写真保管アプリを選ぶのがおすすめです。
+たとえば、ロックを解除したiPhoneを友達に渡してパーティーの写真を見せたり、同僚に書類を確認してもらったりする場面を考えてみてください。すでにロック解除されたiPhoneを渡しただけでは「非表示」アルバムは開きませんが、問題はその相手が端末のパスコードを知っている場合です。「非表示」アルバムは端末のパスコードでロック解除できるため、パスコードを知っている人なら誰でも開けてしまいます。専用の保管アプリを使っていれば、iPhoneを人に手渡す場面でも大切な写真をしっかりロックしたまま保護できます。
 ロック解除・保存・バックアップの違い
 項目|Apple「写真」の非表示アルバム|Freezon
 ロック解除|Face ID、Touch ID、または端末のパスコード|アルバム専用のパスワード。日常用アルバムでは生体認証も選べる
@@ -96,8 +96,8 @@ Appleの写真を非表示にする方法を見る
   ko: `
 iPhone 가려진 앨범과 사진 보관함 앱, 무엇을 써야 할까요?
 기본 사진 앱으로 충분한 때와 사진에 별도 암호를 걸면 좋은 때를 알아봅니다.
-주말에 찍은 사진 한 장을 보여 주려고 iPhone을 건넸는데, 친구가 바로 다음 사진으로 넘깁니다. 신분증, 진료 기록, 혼자 간직하고 싶은 사진이 그때 화면에 나타나면 곤란하죠. 기본 사진 앱의 가려진 앨범과 암호화된 사진 보관함은 둘 다 사진을 따로 둘 수 있지만, 잠금을 풀고 백업하는 방식이 다릅니다.
-기기 암호를 혼자만 알고 있고 사진 몇 장을 평소 목록에서 숨기고 싶다면 Apple 사진으로 충분합니다. 누군가 기기 암호를 알고 있고 특정 사진에 별도의 잠금을 걸고 싶다면 Freezon 같은 전용 보관함이 도움이 됩니다.
+단순히 사진을 정리하거나 기본 사진 그리드에서 개인적인 사진을 숨겨두려는 목적이라면 Apple에 내장된 '가려진 항목' 앨범만으로도 충분해요. 하지만 기기 암호를 아는 사람이 내 사진을 열어보지 못하도록 별도의 전용 비밀번호를 두고 싶다면, 독립된 사진 금고 앱을 사용하는 것이 더 좋은 선택입니다.
+친구에게 파티 사진을 보여주려고 잠금 해제된 iPhone을 건네거나, 동료에게 문서를 보여주는 상황을 떠올려 보세요. 단순히 잠금 해제된 폰을 빌려주는 것만으로는 '가려진 항목' 앨범이 열리지 않지만, 문제는 상대방이 내 기기 암호까지 알고 있을 때입니다. '가려진 항목' 앨범은 기기 암호로 잠금을 풀 수 있어 암호를 아는 사람이라면 누구나 열어볼 수 있거든요. 하지만 사진 금고를 사용하면 이렇게 기기를 함께 보는 순간에도 민감한 사진을 안전하게 잠근 상태로 유지할 수 있어요.
 잠금 해제, 저장, 백업 비교
 항목|Apple 사진의 가려진 앨범|Freezon 사진 보관함
 잠금 해제|Face ID, Touch ID 또는 기기 암호|앨범 전용 암호. 일상 앨범은 생체 인증 사용 가능
@@ -127,8 +127,8 @@ Apple의 사진 가리기 안내 보기
   'es-419': `
 Álbum Oculto del iPhone o bóveda de fotos: ¿cuál necesitas?
 Cuándo basta con Apple Fotos y cuándo conviene proteger tus fotos con su propia contraseña.
-Le pasas tu iPhone a un amigo para enseñarle una foto del fin de semana y, casi sin pensarlo, desliza a la siguiente. Si tienes documentos, información médica o imágenes que prefieres guardar para ti, no quieres que aparezcan justo en ese momento. Tanto el álbum Oculto como una bóveda de fotos te permiten apartarlas, pero funcionan de maneras distintas.
-Si solo quieres quitar algunas imágenes de la vista habitual y nadie más conoce el código de tu iPhone, Apple Fotos suele ser suficiente. Si alguien también conoce ese código y quieres proteger ciertas fotos con una contraseña distinta, una bóveda como Freezon cobra sentido.
+Si solo quieres evitar el desorden o mantener fotos personales fuera de tu cuadrícula principal, el álbum Oculto integrado de Apple es suficiente. Sin embargo, si buscas una contraseña exclusiva para que alguien que conoce el código de tu dispositivo no pueda abrir esas fotos, una bóveda de fotos independiente es la mejor opción.
+Imagina que le prestas tu iPhone desbloqueado a un amigo para que vea las fotos de una fiesta o a un compañero de trabajo para que revise un documento. Prestar el teléfono ya desbloqueado no abre por sí solo el álbum Oculto; el problema es cuando esa persona también se sabe el código de tu dispositivo. Como el álbum Oculto se desbloquea con ese mismo código, cualquiera que lo conozca puede acceder. Una bóveda te asegura que tus fotos más privadas sigan protegidas incluso cuando compartes tu teléfono.
 Desbloqueo, almacenamiento y respaldo de un vistazo
 Función|Álbum Oculto de Apple Fotos|Bóveda Freezon
 Desbloqueo|Face ID, Touch ID o código del dispositivo|Contraseña propia del álbum; biometría opcional para el álbum de uso diario
@@ -158,8 +158,8 @@ Ver cómo ocultar fotos en la guía de Apple
   'pt-BR': `
 Álbum Ocultos do iPhone ou cofre de fotos: qual escolher?
 Quando o app Fotos dá conta e quando vale colocar uma senha própria nas suas fotos.
-Você empresta o iPhone para mostrar uma foto do fim de semana e seu amigo já desliza para a próxima. Se no meio das imagens há documentos, informações médicas ou fotos que você prefere guardar só para você, ninguém quer que elas apareçam de surpresa. O álbum Ocultos e um cofre de fotos ajudam a separar essas imagens, mas funcionam de jeitos diferentes.
-Se só você sabe o código do aparelho e quer tirar algumas fotos da visualização normal, o app Fotos costuma ser suficiente. Se outra pessoa também sabe o código e você quer proteger certas fotos com uma senha diferente, vale considerar um cofre como o Freezon.
+Se você só quer organizar a galeria ou manter fotos pessoais fora da sua grade principal, o álbum Ocultos nativo da Apple já é suficiente. No entanto, se você quer uma senha exclusiva para que ninguém que conheça o código do seu aparelho consiga abrir essas fotos, um cofre de fotos dedicado é a melhor escolha.
+Pense em quando você empresta o iPhone desbloqueado para um amigo ver fotos de uma festa ou para um colega conferir um documento. O celular emprestado e já desbloqueado não abre o álbum Ocultos por conta própria; a questão é quando quem pegou o telefone também sabe o código do aparelho. Como o álbum Ocultos é desbloqueado com esse mesmo código, qualquer pessoa que o saiba pode acessá-lo. Já um cofre garante que suas fotos mais confidenciais continuem protegidas mesmo quando você divide o aparelho com outra pessoa.
 Desbloqueio, armazenamento e backup em resumo
 Recurso|Álbum Ocultos do app Fotos|Cofre Freezon
 Desbloqueio|Face ID, Touch ID ou código do aparelho|Senha própria do álbum; biometria opcional no álbum do dia a dia
