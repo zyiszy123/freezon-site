@@ -1,7 +1,7 @@
 import { accessSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
-import { englishScreenshotNotes, guideActionLabels, locales, relatedGuideLabels } from './locales.mjs';
+import { englishScreenshotNotes, guideActionLabels, guidePagerLabels, locales } from './locales.mjs';
 import { article } from './photo-vault.mjs';
 import { appStoreURL, guideBundles, productLanguage, products } from './bundles.mjs';
 
@@ -84,7 +84,7 @@ function layout(lang, topic, title, description, body, product = 'vault') {
   <link rel="icon" href="/assets/${icon}">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   ${topic ? '<link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">' : ''}
-  <link rel="stylesheet" href="/assets/guides.css?v=20261123-1">
+  <link rel="stylesheet" href="/assets/guides.css?v=20261126-1">
 </head>
 <body class="guide-page">
   <a class="skip-link" href="#main-content">${html(skip)}</a>
@@ -186,53 +186,49 @@ function localizedArticle(lang, data) {
 ${downloadActions(lang, install, campaignURL(country))}
       </div>
     </section>
-    ${relatedGuides(lang, slug)}
+    ${guidePager(lang, slug, 'vault')}
   </article>` };
 }
 
 const bundleDir = resolve(root, 'scripts/guides/articles');
 const bundles = existsSync(bundleDir) ? guideBundles(bundleDir, slug) : [];
 const guideContent = new Map(bundles.map(bundle => [bundle.slug, bundle.content]));
-const setupGuide = 'separate-password-for-iphone-photos';
-const importGuide = 'move-photos-out-of-apple-photos';
-const passwordGuide = 'forgot-freezon-album-password';
-const backupGuide = 'backup-private-photos-before-switching-iphone';
-const concertGuide = 'iphone-concert-scrolling-led-sign';
-const iPadGuide = 'ipad-full-screen-led-sign';
-const airportGuide = 'iphone-airport-pickup-sign';
-const birthdayGuide = 'draw-a-birthday-led-sign';
-const shareGuide = 'share-led-banner-iphone-ipad';
-const nextGuides = {
-  [slug]: [setupGuide, importGuide, backupGuide],
-  [setupGuide]: [importGuide, passwordGuide, slug],
-  [importGuide]: [setupGuide, backupGuide, slug],
-  [passwordGuide]: [backupGuide, setupGuide, importGuide],
-  [backupGuide]: [passwordGuide, setupGuide, importGuide],
-  [concertGuide]: [shareGuide, iPadGuide, birthdayGuide],
-  [iPadGuide]: [airportGuide, birthdayGuide, concertGuide],
-  [airportGuide]: [iPadGuide, shareGuide, concertGuide],
-  [birthdayGuide]: [iPadGuide, concertGuide, airportGuide],
-  [shareGuide]: [concertGuide, iPadGuide, airportGuide],
+const bundlesByProduct = Object.fromEntries(Object.keys(products).map(product =>
+  [product, bundles.filter(bundle => bundle.product === product)]));
+const readingOrder = {
+  vault: [slug, ...bundlesByProduct.vault.map(bundle => bundle.slug)],
+  banner: bundlesByProduct.banner.map(bundle => bundle.slug),
 };
 
-function relatedGuides(lang, topic) {
-  const links = (nextGuides[topic] ?? []).flatMap(next => {
-    const title = next === slug
+function guidePager(lang, topic, product) {
+  const topics = readingOrder[product];
+  const index = topics.indexOf(topic);
+  if (index < 0) return '';
+  const [label, previous, next] = guidePagerLabels[lang];
+  const link = (neighbor, rel, text, arrow) => {
+    if (!neighbor) return '';
+    const title = neighbor === slug
       ? (lang === 'en' ? flagship.title : split(article[lang])[0])
-      : guideContent.get(next)?.[lang].title;
-    return title ? [`<li><a href="${guidePath(lang, next)}">${html(title)}</a></li>`] : [];
-  });
-  if (!links.length) return '';
-  return `<section aria-labelledby="related-guides"><h2 id="related-guides">${html(relatedGuideLabels[lang])}</h2>
-      <ul>${links.join('\n      ')}</ul>
-    </section>`;
+      : guideContent.get(neighbor)[lang].title;
+    return `<a class="guide-pager-link" rel="${rel}" href="${guidePath(lang, neighbor)}">
+        <span class="guide-pager-label">${rel === 'prev' ? `<span aria-hidden="true">${arrow}</span> ` : ''}${html(text)}${rel === 'next' ? ` <span aria-hidden="true">${arrow}</span>` : ''}</span>
+        <span class="guide-pager-title">${html(title)}</span>
+      </a>`;
+  };
+  const links = [
+    link(topics[index - 1], 'prev', previous, '←'),
+    link(topics[index + 1], 'next', next, '→'),
+  ].filter(Boolean);
+  return links.length ? `<nav class="guide-pager" aria-label="${html(label)}">
+      ${links.join('\n      ')}
+    </nav>` : '';
 }
 
 const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLocale, screenSections, content }) => languages.map(lang => {
   const { title, deck, sections, download, captions } = content[lang];
   const images = new Map(screenSections.map((section, i) => [section, figure(lang, screens[i], captions[i], product, topic, screenLocale)]));
   const firstScreenshot = screenLocale === 'en' ? Math.min(...screenSections) : -1;
-  const related = relatedGuides(lang, topic);
+  const pager = guidePager(lang, topic, product);
   const body = `<article class="guide-article">
     ${heading(title, deck, lang, topic)}
     ${coverImage(guideCover(topic))}
@@ -242,7 +238,7 @@ const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLoca
       ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
       ${i === firstScreenshot ? `<p class="guide-screenshot-note">${html(englishScreenshotNotes[lang])}</p>\n      ` : ''}${images.get(i) ?? ''}
     </section>`).join('\n    ')}
-    <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>${related ? `\n    ${related}` : ''}
+    <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>${pager ? `\n    ${pager}` : ''}
   </article>`;
   return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product)];
 }));
@@ -255,7 +251,7 @@ function guideCard(lang, topic, { title, deck }) {
 }
 
 function bundleCards(lang, product) {
-  return bundles.filter(bundle => bundle.product === product)
+  return bundlesByProduct[product]
     .map(({ slug: topic, content }) => guideCard(lang, topic, content[lang])).join('\n');
 }
 
@@ -294,7 +290,7 @@ replaceRegion(`guides/${slug}/index.html`, 'guide-cover-meta', coverMeta(guideCo
 replaceRegion(`guides/${slug}/index.html`, 'guide-cover', coverImage(guideCover(slug)));
 replaceRegion(`guides/${slug}/index.html`, 'guide-download-actions', downloadActions('en', 'View Freezon on the App Store',
   'https://apps.apple.com/app/apple-store/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8'));
-replaceRegion(`guides/${slug}/index.html`, 'guide-related-links', relatedGuides('en', slug));
+replaceRegion(`guides/${slug}/index.html`, 'guide-related-links', guidePager('en', slug, 'vault'));
 replaceRegion('sitemap.xml', 'localized-guides', languages.filter(lang => lang !== 'en').flatMap(lang =>
   ['', slug].map(topic => `  <url><loc>${origin}${guidePath(lang, topic)}</loc></url>`)).join('\n'));
 replaceRegion('sitemap.xml', 'article-bundles', bundles.flatMap(({ slug: topic }) => languages.map(lang =>

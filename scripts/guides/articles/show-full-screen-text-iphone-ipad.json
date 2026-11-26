@@ -1,0 +1,407 @@
+{
+  "slug": "show-full-screen-text-iphone-ipad",
+  "product": "banner",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "How to Show Big Text Full Screen on iPhone or iPad",
+      "deck": "Create a short, static message and display it full screen on your iPhone or iPad.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "To display one custom message in large, still letters on an iPhone or iPad—rather than enlarging the system interface, streaming subtitles, or making a concert marquee—use “Freezon Banner” in Static mode. Enter a short phrase, pick automatic or manual text size along with high-contrast colors, preview your layout, and present it full screen. Core composing and displaying work offline with no account required."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Everyday Uses for Each Device",
+          "paragraphs": [
+            "Choosing between an iPhone and an iPad comes down to how you plan to present the sign. Each device suits a different everyday situation depending on whether you hold it up or set it down, and how large a screen you want."
+          ],
+          "bullets": [
+            "Held-up iPhone: Display a friend's name in clear letters when you want someone to spot your screen quickly. Depending on the app's setting, the iPhone text display may auto-rotate to landscape.",
+            "Landscape iPad: Because an iPad offers a larger screen, turning it to landscape works well for a simple meeting spot or table sign that keeps a brief label easy to read."
+          ]
+        },
+        {
+          "heading": "Steps to Build and Present a Sign",
+          "paragraphs": [
+            "Setting up a message in Freezon Banner takes only a few straightforward steps. Once you open the app, follow this sequence to create and show your sign:"
+          ],
+          "bullets": [
+            "Use Static mode and enter a short message. Keeping your wording brief matters, because longer text may not fit on a single screen.",
+            "Choose automatic or manual text size to suit your wording and screen.",
+            "Choose text and background colors with strong contrast, such as bright lettering on a dark background.",
+            "Preview your layout to make sure the text looks clear and uncrowded.",
+            "Show the sign full screen; the app keeps the display awake while presenting in the foreground."
+          ]
+        },
+        {
+          "heading": "Fit and Quick Readability Check",
+          "paragraphs": [
+            "Before you hold up your iPhone or set down your iPad, review the preview for fit, contrast, and orientation. Single-screen static mode can preserve line breaks when enough space is available, so a quick visual check ensures the message looks balanced rather than crowded."
+          ],
+          "bullets": [
+            "Keep wording concise: Shorter messages leave room for bigger lettering on one screen.",
+            "Confirm line breaks: Verify in the preview that any deliberate line breaks stay intact within the available space.",
+            "Check color contrast: Make sure your text and background colors contrast sharply so letters remain clear at a glance.",
+            "Review iPhone orientation: Confirm the app's setting ahead of time if you expect the text display to auto-rotate to landscape."
+          ]
+        },
+        {
+          "heading": "Extended Uses Beyond Static Text",
+          "paragraphs": [
+            "Freezon Banner's Static mode is built to do one job well: display a single, still message cleanly on your screen. For everyday moments like showing a friend's name or setting out a table sign, that straightforward format is all you need. When an occasion calls for more than a basic static sign, dedicated concert and iPad reception guides cover those extended uses."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 或 iPad 上显示全屏大字",
+      "deck": "制作一条简短的静态消息，在 iPhone 或 iPad 上全屏展示。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想在 iPhone 或 iPad 上用静止的大字显示一条自定义消息，而不是放大系统界面、显示流媒体字幕或制作演唱会应援灯牌，可以使用「定格手持弹幕」的静态模式。输入一句简短的话，选择自动或手动字号，搭配对比鲜明的文字和背景颜色，预览排版后即可全屏展示。基本的内容编排和展示功能可离线使用，无需账号。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "两种设备的日常使用场景",
+          "paragraphs": [
+            "选择 iPhone 还是 iPad，主要取决于你准备如何展示标牌。是举起来还是摆放在一旁，以及希望屏幕有多大，都会影响哪种设备更适合当前的日常场景。"
+          ],
+          "bullets": [
+            "举起 iPhone：想让对方迅速注意到你的屏幕时，可以用清晰的大字显示朋友的名字。根据 App 的设置，iPhone 上的文字展示可能会自动转为横屏。",
+            "横放 iPad：iPad 的屏幕更大，横放后很适合用作简单的集合点标牌或桌牌，让简短的标示清楚易读。"
+          ]
+        },
+        {
+          "heading": "制作和展示标牌的步骤",
+          "paragraphs": [
+            "在「定格手持弹幕」中设置消息，只需几个简单步骤。打开 App 后，按以下顺序制作并展示标牌："
+          ],
+          "bullets": [
+            "使用静态模式，输入一条简短的消息。文字要尽量精简，因为较长的内容可能无法在一屏内显示。",
+            "根据文字内容和屏幕，选择自动或手动字号。",
+            "选择对比鲜明的文字和背景颜色，例如深色背景搭配亮色文字。",
+            "预览排版，确认文字清晰、画面不拥挤。",
+            "全屏展示标牌；App 在前台展示时会保持屏幕常亮。"
+          ]
+        },
+        {
+          "heading": "快速检查排版是否合适、文字是否易读",
+          "paragraphs": [
+            "举起 iPhone 或摆好 iPad 前，先在预览中检查文字是否放得下、颜色对比是否足够，以及显示方向是否合适。单屏静态模式在空间充足时可以保留换行，因此快速查看一下预览，就能确认消息的排版是否均衡、会不会显得拥挤。"
+          ],
+          "bullets": [
+            "精简文字：消息越短，越能在一屏内留出空间显示更大的字。",
+            "确认换行：在预览中检查手动设置的换行是否在可用空间内得到保留。",
+            "检查颜色对比：确保文字和背景的颜色对比鲜明，让人一眼就能看清。",
+            "检查 iPhone 显示方向：如果希望文字展示自动转为横屏，请提前确认 App 的设置。"
+          ]
+        },
+        {
+          "heading": "静态文字之外的更多用法",
+          "paragraphs": [
+            "「定格手持弹幕」的静态模式专注做好一件事：在屏幕上清楚地展示一条静止的消息。日常显示朋友的名字或摆放桌牌时，这种简单直接的形式就已足够。如果使用场景需要比基础静态标牌更多的功能，可以查看专门的演唱会指南和 iPad 接待指南，了解这些延伸用法。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 或 iPad 上顯示全螢幕大字",
+      "deck": "製作一則簡短的靜態訊息，在 iPhone 或 iPad 上全螢幕顯示。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想在 iPhone 或 iPad 上用靜止的大字顯示一則自訂訊息，而不是放大系統介面、顯示串流字幕或製作演唱會應援燈牌，可以使用「定格手持彈幕」的靜態模式。輸入一句簡短的話，選擇自動或手動字體大小，搭配對比鮮明的文字與背景顏色，預覽排版後即可全螢幕顯示。基本的內容編排與顯示功能可離線使用，無需帳號。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "兩種裝置的日常使用情境",
+          "paragraphs": [
+            "選擇 iPhone 還是 iPad，主要取決於你打算如何展示標示牌。是拿起來還是擺放在一旁，以及希望螢幕有多大，都會影響哪種裝置更適合當下的日常情境。"
+          ],
+          "bullets": [
+            "舉起 iPhone：想讓對方迅速注意到你的螢幕時，可以用清楚的大字顯示朋友的名字。依 App 的設定，iPhone 上的文字顯示可能會自動轉為橫向。",
+            "橫放 iPad：iPad 的螢幕較大，橫放後很適合用作簡單的集合地點標示或桌牌，讓簡短的標示清楚易讀。"
+          ]
+        },
+        {
+          "heading": "製作與展示標示牌的步驟",
+          "paragraphs": [
+            "在「定格手持彈幕」中設定訊息，只需幾個簡單步驟。開啟 App 後，依照以下順序製作並展示標示牌："
+          ],
+          "bullets": [
+            "使用靜態模式，輸入一則簡短訊息。文字要盡量精簡，因為較長的內容可能無法在單一畫面中顯示。",
+            "依文字內容與螢幕，選擇自動或手動字體大小。",
+            "選擇對比鮮明的文字與背景顏色，例如深色背景搭配亮色文字。",
+            "預覽排版，確認文字清楚、畫面不擁擠。",
+            "以全螢幕展示標示牌；App 在前景展示時會保持螢幕常亮。"
+          ]
+        },
+        {
+          "heading": "快速檢查排版與易讀性",
+          "paragraphs": [
+            "舉起 iPhone 或擺好 iPad 前，先在預覽中檢查文字是否放得下、顏色對比是否足夠，以及顯示方向是否合適。單一畫面的靜態模式在空間充足時可以保留換行，因此快速查看預覽，就能確認訊息的排版是否均衡、會不會顯得擁擠。"
+          ],
+          "bullets": [
+            "精簡文字：訊息越短，越能在單一畫面中留出空間顯示更大的字。",
+            "確認換行：在預覽中檢查手動設定的換行是否在可用空間內得到保留。",
+            "檢查顏色對比：確保文字與背景的顏色對比鮮明，讓人一眼就能看清楚。",
+            "檢查 iPhone 顯示方向：如果希望文字顯示自動轉為橫向，請事先確認 App 的設定。"
+          ]
+        },
+        {
+          "heading": "靜態文字以外的更多用法",
+          "paragraphs": [
+            "「定格手持彈幕」的靜態模式專注做好一件事：在螢幕上清楚地顯示一則靜止的訊息。日常顯示朋友的名字或擺放桌牌時，這種簡單直接的形式就已足夠。如果使用情境需要比基本靜態標示牌更多的功能，可以查看專門的演唱會指南與 iPad 接待指南，了解這些延伸用法。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPhoneやiPadの全画面で大きな文字を表示する方法",
+      "deck": "短いメッセージを作り、iPhoneやiPadの全画面に静止した大きな文字で表示できます。",
+      "download": "App Storeでダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPhoneやiPadで、好きなメッセージを1つ、大きな文字で静止表示するには、「Freezon Banner」の静止モードを使います。システムの画面表示を拡大したり、動画配信の字幕を表示したり、コンサート用の流れる応援ボードを作ったりするための設定ではありません。短い言葉を入力し、文字サイズを自動または手動で設定して、文字と背景にコントラストの高い色を選びます。レイアウトをプレビューしたら、全画面で表示できます。基本的なメッセージの作成と表示はオフラインで利用でき、アカウントも不要です。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "それぞれの端末が役立つ日常の場面",
+          "paragraphs": [
+            "iPhoneとiPadのどちらを使うかは、メッセージをどう見せたいかで決まります。手で持ち上げるのか、どこかに置くのか、どのくらいの画面サイズが欲しいのかによって、適した端末が変わります。"
+          ],
+          "bullets": [
+            "手で持ち上げるiPhone：相手にすぐ画面を見つけてほしいときは、友達の名前をはっきりした文字で表示できます。アプリの設定によっては、iPhoneの文字表示が自動で横向きになることがあります。",
+            "横向きに置くiPad：画面の大きいiPadは、横向きにすると簡単な待ち合わせ場所の案内や卓上の表示に適しています。短い案内を読みやすく表示できます。"
+          ]
+        },
+        {
+          "heading": "メッセージを作成して表示する手順",
+          "paragraphs": [
+            "Freezon Bannerでのメッセージ設定は、いくつかの簡単な操作で完了します。アプリを開いたら、次の順番で作成して表示してください。"
+          ],
+          "bullets": [
+            "静止モードを選び、短いメッセージを入力します。長い文章は1画面に収まらないことがあるため、簡潔にすることが大切です。",
+            "文章と画面に合わせて、文字サイズを自動または手動で設定します。",
+            "暗い背景に明るい文字など、文字と背景のコントラストが高くなる配色を選びます。",
+            "レイアウトをプレビューし、文字がはっきり見えて、詰まりすぎていないことを確認します。",
+            "全画面で表示します。アプリを前面に出して表示している間は、画面がスリープしません。"
+          ]
+        },
+        {
+          "heading": "収まりと読みやすさを手早く確認",
+          "paragraphs": [
+            "iPhoneを持ち上げたり、iPadを置いたりする前に、プレビューで文字の収まり、コントラスト、画面の向きを確認しましょう。1画面の静止モードでは、十分なスペースがあれば改行を保てます。ひと目確認することで、文字が詰まりすぎず、バランスよく配置されているかを確かめられます。"
+          ],
+          "bullets": [
+            "文章は簡潔に：メッセージが短いほど、1画面に大きな文字を表示する余裕ができます。",
+            "改行を確認：自分で入れた改行が、使えるスペースの中で保たれているかをプレビューで確認します。",
+            "色のコントラストを確認：ひと目で文字が読めるように、文字と背景の色にはっきりとした差があることを確かめます。",
+            "iPhoneの画面の向きを確認：文字表示が自動で横向きになることを想定している場合は、事前にアプリの設定を確認します。"
+          ]
+        },
+        {
+          "heading": "静止した文字以外の活用方法",
+          "paragraphs": [
+            "Freezon Bannerの静止モードは、1つのメッセージを動かさず、画面にすっきり表示するための機能です。友達の名前を見せたり、卓上に案内を置いたりする日常の場面では、このシンプルな形式で十分です。基本的な静止表示よりも幅広い使い方が必要な場面については、コンサート向けガイドやiPadを使った受付のガイドで紹介しています。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "아이폰(iPhone)이나 아이패드(iPad) 전체 화면에 큰 글씨 띄우기",
+      "deck": "짧은 메시지를 만들어 아이폰이나 아이패드 전체 화면에 움직이지 않는 글씨로 표시하세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "아이폰이나 아이패드에서 원하는 메시지 하나를 크고 움직이지 않는 글씨로 표시하려면 ‘Freezon Banner’의 고정 모드를 사용하세요. 시스템 화면을 확대하거나 스트리밍 자막을 표시하거나 콘서트용 흐르는 전광판을 만드는 용도가 아니라, 한 메시지를 고정해서 보여 주는 방법입니다. 짧은 문구를 입력하고 글자 크기를 자동 또는 수동으로 설정한 뒤, 대비가 뚜렷한 글자색과 배경색을 선택하세요. 레이아웃을 미리 확인한 다음 전체 화면으로 표시하면 됩니다. 기본적인 메시지 작성과 표시는 계정 없이 오프라인으로 사용할 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "기기별로 활용하기 좋은 일상 속 상황",
+          "paragraphs": [
+            "아이폰과 아이패드 중 무엇을 사용할지는 메시지를 어떻게 보여 줄지에 따라 달라집니다. 손에 들고 보여 줄지, 한곳에 놓아둘지, 어느 정도 크기의 화면이 필요한지에 따라 각 기기에 맞는 일상 속 활용 상황이 달라집니다."
+          ],
+          "bullets": [
+            "손에 들고 보여 주는 아이폰: 상대가 내 화면을 빠르게 알아보게 하고 싶을 때 친구의 이름을 선명한 글씨로 표시할 수 있습니다. 앱 설정에 따라 아이폰의 글씨 표시 화면이 가로 방향으로 자동 회전할 수 있습니다.",
+            "가로로 놓는 아이패드: 아이패드는 화면이 더 커서 가로로 놓으면 간단한 만남 장소 안내판이나 테이블 표지판으로 활용하기 좋습니다. 짧은 안내 문구를 읽기 쉽게 보여 줄 수 있습니다."
+          ]
+        },
+        {
+          "heading": "메시지를 만들고 표시하는 순서",
+          "paragraphs": [
+            "Freezon Banner에서는 몇 가지 간단한 단계만 거치면 메시지를 설정할 수 있습니다. 앱을 연 뒤 다음 순서대로 메시지를 만들고 표시하세요."
+          ],
+          "bullets": [
+            "고정 모드를 선택하고 짧은 메시지를 입력하세요. 긴 글은 한 화면에 다 들어가지 않을 수 있으므로 문구를 간결하게 쓰는 것이 중요합니다.",
+            "문구와 화면에 맞게 글자 크기를 자동 또는 수동으로 설정하세요.",
+            "어두운 배경에 밝은 글씨처럼 대비가 뚜렷한 글자색과 배경색을 선택하세요.",
+            "레이아웃을 미리 보고 글씨가 선명하며 빽빽해 보이지 않는지 확인하세요.",
+            "전체 화면으로 표시하세요. 앱이 화면 앞쪽에서 메시지를 표시하는 동안에는 화면이 꺼지지 않습니다."
+          ]
+        },
+        {
+          "heading": "글씨가 잘 맞고 읽기 쉬운지 빠르게 확인하기",
+          "paragraphs": [
+            "아이폰을 들어 올리거나 아이패드를 놓기 전에 미리보기에서 글씨가 화면에 잘 들어가는지, 색상 대비와 화면 방향이 적절한지 확인하세요. 한 화면에 표시하는 고정 모드는 공간이 충분하면 줄바꿈을 유지할 수 있습니다. 따라서 화면을 한 번 살펴보면 메시지가 빽빽하지 않고 균형 있게 배치되었는지 확인할 수 있습니다."
+          ],
+          "bullets": [
+            "문구는 간결하게: 메시지가 짧을수록 한 화면에 더 큰 글씨를 표시할 공간이 생깁니다.",
+            "줄바꿈 확인: 직접 넣은 줄바꿈이 사용 가능한 공간 안에서 그대로 유지되는지 미리보기로 확인하세요.",
+            "색상 대비 확인: 한눈에 글씨를 알아볼 수 있도록 글자색과 배경색의 대비가 뚜렷한지 확인하세요.",
+            "아이폰 화면 방향 확인: 글씨 표시 화면이 가로 방향으로 자동 회전하기를 원한다면 앱 설정을 미리 확인하세요."
+          ]
+        },
+        {
+          "heading": "고정된 글씨를 넘어선 활용법",
+          "paragraphs": [
+            "Freezon Banner의 고정 모드는 메시지 하나를 화면에 움직이지 않게 깔끔하게 표시하는 데 초점을 맞췄습니다. 친구의 이름을 보여 주거나 테이블에 안내 문구를 놓아두는 일상적인 상황에서는 이 간단한 방식만으로 충분합니다. 기본적인 고정 표시보다 더 다양한 활용이 필요한 경우에는 콘서트 가이드와 아이패드 접수 안내 가이드에서 확장된 사용법을 확인할 수 있습니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Cómo mostrar texto grande en toda la pantalla del iPhone o iPad",
+      "deck": "Crea un mensaje breve y estático para mostrarlo en toda la pantalla de tu iPhone o iPad.",
+      "download": "Descargar en App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para mostrar un mensaje personalizado con letras grandes y quietas en un iPhone o iPad, en lugar de ampliar la interfaz del sistema, mostrar subtítulos de streaming o crear un letrero con texto en movimiento para un concierto, usa «Freezon Banner» en modo Estático. Escribe una frase corta, elige el tamaño de texto automático o manual y colores con alto contraste, revisa la vista previa del diseño y muéstralo en toda la pantalla. Las funciones básicas de creación y visualización funcionan sin conexión y no requieren una cuenta."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Usos cotidianos para cada dispositivo",
+          "paragraphs": [
+            "Elegir entre un iPhone y un iPad depende de cómo pienses mostrar el letrero. Cada dispositivo se adapta a distintas situaciones cotidianas según si lo vas a sostener en alto o dejar apoyado, y qué tan grande quieres que sea la pantalla."
+          ],
+          "bullets": [
+            "iPhone en alto: Muestra el nombre de un amigo con letras claras cuando quieras que alguien identifique tu pantalla rápidamente. Según la configuración de la app, la pantalla de texto del iPhone puede girar automáticamente a la orientación horizontal.",
+            "iPad en horizontal: Como el iPad tiene una pantalla más grande, colocarlo en horizontal funciona bien para un letrero sencillo que indique un punto de encuentro o para un letrero de mesa, con un texto breve y fácil de leer."
+          ]
+        },
+        {
+          "heading": "Pasos para crear y mostrar un letrero",
+          "paragraphs": [
+            "Configurar un mensaje en Freezon Banner solo requiere unos cuantos pasos sencillos. Abre la app y sigue esta secuencia para crear y mostrar tu letrero:"
+          ],
+          "bullets": [
+            "Usa el modo Estático y escribe un mensaje corto. Es importante ser breve, porque un texto más largo podría no caber en una sola pantalla.",
+            "Elige el tamaño de texto automático o manual según tu mensaje y tu pantalla.",
+            "Elige colores de texto y fondo con un contraste marcado, como letras brillantes sobre un fondo oscuro.",
+            "Revisa la vista previa del diseño para comprobar que el texto se vea claro y tenga suficiente espacio.",
+            "Muestra el letrero en toda la pantalla; la app mantiene la pantalla encendida mientras muestra el mensaje en primer plano."
+          ]
+        },
+        {
+          "heading": "Revisión rápida del espacio y la legibilidad",
+          "paragraphs": [
+            "Antes de levantar tu iPhone o colocar tu iPad, revisa en la vista previa que el texto quepa y que el contraste y la orientación sean adecuados. El modo estático de una sola pantalla puede conservar los saltos de línea cuando hay suficiente espacio, así que una revisión visual rápida permite comprobar que el mensaje se vea equilibrado y no amontonado."
+          ],
+          "bullets": [
+            "Sé breve: Los mensajes más cortos dejan espacio para letras más grandes en una sola pantalla.",
+            "Confirma los saltos de línea: Revisa en la vista previa que los saltos de línea que agregaste se conserven dentro del espacio disponible.",
+            "Revisa el contraste de colores: Asegúrate de que el texto y el fondo tengan un contraste marcado para que las letras se distingan de un vistazo.",
+            "Revisa la orientación del iPhone: Confirma de antemano la configuración de la app si esperas que la pantalla de texto gire automáticamente a horizontal."
+          ]
+        },
+        {
+          "heading": "Más usos además del texto estático",
+          "paragraphs": [
+            "El modo Estático de Freezon Banner está diseñado para hacer bien una tarea: mostrar un solo mensaje quieto y con claridad en tu pantalla. Para situaciones cotidianas, como mostrar el nombre de un amigo o colocar un letrero de mesa, ese formato sencillo es todo lo que necesitas. Cuando la ocasión requiere algo más que un letrero estático básico, las guías específicas para conciertos y para usar el iPad en una recepción explican esos otros usos."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "Como mostrar letras grandes na tela inteira do iPhone ou iPad",
+      "deck": "Crie uma mensagem curta e estática para exibir na tela inteira do seu iPhone ou iPad.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para exibir uma mensagem personalizada com letras grandes e paradas no iPhone ou iPad, em vez de ampliar a interface do sistema, mostrar legendas de streaming ou criar um letreiro com texto em movimento para um show, use o “Freezon Banner” no modo Estático. Digite uma frase curta, escolha o tamanho do texto automático ou manual e cores com alto contraste, confira a prévia do layout e exiba a mensagem em tela cheia. As funções básicas de criação e exibição funcionam offline, sem necessidade de uma conta."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Usos de cada aparelho no dia a dia",
+          "paragraphs": [
+            "A escolha entre iPhone e iPad depende de como você pretende apresentar a placa. Cada aparelho combina com uma situação do dia a dia, conforme você queira segurá-lo no alto ou deixá-lo apoiado e o tamanho de tela que procura."
+          ],
+          "bullets": [
+            "iPhone erguido: Mostre o nome de um amigo com letras nítidas quando quiser que alguém identifique sua tela rapidamente. Dependendo da configuração do app, a exibição do texto no iPhone pode girar automaticamente para a orientação horizontal.",
+            "iPad na horizontal: Como o iPad tem uma tela maior, usá-lo na horizontal funciona bem para uma placa simples de ponto de encontro ou uma placa de mesa, mantendo uma identificação curta e fácil de ler."
+          ]
+        },
+        {
+          "heading": "Passos para criar e exibir uma placa",
+          "paragraphs": [
+            "Configurar uma mensagem no Freezon Banner exige apenas alguns passos simples. Depois de abrir o app, siga esta sequência para criar e exibir sua placa:"
+          ],
+          "bullets": [
+            "Use o modo Estático e digite uma mensagem curta. É importante manter o texto breve, pois uma mensagem mais longa pode não caber em uma única tela.",
+            "Escolha o tamanho do texto automático ou manual de acordo com a mensagem e a tela.",
+            "Escolha cores de texto e fundo com forte contraste, como letras claras em um fundo escuro.",
+            "Confira a prévia do layout para garantir que o texto esteja nítido e tenha espaço suficiente.",
+            "Exiba a placa em tela cheia; o app mantém a tela acesa enquanto apresenta a mensagem em primeiro plano."
+          ]
+        },
+        {
+          "heading": "Verificação rápida do espaço e da legibilidade",
+          "paragraphs": [
+            "Antes de erguer o iPhone ou apoiar o iPad, confira na prévia se o texto cabe e se o contraste e a orientação estão adequados. O modo estático de tela única pode preservar as quebras de linha quando há espaço suficiente. Assim, uma rápida conferência visual ajuda a garantir que a mensagem fique equilibrada, sem parecer apertada."
+          ],
+          "bullets": [
+            "Mantenha o texto curto: Mensagens mais curtas deixam espaço para letras maiores em uma única tela.",
+            "Confirme as quebras de linha: Confira na prévia se as quebras de linha que você inseriu são mantidas dentro do espaço disponível.",
+            "Confira o contraste das cores: Garanta que as cores do texto e do fundo tenham um contraste forte para que as letras sejam identificadas rapidamente.",
+            "Confira a orientação do iPhone: Verifique a configuração do app com antecedência se quiser que a exibição do texto gire automaticamente para a horizontal."
+          ]
+        },
+        {
+          "heading": "Outros usos além do texto estático",
+          "paragraphs": [
+            "O modo Estático do Freezon Banner foi feito para cumprir bem uma tarefa: exibir uma única mensagem parada e de forma clara na tela. Em situações do dia a dia, como mostrar o nome de um amigo ou colocar uma placa sobre a mesa, esse formato simples é tudo de que você precisa. Quando a ocasião pede mais do que uma placa estática básica, os guias específicos para shows e para usar o iPad na recepção explicam essas outras possibilidades."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

@@ -1,0 +1,652 @@
+{
+  "slug": "concert-sign-message-ideas",
+  "product": "banner",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "What to Write on a Concert Sign: Short Ideas That Fit on a Phone",
+      "deck": "Short concert sign ideas and simple layout tips for clear, readable messages on iPhone and iPad.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "The clearest message to show on a screen at a concert is two to four everyday words, or two to three words with one simple emoji, shown as large static text so it reads at a glance. Long sentences shrink letters on a small screen, whereas concise, high-contrast wording keeps every word sharp and readable."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Cheering lines for loud moments",
+          "paragraphs": [
+            "When energy peaks, punchy reactions capture the mood without crowding your screen. Pick a straightforward cheer that feels natural in the room:"
+          ],
+          "bullets": [
+            "LET'S GO! 🔥",
+            "BEST NIGHT EVER",
+            "SO GOOD LIVE",
+            "SING IT LOUD",
+            "PURE MAGIC ✨"
+          ]
+        },
+        {
+          "heading": "Appreciation notes",
+          "paragraphs": [
+            "Warm, direct phrases express gratitude better than a long paragraph. These brief lines keep the message personal and easy to read:"
+          ],
+          "bullets": [
+            "THANK YOU ❤️",
+            "PROUD OF YOU",
+            "WORTH THE TRIP",
+            "LOVE YOUR MUSIC",
+            "FOREVER A FAN"
+          ]
+        },
+        {
+          "heading": "Encore and song calls",
+          "paragraphs": [
+            "As the main set wraps up, short calls communicate your wish in a split second. Keep the request to a few familiar words:"
+          ],
+          "bullets": [
+            "ENCORE PLEASE",
+            "ONE MORE SONG",
+            "NOT READY TO GO",
+            "PLAY IT AGAIN"
+          ]
+        },
+        {
+          "heading": "Friendly gesture prompts",
+          "paragraphs": [
+            "Simple, light-hearted prompts make a hand signal or wave request obvious without cluttering your screen. Choose one clear visual cue:"
+          ],
+          "bullets": [
+            "HEART HANDS? 🫶",
+            "PEACE SIGN? ✌️",
+            "WAVE THIS WAY 👋",
+            "THUMBS UP? 👍"
+          ]
+        },
+        {
+          "heading": "One-line iPhone vs. landscape iPad layout",
+          "paragraphs": [
+            "Screen size changes how the same phrase fits on your device. Using \"ENCORE PLEASE\" as an example, a one-line iPhone sign keeps both words on a single row so the message stays unified on a compact screen. On a landscape iPad, the larger canvas lets you run \"ENCORE PLEASE\" across one wide line or stack \"ENCORE\" above \"PLEASE\" on two static lines when the layout fits, giving each word room to appear larger."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Quick readability check",
+          "paragraphs": [
+            "Before you raise your device, check how the sign looks at arm's length. Four simple checks keep your wording clear:"
+          ],
+          "bullets": [
+            "Length: Aim for two to four short words so the text fills the screen.",
+            "Motion: Use large static text instead of horizontal or vertical scrolling so a short message can be understood at a glance.",
+            "Contrast: Pair contrasting foreground and background colors, and test the free Neon text effect to make sure every letter stands out.",
+            "Emoji: Add one emoji at most so it does not shrink your words."
+          ]
+        },
+        {
+          "heading": "Setting up Freezon Banner",
+          "paragraphs": [
+            "Once you pick a phrase for the moment, type your text and optional emoji straight into “Freezon Banner” on iPhone or iPad. The examples above are suggestions rather than built-in templates, and core creation and display work offline so your message stays ready without an internet connection.",
+            "Choose static fullscreen on one or multiple lines if the layout fits, and pick automatic or adjustable text size. Customize foreground and background colors, and try the free Neon text effect if you want that look. Venue and event device policies vary, so simply use your display where allowed."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "演唱会应援牌写什么？适合手机显示的简短文案",
+      "deck": "应援、感谢、点歌或请歌手再唱一首。这些简短文案放在 iPhone 或 iPad 上，一眼就能看懂。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "在演唱会上用屏幕应援，最清楚的写法是两到四个简单常用的词，或两到三个词加一个简单的表情符号，再用大字静态显示，让人一眼就能看懂。长句放在小屏幕上会让字号变小；简短的文案配上高对比度的颜色，能让每个词都清晰易读。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "气氛热烈时的应援文案",
+          "paragraphs": [
+            "气氛达到高潮时，简短有力的回应既能表达心情，也不会挤满屏幕。选一句符合现场氛围、喊起来也自然的应援话："
+          ],
+          "bullets": [
+            "嗨起来！ 🔥",
+            "今晚太棒了",
+            "现场太好听",
+            "大声唱出来",
+            "太梦幻了 ✨"
+          ]
+        },
+        {
+          "heading": "表达感谢的文案",
+          "paragraphs": [
+            "温暖直接的话，比一大段文字更能表达感谢。这些简短文案既有心意，也容易看清："
+          ],
+          "bullets": [
+            "谢谢你 ❤️",
+            "为你骄傲",
+            "这趟来值了",
+            "爱你的音乐",
+            "永远是你的粉丝"
+          ]
+        },
+        {
+          "heading": "再唱一首和点歌",
+          "paragraphs": [
+            "演出快结束时，想请歌手再唱一首，或者点一首喜欢的歌，直接写出想说的话就好："
+          ],
+          "bullets": [
+            "再来一首！",
+            "还想听你唱",
+            "唱一首〈歌名〉吧！",
+            "这首能再唱一遍吗？"
+          ]
+        },
+        {
+          "heading": "轻松友好的手势互动文案",
+          "paragraphs": [
+            "简单轻松的文案，能清楚表达你想要一个手势或挥手回应，也不会让屏幕显得拥挤。一次只提一个明确的手势："
+          ],
+          "bullets": [
+            "比个心？ 🫶",
+            "比个耶？ ✌️",
+            "朝这边挥挥手 👋",
+            "比个赞？ 👍"
+          ]
+        },
+        {
+          "heading": "iPhone 单行与横屏 iPad 的排版",
+          "paragraphs": [
+            "同一句文案，在不同尺寸的屏幕上会有不同的排版方式。以“再来一首”为例，在 iPhone 上用单行显示，可以把整句话放在同一行，让小屏幕上的信息保持完整。在横屏 iPad 上，显示空间更大，可以把“再来一首”放在宽宽的一行里；如果排版放得下，也可以把“再来”放在上面、“一首”放在下面，用两行静态文字显示，让每部分都有空间放得更大。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "快速检查是否容易看清",
+          "paragraphs": [
+            "举起设备前，先在一臂远的位置看看显示效果。做好这四项简单检查，让文案清晰易读："
+          ],
+          "bullets": [
+            "长度：尽量用两到四个简短的词，让文字充分利用屏幕空间。",
+            "动态：使用大字静态显示，避免横向或纵向滚动，让简短的信息一眼就能看懂。",
+            "对比度：文字和背景使用对比鲜明的颜色，并试试免费的霓虹文字效果，确认每个字都足够醒目。",
+            "表情符号：最多加一个，避免挤小文字。"
+          ]
+        },
+        {
+          "heading": "设置「定格手持弹幕」",
+          "paragraphs": [
+            "选好适合当下的文案后，在 iPhone 或 iPad 上打开「定格手持弹幕」，直接输入文字，也可以加上表情符号。上面的例子是文案建议，并非 App 内置模板。核心制作和显示功能支持离线使用，没有网络也能准备好你的应援内容。",
+            "根据排版空间，选择单行或多行静态全屏显示，并选择自动字号或自行调整文字大小。自定义文字和背景颜色，喜欢霓虹风格的话，也可以试试免费的霓虹文字效果。不同场馆和活动对设备的规定有所不同，在允许的地方使用即可。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "演唱會應援牌寫什麼？適合手機顯示的簡短文案",
+      "deck": "應援、道謝、點歌，或是請歌手再唱一首。這些簡短的文字放在 iPhone 或 iPad 上，一眼就能看懂。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "在演唱會上用螢幕應援，最清楚的寫法是兩到四個簡單常用的詞，或兩到三個詞加上一個簡單的表情符號，再用大字靜態顯示，讓人一眼就能看懂。長句放在小螢幕上會讓字體縮小；簡短的文案搭配高對比的配色，能讓每個詞都清晰易讀。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "氣氛熱烈時的應援文案",
+          "paragraphs": [
+            "氣氛達到高潮時，簡短有力的回應既能表達心情，也不會擠滿螢幕。選一句符合現場氣氛、說起來也自然的應援話："
+          ],
+          "bullets": [
+            "嗨起來！ 🔥",
+            "最棒的一晚",
+            "現場超好聽",
+            "大聲唱出來",
+            "簡直是魔法 ✨"
+          ]
+        },
+        {
+          "heading": "表達感謝的文案",
+          "paragraphs": [
+            "溫暖直接的話，比一大段文字更能表達感謝。這些簡短文案既有心意，也容易看清楚："
+          ],
+          "bullets": [
+            "謝謝你 ❤️",
+            "以你為榮",
+            "值得跑這一趟",
+            "喜歡你的音樂",
+            "永遠是你的粉絲"
+          ]
+        },
+        {
+          "heading": "再唱一首和點歌",
+          "paragraphs": [
+            "演出快結束時，想請歌手再唱一首，或是點一首喜歡的歌，直接寫出想說的話就好："
+          ],
+          "bullets": [
+            "再來一首！",
+            "還想聽你唱",
+            "唱一首〈歌名〉吧！",
+            "這首可以再唱一次嗎？"
+          ]
+        },
+        {
+          "heading": "輕鬆友善的手勢互動文案",
+          "paragraphs": [
+            "簡單輕鬆的文案，能清楚表達你想要一個手勢或揮手回應，也不會讓螢幕顯得擁擠。一次只提一個明確的手勢："
+          ],
+          "bullets": [
+            "比個愛心？ 🫶",
+            "比個耶？ ✌️",
+            "朝這邊揮手 👋",
+            "比個讚？ 👍"
+          ]
+        },
+        {
+          "heading": "iPhone 單行與橫向 iPad 的排版",
+          "paragraphs": [
+            "同一句文案，在不同尺寸的螢幕上會有不同的排版方式。以「再來一首」為例，在 iPhone 上用單行顯示，可以把整句話放在同一行，讓小螢幕上的訊息保持完整。在橫向 iPad 上，顯示空間更大，可以把「再來一首」放在寬寬的一行裡；如果版面放得下，也可以把「再來」放在上面、「一首」放在下面，用兩行靜態文字顯示，讓每個部分都有空間放得更大。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "快速檢查是否容易看清楚",
+          "paragraphs": [
+            "舉起裝置前，先在一臂遠的位置看看顯示效果。做好這四項簡單檢查，讓文案清晰易讀："
+          ],
+          "bullets": [
+            "長度：盡量用兩到四個簡短的詞，讓文字充分利用螢幕空間。",
+            "動態：使用大字靜態顯示，避免橫向或直向捲動，讓簡短的訊息一眼就能看懂。",
+            "對比：文字與背景使用對比鮮明的顏色，並試試免費的霓虹文字效果，確認每個字都夠醒目。",
+            "表情符號：最多加一個，避免擠小文字。"
+          ]
+        },
+        {
+          "heading": "設定「定格手持彈幕」",
+          "paragraphs": [
+            "選好適合當下的文案後，在 iPhone 或 iPad 上開啟「定格手持彈幕」，直接輸入文字，也可以加上表情符號。上面的例子是文案建議，並非 App 內建範本。核心製作與顯示功能支援離線使用，沒有網路也能準備好你的應援內容。",
+            "依版面空間，選擇單行或多行靜態全螢幕顯示，並選擇自動字級或自行調整文字大小。自訂文字與背景顏色，喜歡霓虹風格的話，也可以試試免費的霓虹文字效果。不同場館與活動對裝置的規定有所不同，在允許的地方使用即可。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "ファンサうちわの文字・ネタをスマホ画面に：短い応援メッセージ集",
+      "deck": "応援や感謝、アンコール、ファンサのお願いを、iPhoneやiPadの画面で伝える短いフレーズと表示のコツ。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "コンサートで画面に表示するなら、日常的な言葉を2〜4語、または2〜3語にシンプルな絵文字を1つ添え、大きな静止テキストで見せるのが、ひと目で伝わりやすい方法です。長い文章は小さな画面では文字が小さくなりますが、短い言葉をコントラストの高い配色で表示すれば、一文字ずつくっきり読みやすくなります。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "盛り上がる瞬間の応援フレーズ",
+          "paragraphs": [
+            "会場の熱気が高まったら、勢いのある短い言葉で気持ちを伝えましょう。画面も窮屈になりません。その場の雰囲気に合う、素直な応援の言葉を選んでみてください。"
+          ],
+          "bullets": [
+            "いくぞー！ 🔥",
+            "最高の夜",
+            "ライブ最高",
+            "声出して！",
+            "まるで魔法 ✨"
+          ]
+        },
+        {
+          "heading": "感謝を伝えるフレーズ",
+          "paragraphs": [
+            "感謝の気持ちは、長い文章よりも温かく率直な言葉のほうが伝わります。短くても気持ちがこもり、読みやすいフレーズです。"
+          ],
+          "bullets": [
+            "ありがとう ❤️",
+            "誇りに思うよ",
+            "来てよかった",
+            "あなたの音楽が好き",
+            "ずっとファン"
+          ]
+        },
+        {
+          "heading": "アンコールや曲のリクエスト",
+          "paragraphs": [
+            "本編が終わりに近づいたら、短い言葉で願いを瞬時に伝えましょう。リクエストは、なじみのある言葉を少しだけ使うのがコツです。"
+          ],
+          "bullets": [
+            "アンコールお願い",
+            "もう1曲",
+            "まだ帰りたくない",
+            "もう一度聴かせて"
+          ]
+        },
+        {
+          "heading": "気軽にお願いできるジェスチャー",
+          "paragraphs": [
+            "シンプルで親しみやすい言葉なら、画面を文字で埋めずに、してほしい手のポーズや手振りをはっきり伝えられます。見てすぐわかるジェスチャーを1つ選びましょう。"
+          ],
+          "bullets": [
+            "ハートして 🫶",
+            "ピースして ✌️",
+            "こっちに手を振って 👋",
+            "親指立てて 👍"
+          ]
+        },
+        {
+          "heading": "iPhoneの1行表示と横向きiPadのレイアウト",
+          "paragraphs": [
+            "同じフレーズでも、画面の大きさによって収まり方が変わります。たとえば「アンコールお願い」をiPhoneで1行表示にすると、フレーズ全体が同じ行に収まり、小さな画面でもひとまとまりのメッセージとして見せられます。横向きのiPadは表示スペースが広いため、「アンコールお願い」を横長の1行で表示できます。レイアウトに収まるなら、上に「アンコール」、下に「お願い」と静止テキストを2行に分け、それぞれをより大きく表示することもできます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "読みやすさをさっと確認",
+          "paragraphs": [
+            "端末を掲げる前に、腕を伸ばした距離で見え方を確認しましょう。次の4つをチェックすると、言葉が読みやすくなります。"
+          ],
+          "bullets": [
+            "長さ：短い言葉を2〜4語にまとめ、画面いっぱいに表示できるようにします。",
+            "動き：横や縦にスクロールさせず、大きな静止テキストを使います。短いメッセージがひと目で伝わります。",
+            "コントラスト：文字色と背景色にはっきり差をつけ、無料のネオン文字エフェクトも試して、一文字ずつ目立つか確認します。",
+            "絵文字：言葉が小さくならないよう、追加する絵文字は多くても1つにします。"
+          ]
+        },
+        {
+          "heading": "Freezon Bannerの設定",
+          "paragraphs": [
+            "その場に合うフレーズを選んだら、iPhoneまたはiPadの「Freezon Banner」に文字を直接入力し、必要なら絵文字も添えます。上の例はフレーズの提案で、アプリに内蔵されたテンプレートではありません。基本的な作成・表示機能はオフラインで使えるので、インターネットにつながらなくてもメッセージを用意しておけます。",
+            "レイアウトに収まる範囲で、1行または複数行の静止テキストを全画面表示にし、文字サイズは自動設定にするか、自分で調整します。文字色や背景色を変え、ネオン風にしたいときは無料のネオン文字エフェクトも試してみてください。端末の使用ルールは会場やイベントによって異なるので、使用が認められている場所で表示しましょう。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "콘서트 응원 문구 추천: 휴대폰 화면에 쏙 들어가는 짧은 메시지",
+      "deck": "응원과 감사, 앵콜과 손짓 요청까지, iPhone과 iPad 화면에 짧고 선명하게 담는 문구와 배치 팁을 소개합니다.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "콘서트에서 화면으로 메시지를 전할 때는 일상적인 단어 두세 개에서 네 개 정도, 또는 두세 단어에 간단한 이모지 하나를 더해 큰 고정 텍스트로 표시하는 것이 한눈에 읽기 좋습니다. 긴 문장은 작은 화면에서 글자가 작아지지만, 짧은 문구에 대비가 뚜렷한 색을 쓰면 단어 하나하나를 선명하게 읽을 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "분위기가 달아오를 때 쓰는 응원 문구",
+          "paragraphs": [
+            "열기가 최고조에 달했을 때는 짧고 힘 있는 반응으로 화면을 빽빽하게 채우지 않으면서도 분위기를 담을 수 있습니다. 현장에서 자연스럽게 느껴지는 간단한 응원 문구를 골라보세요."
+          ],
+          "bullets": [
+            "가자! 🔥",
+            "최고의 밤이야",
+            "라이브 최고",
+            "크게 불러요",
+            "마법 같아요 ✨"
+          ]
+        },
+        {
+          "heading": "고마움을 전하는 문구",
+          "paragraphs": [
+            "따뜻하고 솔직한 말은 긴 글보다 고마운 마음을 더 잘 전합니다. 짧아도 마음이 느껴지고 쉽게 읽히는 문구입니다."
+          ],
+          "bullets": [
+            "고마워요 ❤️",
+            "자랑스러워요",
+            "오길 잘했어요",
+            "당신의 음악이 좋아요",
+            "영원히 팬이에요"
+          ]
+        },
+        {
+          "heading": "앵콜과 노래 요청 문구",
+          "paragraphs": [
+            "본공연이 마무리될 무렵에는 짧은 요청으로 바라는 마음을 순식간에 전할 수 있습니다. 익숙한 단어 몇 개로 간단히 표현해보세요."
+          ],
+          "bullets": [
+            "앵콜 부탁해요",
+            "한 곡 더",
+            "아직 못 가요",
+            "다시 들려줘요"
+          ]
+        },
+        {
+          "heading": "가볍게 건네는 손짓 요청",
+          "paragraphs": [
+            "간단하고 친근한 문구를 쓰면 화면을 복잡하게 만들지 않으면서 원하는 손동작이나 인사를 분명하게 전할 수 있습니다. 바로 알아볼 수 있는 동작 하나를 골라보세요."
+          ],
+          "bullets": [
+            "손하트 해줘요 🫶",
+            "브이 해줘요 ✌️",
+            "여기로 손 흔들어줘요 👋",
+            "엄지척 해줘요 👍"
+          ]
+        },
+        {
+          "heading": "iPhone 한 줄 배치와 가로 모드 iPad 배치",
+          "paragraphs": [
+            "같은 문구라도 화면 크기에 따라 배치가 달라집니다. 예를 들어 iPhone에서 “앵콜 부탁해요”를 한 줄로 표시하면 두 단어가 같은 줄에 놓여 작은 화면에서도 하나의 메시지로 보입니다. 가로 모드 iPad에서는 화면이 더 넓으므로 “앵콜 부탁해요”를 넓은 한 줄로 표시할 수 있습니다. 배치가 화면에 맞는다면 위에 “앵콜”, 아래에 “부탁해요”를 고정된 두 줄로 놓아 각 단어를 더 크게 표시할 수도 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "한눈에 읽히는지 빠르게 확인하기",
+          "paragraphs": [
+            "기기를 들기 전에 팔을 뻗은 거리에서 화면이 어떻게 보이는지 확인해보세요. 다음 네 가지를 점검하면 문구를 선명하게 전달할 수 있습니다."
+          ],
+          "bullets": [
+            "길이: 짧은 단어 두 개에서 네 개 정도로 구성해 글자가 화면을 충분히 채우도록 하세요.",
+            "움직임: 가로나 세로로 스크롤하는 대신 큰 고정 텍스트를 사용해 짧은 메시지를 한눈에 알아볼 수 있게 하세요.",
+            "대비: 글자색과 배경색의 대비를 뚜렷하게 하고, 무료 네온 텍스트 효과도 시험해 모든 글자가 잘 보이는지 확인하세요.",
+            "이모지: 글자가 작아지지 않도록 이모지는 최대 하나만 넣으세요."
+          ]
+        },
+        {
+          "heading": "Freezon Banner 설정하기",
+          "paragraphs": [
+            "상황에 맞는 문구를 골랐다면 iPhone이나 iPad에서 ‘Freezon Banner’에 텍스트를 바로 입력하고, 원하면 이모지도 더하세요. 위의 예시는 문구 제안이며 앱에 내장된 템플릿은 아닙니다. 핵심 제작 및 표시 기능은 오프라인으로 작동하므로 인터넷 연결이 없어도 메시지를 준비해둘 수 있습니다.",
+            "화면 배치에 맞게 한 줄 또는 여러 줄의 고정 전체 화면 표시를 선택하고, 글자 크기를 자동으로 설정하거나 직접 조절하세요. 글자색과 배경색을 바꾸고, 네온 느낌을 원한다면 무료 네온 텍스트 효과도 사용해보세요. 기기 사용 규정은 공연장과 행사마다 다르므로 허용된 곳에서 사용하면 됩니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "Qué escribir en un cartel para un concierto: ideas cortas que caben en tu teléfono",
+      "deck": "Frases cortas para animar, agradecer y pedir otra canción, con consejos para mostrarlas con claridad en iPhone y iPad.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para mostrar un mensaje claro en una pantalla durante un concierto, usa de dos a cuatro palabras cotidianas, o dos o tres palabras con un emoji sencillo, en texto grande y fijo que se pueda leer de un vistazo. Las frases largas hacen que las letras se reduzcan en una pantalla pequeña; en cambio, un mensaje breve con buen contraste mantiene cada palabra nítida y legible."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Frases para los momentos de más energía",
+          "paragraphs": [
+            "Cuando el ambiente está al máximo, una reacción breve y con fuerza expresa lo que sientes sin saturar la pantalla. Elige una frase de ánimo sencilla que suene natural en el concierto:"
+          ],
+          "bullets": [
+            "¡VAMOS! 🔥",
+            "LA MEJOR NOCHE",
+            "SUENA INCREÍBLE EN VIVO",
+            "¡A CANTAR FUERTE!",
+            "PURA MAGIA ✨"
+          ]
+        },
+        {
+          "heading": "Mensajes de agradecimiento",
+          "paragraphs": [
+            "Las frases cálidas y directas expresan gratitud mejor que un párrafo largo. Estos mensajes breves transmiten algo personal y son fáciles de leer:"
+          ],
+          "bullets": [
+            "GRACIAS ❤️",
+            "QUÉ ORGULLO ME DAS",
+            "VALIÓ EL VIAJE",
+            "AMO TU MÚSICA",
+            "FAN PARA SIEMPRE"
+          ]
+        },
+        {
+          "heading": "Para pedir otra canción",
+          "paragraphs": [
+            "Cuando el concierto se acerca al final de su parte principal, una petición corta comunica tu deseo en un instante. Usa unas cuantas palabras conocidas:"
+          ],
+          "bullets": [
+            "OTRA, POR FAVOR",
+            "UNA CANCIÓN MÁS",
+            "NO QUIERO IRME",
+            "TÓCALA OTRA VEZ"
+          ]
+        },
+        {
+          "heading": "Peticiones de gestos simpáticos",
+          "paragraphs": [
+            "Una petición sencilla y divertida deja claro qué gesto o saludo quieres sin llenar la pantalla de texto. Elige una sola señal visual fácil de entender:"
+          ],
+          "bullets": [
+            "¿UN CORAZÓN? 🫶",
+            "¿UNA V? ✌️",
+            "SALUDA POR ACÁ 👋",
+            "¿PULGAR ARRIBA? 👍"
+          ]
+        },
+        {
+          "heading": "Una línea en iPhone frente a un iPad en horizontal",
+          "paragraphs": [
+            "El tamaño de la pantalla cambia la forma de acomodar una misma frase. Por ejemplo, al mostrar “OTRA, POR FAVOR” en una sola línea en el iPhone, toda la frase queda en el mismo renglón y el mensaje se mantiene unido en una pantalla compacta. En un iPad en horizontal, el espacio más amplio permite mostrar “OTRA, POR FAVOR” en una sola línea ancha o, si el diseño cabe, poner “OTRA,” encima de “POR FAVOR” en dos líneas fijas, con más espacio para que cada parte se vea más grande."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Revisión rápida de legibilidad",
+          "paragraphs": [
+            "Antes de levantar el dispositivo, revisa cómo se ve el mensaje a la distancia de un brazo extendido. Estas cuatro comprobaciones sencillas ayudan a que se lea con claridad:"
+          ],
+          "bullets": [
+            "Longitud: Usa de dos a cuatro palabras cortas para que el texto llene la pantalla.",
+            "Movimiento: Usa texto grande y fijo en lugar de desplazamiento horizontal o vertical para que un mensaje corto se entienda de un vistazo.",
+            "Contraste: Combina colores de texto y fondo que contrasten, y prueba el efecto de texto Neón gratuito para comprobar que cada letra destaque.",
+            "Emoji: Agrega como máximo un emoji para evitar que las palabras se hagan más pequeñas."
+          ]
+        },
+        {
+          "heading": "Cómo configurar Freezon Banner",
+          "paragraphs": [
+            "Cuando elijas una frase para el momento, escribe el texto y, si quieres, un emoji directamente en «Freezon Banner» en tu iPhone o iPad. Los ejemplos anteriores son sugerencias, no plantillas integradas. Las funciones principales de creación y visualización funcionan sin conexión, así que tu mensaje puede estar listo aunque no tengas internet.",
+            "Elige una visualización fija a pantalla completa, en una o varias líneas si el diseño cabe, y usa el tamaño de texto automático o ajústalo. Personaliza los colores del texto y del fondo, y prueba el efecto de texto Neón gratuito si te gusta ese estilo. Las reglas sobre dispositivos varían según el recinto y el evento, así que usa tu pantalla donde esté permitido."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "O que escrever em um cartaz para show: ideias curtas que cabem no celular",
+      "deck": "Frases curtas para torcer, agradecer e pedir bis, com dicas para exibir mensagens claras no iPhone e no iPad.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para mostrar uma mensagem clara na tela durante um show, use de duas a quatro palavras do dia a dia, ou duas a três palavras com um emoji simples, em texto grande e parado para facilitar a leitura de relance. Frases longas deixam as letras menores em uma tela pequena, enquanto uma mensagem curta com bom contraste mantém cada palavra nítida e legível."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Frases para os momentos de mais energia",
+          "paragraphs": [
+            "Quando a energia está lá em cima, reações curtas e marcantes traduzem o clima sem lotar a tela. Escolha uma frase de incentivo simples que soe natural no show:"
+          ],
+          "bullets": [
+            "BORA LÁ! 🔥",
+            "MELHOR NOITE DA VIDA",
+            "AO VIVO É INCRÍVEL",
+            "CANTA BEM ALTO",
+            "PURA MAGIA ✨"
+          ]
+        },
+        {
+          "heading": "Mensagens de agradecimento",
+          "paragraphs": [
+            "Frases carinhosas e diretas expressam gratidão melhor do que um parágrafo longo. Estas mensagens curtas mantêm o toque pessoal e são fáceis de ler:"
+          ],
+          "bullets": [
+            "VALEU ❤️",
+            "ORGULHO DE VOCÊ",
+            "VALEU A VIAGEM",
+            "AMO SUA MÚSICA",
+            "FÃ PARA SEMPRE"
+          ]
+        },
+        {
+          "heading": "Pedidos de bis e de músicas",
+          "paragraphs": [
+            "Quando a parte principal do show está chegando ao fim, um pedido curto comunica sua vontade em um instante. Use poucas palavras conhecidas:"
+          ],
+          "bullets": [
+            "BIS, POR FAVOR",
+            "MAIS UMA MÚSICA",
+            "NÃO QUERO IR EMBORA",
+            "TOCA DE NOVO"
+          ]
+        },
+        {
+          "heading": "Pedidos de gestos simpáticos",
+          "paragraphs": [
+            "Pedidos simples e descontraídos deixam claro qual gesto ou aceno você quer sem encher a tela de texto. Escolha uma única indicação visual fácil de entender:"
+          ],
+          "bullets": [
+            "FAZ UM CORAÇÃO? 🫶",
+            "FAZ UM V? ✌️",
+            "ACENA PRA CÁ 👋",
+            "MANDA UM JOINHA? 👍"
+          ]
+        },
+        {
+          "heading": "Uma linha no iPhone e o layout do iPad na horizontal",
+          "paragraphs": [
+            "O tamanho da tela muda a forma de acomodar a mesma frase no dispositivo. Usando “BIS, POR FAVOR” como exemplo, exibir o cartaz em uma linha no iPhone mantém toda a frase na mesma linha, deixando a mensagem unida em uma tela compacta. No iPad na horizontal, o espaço maior permite mostrar “BIS, POR FAVOR” em uma única linha larga ou, se o layout comportar, colocar “BIS,” acima de “POR FAVOR” em duas linhas estáticas, dando mais espaço para cada parte aparecer maior."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Confira rapidamente se está fácil de ler",
+          "paragraphs": [
+            "Antes de levantar o dispositivo, veja como a mensagem aparece à distância de um braço estendido. Quatro verificações simples ajudam a manter o texto claro:"
+          ],
+          "bullets": [
+            "Comprimento: Procure usar de duas a quatro palavras curtas para que o texto preencha a tela.",
+            "Movimento: Use texto grande e parado em vez de rolagem horizontal ou vertical para que uma mensagem curta seja entendida de relance.",
+            "Contraste: Combine cores de texto e fundo que contrastem e teste o efeito de texto Neon gratuito para conferir se todas as letras se destacam.",
+            "Emoji: Adicione no máximo um emoji para não diminuir as palavras."
+          ]
+        },
+        {
+          "heading": "Como configurar o Freezon Banner",
+          "paragraphs": [
+            "Depois de escolher uma frase para o momento, digite o texto e, se quiser, um emoji diretamente no “Freezon Banner” no iPhone ou iPad. Os exemplos acima são sugestões, não modelos integrados ao app. As funções principais de criação e exibição funcionam offline, então sua mensagem fica pronta mesmo sem conexão com a internet.",
+            "Escolha a exibição estática em tela cheia, com uma ou várias linhas se o layout comportar, e use o tamanho de texto automático ou ajuste o tamanho. Personalize as cores do texto e do fundo e experimente o efeito de texto Neon gratuito se quiser esse visual. As regras sobre dispositivos variam conforme o local e o evento, então use sua tela onde for permitido."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

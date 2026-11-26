@@ -11,7 +11,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "To remove personal pictures from your main camera roll and store them behind an independent password, you can move them into an encrypted photo vault on your iPhone. Freezon keeps an encrypted copy stored locally on your device, giving you a safe personal archive without sending files to the cloud.",
+            "To remove personal pictures from your main camera roll and store them behind an independent password, you can move them into an encrypted photo vault on your iPhone. “Freezon” keeps an encrypted copy stored locally on your device, giving you a safe personal archive without sending files to the cloud.",
             "The workflow is simple: import your chosen photos into the vault, verify that the encrypted copy opens and displays properly, and after verifying, optionally confirm Apple's system prompt only if you want the originals removed from your photo library."
           ],
           "bullets": []
@@ -79,13 +79,13 @@
     },
     "zh-Hans": {
       "title": "如何将隐私照片从 Apple“照片”移入 iPhone 私密相册",
-      "deck": "了解如何使用 Freezon 将照片安全移出 iPhone 上的 Apple 照片，通过独立密码与本地加密存储保护私密媒体，并彻底管理相机胶卷中的原始文件。",
+      "deck": "了解如何使用「定格私密相册」将照片安全移出 iPhone 上的 Apple 照片，通过独立密码与本地加密存储保护私密媒体，并彻底管理相机胶卷中的原始文件。",
       "download": "在 App Store 下载",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "想要把私人照片从相机胶卷中移出并使用独立密码保护，你可以将它们存入 iPhone 上的加密私密相册中。定格私密相册会在你的设备本地保存加密副本，无需将文件上传到云端，就能为你提供安全的个人归档空间。",
+            "想要把私人照片从相机胶卷中移出并使用独立密码保护，你可以将它们存入 iPhone 上的加密私密相册中。「定格私密相册」会在你的设备本地保存加密副本，无需将文件上传到云端，就能为你提供安全的个人归档空间。",
             "操作流程很简单：将选中的照片导入相册，核对加密副本能够正常打开和显示；确认无误后，只有在你确实想从照片图库中清除原片时，才确认 Apple 的系统提示进行删除。"
           ],
           "bullets": []
@@ -96,19 +96,19 @@
             "在传输重要的个人媒体之前，请先使用包含两到三张非敏感照片或一段简短视频的小批次来测试工作流程。"
           ],
           "bullets": [
-            "打开 Freezon 并开始新的导入。",
-            "当系统权限提示出现时，选择“选择照片...”以使用受限照片访问权限。这会将 Freezon 的可见范围严格限制在您选取的项目上，确保相机胶卷中的其余内容保持私密。",
-            "选择您的测试项目，对此测试批次选择保留原片，然后完成向 Freezon 本地加密存储的导入。"
+            "打开「定格私密相册」并开始新的导入。",
+            "当系统权限提示出现时，选择“选择照片...”以使用受限照片访问权限。这会将「定格私密相册」的可见范围严格限制在您选取的项目上，确保相机胶卷中的其余内容保持私密。",
+            "选择您的测试项目，对此测试批次选择保留原片，然后完成向「定格私密相册」本地加密存储的导入。"
           ]
         },
         {
-          "heading": "步骤 2：在 Freezon 中打开并验证媒体",
+          "heading": "步骤 2：在「定格私密相册」中打开并验证媒体",
           "paragraphs": [
             "在从设备中删除任何原片之前，务必确认导入的媒体完好无损：",
             "先验证文件可确保在对 Apple 照片进行任何更改之前，您的媒体已安全保存在本地加密存储中。"
           ],
           "bullets": [
-            "打开 Freezon 并输入您的独立密码。",
+            "打开「定格私密相册」并输入您的独立密码。",
             "轻点每张新导入的照片，验证图像是否完整呈现。",
             "从头到尾播放视频，确保播放流畅且完整。"
           ]
@@ -116,18 +116,18 @@
         {
           "heading": "步骤 3：针对原始照片选择切实可行的处理方案",
           "paragraphs": [
-            "在 Freezon 中验证媒体后，根据您的工作流程选择如何在 Apple 照片中处理原始文件：",
+            "在「定格私密相册」中验证媒体后，根据您的工作流程选择如何在 Apple 照片中处理原始文件：",
             "由于 Apple 照片会保护图库免遭意外删除，因此 iOS 在任何应用删除媒体之前都需要独立的系统确认。确认此对话框后，原片将从您的主图库视图中移除。"
           ],
           "bullets": [
-            "方案 A：移除原片。适用于将私密照片完全移出主相机胶卷的情况。对于已保留并验证的批次，在 Freezon 中打开“设置” → “清理原片”并选择要清理的项目。当 iOS 显示系统确认对话框时，轻点“删除”。",
-            "方案 B：保留原片。适用于希望拥有加密副本但仍需在共享相簿或其他应用中使用这些文件的情况。将原片保留在 Apple 照片中。若日后需要清理，可以在 Freezon 中前往“设置” → “清理原片”并选择要清理的项目。"
+            "方案 A：移除原片。适用于将私密照片完全移出主相机胶卷的情况。对于已保留并验证的批次，在「定格私密相册」中打开“设置” → “清理原片”并选择要清理的项目。当 iOS 显示系统确认对话框时，轻点“删除”。",
+            "方案 B：保留原片。适用于希望拥有加密副本但仍需在共享相簿或其他应用中使用这些文件的情况。将原片保留在 Apple 照片中。若日后需要清理，可以在「定格私密相册」中前往“设置” → “清理原片”并选择要清理的项目。"
           ]
         },
         {
           "heading": "步骤 4：管理 Apple 照片中的“最近删除”",
           "paragraphs": [
-            "通过 Freezon 删除原片并不会立即从 iPhone 中永久抹掉它们。Apple 照片将删除视为一个独立的系统流程："
+            "通过「定格私密相册」删除原片并不会立即从 iPhone 中永久抹掉它们。Apple 照片将删除视为一个独立的系统流程："
           ],
           "bullets": [
             "当您批准移除提示时，Apple 照片会将原始文件移动到“最近删除”相簿中。",
@@ -139,8 +139,8 @@
         {
           "heading": "常见问题",
           "paragraphs": [
-            "我可以在不授予完整图库访问权限的情况下导入照片吗？可以。Freezon 支持受限照片访问权限，允许您仅选取想要导入的特定照片和视频，同时确保图库中的其余内容保持私密。",
-            "如果我选择保留原片，但日后想将其删除，该怎么做？打开 Freezon 并前往“设置” → “清理原片”。此功能会识别已保留原片的已导入媒体，并在后续清理时调出 Apple 系统删除对话框。",
+            "我可以在不授予完整图库访问权限的情况下导入照片吗？可以。「定格私密相册」支持受限照片访问权限，允许您仅选取想要导入的特定照片和视频，同时确保图库中的其余内容保持私密。",
+            "如果我选择保留原片，但日后想将其删除，该怎么做？打开「定格私密相册」并前往“设置” → “清理原片”。此功能会识别已保留原片的已导入媒体，并在后续清理时调出 Apple 系统删除对话框。",
             "为什么 Apple 照片在移除原片时会要求确认？Apple 照片需要独立的系统确认来保护您的图库免遭意外删除，确保未经您的直接同意不会移除任何文件。"
           ],
           "bullets": []
@@ -150,13 +150,13 @@
     },
     "zh-Hant": {
       "title": "如何將私密照片從 Apple「照片」移入 iPhone 照片保險箱",
-      "deck": "了解如何將照片匯入 Freezon 的加密儲存空間，並安全地從 iPhone 的 Apple 照片圖庫中移除原始檔案。",
+      "deck": "了解如何將照片匯入「定格私密相簿」的加密儲存空間，並安全地從 iPhone 的 Apple 照片圖庫中移除原始檔案。",
       "download": "在 App Store 下載",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "若想將私人照片從主要相機膠卷中移出，並以獨立密碼妥善保存，你可以把它們移入 iPhone 上的加密照片保險箱。定格私密相冊會將加密複本存放在你的本機裝置上，無需將檔案傳送至雲端，就能為你提供安全的個人檔案庫。",
+            "若想將私人照片從主要相機膠卷中移出，並以獨立密碼妥善保存，你可以把它們移入 iPhone 上的加密照片保險箱。「定格私密相簿」會將加密複本存放在你的本機裝置上，無需將檔案傳送至雲端，就能為你提供安全的個人檔案庫。",
             "操作流程非常簡單：先將選定的照片匯入保險箱，確認加密複本能正常開啟並顯示；完成檢查後，只有在你想要從照片圖庫中移除原始檔案時，才確認 Apple 的系統提示進行刪除。"
           ],
           "bullets": []
@@ -167,19 +167,19 @@
             "在轉移重要的個人媒體之前，請先使用兩到三張非敏感照片或一小段短片測試該工作流程。"
           ],
           "bullets": [
-            "開啟 Freezon 並開始新的匯入。",
-            "當系統權限提示出現時，選取「選取照片…」以使用受限的照片存取權限。這會將 Freezon 的瀏覽權限嚴格限制在您選擇的項目中，讓相機膠卷的其餘部分保持私密。",
-            "選取您的測試項目，在此測試批次中選擇保留原始檔案，並完成匯入至 Freezon 的本機加密儲存空間。"
+            "開啟「定格私密相簿」並開始新的匯入。",
+            "當系統權限提示出現時，選取「選取照片…」以使用受限的照片存取權限。這會將「定格私密相簿」的瀏覽權限嚴格限制在您選擇的項目中，讓相機膠卷的其餘部分保持私密。",
+            "選取您的測試項目，在此測試批次中選擇保留原始檔案，並完成匯入至「定格私密相簿」的本機加密儲存空間。"
           ]
         },
         {
-          "heading": "步驟 2：在 Freezon 內開啟並驗證媒體",
+          "heading": "步驟 2：在「定格私密相簿」內開啟並驗證媒體",
           "paragraphs": [
             "在從裝置中刪除任何原始檔案之前，請務必先確認匯入的媒體完好無損：",
             "先驗證檔案可確保在對 Apple 照片進行任何更動之前，您的媒體已安全存放在本機加密儲存空間中。"
           ],
           "bullets": [
-            "開啟 Freezon 並輸入您的獨立密碼。",
+            "開啟「定格私密相簿」並輸入您的獨立密碼。",
             "輕點每張新匯入的照片，以驗證影像能完整算繪顯示。",
             "從頭到尾播放影片，確保播放流暢且完整。"
           ]
@@ -187,18 +187,18 @@
         {
           "heading": "步驟 3：針對原始照片選擇可行的處理分支",
           "paragraphs": [
-            "媒體在 Freezon 中完成驗證後，請根據您的工作流程選擇如何在 Apple 照片中處理原始檔案：",
+            "媒體在「定格私密相簿」中完成驗證後，請根據您的工作流程選擇如何在 Apple 照片中處理原始檔案：",
             "因為 Apple 照片會保護圖庫以防止意外刪除，iOS 要求在任何 App 刪除媒體之前都必須經過獨立的系統確認。確認此對話框後，即可從主要圖庫檢視中移除原始檔案。"
           ],
           "bullets": [
-            "分支 A：移除原始檔案。當要將私密照片完全移出主要相機膠卷時選擇此項。針對您保留並已驗證的批次，在 Freezon 中開啟「設定 → 清理原始檔案」並選取要清理的項目。當 iOS 顯示系統確認對話框時，輕點「刪除」。",
-            "分支 B：保留原始檔案。當您想要加密複本但仍需要在共享相簿或其他 App 中使用這些檔案時選擇此項。將原始檔案保留在 Apple 照片中。若稍後想清理，可在 Freezon 中使用「設定 → 清理原始檔案」並選取要清理的項目。"
+            "分支 A：移除原始檔案。當要將私密照片完全移出主要相機膠卷時選擇此項。針對您保留並已驗證的批次，在「定格私密相簿」中開啟「設定 → 清理原始檔案」並選取要清理的項目。當 iOS 顯示系統確認對話框時，輕點「刪除」。",
+            "分支 B：保留原始檔案。當您想要加密複本但仍需要在共享相簿或其他 App 中使用這些檔案時選擇此項。將原始檔案保留在 Apple 照片中。若稍後想清理，可在「定格私密相簿」中使用「設定 → 清理原始檔案」並選取要清理的項目。"
           ]
         },
         {
           "heading": "步驟 4：管理 Apple 照片的「最近刪除」",
           "paragraphs": [
-            "透過 Freezon 刪除原始檔案並不會立即從 iPhone 永久抹除它們。Apple 照片將刪除視為獨立的系統程序："
+            "透過「定格私密相簿」刪除原始檔案並不會立即從 iPhone 永久抹除它們。Apple 照片將刪除視為獨立的系統程序："
           ],
           "bullets": [
             "當您核准移除提示時，Apple 照片會將原始檔案移至「最近刪除」相簿。",
@@ -210,8 +210,8 @@
         {
           "heading": "常見問題",
           "paragraphs": [
-            "我可以不授予整個圖庫的存取權限就匯入照片嗎？可以。Freezon 支援受限的照片存取權限，讓您只選取想要匯入的特定照片與影片，同時確保圖庫的其餘部分維持私密。",
-            "如果我選擇保留原始檔案但日後想要移除，該怎麼做？請開啟 Freezon 並前往「設定 → 清理原始檔案」。此功能會找出已匯入但仍保留原始檔案的媒體，並提示 Apple 系統刪除對話框，以便稍後進行清理。",
+            "我可以不授予整個圖庫的存取權限就匯入照片嗎？可以。「定格私密相簿」支援受限的照片存取權限，讓您只選取想要匯入的特定照片與影片，同時確保圖庫的其餘部分維持私密。",
+            "如果我選擇保留原始檔案但日後想要移除，該怎麼做？請開啟「定格私密相簿」並前往「設定 → 清理原始檔案」。此功能會找出已匯入但仍保留原始檔案的媒體，並提示 Apple 系統刪除對話框，以便稍後進行清理。",
             "為什麼 Apple 照片在移除原始檔案時會要求確認？Apple 照片需要個別的系統確認來保護圖庫防止非預期的刪除，確保任何檔案在未獲得您直接同意的情況下都不會被移除。"
           ],
           "bullets": []
@@ -227,7 +227,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "プライベートな写真をメインのカメラロールから外して独立したパスワードで保護したい場合は、iPhone内の暗号化された写真保管アプリに移行しましょう。Freezonなら暗号化したコピーを端末のローカルにのみ保存するため、クラウドにファイルを送信することなく安全にプライベートな写真を保管できます。",
+            "プライベートな写真をメインのカメラロールから外して独立したパスワードで保護したい場合は、iPhone内の暗号化された写真保管アプリに移行しましょう。「Freezon」なら暗号化したコピーを端末のローカルにのみ保存するため、クラウドにファイルを送信することなく安全にプライベートな写真を保管できます。",
             "手順はとてもシンプルです。選んだ写真を保管アプリに読み込み、暗号化された写真が問題なく開いて表示されるか確認します。確認後、写真ライブラリから元の写真を削除したい場合のみ、Appleのシステム確認画面で削除を承認してください。"
           ],
           "bullets": []
@@ -297,7 +297,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "기본 카메라 롤에서 개인 사진을 정리하고 독립된 비밀번호로 안전하게 보관하고 싶다면, iPhone의 암호화된 사진 금고로 사진을 옮길 수 있어요. Freezon은 기기 로컬에 암호화된 사본을 보관하므로, 파일을 클라우드로 전송하지 않고도 안전한 나만의 개인 보관함을 만들 수 있습니다.",
+            "기본 카메라 롤에서 개인 사진을 정리하고 독립된 비밀번호로 안전하게 보관하고 싶다면, iPhone의 암호화된 사진 금고로 사진을 옮길 수 있어요. ‘Freezon’은 기기 로컬에 암호화된 사본을 보관하므로, 파일을 클라우드로 전송하지 않고도 안전한 나만의 개인 보관함을 만들 수 있습니다.",
             "진행 방법은 간단해요. 원하는 사진을 금고로 가져온 다음, 암호화된 사본이 제대로 열리고 표시되는지 확인하세요. 확인을 마친 후 사진 보관함에서 원본을 지우고 싶을 때만 Apple 시스템 팝업에서 원본 삭제를 승인하면 됩니다."
           ],
           "bullets": []
@@ -371,7 +371,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "Para quitar fotos personales de tu rollo principal y guardarlas bajo una contraseña independiente, puedes moverlas a una bóveda de fotos cifrada en tu iPhone. Freezon guarda una copia cifrada localmente en tu dispositivo, dándote un archivo personal seguro sin enviar tus archivos a la nube.",
+            "Para quitar fotos personales de tu rollo principal y guardarlas bajo una contraseña independiente, puedes moverlas a una bóveda de fotos cifrada en tu iPhone. «Freezon» guarda una copia cifrada localmente en tu dispositivo, dándote un archivo personal seguro sin enviar tus archivos a la nube.",
             "El proceso es simple: importa las fotos que elijas a la bóveda, comprueba que la copia cifrada se abra y se vea bien, y, tras verificarlo, confirma de forma opcional el mensaje del sistema de Apple solo si deseas borrar los originales de tu fototeca."
           ],
           "bullets": []
@@ -442,7 +442,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "Para tirar fotos pessoais do seu rolo da câmera principal e guardá-las sob uma senha independente, você pode movê-las para um cofre de fotos criptografado no iPhone. O Freezon mantém uma cópia criptografada salva localmente no seu aparelho, proporcionando um arquivo pessoal seguro sem enviar arquivos para a nuvem.",
+            "Para tirar fotos pessoais do seu rolo da câmera principal e guardá-las sob uma senha independente, você pode movê-las para um cofre de fotos criptografado no iPhone. O “Freezon” mantém uma cópia criptografada salva localmente no seu aparelho, proporcionando um arquivo pessoal seguro sem enviar arquivos para a nuvem.",
             "O passo a passo é simples: importe as fotos escolhidas para o cofre, confirme se a cópia criptografada abre e é exibida sem problemas e, depois de verificar, confirme o aviso do sistema da Apple apenas se você quiser remover os originais da sua fototeca."
           ],
           "bullets": []

@@ -1,0 +1,351 @@
+{
+  "slug": "offline-photo-vault-iphone-ipad",
+  "product": "vault",
+  "screens": [],
+  "content": {
+    "en": {
+      "title": "Offline Photo Vault for iPhone and iPad: Keep Private Photos on Your Device",
+      "deck": "Keep selected photos, videos, and Live Photos encrypted on your device and view them offline after a successful import.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "You can store private photos, videos, and Live Photos on your iPhone and open them without an internet connection or an app account. “Freezon” encrypts selected items from Apple Photos directly on your device, keeping them ready to view offline after a successful import."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "From Import to Airplane Mode",
+          "paragraphs": [
+            "Everything starts with selecting the specific photos, videos, or Live Photos you want to import from Apple Photos. Because not every Apple Photos original is already downloaded to your device, wait for the import to finish; items are encrypted on-device and can be opened offline only after a successful import. Your copies in Apple Photos remain unless you confirm removing them.",
+            "Inside Freezon, the Everyday and Private albums use separate passwords, and Face ID or Touch ID is optional for Everyday. For example, suppose you import a photo, a video, and a Live Photo from Apple Photos into the Private album, while keeping other photos in Everyday with Face ID enabled. Once the import finishes, you can turn on Airplane Mode, open the app with no account or connection, access Everyday with Face ID or its password, and unlock Private with its separate password to view the imported items. Even though successfully imported media opens without internet access, not every app feature runs offline."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Checklist to Verify Offline Access",
+          "paragraphs": [
+            "Before relying on offline access, run through a quick check to make sure your imported media opens as expected. Taking a moment to test your setup helps catch unfinished imports or access issues up front."
+          ],
+          "bullets": [
+            "Confirm completed imports: Verify that every selected photo, video, and Live Photo finished importing from Apple Photos, rather than assuming originals were already downloaded.",
+            "Test in Airplane Mode: Turn on Airplane Mode and check that the imported items open inside the app, keeping in mind that not every app feature runs offline.",
+            "Check album access: Make sure you know the separate passwords for the Everyday and Private albums, along with any optional Face ID or Touch ID setup for Everyday.",
+            "Decide on Apple Photos copies: After confirming your imports open offline, decide whether to keep the copies in Apple Photos—they stay there unless you confirm removing them."
+          ]
+        },
+        {
+          "heading": "A Quick Note for iPad Users",
+          "paragraphs": [
+            "Freezon is available on iPad as well as iPhone, using the same on-device encryption for selected media. However, one install is not a shared library: photo libraries are not automatically synchronized between installs, so items you import on your iPhone stay separate from what you import on your iPad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "How Backups Affect In-App Storage",
+          "paragraphs": [
+            "Choosing to back up does not alter how your in-app media is stored. When you create a backup, the app writes an encrypted file to a chosen folder in Files, with iCloud Drive optional, while your imported items remain encrypted on-device inside the app. Keep the backup file and its corresponding recovery code safe, as the file and code can be used to restore."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hans": {
+      "title": "iPhone 和 iPad 离线私密相册：把私密照片保存在设备上",
+      "deck": "将选定的照片、视频和实况照片加密保存在设备上，成功导入后即可离线查看。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "用「定格私密相册」把想保护的照片、视频或实况照片加密保存在 iPhone 上。导入完成后，不用联网，也不用登录账号，就能打开这些内容。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "从导入到开启飞行模式",
+          "paragraphs": [
+            "首先，在 Apple“照片”App 中选出你想导入的照片、视频或实况照片。由于并非所有原件都已下载到设备上，请等待导入完成；这些内容会在设备上加密，只有成功导入后才能离线打开。Apple“照片”App 中的副本会保留，除非你确认移除它们。",
+            "在 App 中，日常（Everyday）和私密（Private）相册使用各自独立的密码，日常相册还可以选择使用 Face ID 或 Touch ID。例如，你将 Apple“照片”App 中的一张照片、一段视频和一张实况照片导入私密相册，其他照片则放在已启用 Face ID 的日常相册中。导入完成后，你可以开启飞行模式，无需账号或网络连接即可打开 App，通过 Face ID 或日常相册的密码进入日常相册，再用私密相册的独立密码解锁，查看已导入的内容。成功导入的媒体虽然可以离线打开，但并非所有 App 功能都能离线运行。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "离线访问检查清单",
+          "paragraphs": [
+            "在需要依靠离线访问之前，先快速检查一下，确保已导入的媒体都能正常打开。花一点时间测试，可以提前发现尚未完成的导入或访问问题。"
+          ],
+          "bullets": [
+            "确认导入完成：检查每一张选定的照片、每一段视频和每一张实况照片是否都已从 Apple“照片”App 导入完成，不要直接假定原件早已下载到设备上。",
+            "测试飞行模式：开启飞行模式，检查已导入的内容能否在 App 内打开，同时记住并非所有 App 功能都能离线运行。",
+            "检查相册访问方式：确保自己记得日常和私密相册各自的密码，并了解日常相册是否设置了可选的 Face ID 或 Touch ID。",
+            "决定是否保留 Apple“照片”App 中的副本：确认导入的内容可以离线打开后，再决定是否保留原来的副本。除非你确认移除，否则它们会继续保留在 Apple“照片”App 中。"
+          ]
+        },
+        {
+          "heading": "给 iPad 用户的一点说明",
+          "paragraphs": [
+            "「定格私密相册」同时支持 iPad 和 iPhone，在两种设备上都会对选定的媒体进行本地加密。不过，各次安装拥有各自独立的照片库：照片库不会在不同安装之间自动同步，因此你在 iPhone 上导入的内容，与在 iPad 上导入的内容彼此独立。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "备份如何影响 App 内的存储",
+          "paragraphs": [
+            "选择备份不会改变媒体在 App 内的存储方式。创建备份时，App 会将一个加密文件写入你在“文件”App 中选定的文件夹，也可以选择使用 iCloud Drive；已导入的内容则仍然加密保存在设备上的 App 内。请妥善保管备份文件及其对应的恢复码，因为恢复时可以使用这份文件和恢复码。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "zh-Hant": {
+      "title": "iPhone 與 iPad 免雲端私密相簿：將私密照片保存在裝置上",
+      "deck": "將選取的照片、影片與原況照片加密保存在裝置上，成功匯入後即可離線查看。",
+      "download": "從 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "你可以將私密照片、影片與原況照片保存在 iPhone 上，無須連上網路或擁有 App 帳號即可開啟。「定格私密相簿」會直接在你的裝置上加密從 Apple「照片」App 中選取的內容，成功匯入後即可離線查看。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "從匯入到開啟飛航模式",
+          "paragraphs": [
+            "首先，在 Apple「照片」App 中選取你想匯入的照片、影片或原況照片。由於並非所有原始檔都已下載到裝置上，請等待匯入完成；這些內容會在裝置上加密，只有成功匯入後才能離線開啟。Apple「照片」App 中的副本會保留，除非你確認移除。",
+            "在「定格私密相簿」中，日常（Everyday）與私密（Private）相簿使用各自獨立的密碼，日常相簿也可以選擇使用 Face ID 或 Touch ID。舉例來說，你將 Apple「照片」App 中的一張照片、一段影片和一張原況照片匯入私密相簿，其他照片則放在已啟用 Face ID 的日常相簿中。匯入完成後，你可以開啟飛航模式，無須帳號或網路連線即可開啟 App，透過 Face ID 或日常相簿的密碼進入日常相簿，再用私密相簿的獨立密碼解鎖，查看已匯入的內容。成功匯入的媒體雖然可以離線開啟，但並非所有 App 功能都能離線運作。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "離線存取檢查清單",
+          "paragraphs": [
+            "在需要依靠離線存取之前，先快速檢查一下，確保已匯入的媒體都能正常開啟。花一點時間測試，可以提早發現尚未完成的匯入或存取問題。"
+          ],
+          "bullets": [
+            "確認匯入完成：檢查每一張選取的照片、每一段影片和每一張原況照片是否都已從 Apple「照片」App 匯入完成，不要直接假設原始檔早已下載到裝置上。",
+            "測試飛航模式：開啟飛航模式，檢查已匯入的內容能否在 App 內開啟，同時記得並非所有 App 功能都能離線運作。",
+            "檢查相簿存取方式：確認自己記得日常與私密相簿各自的密碼，並了解日常相簿是否設定了可選用的 Face ID 或 Touch ID。",
+            "決定是否保留 Apple「照片」App 中的副本：確認匯入的內容可以離線開啟後，再決定是否保留原本的副本。除非你確認移除，否則它們會繼續保留在 Apple「照片」App 中。"
+          ]
+        },
+        {
+          "heading": "給 iPad 使用者的一點說明",
+          "paragraphs": [
+            "「定格私密相簿」同時支援 iPad 與 iPhone，在兩種裝置上都會對選取的媒體進行本機加密。不過，每次安裝都有各自獨立的照片圖庫：圖庫不會在不同安裝之間自動同步，因此你在 iPhone 上匯入的內容，與在 iPad 上匯入的內容彼此獨立。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "備份如何影響 App 內的儲存",
+          "paragraphs": [
+            "選擇備份不會改變媒體在 App 內的儲存方式。建立備份時，App 會將一個加密檔案寫入你在「檔案」App 中選定的檔案夾，也可以選擇使用 iCloud Drive；已匯入的內容則仍然加密保存在裝置上的 App 內。請妥善保管備份檔案及其對應的復原碼，因為還原時可以使用這份檔案和復原碼。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ja": {
+      "title": "iPhone・iPad向けオフライン写真ロックアプリ：プライベートな写真を端末に保存",
+      "deck": "選んだ写真、動画、Live Photosを端末内で暗号化し、正常に取り込めたものをオフラインで表示できます。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "プライベートな写真、動画、Live PhotosをiPhoneに保存し、インターネット接続やアプリのアカウントなしで開けます。「Freezon」は、Appleの「写真」から選んだ項目を端末内で直接暗号化し、正常に取り込めたものをオフラインで表示できるようにします。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "取り込みから機内モードでの利用まで",
+          "paragraphs": [
+            "まず、Appleの「写真」から取り込みたい写真、動画、Live Photosを選びます。すべてのオリジナルが端末にダウンロード済みとは限らないため、取り込みが終わるまで待ってください。項目は端末内で暗号化され、正常に取り込めたものだけをオフラインで開けます。Appleの「写真」にあるコピーは、削除を確認しない限り残ります。",
+            "Freezonでは、日常（Everyday）アルバムとプライベート（Private）アルバムに別々のパスワードを使います。日常アルバムでは、Face IDまたはTouch IDの利用も選べます。たとえば、Appleの「写真」から写真を1枚、動画を1本、Live Photoを1枚、プライベートアルバムに取り込み、ほかの写真はFace IDを有効にした日常アルバムに保存しているとします。取り込みが終われば、機内モードをオンにして、アカウントやネット接続なしでアプリを開けます。Face IDまたは日常アルバムのパスワードで日常アルバムにアクセスし、プライベートアルバムは専用のパスワードでロックを解除して、取り込んだ項目を表示できます。正常に取り込めたメディアはネット接続なしで開けますが、アプリのすべての機能がオフラインで動作するわけではありません。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "オフラインで開けるか確認するチェックリスト",
+          "paragraphs": [
+            "オフラインでの利用が必要になる前に、取り込んだメディアが想定どおりに開くか、ひととおり確認しておきましょう。少し時間を取って試しておけば、取り込みの未完了やアクセスの問題に事前に気づけます。"
+          ],
+          "bullets": [
+            "取り込みの完了を確認する：オリジナルがすでにダウンロードされていると思い込まず、選んだ写真、動画、Live PhotosがすべてAppleの「写真」から取り込み済みになっているか確認します。",
+            "機内モードで試す：機内モードをオンにして、取り込んだ項目をアプリ内で開けるか確認します。すべてのアプリ機能がオフラインで動作するわけではない点も覚えておきましょう。",
+            "アルバムへのアクセスを確認する：日常アルバムとプライベートアルバム、それぞれのパスワードを把握しているか確認します。日常アルバムで任意のFace IDやTouch IDを設定している場合は、その設定も確認します。",
+            "Appleの「写真」にコピーを残すか決める：取り込んだ項目をオフラインで開けると確認できたら、Appleの「写真」にコピーを残すか決めます。削除を確認しない限り、コピーはそのまま残ります。"
+          ]
+        },
+        {
+          "heading": "iPadを使う方へ",
+          "paragraphs": [
+            "FreezonはiPhoneだけでなくiPadでも利用でき、選んだメディアには同じ端末内暗号化が使われます。ただし、インストール先ごとにライブラリは独立しています。写真ライブラリはインストール先どうしで自動同期されないため、iPhoneで取り込んだ項目とiPadで取り込んだ項目は別々に保存されます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "バックアップとアプリ内の保存方法",
+          "paragraphs": [
+            "バックアップを作成しても、アプリ内のメディアの保存方法は変わりません。バックアップ時には、「ファイル」で選んだフォルダに暗号化ファイルが書き出されます。iCloud Driveの利用は任意です。取り込んだ項目は、引き続き端末上のアプリ内に暗号化された状態で保存されます。バックアップファイルと、そのファイルに対応する復元コードは大切に保管してください。ファイルとコードは復元に使えます。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "ko": {
+      "title": "iPhone·iPad용 오프라인 사진 잠금 앱: 개인 사진을 기기에 보관하세요",
+      "deck": "선택한 사진과 동영상, Live Photo를 기기에 암호화해 보관하고, 가져오기가 정상적으로 끝나면 오프라인으로 확인하세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "개인 사진과 동영상, Live Photo를 iPhone에 저장하고 인터넷 연결이나 앱 계정 없이 열 수 있습니다. ‘Freezon’은 Apple 사진 앱에서 선택한 항목을 기기에서 직접 암호화하며, 정상적으로 가져온 항목은 오프라인으로 볼 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "가져오기부터 비행기 모드까지",
+          "paragraphs": [
+            "먼저 Apple 사진 앱에서 가져올 사진과 동영상, Live Photo를 선택합니다. Apple 사진 앱의 원본이 모두 기기에 다운로드되어 있는 것은 아니므로 가져오기가 끝날 때까지 기다리세요. 항목은 기기에서 암호화되며, 정상적으로 가져온 뒤에만 오프라인으로 열 수 있습니다. Apple 사진 앱에 있는 사본은 삭제를 확인하기 전까지 그대로 남습니다.",
+            "Freezon의 일상(Everyday) 앨범과 비공개(Private) 앨범은 서로 다른 비밀번호를 사용하며, 일상 앨범에서는 Face ID 또는 Touch ID 사용 여부를 선택할 수 있습니다. 예를 들어 Apple 사진 앱에서 사진 한 장, 동영상 하나, Live Photo 한 장을 비공개 앨범으로 가져오고, 다른 사진은 Face ID를 켠 일상 앨범에 보관한다고 가정해 보세요. 가져오기가 끝나면 비행기 모드를 켜고 계정이나 인터넷 연결 없이 앱을 열 수 있습니다. Face ID 또는 일상 앨범의 비밀번호로 일상 앨범에 들어가고, 비공개 앨범은 별도의 비밀번호로 잠금을 풀어 가져온 항목을 볼 수 있습니다. 정상적으로 가져온 미디어는 인터넷 없이 열 수 있지만, 앱의 모든 기능이 오프라인으로 작동하는 것은 아닙니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "오프라인 접근 확인 체크리스트",
+          "paragraphs": [
+            "오프라인 접근이 필요한 상황에 대비해, 가져온 미디어가 예상대로 열리는지 간단히 확인해 보세요. 잠깐 시간을 내어 설정을 테스트하면 미완료된 가져오기나 접근 문제를 미리 발견할 수 있습니다."
+          ],
+          "bullets": [
+            "가져오기 완료 확인: 원본이 이미 다운로드되어 있다고 가정하지 말고, 선택한 사진과 동영상, Live Photo를 모두 Apple 사진 앱에서 가져왔는지 확인하세요.",
+            "비행기 모드에서 테스트: 비행기 모드를 켜고 가져온 항목이 앱 안에서 열리는지 확인하세요. 앱의 모든 기능이 오프라인으로 작동하는 것은 아니라는 점도 기억하세요.",
+            "앨범 접근 확인: 일상 앨범과 비공개 앨범의 서로 다른 비밀번호를 알고 있는지 확인하세요. 일상 앨범에 선택적으로 설정한 Face ID 또는 Touch ID도 확인하세요.",
+            "Apple 사진 앱의 사본 보관 여부 결정: 가져온 항목이 오프라인으로 열리는 것을 확인한 뒤 Apple 사진 앱의 사본을 남길지 결정하세요. 삭제를 확인하기 전까지 사본은 그대로 유지됩니다."
+          ]
+        },
+        {
+          "heading": "iPad 사용자를 위한 안내",
+          "paragraphs": [
+            "Freezon은 iPhone뿐 아니라 iPad에서도 사용할 수 있으며, 선택한 미디어에 동일한 기기 내 암호화를 적용합니다. 다만 설치된 앱마다 별도의 보관함을 사용합니다. 사진 보관함은 각 설치본 사이에서 자동으로 동기화되지 않으므로 iPhone에서 가져온 항목과 iPad에서 가져온 항목은 서로 분리되어 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "백업이 앱 내 저장 방식에 미치는 영향",
+          "paragraphs": [
+            "백업을 선택해도 앱 내 미디어의 저장 방식은 바뀌지 않습니다. 백업을 만들면 앱은 파일 앱에서 선택한 폴더에 암호화된 파일을 저장하며, 원하면 iCloud Drive를 사용할 수도 있습니다. 가져온 항목은 계속 기기의 앱 안에 암호화된 상태로 남습니다. 백업 파일과 해당 파일의 복구 코드는 복원에 사용할 수 있으므로 안전하게 보관하세요."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "es-419": {
+      "title": "App para guardar fotos privadas sin iCloud en iPhone y iPad: acceso sin conexión",
+      "deck": "Guarda fotos, videos y Live Photos cifrados en tu dispositivo y ábrelos sin conexión después de importarlos correctamente.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Puedes guardar fotos privadas, videos y Live Photos en tu iPhone y abrirlos sin conexión a internet ni una cuenta de la app. «Freezon» cifra directamente en tu dispositivo los elementos que seleccionas de Fotos de Apple, para que puedas verlos sin conexión una vez que se hayan importado correctamente."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "De la importación al modo avión",
+          "paragraphs": [
+            "Todo comienza por seleccionar las fotos, los videos o las Live Photos que quieres importar de Fotos de Apple. Como no todos los originales de Fotos de Apple están descargados en tu dispositivo, espera a que termine la importación; los elementos se cifran en el dispositivo y solo se pueden abrir sin conexión después de importarse correctamente. Las copias que tienes en Fotos de Apple permanecen ahí a menos que confirmes que quieres eliminarlas.",
+            "En Freezon, los álbumes Cotidiano (Everyday) y Privado (Private) usan contraseñas diferentes, y el uso de Face ID o Touch ID para Cotidiano es opcional. Por ejemplo, supongamos que importas una foto, un video y una Live Photo de Fotos de Apple al álbum Privado, mientras guardas otras fotos en Cotidiano con Face ID activado. Una vez que termina la importación, puedes activar el modo avión, abrir la app sin cuenta ni conexión, acceder a Cotidiano con Face ID o su contraseña y desbloquear Privado con su contraseña independiente para ver los elementos importados. Aunque los archivos multimedia importados correctamente se abren sin internet, no todas las funciones de la app operan sin conexión."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Lista para comprobar el acceso sin conexión",
+          "paragraphs": [
+            "Antes de depender del acceso sin conexión, haz una revisión rápida para asegurarte de que los archivos multimedia importados se abran como esperas. Dedicar un momento a probar tu configuración ayuda a detectar de antemano importaciones incompletas o problemas de acceso."
+          ],
+          "bullets": [
+            "Confirma que las importaciones terminaron: Comprueba que cada foto, video y Live Photo que seleccionaste haya terminado de importarse de Fotos de Apple, en lugar de dar por hecho que los originales ya estaban descargados.",
+            "Prueba el modo avión: Activa el modo avión y comprueba que los elementos importados se abran dentro de la app. Recuerda que no todas sus funciones operan sin conexión.",
+            "Revisa el acceso a los álbumes: Asegúrate de conocer las contraseñas independientes de los álbumes Cotidiano y Privado, así como cualquier configuración opcional de Face ID o Touch ID para Cotidiano.",
+            "Decide qué hacer con las copias en Fotos de Apple: Después de confirmar que los elementos importados se abren sin conexión, decide si quieres conservar las copias en Fotos de Apple. Permanecen ahí a menos que confirmes que quieres eliminarlas."
+          ]
+        },
+        {
+          "heading": "Una breve nota para quienes usan iPad",
+          "paragraphs": [
+            "Freezon está disponible tanto en iPad como en iPhone y usa el mismo cifrado en el dispositivo para los archivos multimedia seleccionados. Sin embargo, cada instalación tiene su propia biblioteca: las bibliotecas de fotos no se sincronizan automáticamente entre instalaciones, así que los elementos que importas en tu iPhone quedan separados de los que importas en tu iPad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Cómo afectan los respaldos al almacenamiento dentro de la app",
+          "paragraphs": [
+            "Elegir hacer un respaldo no cambia la forma en que se guardan tus archivos multimedia dentro de la app. Cuando creas un respaldo, la app escribe un archivo cifrado en la carpeta que elijas en Archivos, con la opción de usar iCloud Drive, mientras que los elementos importados siguen cifrados en el dispositivo, dentro de la app. Guarda en un lugar seguro el archivo de respaldo y su código de recuperación correspondiente, ya que el archivo y el código se pueden usar para restaurar."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    },
+    "pt-BR": {
+      "title": "App para guardar fotos privadas sem iCloud no iPhone e iPad: acesso offline",
+      "deck": "Mantenha fotos, vídeos e Live Photos criptografados no dispositivo e veja tudo offline após a importação ser concluída com sucesso.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Você pode guardar fotos privadas, vídeos e Live Photos no iPhone e abri-los sem conexão com a internet nem uma conta no app. “Freezon” criptografa os itens selecionados do Fotos da Apple diretamente no seu dispositivo, deixando-os disponíveis para visualização offline após uma importação bem-sucedida."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Da importação ao Modo Avião",
+          "paragraphs": [
+            "Tudo começa com a seleção das fotos, dos vídeos ou das Live Photos que você quer importar do Fotos da Apple. Como nem todos os originais do Fotos da Apple já estão baixados no dispositivo, aguarde a conclusão da importação. Os itens são criptografados no próprio dispositivo e só podem ser abertos offline depois de importados com sucesso. Suas cópias no Fotos da Apple permanecem lá, a menos que você confirme a remoção.",
+            "No Freezon, os álbuns Dia a dia (Everyday) e Privado (Private) usam senhas diferentes, e o uso de Face ID ou Touch ID no Dia a dia é opcional. Por exemplo, imagine que você importe uma foto, um vídeo e uma Live Photo do Fotos da Apple para o álbum Privado, enquanto mantém outras fotos no Dia a dia com o Face ID ativado. Quando a importação terminar, você poderá ativar o Modo Avião, abrir o app sem conta nem conexão, acessar o Dia a dia com Face ID ou com a senha desse álbum e desbloquear o Privado com sua senha separada para ver os itens importados. Embora as mídias importadas com sucesso possam ser abertas sem internet, nem todos os recursos do app funcionam offline."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Checklist para verificar o acesso offline",
+          "paragraphs": [
+            "Antes de depender do acesso offline, faça uma verificação rápida para garantir que as mídias importadas abram como esperado. Dedicar um momento para testar sua configuração ajuda a identificar importações incompletas ou problemas de acesso com antecedência."
+          ],
+          "bullets": [
+            "Confirme a conclusão das importações: Verifique se cada foto, vídeo e Live Photo selecionado terminou de ser importado do Fotos da Apple, em vez de presumir que os originais já estavam baixados.",
+            "Teste no Modo Avião: Ative o Modo Avião e confira se os itens importados abrem dentro do app. Lembre-se de que nem todos os recursos do app funcionam offline.",
+            "Confira o acesso aos álbuns: Certifique-se de que você sabe as senhas diferentes dos álbuns Dia a dia e Privado e conhece qualquer configuração opcional de Face ID ou Touch ID para o Dia a dia.",
+            "Decida se quer manter as cópias no Fotos da Apple: Depois de confirmar que os itens importados abrem offline, decida se quer manter as cópias no Fotos da Apple. Elas permanecem lá, a menos que você confirme a remoção."
+          ]
+        },
+        {
+          "heading": "Uma breve observação para quem usa iPad",
+          "paragraphs": [
+            "O Freezon está disponível tanto para iPad quanto para iPhone e usa a mesma criptografia no dispositivo para as mídias selecionadas. Porém, cada instalação tem sua própria fototeca: as fototecas não são sincronizadas automaticamente entre instalações, então os itens que você importa no iPhone ficam separados dos que importa no iPad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Como os backups afetam o armazenamento no app",
+          "paragraphs": [
+            "Optar por fazer um backup não muda a forma como suas mídias são armazenadas no app. Ao criar um backup, o app grava um arquivo criptografado na pasta que você escolher no app Arquivos, com a opção de usar o iCloud Drive, enquanto os itens importados continuam criptografados no dispositivo, dentro do app. Guarde o arquivo de backup e o código de recuperação correspondente em um local seguro, pois o arquivo e o código podem ser usados para fazer a restauração."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": []
+    }
+  },
+  "screenSections": []
+}

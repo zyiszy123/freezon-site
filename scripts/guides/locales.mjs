@@ -18,14 +18,14 @@ export const guideActionLabels = {
   'pt-BR': { features: 'Ver recursos', scan: 'Escaneie para baixar' },
 };
 
-export const relatedGuideLabels = {
-  en: 'Continue reading',
-  'zh-Hans': '继续阅读',
-  'zh-Hant': '繼續閱讀',
-  ja: '関連ガイド',
-  ko: '함께 읽을 가이드',
-  'es-419': 'Sigue leyendo',
-  'pt-BR': 'Continue lendo',
+export const guidePagerLabels = {
+  en: ['Continue reading', 'Previous', 'Next'],
+  'zh-Hans': ['继续阅读', '上一篇', '下一篇'],
+  'zh-Hant': ['繼續閱讀', '上一篇', '下一篇'],
+  ja: ['続けて読む', '前の記事', '次の記事'],
+  ko: ['이어서 읽기', '이전 글', '다음 글'],
+  'es-419': ['Sigue leyendo', 'Anterior', 'Siguiente'],
+  'pt-BR': ['Continue lendo', 'Anterior', 'Próximo'],
 };
 
 export const englishScreenshotNotes = {

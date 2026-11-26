@@ -1,0 +1,314 @@
+{
+  "slug": "iphone-hidden-album-not-showing",
+  "product": "vault",
+  "screens": [
+    "unlock"
+  ],
+  "content": {
+    "en": {
+      "title": "iPhone Hidden Album Not Showing? Find It or Set Up a Private Album",
+      "deck": "Find the Hidden album in Apple Photos and set up a separate album with its own password for selected photos and videos.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "In Apple Photos, look for Hidden under Utilities. If it isn't there, go to Settings → Apps → Photos and turn on Show Hidden Album. On iPad, you'll find Utilities in the Photos sidebar."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "When You Want an Album With Its Own Password",
+          "paragraphs": [
+            "Finding the Hidden album lets you see the items you hid, but it doesn't give that album a password of its own. If someone in your family knows your iPhone passcode, you may want a separate place for a few personal photos or videos. That's what the Private album in “Freezon” is for.",
+            "Keep using Apple Photos for the pictures you normally browse and share. Move only the items you want to protect with a separate password into Freezon. The app encrypts imported copies on your device, and you can open them offline once the import is complete."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Set Up Your Private Album in Freezon",
+          "paragraphs": [
+            "Set up Freezon and create the Private album. Choose a password different from your device passcode and from the password for your Everyday album. Use the Private password on the Freezon unlock screen when you want to open that album."
+          ],
+          "bullets": [
+            "Open the Private album, then use the plus button in Photos to select the photos or videos you want to import.",
+            "Wait for the import to finish and open a few items to make sure they're there.",
+            "Choose which originals you still want in Apple Photos. If you use Freezon's removal option for the rest, confirm the deletion in iOS."
+          ]
+        },
+        {
+          "heading": "Keep Everyday Photos Easy to Find",
+          "paragraphs": [
+            "The two albums let you decide what belongs together. For example, keep ordinary trip photos in Apple Photos and put only a personal video or a photo of an important document in your Private album. On a shared iPad, the same Freezon setup gives selected items their own place without changing how the rest of the family uses Apple Photos."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "The Freezon lock screen with a password field and an Unlock button."
+      ]
+    },
+    "zh-Hans": {
+      "title": "iPhone 隐藏相册不见了？怎么找回入口，怎么单独加锁",
+      "deck": "找回“照片”中的“已隐藏”相簿，并为选定的照片和视频建立使用独立密码的私密相册。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "在 Apple“照片”中，找到“更多项目”下的“已隐藏”。如果没有看到，请前往设置 → App → 照片，打开“显示‘已隐藏’相簿”。在 iPad 上，“更多项目”位于“照片”的侧边栏中。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "想给相册设置独立密码时",
+          "paragraphs": [
+            "找到「已隐藏」相簿后，你就能查看藏起来的内容，但它没有自己的密码。如果家人知道你的 iPhone 锁屏密码，可以把想单独保护的照片或视频导入「定格私密相册」，再用独立密码锁起来。",
+            "平时浏览和分享的照片，继续放在 Apple“照片”里。只把需要用独立密码保护的内容导入 App。App 会在设备本地加密导入的副本，导入完成后，无需联网也能打开。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "设置独立密码并导入照片或视频",
+          "paragraphs": [
+            "在 App 里创建私密相册，设一个与锁屏密码、日常相册密码都不同的密码。想查看私密相册时，在解锁界面输入这个密码即可。"
+          ],
+          "bullets": [
+            "打开私密相册，然后在“照片”中点击加号，选择要导入的照片或视频。",
+            "等待导入完成，再打开几项内容，确认已经导入。",
+            "决定哪些原件仍要保留在 Apple“照片”中。如果使用「定格私密相册」的移除选项删除其余原件，请在 iOS 中确认删除。"
+          ]
+        },
+        {
+          "heading": "让日常照片依然方便查找",
+          "paragraphs": [
+            "两个相册让你自行决定哪些内容放在一起。例如，普通旅行照片继续留在 Apple“照片”里，只将一段私人视频或一张重要文件的照片放进私密相册。在共用的 iPad 上，同样的「定格私密相册」设置也能让选定内容有独立的存放位置，同时不改变其他家人使用 Apple“照片”的方式。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "「定格私密相册」的锁定界面，显示密码输入框和“Unlock”按钮。"
+      ]
+    },
+    "zh-Hant": {
+      "title": "iPhone 隱藏相簿不見了？找回入口或建立私密相簿",
+      "deck": "找回「照片」中的「已隱藏」相簿，並為選定的照片和影片建立使用獨立密碼的私密相簿。",
+      "download": "從 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "在 Apple「照片」中，找到「更多項目」下的「已隱藏」。如果沒有看到，請前往設定 → App → 照片，開啟「顯示『已隱藏』相簿」。在 iPad 上，「更多項目」位於「照片」的側邊欄中。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "想為相簿設定獨立密碼時",
+          "paragraphs": [
+            "找到「已隱藏」相簿後，你就能查看隱藏的內容，但這並不會為它設定獨立密碼。如果家人知道你的 iPhone 解鎖密碼，你可能會想另外存放幾張私人照片或幾段影片。「定格私密相簿」中的私密相簿，就是為此而設。",
+            "平常瀏覽和分享的照片，繼續放在 Apple「照片」裡。只將需要以獨立密碼保護的內容匯入「定格私密相簿」。App 會在裝置上加密匯入的副本，匯入完成後，離線也能開啟。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "在「定格私密相簿」中設定私密相簿",
+          "paragraphs": [
+            "完成「定格私密相簿」的初始設定，並建立私密相簿。為它設定一組與裝置解鎖密碼、日常相簿密碼都不同的密碼。需要開啟私密相簿時，在「定格私密相簿」的解鎖畫面輸入私密相簿密碼。"
+          ],
+          "bullets": [
+            "開啟私密相簿，然後在「照片」中點一下加號，選取要匯入的照片或影片。",
+            "等待匯入完成，再開啟幾個項目，確認已經匯入。",
+            "決定哪些原始檔仍要保留在 Apple「照片」中。如果使用「定格私密相簿」的移除選項刪除其餘原始檔，請在 iOS 中確認刪除。"
+          ]
+        },
+        {
+          "heading": "讓日常照片依然方便尋找",
+          "paragraphs": [
+            "兩個相簿讓你自行決定哪些內容放在一起。例如，一般旅遊照片繼續留在 Apple「照片」裡，只將一段私人影片或一張重要文件的照片放進私密相簿。在共用的 iPad 上，同樣的「定格私密相簿」設定也能讓選定內容有獨立的存放位置，同時不改變其他家人使用 Apple「照片」的方式。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "「定格私密相簿」的鎖定畫面，顯示密碼輸入欄位和「Unlock」按鈕。"
+      ]
+    },
+    "ja": {
+      "title": "iPhoneの「非表示」アルバムが見つからない？表示方法とプライベートアルバムの作り方",
+      "deck": "「写真」の「非表示」アルバムを見つける方法と、選んだ写真や動画を専用のパスワードで保護するアルバムの作り方を紹介します。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Appleの「写真」アプリで、「ユーティリティ」の中にある「非表示」を探してください。見当たらない場合は、設定 → アプリ → 写真に進み、「『非表示』アルバムを表示」をオンにします。iPadでは、「ユーティリティ」は「写真」アプリのサイドバーにあります。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "アルバム専用のパスワードを使いたいとき",
+          "paragraphs": [
+            "「非表示」アルバムを見つければ、非表示にした項目を確認できます。ただし、それだけでアルバム専用のパスワードを設定できるわけではありません。家族があなたのiPhoneのパスコードを知っているなら、個人的な写真や動画を別の場所に保存したいこともあるでしょう。「Freezon」のプライベートアルバムは、そんなときに使えます。",
+            "普段見たり共有したりする写真は、引き続きAppleの「写真」アプリで管理しましょう。別のパスワードで保護したい項目だけをFreezonに移します。読み込んだコピーはアプリによってデバイス上で暗号化され、読み込みが完了すればオフラインでも開けます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezonでプライベートアルバムを設定する",
+          "paragraphs": [
+            "Freezonの初期設定を行い、プライベートアルバムを作成します。デバイスのパスコードとも、日常アルバムのパスワードとも異なるパスワードを設定してください。このアルバムを開くときは、Freezonのロック解除画面でプライベートアルバムのパスワードを入力します。"
+          ],
+          "bullets": [
+            "プライベートアルバムを開き、「写真」のプラスボタンから、読み込みたい写真や動画を選びます。",
+            "読み込みが完了するまで待ち、いくつかの項目を開いて、保存されていることを確認します。",
+            "Appleの「写真」アプリに残すオリジナルを選びます。それ以外のオリジナルをFreezonの削除オプションで削除する場合は、iOSで削除を確定してください。"
+          ]
+        },
+        {
+          "heading": "普段の写真は見つけやすいままに",
+          "paragraphs": [
+            "2つのアルバムで、どの項目をまとめて保存するかを自分で決められます。たとえば、一般的な旅行写真はAppleの「写真」アプリに残し、個人的な動画や重要な書類を撮った写真だけをプライベートアルバムに入れます。家族で共有しているiPadでも、Freezonを同じように設定すれば、ほかの家族の「写真」アプリの使い方を変えずに、選んだ項目を別の場所に保存できます。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "パスワード入力欄と「Unlock」ボタンが表示されたFreezonのロック画面。"
+      ]
+    },
+    "ko": {
+      "title": "iPhone 가려진 항목 앨범이 안 보일 때: 찾는 방법과 비공개 앨범 만들기",
+      "deck": "Apple 사진에서 가려진 항목 앨범을 찾고, 선택한 사진과 동영상을 별도의 암호로 보호하는 앨범을 만들어 보세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Apple 사진 앱의 기타에서 가려진 항목을 찾아보세요. 보이지 않으면 설정 → 앱 → 사진으로 이동해 가려진 항목 앨범 보기를 켜세요. iPad에서는 사진 앱의 사이드바에 기타가 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "앨범 전용 암호가 필요할 때",
+          "paragraphs": [
+            "가려진 항목 앨범을 찾으면 숨겨 둔 항목을 볼 수 있지만, 그 앨범에 별도의 암호가 생기는 것은 아닙니다. 가족 중 누군가가 내 iPhone 암호를 알고 있다면, 개인적인 사진이나 동영상 몇 개를 따로 보관하고 싶을 수 있습니다. ‘Freezon’의 비공개 앨범이 바로 이럴 때 쓰는 공간입니다.",
+            "평소에 보고 공유하는 사진은 계속 Apple 사진 앱에서 관리하세요. 별도의 암호로 보호하고 싶은 항목만 Freezon으로 옮기면 됩니다. 앱은 가져온 사본을 기기에서 암호화하며, 가져오기가 완료되면 오프라인에서도 열 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Freezon에서 비공개 앨범 설정하기",
+          "paragraphs": [
+            "Freezon의 초기 설정을 진행하고 비공개 앨범을 만드세요. 기기 암호와도, 일상 앨범의 암호와도 다른 암호를 정하세요. 비공개 앨범을 열고 싶을 때는 Freezon 잠금 해제 화면에 비공개 앨범 암호를 입력하면 됩니다."
+          ],
+          "bullets": [
+            "비공개 앨범을 연 다음 사진의 더하기 버튼을 눌러 가져올 사진이나 동영상을 선택하세요.",
+            "가져오기가 끝날 때까지 기다린 후 몇 개의 항목을 열어 제대로 들어왔는지 확인하세요.",
+            "Apple 사진 앱에 남겨 둘 원본을 정하세요. 나머지 원본을 Freezon의 제거 옵션으로 삭제한다면 iOS에서 삭제를 확인하세요."
+          ]
+        },
+        {
+          "heading": "일상 사진은 계속 찾기 쉽게",
+          "paragraphs": [
+            "두 앨범을 사용하면 어떤 항목을 함께 보관할지 직접 정할 수 있습니다. 예를 들어 일반적인 여행 사진은 Apple 사진 앱에 두고, 개인적인 동영상이나 중요한 문서를 찍은 사진만 비공개 앨범에 넣을 수 있습니다. 함께 쓰는 iPad에서도 Freezon을 같은 방식으로 설정하면 다른 가족의 Apple 사진 앱 사용 방식을 바꾸지 않고 선택한 항목을 별도의 공간에 보관할 수 있습니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "암호 입력란과 Unlock 버튼이 표시된 Freezon 잠금 화면."
+      ]
+    },
+    "es-419": {
+      "title": "¿No aparece el álbum Oculto en tu iPhone? Encuéntralo o crea un álbum privado",
+      "deck": "Encuentra el álbum Oculto en Fotos de Apple y crea un álbum con su propia contraseña para las fotos y los videos que elijas.",
+      "download": "Descargar en el App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "En Fotos de Apple, busca Oculto en Utilidades. Si no aparece, ve a Configuración → Apps → Fotos y activa Mostrar álbum Oculto. En el iPad, encontrarás Utilidades en la barra lateral de Fotos."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Cuando quieres un álbum con su propia contraseña",
+          "paragraphs": [
+            "Encontrar el álbum Oculto te permite ver los elementos que ocultaste, pero no le da una contraseña propia al álbum. Si alguien de tu familia conoce el código de tu iPhone, quizá quieras guardar algunas fotos o videos personales en un lugar aparte. Para eso sirve el álbum Privado de «Freezon».",
+            "Sigue usando Fotos de Apple para las imágenes que sueles ver y compartir. Pasa a Freezon solo los elementos que quieras proteger con una contraseña aparte. La app cifra las copias importadas en tu dispositivo y, una vez que termina la importación, puedes abrirlas sin conexión."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Configura tu álbum Privado en Freezon",
+          "paragraphs": [
+            "Configura Freezon y crea el álbum Privado. Elige una contraseña distinta del código de tu dispositivo y de la contraseña de tu álbum Diario. Cuando quieras abrir ese álbum, ingresa la contraseña del álbum Privado en la pantalla de desbloqueo de Freezon."
+          ],
+          "bullets": [
+            "Abre el álbum Privado y usa el botón de más en Fotos para seleccionar las fotos o los videos que quieras importar.",
+            "Espera a que termine la importación y abre algunos elementos para comprobar que estén ahí.",
+            "Decide qué originales quieres conservar en Fotos de Apple. Si usas la opción de eliminación de Freezon para los demás, confirma la eliminación en iOS."
+          ]
+        },
+        {
+          "heading": "Mantén tus fotos de todos los días a la mano",
+          "paragraphs": [
+            "Los dos álbumes te permiten decidir qué elementos guardar juntos. Por ejemplo, puedes dejar las fotos habituales de tus viajes en Fotos de Apple y guardar solo un video personal o la foto de un documento importante en tu álbum Privado. En un iPad compartido, la misma configuración de Freezon les da su propio espacio a los elementos que elijas, sin cambiar la forma en que el resto de la familia usa Fotos de Apple."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "La pantalla de bloqueo de Freezon con un campo de contraseña y el botón Unlock."
+      ]
+    },
+    "pt-BR": {
+      "title": "O álbum Itens Ocultos sumiu do iPhone? Veja como encontrá-lo ou criar um álbum privado",
+      "deck": "Encontre o álbum Itens Ocultos no Fotos da Apple e crie um álbum com senha própria para as fotos e os vídeos que você escolher.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "No app Fotos da Apple, procure Itens Ocultos em Utilitários. Se não aparecer, vá a Ajustes → Apps → Fotos e ative Mostrar Álbum Itens Ocultos. No iPad, Utilitários fica na barra lateral do Fotos."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Quando você quer um álbum com senha própria",
+          "paragraphs": [
+            "Encontrar o álbum Itens Ocultos permite ver o que você ocultou, mas não dá ao álbum uma senha própria. Se alguém da sua família sabe o código do seu iPhone, talvez você queira um lugar separado para algumas fotos ou vídeos pessoais. É para isso que serve o álbum Privado do “Freezon”.",
+            "Continue usando o Fotos da Apple para as imagens que você costuma ver e compartilhar. Mova para o Freezon apenas os itens que deseja proteger com uma senha separada. O app criptografa as cópias importadas no seu dispositivo e, depois que a importação termina, você pode abri-las sem conexão com a internet."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Configure seu álbum Privado no Freezon",
+          "paragraphs": [
+            "Configure o Freezon e crie o álbum Privado. Escolha uma senha diferente do código do dispositivo e da senha do álbum Cotidiano. Quando quiser abrir esse álbum, use a senha do álbum Privado na tela de desbloqueio do Freezon."
+          ],
+          "bullets": [
+            "Abra o álbum Privado e use o botão de mais em Fotos para selecionar as fotos ou os vídeos que deseja importar.",
+            "Espere a importação terminar e abra alguns itens para confirmar que estão lá.",
+            "Escolha quais originais você ainda quer manter no Fotos da Apple. Se usar a opção de remoção do Freezon para os demais, confirme a exclusão no iOS."
+          ]
+        },
+        {
+          "heading": "Mantenha as fotos do dia a dia fáceis de encontrar",
+          "paragraphs": [
+            "Os dois álbuns permitem que você decida quais itens guardar juntos. Por exemplo, deixe as fotos comuns de viagem no Fotos da Apple e coloque apenas um vídeo pessoal ou a foto de um documento importante no álbum Privado. Em um iPad compartilhado, a mesma configuração do Freezon dá aos itens selecionados um espaço próprio, sem mudar a forma como o restante da família usa o Fotos da Apple."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "A tela de bloqueio do Freezon com um campo de senha e o botão Unlock."
+      ]
+    }
+  },
+  "screenLocale": "en",
+  "screenSections": [
+    2
+  ]
+}

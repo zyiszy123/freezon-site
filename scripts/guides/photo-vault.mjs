@@ -6,7 +6,7 @@ iPhone 隐藏相簿和私密相册 App，怎么选？
 如果你只是想整理相册杂物，或者不想让私人照片显示在主图库网格中，Apple 自带的“已隐藏”相簿就已经足够。但如果你希望拥有独立密码，防止知道你设备密码的人打开这些照片，单独的私密相册应用会是更好的选择。
 设想一下：你把已经解锁的 iPhone 递给朋友看聚会照片，或者借给同事查看文档。仅仅借出已解锁的手机并不会解开“已隐藏”相簿；真正的问题在于借手机的人也知道你的设备密码。因为“已隐藏”相簿本身就是用该设备密码解锁的，任何知道它的人都能访问。而私密相册能确保即使把手机借给别人，你的敏感照片也始终处于锁定状态。
 解锁、存放和备份，一眼看懂
-对比项|苹果「照片」隐藏相簿|定格私密相册
+对比项|苹果「照片」隐藏相簿|「定格私密相册」
 解锁|面容 ID、触控 ID 或设备密码|独立相册密码；日常相册可选用生物识别
 存放|仍在系统照片图库中，只是标记为隐藏|选中的内容在本机加密保存，无需注册账号
 备份|使用同一 Apple 账户的设备开启 iCloud 照片后可同步|可把加密备份存到「文件」或 iCloud 云盘，用安全恢复码恢复
@@ -14,21 +14,21 @@ iPhone 隐藏相簿和私密相册 App，怎么选？
 从 iOS 16 开始，苹果默认用面容 ID 或触控 ID 锁定隐藏相簿。你把已经解锁的 iPhone 递给别人，隐藏相簿也不会跟着解锁。只想避免别人随手翻照片时看到私密内容，这通常就够了。
 如果对方也知道你的锁屏密码，就不一样了。系统在需要密码验证时可以用设备密码打开隐藏相簿。隐藏相簿能把照片收起来，但无法给它们设一套与锁屏密码分开的密码。
 场景二：给私密照片设独立密码
-定格支持 iPhone 和 iPad。选中导入的照片、视频和实况照片会在设备上加密保存，无需注册账号。你可以按用途分开存放：
+「定格私密相册」支持 iPhone 和 iPad。选中导入的照片、视频和实况照片会在设备上加密保存，无需注册账号。你可以按用途分开存放：
 日常相册：放平时常看的照片，可以打开面容 ID 或触控 ID 快速解锁。
 私密相册：用你单独设置的密码。知道 iPhone 锁屏密码，也不能用它打开这个相册。
-定格的解锁界面。输入对应的密码，即可打开对应的相册。
+「定格私密相册」的解锁界面。输入对应的密码，即可打开对应的相册。
 记得处理系统照片里的原片
 导入会先保存加密副本，是否删除原片由你确认。
-导入后，可以让定格向系统请求删除已核对的原片，也可以选择保留。iOS 不允许第三方 App 悄悄删除「照片」里的项目，因此系统会请你确认。如果希望立即永久删除，还要到苹果「照片」的「最近删除」里移除这些原片。
+导入后，可以让「定格私密相册」向系统请求删除已核对的原片，也可以选择保留。iOS 不允许第三方 App 悄悄删除「照片」里的项目，因此系统会请你确认。如果希望立即永久删除，还要到苹果「照片」的「最近删除」里移除这些原片。
 备份怎么选？
-苹果「照片」可以借助开启了 iCloud 照片的设备同步图库。定格则让你自己选加密备份的存放位置，比如「文件」中的一个文件夹或 iCloud 云盘。换 iPhone 或 iPad 时，用备份和对应的安全恢复码就能恢复。定格不会自动跨设备同步相册；备份文件是否同步，取决于你选的存储服务。
-定格 iPhone 界面：加密备份
+苹果「照片」可以借助开启了 iCloud 照片的设备同步图库。「定格私密相册」则让你自己选加密备份的存放位置，比如「文件」中的一个文件夹或 iCloud 云盘。换 iPhone 或 iPad 时，用备份和对应的安全恢复码就能恢复。「定格私密相册」不会自动跨设备同步相册；备份文件是否同步，取决于你选的存储服务。
+「定格私密相册」 iPhone 界面：加密备份
 你适合用哪个？
 只是想把几张照片从主图库中藏起来，锁屏密码也只有自己知道，就用苹果的隐藏相簿。
 如果别人也知道你的锁屏密码，或你想单独管理一组有独立密码和加密备份的照片，就试试私密相册 App。
-想给照片单独上锁，可以在 iPhone 或 iPad 上试试定格。
-在 App Store 查看定格
+想给照片单独上锁，可以在 iPhone 或 iPad 上试试「定格私密相册」。
+在 App Store 查看「定格私密相册」
 查看 Apple 关于隐藏照片的说明
 `,
   'zh-Hant': `
@@ -37,7 +37,7 @@ iPhone 隱藏相簿和私密相簿 App，該怎麼選？
 如果你只是想整理雜亂的照片，或不想讓私人照片出現在主要照片格線中，Apple 內建的「已隱藏」相簿就已經足夠。但如果你希望設定一組專屬密碼，讓知道你裝置密碼的人也無法開啟這些照片，那麼獨立的照片保險箱會是更好的選擇。
 試想把已解鎖的 iPhone 借給朋友欣賞派對照片，或讓同事查看文件的情境。單純借出一台已經解鎖的手機，並不會直接解鎖「已隱藏」相簿；真正的隱憂在於對方同時也知道你的裝置密碼。因為「已隱藏」相簿只要用裝置密碼就能解鎖，任何知道該密碼的人都能隨時存取。保險箱則能確保即使把手機借給他人，你的私密照片依然安全上鎖。
 快速比較解鎖、儲存和備份
-比較項目|Apple「照片」隱藏相簿|定格私密相簿
+比較項目|Apple「照片」隱藏相簿|「定格私密相簿」
 解鎖|Face ID、Touch ID 或裝置密碼|獨立相簿密碼；日常相簿可選用生物辨識
 儲存|仍在系統照片圖庫，只是標為隱藏|選取的內容在裝置上加密儲存，不用註冊帳號
 備份|使用相同 Apple 帳號的裝置開啟「iCloud 照片」後可同步|可將加密備份存到「檔案」或 iCloud 雲碟，再用復原碼還原
@@ -45,21 +45,21 @@ iPhone 隱藏相簿和私密相簿 App，該怎麼選？
 從 iOS 16 起，Apple 預設會用 Face ID 或 Touch ID 鎖定隱藏相簿。把已解鎖的 iPhone 交給別人，隱藏相簿並不會跟著解鎖。只是想防止別人隨手滑到不想公開的照片，通常這樣就夠了。
 如果對方也知道你的裝置密碼，情況就不同了。系統在需要密碼驗證時，可以用裝置密碼開啟隱藏相簿。內建相簿能把照片藏起來，但不能設定和裝置密碼分開的密碼。
 情境二：替私密照片設定獨立密碼
-定格支援 iPhone 和 iPad。你選取並匯入的照片、影片和原況照片會加密儲存在裝置上，不必註冊帳號。你可以分開使用兩種相簿：
+「定格私密相簿」支援 iPhone 和 iPad。你選取並匯入的照片、影片和原況照片會加密儲存在裝置上，不必註冊帳號。你可以分開使用兩種相簿：
 日常相簿：收納平常想看的照片，可用 Face ID 或 Touch ID 快速解鎖。
 私密相簿：使用你另外設定的密碼。知道 iPhone 裝置密碼，也不能用它開啟這個相簿。
-定格的解鎖畫面。輸入對應的密碼，就能開啟對應的相簿。
+「定格私密相簿」的解鎖畫面。輸入對應的密碼，就能開啟對應的相簿。
 別忘了處理「照片」裡的原始檔
 匯入會先儲存加密副本，是否刪除原始檔由你確認。
-匯入後，可以讓定格向系統要求刪除已確認的原始檔，也可以選擇保留。iOS 不允許第三方 App 在背景悄悄刪除「照片」中的項目，因此系統會請你確認。如果想立即永久刪除，還要到 Apple「照片」的「最近刪除」清除這些原始檔。
+匯入後，可以讓「定格私密相簿」向系統要求刪除已確認的原始檔，也可以選擇保留。iOS 不允許第三方 App 在背景悄悄刪除「照片」中的項目，因此系統會請你確認。如果想立即永久刪除，還要到 Apple「照片」的「最近刪除」清除這些原始檔。
 備份方式也不一樣
-Apple「照片」能透過已開啟「iCloud 照片」的裝置同步圖庫。定格讓你自選加密備份的位置，例如「檔案」中的資料夾或 iCloud 雲碟。換 iPhone 或 iPad 時，可以用備份和對應的復原碼還原。定格不會自動跨裝置同步相簿；備份檔案是否同步，取決於選擇的儲存服務。
-定格 iPhone 畫面：加密備份
+Apple「照片」能透過已開啟「iCloud 照片」的裝置同步圖庫。「定格私密相簿」讓你自選加密備份的位置，例如「檔案」中的資料夾或 iCloud 雲碟。換 iPhone 或 iPad 時，可以用備份和對應的復原碼還原。「定格私密相簿」不會自動跨裝置同步相簿；備份檔案是否同步，取決於選擇的儲存服務。
+「定格私密相簿」 iPhone 畫面：加密備份
 該選哪一個？
 只是想把幾張照片從主要圖庫中藏起來，裝置密碼也只有你知道，就用 Apple 的隱藏相簿。
 如果別人也知道裝置密碼，或你想為私密照片另設密碼並自己管理加密備份，就可以考慮私密相簿 App。
-若想替照片多加一把獨立的鎖，可以在 iPhone 或 iPad 上試試定格。
-在 App Store 查看定格
+若想替照片多加一把獨立的鎖，可以在 iPhone 或 iPad 上試試「定格私密相簿」。
+在 App Store 查看「定格私密相簿」
 查看 Apple 關於隱藏照片的說明
 `,
   ja: `
@@ -141,7 +141,7 @@ Caso 2: quieres una contraseña solo para tus fotos privadas
 Freezon guarda las fotos, los videos y las Live Photos que importas en un espacio cifrado de tu iPhone o iPad. No tienes que crear una cuenta. Puedes separar tus fotos en dos álbumes:
 Álbum de uso diario: para lo que consultas seguido. Puedes activar Face ID o Touch ID para abrirlo rápidamente.
 Álbum privado: usa una contraseña que eliges por separado. El código de desbloqueo del iPhone no lo abre.
-Pantalla de desbloqueo de Freezon. La contraseña que ingreses abre el álbum correspondiente.
+Pantalla de desbloqueo de «Freezon». La contraseña que ingreses abre el álbum correspondiente.
 Importar no elimina los originales
 Primero se guardan copias cifradas. Tú confirmas si quieres eliminar los originales.
 Después de importar, puedes conservar los originales o pedirle a Freezon que solicite a iOS eliminar los archivos verificados. Las apps de terceros no pueden borrar elementos de Fotos en silencio: el sistema te pide confirmación. Si quieres borrarlos de forma definitiva en ese momento, elimínalos también de Eliminados recientemente en Apple Fotos.
@@ -172,7 +172,7 @@ Situação 2: proteger fotos privadas com outra senha
 O Freezon criptografa no iPhone ou iPad as fotos, os vídeos e as Live Photos que você importa. Não precisa criar uma conta. Dá para usar dois álbuns conforme o tipo de conteúdo:
 Álbum do dia a dia: para as fotos que você consulta com frequência, com opção de usar Face ID ou Touch ID.
 Álbum privado: protegido por uma senha própria, escolhida por você. O código do iPhone não abre esse álbum.
-Tela de desbloqueio do Freezon. A senha digitada abre o álbum correspondente.
+Tela de desbloqueio do “Freezon”. A senha digitada abre o álbum correspondente.
 Importar não apaga os arquivos originais
 As cópias criptografadas são salvas primeiro. Você confirma se quer apagar os originais.
 Depois de importar, você pode manter os originais ou pedir que o Freezon solicite ao iOS a exclusão dos itens verificados. O sistema pede sua confirmação porque apps de terceiros não podem apagar itens do app Fotos silenciosamente. Para excluir de vez na hora, apague os itens também em Apagados no app Fotos.

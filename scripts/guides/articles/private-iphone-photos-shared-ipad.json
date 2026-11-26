@@ -33,7 +33,7 @@
           "heading": "Path 2: Keep Selected Photos Private While Leaving Sync Active",
           "paragraphs": [
             "If you still want the family iPad to display shared albums and vacation pictures, turning off sync completely may not be practical. Keep in mind that Apple's built-in \"Hidden\" album is not a separate vault; hiding photos does not take them out of the library that iCloud Photos syncs.",
-            "To keep specific pictures—such as a gift idea screenshot or personal receipt—off the shared iPad, you can store them in Freezon. Freezon imports selected photos and videos, encrypts them locally on your iPhone, and works offline without ads or automated cross-device syncing.",
+            "To keep specific pictures—such as a gift idea screenshot or personal receipt—off the shared iPad, you can store them in “Freezon”. Freezon imports selected photos and videos, encrypts them locally on your iPhone, and works offline without ads or automated cross-device syncing.",
             "Here is the recommended workflow:",
             "1. Import photos into Freezon: Open Freezon on your iPhone and import the specific photos you want to protect.",
             "2. Check the imported copies: View each imported photo or video inside Freezon to confirm it transferred intact.",
@@ -79,16 +79,16 @@
           "heading": "保留同步，只把几张照片单独存起来",
           "paragraphs": [
             "如果你仍然希望全家在 iPad 上浏览旅行合影和生活抓拍，全盘关闭同步可能并不方便。把照片移进系统的「已隐藏」相簿，只会改变它在哪儿显示。它仍然是 iCloud 照片图库的一部分。",
-            "像礼物截图、个人票据，或者只是想留给自己的照片，可以存进定格私密相册。它支持从系统相册导入照片和视频，在 iPhone 上加密保存；离线能看，没有广告，App 里的相册也不会自动同步到家里的 iPad。",
+            "像礼物截图、个人票据，或者只是想留给自己的照片，可以存进「定格私密相册」。它支持从系统相册导入照片和视频，在 iPhone 上加密保存；离线能看，没有广告，App 里的相册也不会自动同步到家里的 iPad。",
             "具体操作建议如下：",
-            "1. 导入到 Freezon：在 iPhone 上打开 Freezon，选择并导入你希望保密的那部分照片。",
-            "2. 检查导入副本：在 Freezon 内打开导入的照片或视频，确认内容显示完整、播放正常。",
-            "3. 制作可选的加密备份：如果这些照片没有其他备份，建议在 Freezon 中通过“文件”App 导出一份加密备份。你可以安心地将该文件存放在 iCloud 云盘（iCloud Drive）中；它只是一份独立的加密备份文件，与“iCloud 照片”互不干扰，也不会修改任何 iCloud 系统设置。",
+            "1. 导入到「定格私密相册」：在 iPhone 上打开「定格私密相册」，选择并导入你希望保密的那部分照片。",
+            "2. 检查导入副本：在「定格私密相册」内打开导入的照片或视频，确认内容显示完整、播放正常。",
+            "3. 制作可选的加密备份：如果这些照片没有其他备份，建议在「定格私密相册」中通过“文件”App 导出一份加密备份。你可以安心地将该文件存放在 iCloud 云盘（iCloud Drive）中；它只是一份独立的加密备份文件，与“iCloud 照片”互不干扰，也不会修改任何 iCloud 系统设置。",
             "4. 从 Apple 照片中删除原图：在 iPhone 的系统相册中删除这些照片的原图，并在系统确认弹窗中确认删除。",
             "5. 在 iPad 同步后确认效果：待 iPhone 与 iPad 完成 iCloud 同步后，检查 iPad 的相册，确认相应照片已不再显示。",
-            "从 Apple 照片中删除的项目会进入“最近删除”相簿，并在其中保留最多 30 天才会被系统永久清理。如果你已确认定格里的副本完整，也不想让这些原图在「最近删除」里继续保留，可以只永久删除这几张。等同步完成后，再在 iPad 上检查。",
+            "从 Apple 照片中删除的项目会进入“最近删除”相簿，并在其中保留最多 30 天才会被系统永久清理。如果你已确认「定格私密相册」里的副本完整，也不想让这些原图在「最近删除」里继续保留，可以只永久删除这几张。等同步完成后，再在 iPad 上检查。",
             "如需了解完整的图库迁移细节，欢迎查阅我们的专项指南：[移出 Apple 照片](https://freezonapp.com/guides/zh-Hans/move-photos-out-of-apple-photos/)。",
-            "想保留全家的旅行照，又给自己的照片留点空间？可以从下面下载定格私密相册。"
+            "想保留全家的旅行照，又给自己的照片留点空间？可以从下面下载「定格私密相册」。"
           ],
           "bullets": []
         }
@@ -97,7 +97,7 @@
     },
     "zh-Hant": {
       "title": "如何避免 iPhone 照片同步到家庭共用的 iPad",
-      "deck": "了解如何關閉共用 iPad 上的 iCloud 照片同步，或使用 Freezon 將私密照片單獨加密存放，避免個人照片出現在家庭平板上。",
+      "deck": "了解如何關閉共用 iPad 上的 iCloud 照片同步，或使用「定格私密相簿」將私密照片單獨加密存放，避免個人照片出現在家庭平板上。",
       "download": "下載",
       "sections": [
         {
@@ -126,15 +126,15 @@
           "heading": "方法 2：在維持同步啟用的同時保護所選照片的隱私",
           "paragraphs": [
             "如果你仍希望家庭 iPad 能夠顯示共享相簿與度假照片，那麼完全關閉同步可能並不實用。請注意，Apple 內建的「已隱藏」相簿並不是獨立的保險箱；隱藏照片並不會將它們移出「iCloud 照片」同步的圖庫之外。",
-            "若要避免特定照片（例如禮物靈感截圖或個人收據）出現在共用的 iPad 上，你可以將它們存放在 Freezon 中。Freezon 能匯入所選的照片與影片，在你的 iPhone 本地進行加密，且具備離線運作功能，沒有廣告，也不會自動跨裝置同步。以下是建議的操作流程：",
+            "若要避免特定照片（例如禮物靈感截圖或個人收據）出現在共用的 iPad 上，你可以將它們存放在「定格私密相簿」中。「定格私密相簿」能匯入所選的照片與影片，在你的 iPhone 本地進行加密，且具備離線運作功能，沒有廣告，也不會自動跨裝置同步。以下是建議的操作流程：",
             "當你從 Apple「照片」中刪除項目時，iOS 會將其保留在「最近刪除」相簿中長達 30 天才會永久移除。如果你需要在共用 iPad 上立即確保隱私，可以打開「最近刪除」並直接移除這些特定項目，無需清空整個相簿。",
             "如需詳細的移轉步驟，請參閱我們關於如何將私密照片移出 Apple「照片」的指南。",
-            "想要在 iPhone 上保留部分照片，同時避免它們出現在家庭照片圖庫中嗎？歡迎試用 Freezon。"
+            "想要在 iPhone 上保留部分照片，同時避免它們出現在家庭照片圖庫中嗎？歡迎試用「定格私密相簿」。"
           ],
           "bullets": [
-            "匯入照片至 Freezon：在 iPhone 上打開 Freezon，匯入你想要保護的特定照片。",
-            "檢查已匯入的複本：在 Freezon 內檢視每張已匯入的照片或影片，確認其完整傳輸。",
-            "建立選用備份：如果你沒有這些照片的其他複本，可以在 Freezon 透過「檔案」App 建立加密備份。你可以將此備份檔案安全地儲存到 iCloud 雲碟；它會是一個獨立的加密檔案，與「iCloud 照片」完全分開。",
+            "匯入照片至「定格私密相簿」：在 iPhone 上打開「定格私密相簿」，匯入你想要保護的特定照片。",
+            "檢查已匯入的複本：在「定格私密相簿」內檢視每張已匯入的照片或影片，確認其完整傳輸。",
+            "建立選用備份：如果你沒有這些照片的其他複本，可以在「定格私密相簿」透過「檔案」App 建立加密備份。你可以將此備份檔案安全地儲存到 iCloud 雲碟；它會是一個獨立的加密檔案，與「iCloud 照片」完全分開。",
             "刪除 Apple「照片」中的原始項目：在 iPhone 上的 Apple「照片」中刪除原始照片，並確認系統刪除提示。",
             "同步後檢查 iPad：當 iCloud 透過網路完成同步後，在 iPad 上確認這些照片已不再出現在其圖庫中。"
           ]
@@ -173,7 +173,7 @@
           "heading": "方法2: 同期を有効にしたまま特定の写真を非公開にする",
           "paragraphs": [
             "共有アルバムや旅行の写真を家族用のiPadに表示させたい場合、同期を完全にオフにするのは現実的ではないかもしれません。なお、Appleの標準機能である「非表示」アルバムは独立した保管庫ではなく、写真を非表示にしてもiCloud写真が同期するライブラリから除外されるわけではない点に注意してください。",
-            "プレゼント候補のスクリーンショットや私的な領収書など、特定の写真だけを共有iPadから隠したい場合は、Freezonに保存できます。Freezonは選択した写真や動画を取り込み、iPhone上でローカルに暗号化します。広告はなく、デバイス間で自動同期されることもないため、完全にオフラインで動作します。",
+            "プレゼント候補のスクリーンショットや私的な領収書など、特定の写真だけを共有iPadから隠したい場合は、「Freezon」に保存できます。Freezonは選択した写真や動画を取り込み、iPhone上でローカルに暗号化します。広告はなく、デバイス間で自動同期されることもないため、完全にオフラインで動作します。",
             "推奨される手順は次のとおりです。",
             "Appleの「写真」アプリから項目を削除すると、iOSは完全に削除するまで「最近削除した項目」アルバムに最大30日間保持します。共有iPad上ですぐにプライバシーを確保したい場合は、「最近削除した項目」を開き、アルバム全体を空にしなくても特定の写真だけを選んで完全に削除できます。",
             "詳しい移行手順については、Freezonの「プライベートな写真をApple写真から移動する方法」のガイドを参照してください。",
@@ -221,7 +221,7 @@
           "heading": "방법 2: 동기화를 유지하면서 선택한 사진만 비공개로 보관하기",
           "paragraphs": [
             "가족 공용 iPad에서 공유 앨범과 휴가 사진을 계속 표시하고 싶다면 동기화를 완전히 끄는 것이 실용적이지 않을 수 있습니다. Apple의 기본 '가려진 항목' 앨범은 별도의 보안 보관함이 아니므로, 사진을 가려도 iCloud 사진이 동기화하는 보관함에서 제외되지 않는다는 점을 유의해야 합니다.",
-            "선물 아이디어 스크린샷이나 개인 영수증처럼 특정 사진을 공용 iPad에 노출하지 않으려면 Freezon에 보관할 수 있습니다. Freezon은 선택한 사진과 비디오를 가져와 iPhone에서 로컬로 암호화하며, 광고나 기기 간 자동 동기화 없이 오프라인으로 작동합니다. 권장하는 작업 절차는 다음과 같습니다.",
+            "선물 아이디어 스크린샷이나 개인 영수증처럼 특정 사진을 공용 iPad에 노출하지 않으려면 ‘Freezon’에 보관할 수 있습니다. Freezon은 선택한 사진과 비디오를 가져와 iPhone에서 로컬로 암호화하며, 광고나 기기 간 자동 동기화 없이 오프라인으로 작동합니다. 권장하는 작업 절차는 다음과 같습니다.",
             "Apple 사진 앱에서 항목을 삭제하면 iOS는 영구 삭제 전까지 해당 항목을 '최근 삭제된 항목' 앨범에 최대 30일 동안 보관합니다. 공용 iPad에서 즉각적인 비공개가 필요하다면 전체 앨범을 비울 필요 없이 '최근 삭제된 항목'을 열고 해당 항목만 선택하여 삭제할 수 있습니다.",
             "자세한 이전 절차는 Apple 사진 앱에서 비공개 사진 옮기기 가이드를 참조하세요.",
             "iPhone에 몇 장의 사진만 남겨두고 가족 사진 보관함에서 제외하고 싶다면 Freezon을 사용해 보세요."
@@ -268,7 +268,7 @@
           "heading": "Opción 2: Mantener fotos seleccionadas privadas mientras la sincronización sigue activa",
           "paragraphs": [
             "Si aún deseas que el iPad familiar muestre álbumes compartidos y fotos de vacaciones, desactivar la sincronización por completo puede no ser práctico. Recuerda que el álbum Oculto integrado de Apple no es una bóveda independiente; ocultar fotos no las elimina de la fototeca que sincroniza Fotos en iCloud.",
-            "Para evitar que fotos específicas, como la captura de una idea para un regalo o un recibo personal, aparezcan en el iPad compartido, puedes guardarlas en Freezon. Freezon importa fotos y videos seleccionados, los cifra localmente en tu iPhone y funciona sin conexión a internet, sin anuncios ni sincronización automática entre dispositivos.",
+            "Para evitar que fotos específicas, como la captura de una idea para un regalo o un recibo personal, aparezcan en el iPad compartido, puedes guardarlas en «Freezon». Freezon importa fotos y videos seleccionados, los cifra localmente en tu iPhone y funciona sin conexión a internet, sin anuncios ni sincronización automática entre dispositivos.",
             "Este es el flujo de trabajo recomendado:",
             "Cuando eliminas un elemento de Apple Fotos, iOS lo conserva en el álbum Eliminados recientemente por hasta 30 días antes de su eliminación permanente. Si necesitas privacidad inmediata en el iPad compartido, puedes abrir Eliminados recientemente y borrar esos elementos específicos, sin necesidad de vaciar todo el álbum.",
             "Para consultar los pasos detallados de migración, revisa nuestra guía sobre cómo mover fotos privadas fuera de Apple Fotos.",
@@ -316,7 +316,7 @@
           "heading": "Caminho 2: Manter fotos selecionadas privadas com a sincronização ativa",
           "paragraphs": [
             "Se você ainda quer que o iPad da família exiba álbuns compartilhados e fotos de férias, desativar a sincronização por completo pode não ser conveniente. Lembre-se de que o álbum Ocultos nativo da Apple não é um cofre separado; ocultar fotos não as remove da biblioteca sincronizada pelo Fotos do iCloud.",
-            "Para manter imagens específicas fora do iPad compartilhado — como capturas de tela de ideias de presentes ou comprovantes pessoais —, você pode armazená-las no Freezon. O Freezon importa as fotos e os vídeos selecionados, criptografa os arquivos localmente no seu iPhone e funciona offline, sem anúncios nem sincronização automática entre dispositivos.",
+            "Para manter imagens específicas fora do iPad compartilhado — como capturas de tela de ideias de presentes ou comprovantes pessoais —, você pode armazená-las no “Freezon”. O Freezon importa as fotos e os vídeos selecionados, criptografa os arquivos localmente no seu iPhone e funciona offline, sem anúncios nem sincronização automática entre dispositivos.",
             "Aqui está o fluxo de trabalho recomendado:",
             "Quando você apaga um item do Fotos da Apple, o iOS o mantém no álbum Apagados por até 30 dias antes da remoção definitiva. Se precisar de privacidade imediata no iPad compartilhado, você pode abrir o álbum Apagados e remover esses itens específicos, sem precisar esvaziar o álbum inteiro.",
             "Para conferir as etapas detalhadas de migração, leia nosso guia sobre como mover fotos privadas para fora do Fotos da Apple.",

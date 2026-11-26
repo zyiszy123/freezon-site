@@ -1,0 +1,321 @@
+{
+  "slug": "hide-videos-iphone-ipad",
+  "product": "vault",
+  "screens": [
+    "media"
+  ],
+  "content": {
+    "en": {
+      "title": "How to Lock Videos With a Separate Password on iPhone or iPad",
+      "deck": "Set up a separate password in the Private album, import your video, and check playback before deciding where to keep the original.",
+      "download": "Download on the App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "To lock a video with a password of its own, import it into the Private album in “Freezon”. Freezon encrypts the copy on your iPhone or iPad so you can play it offline after importing. Apple Photos can hide a clip from your main library, but its Hidden album uses device authentication and doesn't have a separate password."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Give Your Videos a Separate Password",
+          "paragraphs": [
+            "Say you have a video on the same iPad your family uses to look through vacation photos. You can keep the clips everyone watches in Apple Photos and put the video you want to keep private in Freezon. Set up the Private album with a password different from the one you use to unlock the device.",
+            "Freezon also has an Everyday album with its own password. Both albums use the same unlock screen: enter the password for the album you want to open. Keep the Private album password and its recovery code somewhere you can find them."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Import Your Video and Check Playback",
+          "paragraphs": [
+            "Unlock the Private album before adding the clip. If you're moving several videos, trying one first makes it easy to check that you've opened the right album and know where to find everything."
+          ],
+          "bullets": [
+            "In Freezon's Photos view, tap the plus button and select your video from Apple Photos.",
+            "Wait for the import to finish, then open the video in Freezon and make sure it plays.",
+            "If you want to check offline playback, switch on Airplane Mode and open the imported video again."
+          ]
+        },
+        {
+          "heading": "Choose Where to Keep the Original",
+          "paragraphs": [
+            "You can keep the Apple Photos original if you want a copy in both places. If the goal is to keep that video only in Freezon, confirm playback first and then remove the Apple Photos copy. If you choose Freezon's removal option, iOS asks you to confirm the deletion.",
+            "Freezon works on both iPhone and iPad. You can use the same steps on whichever device holds the clip you want to lock."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "Freezon's Photos library in English, showing a video thumbnail with a small video-camera badge."
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何在 iPhone 或 iPad 上用独立密码锁住视频",
+      "deck": "为私密相册设置独立密码，导入视频并检查播放，再决定是否保留原视频。",
+      "download": "在 App Store 下载",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想给视频单独设个密码？打开「定格私密相册」，把视频导入私密相册。App 会在设备上加密视频副本，导入后没网也能播放。苹果自带的「已隐藏」相簿可以把视频移出主图库，但没有独立密码。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "为视频设置独立密码",
+          "paragraphs": [
+            "比如，家人也会用你的 iPad 看旅行照片。大家一起看的视频可以留在苹果「照片」里，想单独保护的那段就放进私密相册，再给相册设一个和锁屏密码不同的密码。",
+            "「定格私密相册」还有日常相册，也有自己的密码。两个相册共用同一个解锁界面：输入哪个相册的密码，就打开哪个相册。请将私密相册的密码和恢复码保存在自己能找到的地方。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "导入视频并检查播放",
+          "paragraphs": [
+            "添加视频前，先解锁私密相册。如果要转入多段视频，可以先试一段，方便确认自己打开了正确的相册，也熟悉视频存放的位置。"
+          ],
+          "bullets": [
+            "在「定格私密相册」的“照片”视图中，轻点加号按钮，从 Apple“照片”中选择视频。",
+            "等待导入完成，然后在「定格私密相册」中打开视频，确认可以播放。",
+            "如果想检查离线播放，开启飞行模式，再次打开已导入的视频。"
+          ]
+        },
+        {
+          "heading": "决定原视频保留在哪里",
+          "paragraphs": [
+            "如果希望两边都留有副本，可以保留 Apple“照片”中的原视频。如果只想把这段视频保存在「定格私密相册」中，请先确认可以播放，再删除 Apple“照片”中的副本。如果选择「定格私密相册」提供的移除选项，iOS 会要求你确认删除。",
+            "「定格私密相册」同时支持 iPhone 和 iPad。想锁住的视频在哪台设备上，就可以在那台设备上按相同步骤操作。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "「定格私密相册」的英文“照片”图库，视频缩略图上带有一个小摄像机标记。"
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 或 iPad 上用獨立密碼鎖住影片",
+      "deck": "為私密相簿設定獨立密碼，匯入影片並確認能播放，再決定是否保留原始影片。",
+      "download": "在 App Store 下載",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "想替影片單獨設個密碼？打開「定格私密相簿」，把影片匯入私密相簿。App 會在裝置上加密影片副本，匯入完成後，沒網路也能播放。Apple「照片」可以把影片從主要圖庫藏起來，但「已隱藏」相簿沒有獨立密碼。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "為影片設定獨立密碼",
+          "paragraphs": [
+            "假設你有一段私人影片，存在家人也會用來瀏覽旅遊照片的同一台 iPad 上。你可以把大家一起看的影片留在 Apple「照片」中，將想保密的影片放進「定格私密相簿」。為私密相簿設定一組與裝置解鎖密碼不同的密碼。",
+            "「定格私密相簿」也有日常相簿，並使用自己的密碼。兩個相簿共用同一個解鎖畫面：輸入哪個相簿的密碼，就開啟哪個相簿。請將私密相簿的密碼和復原碼保存在自己找得到的地方。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "匯入影片並確認能播放",
+          "paragraphs": [
+            "加入影片前，先解鎖私密相簿。如果要移入多段影片，可以先試一段，方便確認自己開啟了正確的相簿，也熟悉影片存放的位置。"
+          ],
+          "bullets": [
+            "在「定格私密相簿」的「照片」畫面中，點一下加號按鈕，從 Apple「照片」中選取影片。",
+            "等待匯入完成，然後在「定格私密相簿」中開啟影片，確認可以播放。",
+            "如果想確認離線播放，開啟飛航模式，再次開啟已匯入的影片。"
+          ]
+        },
+        {
+          "heading": "決定原始影片保留在哪裡",
+          "paragraphs": [
+            "如果希望兩邊都留有副本，可以保留 Apple「照片」中的原始影片。如果只想將這段影片保存在「定格私密相簿」中，請先確認能播放，再刪除 Apple「照片」中的副本。如果選擇「定格私密相簿」提供的移除選項，iOS 會要求你確認刪除。",
+            "「定格私密相簿」同時支援 iPhone 和 iPad。想鎖住的影片在哪台裝置上，就可以在那台裝置上按照相同步驟操作。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "「定格私密相簿」的英文「照片」圖庫，影片縮圖上帶有一個小攝影機標記。"
+      ]
+    },
+    "ja": {
+      "title": "iPhoneやiPadで動画を端末とは別のパスワードでロックする方法",
+      "deck": "プライベートアルバムに独自のパスワードを設定し、動画を読み込んで再生を確認してから、元の動画を残すか決めましょう。",
+      "download": "App Storeからダウンロード",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "動画を専用のパスワードでロックするには、「Freezon」のプライベートアルバムに読み込みます。FreezonはiPhoneやiPad内の動画のコピーを暗号化し、読み込み後はオフラインで再生できます。Appleの「写真」では動画をメインのライブラリから非表示にできますが、「非表示」アルバムは端末の認証を使うため、独自のパスワードは設定できません。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "動画用に別のパスワードを設定する",
+          "paragraphs": [
+            "たとえば、家族が旅行の写真を見るために使うiPadに、見られたくない動画があるとします。みんなで見る動画はAppleの「写真」に残し、プライベートに保ちたい動画はFreezonに入れられます。プライベートアルバムには、端末のロック解除に使うものとは異なるパスワードを設定しましょう。",
+            "Freezonには、専用のパスワードを持つ日常アルバムもあります。どちらのアルバムも同じロック解除画面を使い、開きたいアルバムのパスワードを入力して開きます。プライベートアルバムのパスワードと復旧コードは、自分で見つけられる場所に保管してください。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "動画を読み込んで再生を確認する",
+          "paragraphs": [
+            "動画を追加する前に、プライベートアルバムのロックを解除します。複数の動画を移す場合は、まず1本で試すと、正しいアルバムを開いているか確認し、動画の保存場所も把握できます。"
+          ],
+          "bullets": [
+            "Freezonの「写真」画面でプラスボタンをタップし、Appleの「写真」から動画を選びます。",
+            "読み込みが完了したら、Freezonで動画を開き、再生できることを確認します。",
+            "オフライン再生を確認したい場合は、機内モードをオンにして、読み込んだ動画をもう一度開きます。"
+          ]
+        },
+        {
+          "heading": "元の動画を残す場所を決める",
+          "paragraphs": [
+            "両方にコピーを残したい場合は、Appleの「写真」に元の動画を残しておけます。Freezonだけに動画を保存したい場合は、まず再生を確認してから、Appleの「写真」にあるコピーを削除してください。Freezonの削除オプションを選ぶと、iOSで削除の確認を求められます。",
+            "FreezonはiPhoneとiPadの両方に対応しています。ロックしたい動画が入っている端末で、同じ手順を使えます。"
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "英語表示のFreezonの写真ライブラリ。動画のサムネイルに小さなビデオカメラのマークが付いています。"
+      ]
+    },
+    "ko": {
+      "title": "iPhone 또는 iPad에서 별도의 비밀번호로 동영상 잠그는 방법",
+      "deck": "비공개 앨범에 별도의 비밀번호를 설정하고 동영상을 가져와 재생을 확인한 다음, 원본을 어디에 보관할지 결정하세요.",
+      "download": "App Store에서 다운로드",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "동영상을 전용 비밀번호로 잠그려면 ‘Freezon’의 비공개 앨범으로 가져오세요. Freezon은 iPhone 또는 iPad에 저장된 동영상 사본을 암호화하며, 가져온 후에는 오프라인으로 재생할 수 있습니다. Apple 사진 앱에서도 동영상을 기본 보관함에서 가릴 수 있지만, '가려진 항목' 앨범은 기기 인증을 사용하며 별도의 비밀번호가 없습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "동영상에 별도의 비밀번호 설정하기",
+          "paragraphs": [
+            "가족이 여행 사진을 볼 때 사용하는 iPad에 개인적인 동영상이 있다고 가정해 보세요. 함께 보는 동영상은 Apple 사진 앱에 두고, 비공개로 보관하고 싶은 동영상은 Freezon에 넣을 수 있습니다. 비공개 앨범에는 기기 잠금을 해제할 때 쓰는 비밀번호와 다른 비밀번호를 설정하세요.",
+            "Freezon에는 자체 비밀번호가 있는 일상 앨범도 있습니다. 두 앨범은 같은 잠금 해제 화면을 사용합니다. 열고 싶은 앨범의 비밀번호를 입력하면 해당 앨범이 열립니다. 비공개 앨범의 비밀번호와 복구 코드는 나중에 찾을 수 있는 곳에 보관하세요."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "동영상 가져오기 및 재생 확인하기",
+          "paragraphs": [
+            "동영상을 추가하기 전에 비공개 앨범의 잠금을 해제하세요. 여러 동영상을 옮길 때는 먼저 하나로 시도하면 올바른 앨범을 열었는지 확인하고 동영상이 어디에 있는지도 쉽게 파악할 수 있습니다."
+          ],
+          "bullets": [
+            "Freezon의 사진 화면에서 더하기 버튼을 누르고 Apple 사진 앱에서 동영상을 선택하세요.",
+            "가져오기가 완료되면 Freezon에서 동영상을 열어 재생되는지 확인하세요.",
+            "오프라인 재생을 확인하려면 에어플레인 모드를 켜고 가져온 동영상을 다시 여세요."
+          ]
+        },
+        {
+          "heading": "원본을 어디에 보관할지 결정하기",
+          "paragraphs": [
+            "두 곳 모두에 사본을 두고 싶다면 Apple 사진 앱의 원본을 유지해도 됩니다. 동영상을 Freezon에만 보관하려면 먼저 재생을 확인한 다음 Apple 사진 앱의 사본을 삭제하세요. Freezon의 삭제 옵션을 선택하면 iOS에서 삭제 여부를 확인하는 메시지가 표시됩니다.",
+            "Freezon은 iPhone과 iPad 모두에서 사용할 수 있습니다. 잠그려는 동영상이 있는 기기에서 같은 절차를 따르면 됩니다."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "영어로 표시된 Freezon 사진 보관함. 동영상 썸네일에 작은 비디오카메라 표시가 있습니다."
+      ]
+    },
+    "es-419": {
+      "title": "Cómo bloquear videos con una contraseña independiente en iPhone o iPad",
+      "deck": "Configura una contraseña independiente para el álbum Privado, importa tu video y comprueba que se reproduzca antes de decidir dónde guardar el original.",
+      "download": "Descargar en App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para bloquear un video con su propia contraseña, impórtalo al álbum Privado de «Freezon». Freezon cifra la copia en tu iPhone o iPad para que puedas reproducirla sin conexión después de importarla. Fotos de Apple permite ocultar un video de la fototeca principal, pero su álbum Oculto usa la autenticación del dispositivo y no tiene una contraseña independiente."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Ponles una contraseña independiente a tus videos",
+          "paragraphs": [
+            "Supongamos que tienes un video en el mismo iPad que tu familia usa para ver las fotos de las vacaciones. Puedes dejar los videos que todos ven en Fotos de Apple y guardar en Freezon el que quieres mantener privado. Configura el álbum Privado con una contraseña distinta de la que usas para desbloquear el dispositivo.",
+            "Freezon también tiene un álbum Diario con su propia contraseña. Ambos álbumes usan la misma pantalla de desbloqueo: ingresa la contraseña del álbum que quieras abrir. Guarda la contraseña del álbum Privado y su código de recuperación en un lugar donde puedas encontrarlos."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Importa tu video y comprueba que se reproduzca",
+          "paragraphs": [
+            "Desbloquea el álbum Privado antes de agregar el video. Si vas a mover varios videos, probar primero con uno te permite confirmar fácilmente que abriste el álbum correcto y que sabes dónde encontrar todo."
+          ],
+          "bullets": [
+            "En la vista Fotos de Freezon, toca el botón con el signo más y selecciona tu video en Fotos de Apple.",
+            "Espera a que termine la importación, luego abre el video en Freezon y comprueba que se reproduzca.",
+            "Si quieres comprobar la reproducción sin conexión, activa el modo de vuelo y vuelve a abrir el video importado."
+          ]
+        },
+        {
+          "heading": "Decide dónde guardar el original",
+          "paragraphs": [
+            "Puedes conservar el original en Fotos de Apple si quieres tener una copia en ambos lugares. Si tu objetivo es guardar ese video solo en Freezon, primero comprueba que se reproduzca y después elimina la copia de Fotos de Apple. Si eliges la opción de eliminación de Freezon, iOS te pedirá que confirmes la eliminación.",
+            "Freezon funciona tanto en iPhone como en iPad. Puedes seguir los mismos pasos en el dispositivo donde tengas el video que quieres bloquear."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "La fototeca de Freezon en inglés, con un pequeño ícono de cámara de video en la miniatura de un video."
+      ]
+    },
+    "pt-BR": {
+      "title": "Como bloquear vídeos com uma senha separada no iPhone ou iPad",
+      "deck": "Configure uma senha separada para o álbum Privado, importe seu vídeo e confira a reprodução antes de decidir onde guardar o original.",
+      "download": "Baixar na App Store",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Para bloquear um vídeo com uma senha própria, importe-o para o álbum Privado do “Freezon”. O Freezon criptografa a cópia no seu iPhone ou iPad para que você possa reproduzi-la sem conexão após a importação. O app Fotos da Apple permite ocultar um vídeo da fototeca principal, mas o álbum Ocultos usa a autenticação do dispositivo e não tem uma senha separada."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Defina uma senha separada para seus vídeos",
+          "paragraphs": [
+            "Imagine que você tenha um vídeo no mesmo iPad que sua família usa para ver as fotos das férias. Você pode deixar os vídeos que todos assistem no app Fotos da Apple e colocar no Freezon o vídeo que quer manter privado. Configure o álbum Privado com uma senha diferente da que você usa para desbloquear o dispositivo.",
+            "O Freezon também tem um álbum Dia a Dia com senha própria. Os dois álbuns usam a mesma tela de desbloqueio: digite a senha do álbum que deseja abrir. Guarde a senha do álbum Privado e o código de recuperação em um lugar onde você consiga encontrá-los."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Importe seu vídeo e confira a reprodução",
+          "paragraphs": [
+            "Desbloqueie o álbum Privado antes de adicionar o vídeo. Se você for mover vários vídeos, testar primeiro com um facilita a confirmação de que abriu o álbum certo e sabe onde encontrar tudo."
+          ],
+          "bullets": [
+            "Na visualização Fotos do Freezon, toque no botão de mais e selecione seu vídeo no app Fotos da Apple.",
+            "Aguarde a conclusão da importação, abra o vídeo no Freezon e confira se ele é reproduzido.",
+            "Se quiser verificar a reprodução sem conexão, ative o Modo Avião e abra novamente o vídeo importado."
+          ]
+        },
+        {
+          "heading": "Escolha onde guardar o original",
+          "paragraphs": [
+            "Você pode manter o original no app Fotos da Apple se quiser ter uma cópia nos dois lugares. Se a intenção for guardar esse vídeo apenas no Freezon, primeiro confirme a reprodução e depois apague a cópia do app Fotos da Apple. Se você escolher a opção de remoção do Freezon, o iOS pedirá que confirme a exclusão.",
+            "O Freezon funciona tanto no iPhone quanto no iPad. Você pode seguir os mesmos passos no dispositivo em que estiver o vídeo que deseja bloquear."
+          ],
+          "bullets": []
+        }
+      ],
+      "captions": [
+        "A fototeca do Freezon em inglês, com um pequeno ícone de câmera de vídeo na miniatura de um vídeo."
+      ]
+    }
+  },
+  "screenLocale": "en",
+  "screenSections": [
+    2
+  ]
+}

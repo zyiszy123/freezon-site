@@ -13,7 +13,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "To back up and transfer your private photos to a new iPhone, generate an encrypted backup in Freezon on your current device, keep the matching security recovery code, and restore the backup during album setup on your new phone. Freezon operates as an on-device encrypted photo vault for iPhone and iPad, keeping your media protected locally under your own control rather than uploading it to external servers or synchronizing albums across devices in the background.",
+            "To back up and transfer your private photos to a new iPhone, generate an encrypted backup in “Freezon” on your current device, keep the matching security recovery code, and restore the backup during album setup on your new phone. Freezon operates as an on-device encrypted photo vault for iPhone and iPad, keeping your media protected locally under your own control rather than uploading it to external servers or synchronizing albums across devices in the background.",
             "Whether you are preparing to switch to a new iPhone today or choosing a private photo vault that ensures straightforward data migration in the future, Freezon’s backup workflow provides full ownership over your media. By managing migration through portable, encrypted backup files, you can transition your library smoothly to a new device while maintaining complete privacy."
           ],
           "bullets": []
@@ -94,14 +94,14 @@
     },
     "zh-Hans": {
       "title": "如何备份私密照片并将其转移到新 iPhone",
-      "deck": "通过在当前设备上创建 Freezon 加密备份并妥善保存安全恢复密钥，在新 iPhone 设置期间轻松恢复并安全迁移私密照片。",
+      "deck": "通过在当前设备上创建「定格私密相册」加密备份并妥善保存安全恢复密钥，在新 iPhone 设置期间轻松恢复并安全迁移私密照片。",
       "download": "在 App Store 下载",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "若要备份并将私密照片迁移到新 iPhone，请在当前设备的 Freezon 中生成加密备份，保存匹配的安全恢复密钥，并在新手机设置相册期间恢复该备份。Freezon 是一款适用于 iPhone 和 iPad 的设备端加密照片保险箱，可在本地全面掌控并保护您的媒体内容，而不会将其上传到外部服务器，也不会在后台跨设备同步相册。",
-            "无论您是打算今天更换新 iPhone，还是希望选择一款能在未来确保数据平稳迁移的私密照片保险箱，Freezon 的备份流程都能让您对媒体内容拥有完整的掌控权。通过便携式加密备份文件管理迁移，您可以在保持完全隐私的同时，将媒体库平滑过渡到新设备。"
+            "若要备份并将私密照片迁移到新 iPhone，请在当前设备的「定格私密相册」中生成加密备份，保存匹配的安全恢复密钥，并在新手机设置相册期间恢复该备份。「定格私密相册」是一款适用于 iPhone 和 iPad 的设备端加密照片保险箱，可在本地全面掌控并保护您的媒体内容，而不会将其上传到外部服务器，也不会在后台跨设备同步相册。",
+            "无论您是打算今天更换新 iPhone，还是希望选择一款能在未来确保数据平稳迁移的私密照片保险箱，「定格私密相册」的备份流程都能让您对媒体内容拥有完整的掌控权。通过便携式加密备份文件管理迁移，您可以在保持完全隐私的同时，将媒体库平滑过渡到新设备。"
           ],
           "bullets": []
         },
@@ -109,7 +109,7 @@
           "heading": "开始前的两项准备工作",
           "paragraphs": [
             "在开始迁移过程之前，请确保准备好以下两项内容：",
-            "如果您在 Freezon 中同时使用日常相册和私密相册，请将它们视为彼此独立的保险箱。每个相册都拥有各自独立的备份文件和对应的恢复密钥。"
+            "如果您在「定格私密相册」中同时使用日常相册和私密相册，请将它们视为彼此独立的保险箱。每个相册都拥有各自独立的备份文件和对应的恢复密钥。"
           ],
           "bullets": [
             "可访问的备份文件（.pvb）：此加密归档文件包含您的照片和视频。您需要将其保存到新设备可通过系统“文件”App 访问的位置，例如 iCloud 云盘中的文件夹。",
@@ -119,9 +119,9 @@
         {
           "heading": "创建并保存备份",
           "paragraphs": [
-            "若要在当前的 iPhone 或 iPad 上创建备份，请打开 Freezon 并进入您计划迁移的相册。在相册内打开加密备份功能，Freezon 将提示您使用系统“文件”界面选择导出位置。",
-            "选择一个新设备可以随时访问的目录，例如 iCloud 云盘中的指定文件夹。将 .pvb 文件存储在 iCloud 云盘中，可以让您在新设备上通过“文件”App 访问该归档。了解文件存储与相册同步之间的区别很有帮助：iCloud 云盘仅负责保存和传输静态的 .pvb 文件，而 Freezon 不会对您的相册执行自动云同步。",
-            "在应用确认备份完成之前，请留在 Freezon 中。流程结束后，请确保您获取了相册对应的安全恢复密钥。准确记录该密钥并随手备好，以便设置新设备时使用。"
+            "若要在当前的 iPhone 或 iPad 上创建备份，请打开「定格私密相册」并进入您计划迁移的相册。在相册内打开加密备份功能，「定格私密相册」将提示您使用系统“文件”界面选择导出位置。",
+            "选择一个新设备可以随时访问的目录，例如 iCloud 云盘中的指定文件夹。将 .pvb 文件存储在 iCloud 云盘中，可以让您在新设备上通过“文件”App 访问该归档。了解文件存储与相册同步之间的区别很有帮助：iCloud 云盘仅负责保存和传输静态的 .pvb 文件，而「定格私密相册」不会对您的相册执行自动云同步。",
+            "在应用确认备份完成之前，请留在「定格私密相册」中。流程结束后，请确保您获取了相册对应的安全恢复密钥。准确记录该密钥并随手备好，以便设置新设备时使用。"
           ],
           "bullets": []
         },
@@ -132,15 +132,15 @@
           ],
           "bullets": [
             "确认“文件”中的文件可用性：在新的 iPhone 上打开系统“文件”App，前往选定的备份文件夹（例如 iCloud 云盘目录）。确认 .pvb 文件可见、已完整下载且可正常访问。",
-            "在 Freezon 中开始相册设置：在新的 iPhone 上打开 Freezon。在初始相册配置期间，选择从加密备份恢复的选项。",
+            "在「定格私密相册」中开始相册设置：在新的 iPhone 上打开「定格私密相册」。在初始相册配置期间，选择从加密备份恢复的选项。",
             "选择文件并输入恢复密钥：使用文件选择器选择您的 .pvb 备份文件，然后输入旧设备上保存的匹配安全恢复密钥。",
-            "设置新的相册密码：Freezon 恢复相册内容后，在新手机上为该相册设置新的日常解锁密码。"
+            "设置新的相册密码：「定格私密相册」恢复相册内容后，在新手机上为该相册设置新的日常解锁密码。"
           ]
         },
         {
           "heading": "分别独立验证双相册",
           "paragraphs": [
-            "Freezon 将日常相册与私密相册隔离开来，以保持明确的隐私界限。如果您的媒体内容分布在这两个相册中，请分别为每个相册执行备份和恢复步骤：",
+            "「定格私密相册」将日常相册与私密相册隔离开来，以保持明确的隐私界限。如果您的媒体内容分布在这两个相册中，请分别为每个相册执行备份和恢复步骤：",
             "将每个相册作为独立步骤处理，可确保密码、隐私界限以及保险箱配置完全隔离。"
           ],
           "bullets": [
@@ -156,7 +156,7 @@
             "确认照片和视频都能按预期正常打开后，您就可以继续抹掉或停用旧设备。"
           ],
           "bullets": [
-            "检查照片显示：在 Freezon 中打开已恢复的相册并浏览照片，确认缩略图正常加载且全分辨率图像清晰打开。",
+            "检查照片显示：在「定格私密相册」中打开已恢复的相册并浏览照片，确认缩略图正常加载且全分辨率图像清晰打开。",
             "检查最近添加的内容：查看迁移前最近导入的照片和文件，确认备份中已包含您最新的媒体内容。",
             "测试视频播放：从头到尾播放一两个视频，以确认播放流畅。",
             "验证两个相册：如果您同时迁移了日常相册和私密相册，请分别打开每个保险箱，并在两处都完成这些验证检查。"
@@ -166,29 +166,29 @@
           "heading": "常见问题",
           "paragraphs": [
             "如果新 iPhone 找不到备份文件该怎么办？",
-            "在开始 Freezon 设置之前，直接在新的 iPhone 上打开系统“文件”App。前往您保存备份的存储位置（例如 iCloud 云盘文件夹），确保显示 .pvb 文件。如果文件显示云端下载图标，请轻点以下载到本地，以便 Freezon 在恢复期间能够打开它。",
+            "在开始「定格私密相册」设置之前，直接在新的 iPhone 上打开系统“文件”App。前往您保存备份的存储位置（例如 iCloud 云盘文件夹），确保显示 .pvb 文件。如果文件显示云端下载图标，请轻点以下载到本地，以便「定格私密相册」在恢复期间能够打开它。",
             "我可以使用日常相册密码代替恢复密钥来恢复相册吗？",
             "不能。您的常规相册解锁密码仅用于该特定设备上的日常访问，无法解密导出的归档文件。恢复相册需要与该 .pvb 备份文件相匹配的安全恢复密钥。找到您在旧设备上创建备份时保存的恢复密钥，并在设置过程中输入。",
             "如果在创建上次备份后又添加了照片，该怎么办？",
-            "如果您在创建备份后导入了新照片或视频，请在完成新手机设置之前更新旧设备上的备份。在旧 iPhone 上打开 Freezon，再次运行加密备份功能，等待应用内确认备份完成，并备好匹配的安全恢复密钥。然后，您就可以在新设备上恢复此更新后的 .pvb 文件。"
+            "如果您在创建备份后导入了新照片或视频，请在完成新手机设置之前更新旧设备上的备份。在旧 iPhone 上打开「定格私密相册」，再次运行加密备份功能，等待应用内确认备份完成，并备好匹配的安全恢复密钥。然后，您就可以在新设备上恢复此更新后的 .pvb 文件。"
           ],
           "bullets": []
         }
       ],
       "captions": [
-        "Freezon 加密备份界面。"
+        "「定格私密相册」加密备份界面。"
       ]
     },
     "zh-Hant": {
       "title": "如何將私密照片備份並轉移到新 iPhone",
-      "deck": "了解如何使用 Freezon 在目前的裝置建立加密備份並妥善保存還原安全碼，將私密照片與影片安全無縫地轉移到新 iPhone。",
+      "deck": "了解如何使用「定格私密相簿」在目前的裝置建立加密備份並妥善保存還原安全碼，將私密照片與影片安全無縫地轉移到新 iPhone。",
       "download": "前往 App Store 下載",
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "若要將私密照片備份並轉移到新 iPhone，請在目前的裝置上透過 Freezon 建立加密備份，妥善保存對應的還原安全碼，並在新手機設定相簿時回復備份。Freezon 是一款專為 iPhone 與 iPad 設計的裝置端加密照片保險箱，能將您的影音內容安全保留在本地並由您完全掌控，而非上傳至外部伺服器或在背景跨裝置同步相簿。",
-            "無論您是準備在今天換成新 iPhone，還是想選擇一款能確保未來順暢移轉資料的私密照片保險箱，Freezon 的備份流程都能讓您完全掌握自己的影音內容。透過可攜式加密備份檔案管理移轉，您可以在維持絕對隱私的同時，將整個圖庫順暢移轉至新裝置。"
+            "若要將私密照片備份並轉移到新 iPhone，請在目前的裝置上透過「定格私密相簿」建立加密備份，妥善保存對應的還原安全碼，並在新手機設定相簿時回復備份。「定格私密相簿」是一款專為 iPhone 與 iPad 設計的裝置端加密照片保險箱，能將您的影音內容安全保留在本地並由您完全掌控，而非上傳至外部伺服器或在背景跨裝置同步相簿。",
+            "無論您是準備在今天換成新 iPhone，還是想選擇一款能確保未來順暢移轉資料的私密照片保險箱，「定格私密相簿」的備份流程都能讓您完全掌握自己的影音內容。透過可攜式加密備份檔案管理移轉，您可以在維持絕對隱私的同時，將整個圖庫順暢移轉至新裝置。"
           ],
           "bullets": []
         },
@@ -205,9 +205,9 @@
         {
           "heading": "建立並儲存備份",
           "paragraphs": [
-            "若要在目前的 iPhone 或 iPad 上建立備份，請開啟 Freezon 並進入您打算轉移的相簿。開啟該相簿內的加密備份功能，Freezon 將提示您透過系統「檔案」介面選擇匯出位置。",
-            "請選擇新裝置能隨時存取的目錄，例如 iCloud 雲碟中的指定資料夾。將 .pvb 檔案儲存在 iCloud 雲碟中，可讓您跨裝置透過「檔案」App 存取該封存檔。了解檔案儲存與相簿同步之間的區別很有幫助：iCloud 雲碟僅保留並傳輸靜態的 .pvb 檔案，而 Freezon 則不會對您的相簿執行自動雲端同步。",
-            "請留在 Freezon 內，直到 App 確認備份已完成。程序完成後，請確認您已取得相簿對應的還原安全碼。請準確記錄此代碼並隨身備妥，以便設定新裝置時使用。"
+            "若要在目前的 iPhone 或 iPad 上建立備份，請開啟「定格私密相簿」並進入您打算轉移的相簿。開啟該相簿內的加密備份功能，「定格私密相簿」將提示您透過系統「檔案」介面選擇匯出位置。",
+            "請選擇新裝置能隨時存取的目錄，例如 iCloud 雲碟中的指定資料夾。將 .pvb 檔案儲存在 iCloud 雲碟中，可讓您跨裝置透過「檔案」App 存取該封存檔。了解檔案儲存與相簿同步之間的區別很有幫助：iCloud 雲碟僅保留並傳輸靜態的 .pvb 檔案，而「定格私密相簿」則不會對您的相簿執行自動雲端同步。",
+            "請留在「定格私密相簿」內，直到 App 確認備份已完成。程序完成後，請確認您已取得相簿對應的還原安全碼。請準確記錄此代碼並隨身備妥，以便設定新裝置時使用。"
           ],
           "bullets": []
         },
@@ -218,15 +218,15 @@
           ],
           "bullets": [
             "在「檔案」中確認檔案可用性：在新 iPhone 上開啟系統「檔案」App，前往選定的備份資料夾（例如 iCloud 雲碟目錄）。確認 .pvb 檔案可見、已完整下載且可存取。",
-            "在 Freezon 中開始設定相簿：在新 iPhone 上開啟 Freezon。在初始相簿設定期間，選擇從加密備份回復的選項。",
+            "在「定格私密相簿」中開始設定相簿：在新 iPhone 上開啟「定格私密相簿」。在初始相簿設定期間，選擇從加密備份回復的選項。",
             "選取檔案並輸入還原碼：使用檔案選擇器選取您的 .pvb 備份檔案，接著輸入舊裝置保存的對應還原安全碼。",
-            "設定新的相簿密碼：當 Freezon 回復相簿內容後，在新手機上為該相簿指定新的日常解鎖密碼。"
+            "設定新的相簿密碼：當「定格私密相簿」回復相簿內容後，在新手機上為該相簿指定新的日常解鎖密碼。"
           ]
         },
         {
           "heading": "獨立驗證雙相簿",
           "paragraphs": [
-            "Freezon 將日常相簿與私密相簿分開保存。若兩個相簿裡都有照片或影片，請分別備份與還原，各自保留密碼和相簿設定。"
+            "「定格私密相簿」將日常相簿與私密相簿分開保存。若兩個相簿裡都有照片或影片，請分別備份與還原，各自保留密碼和相簿設定。"
           ],
           "bullets": [
             "為日常相簿匯出 .pvb 備份檔案，並儲存其還原安全碼。",
@@ -240,7 +240,7 @@
             "清除、重置或折抵舊裝置前，先在新 iPhone 上做幾項檢查。確認照片和影片都能正常開啟，再處理舊裝置。"
           ],
           "bullets": [
-            "檢查照片：開啟 Freezon 裡已還原的相簿，確認縮圖能載入，原尺寸照片也能開啟。",
+            "檢查照片：開啟「定格私密相簿」裡已還原的相簿，確認縮圖能載入，原尺寸照片也能開啟。",
             "查看最近匯入的內容：找出換機前新加入的照片和檔案，確認備份有包含它們。",
             "試播影片：選一兩段影片從頭播到尾，確認播放順暢。",
             "檢查兩個相簿：若您已還原日常相簿和私密相簿，請分別開啟並完成上述檢查。"
@@ -250,17 +250,17 @@
           "heading": "常見問題",
           "paragraphs": [
             "新 iPhone 找不到備份檔案怎麼辦？",
-            "設定 Freezon 前，先在新 iPhone 上打開系統「檔案」App，前往儲存備份的位置，例如 iCloud 雲碟資料夾，確認看得到 .pvb 檔案。若旁邊有雲端下載圖示，點一下將檔案下載至裝置，方便在還原時開啟。",
+            "設定「定格私密相簿」前，先在新 iPhone 上打開系統「檔案」App，前往儲存備份的位置，例如 iCloud 雲碟資料夾，確認看得到 .pvb 檔案。若旁邊有雲端下載圖示，點一下將檔案下載至裝置，方便在還原時開啟。",
             "可以用平常的相簿密碼來還原嗎？",
             "不行。相簿密碼用來解鎖目前裝置上的相簿。還原匯出的 .pvb 檔案時，請輸入與該備份相符的還原安全碼。",
             "做完上次備份後又新增了照片，怎麼辦？",
-            "先在舊 iPhone 上開啟 Freezon，重新執行加密備份。等 App 提示備份完成，準備好對應的還原安全碼，再到新 iPhone 上還原更新後的 .pvb 檔案。"
+            "先在舊 iPhone 上開啟「定格私密相簿」，重新執行加密備份。等 App 提示備份完成，準備好對應的還原安全碼，再到新 iPhone 上還原更新後的 .pvb 檔案。"
           ],
           "bullets": []
         }
       ],
       "captions": [
-        "Freezon 的加密備份畫面，而非新 iPhone 的回復畫面。"
+        "「定格私密相簿」的加密備份畫面，而非新 iPhone 的回復畫面。"
       ]
     },
     "ja": {
@@ -271,7 +271,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "プライベートな写真を新しいiPhoneにバックアップして移行するには、現在のデバイスのFreezonで暗号化バックアップを生成し、対応するセキュリティリカバリーコードを保管して、新しいスマートフォンのアルバム設定時にバックアップを復元します。FreezonはiPhoneおよびiPad向けのデバイス上暗号化写真保管庫として機能し、外部サーバーにアップロードしたりバックグラウンドでデバイス間にアルバムを同期したりすることなく、メディアをローカルで自身の管理下に保護します。",
+            "プライベートな写真を新しいiPhoneにバックアップして移行するには、現在のデバイスの「Freezon」で暗号化バックアップを生成し、対応するセキュリティリカバリーコードを保管して、新しいスマートフォンのアルバム設定時にバックアップを復元します。FreezonはiPhoneおよびiPad向けのデバイス上暗号化写真保管庫として機能し、外部サーバーにアップロードしたりバックグラウンドでデバイス間にアルバムを同期したりすることなく、メディアをローカルで自身の管理下に保護します。",
             "今すぐ新しいiPhoneへの移行を準備している場合でも、将来の簡単なデータ移行を確実にするプライベート写真保管庫を選択している場合でも、Freezonのバックアップワークフローはメディアに対する完全な所有権を提供します。ポータブルな暗号化バックアップファイルを通じて移行を管理することで、完全なプライバシーを維持しながらライブラリを新しいデバイスへスムーズに移行できます。"
           ],
           "bullets": []
@@ -358,7 +358,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "비공개 사진을 백업하여 새 iPhone으로 전송하려면 현재 기기의 Freezon에서 암호화된 백업을 생성하고, 일치하는 보안 복구 코드를 보관한 다음, 새 휴대폰의 앨범 설정 과정에서 해당 백업을 복원하세요. Freezon은 iPhone 및 iPad용 온디바이스 암호화 사진 보관함으로 작동하여 미디어를 외부 서버에 업로드하거나 백그라운드에서 기기 간 앨범을 동기화하지 않고 사용자의 제어하에 로컬에서 안전하게 보호합니다.",
+            "비공개 사진을 백업하여 새 iPhone으로 전송하려면 현재 기기의 ‘Freezon’에서 암호화된 백업을 생성하고, 일치하는 보안 복구 코드를 보관한 다음, 새 휴대폰의 앨범 설정 과정에서 해당 백업을 복원하세요. Freezon은 iPhone 및 iPad용 온디바이스 암호화 사진 보관함으로 작동하여 미디어를 외부 서버에 업로드하거나 백그라운드에서 기기 간 앨범을 동기화하지 않고 사용자의 제어하에 로컬에서 안전하게 보호합니다.",
             "지금 새 iPhone으로 기기를 변경하든 향후 손쉬운 데이터 이전을 보장하는 비공개 사진 보관함을 선택하든, Freezon의 백업 워크플로는 미디어에 대한 완전한 소유권을 제공합니다. 휴대가 가능한 암호화된 백업 파일을 통해 마이그레이션을 관리함으로써 완전한 개인정보 보호를 유지하면서 라이브러리를 새 기기로 원활하게 이전할 수 있습니다."
           ],
           "bullets": []
@@ -445,7 +445,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "Para respaldar y transferir tus fotos privadas a un iPhone nuevo, crea un respaldo cifrado en Freezon en tu dispositivo actual, guarda el código de recuperación de seguridad correspondiente y restaura el respaldo durante la configuración del álbum en tu nuevo teléfono. Freezon funciona como una bóveda de fotos cifrada en el propio dispositivo para iPhone y iPad: mantiene tus archivos protegidos localmente y bajo tu control, en lugar de subirlos a servidores externos o sincronizar los álbumes entre dispositivos en segundo plano.",
+            "Para respaldar y transferir tus fotos privadas a un iPhone nuevo, crea un respaldo cifrado en «Freezon» en tu dispositivo actual, guarda el código de recuperación de seguridad correspondiente y restaura el respaldo durante la configuración del álbum en tu nuevo teléfono. Freezon funciona como una bóveda de fotos cifrada en el propio dispositivo para iPhone y iPad: mantiene tus archivos protegidos localmente y bajo tu control, en lugar de subirlos a servidores externos o sincronizar los álbumes entre dispositivos en segundo plano.",
             "Ya sea que estés por cambiar de iPhone o que busques una bóveda de fotos privadas que facilite la migración de tus datos en el futuro, el proceso de respaldo de Freezon te da control total sobre tus fotos y videos. Al gestionar la migración mediante archivos de respaldo cifrados y portátiles, puedes trasladar tu biblioteca a un nuevo dispositivo sin complicaciones y mantener una privacidad completa."
           ],
           "bullets": []
@@ -532,7 +532,7 @@
         {
           "heading": "",
           "paragraphs": [
-            "Para fazer backup e transferir suas fotos privadas para um novo iPhone, gere um backup criptografado no Freezon em seu dispositivo atual, guarde o código de recuperação de segurança correspondente e restaure o backup durante a configuração do álbum no seu novo telefone. O Freezon opera como um cofre de fotos criptografado no dispositivo para iPhone e iPad, mantendo suas mídias protegidas localmente sob seu próprio controle, em vez de enviá-las para servidores externos ou sincronizar álbuns entre dispositivos em segundo plano.",
+            "Para fazer backup e transferir suas fotos privadas para um novo iPhone, gere um backup criptografado no “Freezon” em seu dispositivo atual, guarde o código de recuperação de segurança correspondente e restaure o backup durante a configuração do álbum no seu novo telefone. O Freezon opera como um cofre de fotos criptografado no dispositivo para iPhone e iPad, mantendo suas mídias protegidas localmente sob seu próprio controle, em vez de enviá-las para servidores externos ou sincronizar álbuns entre dispositivos em segundo plano.",
             "Esteja você se preparando para migrar para um novo iPhone hoje ou escolhendo um cofre de fotos privado que garanta uma migração de dados simples no futuro, o fluxo de backup do Freezon oferece controle total sobre suas mídias. Ao gerenciar a migração por meio de arquivos de backup criptografados e portáteis, você pode transferir sua biblioteca perfeitamente para um novo dispositivo mantendo total privacidade."
           ],
           "bullets": []
