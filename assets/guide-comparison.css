@@ -1,0 +1,132 @@
+.guide-header h1 { max-width: none; }
+.guide-comparison-scroll {
+  --comparison-column: 132px;
+  --comparison-label: 142px;
+  inline-size: min(1440px, calc(100vw - 48px));
+  margin-block-end: 16px;
+  margin-inline-start: 50%;
+  transform: translateX(-50%);
+  overflow-x: auto;
+  scrollbar-color: var(--paper-dim) var(--ink-soft);
+  border-block-start: 1px solid var(--line);
+}
+
+.guide-comparison-scroll:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.guide-comparison-options {
+  inline-size: max(100%, calc(var(--comparison-label) + 9 * var(--comparison-column)));
+  border-collapse: separate;
+  border-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.guide-comparison-options thead th:first-child { inline-size: var(--comparison-label); }
+.guide-comparison-options :is(th, td) { background: var(--ink); }
+.guide-comparison-options thead th { background: var(--ink-soft); }
+.guide-comparison-options :is(th, td):nth-child(2) {
+  background: color-mix(in srgb, var(--accent) 10%, var(--ink));
+  color: var(--paper);
+}
+
+.guide-comparison-options thead th:nth-child(2) { color: var(--accent); }
+.guide-comparison-options tr > :first-child {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: 1;
+  border-inline-end: 1px solid var(--line);
+}
+
+.guide-article .guide-comparison-hint,
+.guide-article .guide-comparison-scroll + p { font-size: 0.875rem; }
+
+.guide-plan-pair {
+  display: grid;
+  grid-template-areas: "choice choice" "ours peers";
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-block-end: 16px;
+}
+
+.guide-plan-choice {
+  grid-area: choice;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  color: var(--paper);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.guide-plan-choice[hidden], .guide-plan-card[hidden] { display: none; }
+.guide-plan-choice span { text-align: end; }
+.guide-plan-choice select {
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--ink-soft);
+  color: var(--paper);
+  font: inherit;
+}
+
+.guide-plan-choice select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.guide-plan-peers { grid-area: peers; display: grid; gap: 12px; }
+.guide-plan-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--ink-soft);
+  overflow-wrap: anywhere;
+}
+
+.guide-plan-ours { grid-area: ours; border-color: var(--accent); }
+.guide-plan-card h3 { margin: 0 0 14px; color: var(--paper); font-size: 1.125rem; line-height: 1.3; }
+.guide-plan-tier + .guide-plan-tier { margin-block-start: 12px; padding-block-start: 12px; border-block-start: 1px solid var(--line); }
+.guide-plan-card h4 { margin: 0 0 2px; color: var(--paper); font-size: 0.875rem; }
+.guide-article .guide-plan-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: 0; font-variant-numeric: tabular-nums; }
+.guide-plan-price strong { color: var(--accent); font-size: 1.125rem; }
+.guide-article .guide-plan-card ul { margin: 6px 0 0; padding-inline-start: 17px; font-size: 0.875rem; line-height: 1.5; }
+.guide-plan-card li::marker { color: var(--accent); }
+.guide-article .guide-plan-card li + li { margin-block-start: 4px; }
+.guide-article .guide-plan-section > p { font-size: 0.875rem; }
+
+.guide-former-price {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.guide-former-price::after {
+  position: absolute;
+  inset: 50% 0 auto;
+  border-block-start: 2px solid #ff7878;
+  transform: rotate(-12deg);
+  content: "";
+}
+
+@media (max-width: 560px) {
+  .guide-comparison-scroll {
+    --comparison-column: 124px;
+    --comparison-label: 110px;
+    inline-size: calc(100vw - 36px);
+  }
+  .guide-plan-pair {
+    grid-template-areas: "ours" "choice" "peers";
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .guide-plan-choice { grid-template-columns: minmax(0, 1fr); }
+  .guide-plan-choice span { text-align: start; }
+}
+
+@media (min-width: 561px) {
+  .guide-header h1 { font-size: 2.625rem; }
+}
+
+@media (min-width: 1400px) {
+  .guide-article .guide-comparison-hint { display: none; }
+}

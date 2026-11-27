@@ -22,14 +22,55 @@ const languageNav = (current, topic) => `<nav class="guide-languages" aria-label
 </nav>`;
 const p = (value) => `<p>${html(value)}</p>`;
 function guideParagraph(value) {
-  const link = /\[([^\]\n]+)\]\((https:\/\/(?:support\.apple\.com\/|freezonapp\.com\/guides\/)[\w/-]+)\)/g;
+  const inline = /\[([^\]\n]+)\]\((https:\/\/(?:support\.apple\.com\/|freezonapp\.com\/guides\/)[\w/-]+)\)|\*\*([^*]+)\*\*|~~(\$\d+(?:\.\d{2})?)~~/g;
   let body = '';
   let offset = 0;
-  for (const {0: source, 1: label, 2: url, index} of value.matchAll(link)) {
-    body += `${html(value.slice(offset, index))}<a href="${html(url)}">${html(label)}</a>`;
+  for (const match of value.matchAll(inline)) {
+    const [source, label, url, emphasis, formerPrice] = match;
+    const { index } = match;
+    body += html(value.slice(offset, index));
+    if (url) body += `<a href="${html(url)}">${html(label)}</a>`;
+    else if (emphasis) body += `<strong>${html(emphasis)}</strong>`;
+    else body += `<del class="guide-former-price">${html(formerPrice)}</del>`;
     offset = index + source.length;
   }
   return `<p>${body}${html(value.slice(offset))}</p>`;
+}
+
+function guideComparison({ columns, rows, scrollHint }, headingId) {
+  return `<p class="guide-comparison-hint" id="${headingId}-hint">${html(scrollHint)}</p>
+      <div class="guide-comparison-scroll" role="region" aria-labelledby="${headingId}" aria-describedby="${headingId}-hint" tabindex="0">
+        <table class="guide-comparison guide-comparison-options" aria-labelledby="${headingId}">
+          <thead><tr>${columns.map(column => `<th scope="col">${html(column)}</th>`).join('')}</tr></thead>
+          <tbody>${rows.map(([criterion, ...cells]) => `<tr><th scope="row">${html(criterion)}</th>${cells.map(cell => `<td>${html(cell)}</td>`).join('')}</tr>`).join('\n          ')}</tbody>
+        </table>
+      </div>`;
+}
+
+function guidePricing({ heading, choose, defaultPeer, cards }, names, id, notes) {
+  const card = (tiers, i) => `<div class="guide-plan-card${i === 0 ? ' guide-plan-ours' : ''}"${i === 0 ? '' : ` data-plan-peer="${i}"`}>
+          <h3>${html(names[i])}</h3>
+          ${tiers.map(([title, prices, benefits, formerPrice]) => `<div class="guide-plan-tier">
+            <h4>${html(title)}</h4>
+            <p class="guide-plan-price">${prices.map(price => `<strong>${html(price)}</strong>`).join('')}${formerPrice ? `<del class="guide-former-price">${html(formerPrice)}</del>` : ''}</p>
+            ${benefits.length ? `<ul>${benefits.map(benefit => `<li>${html(benefit)}</li>`).join('')}</ul>` : ''}
+          </div>`).join('\n          ')}
+        </div>`;
+  const peers = [defaultPeer, ...names.slice(1).map((_, i) => i + 1).filter(i => i !== defaultPeer)];
+  return `<section class="guide-plan-section" aria-labelledby="${id}">
+      <h2 id="${id}">${html(heading)}</h2>
+      <div class="guide-plan-pair" data-plan-picker>
+        ${card(cards[0], 0)}
+        <label class="guide-plan-choice" hidden>
+          <span>${html(choose)}</span>
+          <select aria-controls="${id}-peers">${names.slice(1).map((name, i) => `<option value="${i + 1}"${i + 1 === defaultPeer ? ' selected' : ''}>${html(name)}</option>`).join('')}</select>
+        </label>
+        <div class="guide-plan-peers" id="${id}-peers">
+          ${peers.map(i => card(cards[i], i)).join('\n          ')}
+        </div>
+      </div>
+      ${notes.map(guideParagraph).join('\n      ')}
+    </section>`;
 }
 const split = (data) => data.trim().split('\n').map(line => line.trim());
 const campaignURL = (country) => `https://apps.apple.com/${country}/app/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8`;
@@ -60,7 +101,7 @@ function replaceRegion(path, key, content) {
   write(path, `${source.slice(0, first + start.length)}\n${content}\n${source.slice(last)}`);
 }
 
-function layout(lang, topic, title, description, body, product = 'vault') {
+function layout(lang, topic, title, description, body, product = 'vault', hasComparison = false) {
   const [ , , guides, , , , support, privacy, skip ] = locales[lang];
   const canonical = origin + guidePath(lang, topic);
   const { icon, key, route } = products[product];
@@ -84,7 +125,7 @@ function layout(lang, topic, title, description, body, product = 'vault') {
   <link rel="icon" href="/assets/${icon}">
   <link rel="stylesheet" href="/assets/site.css?v=20261027-1">
   ${topic ? '<link rel="stylesheet" href="/assets/app-store-qr.css?v=20261120-3">' : ''}
-  <link rel="stylesheet" href="/assets/guides.css?v=20261126-1">
+  <link rel="stylesheet" href="/assets/guides.css?v=20261126-1">${hasComparison ? '\n  <link rel="stylesheet" href="/assets/guide-comparison.css?v=20261127-4">' : ''}
 </head>
 <body class="guide-page">
   <a class="skip-link" href="#main-content">${html(skip)}</a>
@@ -226,21 +267,23 @@ function guidePager(lang, topic, product) {
 
 const bundlePages = bundles.flatMap(({ slug: topic, product, screens, screenLocale, screenSections, content }) => languages.map(lang => {
   const { title, deck, sections, download, captions } = content[lang];
+  const hasComparison = sections.some(section => section.comparison);
   const images = new Map(screenSections.map((section, i) => [section, figure(lang, screens[i], captions[i], product, topic, screenLocale)]));
   const firstScreenshot = screenLocale === 'en' ? Math.min(...screenSections) : -1;
   const pager = guidePager(lang, topic, product);
+  const cover = coverImage(guideCover(topic));
   const body = `<article class="guide-article">
-    ${heading(title, deck, lang, topic)}
-    ${coverImage(guideCover(topic))}
-    ${sections.map(({ heading: title, paragraphs, bullets }, i) => `<section>
-      ${title ? `<h2>${html(title)}</h2>` : ''}
-      ${paragraphs.map(guideParagraph).join('\n      ')}
+    ${heading(title, deck, lang, topic)}${hasComparison ? '' : `\n    ${cover}`}
+    ${sections.map(({ heading: title, paragraphs, bullets, comparison, pricing }, i) => `${pricing ? `${guidePricing(pricing, comparison.columns.slice(1), `pricing-${i}`, paragraphs)}
+    ` : ''}<section>
+      ${title ? `<h2${comparison ? ` id="comparison-${i}"` : ''}>${html(title)}</h2>` : ''}${comparison ? `\n      ${guideComparison(comparison, `comparison-${i}`)}` : ''}
+      ${pricing ? '' : paragraphs.map(guideParagraph).join('\n      ')}
       ${bullets.length ? `<ul>${bullets.map(item => `<li>${html(item)}</li>`).join('')}</ul>` : ''}
       ${i === firstScreenshot ? `<p class="guide-screenshot-note">${html(englishScreenshotNotes[lang])}</p>\n      ` : ''}${images.get(i) ?? ''}
-    </section>`).join('\n    ')}
+    </section>${hasComparison && i === 0 && cover ? `\n    ${cover}` : ''}`).join('\n    ')}
     <div class="guide-download">${downloadActions(lang, download, appStoreURL(topic, product, lang), product)}</div>${pager ? `\n    ${pager}` : ''}
-  </article>`;
-  return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product)];
+  </article>${sections.some(section => section.pricing) ? '\n    <script defer src="/assets/guide-price-picker.js?v=20261127-1"></script>' : ''}`;
+  return [`${guidePath(lang, topic)}index.html`, layout(lang, topic, title, deck, body, product, hasComparison)];
 }));
 
 function guideCard(lang, topic, { title, deck }) {

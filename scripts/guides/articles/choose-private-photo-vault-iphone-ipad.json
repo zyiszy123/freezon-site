@@ -1,0 +1,553 @@
+{
+  "slug": "choose-private-photo-vault-iphone-ipad",
+  "product": "vault",
+  "screens": [],
+  "content": {
+    "zh-Hans": {
+      "title": "iPhone 和 iPad 私密相册对比：定格和 7 款同类产品怎么选？",
+      "deck": "定格私密相册、7 款同类产品和苹果隐藏相册同表比较。看独立密码、本机加密、备份、广告和美元价格。",
+      "download": "在 App Store 下载定格",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "给 iPhone 或 iPad 选私密相册？这篇把「定格私密相册」、苹果隐藏相册、Private Photo Vault、Keepsafe、SPV – Secret Photo Vault、Secret Photo Album – SA、PV 私密相册管家、Calculator# 和 Safe Lock 放在一起，比较独立密码、本机加密、备份、广告和实际价格。",
+            "如果只是想把几张照片从系统图库的常规视图里藏起来，苹果自带的「隐藏」相册就够了。想给照片和视频另设密码，可以选定格：输哪个密码，就打开哪套相册。照片和视频导入时就在本机逐文件加密，免费版也能做加密备份，而且没有广告。",
+            "**定格 Pro 限时 $6.99 买断**（原价 ~~$9.99~~）。一次付费，无需续订。优惠结束后恢复原价。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "功能对照",
+          "paragraphs": [
+            "价格统一按美国 App Store 美元标价，核对于 2026 年 11 月 27 日。区间为商店列出的内购金额；Safe Lock 的订阅价格为参考。"
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["对比项","定格私密相册","苹果隐藏相册","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV 私密相册管家","Calculator#","Safe Lock"],
+            "scrollHint": "左右滑动查看全部 App。",
+            "rows": [
+              ["独立相册保护","✓ 两套相册各有密码和密钥","× 使用设备认证","✓ 独立相册密码和备用密码","✓ Premium 支持独立相册 PIN","-","✓ 独立相册 PIN 和备用 PIN","✓ 单相册密码和备用密码","-","✓ 备用密码可打开另一图库"],
+              ["本机逐文件 AES‑256‑GCM","✓ 导入的照片和视频逐文件加密","-","-","-","-","-","-","-","-"],
+              ["备份","免费的加密备份，位置自选","随 iCloud 照片同步","付费 Cloud Vault 备份","Private Cloud 云备份","-","付费加密云同步","付费云同步和第三方备份","支持多种云服务备份","支持云端导入导出"],
+              ["广告","免费版无广告","无广告","可付费去广告","Premium 无广告","-","-","会员可去广告","免费版有广告","-"],
+              ["解锁方式","密码、Face ID 或 Touch ID（日常相册）","设备密码、Face ID 或 Touch ID","PIN 和备用密码","PIN 和生物识别","PIN","PIN 和生物识别","密码和 Face ID","计算器、PIN、图案和生物识别","PIN、图案、手势和生物识别"],
+              ["iOS 钥匙串保护","✓ 凭据仅存本机钥匙串","-","-","-","-","-","-","-","-"],
+              ["媒体格式","照片和视频; 实况照片、GIF、RAW 等","照片和视频; 实况照片、RAW 等","照片和视频","照片和视频","照片和视频; 也可存联系人","照片和视频","照片和视频","照片和视频; 也可存文档和笔记","照片和视频; 支持 GIF、PDF"],
+              ["密码与备份恢复","每套相册各有恢复码，可重设密码或恢复备份","-","Cloud Vault 使用独立密码","-","-","-","可设恢复邮箱","登记邮箱找回","-"],
+              ["账号要求","无需注册","本机使用无需登录；iCloud 照片需 Apple 账户","Cloud Vault 需要账号","-","-","云同步需登记邮箱","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "免费版和付费版，分别能用什么？",
+            "choose": "选择对比对象",
+            "defaultPeer": 6,
+            "cards": [
+              [["免费版",["$0"],["日常相册 100 项，私密相册 10 项","照片和视频在本机逐文件加密","免费加密备份，保存位置自选","无广告","无需账号"]],["Pro 限时买断",["$6.99"],["解除两套相册容量限制","解锁全部相册布局：标准、大图、列表、紧凑","解锁全部 19 款主屏幕图标","后续更新将加入更多 Pro 功能","一次付费，无需续费"],"$9.99"]],
+              [["系统自带",["$0"],["隐藏照片和视频","使用设备认证","开启 iCloud 照片时可同步","无广告"]]],
+              [["免费版",["$0"],["容量有限","带广告","PIN 锁"]],["Premium",["$6.99–$39.99"],["更多存储空间","无广告"]]],
+              [["免费版",["$0"],["容量有限","带广告","需要账号"]],["Premium 订阅",["$9.99/月","$23.99/年"],["更多存储空间","云备份","独立相册 PIN","无广告"]]],
+              [["免费版",["$0"],["容量有限","带广告","PIN 锁"]],["Premium",["$4.99–$39.99"],["更多存储空间","无广告"]]],
+              [["免费版",["$0"],["容量有限","带广告","密码锁"]],["Premium",["$1.99–$51.99"],["更多存储空间","无广告"]]],
+              [["免费版",["$0"],["隐藏照片和视频","带广告","PIN 锁"]],["Premium 订阅",["$3.99/月","$17.99/年"],["无广告"]],["永久会员",["$41.99"],["一次付费，无需续费"]]],
+              [["免费版",["$0"],["隐藏照片和视频","计算器伪装","带广告"]],["年度订阅",["$4.99/年"],["无广告","更多功能"]],["高级功能包",["$4.99"],[]]],
+              [["免费版",["$0"],["隐藏照片和视频","带广告","PIN 锁"]],["App Store 内购",["$4.99–$29.99"],[]],["Premium 订阅参考",["$1.99/月","$5.99/半年","$8.99/年"],["无广告","云备份"]]]
+            ]
+          }
+        },
+        {
+          "heading": "共用 iPad，给两套照片设两道密码",
+          "paragraphs": [
+            "家里的 iPad 常常是共用的：家人知道设备密码，打开苹果「隐藏」相册时用的也是设备认证。可以把常看的照片放在定格的日常相册里，想单独加锁的照片和视频放到私密相册。两套相册从同一个入口解锁，输不同密码，看到的就是不同内容。",
+            "日常相册可以用 Face ID 或 Touch ID，私密相册仍然用自己的密码。不论你用 iPhone 还是 iPad，只要导入完成，离线也能打开相册查看。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "换手机时，备份文件由你保存",
+          "paragraphs": [
+            "更想通过云服务管理备份，可以看 Keepsafe 的 Private Cloud 或 PV 的云同步。用定格则可以把两套相册分别做成加密备份，通过 iPhone 或 iPad 的「文件」把备份存到你选的位置。换机时，在新设备上选中备份，再输入那套相册的恢复码。",
+            "系统「照片」里的照片和视频可以直接导入定格。导入后，原图可以留在系统相册，也可以按提示清理。如果之前用的是其他相册 App，可以先把要搬的内容导出到系统「照片」，再导入定格。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "双相册免费用，容量不够再买断",
+          "paragraphs": [
+            "定格免费版就能给两套相册分别设密码、做加密备份，而且没有广告。照片和视频越存越多时，一次买断 Pro 就能解除两套相册的容量限制。"
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "en": {
+      "title": "Private Photo Vaults for iPhone and iPad: Freezon vs. 7 Other Apps",
+      "deck": "Compare eight private photo vault apps and Apple’s Hidden album on passwords, encryption, backups, ads, and US App Store pricing.",
+      "download": "Download Freezon on the App Store",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Choosing a private photo vault for iPhone or iPad? This guide compares Freezon, Apple’s Hidden album, Private Photo Vault, Keepsafe, SPV – Secret Photo Vault, Secret Photo Album – SA, PV – Secret Photo Album, Calculator#, and Safe Lock. See which options offer separate passwords, on-device encryption, backups, and ad-free use, and what they cost.",
+            "If you just want a few pictures out of your main library, the Hidden album in Apple Photos is enough. For photos and videos you want behind a separate password, try Freezon. Enter a different password to open a different album. Every imported file is encrypted on your device, and encrypted backups are available in the free, ad-free app.",
+            "**Freezon Pro is $6.99 for life while the offer lasts** (regularly ~~$9.99~~). Pay once, with no renewals. The regular price returns after the offer."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Feature comparison",
+          "paragraphs": [
+            "US App Store prices in USD, checked November 27, 2026. Ranges reflect listed in-app purchases. Safe Lock subscription rates are for reference."
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["Feature","Freezon","Apple Hidden album","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV – Secret Photo Album","Calculator#","Safe Lock"],
+            "scrollHint": "Scroll sideways to see all apps.",
+            "rows": [
+              ["Separate album protection","✓ Two albums with separate passwords and keys","× Uses device authentication","✓ Individual album and decoy passwords","✓ Individual album PINs with Premium","-","✓ Individual album PINs and a decoy PIN","✓ Individual album and decoy passwords","-","✓ Decoy password opens a second gallery"],
+              ["On-device AES‑256‑GCM per file","✓ Each imported photo and video file is encrypted","-","-","-","-","-","-","-","-"],
+              ["Backup","Free encrypted backup to a location you choose","Syncs with iCloud Photos","Paid Cloud Vault backup","Private Cloud backup","-","Paid encrypted cloud sync","Paid cloud sync and third-party backup","Backups with several cloud providers","Cloud import and export"],
+              ["Ads","Ad-free, including the free version","No ads","Paid ad removal","Ad-free with Premium","-","-","Paid ad removal","Ads in the free version","-"],
+              ["Unlock options","Password, Face ID or Touch ID (Everyday album)","Device passcode, Face ID or Touch ID","PIN and decoy password","PIN and biometrics","PIN","PIN and biometrics","Password and Face ID","Calculator, PIN, pattern and biometrics","PIN, pattern, gestures and biometrics"],
+              ["iOS Keychain protection","✓ Credentials stay in the device’s Keychain","-","-","-","-","-","-","-","-"],
+              ["Media types","Photos and videos; Live Photos, GIFs, RAW, and more","Photos and videos; Live Photos, RAW, and more","Photos and videos","Photos and videos","Photos and videos; Also stores contacts","Photos and videos","Photos and videos","Photos and videos; Also stores documents and notes","Photos and videos; Supports GIF and PDF"],
+              ["Password and backup recovery","One recovery code per album for password reset and backup restore","-","Separate Cloud Vault password","-","-","-","Optional recovery email","Recovery via registered email","-"],
+              ["Account required","No signup","No account for local use; iCloud Photos needs an Apple Account","Required for Cloud Vault","-","-","Registered email for cloud sync","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "What do you get for free, and what does payment unlock?",
+            "choose": "Compare with",
+            "defaultPeer": 6,
+            "cards": [
+              [["Free",["$0"],["100 items in Everyday and 10 items in Private","On-device encryption for every imported photo and video","Free encrypted backup to a location you choose","No ads","No account required"]],["Pro lifetime offer",["$6.99"],["Removes the storage limits for both albums","All album layouts: standard, large photos, list, and compact","All 19 Home Screen icons","More Pro features in future updates","Pay once, with no renewals"],"$9.99"]],
+              [["Built in",["$0"],["Hide photos and videos","Uses device authentication","Syncs when iCloud Photos is on","No ads"]]],
+              [["Free",["$0"],["Limited storage","Contains ads","PIN lock"]],["Premium",["$6.99–$39.99"],["More storage","No ads"]]],
+              [["Free",["$0"],["Limited storage","Contains ads","Account required"]],["Premium subscription",["$9.99/month","$23.99/year"],["More storage","Cloud backup","Individual album PINs","No ads"]]],
+              [["Free",["$0"],["Limited storage","Contains ads","PIN lock"]],["Premium",["$4.99–$39.99"],["More storage","No ads"]]],
+              [["Free",["$0"],["Limited storage","Contains ads","Password lock"]],["Premium",["$1.99–$51.99"],["More storage","No ads"]]],
+              [["Free",["$0"],["Hide photos and videos","Contains ads","PIN lock"]],["Premium subscription",["$3.99/month","$17.99/year"],["No ads"]],["Lifetime membership",["$41.99"],["Pay once, with no renewals"]]],
+              [["Free",["$0"],["Hide photos and videos","Calculator disguise","Contains ads"]],["Annual subscription",["$4.99/year"],["No ads","Extra features"]],["Premium Features Pack",["$4.99"],[]]],
+              [["Free",["$0"],["Hide photos and videos","Contains ads","PIN lock"]],["App Store in-app purchases",["$4.99–$29.99"],[]],["Premium subscription reference",["$1.99/month","$5.99 per 6 months","$8.99/year"],["No ads","Cloud backup"]]]
+            ]
+          }
+        },
+        {
+          "heading": "Sharing an iPad? Keep two albums behind two passwords",
+          "paragraphs": [
+            "A family iPad often has a passcode everyone knows. Apple’s Hidden album uses device authentication. In Freezon, keep the photos you reach for often in your Everyday album and put anything you want to lock separately in your Private album. Both open from the same screen: the password you enter decides which photos you see.",
+            "Use Face ID or Touch ID for the Everyday album if you like. The Private album has its own password. On either iPhone or iPad, imported photos and videos are available offline."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Changing phones? Take your encrypted backup with you",
+          "paragraphs": [
+            "If you prefer cloud backups, look at Keepsafe’s Private Cloud or PV’s cloud sync. With Freezon, each album can have its own encrypted backup file. Save it where you want using the Files app, then select it on your new device and enter that album’s recovery code.",
+            "Import photos and videos directly from Apple Photos into Freezon. After import, you can keep the originals in Photos or follow the prompt to remove them. Moving from another vault? Export the items you want to Apple Photos first, then import them into Freezon."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Two albums for free, more room with Pro",
+          "paragraphs": [
+            "Freezon’s free version gives you two albums with separate passwords and encrypted backups, with no ads. When you need more room, a one-time Pro purchase removes the limits for both albums."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "iPhone 和 iPad 私密相簿比較：定格和 7 款 App 怎麼選？",
+      "deck": "比較定格私密相簿、其他 7 款 App 和 Apple 隱藏相簿：獨立密碼、加密、備份、廣告與美元價格。",
+      "download": "在 App Store 下載定格",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "正在替 iPhone 或 iPad 挑私密相簿？這篇一起比較「定格私密相簿」、Apple 隱藏相簿、Private Photo Vault、Keepsafe、SPV – Secret Photo Vault、Secret Photo Album – SA、PV 私密相簿管家、Calculator# 和 Safe Lock，看看獨立密碼、裝置端加密、備份、廣告和價格有什麼差別。",
+            "只是想把幾張照片從一般圖庫藏起來，Apple 內建的「隱藏」相簿就夠了。如果想替照片和影片另外設密碼，可以選定格：輸入哪組密碼，就打開哪一本相簿。照片和影片匯入時會在裝置上逐檔加密，免費版就能做加密備份，也沒有廣告。",
+            "**定格 Pro 限時 $6.99 買斷**（原價 ~~$9.99~~）。一次付費，不需續訂。優惠結束後恢復原價。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "功能比較",
+          "paragraphs": [
+            "價格統一採用美國 App Store 美元標價，查核日期：2026 年 11 月 27 日。區間為商店列出的 App 內購買金額；Safe Lock 訂閱價格為參考。"
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["比較項目","定格私密相簿","Apple 隱藏相簿","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV 私密相簿管家","Calculator#","Safe Lock"],
+            "scrollHint": "左右滑動查看所有 App。",
+            "rows": [
+              ["獨立相簿保護","✓ 兩本相簿各有密碼和金鑰","× 使用裝置驗證","✓ 個別相簿密碼、備用密碼","✓ Premium 支援個別相簿 PIN 碼","-","✓ 個別相簿 PIN 碼、備用 PIN 碼","✓ 支援個別相簿密碼、備用密碼","-","✓ 備用密碼可開啟另一個圖庫"],
+              ["裝置端逐檔 AES‑256‑GCM","✓ 匯入的照片與影片逐檔加密","-","-","-","-","-","-","-","-"],
+              ["備份","免費加密備份，可自選位置","隨 iCloud 照片同步","付費 Cloud Vault 備份","Private Cloud 雲端備份","-","付費加密雲端同步","付費雲端同步與第三方備份","支援多種雲端服務備份","支援雲端匯入與匯出"],
+              ["廣告","免費版無廣告","無廣告","可付費移除廣告","Premium 無廣告","-","-","會員可移除廣告","免費版有廣告","-"],
+              ["解鎖方式","密碼、Face ID 或 Touch ID（日常相簿）","裝置密碼、Face ID 或 Touch ID","PIN 碼與備用密碼","PIN 碼與生物辨識","PIN 碼","PIN 碼與生物辨識","密碼與 Face ID","計算機、PIN、圖形與生物辨識","PIN、圖形、手勢與生物辨識"],
+              ["iOS 鑰匙圈保護","✓ 憑證僅存於裝置的鑰匙圈","-","-","-","-","-","-","-","-"],
+              ["媒體格式","照片和影片; 原況照片、GIF、RAW 等","照片和影片; 原況照片、RAW 等","照片和影片","照片和影片","照片和影片; 也可存聯絡人","照片和影片","照片和影片","照片和影片; 也可存文件和筆記","照片和影片; 支援 GIF、PDF"],
+              ["密碼與備份復原","每本相簿各有復原碼，可重設密碼或還原備份","-","Cloud Vault 使用獨立密碼","-","-","-","可設定復原信箱","透過登記的信箱復原","-"],
+              ["帳號需求","不用註冊","本機使用不用登入；iCloud 照片需要 Apple 帳號","使用 Cloud Vault 需要帳號","-","-","雲端同步需要登記信箱","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "免費版和付費版，各有哪些功能？",
+            "choose": "選擇比較對象",
+            "defaultPeer": 6,
+            "cards": [
+              [["免費版",["$0"],["日常相簿 100 項，私密相簿 10 項","照片和影片在裝置上逐檔加密","免費加密備份，可自選儲存位置","無廣告","不需註冊帳號"]],["Pro 限時買斷",["$6.99"],["解除兩本相簿的容量限制","解鎖所有相簿版面：標準、大圖、列表、緊湊","解鎖全部 19 款主畫面圖示","後續更新將加入更多 Pro 功能","一次付費，不需續訂"],"$9.99"]],
+              [["系統內建",["$0"],["隱藏照片和影片","使用裝置驗證","開啟 iCloud 照片時可同步","無廣告"]]],
+              [["免費版",["$0"],["儲存容量有限","含廣告","PIN 碼鎖"]],["Premium",["$6.99–$39.99"],["更多儲存空間","無廣告"]]],
+              [["免費版",["$0"],["儲存容量有限","含廣告","需要帳號"]],["Premium 訂閱",["$9.99/月","$23.99/年"],["更多儲存空間","雲端備份","個別相簿 PIN 碼","無廣告"]]],
+              [["免費版",["$0"],["儲存容量有限","含廣告","PIN 碼鎖"]],["Premium",["$4.99–$39.99"],["更多儲存空間","無廣告"]]],
+              [["免費版",["$0"],["儲存容量有限","含廣告","密碼鎖"]],["Premium",["$1.99–$51.99"],["更多儲存空間","無廣告"]]],
+              [["免費版",["$0"],["隱藏照片和影片","含廣告","PIN 碼鎖"]],["Premium 訂閱",["$3.99/月","$17.99/年"],["無廣告"]],["永久會員",["$41.99"],["一次付費，不需續訂"]]],
+              [["免費版",["$0"],["隱藏照片和影片","計算機偽裝","含廣告"]],["年度訂閱",["$4.99/年"],["無廣告","更多功能"]],["進階功能包",["$4.99"],[]]],
+              [["免費版",["$0"],["隱藏照片和影片","含廣告","PIN 碼鎖"]],["App Store 內購",["$4.99–$29.99"],[]],["Premium 訂閱參考",["$1.99/月","$5.99/半年","$8.99/年"],["無廣告","雲端備份"]]]
+            ]
+          }
+        },
+        {
+          "heading": "家人共用 iPad，兩本相簿各用各的密碼",
+          "paragraphs": [
+            "家人可能都知道那台 iPad 的裝置密碼，而 Apple「隱藏」相簿使用的也是裝置驗證。可以把平常想看的照片放在定格的日常相簿，另外上鎖的照片和影片放在私密相簿。兩本相簿從同一個畫面進入，輸入不同的密碼就看到不同的內容。",
+            "平時可以用 Face ID 或 Touch ID 打開日常相簿，私密相簿則用自己的密碼。匯入完成後，在 iPhone 或 iPad 上沒有網路也能看。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "換手機時，帶走自己的加密備份",
+          "paragraphs": [
+            "習慣把備份放在雲端，可以看 Keepsafe 的 Private Cloud 或 PV 的雲端同步。用定格可以為兩本相簿分別建立加密備份，用 iPhone 或 iPad 的「檔案」存到你選的位置。換機後選擇備份檔，再輸入那本相簿的復原碼。",
+            "你可以直接把 Apple「照片」裡的照片和影片匯入定格。匯入後，可以保留原始檔，也可以依提示從系統圖庫移除。如果之前用的是其他相簿 App，先將要搬的內容匯出到 Apple「照片」，再匯入定格。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "雙相簿免費用，需要更多空間再買斷",
+          "paragraphs": [
+            "定格免費版就能為兩本相簿分別設定密碼、建立加密備份，而且沒有廣告。照片和影片越存越多時，一次買斷 Pro 就能解除兩本相簿的容量限制。"
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "ja": {
+      "title": "iPhoneとiPadの写真ロックアプリ比較：Freezonと他の7本",
+      "deck": "写真ロックアプリ8本とAppleの「非表示」アルバムを比較。パスワード、暗号化、バックアップ、広告、米ドルでの価格を確認できます。",
+      "download": "App StoreでFreezonを入手",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "iPhoneやiPadで使う写真ロックアプリを探していますか？「Freezon」、Appleの「非表示」アルバム、Private Photo Vault、Keepsafe、SPV – Secret Photo Vault、Secret Photo Album – SA、PV – Secret Photo Album、Calculator#、Safe Lockを比較します。個別のパスワード、端末内での暗号化、バックアップ、広告、価格の違いを見ていきましょう。",
+            "数枚の写真をライブラリの一覧から隠したいだけなら、Appleの写真アプリにある「非表示」アルバムで十分です。写真や動画に別のパスワードをかけたいならFreezon。入力するパスワードに応じて、開くアルバムが変わります。取り込んだファイルは端末内で個別に暗号化され、無料でも広告なしで暗号化バックアップを作れます。",
+            "**Freezon Proは期間限定で $6.99 の買い切り**（通常価格 ~~$9.99~~）。支払いは一度だけで、更新料はありません。期間終了後は通常価格に戻ります。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "機能比較",
+          "paragraphs": [
+            "価格は米国App Storeの米ドル表示で、2026年11月27日に確認。価格帯は掲載されているアプリ内課金の金額です。Safe Lockのサブスクリプションは参考価格です。"
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["比較項目","Freezon","Appleの「非表示」","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV – Secret Photo Album","Calculator#","Safe Lock"],
+            "scrollHint": "横にスクロールすると、すべてのアプリを比較できます。",
+            "rows": [
+              ["アルバム別の保護","✓ 2つのアルバムに別々のパスワードと鍵","× 端末の認証を使用","✓ アルバム別パスワードとダミーパスワード","✓ Premiumでアルバム別PIN","-","✓ アルバム別PINとダミーPIN","✓ アルバム別パスワードとダミーパスワード","-","✓ ダミーパスワードで別のギャラリーを表示"],
+              ["端末内でファイル別に AES‑256‑GCM 暗号化","✓ 取り込んだ写真と動画をファイルごとに暗号化","-","-","-","-","-","-","-","-"],
+              ["バックアップ","保存先を選べる無料の暗号化バックアップ","iCloud写真で同期","有料のCloud Vaultバックアップ","Private Cloudバックアップ","-","有料の暗号化クラウド同期","有料のクラウド同期と外部サービスへのバックアップ","複数のクラウドサービスでバックアップ","クラウドでの入出力"],
+              ["広告","無料版も広告なし","広告なし","有料で広告非表示","Premiumで広告なし","-","-","有料で広告非表示","無料版は広告あり","-"],
+              ["ロック解除","パスワード、Face ID、Touch ID（日常用）","端末のパスコード、Face ID、Touch ID","PINとダミーパスワード","PINと生体認証","PIN","PINと生体認証","パスワードとFace ID","電卓、PIN、パターン、生体認証","PIN、パターン、ジェスチャー、生体認証"],
+              ["iOSキーチェーンの保護","✓ 認証情報は端末内のキーチェーンにのみ保存","-","-","-","-","-","-","-","-"],
+              ["対応メディア","写真と動画; Live Photos、GIF、RAWなど","写真と動画; Live Photos、RAWなど","写真と動画","写真と動画","写真と動画; 連絡先にも対応","写真と動画","写真と動画","写真と動画; 文書やメモにも対応","写真と動画; GIF、PDFに対応"],
+              ["パスワードとバックアップの復元","アルバムごとの復旧コードでパスワードやバックアップを復元","-","Cloud Vault専用パスワード","-","-","-","復旧用メールアドレスを設定可能","登録したメールアドレスで復旧","-"],
+              ["アカウント","登録不要","端末内の利用は不要。iCloud写真にはApple Accountが必要","Cloud Vaultの利用にはアカウントが必要","-","-","クラウド同期にはメールアドレスの登録が必要","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "無料で使える機能と、有料で増える機能",
+            "choose": "比較するアプリ",
+            "defaultPeer": 6,
+            "cards": [
+              [["無料版",["$0"],["日常用は100件、プライベート用は10件","取り込んだ写真や動画を端末内でファイルごとに暗号化","保存先を選べる無料の暗号化バックアップ","広告なし","アカウント不要"]],["Proの期間限定買い切り",["$6.99"],["両方のアルバムの容量制限を解除","すべてのアルバム表示：標準、大きな写真、リスト、コンパクト","全19種類のホーム画面アイコン","今後のアップデートでPro機能を追加","一度の支払いで更新料なし"],"$9.99"]],
+              [["標準機能",["$0"],["写真や動画の非表示","端末認証を使用","iCloud写真をオンにすると同期","広告なし"]]],
+              [["無料版",["$0"],["保存容量に制限あり","広告あり","PINでロック"]],["Premium",["$6.99–$39.99"],["保存容量を追加","広告なし"]]],
+              [["無料版",["$0"],["保存容量に制限あり","広告あり","アカウントが必要"]],["Premiumサブスクリプション",["月額 $9.99","年額 $23.99"],["保存容量を追加","クラウドバックアップ","アルバム別PIN","広告なし"]]],
+              [["無料版",["$0"],["保存容量に制限あり","広告あり","PINでロック"]],["Premium",["$4.99–$39.99"],["保存容量を追加","広告なし"]]],
+              [["無料版",["$0"],["保存容量に制限あり","広告あり","パスワードでロック"]],["Premium",["$1.99–$51.99"],["保存容量を追加","広告なし"]]],
+              [["無料版",["$0"],["写真や動画の非表示","広告あり","PINでロック"]],["Premiumサブスクリプション",["月額 $3.99","年額 $17.99"],["広告なし"]],["買い切り会員",["$41.99"],["一度の支払いで更新料なし"]]],
+              [["無料版",["$0"],["写真や動画の非表示","電卓に見せかける機能","広告あり"]],["年間サブスクリプション",["年額 $4.99"],["広告なし","追加機能"]],["プレミアム機能パック",["$4.99"],[]]],
+              [["無料版",["$0"],["写真や動画の非表示","広告あり","PINでロック"]],["App Storeのアプリ内課金",["$4.99–$29.99"],[]],["Premiumの参考価格",["月額 $1.99","半年 $5.99","年額 $8.99"],["広告なし","クラウドバックアップ"]]]
+            ]
+          }
+        },
+        {
+          "heading": "家族で使うiPadなら、アルバムごとに別のパスワード",
+          "paragraphs": [
+            "家族みんながiPadのパスコードを知っているなら、端末の認証で開く「非表示」アルバムより、別のパスワードを使うほうが便利です。Freezonでは、よく見る写真は日常用に、別でロックしたい写真や動画はプライベート用に分けられます。入口は同じで、入力したパスワードで開くアルバムが決まります。",
+            "日常用はFace IDやTouch IDでも開けます。プライベート用は専用のパスワードでロックします。取り込んだ写真や動画は、iPhoneでもiPadでもオフラインで見られます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "機種変更に備えて、暗号化バックアップを手元に",
+          "paragraphs": [
+            "クラウドに任せたいなら、KeepsafeのPrivate CloudやPVのクラウド同期が候補です。Freezonではアルバムごとに暗号化バックアップを作り、「ファイル」アプリで保存先を選べます。新しい端末でバックアップを選び、そのアルバムの復旧コードを入力すれば復元できます。",
+            "Appleの「写真」アプリから、写真や動画をFreezonに直接取り込めます。取り込み後は、元のファイルを「写真」に残すか、画面の案内に従って削除するかを選べます。別の写真ロックアプリから移す場合は、移したい写真や動画を「写真」に書き出してからFreezonに取り込みます。"
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "2つのアルバムは無料、容量制限の解除は買い切り",
+          "paragraphs": [
+            "Freezonの無料版でも、2つのアルバムに別々のパスワードをかけて、暗号化バックアップを作れます。広告もありません。写真や動画が増えたら、Proの買い切りで両方のアルバムの容量制限を解除できます。"
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "ko": {
+      "title": "아이폰과 아이패드 비밀 앨범 앱 비교: Freezon과 다른 앱 7종",
+      "deck": "비밀 앨범 앱 8종과 애플의 가려진 앨범을 비교해 보세요. 별도 암호, 암호화, 백업, 광고와 미국 달러 가격을 확인할 수 있어요.",
+      "download": "App Store에서 Freezon 다운로드",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "아이폰이나 아이패드에 쓸 비밀 앨범 앱을 찾고 있나요? ‘Freezon’, 애플의 가려진 앨범, Private Photo Vault, Keepsafe, SPV – Secret Photo Vault, Secret Photo Album – SA, PV – Secret Photo Album, Calculator#, Safe Lock을 비교해 봤어요. 별도 암호와 기기 내 암호화, 백업, 광고, 가격이 어떻게 다른지 살펴보세요.",
+            "사진 몇 장을 기본 보관함에서 숨기고 싶다면 애플 사진 앱의 ‘가려진 항목’이면 충분해요. 사진과 동영상에 기기 암호와 다른 암호를 걸고 싶다면 Freezon을 써 보세요. 입력하는 암호에 따라 서로 다른 앨범이 열려요. 가져온 파일은 기기에서 하나씩 암호화되고, 무료 버전에서도 광고 없이 암호화 백업을 만들 수 있어요.",
+            "**Freezon Pro는 기간 한정 $6.99에 평생 이용**할 수 있어요. 한 번만 결제하면 갱신할 필요가 없어요. 할인이 끝나면 정상가 ~~$9.99~~로 돌아갑니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "기능 비교",
+          "paragraphs": [
+            "2026년 11월 27일에 확인한 미국 App Store의 미국 달러 가격입니다. 범위는 스토어에 표시된 앱 내 구입 금액이며 Safe Lock 구독료는 참고 가격입니다."
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["비교 항목","Freezon","애플 가려진 앨범","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV – Secret Photo Album","Calculator#","Safe Lock"],
+            "scrollHint": "옆으로 스크롤하면 모든 앱을 볼 수 있어요.",
+            "rows": [
+              ["앨범별 보호","✓ 두 앨범에 각각 별도 암호와 키","× 기기 인증 사용","✓ 앨범별 암호와 위장용 암호","✓ Premium에서 앨범별 PIN","-","✓ 앨범별 PIN과 위장용 PIN","✓ 앨범별 암호와 위장용 암호","-","✓ 위장용 암호로 다른 갤러리 열기"],
+              ["기기 내 파일별 AES‑256‑GCM","✓ 가져온 사진과 동영상을 파일별로 암호화","-","-","-","-","-","-","-","-"],
+              ["백업","저장 위치를 고르는 무료 암호화 백업","iCloud 사진으로 동기화","유료 Cloud Vault 백업","Private Cloud 백업","-","유료 암호화 클라우드 동기화","유료 클라우드 동기화 및 외부 서비스 백업","여러 클라우드 서비스로 백업","클라우드 가져오기와 내보내기"],
+              ["광고","무료 버전도 광고 없음","광고 없음","유료 광고 제거","Premium에서 광고 제거","-","-","유료 광고 제거","무료 버전은 광고 있음","-"],
+              ["잠금 해제","암호, Face ID 또는 Touch ID (일상 앨범)","기기 암호, Face ID 또는 Touch ID","PIN과 위장용 암호","PIN과 생체 인증","PIN","PIN과 생체 인증","암호와 Face ID","계산기, PIN, 패턴, 생체 인증","PIN, 패턴, 제스처, 생체 인증"],
+              ["iOS 키체인 보호","✓ 인증 정보는 기기 키체인에만 저장","-","-","-","-","-","-","-","-"],
+              ["미디어 형식","사진과 동영상; Live Photos, GIF, RAW 등","사진과 동영상; Live Photos, RAW 등","사진과 동영상","사진과 동영상","사진과 동영상; 연락처도 저장","사진과 동영상","사진과 동영상","사진과 동영상; 문서와 메모도 저장","사진과 동영상; GIF와 PDF 지원"],
+              ["암호 및 백업 복구","앨범별 복구 코드로 암호 재설정 및 백업 복원","-","별도 Cloud Vault 암호","-","-","-","복구용 이메일 설정 가능","등록한 이메일로 복구","-"],
+              ["계정 필요 여부","가입 불필요","기기에서만 사용할 때는 불필요. iCloud 사진은 Apple 계정 필요","Cloud Vault 이용 시 계정 필요","-","-","클라우드 동기화 시 이메일 등록 필요","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "무료 기능과 유료 혜택 비교",
+            "choose": "비교할 앱 선택",
+            "defaultPeer": 6,
+            "cards": [
+              [["무료 버전",["$0"],["일상 앨범 100개, 비밀 앨범 10개","가져온 사진과 동영상을 기기에서 파일별로 암호화","저장 위치를 고르는 무료 암호화 백업","광고 없음","계정 불필요"]],["Pro 기간 한정 평생 이용",["$6.99"],["두 앨범의 용량 제한 해제","모든 앨범 레이아웃: 표준, 큰 사진, 목록, 컴팩트","홈 화면 아이콘 19종 모두 사용","향후 업데이트에서 더 많은 Pro 기능 추가","한 번만 결제, 갱신 없음"],"$9.99"]],
+              [["기본 기능",["$0"],["사진과 동영상 숨기기","기기 인증 사용","iCloud 사진이 켜져 있으면 동기화","광고 없음"]]],
+              [["무료 버전",["$0"],["저장 용량 제한","광고 있음","PIN 잠금"]],["Premium",["$6.99–$39.99"],["더 많은 저장 공간","광고 없음"]]],
+              [["무료 버전",["$0"],["저장 용량 제한","광고 있음","계정 필요"]],["Premium 구독",["월 $9.99","연 $23.99"],["더 많은 저장 공간","클라우드 백업","앨범별 PIN","광고 없음"]]],
+              [["무료 버전",["$0"],["저장 용량 제한","광고 있음","PIN 잠금"]],["Premium",["$4.99–$39.99"],["더 많은 저장 공간","광고 없음"]]],
+              [["무료 버전",["$0"],["저장 용량 제한","광고 있음","암호 잠금"]],["Premium",["$1.99–$51.99"],["더 많은 저장 공간","광고 없음"]]],
+              [["무료 버전",["$0"],["사진과 동영상 숨기기","광고 있음","PIN 잠금"]],["Premium 구독",["월 $3.99","연 $17.99"],["광고 없음"]],["평생 멤버십",["$41.99"],["한 번만 결제, 갱신 없음"]]],
+              [["무료 버전",["$0"],["사진과 동영상 숨기기","계산기 위장","광고 있음"]],["연간 구독",["연 $4.99"],["광고 없음","추가 기능"]],["프리미엄 기능 팩",["$4.99"],[]]],
+              [["무료 버전",["$0"],["사진과 동영상 숨기기","광고 있음","PIN 잠금"]],["App Store 앱 내 구입",["$4.99–$29.99"],[]],["Premium 구독 참고 가격",["월 $1.99","6개월 $5.99","연 $8.99"],["광고 없음","클라우드 백업"]]]
+            ]
+          }
+        },
+        {
+          "heading": "아이패드를 같이 쓴다면, 앨범마다 다른 암호",
+          "paragraphs": [
+            "가족이 함께 쓰는 아이패드는 기기 암호를 여러 사람이 알기도 하죠. 애플의 ‘가려진 항목’은 기기 인증을 사용합니다. Freezon에서는 자주 보는 사진을 일상 앨범에, 따로 잠그고 싶은 사진과 동영상을 비밀 앨범에 넣을 수 있어요. 같은 화면에서 어떤 암호를 입력하느냐에 따라 다른 앨범이 열립니다.",
+            "일상 앨범은 Face ID나 Touch ID로 열고, 비밀 앨범은 전용 암호로 열 수 있어요. 아이폰이든 아이패드든 가져온 사진과 동영상은 오프라인에서도 볼 수 있습니다."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "기기를 바꿀 때는 암호화 백업을 옮기세요",
+          "paragraphs": [
+            "클라우드로 백업하고 싶다면 Keepsafe의 Private Cloud나 PV의 클라우드 동기화를 살펴보세요. Freezon은 앨범마다 별도의 암호화 백업을 만들고, ‘파일’ 앱에서 원하는 위치에 저장할 수 있어요. 새 기기에서 백업을 선택한 뒤 해당 앨범의 복구 코드를 입력하면 됩니다.",
+            "애플 사진 앱에서 사진과 동영상을 Freezon으로 바로 가져올 수 있어요. 가져온 뒤 원본은 사진 앱에 남겨 두거나 안내에 따라 삭제할 수 있어요. 다른 앨범 앱을 쓰고 있었다면 옮길 항목을 사진 앱으로 내보낸 다음 Freezon으로 가져오세요."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "두 앨범은 무료, 공간이 더 필요할 때 Pro",
+          "paragraphs": [
+            "Freezon 무료 버전에서는 두 앨범에 각각 암호를 설정하고 암호화 백업을 만들 수 있어요. 광고도 없어요. 사진과 동영상이 늘어나면 Pro를 한 번만 구매해 두 앨범의 용량 제한을 해제할 수 있어요."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "es-419": {
+      "title": "Bóvedas de fotos para iPhone y iPad: Freezon y 7 alternativas",
+      "deck": "Compara ocho bóvedas de fotos y el álbum Oculto de Apple: contraseñas, cifrado, copias, anuncios y precios en dólares estadounidenses.",
+      "download": "Descargar Freezon en el App Store",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "¿Buscas una bóveda de fotos para iPhone o iPad? Comparamos «Freezon», el álbum Oculto de Apple, Private Photo Vault, Keepsafe, SPV – Secret Photo Vault, Secret Photo Album – SA, PV – Secret Photo Album, Calculator# y Safe Lock. Puedes ver cuáles ofrecen contraseñas separadas, cifrado en el dispositivo, copias de seguridad y uso sin anuncios, y cuánto cuesta cada opción.",
+            "Si solo quieres ocultar unas cuantas fotos de la fototeca principal, el álbum Oculto de Apple es suficiente. Si prefieres guardar fotos y videos bajo una contraseña distinta, prueba Freezon. Cada contraseña abre su propio álbum. La app cifra cada archivo que importas en el dispositivo y permite hacer copias cifradas en la versión gratuita, sin anuncios.",
+            "**Freezon Pro cuesta $6.99 por tiempo limitado** (precio habitual: ~~$9.99~~). Es un solo pago, sin renovaciones. Al terminar la oferta vuelve el precio habitual."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Comparación de funciones",
+          "paragraphs": [
+            "Precios de la App Store de EE. UU. en dólares estadounidenses, consultados el 27 de noviembre de 2026. Los rangos son de compras dentro de la app. Las suscripciones de Safe Lock se muestran como referencia."
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["Característica","Freezon","Álbum Oculto de Apple","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV – Secret Photo Album","Calculator#","Safe Lock"],
+            "scrollHint": "Desliza la tabla hacia los lados para ver todas las apps.",
+            "rows": [
+              ["Protección por álbum","✓ Dos álbumes con contraseñas y claves distintas","× Usa la autenticación del dispositivo","✓ Contraseñas por álbum y contraseña señuelo","✓ PIN por álbum con Premium","-","✓ PIN por álbum y PIN señuelo","✓ Contraseñas por álbum y contraseña señuelo","-","✓ Contraseña señuelo para otra galería"],
+              ["AES‑256‑GCM por archivo en el dispositivo","✓ Cifra cada foto y video que importas","-","-","-","-","-","-","-","-"],
+              ["Copias de seguridad","Copia cifrada gratis en la ubicación que elijas","Sincroniza con Fotos en iCloud","Copias con Cloud Vault de pago","Copias con Private Cloud","-","Sincronización cifrada de pago","Sincronización y copias con terceros de pago","Copias con varios servicios en la nube","Importación y exportación en la nube"],
+              ["Anuncios","Sin anuncios, incluso en la versión gratis","Sin anuncios","Se pueden quitar los anuncios pagando","Sin anuncios con Premium","-","-","Opción de pago sin anuncios","Anuncios en la versión gratis","-"],
+              ["Opciones de desbloqueo","Contraseña, Face ID o Touch ID (álbum diario)","Código del dispositivo, Face ID o Touch ID","PIN y contraseña señuelo","PIN y biometría","PIN","PIN y biometría","Contraseña y Face ID","Calculadora, PIN, patrón y biometría","PIN, patrón, gestos y biometría"],
+              ["Protección con el llavero de iOS","✓ Credenciales solo en el llavero del dispositivo","-","-","-","-","-","-","-","-"],
+              ["Tipos de archivos","Fotos y videos; Live Photos, GIF, RAW y más","Fotos y videos; Live Photos, RAW y más","Fotos y videos","Fotos y videos","Fotos y videos; También guarda contactos","Fotos y videos","Fotos y videos","Fotos y videos; También guarda documentos y notas","Fotos y videos; Admite GIF y PDF"],
+              ["Recuperación y restauración","Un código por álbum para restablecer la contraseña y restaurar la copia","-","Contraseña separada de Cloud Vault","-","-","-","Correo de recuperación opcional","Recuperación mediante correo registrado","-"],
+              ["Cuenta","No requiere registro","Sin cuenta para uso local; Fotos en iCloud requiere una cuenta de Apple","Cuenta para Cloud Vault","-","-","Correo registrado para la sincronización","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "Qué incluye la versión gratis y qué obtienes al pagar",
+            "choose": "Comparar con",
+            "defaultPeer": 6,
+            "cards": [
+              [["Versión gratis",["$0"],["100 archivos en el álbum diario y 10 en el privado","Cifra cada foto y video importado en el dispositivo","Copia cifrada gratis en la ubicación que elijas","Sin anuncios","Sin cuenta"]],["Pro de por vida en oferta",["$6.99"],["Elimina los límites de los dos álbumes","Todos los diseños: estándar, fotos grandes, lista y compacto","Los 19 iconos de la pantalla de inicio","Más funciones Pro en futuras actualizaciones","Un solo pago, sin renovaciones"],"$9.99"]],
+              [["Incluido en el sistema",["$0"],["Oculta fotos y videos","Usa la autenticación del dispositivo","Sincroniza con Fotos en iCloud si está activado","Sin anuncios"]]],
+              [["Versión gratis",["$0"],["Almacenamiento limitado","Con anuncios","Bloqueo con PIN"]],["Premium",["$6.99–$39.99"],["Más almacenamiento","Sin anuncios"]]],
+              [["Versión gratis",["$0"],["Almacenamiento limitado","Con anuncios","Requiere cuenta"]],["Suscripción Premium",["$9.99 al mes","$23.99 al año"],["Más almacenamiento","Copias en la nube","PIN por álbum","Sin anuncios"]]],
+              [["Versión gratis",["$0"],["Almacenamiento limitado","Con anuncios","Bloqueo con PIN"]],["Premium",["$4.99–$39.99"],["Más almacenamiento","Sin anuncios"]]],
+              [["Versión gratis",["$0"],["Almacenamiento limitado","Con anuncios","Bloqueo con contraseña"]],["Premium",["$1.99–$51.99"],["Más almacenamiento","Sin anuncios"]]],
+              [["Versión gratis",["$0"],["Oculta fotos y videos","Con anuncios","Bloqueo con PIN"]],["Suscripción Premium",["$3.99 al mes","$17.99 al año"],["Sin anuncios"]],["Membresía de por vida",["$41.99"],["Un solo pago, sin renovaciones"]]],
+              [["Versión gratis",["$0"],["Oculta fotos y videos","Disfraz de calculadora","Con anuncios"]],["Suscripción anual",["$4.99 al año"],["Sin anuncios","Funciones adicionales"]],["Paquete prémium",["$4.99"],[]]],
+              [["Versión gratis",["$0"],["Oculta fotos y videos","Con anuncios","Bloqueo con PIN"]],["Compras dentro de la app",["$4.99–$29.99"],[]],["Precios Premium de referencia",["$1.99 al mes","$5.99 por 6 meses","$8.99 al año"],["Sin anuncios","Copias en la nube"]]]
+            ]
+          }
+        },
+        {
+          "heading": "¿Compartes un iPad? Usa dos álbumes con contraseñas distintas",
+          "paragraphs": [
+            "En un iPad familiar, varias personas pueden conocer el código del dispositivo, que se usa al autenticar el álbum Oculto. En Freezon puedes dejar las fotos que más ves en el álbum de uso diario y poner las que quieres proteger por separado en el álbum privado. Ambos se abren desde la misma pantalla: la contraseña que escribes decide cuál se abre.",
+            "El álbum de uso diario se puede abrir con Face ID o Touch ID. El álbum privado conserva su propia contraseña. Una vez importados, puedes ver tus archivos sin conexión en el iPhone o el iPad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Llévate la copia cifrada cuando cambies de dispositivo",
+          "paragraphs": [
+            "Si prefieres la nube, puedes usar Private Cloud de Keepsafe o la sincronización de PV. Freezon te permite guardar una copia cifrada por álbum en la ubicación que elijas desde la app Archivos. En el dispositivo nuevo, elige la copia e ingresa el código de recuperación de ese álbum.",
+            "Puedes importar fotos y videos directamente desde Fotos de Apple a Freezon. Después de importarlos, puedes conservar los originales en Fotos o seguir el aviso para eliminarlos. Si usabas otra bóveda, exporta a Fotos de Apple lo que quieras trasladar y luego impórtalo en Freezon."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Dos álbumes gratis y más espacio con Pro",
+          "paragraphs": [
+            "La versión gratis de Freezon incluye dos álbumes con contraseñas separadas y copias de seguridad cifradas, sin anuncios. Cuando necesites más espacio para tus fotos y videos, un solo pago de Pro elimina los límites de ambos álbumes."
+          ],
+          "bullets": []
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Cofres de fotos para iPhone e iPad: Freezon e 7 alternativas",
+      "deck": "Compare oito cofres de fotos e o álbum Ocultos da Apple: senhas, criptografia, backups, anúncios e preços em dólares americanos.",
+      "download": "Baixar o Freezon na App Store",
+      "captions": [],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Procurando um cofre de fotos para iPhone ou iPad? Comparamos o “Freezon”, o álbum Ocultos da Apple, Private Photo Vault, Keepsafe, SPV – Secret Photo Vault, Secret Photo Album – SA, PV – Secret Photo Album, Calculator# e Safe Lock. Veja quais opções têm senhas separadas, criptografia no aparelho, backup e uso sem anúncios, e quanto cada uma custa.",
+            "Se você só quer tirar algumas fotos da biblioteca principal, o álbum Ocultos da Apple já resolve. Para guardar fotos e vídeos com uma senha separada, experimente o Freezon. Cada senha abre um álbum diferente. Os arquivos importados são criptografados no aparelho, um a um. A versão gratuita já permite fazer backup criptografado e não tem anúncios.",
+            "**Freezon Pro sai por $6.99 em compra única por tempo limitado** (preço normal: ~~$9.99~~). Você paga uma vez, sem renovação. Após a promoção, o preço normal volta."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Comparação de recursos",
+          "paragraphs": [
+            "Preços da App Store dos EUA em dólares americanos, consultados em 27 de novembro de 2026. As faixas refletem as compras no app. As assinaturas do Safe Lock são preços de referência."
+          ],
+          "bullets": [],
+          "comparison": {
+            "columns": ["Recurso","Freezon","Álbum Ocultos da Apple","Private Photo Vault","Keepsafe","SPV – Secret Photo Vault","Secret Photo Album – SA","PV – Secret Photo Album","Calculator#","Safe Lock"],
+            "scrollHint": "Deslize a tabela para os lados para ver todos os apps.",
+            "rows": [
+              ["Proteção por álbum","✓ Dois álbuns com senhas e chaves próprias","× Usa a autenticação do aparelho","✓ Senhas por álbum e senha alternativa","✓ PIN por álbum com Premium","-","✓ PIN por álbum e PIN alternativo","✓ Senhas por álbum e senha alternativa","-","✓ Senha alternativa abre outra galeria"],
+              ["AES‑256‑GCM por arquivo no aparelho","✓ Criptografa cada foto e vídeo importado","-","-","-","-","-","-","-","-"],
+              ["Backup","Backup criptografado grátis onde você escolher","Sincroniza com o Fotos do iCloud","Backup pago com Cloud Vault","Backup com Private Cloud","-","Sincronização criptografada paga","Sincronização e backup de terceiros pagos","Backup com vários serviços de nuvem","Importação e exportação na nuvem"],
+              ["Anúncios","Sem anúncios, inclusive no plano gratuito","Sem anúncios","Opção paga para remover anúncios","Sem anúncios com Premium","-","-","Opção paga para remover anúncios","Anúncios na versão gratuita","-"],
+              ["Opções de desbloqueio","Senha, Face ID ou Touch ID (álbum de uso diário)","Código do aparelho, Face ID ou Touch ID","PIN e senha alternativa","PIN e biometria","PIN","PIN e biometria","Senha e Face ID","Calculadora, PIN, padrão e biometria","PIN, padrão, gestos e biometria"],
+              ["Proteção pelas Chaves do iOS","✓ Credenciais apenas nas Chaves do aparelho","-","-","-","-","-","-","-","-"],
+              ["Tipos de arquivo","Fotos e vídeos; Live Photos, GIF, RAW e mais","Fotos e vídeos; Live Photos, RAW e mais","Fotos e vídeos","Fotos e vídeos","Fotos e vídeos; Também guarda contatos","Fotos e vídeos","Fotos e vídeos","Fotos e vídeos; Também guarda documentos e notas","Fotos e vídeos; Aceita GIF e PDF"],
+              ["Recuperação de senha e backup","Um código por álbum para redefinir a senha e restaurar o backup","-","Senha separada para o Cloud Vault","-","-","-","E-mail de recuperação opcional","Recuperação pelo e-mail cadastrado","-"],
+              ["Conta","Não exige cadastro","Sem conta para uso local; Fotos do iCloud requer uma Conta Apple","Conta para o Cloud Vault","-","-","E-mail cadastrado para a sincronização","-","-","-"]
+            ]
+          },
+          "pricing": {
+            "heading": "O que é grátis e o que a versão paga libera?",
+            "choose": "Comparar com",
+            "defaultPeer": 6,
+            "cards": [
+              [["Versão grátis",["$0"],["100 itens no álbum diário e 10 no privado","Criptografa cada foto e vídeo importado no aparelho","Backup criptografado grátis onde você escolher","Sem anúncios","Sem cadastro"]],["Pro vitalício na promoção",["$6.99"],["Remove os limites dos dois álbuns","Todos os layouts: padrão, fotos grandes, lista e compacto","Todos os 19 ícones da Tela de Início","Mais recursos Pro em futuras atualizações","Compra única, sem renovação"],"$9.99"]],
+              [["Incluído no sistema",["$0"],["Oculta fotos e vídeos","Usa a autenticação do aparelho","Sincroniza se o Fotos do iCloud estiver ativo","Sem anúncios"]]],
+              [["Versão grátis",["$0"],["Armazenamento limitado","Com anúncios","Bloqueio por PIN"]],["Premium",["$6.99–$39.99"],["Mais espaço","Sem anúncios"]]],
+              [["Versão grátis",["$0"],["Armazenamento limitado","Com anúncios","Exige conta"]],["Assinatura Premium",["$9.99 por mês","$23.99 por ano"],["Mais espaço","Backup na nuvem","PIN por álbum","Sem anúncios"]]],
+              [["Versão grátis",["$0"],["Armazenamento limitado","Com anúncios","Bloqueio por PIN"]],["Premium",["$4.99–$39.99"],["Mais espaço","Sem anúncios"]]],
+              [["Versão grátis",["$0"],["Armazenamento limitado","Com anúncios","Bloqueio por senha"]],["Premium",["$1.99–$51.99"],["Mais espaço","Sem anúncios"]]],
+              [["Versão grátis",["$0"],["Oculta fotos e vídeos","Com anúncios","Bloqueio por PIN"]],["Assinatura Premium",["$3.99 por mês","$17.99 por ano"],["Sem anúncios"]],["Compra vitalícia",["$41.99"],["Compra única, sem renovação"]]],
+              [["Versão grátis",["$0"],["Oculta fotos e vídeos","Disfarce de calculadora","Com anúncios"]],["Assinatura anual",["$4.99 por ano"],["Sem anúncios","Recursos extras"]],["Pacote Premium",["$4.99"],[]]],
+              [["Versão grátis",["$0"],["Oculta fotos e vídeos","Com anúncios","Bloqueio por PIN"]],["Compras no app da App Store",["$4.99–$29.99"],[]],["Preços Premium de referência",["$1.99 por mês","$5.99 por 6 meses","$8.99 por ano"],["Sem anúncios","Backup na nuvem"]]]
+            ]
+          }
+        },
+        {
+          "heading": "Divide o iPad com a família? Use dois álbuns com senhas diferentes",
+          "paragraphs": [
+            "Quando o iPad é da família, muita gente pode saber o código do aparelho, usado na autenticação do álbum Ocultos. No Freezon, você pode colocar as fotos que consulta com frequência no álbum de uso diário e guardar as outras em um álbum privado. Os dois abrem pela mesma tela: a senha digitada determina qual álbum você vê.",
+            "O álbum de uso diário pode abrir com Face ID ou Touch ID. O álbum privado tem sua própria senha. Depois da importação, você pode ver as fotos e os vídeos mesmo sem internet no iPhone ou no iPad."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Vai trocar de aparelho? Leve seu backup criptografado",
+          "paragraphs": [
+            "Se você prefere guardar o backup na nuvem, pode usar o Private Cloud do Keepsafe ou a sincronização do PV. No Freezon, dá para guardar um backup criptografado de cada álbum no local que você escolher pelo app Arquivos. No novo aparelho, selecione o backup e digite o código de recuperação daquele álbum.",
+            "Você pode importar fotos e vídeos direto do app Fotos da Apple para o Freezon. Depois, é só manter os originais no Fotos ou seguir o aviso para removê-los. Se usava outro cofre, exporte para o Fotos os itens que quer transferir e depois importe no Freezon."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Dois álbuns grátis e mais espaço com o Pro",
+          "paragraphs": [
+            "A versão grátis do Freezon inclui dois álbuns com senhas separadas e backup criptografado, sem anúncios. Quando precisar de mais espaço para fotos e vídeos, uma única compra do Pro remove os limites dos dois álbuns."
+          ],
+          "bullets": []
+        }
+      ]
+    }
+  }
+}

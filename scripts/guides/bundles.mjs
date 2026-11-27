@@ -35,6 +35,26 @@ export function guideBundles(dir, reservedSlug) {
       for (const section of entry.sections) {
         check(section && (section.heading === '' || plain(section.heading, 150)) && Array.isArray(section.paragraphs) && section.paragraphs.length > 0 && section.paragraphs.length <= 12 && section.paragraphs.every(paragraph => plain(paragraph)), `invalid section for ${lang}`);
         check(Array.isArray(section.bullets) && section.bullets.length <= 8 && section.bullets.every(bullet => plain(bullet)), `invalid list for ${lang}`);
+        if (section.comparison) {
+          const { columns, rows, scrollHint } = section.comparison;
+          check(section.heading && plain(scrollHint, 150) &&
+            Array.isArray(columns) && columns.length >= 3 && columns.length <= 12 && columns.every(column => plain(column, 65)) &&
+            Array.isArray(rows) && rows.length >= 2 && rows.length <= 12 &&
+            rows.every(row => Array.isArray(row) && row.length === columns.length && row.every(cell => plain(cell, 150))),
+          `invalid comparison table for ${lang}`);
+          if (section.pricing) {
+            const { heading, choose, defaultPeer, cards } = section.pricing;
+            check(plain(heading, 100) && plain(choose, 90) && Number.isInteger(defaultPeer) &&
+              defaultPeer > 0 && defaultPeer < columns.length - 1 && Array.isArray(cards) && cards.length === columns.length - 1 &&
+              cards.every(card => Array.isArray(card) && card.length >= 1 && card.length <= 4 &&
+                card.every(tier => Array.isArray(tier) && (tier.length === 3 || tier.length === 4) &&
+                  plain(tier[0], 60) && Array.isArray(tier[1]) && tier[1].length >= 1 && tier[1].length <= 3 &&
+                  tier[1].every(price => plain(price, 60)) && Array.isArray(tier[2]) && tier[2].length <= 6 &&
+                  tier[2].every(benefit => plain(benefit, 130)) &&
+                  (tier.length === 3 || plain(tier[3], 80)))),
+            `invalid pricing comparison for ${lang}`);
+          }
+        }
       }
       check(screenSections.every(i => i < entry.sections.length), `screenshot section missing in ${lang}`);
     }
