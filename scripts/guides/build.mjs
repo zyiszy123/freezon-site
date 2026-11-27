@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { englishScreenshotNotes, guideActionLabels, guidePagerLabels, locales } from './locales.mjs';
 import { article } from './photo-vault.mjs';
-import { appStoreURL, guideBundles, productLanguage, products } from './bundles.mjs';
+import { appStoreURL, guideBundles, productLanguage, products, productURL } from './bundles.mjs';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const origin = 'https://freezonapp.com';
@@ -74,7 +74,7 @@ function guidePricing({ heading, choose, defaultPeer, cards }, names, id, notes)
 }
 const split = (data) => data.trim().split('\n').map(line => line.trim());
 const campaignURL = (country) => `https://apps.apple.com/${country}/app/id6810494416?pt=129433115&ct=website_hidden_album_guide&mt=8`;
-const featuresLink = (lang, className, product = 'vault') => `<a class="${className}" href="${products[product].route}?lang=${productLanguage(lang, product)}#${products[product].anchor}">${html(guideActionLabels[lang].features)}</a>`;
+const featuresLink = (lang, className, product = 'vault') => `<a class="${className}" href="${productURL(lang, product)}#${products[product].anchor}">${html(guideActionLabels[lang].features)}</a>`;
 function guideCover(topic) {
   const url = `/guides/media/${topic}/cover.webp`;
   return topic && existsSync(resolve(root, url.slice(1))) ? url : '';
@@ -104,7 +104,7 @@ function replaceRegion(path, key, content) {
 function layout(lang, topic, title, description, body, product = 'vault', hasComparison = false) {
   const [ , , guides, , , , support, privacy, skip ] = locales[lang];
   const canonical = origin + guidePath(lang, topic);
-  const { icon, key, route } = products[product];
+  const { icon, key } = products[product];
   const productLang = productLanguage(lang, product);
   const cover = guideCover(topic);
   return `<!doctype html>
@@ -130,7 +130,7 @@ function layout(lang, topic, title, description, body, product = 'vault', hasCom
 <body class="guide-page">
   <a class="skip-link" href="#main-content">${html(skip)}</a>
   <header class="site-nav"><div class="nav-inner">
-    <a class="brand-lockup" href="${route}?lang=${productLang}"><img src="/assets/${icon}" width="32" height="32" alt="">Freezon</a>
+    <a class="brand-lockup" href="${productURL(lang, product)}"><img src="/assets/${icon}" width="32" height="32" alt="">Freezon</a>
     <nav class="guide-nav" aria-label="Freezon">
       ${topic ? `<a class="site-nav-link" href="${guidePath(lang)}">${html(guides)}</a>` : ''}
       ${featuresLink(lang, 'site-nav-link', product)}

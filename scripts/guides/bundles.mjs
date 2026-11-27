@@ -9,6 +9,11 @@ export const products = {
 };
 
 export const productLanguage = (lang, product) => product === 'banner' && ['es-419', 'pt-BR'].includes(lang) ? 'en' : lang;
+export const productURL = (lang, product) => {
+  const route = products[product].route;
+  const locale = productLanguage(lang, product);
+  return locale === 'en' ? `/en${route}` : locale === 'zh-Hans' ? route : `${route}?lang=${locale}`;
+};
 export const campaignToken = slug => `web_${slug.slice(0, 17)}_${createHash('sha256').update(slug).digest('hex').slice(0, 8)}`;
 export const appStoreURL = (slug, product, lang) => {
   const path = lang === 'en' ? '/app/apple-store/' : `/${locales[lang][1]}/app/`;

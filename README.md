@@ -4,12 +4,15 @@ Official product, support, and privacy pages for Freezon and Freezon Banner.
 
 - Freezon: `/`, `/support/freezon/`, `/privacy/freezon/`
 - Freezon Banner: `/freezon-banner/`, `/support/freezon-banner/`, `/privacy/freezon-banner/`
+- English product pages: `/en/` and `/en/freezon-banner/`. The old `?lang=en` product links still lead to these pages in browsers.
 - Guides: `/guides/` in English and `/guides/<locale>/` in the six other site languages.
 - Legacy `/support/` and `/privacy/` links redirect to the Freezon pages.
 
 The site uses static HTML, CSS, and JavaScript. No build is required. Language preference is stored locally in the browser.
 
-For local preview, run `python3 -m http.server 4173 --bind 127.0.0.1`.
+After editing either product page's English content or shared markup, run `node scripts/products/build.mjs` and commit the two generated pages with their sources. The English pages include their localized text, metadata, and images in HTML.
+
+For local preview, run `python3 -m http.server 4173 --bind 127.0.0.1`. Run the vault verification helper against that server, or set `FREEZON_VERIFY_BASE` to another preview URL.
 
 Guides use `guides/<slug>/index.html` and the shared `assets/guides.css`. Use the confirmed article copy and a canonical URL matching the route. New guides share one set of English app screenshots across all seven pages. The first screenshot has a localized note about the English interface and the app's language support. Existing guides keep their original screenshots. Add each new article to the appropriate product group and to `sitemap.xml`. End each article with a localized product features link and the product's existing QR image from `assets/appstore/` beside the download button. When available, use the article's App Store Connect campaign URL for the button.
 

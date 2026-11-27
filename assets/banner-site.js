@@ -35,9 +35,9 @@
       if (index < 0) return;
       const source = picture.querySelector("source");
       const image = picture.querySelector("img");
-      if (source) source.srcset = `../assets/banner/${lang}/iphone/${page}.webp?v=${assetVersion}`;
+      if (source) source.srcset = `/assets/banner/${lang}/iphone/${page}.webp?v=${assetVersion}`;
       if (image) {
-        image.src = `../assets/banner/${lang}/ipad/${page}.webp?v=${assetVersion}`;
+        image.src = `/assets/banner/${lang}/ipad/${page}.webp?v=${assetVersion}`;
         image.alt = pageAlts[lang][index];
       }
     });

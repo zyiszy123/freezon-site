@@ -10,6 +10,7 @@
     "support-banner": "/support/freezon-banner/",
     "privacy-banner": "/privacy/freezon-banner/"
   };
+  const englishProductRoutes = { "/": "/en/", "/freezon-banner/": "/en/freezon-banner/" };
   const imageAlts = { "zh-Hans": "Freezon / 定格 App 图标", "zh-Hant": "Freezon / 定格 App 圖示", en: "Freezon app icon", ja: "FreezonのAppアイコン", ko: "Freezon 앱 아이콘", "es-419": "Ícono de Freezon", "pt-BR": "Ícone do Freezon" };
   const bannerImageAlts = { "zh-Hans": "定格手持弹幕 App 图标", "zh-Hant": "定格手持彈幕 App 圖示", en: "Handheld Banner app icon", ja: "定格手持弹幕 App アイコン", ko: "Freezon Banner 앱 아이콘" };
   const pageContent = {
@@ -80,7 +81,10 @@
   };
 
   const initialLanguage = () => {
+    if (document.documentElement.dataset.fixedLanguage) return document.documentElement.lang;
     const query = normalizeLanguage(new URLSearchParams(window.location.search).get("lang"));
+    // Product URLs without a language parameter have a stable default.
+    if (isProductHome()) return query || "zh-Hans";
     let saved = null;
     try { saved = normalizeLanguage(window.localStorage.getItem("freezon-language")); } catch (error) {}
     return query || saved || normalizeLanguage(navigator.languages?.[0] || navigator.language) || "zh-Hans";
@@ -93,8 +97,10 @@
     if (window.location.pathname.includes("privacy")) return isBanner ? "privacy-banner" : "privacy";
     return isBanner ? "support-banner" : "support";
   };
+  const isProductHome = () => ["home", "home-banner"].includes(pageName());
 
   const updateMetadata = (lang) => {
+    if (document.documentElement.dataset.fixedLanguage) return;
     const key = pageName();
     const content = pageContent[key]?.[lang];
     if (!content) return;
@@ -107,7 +113,7 @@
     document.querySelector('meta[property="og:image:alt"]')?.setAttribute("content", content[3] || alts[lang] || "Freezon");
     document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", content[0]);
     document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", content[2]);
-    const canonicalURL = `https://freezonapp.com${pagePaths[key]}?lang=${lang}`;
+    const canonicalURL = `https://freezonapp.com${pagePaths[key]}${isProductHome() && lang === "zh-Hans" ? "" : `?lang=${lang}`}`;
     document.querySelector('link[rel="canonical"]')?.setAttribute("href", canonicalURL);
     document.querySelector('meta[property="og:url"]')?.setAttribute("content", canonicalURL);
     if (key === "home") {
@@ -140,11 +146,32 @@
   const setLanguage = (lang, persist = true) => {
     if (!supported.includes(lang)) return;
     if (!pageContent[pageName()]?.[lang]) lang = "en";
+    const productHome = isProductHome();
+    const fixedLanguage = document.documentElement.dataset.fixedLanguage;
+    const location = new URL(window.location.href);
+    if (productHome && (lang === "en" || fixedLanguage)) {
+      const base = pagePaths[pageName()];
+      const route = lang === "en" ? englishProductRoutes[base] : base;
+      location.pathname = route;
+      location.searchParams.delete("lang");
+      if (lang !== "en" && lang !== "zh-Hans") location.searchParams.set("lang", lang);
+      if (!fixedLanguage || lang !== fixedLanguage) {
+        if (persist) {
+          try { window.localStorage.setItem("freezon-language", lang); } catch (error) {}
+          window.location.assign(location);
+        } else {
+          window.location.replace(location);
+        }
+        return false;
+      }
+    }
     document.documentElement.lang = lang;
     if (persist) { try { window.localStorage.setItem("freezon-language", lang); } catch (error) {} }
-    const location = new URL(window.location.href);
-    location.searchParams.set("lang", lang);
-    window.history.replaceState(null, "", `${location.pathname}${location.search}${location.hash}`);
+    if (!fixedLanguage) {
+      if (productHome && lang === "zh-Hans") location.searchParams.delete("lang");
+      else location.searchParams.set("lang", lang);
+      if (location.href !== window.location.href) window.history.replaceState(null, "", location);
+    }
     document.querySelectorAll("[data-language-choice]").forEach((choice) => {
       choice.setAttribute("aria-current", choice.dataset.languageChoice === lang ? "true" : "false");
     });
@@ -156,7 +183,14 @@
       if (!raw || raw.startsWith("#")) return;
       try {
         const destination = new URL(raw, window.location.href);
-        destination.searchParams.set("lang", lang);
+        const productPath = destination.pathname.startsWith("/en/") ? destination.pathname.slice(3) : destination.pathname;
+        if (Object.hasOwn(englishProductRoutes, productPath)) {
+          destination.pathname = lang === "en" ? englishProductRoutes[productPath] : productPath;
+          if (lang === "en" || lang === "zh-Hans") destination.searchParams.delete("lang");
+          else destination.searchParams.set("lang", lang);
+        } else {
+          destination.searchParams.set("lang", lang);
+        }
         link.setAttribute("href", `${destination.pathname}${destination.search}${destination.hash}`);
       } catch (error) {}
     });
@@ -384,11 +418,12 @@
     syncAnimationState();
   };
 
-  // Resolve the locale before vault.js assigns image URLs.
-  if (pageName() === "home") setLanguage(initialLanguage(), false);
+  // Resolve the product locale before its gallery assigns image URLs.
+  const productReady = isProductHome() ? setLanguage(initialLanguage(), false) : null;
 
   document.addEventListener("DOMContentLoaded", () => {
-    setLanguage(initialLanguage(), false);
+    if (productReady === false) return;
+    if (!isProductHome()) setLanguage(initialLanguage(), false);
     initAmbientCanvas();
     document.querySelectorAll("[data-language-select]").forEach(select => select.addEventListener("change", () => {
       setLanguage(select.value);
